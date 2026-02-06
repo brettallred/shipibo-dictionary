@@ -1,7 +1,7 @@
 [
   {
     "headword": "chísho",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chishón"
     ],
@@ -22,7 +22,7 @@
   },
   {
     "headword": "chishó",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chíshocan"
     ],
@@ -85,7 +85,7 @@
   },
   {
     "headword": "chishóshti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chíshosha"
     ],
@@ -101,7 +101,7 @@
   },
   {
     "headword": "chishóti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chíshota"
     ],
@@ -122,7 +122,7 @@
   },
   {
     "headword": "chishpó",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chíshpocan"
     ],
@@ -138,7 +138,7 @@
   },
   {
     "headword": "chishquíti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chíshquita"
     ],
@@ -154,7 +154,7 @@
   },
   {
     "headword": "chíshteti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chíshtea"
     ],
@@ -171,7 +171,7 @@
   },
   {
     "headword": "chítaca",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chítacan",
       "chítacanin"
@@ -193,7 +193,7 @@
   },
   {
     "headword": "chitáshti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chítasha"
     ],
@@ -209,7 +209,7 @@
   },
   {
     "headword": "chíte",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "chitén"
     ],
@@ -237,7 +237,7 @@
   },
   {
     "headword": "chité",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chítecan"
     ],
@@ -265,7 +265,7 @@
   },
   {
     "headword": "chíteati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chíteaa",
       "chíteaca"
@@ -289,7 +289,7 @@
   },
   {
     "headword": "chitéshti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chítesha"
     ],
@@ -315,7 +315,7 @@
   },
   {
     "headword": "chíteti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chítea"
     ],
@@ -336,7 +336,7 @@
   },
   {
     "headword": "chíteti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chítea"
     ],
@@ -369,7 +369,7 @@
   },
   {
     "headword": "chitéti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chíteta"
     ],
@@ -385,7 +385,7 @@
   },
   {
     "headword": "chitíati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chitíaa"
     ],
@@ -411,7 +411,7 @@
   },
   {
     "headword": "chitínti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chítina"
     ],
@@ -427,7 +427,7 @@
   },
   {
     "headword": "chitínti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chítina"
     ],
@@ -443,7 +443,7 @@
   },
   {
     "headword": "chitínti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chítina"
     ],
@@ -464,7 +464,7 @@
   },
   {
     "headword": "chitíti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chítita"
     ],
@@ -489,7 +489,7 @@
   },
   {
     "headword": "chitóati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chitóaa"
     ],
@@ -510,7 +510,7 @@
   },
   {
     "headword": "chitónti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chítona"
     ],
@@ -531,7 +531,7 @@
   },
   {
     "headword": "chitónti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chitóntinin"
     ],
@@ -552,7 +552,7 @@
   },
   {
     "headword": "chítoti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chítoa"
     ],
@@ -573,7 +573,7 @@
   },
   {
     "headword": "chitóti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chítota"
     ],
@@ -603,7 +603,7 @@
   },
   {
     "headword": "-cho",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. choré, palabra para llamar a un hijo o hija]",
     "definitions_spanish": [
@@ -622,7 +622,7 @@
   },
   {
     "headword": "chóa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "choán"
     ],
@@ -638,7 +638,7 @@
   },
   {
     "headword": "chócati",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chócaa"
     ],
@@ -661,7 +661,7 @@
   },
   {
     "headword": "chóchahuasha",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "niáchochobuasha",
       "chóchoasha",
@@ -686,7 +686,7 @@
   },
   {
     "headword": "níshichochahuasba",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. níshi bejuco + chóchahuasha chuchuhuasi]",
     "definitions_spanish": [
@@ -700,7 +700,7 @@
   },
   {
     "headword": "choín",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chóiman"
     ],
@@ -721,7 +721,7 @@
   },
   {
     "headword": "pítichoin",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. píti comida + choín especie de ashipa dulce]",
     "definitions_spanish": [
@@ -735,7 +735,7 @@
   },
   {
     "headword": "chóma",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chomán"
     ],
@@ -758,7 +758,7 @@
   },
   {
     "headword": "chómati",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chómaa"
     ],
@@ -779,7 +779,7 @@
   },
   {
     "headword": "chómo",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chomón"
     ],
@@ -800,7 +800,7 @@
   },
   {
     "headword": "chómoati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chómoaa",
       "chómoaca"
@@ -822,7 +822,7 @@
   },
   {
     "headword": "chómpa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chompán"
     ],
@@ -838,7 +838,7 @@
   },
   {
     "headword": "chómpe",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chompén"
     ],
@@ -854,7 +854,7 @@
   },
   {
     "headword": "chómpi",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chompín"
     ],
@@ -870,7 +870,7 @@
   },
   {
     "headword": "chónca",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "choncán"
     ],
@@ -891,7 +891,7 @@
   },
   {
     "headword": "chóncho",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chonchón"
     ],
@@ -912,7 +912,7 @@
   },
   {
     "headword": "chóno",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chonón"
     ],
@@ -933,7 +933,7 @@
   },
   {
     "headword": "buísochono",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. huíso negro + chóno golondrina]",
     "definitions_spanish": [
@@ -947,7 +947,7 @@
   },
   {
     "headword": "máichono",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. mái tierra + chóno golondrina]",
     "definitions_spanish": [
@@ -961,7 +961,7 @@
   },
   {
     "headword": "yancónchono",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. yancón azul + chóno golondrina]",
     "definitions_spanish": [
@@ -975,7 +975,7 @@
   },
   {
     "headword": "chonónininti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chonóninintinin"
     ],
@@ -996,7 +996,7 @@
   },
   {
     "headword": "chonquésh",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chónqueshen"
     ],
@@ -1012,7 +1012,7 @@
   },
   {
     "headword": "chópa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chopán"
     ],
@@ -1038,7 +1038,7 @@
   },
   {
     "headword": "bichíchopa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del cast. vichy + ship.: chópa tela]",
     "definitions_spanish": [
@@ -1052,7 +1052,7 @@
   },
   {
     "headword": "cáquichopa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del cast. caquí + ship. chópa ropa]",
     "definitions_spanish": [
@@ -1066,7 +1066,7 @@
   },
   {
     "headword": "máshichopa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. máshi playa de arena + chópa ropa]",
     "definitions_spanish": [
@@ -1080,7 +1080,7 @@
   },
   {
     "headword": "oránchopa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del cast. orán + chópa ropa]",
     "definitions_spanish": [
@@ -1094,7 +1094,7 @@
   },
   {
     "headword": "chópai",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chópaiton"
     ],
@@ -1110,7 +1110,7 @@
   },
   {
     "headword": "chópaoma",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "chópaoman",
       "chópaomatonin"
@@ -1132,7 +1132,7 @@
   },
   {
     "headword": "chopé",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chópecan"
     ],
@@ -1157,7 +1157,7 @@
   },
   {
     "headword": "chópeti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chópea"
     ],
@@ -1188,7 +1188,7 @@
   },
   {
     "headword": "chopéti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chópeta"
     ],
@@ -1211,7 +1211,7 @@
   },
   {
     "headword": "chópiananti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chópianantinin"
     ],
@@ -1232,7 +1232,7 @@
   },
   {
     "headword": "chopíti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chopítinin"
     ],
@@ -1248,7 +1248,7 @@
   },
   {
     "headword": "choqué",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chóque"
     ],
@@ -1262,7 +1262,7 @@
   },
   {
     "headword": "chóqui",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "choquín"
     ],
@@ -1278,7 +1278,7 @@
   },
   {
     "headword": "chóquiati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chóquiaa",
       "chóquiaca"
@@ -1301,7 +1301,7 @@
   },
   {
     "headword": "choquíti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chóquita"
     ],
@@ -1330,7 +1330,7 @@
   },
   {
     "headword": "chórameeti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chórameeta"
     ],
@@ -1351,7 +1351,7 @@
   },
   {
     "headword": "choránti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chórana"
     ],
@@ -1395,7 +1395,7 @@
   },
   {
     "headword": "chóre",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chorén"
     ],
@@ -1418,7 +1418,7 @@
   },
   {
     "headword": "chorísh",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "chórishin"
     ],
@@ -1439,7 +1439,7 @@
   },
   {
     "headword": "choríshati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "choríshaa",
       "choríshaca"
@@ -1461,7 +1461,7 @@
   },
   {
     "headword": "choríshti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chórisha"
     ],
@@ -1482,7 +1482,7 @@
   },
   {
     "headword": "chórocooti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chórocoota"
     ],
@@ -1508,7 +1508,7 @@
   },
   {
     "headword": "chorónti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chórona"
     ],
@@ -1530,7 +1530,7 @@
   },
   {
     "headword": "chóroti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -1572,7 +1572,7 @@
   },
   {
     "headword": "chóroti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chórota"
     ],
@@ -1611,7 +1611,7 @@
   },
   {
     "headword": "chósco",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "choscón"
     ],
@@ -1632,7 +1632,7 @@
   },
   {
     "headword": "chóscol",
-    "part_of_speech": "adv.",
+    "part_of_speech": "adverb",
     "variant_forms": [
       "chóscoaquin"
     ],
@@ -1648,7 +1648,7 @@
   },
   {
     "headword": "chóshati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chóshaa"
     ],
@@ -1681,7 +1681,7 @@
   },
   {
     "headword": "chóshcaati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chóshcaa"
     ],
@@ -1704,7 +1704,7 @@
   },
   {
     "headword": "choshcáti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chóshcata"
     ],
@@ -1730,7 +1730,7 @@
   },
   {
     "headword": "chóshi",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "choshín"
     ],
@@ -1748,7 +1748,7 @@
   },
   {
     "headword": "chóshiti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chóshia"
     ],
@@ -1774,7 +1774,7 @@
   },
   {
     "headword": "choshíti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "chóshita"
     ],
@@ -1804,7 +1804,7 @@
   },
   {
     "headword": "chótati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "chótaa"
     ],
@@ -1820,7 +1820,7 @@
   },
   {
     "headword": "chotáti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chótata"
     ],
@@ -1836,7 +1836,7 @@
   },
   {
     "headword": "chotáyosma aínbo",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chotáyosma aínbon",
       "aíubaon"
@@ -1853,7 +1853,7 @@
   },
   {
     "headword": "chóyachaqui",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "chóyachaquin"
     ],
@@ -1875,7 +1875,7 @@
   },
   {
     "headword": "chóyo",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "choyón"
     ],
@@ -2037,7 +2037,7 @@
   },
   {
     "headword": "e",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -2051,7 +2051,7 @@
   },
   {
     "headword": "ea",
-    "part_of_speech": "pron.",
+    "part_of_speech": "pronoun",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -2081,7 +2081,7 @@
   },
   {
     "headword": "e",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -2114,7 +2114,7 @@
   },
   {
     "headword": "ehua",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -2169,7 +2169,7 @@
   },
   {
     "headword": "émo",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "emón"
     ],
@@ -2186,7 +2186,7 @@
   },
   {
     "headword": "émoti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "émoa"
     ],
@@ -2208,7 +2208,7 @@
   },
   {
     "headword": "éniti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "énica"
     ],
@@ -2233,7 +2233,7 @@
   },
   {
     "headword": "énjen",
-    "part_of_speech": "interj.",
+    "part_of_speech": "interjection",
     "variant_forms": [
       "jenjén",
       "jénjen"
@@ -2272,7 +2272,7 @@
   },
   {
     "headword": "épa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "epán"
     ],
@@ -2301,7 +2301,7 @@
   },
   {
     "headword": "éri",
-    "part_of_speech": "interj.",
+    "part_of_speech": "interjection",
     "variant_forms": [
       "éeri"
     ],
@@ -2352,7 +2352,7 @@
   },
   {
     "headword": "esé",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ésecan"
     ],
@@ -2382,7 +2382,7 @@
   },
   {
     "headword": "ésecaati",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "ésecaata"
     ],
@@ -2403,7 +2403,7 @@
   },
   {
     "headword": "éseti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "ésea"
     ],
@@ -2425,7 +2425,7 @@
   },
   {
     "headword": "éseti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "éseta"
     ],
@@ -2447,7 +2447,7 @@
   },
   {
     "headword": "éste",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "estén"
     ],
@@ -2474,7 +2474,7 @@
   },
   {
     "headword": "ésteati",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "ésteaa"
     ],
@@ -2508,7 +2508,7 @@
   },
   {
     "headword": "ésteti",
-    "part_of_speech": "v.",
+    "part_of_speech": "verb",
     "variant_forms": [
       "éstea"
     ],
@@ -2542,7 +2542,7 @@
   },
   {
     "headword": "éshi",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "eshín"
     ],
@@ -2560,7 +2560,7 @@
   },
   {
     "headword": "éshpa",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "eshpán"
     ],
@@ -2581,7 +2581,7 @@
   },
   {
     "headword": "éshpaati",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "éShpaa"
     ],
@@ -2611,7 +2611,7 @@
   },
   {
     "headword": "ésShpati",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "éShpaa"
     ],
@@ -2633,7 +2633,7 @@
   },
   {
     "headword": "étse",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "etsén"
     ],
@@ -2714,7 +2714,7 @@
   },
   {
     "headword": "hua",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -2730,7 +2730,7 @@
   },
   {
     "headword": "huáata",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huáatatita",
       "huáatanin"
@@ -2760,7 +2760,7 @@
   },
   {
     "headword": "huáati",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -2783,7 +2783,7 @@
   },
   {
     "headword": "huáca",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huacán"
     ],
@@ -2808,7 +2808,7 @@
   },
   {
     "headword": "huáca",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huacán"
     ],
@@ -2829,7 +2829,7 @@
   },
   {
     "headword": "huácabaque",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huácabaquen"
     ],
@@ -2846,7 +2846,7 @@
   },
   {
     "headword": "huácabene",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huácabenen"
     ],
@@ -2869,7 +2869,7 @@
   },
   {
     "headword": "huácanahua",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huácanahuan"
     ],
@@ -2890,7 +2890,7 @@
   },
   {
     "headword": "huacán ehua",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huacán ehuan"
     ],
@@ -2913,7 +2913,7 @@
   },
   {
     "headword": "huacápo",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huacáponin"
     ],
@@ -2934,7 +2934,7 @@
   },
   {
     "headword": "huácashoma",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huácashoman"
     ],
@@ -2950,7 +2950,7 @@
   },
   {
     "headword": "huáco",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huacón"
     ],
@@ -2966,7 +2966,7 @@
   },
   {
     "headword": "cabórihuaco",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. cabóri taricaya + huáco especie de sapo]",
     "definitions_spanish": [
@@ -2980,7 +2980,7 @@
   },
   {
     "headword": "huámehuaco",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. huáme paiche + huáco especie de sapo]",
     "definitions_spanish": [
@@ -2994,7 +2994,7 @@
   },
   {
     "headword": "ínohuaco",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. íno tigre + huáco sapo]",
     "definitions_spanish": [
@@ -3008,7 +3008,7 @@
   },
   {
     "headword": "manshánhuaco",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. manshár garza + huáco especie de sapo]",
     "definitions_spanish": [
@@ -3022,7 +3022,7 @@
   },
   {
     "headword": "sapénhuaco",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. sapér vaca marina + huáco especie de sapo]",
     "definitions_spanish": [
@@ -3036,7 +3036,7 @@
   },
   {
     "headword": "huáco",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huacón"
     ],
@@ -3052,7 +3052,7 @@
   },
   {
     "headword": "isohuaco",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. íso \"maquisapa\" + huáco]",
     "definitions_spanish": [
@@ -3067,7 +3067,7 @@
   },
   {
     "headword": "huácho",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "huachón"
     ],
@@ -3090,7 +3090,7 @@
   },
   {
     "headword": "huáchoati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "huáchoaa",
       "huáchoaca"
@@ -3113,7 +3113,7 @@
   },
   {
     "headword": "yóra huáchoati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [],
     "etymology": "[del ship. yóra cuerpo + huáchoati ensuavecer]",
     "definitions_spanish": [
@@ -3129,7 +3129,7 @@
   },
   {
     "headword": "huái",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huaín"
     ],
@@ -3150,7 +3150,7 @@
   },
   {
     "headword": "huálati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "huálaa",
       "huálaca"
@@ -3172,7 +3172,7 @@
   },
   {
     "headword": "huáibuanti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huáihuantin"
     ],
@@ -3188,7 +3188,7 @@
   },
   {
     "headword": "huaín téetal",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huaín téetaitonin"
     ],
@@ -3205,7 +3205,7 @@
   },
   {
     "headword": "huáiraonti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huáiraontinin"
     ],
@@ -3222,7 +3222,7 @@
   },
   {
     "headword": "huáiroro",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huáiroron"
     ],
@@ -3244,7 +3244,7 @@
   },
   {
     "headword": "huáiti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huáitinin"
     ],
@@ -3260,7 +3260,7 @@
   },
   {
     "headword": "cabóribuaiti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. cabóri taricaya + huditi especie de gusano]",
     "definitions_spanish": [
@@ -3274,7 +3274,7 @@
   },
   {
     "headword": "huámebuaiti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. huóme paiche + huditi especie de gusano]",
     "definitions_spanish": [
@@ -3288,7 +3288,7 @@
   },
   {
     "headword": "ísohuaiti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. íso maquisapa + huditi especie de gusano]",
     "definitions_spanish": [
@@ -3302,7 +3302,7 @@
   },
   {
     "headword": "jasínhuaiti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. jasín paujil + huditi especie de gusano]",
     "definitions_spanish": [
@@ -3316,7 +3316,7 @@
   },
   {
     "headword": "sapénhuaiti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. sapén vaca marina + huditi especie de gusano]",
     "definitions_spanish": [
@@ -3330,7 +3330,7 @@
   },
   {
     "headword": "sháhuebuaiti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. sháhue charapa + huáiti especie de gusano]",
     "definitions_spanish": [
@@ -3344,7 +3344,7 @@
   },
   {
     "headword": "huáme",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huamén"
     ],
@@ -3365,7 +3365,7 @@
   },
   {
     "headword": "huáme",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -3379,7 +3379,7 @@
   },
   {
     "headword": "jóshohuame",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. jósho blanco + hudme paiche]",
     "definitions_spanish": [
@@ -3393,7 +3393,7 @@
   },
   {
     "headword": "máshehuame",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. máshe achiote + huáme paiche]",
     "definitions_spanish": [

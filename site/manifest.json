@@ -1,0 +1,21 @@
+{
+  "name": "Shipibo Dictionary",
+  "short_name": "Shipibo",
+  "description": "A bilingual dictionary of the Shipibo language from the Peruvian Amazon",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#e9dfc7",
+  "theme_color": "#e9dfc7",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

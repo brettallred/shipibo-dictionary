@@ -1,7 +1,7 @@
 [
   {
     "headword": "-a",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -77,7 +77,7 @@
   },
   {
     "headword": "a",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -106,7 +106,7 @@
   },
   {
     "headword": "a",
-    "part_of_speech": "posp.",
+    "part_of_speech": "postposition",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -147,7 +147,7 @@
   },
   {
     "headword": "ábion",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ábionin"
     ],
@@ -191,7 +191,7 @@
   },
   {
     "headword": "ábo",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "abón"
     ],
@@ -222,7 +222,7 @@
   },
   {
     "headword": "ábocoma",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ábocoman"
     ],
@@ -242,7 +242,7 @@
   },
   {
     "headword": "áco",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "acón"
     ],
@@ -311,7 +311,7 @@
   },
   {
     "headword": "acómpana",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "acómpanan"
     ],
@@ -342,7 +342,7 @@
   },
   {
     "headword": "acónquin",
-    "part_of_speech": "adv.",
+    "part_of_speech": "adverb",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -373,7 +373,7 @@
   },
   {
     "headword": "acóntema",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "acónteman"
     ],
@@ -404,7 +404,7 @@
   },
   {
     "headword": "ácoron",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ácoronin"
     ],
@@ -446,7 +446,7 @@
   },
   {
     "headword": "ácoti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "ácoa"
     ],
@@ -491,7 +491,7 @@
   },
   {
     "headword": "ácotiri",
-    "part_of_speech": "n.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ácotirin"
     ],
@@ -525,7 +525,7 @@
   },
   {
     "headword": "áchi",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "háche"
     ],
@@ -547,7 +547,7 @@
   },
   {
     "headword": "aéiti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -585,7 +585,7 @@
   },
   {
     "headword": "abuá",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "áhuacan"
     ],
@@ -621,7 +621,7 @@
   },
   {
     "headword": "taráabua",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. tóra, no ident. + ahuá]",
     "definitions_spanish": [
@@ -639,7 +639,7 @@
   },
   {
     "headword": "ahuábero",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ahuáberon"
     ],
@@ -693,7 +693,7 @@
   },
   {
     "headword": "áhuai",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "áhuainin"
     ],
@@ -740,7 +740,7 @@
   },
   {
     "headword": "ahuájora",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ahuájoran"
     ],
@@ -771,7 +771,7 @@
   },
   {
     "headword": "ahuántso",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ahuántsomin"
     ],
@@ -804,7 +804,7 @@
   },
   {
     "headword": "ahuápa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ahuápan",
       "ahuápanin"
@@ -838,7 +838,7 @@
   },
   {
     "headword": "huishíabuapa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "huamburusho"
     ],
@@ -858,7 +858,7 @@
   },
   {
     "headword": "shopóahuapa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. shopó lanudo + ahuápa tigrillo]",
     "definitions_spanish": [
@@ -896,7 +896,7 @@
   },
   {
     "headword": "ahuápishi",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ahuápishin"
     ],
@@ -929,7 +929,7 @@
   },
   {
     "headword": "ábuarampiti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "áhuacampiti",
       "áhuarampitin",
@@ -989,7 +989,7 @@
   },
   {
     "headword": "ahuátepon",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. añuá sachavaca + tepón tendón del cuello]",
     "definitions_spanish": [
@@ -1038,7 +1038,7 @@
   },
   {
     "headword": "ahuín",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "áhuinin"
     ],
@@ -1082,7 +1082,7 @@
   },
   {
     "headword": "ahuínhati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "ahuínhaa",
       "ahuínhaca"
@@ -1116,7 +1116,7 @@
   },
   {
     "headword": "ai",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -1180,7 +1180,7 @@
   },
   {
     "headword": "ain",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [
       "nco"
     ],
@@ -1340,7 +1340,7 @@
   },
   {
     "headword": "ain",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [
       "aitian",
       "anan",
@@ -1392,7 +1392,7 @@
   },
   {
     "headword": "ainbo",
-    "part_of_speech": "n.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ainbon",
       "ainbaon",
@@ -1431,7 +1431,7 @@
   },
   {
     "headword": "aínboapo",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "aínboapon"
     ],
@@ -1453,7 +1453,7 @@
   },
   {
     "headword": "aínbobaque",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "aínbobaquen"
     ],
@@ -1486,7 +1486,7 @@
   },
   {
     "headword": "ainco",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [],
     "etymology": "[del ship. -ain en + -nco en]",
     "definitions_spanish": [
@@ -1524,7 +1524,7 @@
   },
   {
     "headword": "ainhuetsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ahuínhuetsa",
       "aíntsa",
@@ -1559,7 +1559,7 @@
   },
   {
     "headword": "-aitian",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [],
     "etymology": "[del ship. -ai, part. de pres. + -sian cuando]",
     "definitions_spanish": [
@@ -1598,7 +1598,7 @@
   },
   {
     "headword": "ajínti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ajénte",
       "ajíntinin",
@@ -1631,7 +1631,7 @@
   },
   {
     "headword": "ajirica",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "africa"
     ],
@@ -1651,7 +1651,7 @@
   },
   {
     "headword": "ajiricanin",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "africanin"
     ],
@@ -1725,7 +1725,7 @@
   },
   {
     "headword": "amáca",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "amácanin"
     ],
@@ -1758,7 +1758,7 @@
   },
   {
     "headword": "ámaquiri",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ámaquirin"
     ],
@@ -1789,7 +1789,7 @@
   },
   {
     "headword": "ámati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "ámaa"
     ],
@@ -1809,7 +1809,7 @@
   },
   {
     "headword": "ámatianbi",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [],
     "etymology": "[del ship. a-, raíz de áli hacer. + -ma no + -tian cuando + -bi aunque]",
     "definitions_spanish": [
@@ -1840,7 +1840,7 @@
   },
   {
     "headword": "amén",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ámeman"
     ],
@@ -1871,7 +1871,7 @@
   },
   {
     "headword": "aménbuaca",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "aménhuacan"
     ],
@@ -1904,7 +1904,7 @@
   },
   {
     "headword": "améntamo",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "améntamon"
     ],
@@ -1938,7 +1938,7 @@
   },
   {
     "headword": "amí",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ámican"
     ],
@@ -1969,7 +1969,7 @@
   },
   {
     "headword": "ámican ehua",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ámican éhuan"
     ],
@@ -2000,7 +2000,7 @@
   },
   {
     "headword": "amíco",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "amícon",
       "amíconin"
@@ -2036,7 +2036,7 @@
   },
   {
     "headword": "amíquesca",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "amíquescatonin"
     ],
@@ -2056,7 +2056,7 @@
   },
   {
     "headword": "américa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "amírica"
     ],
@@ -2076,7 +2076,7 @@
   },
   {
     "headword": "norte américa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "nórte américa"
     ],
@@ -2096,7 +2096,7 @@
   },
   {
     "headword": "sur américa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "sóro américa"
     ],
@@ -2118,7 +2118,7 @@
   },
   {
     "headword": "ampo",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ampón"
     ],
@@ -2134,7 +2134,7 @@
   },
   {
     "headword": "-an",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [
       "-n"
     ],
@@ -2164,7 +2164,7 @@
   },
   {
     "headword": "aná",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ánacan"
     ],
@@ -2188,7 +2188,7 @@
   },
   {
     "headword": "ana",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[from Spanish]",
     "definitions_spanish": [],
@@ -2220,7 +2220,7 @@
   },
   {
     "headword": "anan",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -2253,7 +2253,7 @@
   },
   {
     "headword": "anan",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [
       "ananan",
       "nan"
@@ -2307,7 +2307,7 @@
   },
   {
     "headword": "áni",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "anín"
     ],
@@ -2361,7 +2361,7 @@
   },
   {
     "headword": "ániati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "ániaa",
       "ániaca"
@@ -2406,7 +2406,7 @@
   },
   {
     "headword": "ánibo",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ánibon",
       "ánibaon"
@@ -2456,7 +2456,7 @@
   },
   {
     "headword": "ánicochara",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ánicocharanin"
     ],
@@ -2530,7 +2530,7 @@
   },
   {
     "headword": "ánijema",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ánijeman"
     ],
@@ -2561,7 +2561,7 @@
   },
   {
     "headword": "ánima",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "ániman",
       "ánimaaan"
@@ -2608,7 +2608,7 @@
   },
   {
     "headword": "ánimain",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. áni grande + mái]",
     "definitions_spanish": [
@@ -2657,7 +2657,7 @@
   },
   {
     "headword": "ánimanan",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ánimanaman"
     ],
@@ -2747,7 +2747,7 @@
   },
   {
     "headword": "ániparo",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ániparon"
     ],
@@ -2843,7 +2843,7 @@
   },
   {
     "headword": "áni shéati",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "áni Shéatinin"
     ],
@@ -2874,7 +2874,7 @@
   },
   {
     "headword": "anítama",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "anítaman",
       "anítamanin"
@@ -2906,7 +2906,7 @@
   },
   {
     "headword": "aníti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "ánia"
     ],
@@ -2939,7 +2939,7 @@
   },
   {
     "headword": "ánjiri",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ánjirinin"
     ],
@@ -2959,7 +2959,7 @@
   },
   {
     "headword": "áno",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "anón"
     ],
@@ -2990,7 +2990,7 @@
   },
   {
     "headword": "ánsiano",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "ánsianon"
     ],
@@ -3010,7 +3010,7 @@
   },
   {
     "headword": "ánta",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "antán"
     ],
@@ -3041,7 +3041,7 @@
   },
   {
     "headword": "ánticoo",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "ántigoo",
       "ánticoon",
@@ -3081,7 +3081,7 @@
   },
   {
     "headword": "antiojos",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ántiojon"
     ],
@@ -3101,7 +3101,7 @@
   },
   {
     "headword": "antónyo",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "antónyonin"
     ],
@@ -3121,7 +3121,7 @@
   },
   {
     "headword": "aó",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -3163,7 +3163,7 @@
   },
   {
     "headword": "ao",
-    "part_of_speech": "n.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "aón"
     ],
@@ -3179,7 +3179,7 @@
   },
   {
     "headword": "ápacharan",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ápacharaman",
       "apacharama"
@@ -3213,7 +3213,7 @@
   },
   {
     "headword": "ápaqueti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "ápaquea"
     ],
@@ -3244,7 +3244,7 @@
   },
   {
     "headword": "ápasahua",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ápasahuan"
     ],
@@ -3275,7 +3275,7 @@
   },
   {
     "headword": "ápashiro",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ápashiron"
     ],
@@ -3338,7 +3338,7 @@
   },
   {
     "headword": "ápichiro",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ápechido",
       "ápechironin"
@@ -3381,7 +3381,7 @@
   },
   {
     "headword": "ápo",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[from Quech. apu ruler]",
     "definitions_spanish": [
@@ -3442,7 +3442,7 @@
   },
   {
     "headword": "ápo",
-    "part_of_speech": "interj.",
+    "part_of_speech": "interjection",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -3468,7 +3468,7 @@
   },
   {
     "headword": "apón ániyacati",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "apón ániyacatinin"
     ],
@@ -3488,7 +3488,7 @@
   },
   {
     "headword": "aque",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -3526,7 +3526,7 @@
   },
   {
     "headword": "aquéni",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "aquéninin"
     ],
@@ -3557,7 +3557,7 @@
   },
   {
     "headword": "aquín",
-    "part_of_speech": "interj.",
+    "part_of_speech": "interjection",
     "variant_forms": [
       "ahué"
     ],
@@ -3595,7 +3595,7 @@
   },
   {
     "headword": "aquínti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "áquina"
     ],
@@ -3628,7 +3628,7 @@
   },
   {
     "headword": "ara",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "arán"
     ],
@@ -3662,7 +3662,7 @@
   },
   {
     "headword": "arán",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[from Castilian ala, element of Aladdin or Aladina]",
     "definitions_spanish": [
@@ -3680,7 +3680,7 @@
   },
   {
     "headword": "áraati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "áraa",
       "áraaca",
@@ -3713,7 +3713,7 @@
   },
   {
     "headword": "arábi",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "arábinin"
     ],
@@ -3733,7 +3733,7 @@
   },
   {
     "headword": "arábibaon",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [],
     "etymology": "[del ship. arábi árabe + -baon, forma no básica de -bo, sf. pl]",
     "definitions_spanish": [
@@ -3762,7 +3762,7 @@
   },
   {
     "headword": "arabirito",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[from Spanish Alberto]",
     "definitions_spanish": [
@@ -3780,7 +3780,7 @@
   },
   {
     "headword": "arámpiri",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "arámpirin"
     ],
@@ -3800,7 +3800,7 @@
   },
   {
     "headword": "alámbrenin",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[from Castilian alambre]",
     "definitions_spanish": [
@@ -3849,7 +3849,7 @@
   },
   {
     "headword": "árapa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "árpa",
       "árapanin",
@@ -3871,7 +3871,7 @@
   },
   {
     "headword": "aráshti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "árasha"
     ],
@@ -3902,7 +3902,7 @@
   },
   {
     "headword": "árati",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "áraa"
     ],
@@ -3944,7 +3944,7 @@
   },
   {
     "headword": "áresti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "áresa"
     ],
@@ -3977,7 +3977,7 @@
   },
   {
     "headword": "aresti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "aaresti",
       "míaaresti",
@@ -4051,7 +4051,7 @@
   },
   {
     "headword": "arí",
-    "part_of_speech": "interj.",
+    "part_of_speech": "interjection",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -4071,7 +4071,7 @@
   },
   {
     "headword": "ari",
-    "part_of_speech": "n.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "arín"
     ],
@@ -4087,7 +4087,7 @@
   },
   {
     "headword": "aríari",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "aríarican",
       "aríarin"
@@ -4119,7 +4119,7 @@
   },
   {
     "headword": "áribua",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "árihuanin"
     ],
@@ -4152,7 +4152,7 @@
   },
   {
     "headword": "áriman",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "árimanin"
     ],
@@ -4183,7 +4183,7 @@
   },
   {
     "headword": "arimania",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "alemania",
       "arimanianin",
@@ -4205,7 +4205,7 @@
   },
   {
     "headword": "árimintanti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "álimentanti",
       "árimintana",
@@ -4238,7 +4238,7 @@
   },
   {
     "headword": "arína",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "arínanin"
     ],
@@ -4269,7 +4269,7 @@
   },
   {
     "headword": "árirish",
-    "part_of_speech": "interj.",
+    "part_of_speech": "interjection",
     "variant_forms": [],
     "etymology": "[del ship. arí exclamación + ish, exclamación]",
     "definitions_spanish": [
@@ -4289,7 +4289,7 @@
   },
   {
     "headword": "arís",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "arisin"
     ],
@@ -4305,7 +4305,7 @@
   },
   {
     "headword": "ariti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "arita"
     ],
@@ -4354,7 +4354,7 @@
   },
   {
     "headword": "arón",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "aroman"
     ],
@@ -4374,7 +4374,7 @@
   },
   {
     "headword": "arós",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "árosen"
     ],
@@ -4423,7 +4423,7 @@
   },
   {
     "headword": "asápa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "asápan",
       "asápanin"
@@ -4455,7 +4455,7 @@
   },
   {
     "headword": "asi",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "asín"
     ],
@@ -4471,7 +4471,7 @@
   },
   {
     "headword": "asi",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "asiacan"
     ],
@@ -4491,7 +4491,7 @@
   },
   {
     "headword": "asíiti",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "aséiti",
       "asíitin",
@@ -4509,7 +4509,7 @@
   },
   {
     "headword": "aséitin",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[from Spanish]",
     "definitions_spanish": [
@@ -4540,7 +4540,7 @@
   },
   {
     "headword": "ásiitona",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ásiltonanin"
     ],
@@ -4560,7 +4560,7 @@
   },
   {
     "headword": "asócaro",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "asócaron"
     ],
@@ -4609,7 +4609,7 @@
   },
   {
     "headword": "asejiri",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "asofri",
       "asojirin"
@@ -4630,7 +4630,7 @@
   },
   {
     "headword": "áspa",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "aspán"
     ],
@@ -4665,7 +4665,7 @@
   },
   {
     "headword": "asta",
-    "part_of_speech": "prep.",
+    "part_of_speech": "preposition",
     "variant_forms": [],
     "etymology": "[from Spanish]",
     "definitions_spanish": [
@@ -4696,7 +4696,7 @@
   },
   {
     "headword": "astó",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "ástocan"
     ],
@@ -4728,7 +4728,7 @@
   },
   {
     "headword": "astóati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "astóaa",
       "astóaca"
@@ -4778,7 +4778,7 @@
   },
   {
     "headword": "astóti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "ástota"
     ],
@@ -4809,7 +4809,7 @@
   },
   {
     "headword": "ashá",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "áshacan"
     ],
@@ -4854,7 +4854,7 @@
   },
   {
     "headword": "ashón",
-    "part_of_speech": "adv.",
+    "part_of_speech": "adverb",
     "variant_forms": [],
     "etymology": "[from Quech. ashwan more]",
     "definitions_spanish": [
@@ -4883,7 +4883,7 @@
   },
   {
     "headword": "áshpa",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "ashpán"
     ],
@@ -4914,7 +4914,7 @@
   },
   {
     "headword": "ashpánti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "áshpana"
     ],
@@ -4945,7 +4945,7 @@
   },
   {
     "headword": "ashpáti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "áshpata"
     ],
@@ -4978,7 +4978,7 @@
   },
   {
     "headword": "ashtáati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -5009,7 +5009,7 @@
   },
   {
     "headword": "áshto",
-    "part_of_speech": "interj.",
+    "part_of_speech": "interjection",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [],
@@ -5023,7 +5023,7 @@
   },
   {
     "headword": "aóh",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [
       "hon"
     ],
@@ -5074,7 +5074,7 @@
   },
   {
     "headword": "ash",
-    "part_of_speech": "sf. adv.",
+    "part_of_speech": "noun (feminine) / adverb",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -5135,7 +5135,7 @@
   },
   {
     "headword": "ásha",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ashán"
     ],
@@ -5170,7 +5170,7 @@
   },
   {
     "headword": "ashánti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "áshana"
     ],
@@ -5201,7 +5201,7 @@
   },
   {
     "headword": "ashbítl",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "áshbita"
     ],
@@ -5232,7 +5232,7 @@
   },
   {
     "headword": "ashé",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "áshecan"
     ],
@@ -5263,7 +5263,7 @@
   },
   {
     "headword": "ashé",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "áshecan"
     ],
@@ -5294,7 +5294,7 @@
   },
   {
     "headword": "ásheamis",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ásheamiston"
     ],
@@ -5321,7 +5321,7 @@
   },
   {
     "headword": "ásheati",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "ásheaa",
       "ásheaca"
@@ -5366,7 +5366,7 @@
   },
   {
     "headword": "ásheti",
-    "part_of_speech": "v. i.",
+    "part_of_speech": "intransitive verb",
     "variant_forms": [
       "áshea"
     ],
@@ -5430,7 +5430,7 @@
   },
   {
     "headword": "ásheyosma",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ásheyosman"
     ],
@@ -5463,7 +5463,7 @@
   },
   {
     "headword": "ásho",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -5498,7 +5498,7 @@
   },
   {
     "headword": "átapa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "átapan",
       "átapanin"
@@ -5546,7 +5546,7 @@
   },
   {
     "headword": "ániatapa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[from Ship. áni large + átapa hen]",
     "definitions_spanish": [
@@ -5564,7 +5564,7 @@
   },
   {
     "headword": "cóspoatapa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -5582,7 +5582,7 @@
   },
   {
     "headword": "chóshcaatapa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. chóshca erizado + átapa]",
     "definitions_spanish": [
@@ -5600,7 +5600,7 @@
   },
   {
     "headword": "mátsiatapa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[from Ship. mátsi cold + átapa hen]",
     "definitions_spanish": [
@@ -5618,7 +5618,7 @@
   },
   {
     "headword": "ómoatapa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. ómo, no ident. + átapa gallina]",
     "definitions_spanish": [
@@ -5636,7 +5636,7 @@
   },
   {
     "headword": "séseatapa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. sése salpicado de puntos + átapa]",
     "definitions_spanish": [
@@ -5654,7 +5654,7 @@
   },
   {
     "headword": "teshméatapa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[from ship. teshné of plucked hair + árapa]",
     "definitions_spanish": [
@@ -5672,7 +5672,7 @@
   },
   {
     "headword": "átapaahuin",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "átapaahuinin",
       "átapaahuiman"
@@ -5725,7 +5725,7 @@
   },
   {
     "headword": "átapabene",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "átapabenen"
     ],
@@ -5768,7 +5768,7 @@
   },
   {
     "headword": "átashai",
-    "part_of_speech": "interj.",
+    "part_of_speech": "interjection",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [],
@@ -5783,7 +5783,7 @@
   },
   {
     "headword": "áti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [
       "acá"
     ],
@@ -5869,7 +5869,7 @@
   },
   {
     "headword": "jábores áti",
-    "part_of_speech": "v. t.",
+    "part_of_speech": "transitive verb",
     "variant_forms": [],
     "etymology": "[del ship. jaro, jabo ellos + -res no más + áti hacer]",
     "definitions_spanish": [
@@ -5976,7 +5976,7 @@
   },
   {
     "headword": "ati",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [
       "aa",
       "aca"
@@ -6085,7 +6085,7 @@
   },
   {
     "headword": "áticoma",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "áticoman",
       "áticomares"
@@ -6128,7 +6128,7 @@
   },
   {
     "headword": "áticoma jahuequi",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "áticoma jahuéquinin"
     ],
@@ -6159,7 +6159,7 @@
   },
   {
     "headword": "átio",
-    "part_of_speech": "adv.",
+    "part_of_speech": "adverb",
     "variant_forms": [],
     "etymology": "del ship. áti hacer + -o, partícula de dirección",
     "definitions_spanish": [
@@ -6188,7 +6188,7 @@
   },
   {
     "headword": "átipanti",
-    "part_of_speech": "v. i. and v. t.",
+    "part_of_speech": "intransitive and transitive verb",
     "variant_forms": [
       "átipana"
     ],
@@ -6259,7 +6259,7 @@
   },
   {
     "headword": "atón",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "átoman"
     ],
@@ -6290,7 +6290,7 @@
   },
   {
     "headword": "átsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "atsán"
     ],
@@ -6321,7 +6321,7 @@
   },
   {
     "headword": "anáatsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[from ship. aná \"catahua\" + átsa \"yuca\"]",
     "definitions_spanish": [
@@ -6339,7 +6339,7 @@
   },
   {
     "headword": "báhuaatsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[from Shipibo báhua parrot + átsa yuca]",
     "definitions_spanish": [
@@ -6357,7 +6357,7 @@
   },
   {
     "headword": "báqueatsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. báque niña + átsa yuca]",
     "definitions_spanish": [
@@ -6375,7 +6375,7 @@
   },
   {
     "headword": "chicároatsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. chícaro arpón + átsa yuca]",
     "definitions_spanish": [
@@ -6393,7 +6393,7 @@
   },
   {
     "headword": "jóatiatsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[from ship. jóati what to boil + átsa yuca]",
     "definitions_spanish": [
@@ -6411,7 +6411,7 @@
   },
   {
     "headword": "joshín átsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. joshín rojo + átsa yuca]",
     "definitions_spanish": [
@@ -6429,7 +6429,7 @@
   },
   {
     "headword": "jóshoatsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[from Ship. jósho white + átsa cassava]",
     "definitions_spanish": [
@@ -6447,7 +6447,7 @@
   },
   {
     "headword": "nobéshatsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "nonbéshatsa"
     ],
@@ -6467,7 +6467,7 @@
   },
   {
     "headword": "nómaatsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. nóma especie de perdiz + atsa yuca]",
     "definitions_spanish": [
@@ -6485,7 +6485,7 @@
   },
   {
     "headword": "panshín atsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. panshín amarillo + atsa]",
     "definitions_spanish": [
@@ -6503,7 +6503,7 @@
   },
   {
     "headword": "quéen atsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[from ship. quéen desire + atsa yuca]",
     "definitions_spanish": [
@@ -6521,7 +6521,7 @@
   },
   {
     "headword": "rónoatsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. róno culebra + átsa yuca]",
     "definitions_spanish": [
@@ -6539,7 +6539,7 @@
   },
   {
     "headword": "shámayanconatsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. ¿háma cogollo + yancón azul + átsa yuca]",
     "definitions_spanish": [
@@ -6573,7 +6573,7 @@
   },
   {
     "headword": "shónoatsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[del ship. óhóno \"lupuna\" + átsa]",
     "definitions_spanish": [
@@ -6591,7 +6591,7 @@
   },
   {
     "headword": "támaatsa",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": "[from ship. táma peanut + átsa yuca]",
     "definitions_spanish": [
@@ -6609,7 +6609,7 @@
   },
   {
     "headword": "atsántita",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "atsántitan"
     ],
@@ -6676,7 +6676,7 @@
   },
   {
     "headword": "áya",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "ayán"
     ],
@@ -6707,7 +6707,7 @@
   },
   {
     "headword": "áya",
-    "part_of_speech": "adj.",
+    "part_of_speech": "adjective",
     "variant_forms": [
       "ayán"
     ],
@@ -6742,7 +6742,7 @@
   },
   {
     "headword": "áyahuasca",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "áyahuascan"
     ],
@@ -6776,7 +6776,7 @@
   },
   {
     "headword": "ayáo",
-    "part_of_speech": "interj.",
+    "part_of_speech": "interjection",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -6796,7 +6796,7 @@
   },
   {
     "headword": "ayásh",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "áyashen"
     ],
@@ -6829,7 +6829,7 @@
   },
   {
     "headword": "ba",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -6849,7 +6849,7 @@
   },
   {
     "headword": "ba-",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -6922,7 +6922,7 @@
   },
   {
     "headword": "ba",
-    "part_of_speech": "sf.",
+    "part_of_speech": "noun (feminine)",
     "variant_forms": [],
     "etymology": null,
     "definitions_spanish": [
@@ -6971,7 +6971,7 @@
   },
   {
     "headword": "bába",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "babán"
     ],
@@ -7014,7 +7014,7 @@
   },
   {
     "headword": "babán ehua",
-    "part_of_speech": "s.",
+    "part_of_speech": "noun",
     "variant_forms": [
       "babán ehuan"
     ],
