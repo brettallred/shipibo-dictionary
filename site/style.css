@@ -756,28 +756,167 @@
       border-bottom: none;
     }
   }
-  .view-toggle {
-    display: inline-flex;
+  /* Icaro interactive layout */
+  .icaro-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  @media (min-width: 768px) {
+    .icaro-layout {
+      grid-template-columns: 55% 45%;
+      gap: 0;
+    }
+  }
+  .icaro-song-col {
+    min-width: 0;
+  }
+  @media (min-width: 768px) {
+    .icaro-song-col {
+      padding-right: 1.5rem;
+    }
+  }
+  .icaro-panel {
+    display: none;
+  }
+  @media (min-width: 768px) {
+    .icaro-panel {
+      display: block;
+      position: sticky;
+      top: 1.5rem;
+      max-height: calc(100vh - 3rem);
+      overflow-y: auto;
+      border-left: 1px solid var(--color-earth-200);
+      padding-left: 1.5rem;
+    }
+  }
+  .icaro-panel-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 12rem;
+    color: var(--color-ink-muted);
+    font-style: italic;
+    font-size: 0.95rem;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .panel-card {
+    padding: 1rem 1.25rem;
+    background-color: var(--color-linen);
     border: 1px solid var(--color-earth-200);
     border-radius: 2px;
-    overflow: hidden;
+    margin-bottom: 0.75rem;
+    position: relative;
+    animation: panelCardIn 0.2s ease-out;
   }
-  .view-toggle a {
-    padding: 0.5rem 1.25rem;
-    font-family: var(--font-body);
-    font-size: 0.85rem;
-    font-weight: 500;
-    letter-spacing: 0.02em;
+  @keyframes panelCardIn {
+    from { opacity: 0; transform: translateY(-8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .panel-card-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.625rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
     color: var(--color-ink-muted);
-    transition: all 0.2s ease;
-    text-decoration: none;
+    font-size: 1.1rem;
+    line-height: 1;
+    border-radius: 2px;
+    transition: color 0.15s ease, background-color 0.15s ease;
+    &:hover {
+      color: var(--color-ink);
+      background-color: var(--color-earth-100);
+    }
+  }
+  .icaro-hint {
+    display: block;
+  }
+  @media (min-width: 768px) {
+    .icaro-hint {
+      display: none;
+    }
+  }
+  .song-line[data-clickable] {
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 0.125rem 0.375rem;
+    margin: -0.125rem -0.375rem;
+    transition: background-color 0.15s ease;
     &:hover {
       background-color: var(--color-parchment);
-      color: var(--color-ink);
     }
-    &.active {
-      background-color: var(--color-ink);
-      color: var(--color-sand);
+  }
+  .song-line-active {
+    background-color: var(--color-earth-100) !important;
+    border-left: 3px solid var(--color-accent-warm);
+    padding-left: calc(0.375rem + 3px);
+    margin-left: calc(-0.375rem - 3px);
+  }
+  /* Mobile drawer */
+  .icaro-drawer-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 40;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+  }
+  .icaro-drawer-backdrop.active {
+    opacity: 1;
+  }
+  .icaro-drawer {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+    background-color: var(--color-sand);
+    border-top: 1px solid var(--color-earth-300);
+    border-radius: 12px 12px 0 0;
+    max-height: 60vh;
+    transform: translateY(100%);
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    overflow: hidden;
+  }
+  .icaro-drawer.active {
+    transform: translateY(0);
+  }
+  .icaro-drawer-handle {
+    display: flex;
+    justify-content: center;
+    padding: 0.75rem 0 0.25rem;
+    cursor: grab;
+  }
+  .icaro-drawer-handle::before {
+    content: "";
+    width: 2.5rem;
+    height: 0.25rem;
+    background: var(--color-earth-300);
+    border-radius: 2px;
+  }
+  .icaro-drawer-content {
+    overflow-y: auto;
+    max-height: calc(60vh - 2.5rem);
+    padding: 0 1rem 1.5rem;
+  }
+  @media (max-width: 767px) {
+    .icaro-drawer-backdrop {
+      display: block;
+      pointer-events: none;
+    }
+    .icaro-drawer-backdrop.active {
+      pointer-events: auto;
+    }
+    .icaro-drawer {
+      display: block;
     }
   }
   .song-section {

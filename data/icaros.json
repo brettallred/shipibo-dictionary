@@ -9,15 +9,18 @@
           "lines": [
             {
               "text": "Neska neskashamankin",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 0
             },
             {
-              "text": "Yora pari abano",
-              "repeat": 2
+              "text": "Yora pari abanon",
+              "repeat": 2,
+              "phrase_idx": 1
             },
             {
-              "text": "Panayonparibano",
-              "repeat": 2
+              "text": "Panayonparibanon",
+              "repeat": 2,
+              "phrase_idx": 2
             }
           ]
         },
@@ -26,15 +29,18 @@
           "lines": [
             {
               "text": "Ponteyonparibanon",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 3
             },
             {
-              "text": "Kanobo ponteban",
-              "repeat": 2
+              "text": "Kanobo pontebanon",
+              "repeat": 2,
+              "phrase_idx": 4
             },
             {
               "text": "Yoi, yoi shamankin",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 5
             }
           ]
         },
@@ -43,19 +49,23 @@
           "lines": [
             {
               "text": "Soa, soa shamankin",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 6
             },
             {
               "text": "Nete pari abanon",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 7
             },
             {
               "text": "Neska, neska shamankin",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 8
             },
             {
               "text": "Nanta, nanta shamankin",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 9
             }
           ]
         },
@@ -64,19 +74,23 @@
           "lines": [
             {
               "text": "Yorabo abanon",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 10
             },
             {
               "text": "Payanyonparibanon",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 11
             },
             {
               "text": "Oinyonparibanon",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 12
             },
             {
               "text": "Manayonparibanon",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 13
             }
           ]
         }
@@ -739,20 +753,24 @@
           "repeat": 2,
           "lines": [
             {
-              "text": "Neska neska shamani",
-              "repeat": null
+              "text": "Neska neskashamani",
+              "repeat": null,
+              "phrase_idx": 0
             },
             {
-              "text": "Neska neska shamani ... je, he",
-              "repeat": null
+              "text": "Neska neskashamani jehe",
+              "repeat": null,
+              "phrase_idx": 1
             },
             {
-              "text": "Neska neska shamani",
-              "repeat": null
+              "text": "Neska neskashamani",
+              "repeat": null,
+              "phrase_idx": 0
             },
             {
               "text": "Iki ishamani",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 3
             }
           ]
         },
@@ -760,20 +778,24 @@
           "repeat": 2,
           "lines": [
             {
-              "text": "Jakon nira kanoke",
-              "repeat": null
+              "text": "Jakonira kanoke",
+              "repeat": null,
+              "phrase_idx": 4
             },
             {
-              "text": "Jakon nira kanoke ... je, he",
-              "repeat": null
+              "text": "Jakonira kanoke jehe",
+              "repeat": null,
+              "phrase_idx": 5
             },
             {
               "text": "Nokon sama kanobo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 6
             },
             {
               "text": "Nokon kano keweni",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 7
             }
           ]
         },
@@ -781,20 +803,24 @@
           "repeat": 2,
           "lines": [
             {
-              "text": "Kano kibi kanota",
-              "repeat": null
+              "text": "Kanokibi kanota",
+              "repeat": null,
+              "phrase_idx": 8
             },
             {
-              "text": "Kano kibi kanota ... je, he",
-              "repeat": null
+              "text": "Kanokibi kanota jehe",
+              "repeat": null,
+              "phrase_idx": 9
             },
             {
               "text": "Chullachaki medico",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 10
             },
             {
               "text": "Nete kano riosbo",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 11
             }
           ]
         },
@@ -803,19 +829,23 @@
           "lines": [
             {
               "text": "Maanira bekani",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 12
             },
             {
-              "text": "Maanira bekani ... je, he",
-              "repeat": null
+              "text": "Maanira bekani jehe",
+              "repeat": null,
+              "phrase_idx": 13
             },
             {
-              "text": "Noki beiranira",
-              "repeat": null
+              "text": "Nokibeiranira",
+              "repeat": null,
+              "phrase_idx": 14
             },
             {
-              "text": "Kano kano shamani",
-              "repeat": 2
+              "text": "Kano kanoshamani",
+              "repeat": 2,
+              "phrase_idx": 15
             }
           ]
         },
@@ -824,19 +854,23 @@
           "lines": [
             {
               "text": "Jaton nete xamanbi",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 16
             },
             {
               "text": "Jaton nete xamanbi",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 16
             },
             {
               "text": "Nokon sama kanobo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 6
             },
             {
-              "text": "Torrin ewa joyoya",
-              "repeat": 2
+              "text": "Torin ewa joyoya",
+              "repeat": 2,
+              "phrase_idx": 19
             }
           ]
         }
@@ -1766,11 +1800,13 @@
           "lines": [
             {
               "text": "Niwe Tori Campana je",
-              "repeat": 3
+              "repeat": 3,
+              "phrase_idx": 0
             },
             {
               "text": "Nete ani kepeni",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 1
             }
           ]
         },
@@ -1779,15 +1815,18 @@
           "lines": [
             {
               "text": "Noya Rao Riosbo je",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 2
             },
             {
               "text": "Joyo joyo niwebo je",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 3
             },
             {
               "text": "Joni tsoa tsoawa",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 4
             }
           ]
         },
@@ -1796,15 +1835,18 @@
           "lines": [
             {
               "text": "En keyo keyoban je",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 5
             },
             {
               "text": "Min rami niwebo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 6
             },
             {
               "text": "En keyobokinra je",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 7
             }
           ]
         },
@@ -1813,19 +1855,23 @@
           "lines": [
             {
               "text": "Soa soabokinra je",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 8
             },
             {
               "text": "Pisha, pishabokinra",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 9
             },
             {
               "text": "Nete senenainko",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 10
             },
             {
               "text": "Mayaaketaanax je",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 11
             }
           ]
         },
@@ -1834,19 +1880,23 @@
           "lines": [
             {
               "text": "Maanira bekanai je",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 12
             },
             {
               "text": "Nokibeiranira",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 13
             },
             {
               "text": "Weibeirantaana je",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 14
             },
             {
               "text": "Chiti, chitishamani je",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 15
             }
           ]
         },
@@ -1855,19 +1905,23 @@
           "lines": [
             {
               "text": "Mato kanomayonban je",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 16
             },
             {
               "text": "Ja neten pikoxon",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 17
             },
             {
               "text": "Mana, manashamanban je",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 18
             },
             {
               "text": "Min yora meabo",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 19
             }
           ]
         }
@@ -2930,15 +2984,18 @@
           "lines": [
             {
               "text": "Rao niwebo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 0
             },
             {
               "text": "Noya Rao Riosbo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 1
             },
             {
               "text": "Joyo joyo niwebo",
-              "repeat": 3
+              "repeat": 3,
+              "phrase_idx": 2
             }
           ]
         },
@@ -2947,15 +3004,18 @@
           "lines": [
             {
               "text": "Niwe jakon roonya",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 3
             },
             {
               "text": "Kanomayontaanara",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 4
             },
             {
               "text": "Joni tsoa tsoawa",
-              "repeat": 3
+              "repeat": 3,
+              "phrase_idx": 5
             }
           ]
         },
@@ -2964,23 +3024,28 @@
           "lines": [
             {
               "text": "Pampa roninra",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 6
             },
             {
               "text": "Kano pampa roninra",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 7
             },
             {
               "text": "Nete bawa joyoni",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 8
             },
             {
               "text": "Kanoira maanke",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 9
             },
             {
               "text": "Iki ishamani",
-              "repeat": 3
+              "repeat": 3,
+              "phrase_idx": 10
             }
           ]
         },
@@ -2989,11 +3054,13 @@
           "lines": [
             {
               "text": "Nai waporoninbi",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 11
             },
             {
               "text": "Nete ani rakata",
-              "repeat": 3
+              "repeat": 3,
+              "phrase_idx": 12
             }
           ]
         },
@@ -3002,19 +3069,23 @@
           "lines": [
             {
               "text": "Rono, ronopakexon",
-              "repeat": 3
+              "repeat": 3,
+              "phrase_idx": 13
             },
             {
               "text": "Maton yoratiibi",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 14
             },
             {
               "text": "Naneaketanxonra",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 15
             },
             {
               "text": "Nete ani kepeni",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 16
             }
           ]
         },
@@ -3023,19 +3094,23 @@
           "lines": [
             {
               "text": "Riosen shinanman",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 17
             },
             {
               "text": "Nete tori campana",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 18
             },
             {
               "text": "Tsaran imayontaana",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 19
             },
             {
               "text": "Maton yora abanon",
-              "repeat": 3
+              "repeat": 3,
+              "phrase_idx": 20
             }
           ]
         }
@@ -4044,15 +4119,18 @@
           "lines": [
             {
               "text": "Joni tsoa tsoawa",
-              "repeat": 6
+              "repeat": 6,
+              "phrase_idx": 0
             },
             {
               "text": "Ani netemeara",
-              "repeat": 4
+              "repeat": 4,
+              "phrase_idx": 1
             },
             {
               "text": "Kanoira maanke je",
-              "repeat": 5
+              "repeat": 5,
+              "phrase_idx": 2
             }
           ]
         },
@@ -4061,27 +4139,33 @@
           "lines": [
             {
               "text": "Nete jakon rakaya",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 3
             },
             {
               "text": "Noa jonibiribi",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 4
             },
             {
               "text": "Nete ani rakaya",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 5
             },
             {
               "text": "Rios jema kepeni",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 6
             },
             {
               "text": "Torin ewa joyoya",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 7
             },
             {
               "text": "Kanoira maanke",
-              "repeat": 6
+              "repeat": 6,
+              "phrase_idx": 2
             }
           ]
         },
@@ -4090,15 +4174,18 @@
           "lines": [
             {
               "text": "Inin kewe niwera",
-              "repeat": 4
+              "repeat": 4,
+              "phrase_idx": 8
             },
             {
               "text": "Rao noma ronkeni je",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 9
             },
             {
               "text": "Kori chiki joyota",
-              "repeat": 6
+              "repeat": 6,
+              "phrase_idx": 10
             }
           ]
         },
@@ -4107,15 +4194,18 @@
           "lines": [
             {
               "text": "Kanobaintaana",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 11
             },
             {
               "text": "Nete kano Riosbo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 12
             },
             {
               "text": "Isa yoyo irai",
-              "repeat": 6
+              "repeat": 6,
+              "phrase_idx": 13
             }
           ]
         },
@@ -4123,12 +4213,14 @@
           "repeat": null,
           "lines": [
             {
-              "text": "Nete kano niwebo...o",
-              "repeat": null
+              "text": "Nete kano niwebo",
+              "repeat": null,
+              "phrase_idx": 14
             },
             {
               "text": "Maanira beai",
-              "repeat": 4
+              "repeat": 4,
+              "phrase_idx": 15
             }
           ]
         }
@@ -4908,15 +5000,18 @@
           "lines": [
             {
               "text": "Nokon kano keweni",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 0
             },
             {
               "text": "Joni tsoa tsoawa",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 1
             },
             {
               "text": "Eara neno niai",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 2
             }
           ]
         },
@@ -4925,27 +5020,33 @@
           "lines": [
             {
               "text": "Rao Riosbo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 3
             },
             {
               "text": "Noya Rao Riosbo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 4
             },
             {
               "text": "Joni pastorobora",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 5
             },
             {
               "text": "Rokotoro jonibo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 6
             },
             {
               "text": "Kanomayontaanara",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 7
             },
             {
               "text": "Ea neno neskanon",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 8
             }
           ]
         },
@@ -4954,27 +5055,33 @@
           "lines": [
             {
               "text": "Joi tsoawa",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 9
             },
             {
               "text": "Nokon joi tsoawa",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 10
             },
             {
               "text": "Joni niax, ikani",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 11
             },
             {
               "text": "Ikamara inike",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 12
             },
             {
               "text": "Joi bixon soawe",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 13
             },
             {
               "text": "Eara neno niai",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 2
             }
           ]
         },
@@ -4983,35 +5090,43 @@
           "lines": [
             {
               "text": "Taitianki",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 14
             },
             {
               "text": "Nesktaitianki",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 15
             },
             {
               "text": "Wetsa mai nomabo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 16
             },
             {
               "text": "Nokon pino ipain",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 17
             },
             {
               "text": "Joni neska neskanon",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 18
             },
             {
               "text": "Iki ikanaibo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 19
             },
             {
               "text": "Oinaketaanara",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 20
             },
             {
               "text": "Eara neno niai",
-              "repeat": 2
+              "repeat": 2,
+              "phrase_idx": 2
             }
           ]
         }
@@ -6007,23 +6122,28 @@
           "lines": [
             {
               "text": "Kanoyonparibanon",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 0
             },
             {
               "text": "Rama kanoyonbanon",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 1
             },
             {
               "text": "Netekibi kanoti",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 2
             },
             {
               "text": "Rioskibi kanoti",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 3
             },
             {
               "text": "Kano, kanoshamani",
-              "repeat": 3
+              "repeat": 3,
+              "phrase_idx": 4
             }
           ]
         },
@@ -6032,23 +6152,28 @@
           "lines": [
             {
               "text": "Nokon sama niwebo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 5
             },
             {
               "text": "Rama niwe koshibo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 6
             },
             {
               "text": "Tsinkiaketaanara",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 7
             },
             {
               "text": "Bewa, bewakaini",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 8
             },
             {
               "text": "Koshi medikoyonban",
-              "repeat": 3
+              "repeat": 3,
+              "phrase_idx": 9
             }
           ]
         },
@@ -6057,19 +6182,23 @@
           "lines": [
             {
               "text": "Medikoi bewaxon",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 10
             },
             {
               "text": "Yora axonbanon kan",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 11
             },
             {
               "text": "Axonira bewai",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 12
             },
             {
               "text": "Bewa, bewashamani",
-              "repeat": 3
+              "repeat": 3,
+              "phrase_idx": 13
             }
           ]
         },
@@ -6078,23 +6207,28 @@
           "lines": [
             {
               "text": "Maton yoran mayatai",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 14
             },
             {
               "text": "Mayatai niwebo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 15
             },
             {
               "text": "Tsokas niwe kanoya",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 16
             },
             {
               "text": "Matobira nitani",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 17
             },
             {
               "text": "Nitanibo riki",
-              "repeat": 3
+              "repeat": 3,
+              "phrase_idx": 18
             }
           ]
         },
@@ -6103,23 +6237,28 @@
           "lines": [
             {
               "text": "Mana manashamanxon",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 19
             },
             {
               "text": "Soa soabobanon",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 20
             },
             {
               "text": "Yora meran noabo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 21
             },
             {
               "text": "Kanota kanobo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 22
             },
             {
               "text": "Pisha pishabobanon",
-              "repeat": 3
+              "repeat": 3,
+              "phrase_idx": 23
             }
           ]
         },
@@ -6128,23 +6267,28 @@
           "lines": [
             {
               "text": "Masa shinan kanota",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 24
             },
             {
               "text": "Kanota kanobo",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 22
             },
             {
               "text": "Soa soabainxon",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 25
             },
             {
               "text": "Jakon shinanboreskan",
-              "repeat": null
+              "repeat": null,
+              "phrase_idx": 26
             },
             {
               "text": "Mato bimabobanon",
-              "repeat": 3
+              "repeat": 3,
+              "phrase_idx": 27
             }
           ]
         }
