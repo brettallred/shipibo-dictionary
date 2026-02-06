@@ -1,4 +1,4 @@
-var CACHE_NAME = "shipibo-v3";
+var CACHE_NAME = "shipibo-v4";
 var ASSETS = [
   "./",
   "index.html",

@@ -3,6 +3,8 @@
 
   let ENTRIES = [];
   let ICAROS = [];
+  let ICARO_WORDS = [];
+  let ICARO_SUFFIXES = [];
   const app = document.getElementById("app");
 
   // --- Data ---
@@ -19,7 +21,53 @@
 
   async function loadAll() {
     await Promise.all([loadEntries(), loadIcaros()]);
+    buildIcaroDictionary();
     route();
+  }
+
+  function buildIcaroDictionary() {
+    var wordMap = {};
+    var suffixMap = {};
+
+    ICAROS.forEach(function (icaro) {
+      var source = { id: icaro.id, title: icaro.title };
+
+      if (icaro.vocabulary) {
+        icaro.vocabulary.forEach(function (v) {
+          var key = v.shipibo.toLowerCase();
+          if (wordMap[key]) {
+            var exists = wordMap[key].icaros.some(function (s) { return s.id === icaro.id; });
+            if (!exists) wordMap[key].icaros.push(source);
+          } else {
+            wordMap[key] = {
+              shipibo: v.shipibo,
+              pos: v.pos || "",
+              meaning: v.meaning,
+              icaros: [source]
+            };
+          }
+        });
+      }
+
+      if (icaro.suffix_reference) {
+        icaro.suffix_reference.forEach(function (suf) {
+          var key = suf.form.replace(/^-+/, "").toLowerCase();
+          if (suffixMap[key]) {
+            var exists = suffixMap[key].icaros.some(function (s) { return s.id === icaro.id; });
+            if (!exists) suffixMap[key].icaros.push(source);
+          } else {
+            suffixMap[key] = {
+              form: suf.form.replace(/^-+/, ""),
+              meaning: suf.meaning,
+              icaros: [source]
+            };
+          }
+        });
+      }
+    });
+
+    ICARO_WORDS = Object.keys(wordMap).sort().map(function (k) { return wordMap[k]; });
+    ICARO_SUFFIXES = Object.keys(suffixMap).sort().map(function (k) { return suffixMap[k]; });
   }
 
   // --- Router ---
@@ -39,6 +87,8 @@
     } else if (path.match(/^\/icaro\/\d+$/)) {
       var id = parseInt(path.split("/")[2], 10);
       renderIcaro(id);
+    } else if (path === "/icaro-dictionary") {
+      renderIcaroDictionary(params.get("tab") || "words", params.get("q") || "");
     } else if (path.startsWith("/entry/")) {
       const id = parseInt(path.split("/")[2], 10);
       renderEntry(id);
@@ -415,7 +465,12 @@
       "Back to dictionary</a></div>";
 
     html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Icaros</h1>';
-    html += '<p class="text-ink-muted text-lg font-light mb-10">Learn traditional Shipibo healing songs</p>';
+    html += '<p class="text-ink-muted text-lg font-light mb-8">Learn traditional Shipibo healing songs</p>';
+
+    html += '<a href="#/icaro-dictionary" class="icaro-dict-banner">' +
+      '<span class="font-display text-lg text-ink">Icaro Dictionary</span>' +
+      '<span class="text-ink-muted text-sm">' + ICARO_WORDS.length + ' words, ' + ICARO_SUFFIXES.length + ' suffixes</span>' +
+      '</a>';
 
     html += '<div class="entries-container">';
     ICAROS.forEach(function (icaro) {
@@ -439,6 +494,124 @@
     html += '</div>';
 
     app.innerHTML = html;
+    window.scrollTo(0, 0);
+  }
+
+  // --- Icaro Dictionary ---
+
+  function searchIcaroWords(q) {
+    var lower = q.toLowerCase();
+    return ICARO_WORDS.filter(function (w) {
+      return w.shipibo.toLowerCase().includes(lower) || w.meaning.toLowerCase().includes(lower);
+    });
+  }
+
+  function searchIcaroSuffixes(q) {
+    var lower = q.toLowerCase();
+    return ICARO_SUFFIXES.filter(function (s) {
+      return s.form.toLowerCase().includes(lower) || s.meaning.toLowerCase().includes(lower);
+    });
+  }
+
+  function icaroSourceTagsHTML(icaros) {
+    return icaros.map(function (src) {
+      return '<a href="#/icaro/' + src.id + '" class="icaro-source-tag">' + esc(src.title) + '</a>';
+    }).join("");
+  }
+
+  function icaroWordCardHTML(word) {
+    var dictEntry = findDictEntry(word.shipibo);
+    var html = '<div class="icaro-dict-entry">';
+    html += '<div class="flex items-baseline gap-2.5">';
+    if (dictEntry) {
+      html += '<a href="#/entry/' + dictEntry.id + '" class="font-display text-xl accent-link">' + esc(word.shipibo) + '</a>';
+    } else {
+      html += '<span class="font-display text-xl text-ink">' + esc(word.shipibo) + '</span>';
+    }
+    if (word.pos) {
+      html += ' <span class="badge">' + esc(word.pos) + '</span>';
+    }
+    html += '</div>';
+    html += '<p class="text-ink-light text-sm mt-1 leading-relaxed">' + esc(word.meaning) + '</p>';
+    html += '<div class="flex flex-wrap gap-1 mt-2">' + icaroSourceTagsHTML(word.icaros) + '</div>';
+    html += '</div>';
+    return html;
+  }
+
+  function icaroSuffixCardHTML(suffix) {
+    var html = '<div class="icaro-dict-entry">';
+    html += '<span class="font-display text-xl text-ink">-' + esc(suffix.form) + '</span>';
+    html += '<p class="text-ink-light text-sm mt-1 leading-relaxed">' + esc(suffix.meaning) + '</p>';
+    html += '<div class="flex flex-wrap gap-1 mt-2">' + icaroSourceTagsHTML(suffix.icaros) + '</div>';
+    html += '</div>';
+    return html;
+  }
+
+  function renderIcaroDictionary(tab, searchQuery) {
+    document.title = "Icaro Dictionary \u2014 Shipibo Dictionary";
+
+    var searchIcon = '<svg class="absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5 text-ink-muted pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /></svg>';
+
+    var html = '<div class="mb-8">' +
+      '<a href="#/icaros" class="back-link">' +
+      '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+      "All icaros</a></div>";
+
+    html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Icaro Dictionary</h1>';
+    html += '<p class="text-ink-muted text-lg font-light mb-8">Vocabulary and suffixes from all icaros</p>';
+
+    // Search input
+    html += '<div class="relative mb-6">' +
+      searchIcon +
+      '<input type="search" id="icaro-dict-search" value="' + esc(searchQuery) + '" placeholder="Search words and suffixes\u2026" class="search-input" autocomplete="off">' +
+      '</div>';
+
+    // Tabs
+    html += '<div class="flex gap-1 mb-6">';
+    html += '<a href="#/icaro-dictionary?tab=words' + (searchQuery ? '&q=' + encodeURIComponent(searchQuery) : '') + '" class="icaro-dict-tab' + (tab === "words" ? " active" : "") + '">Words</a>';
+    html += '<a href="#/icaro-dictionary?tab=suffixes' + (searchQuery ? '&q=' + encodeURIComponent(searchQuery) : '') + '" class="icaro-dict-tab' + (tab === "suffixes" ? " active" : "") + '">Suffixes</a>';
+    html += '</div>';
+
+    // Content
+    if (tab === "suffixes") {
+      var suffixes = searchQuery ? searchIcaroSuffixes(searchQuery) : ICARO_SUFFIXES;
+      html += '<p class="text-sm text-ink-muted mb-4 font-light">' + suffixes.length + (suffixes.length === 1 ? " suffix" : " suffixes") + '</p>';
+      html += '<div class="entries-container">';
+      if (suffixes.length > 0) {
+        suffixes.forEach(function (s) { html += icaroSuffixCardHTML(s); });
+      } else {
+        html += '<div class="py-12 text-center text-ink-muted"><p>No suffixes found.</p></div>';
+      }
+      html += '</div>';
+    } else {
+      var words = searchQuery ? searchIcaroWords(searchQuery) : ICARO_WORDS;
+      html += '<p class="text-sm text-ink-muted mb-4 font-light">' + words.length + (words.length === 1 ? " word" : " words") + '</p>';
+      html += '<div class="entries-container">';
+      if (words.length > 0) {
+        words.forEach(function (w) { html += icaroWordCardHTML(w); });
+      } else {
+        html += '<div class="py-12 text-center text-ink-muted"><p>No words found.</p></div>';
+      }
+      html += '</div>';
+    }
+
+    app.innerHTML = html;
+
+    // Wire up search
+    var input = document.getElementById("icaro-dict-search");
+    var timeout = null;
+    input.addEventListener("input", function () {
+      clearTimeout(timeout);
+      timeout = setTimeout(function () {
+        var q = input.value.trim();
+        location.hash = "#/icaro-dictionary?tab=" + tab + (q ? "&q=" + encodeURIComponent(q) : "");
+      }, 250);
+    });
+    if (searchQuery) {
+      var len = input.value.length;
+      input.focus();
+      input.setSelectionRange(len, len);
+    }
     window.scrollTo(0, 0);
   }
 
