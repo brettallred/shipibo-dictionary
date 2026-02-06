@@ -11,23 +11,12 @@ namespace :dictionary do
     entries = JSON.parse(File.read(json_path))
     puts "Loaded #{entries.count} entries from JSON"
 
-    # Filter out section B entries that leak in from shared pages.
-    # Keep sub-entries (compounds like "báhuaatsa" under "átsa") — they're
-    # legitimate A-section content. Only drop entries whose headword starts
-    # with a non-A letter AND aren't compound words containing an A-section root.
-    section_b_started = false
+    # Filter out section B entries that leak in from the last page of section A.
+    # Sub-entries (compounds like "báhuaatsa" under "átsa") are legitimate and kept.
+    # Only reject entries whose headword (after stripping accents/dashes) starts with "b".
     entries = entries.reject do |data|
       hw = (data["headword"] || "").unicode_normalize(:nfkd).gsub(/[\u0300-\u036f]/, "").downcase.sub(/\A-+/, "")
-      starts_with_a = hw.start_with?("a")
-
-      if !starts_with_a && !section_b_started
-        # Check if this looks like a section B entry (simple headword, not a compound)
-        # vs a legitimate sub-entry (compound containing an A-section root like "atsa", "atapa")
-        is_compound = hw.match?(/atsa|atapa|awa|ani/)
-        section_b_started = !is_compound
-      end
-
-      section_b_started && !starts_with_a
+      hw.start_with?("b") && !hw.match?(/atsa|atapa|awa/)
     end
 
     puts "Importing #{entries.count} entries (after filtering section boundary)..."
