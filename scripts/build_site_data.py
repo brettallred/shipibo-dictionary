@@ -2,12 +2,35 @@
 """Build static JSON data for the Shipibo Dictionary site."""
 
 import json
+import sys
 import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-INPUT = ROOT / "data" / "entries_section_a_translated.json"
 OUTPUT = ROOT / "site" / "data" / "entries.json"
+
+# Input file priority: CLI arg > vision pipeline > old pipeline
+_INPUT_CANDIDATES = [
+    ROOT / "data" / "entries_vision.json",
+    ROOT / "data" / "entries_vision_section_a.json",
+    ROOT / "data" / "entries_section_a_translated.json",
+]
+
+
+def resolve_input():
+    if len(sys.argv) > 1:
+        p = Path(sys.argv[1])
+        if not p.is_absolute():
+            p = ROOT / p
+        if not p.exists():
+            print(f"Error: input file not found: {p}")
+            sys.exit(1)
+        return p
+    for candidate in _INPUT_CANDIDATES:
+        if candidate.exists():
+            return candidate
+    print("Error: no input file found. Run extract_vision.py first, or pass a path as argument.")
+    sys.exit(1)
 
 
 def strip_accents(s):
@@ -15,7 +38,9 @@ def strip_accents(s):
 
 
 def main():
-    entries = json.loads(INPUT.read_text())
+    input_file = resolve_input()
+    print(f"Input: {input_file}")
+    entries = json.loads(input_file.read_text())
     print(f"Loaded {len(entries)} entries")
 
     # Filter out section B leakage (matching Rails import.rake logic)

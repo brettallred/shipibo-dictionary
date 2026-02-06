@@ -1,0 +1,5581 @@
+[
+  {
+    "headword": "-a",
+    "part_of_speech": "suffix",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "agregado al final del verbo para señalar el pasado, el pasivo o la acción terminada",
+      "con verbo compuesto del participio pasado e iqui para indicar el tiempo pasado especialmente en una narración",
+      "al final del verbo subordinado en la oración adverbial",
+      "al final del verbo subordinado en la oración de conjunción subordinada"
+    ],
+    "definitions_english": [
+      "added at the end of the verb to indicate the past, passive or completed action",
+      "with compound verb of past participle and iqui to indicate the past tense especially in a narrative",
+      "at the end of the subordinate verb in an adverbial clause",
+      "at the end of the subordinate verb in a subordinate conjunction clause"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ainbo yicatara nocon huáata iqui.",
+        "spanish": "La mujer que está sentada es mi tía materna.",
+        "english": "The woman who is seated is my maternal aunt."
+      },
+      {
+        "shipibo": "Ja sínara ea dinai. El que está sentado me está mirando.",
+        "spanish": "El que está sentado me está mirando.",
+        "english": "The one who is seated is looking at me."
+      },
+      {
+        "shipibo": "Moátianronqui Yóashico Incaqui rétecanai iqui. Riétsanonqui huestiora jóni jahuen shenín síquiti iqui.",
+        "spanish": "Cuentan que antiguamente mataron al Inca Mezquino y que un hombre se pintó con su grasa.",
+        "english": "They say that long ago they killed the Inca Mezquino and that a man painted himself with his grease."
+      },
+      {
+        "shipibo": "Papán yóiara, en átapa béai.",
+        "spanish": "Si papá me manda, yo traigo la gallina.",
+        "english": "If dad sends me, I will bring the chicken."
+      },
+      {
+        "shipibo": "Nocon huái óroa pecaora, ea náshiai.",
+        "spanish": "Después de cultivar mi chacra, voy a bañarme.",
+        "english": "After cultivating my field, I am going to bathe."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 5.3.1.5.b",
+      "5.3.2",
+      "7.4.3.1",
+      "7.4.3.2"
+    ],
+    "grammatical_notes": "Used with adverbs of place to indicate the origin of the subject of the sentence. Used frequently with -ash in the compound form -asha to indicate a place of origin.",
+    "page_number": 85
+  },
+  {
+    "headword": "-a",
+    "part_of_speech": "postposition",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "de"
+    ],
+    "definitions_english": [
+      "of, from"
+    ],
+    "examples": [
+      {
+        "shipibo": "Eara nénoa iqui. Yo soy de aquí.",
+        "spanish": "Yo soy de aquí.",
+        "english": "I am from here."
+      },
+      {
+        "shipibo": "Jára ánoash jóque. El vino de allá.",
+        "spanish": "El vino de allá.",
+        "english": "He came from there."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 7.5",
+      "8.3.2"
+    ],
+    "grammatical_notes": "Used with adverbs of place to indicate the origin of the subject of the sentence. Used frequently with -ash in the compound form -asha to indicate a place of origin.",
+    "page_number": 85
+  },
+  {
+    "headword": "a",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "nombre de la letra a en el alfabeto shipibo"
+    ],
+    "definitions_english": [
+      "name of the letter a in the Shipibo alphabet"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 2.1"
+    ],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "aco",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "acón"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "delgado, flaco",
+      "reseco",
+      "vacío, hueco, sin pulpa"
+    ],
+    "definitions_english": [
+      "thin, skinny",
+      "dried up, withered",
+      "empty, hollow, without pulp"
+    ],
+    "examples": [
+      {
+        "shipibo": "Papán piára sarámpiluin icash áco banéque.",
+        "spanish": "Mi primo, el sobrino de papá, tuvo sarampión y se adelgazó.",
+        "english": "My cousin, dad's nephew, had measles and became thin."
+      },
+      {
+        "shipibo": "Ea máhuatash áco bánciara poincoscon piái.",
+        "spanish": "El gallinazo come las carachamanas muertas y resecas.",
+        "english": "The vulture eats dead and dried up carachamanas."
+      },
+      {
+        "shipibo": "Cáchio caquínra ochóma manánshahue méraquete moa inón piá; ja brásha pápa rároque jiría ití shinánash.",
+        "spanish": "Al ir al monte, el perro encontró un motelo vacío que un tigre había comido; y al cogerlo, papá se alegró, al pensar que todavía estaba vivo.",
+        "english": "When going to the forest, the dog found an empty tortoise shell that a jaguar had eaten; and upon picking it up, dad was happy, thinking it was still alive."
+      },
+      {
+        "shipipo": "Nato ainbora jacóma shinánya",
+        "spanish": "Nato ainbora jacóma shinánya",
+        "english": "Nato ainbora jacóma shinánya"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "ábion",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ábionin"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "avión"
+    ],
+    "definitions_english": [
+      "airplane"
+    ],
+    "examples": [
+      {
+        "shipibo": "Rimámea ópo ábionin jóquetianra noa rároque.",
+        "spanish": "Cuando el Presidente vino de Lima en avión, nos alegramos.",
+        "english": "When the President came from Lima by airplane, we were glad."
+      },
+      {
+        "shipibo": "Cáshiboainoa ábionbora moa masáti queyóque. Ishónbira nato simánanarao moa bénshoacanai.",
+        "spanish": "Todas las avionetas de Cashibococha se han descompuesto, pero esta semana las van a reparar.",
+        "english": "All the small planes of Cashibococha have broken down, but this week they are going to repair them."
+      }
+    ],
+    "synonyms": [
+      "naihuaporo"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "ábo",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "manshaco"
+    ],
+    "definitions_english": [
+      "manshaco (type of fish)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Moátianronqui Incánqui jahuen sontárobo ashánti ráanshon áboanique.",
+        "spanish": "Cuentan que antiguamente, el Inca mandó a sus soldados a que pescaran y los convirtió en manshacos.",
+        "english": "They say that long ago, the Inca sent his soldiers to fish and turned them into manshacos."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "áboconá",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ábocomán"
+    ],
+    "etymology": "[del ship. ábo 'manshaco + cóma 'panguana]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "camungo"
+    ],
+    "definitions_english": [
+      "camungo (type of bird)"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "-a",
+    "part_of_speech": "suffix",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "adica; cructar; eructar",
+      "tomar"
+    ],
+    "definitions_english": [
+      "adds meaning; to burp, belch",
+      "to take"
+    ],
+    "examples": [
+      {
+        "shipibo": "Cara oránshi shéash aéique.",
+        "spanish": "Eructé al tomar una gaseosa",
+        "english": "I burped when drinking a soda"
+      },
+      {
+        "shipibo": "Cara íno pisl áeique —aquín manánshahuen acá íqui.",
+        "spanish": "Dijo el 'motelo' —Mi aliento apestaba a 'tigre cuando eructé",
+        "english": "Said the motelo turtle —My breath smelled like tiger when I burped"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used to indicate burping or belching; also used with taking/drinking actions",
+    "page_number": 86
+  },
+  {
+    "headword": "acómpana",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "cascabel"
+    ],
+    "definitions_english": [
+      "rattlesnake"
+    ],
+    "examples": [
+      {
+        "shipibo": "Noa acómpanan náteshara shetán jími béai.",
+        "spanish": "Cuando la cascabel nos muerde, nos sale sangre por las orejas",
+        "english": "When the rattlesnake bites us, blood comes out of our ears"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "acónquin",
+    "part_of_speech": "adverb",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "verdaderamente; sinceramente"
+    ],
+    "definitions_english": [
+      "truly; sincerely"
+    ],
+    "examples": [
+      {
+        "shipibo": "En mía acónquin yóiabira, mía jóyamahaque.",
+        "spanish": "Aunque te hablé sinceramente, no viniste ayer",
+        "english": "Although I spoke to you sincerely, you did not come yesterday"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "acóntema",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "acónteman"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "cornegazho"
+    ],
+    "definitions_english": [
+      "cornlike growth, spur"
+    ],
+    "examples": [
+      {
+        "shipibo": "Acónteman jíhui sháteara sirán íqui.",
+        "spanish": "Cuando el cornegazho come un palo, deja una marca como el corte de un serrucho",
+        "english": "When the cornlike insect eats wood, it leaves a mark like the cut of a saw"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "ahuá",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "áhuacan"
+    ],
+    "etymology": "[del ship. ant. ahuaro danta]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "danta; tapir; sachavaca"
+    ],
+    "definitions_english": [
+      "tapir"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ahuacan ronqui ronón ehuaqui cóshi méenique.",
+        "spanish": "Cuentan que en la antigüedad la sachavaca y la boa hicieron una competencia de fuerza",
+        "english": "They say that in ancient times the tapir and the boa had a strength competition"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "ahuábero",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ahuóberon"
+    ],
+    "etymology": "[del ship. ahuá danta + béro ojo]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de árbol"
+    ],
+    "definitions_english": [
+      "species of tree"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "ahuáchepa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [],
+    "definitions_english": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "chépa"
+    ],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "taráahua",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. tára, no ident. + ahuá danta]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de 'sachavaca de pecho blanco"
+    ],
+    "definitions_english": [
+      "species of tapir with white chest"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "áchi",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "háche"
+    ],
+    "etymology": "[del cast. hache]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "nombre de la letra h en el alfabeto shipibo"
+    ],
+    "definitions_english": [
+      "name of the letter h in the Shipibo alphabet"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 2.1"
+    ],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "ácoroa",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ácoronín"
+    ],
+    "etymology": "[del ship. áco hueco + ronín anaconda]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "yacumama"
+    ],
+    "definitions_english": [
+      "yacumama (mythical giant water serpent)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Acoronronqui máshi quesca páro napon picotai.",
+        "spanish": "Dicen que la yacumama se aparece en medio del río y que parece una playa",
+        "english": "They say the yacumama appears in the middle of the river and looks like a beach"
+      },
+      {
+        "shipibo": "Huapóro quescaribironqui ácoron yamé picotai.",
+        "spanish": "Dicen que la yacumama también aparece de noche en forma de una lancha",
+        "english": "They say the yacumama also appears at night in the form of a boat"
+      }
+    ],
+    "synonyms": [
+      "ronín"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "ácotiri",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ácotirin"
+    ],
+    "etymology": "[del ship. acótin, onomat. del canto]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de pájaro de tamaño pequeño y color negro parecido al 'carpintero y al 'víctor-díaz'"
+    ],
+    "definitions_english": [
+      "species of small black bird similar to the woodpecker and víctor-díaz"
+    ],
+    "examples": [
+      {
+        "shipibo": "Shéna piáitianra nocon huetsián ácotiri tsácaque.",
+        "spanish": "Mientras el pajarito ácotiri comía gusano, mi hermano lo hirió con una flecha",
+        "english": "While the ácotiri bird was eating a worm, my brother shot it with an arrow"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "ácotl",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [
+      "ácoa"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "adelgazar",
+      "resecarse"
+    ],
+    "definitions_english": [
+      "to become thin, to lose weight",
+      "to dry up, to wither"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato jónira moa shoá icá íqui; rámara moa ácoque ísinash.",
+        "spanish": "Antes este hombre era gordo, pero se enfermó y adelgazó",
+        "english": "Before this man was fat, but he got sick and lost weight"
+      },
+      {
+        "shipibo": "Papán ronón ehuá réteihatara moa ácoa íqui.",
+        "spanish": "La boa que papá mató el otro día ya se resecó",
+        "english": "The boa that father killed the other day has already dried up"
+      }
+    ],
+    "synonyms": [
+      "náshpeti",
+      "óshiti"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "áhuacamphi",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [],
+    "definitions_english": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "áhuarampiti"
+    ],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "áhuai",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "áhuainín"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "gaviota"
+    ],
+    "definitions_english": [
+      "seagull"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ahual shetánra chópa quenéati íqui.",
+        "spanish": "Con el pico de la gaviota se pintan diseños en la tela",
+        "english": "With the seagull's beak, designs are painted on cloth"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "-ai",
+    "part_of_speech": "suffix",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "indica tiempo no pasado (en verbo principal)",
+      "indica el participio activo (en cláusulas relativas)",
+      "indica presente o acción habitual (como sufijo del verbo de la oración subordinada con conjunción)",
+      "indica destino del sujeto de un verbo intransitivo de movimiento"
+    ],
+    "definitions_english": [
+      "indicates non-past tense (in main verb)",
+      "indicates active participle, present or habitual action (in relative clauses)",
+      "indicates present or habitual action (as suffix of subordinate clause verb with conjunction)",
+      "indicates destination of subject of intransitive verb of movement"
+    ],
+    "examples": [
+      {
+        "shipibo": "Moara nétteal. Ya se hace de día.",
+        "spanish": "Ya se hace de día.",
+        "english": "It's already becoming day."
+      },
+      {
+        "shipibo": "Baquísha ea cái. Voy a ir mañana.",
+        "spanish": "Voy a ir mañana.",
+        "english": "I'm going to go tomorrow."
+      },
+      {
+        "shipibo": "Isíara nóyai jahuéquibo iqui. Los pajaritos son animales voladores.",
+        "spanish": "Los pajaritos son animales voladores.",
+        "english": "Little birds are flying animals."
+      },
+      {
+        "shipibo": "Icha bínónra en píque, pórocan chéshai caman. He comido guajes hasta que me duele el estómago.",
+        "spanish": "He comido guajes hasta que me duele el estómago.",
+        "english": "I ate guaje fruits until my stomach hurt."
+      },
+      {
+        "shipibo": "Máioshiain caíra jóni réocoque tásha tsácaash. Mientras iba a Pucallpa, el hombre chocó con una palizada y su canoa se volcó.",
+        "spanish": "Mientras iba a Pucallpa, el hombre chocó con una palizada y su canoa se volcó.",
+        "english": "While going to Pucallpa, the man crashed into a log jam and his canoe overturned."
+      },
+      {
+        "shipibo": "Contámanain yamébi caíra noa Tiróntainoa§h néteque. Cuando viajamos a Contámana, amanecimos en Tiruntán.",
+        "spanish": "Cuando viajamos a Contamana, amanecimos en Tiruntan.",
+        "english": "When we traveled to Contamana, we woke up in Tiruntan."
+      },
+      {
+        "shipibo": "Jóni iparlanc0 cáitianra, jahuen bonánti yómetsoacanque. Cuando el hombre fue a Iparia, le robaron su maletín.",
+        "spanish": "Cuando el hombre fue a Iparia, le robaron su maletín.",
+        "english": "When the man went to Iparia, they stole his briefcase."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used in main verbs to indicate non-past tense; used to indicate active participle or present/habitual action; used to indicate destination in motion verbs",
+    "page_number": 87
+  },
+  {
+    "headword": "-ain",
+    "part_of_speech": "suffix",
+    "variant_forms": [
+      "-aco"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "agregado al sustantivo con el sentido de 'a' (el lugar indicado por el sustantivo)",
+      "indica el destino del sujeto de un verbo intransitivo de movimiento"
+    ],
+    "definitions_english": [
+      "added to noun with the sense of 'to' (the place indicated by the noun)",
+      "indicates the destination of the subject of an intransitive verb of movement"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Postposition added to nouns indicating direction or destination",
+    "page_number": 87
+  },
+  {
+    "headword": "ahuin",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "áhulnin"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "esposa",
+      "hembra de la especie que se constituye con los dos sexos"
+    ],
+    "definitions_english": [
+      "wife, spouse (female)",
+      "female of the species consisting of two sexes"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jahuen áhuinhra bíque. Su esposa lo recibió.",
+        "spanish": "Su esposa lo recibió.",
+        "english": "His wife received him."
+      },
+      {
+        "shipibo": "Atapaahuin quéotaronqui máhuacanon icai.",
+        "spanish": "Dicen que cuando la gallina cacarea, anuncia que alguien va a morir.",
+        "english": "They say that when the hen clucks, it announces that someone is going to die."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 7.1.5"
+    ],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "ahuájora",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ahuájoran"
+    ],
+    "etymology": "[del ship. ahud 'sachavaca' + jóra 'semen']",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de árbol con resina como la del caucho"
+    ],
+    "definitions_english": [
+      "species of tree with resin like rubber"
+    ],
+    "examples": [
+      {
+        "shipibo": "Joninra aínbo ahuínhaquin bíque ahuájoran ráoshon. Un hombre consiguió a una mujer por esposa, dándole pusanga con resina del árbol ahuájora.",
+        "spanish": "Un hombre consiguió a una mujer por esposa, dándole pusanga con resina del árbol ahuájora.",
+        "english": "A man got a woman as his wife, giving her a love potion with resin from the ahuájora tree."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "ahuápa",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ahuápan",
+      "ahuápania"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "tigrillo",
+      "gato montés"
+    ],
+    "definitions_english": [
+      "ocelot",
+      "wildcat"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ahuápara yamé jóai átapa picasi.",
+        "spanish": "El tigrillo viene por las noches para comer las gallinas.",
+        "english": "The ocelot comes at night to eat the chickens."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "ahuápempen",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "bajo pempén"
+    ],
+    "definitions_english": [
+      "below pempén"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "pempén"
+    ],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "ahuápishi",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ahuápishin"
+    ],
+    "etymology": "[del ship. ahuá 'sachavaca' + póbi 'costilla']",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "pashaca"
+    ],
+    "definitions_english": [
+      "pashaca (type of canoe)"
+    ],
+    "examples": [
+      {
+        "shipibo": "En ahuápishi nóntiaaraa ea yómetsoacanque.",
+        "spanish": "Me robaron la canoa que hice de pashaca.",
+        "english": "They stole the canoe I made from pashaca."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "ahuárono",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "bajo róno"
+    ],
+    "definitions_english": [
+      "below róno"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "róno"
+    ],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "ahuátiepon",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ahuátiepoman"
+    ],
+    "etymology": "[del ship. ahud 'sachavaca' + tepón 'tendón del cuello']",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de planta",
+      "una infusión preparada a base de la planta ahuátiepon"
+    ],
+    "definitions_english": [
+      "species of plant",
+      "an infusion prepared from the ahuátiepon plant"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ahuátiepon ochítl shéamaara méchai. Cuando al perro se le da de tomar la planta ahuátiepon, se vuelve buen cazador.",
+        "spanish": "Cuando al perro se le da de tomar la planta ahuátiepon, se vuelve buen cazador.",
+        "english": "When the plant ahuátiepon is given to a dog to drink, it becomes a good hunter."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "aquin"
+    ],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "ahuátso",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ahuántsoana"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "tutuno",
+      "fruto duro del tutuno que sirve para hacer el pate"
+    ],
+    "definitions_english": [
+      "tutuno tree",
+      "hard fruit of the tutuno used to make pate (container)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Moátianronqui isónqui ahuántsonin róo tetónqui tsácaníque; jáscatironquí róo teton áni iqui.",
+        "spanish": "En la antigüedad el maquisapa golpeó al totomono en cuello con un tutuno, es por eso que se quedó con el cuello grueso.",
+        "english": "In ancient times the spider monkey hit the totomono monkey on the neck with a tutuno, that's why it ended up with a thick neck."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "ahuínhati",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "ahuínhaa"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "tomar por esposa a",
+      "casarse con"
+    ],
+    "definitions_english": [
+      "to take as wife",
+      "to marry"
+    ],
+    "examples": [
+      {
+        "shipibo": "Moátianronqui joninqui sháhue aínbo ahuínhaníque.",
+        "spanish": "Cuentan que una vez un hombre tomó por esposa a una charapa convertida en mujer.",
+        "english": "They tell that once a man took as wife a charapa (turtle) transformed into a woman."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "huishíahuapa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. huishí 'rayado' + ahuápa 'tigrillo']",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "huamburusho"
+    ],
+    "definitions_english": [
+      "huamburusho (striped wildcat)"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "shopóahuapa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. shopó 'lanudo' + ahuápa 'tigrillo']",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de tigrillo de tamaño pequeño"
+    ],
+    "definitions_english": [
+      "species of small ocelot"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "áhuarampiti",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "áhuacampiti",
+      "áhuarampítia",
+      "áhuacampítia"
+    ],
+    "etymology": "[del ship. ant. ahuara, ahuaran 'sachavaca' + piti 'comida']",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de bejuco de hojas anchas y de frutos largos y arqueados"
+    ],
+    "definitions_english": [
+      "species of vine with broad leaves and long arched fruits"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ahuarampiti náman rácatara en manánshahue bique.",
+        "spanish": "Conseguí un ométo que estaba debajo de este bejuco.",
+        "english": "I got an ométo (type of fish) that was under this vine."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "-ailian",
+    "part_of_speech": "suffix",
+    "variant_forms": [],
+    "etymology": "[del ship. -ai, part. de pres. + -tian cuando]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "cuando"
+    ],
+    "definitions_english": [
+      "when"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used at the end of subordinate verbs to mean 'when'.",
+    "page_number": 88
+  },
+  {
+    "headword": "-ain",
+    "part_of_speech": "suffix",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "Usado para señalar ubicación del sujeto de un verbo copulativo o de un verbo intransitivo que indica una acción",
+      "Usado combinado en la forma -aínoa o -ncoaía que tiene el sentido 'en' para señalar ubicación del complemento directo o indirecto de un verbo transitivo o de acción",
+      "Usado combinado en la forma -aínshon o -ncoshon para indicar el lugar de una acción",
+      "Usado combinado con -oa o -nía en las formas -aínoa o -ncoaía para señalar la procedencia del sujeto de un verbo copulativo o la procedencia del complemento de un verbo transitivo",
+      "Usado combinado con -oa y -ash en la forma -aínoash o con -nía y -ash en la forma -ncoaíash",
+      "Usado para señalar el origen del sujeto de un verbo intransitivo de movimiento"
+    ],
+    "definitions_english": [
+      "Used to indicate the location of the subject of a copulative verb or an intransitive verb indicating an action",
+      "Used combined in the form -aínoa or -ncoaía which has the meaning 'in' to indicate the location of the direct or indirect object of a transitive or action verb",
+      "Used combined in the form -aínshon or -ncoshon to indicate the place of an action",
+      "Used combined with -oa or -nía in the forms -aínoa or -ncoaía to indicate the origin of the subject of a copulative verb or the origin of the complement of a transitive verb",
+      "Used combined with -oa and -ash in the form -aínoash or with -nía and -ash in the form -ncoaíash",
+      "Used to indicate the origin of the subject of an intransitive verb of movement"
+    ],
+    "examples": [
+      {
+        "shipibo": "Rámara pápa Iquítoain íqui.",
+        "spanish": "Ahora papá está en Iquitos.",
+        "english": "Now father is in Iquitos."
+      },
+      {
+        "shipibo": "Rámara títa Cacónco íqui.",
+        "spanish": "Ahora mamá está en Caco.",
+        "english": "Now mother is in Caco."
+      },
+      {
+        "shipibo": "Rabé Rákatara ea Jépehueain técque.",
+        "spanish": "Dos años he trabajado en Yarinacocha.",
+        "english": "I have worked in Yarinacocha for two years."
+      },
+      {
+        "shipibo": "Básíblresa pápa Róaboyanco técque.",
+        "spanish": "Durante mucho tiempo mi padre trabajó en Roaboya.",
+        "english": "My father worked in Roaboya for a long time."
+      },
+      {
+        "shipibo": "Cocáronqui Shánayaínoa huítábo nenichina ofncato.",
+        "spanish": "Cuentan que en Shanaya mi tío vio postes prendidos en el agua.",
+        "english": "They say that in Shanaya my uncle saw posts lit up in the water."
+      },
+      {
+        "shipibo": "Róoyaínshonra nocon cocán shóboayantanque.",
+        "spanish": "Estando en Roya mi tío construyó una casa.",
+        "english": "While in Roya my uncle built a house."
+      },
+      {
+        "shipibo": "Eara Jquitoaínoa íqui.",
+        "spanish": "Yo soy de Iquitos.",
+        "english": "I am from Iquitos."
+      },
+      {
+        "shipibo": "Jénepanshiaínoa coróquitín títa bil catira en shínanai.",
+        "spanish": "Pienso ir a la quebrada Conepancica para conseguir plata en bruto de allí.",
+        "english": "I plan to go to the Conepancica stream to get raw silver from there."
+      },
+      {
+        "shipibo": "Orompancoaía non Inca bíi cátira huestiora Jonín shínanai.",
+        "spanish": "Cierto hombre piensa ir para traer a nuestro Inca del río Urubamba.",
+        "english": "A certain man plans to go to bring our Inca from the Urubamba River."
+      },
+      {
+        "shipibo": "Eara Yarínaínoash jóque.",
+        "spanish": "He venido de Yarinao.",
+        "english": "I have come from Yarina."
+      },
+      {
+        "shipibo": "Eara Cacóncoaíash nocóque.",
+        "spanish": "He llegado de Caco.",
+        "english": "I have arrived from Caco."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 7.4.3.2",
+      "Bosquejo gramatical 8.3.2"
+    ],
+    "grammatical_notes": "Used to mark location of subject, location of object, place of action, origin/source, and origin of movement subject. Can combine with -oa, -nía, -shon, and -ash.",
+    "page_number": 88
+  },
+  {
+    "headword": "-ain",
+    "part_of_speech": "suffix",
+    "variant_forms": [
+      "-aínan",
+      "-ash",
+      "copi",
+      "-i",
+      "-quetian",
+      "-tian"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "Usado al final del verbo subordinado con el sentido de 'cuando', 'mientras', 'porque' o 'si'"
+    ],
+    "definitions_english": [
+      "Used at the end of subordinate verbs with the sense of 'when', 'while', 'because' or 'if'"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used at the end of subordinate verbs to mean 'when', 'while', 'because' or 'if'.",
+    "page_number": 88
+  },
+  {
+    "headword": "-ainco",
+    "part_of_speech": "suffix",
+    "variant_forms": [],
+    "etymology": "[del ship. -aín en + -nco en]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "Usado agregado a la raíz del verbo en una frase verbal que funciona como un sustantivo o como adverbio de lugar y tiene el sentido de 'en el lugar donde (una acción específica) sucede'"
+    ],
+    "definitions_english": [
+      "Used added to the verb root in a verbal phrase that functions as a noun or adverb of place and has the meaning 'in the place where (a specific action) happens'"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ea náshiaincora benés ique.",
+        "spanish": "Donde me baño no es profundo.",
+        "english": "Where I bathe is not deep."
+      },
+      {
+        "shipibo": "Jan tóo acainco cásha, ea ráquetai.",
+        "spanish": "Tengo miedo de ir donde él está disparando.",
+        "english": "I'm afraid to go where he is shooting."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Added to verb root in verbal phrase functioning as noun or place adverb meaning 'in the place where (action) happens'.",
+    "page_number": 88
+  },
+  {
+    "headword": "ainhuetsa",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ahuínhuetsa",
+      "aíntsa",
+      "aínhuetsan",
+      "ahuínhuetsan",
+      "aíntsan"
+    ],
+    "etymology": "[del ship. ant. aínhuetsa hermana de esposa, otra esposa]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "cuñada del hombre"
+    ],
+    "definitions_english": [
+      "man's sister-in-law"
+    ],
+    "examples": [
+      {
+        "shipibo": "Joninronqui jahuen ahuínhuetsa padsíshon huéshanibu.",
+        "spanish": "Cuentan que una vez un hombre borracho cortó la cabeza de su cuñada con un cuchillo.",
+        "english": "They say that once a drunk man cut off his sister-in-law's head with a knife."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "aínbo",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "aínbon",
+      "aínbaon",
+      "aínbaen"
+    ],
+    "etymology": "[del ship. ahuin esposa + -bo gente]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "mujer; persona o ser humano de sexo femenino; hembra de la especie humana"
+    ],
+    "definitions_english": [
+      "woman; female person or human being; female of the human species"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jenétia yoshín aínboaronqui jóni bóniqu bénéamoshon.",
+        "spanish": "Cuentan que antiguamente una sirena se llevó a un hombre que fuese su esposo.",
+        "english": "They say that long ago a mermaid took a man to be her husband."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 7.1.5"
+    ],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "aínboaon",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. aínbo mujer + ápo jefe]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "reina"
+    ],
+    "definitions_english": [
+      "queen"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 7.1.5"
+    ],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "aínbobaque",
+    "part_of_science": "noun",
+    "variant_forms": [
+      "aínbobaquen"
+    ],
+    "etymology": "[del ship. aínbo mujer + báque niño, cría]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "muchacha"
+    ],
+    "definitions_english": [
+      "girl"
+    ],
+    "examples": [
+      {
+        "shipibo": "A esta muchacha su madre le pintó la ínqlo bobaquera jahuen títán tsísquique.",
+        "spanish": "A esta muchacha su madre le pintó la cara.",
+        "english": "This girl's mother painted her face."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 7.1.5"
+    ],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "-amantanti",
+    "part_of_speech": "suffix",
+    "variant_forms": [],
+    "etymology": "[del ship. a-, raíz de án hacer + -ma no + -atan cuando + -bi aunque]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "antes que : hasta que"
+    ],
+    "definitions_english": [
+      "before : until"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ea joámantanbi nato huirápo sháayamacanhue — quihuiqui Incán jato acá iquí",
+        "spanish": "El Inca les dijo: —No tomen este guarapo hasta que yo venga",
+        "english": "The Inca told them: —Don't drink this guarapo until I come"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "used as a temporal marker meaning 'before', 'when', 'because' or 'if'",
+    "page_number": 89
+  },
+  {
+    "headword": "ajíntí",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ajénte",
+      "ajiátinin",
+      "ajéntenin"
+    ],
+    "etymology": "[del cast. agente]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "agente municipal"
+    ],
+    "definitions_english": [
+      "municipal agent"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ajíntnra ítati ácai huben cáibo quénaquín.",
+        "spanish": "El agente municipal toca la bocina para llamar a sus paisanos.",
+        "english": "The municipal agent blows the horn to call his townspeople."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "ajírica",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "áfrica",
+      "ajiricanín"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "Africanín : África"
+    ],
+    "definitions_english": [
+      "African : Africa"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "arámpiri"
+    ],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "alemania",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "Arimania"
+    ],
+    "definitions_english": [
+      "Germany"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Arimania"
+    ],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "amáca",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "amácanin"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "hamaca"
+    ],
+    "definitions_english": [
+      "hammock"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "A type of hammock from Yacurunas. They say that the boa is the hammock of the Yacurunas.",
+    "page_number": 89
+  },
+  {
+    "headword": "amén",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ámeman"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "ronsoco"
+    ],
+    "definitions_english": [
+      "capybara"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Long ago a man caught a capybara at a 'tarrafear' (fishing place)",
+    "page_number": 89
+  },
+  {
+    "headword": "aménhuaca",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "aménhuacan"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "miembro del grupo etnolingüístico amahuaca : amahuaca"
+    ],
+    "definitions_english": [
+      "member of the Amahuaca ethnolinguistic group : Amahuaca"
+    ],
+    "examples": [
+      {
+        "shipibo": "Aménhuaca jónibora raómis iqui.",
+        "spanish": "Los amahuaca tienen la costumbre de hechizar con pócimas vegetales.",
+        "english": "The Amahuaca have the custom of using plant potions for sorcery."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "améntamo",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "améntamon"
+    ],
+    "etymology": "[del ship. amén 'ronsoco' + támo 'mejilla']",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "miembro del grupo étnolingüístico amenture : amenture"
+    ],
+    "definitions_english": [
+      "member of the Amenture ethnolinguistic group : Amenture"
+    ],
+    "examples": [
+      {
+        "shipibo": "Améntamo jónibora moa shípiboya méscota iqui.",
+        "spanish": "Los amenture ya están bien mezclados con los shipibo.",
+        "english": "The Amenture are now well mixed with the Shipibo."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "amí",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ámican"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "cagüeña"
+    ],
+    "definitions_english": [
+      "cagüeña (type of bird)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ainbaonra jahuea chíonti ámican pócoai.",
+        "spanish": "La mujer tiñe su pampanilla con el tinte de cagüeña.",
+        "english": "The woman dyes her pampanilla with cagüeña dye."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "amíco",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "amicon"
+    ],
+    "etymology": "[del cast. amigo]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "miembro de un grupo étnico residente en Cashiboya : cashiboyano",
+      "miembro del grupo étnico cocamilla"
+    ],
+    "definitions_english": [
+      "member of an ethnic group resident in Cashiboya : Cashiboyan",
+      "member of the Cocamilla ethnic group"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato amíco jónira chipónquiash nocóque.",
+        "spanish": "Este cashiboyano ha llegado de río abajo.",
+        "english": "This Cashiboyan has arrived from downriver."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "amíquesca",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "amíquescatonía"
+    ],
+    "etymology": "[del ship. amí especie de árbol + quesca semejante a]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "color violáceo"
+    ],
+    "definitions_english": [
+      "violet color"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "amírica",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "américa",
+      "american",
+      "américan"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "América"
+    ],
+    "definitions_english": [
+      "America"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "nórti amírica",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "nórte america"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "Norte América"
+    ],
+    "definitions_english": [
+      "North America"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "álimentantí",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [],
+    "definitions_english": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "aráimintantí"
+    ],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "ámaquirí",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ámaquirin"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "gamitana"
+    ],
+    "definitions_english": [
+      "gamitana (a type of fish)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Amaquirí huácanáhua ácaitianra jóni quétocan mápoque.",
+        "spanish": "Cuando el hombre picaba gamitanas en una mijanada, un derrumbe en el barranco lo tapó.",
+        "english": "When the man was catching gamitanas in a stream pool, a landslide in the ravine buried him."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "ámati",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "ámaa"
+    ],
+    "etymology": "[del ship. án, a- + -ma hacer]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "invitar a (ofrecer p. ej., comida)"
+    ],
+    "definitions_english": [
+      "to invite to (offer e.g., food)"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "ámican ehua",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ámican éhuan"
+    ],
+    "etymology": "[del ship. amí, ámican especie de árbol + ehua, aument.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "itaúba"
+    ],
+    "definitions_english": [
+      "itaúba (type of tree)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Imiriaara ámican ehua íchá yóicanai.",
+        "spanish": "Dicen que en Imiria abundan las itaúbas.",
+        "english": "They say that in Imiria itaúba trees are abundant."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "-an",
+    "part_of_speech": "suffix",
+    "variant_forms": [
+      "-en"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "desinencia para la forma no básica del sustantivo y del adjetivo"
+    ],
+    "definitions_english": [
+      "ending for the non-basic form of the noun and adjective"
+    ],
+    "examples": [
+      {
+        "shipibo": "díuitashanra ea chéshai",
+        "spanish": "La pierna me duele",
+        "english": "My leg hurts"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 7.1"
+    ],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "-anan",
+    "part_of_speech": "suffix",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "sufijo de verbo subordinado que indica coordinación de dos acciones realizadas por un mismo sujeto; agrega a la raíz del verbo transitivo convirtiéndolo en intransitivo"
+    ],
+    "definitions_english": [
+      "subordinate verb suffix indicating coordination of two actions performed by the same subject; adds to the root of the transitive verb converting it to intransitive"
+    ],
+    "examples": [
+      {
+        "shipibo": "Oa átapa rabéra reteananal",
+        "spanish": "Esas dos gallinas se pelearon",
+        "english": "Those two chickens fought"
+      },
+      {
+        "shipibo": "Jónibora íbora shá iqui bianancarca iqui",
+        "spanish": "Al realizar la marcha típica, los hombres se reunieron",
+        "english": "When performing the traditional march, the men gathered"
+      },
+      {
+        "shipibo": "Nócon pápan jahuen pátoron betan yómetssnanque cónshaman",
+        "spanish": "Mi padre y su patrón se robaban madera mutuamente",
+        "english": "My father and his boss stole wood from each other"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 7.4.2"
+    ],
+    "grammatical_notes": "Used with the force of 'mutually' to indicate reciprocity. Used with the force of 'together' to add a suffix to the verb root converting the transitive verb into intransitive.",
+    "page_number": 90
+  },
+  {
+    "headword": "ampo",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "Sur América",
+      "América del Sur"
+    ],
+    "definitions_english": [
+      "South America",
+      "South America"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Sóro Amírica"
+    ],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "ampo",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ampón"
+    ],
+    "etymology": "[del cast. amb, o, clem. de Ambrosio]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "nombre masculino"
+    ],
+    "definitions_english": [
+      "masculine name"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used as a masculine name",
+    "page_number": 90
+  },
+  {
+    "headword": "ana",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "anán"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "nombre femenino"
+    ],
+    "definitions_english": [
+      "feminine name"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used as a feminine name",
+    "page_number": 90
+  },
+  {
+    "headword": "aná",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ánacan"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "catahua",
+      "demonio identificado con la catahua"
+    ],
+    "definitions_english": [
+      "catahua (tree species)",
+      "demon identified with the catahua"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Anacan báqueronquiqui tóncobires"
+    ],
+    "grammatical_notes": "They say that the son of the catahua demon has protuberances all over his body",
+    "page_number": 90
+  },
+  {
+    "headword": "anátsa",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "esperar"
+    ],
+    "definitions_english": [
+      "to wait"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "átsa"
+    ],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "áni",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "anin"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "grande"
+    ],
+    "definitions_english": [
+      "big, large"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nocon papán áni iná retenique",
+        "spanish": "Mi papá mató a un tigre grande",
+        "english": "My father killed a big tiger"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "ANI, ASPA, OE can all be translated as 'big', but ANI refers to big in general, while ASPA implies a large receptacle and OE refers to what is abnormally large",
+    "page_number": 90
+  },
+  {
+    "headword": "áni iti",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "bajo iti"
+    ],
+    "definitions_english": [
+      "low iti"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "íti"
+    ],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "ániatapa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "tapa grande"
+    ],
+    "definitions_english": [
+      "big lid"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "átapa"
+    ],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "ániati",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [],
+    "etymology": "[del ship. áni grande + -ati hacer]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "criar",
+      "agrandar, ampliar"
+    ],
+    "definitions_english": [
+      "to raise, rear",
+      "to enlarge, expand"
+    ],
+    "examples": [
+      {
+        "shipibo": "Titashoconbichora Jahuen bába ánlaque",
+        "spanish": "La abuelita, sola, crió a su nieto",
+        "english": "The grandmother, alone, raised her grandson"
+      },
+      {
+        "shipibo": "Ghoboániati ampliar la casa",
+        "spanish": "Ampliar la casa",
+        "english": "To expand the house"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "ániana"
+    ],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "ánibo",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. áni grande + -bo, sf. pl.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "padres"
+    ],
+    "definitions_english": [
+      "parents"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jahuen ánibaon pótaara báque mahuáque",
+        "spanish": "El muchacho murió abandonado por sus padres",
+        "english": "The boy died abandoned by his parents"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "áníbon"
+    ],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "ánicape",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "bajo capé"
+    ],
+    "definitions_english": [
+      "low cape"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "capé"
+    ],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "ánicochara",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ánicocharanin"
+    ],
+    "etymology": "[del ship. áni grande + cochara cuohara]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "cucharacharada grande"
+    ],
+    "definitions_english": [
+      "big spoon, large spoonful"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "ánicoma",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "bajo coma"
+    ],
+    "definitions_english": [
+      "low coma"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "cóma"
+    ],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "ánijema",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ánijeman"
+    ],
+    "etymology": "[del ship. áni grande + jema pueblo]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "ciudad de gran tamaño"
+    ],
+    "definitions_english": [
+      "city of great size"
+    ],
+    "examples": [
+      {
+        "shipibo": "Anijema oinyosma Icásha, Rimán cásh nocas epán háque ratéque",
+        "spanish": "El hijo de mi tío paterno se fue a Lima y se admiró porque nunca había visto una ciudad grande",
+        "english": "My paternal uncle's son went to Lima and was amazed because he had never seen a big city"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "ánima",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "ániman",
+      "ánlmaan"
+    ],
+    "etymology": "[del ship. áni grande + -ma no]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "pequeño, chico"
+    ],
+    "definitions_english": [
+      "small, little"
+    ],
+    "examples": [
+      {
+        "shipipo": "Anima átapara ahuápanin bóque",
+        "spanish": "El tigrillo se llevó una pequeña gallina",
+        "english": "The ocelot carried off a small chicken"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "ánimashoco"
+    ],
+    "grammatical_notes": "ANIMA, MASHCO, SOTO can all be translated as 'small'. While ANIMA refers to small in general, MASHCO is more specific for 'small of stature' and can imply early age; and SOTO implies a small thing (a small one, e.g.) that is short and thick as well as small",
+    "page_number": 90
+  },
+  {
+    "headword": "ánimal",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ánimaln"
+    ],
+    "etymology": "[del ship. áni grande + mái tierra]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "región, zona"
+    ],
+    "definitions_english": [
+      "region, zone"
+    ],
+    "examples": [
+      {
+        "shipibo": "Piro iqui quimishá áni mála; ániparo quésha Máshi; napon iqui Animanan; néque iqui Manish Niia",
+        "spanish": "El Perú tiene tres regiones: a la orilla del mar está la Costa; en el centro, la Sierra; y al otro extremo está la Selva",
+        "english": "Peru has three regions: on the seashore is the Coast; in the center, the Sierra; and at the other extreme is the Jungle"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "ánimanaan",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ánlmanaman"
+    ],
+    "etymology": "[del ship. áni grande + mandá sierra]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "sierra de montañas"
+    ],
+    "definitions_english": [
+      "mountain range"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "áníhuanin",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "bajo huanín"
+    ],
+    "definitions_english": [
+      "low huanin"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "huanín"
+    ],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "Antónyo",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "Antónyonin"
+    ],
+    "etymology": "[del cast. Antonio]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "nombre masculino"
+    ],
+    "definitions_english": [
+      "masculine name"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used as a masculine personal name",
+    "page_number": 91
+  },
+  {
+    "headword": "Ao",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "Aón"
+    ],
+    "etymology": "[del cast. au, elem. de Aurora]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "nombre femenino"
+    ],
+    "definitions_english": [
+      "feminine name"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used as a feminine personal name",
+    "page_number": 91
+  },
+  {
+    "headword": "anitama",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "anitaman",
+      "anitamanin"
+    ],
+    "etymology": "[del ship. ánita, part. de aniti crecer + -ma no]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "muy pequeño"
+    ],
+    "definitions_english": [
+      "very small"
+    ],
+    "examples": [
+      {
+        "shipibo": "Papán nónüra anitama iquí, ja ráma. La canoa que papá hizo recientemente es muy pequeña.",
+        "spanish": "La canoa que papá hizo recientemente es muy pequeña.",
+        "english": "The canoe that dad made recently is very small."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "aó",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "áocan"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de árbol pequeño; el fruto del árbol aó que se parece al del huito"
+    ],
+    "definitions_english": [
+      "species of small tree; the fruit of the aó tree that resembles that of the huito"
+    ],
+    "examples": [
+      {
+        "shipibo": "Aó bími máitianra pano ámaquiri cháchique.",
+        "spanish": "Papá picó la garganta mientras ésta comía los frutos del árbol aó.",
+        "english": "Dad hit [the bird's] throat while it was eating the fruits of the aó tree."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "áni",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [
+      "ánta"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "crecer (un organismo)"
+    ],
+    "definitions_english": [
+      "to grow (an organism)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Incán báque máno meran míina beshóronqui joínqui béchota iquí; jainoáshonqui já báque ishtónbires ánia iquí.",
+        "spanish": "Cuentan que el hijo del Inca enterrado en barro y que un hombre lo sacó y le lavó la cara; entonces el niño creció rápidamente.",
+        "english": "They say that the Inca's son buried in mud was taken out by a man who washed his face; then the child grew rapidly."
+      }
+    ],
+    "synonyms": [
+      "shóshoti"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "áni shéatí",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "áni shéatinin"
+    ],
+    "etymology": "[del ship. áni + shéani bebida]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "fiesta grande que antes se celebraba para cortar el cabello de las muchachas o para matar un animal del monte criado especialmente para tal ocasión"
+    ],
+    "definitions_english": [
+      "great festival formerly celebrated to cut the girls' hair or to kill a forest animal raised especially for such an occasion"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ani shéatinin íshéai en jóti íqui quénabira, jocáshamaque.",
+        "spanish": "A pesar de que le invité a venir a la fiesta áni shéatí para beber chicha, no quiso venir.",
+        "english": "Even though I invited him to come to the áni shéatí festival to drink chicha, he didn't want to come."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "ánimasen",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de cucaracha"
+    ],
+    "definitions_english": [
+      "species of cockroach"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "masén",
+      "motóro",
+      "paránta"
+    ],
+    "grammatical_notes": "See also masén, motóro, and paránta",
+    "page_number": 91
+  },
+  {
+    "headword": "ániparanta",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de cucaracha"
+    ],
+    "definitions_english": [
+      "species of cockroach"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "paránta"
+    ],
+    "grammatical_notes": "See paránta",
+    "page_number": 91
+  },
+  {
+    "headword": "ániparo",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ániparon"
+    ],
+    "etymology": "[del ship. áni grande + páro río]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "mar",
+      "océano"
+    ],
+    "definitions_english": [
+      "sea",
+      "ocean"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ániparomea béchomanra huestiora ainbo bóque.",
+        "spanish": "Las olas del mar se llevaron a una mujer.",
+        "english": "The waves of the sea carried away a woman."
+      },
+      {
+        "shipibo": "Ániparoronqui táshi iquí.",
+        "spanish": "Dicen que el mar es salado.",
+        "english": "They say the sea is salty."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "ánipoco",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de cucaracha"
+    ],
+    "definitions_english": [
+      "species of cockroach"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "póco"
+    ],
+    "grammatical_notes": "See póco",
+    "page_number": 91
+  },
+  {
+    "headword": "ánirica",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de cucaracha"
+    ],
+    "definitions_english": [
+      "species of cockroach"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "rica"
+    ],
+    "grammatical_notes": "See rica",
+    "page_number": 91
+  },
+  {
+    "headword": "ánisantira",
+    "part_of_society": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de cucaracha"
+    ],
+    "definitions_english": [
+      "species of cockroach"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "santíra"
+    ],
+    "grammatical_notes": "See santíra",
+    "page_number": 91
+  },
+  {
+    "headword": "ánjiri",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ánjirinin"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "ángel"
+    ],
+    "definitions_english": [
+      "angel"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "ánsiano",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "ánsianon"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "anciano"
+    ],
+    "definitions_english": [
+      "old, elderly"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "ánta",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "antán"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "guayabo acuático"
+    ],
+    "definitions_english": [
+      "aquatic guava"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato ánta nia namanra, coriqui miin iquí.",
+        "spanish": "Debajo de este guayabo acuático, hay dinero enterrado.",
+        "english": "Under this aquatic guava tree, there is buried money."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "ánticoo",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "ántigoo",
+      "ánticoon",
+      "ántigoon"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "antiguo"
+    ],
+    "definitions_english": [
+      "ancient, old"
+    ],
+    "examples": [],
+    "synonyms": [
+      "moásheni"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "ántigoo",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ánticoo"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de árbol"
+    ],
+    "definitions_english": [
+      "species of tree"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "ántiojo",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ántiojon"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "anteojos"
+    ],
+    "definitions_english": [
+      "eyeglasses, spectacles"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "ápacharama",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ápacharaman"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "apacharama"
+    ],
+    "definitions_english": [
+      "apacharama (type of person or thing)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Apacharan bénai caasha nocon pápa benóque.",
+        "spanish": "Mi papá se fue a buscar apacharama y se extravió.",
+        "english": "My father went to look for apacharama and got lost."
+      }
+    ],
+    "synonyms": [
+      "mei"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "ápaqueti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "ápaquea"
+    ],
+    "etymology": "[del ship. áti hacer + -paque hacia abajo]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "bajar"
+    ],
+    "definitions_english": [
+      "to lower, to bring down"
+    ],
+    "examples": [
+      {
+        "shipibo": "Abioninicara jóni ísínai icháshon ápaquecangue.",
+        "spanish": "Entre varios bajaron a un hombre enfermo del avión.",
+        "english": "Among several people they brought down a sick man from the airplane."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "ápasahua",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ápasahuan"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de animal mitológico"
+    ],
+    "definitions_english": [
+      "species of mythological animal"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used to imagine a large monkey or bear. Moátianronqui huestiora báquequi ápasahua béniqui. (They say that long ago the ápasahua carried away a child.)",
+    "page_number": 91
+  },
+  {
+    "headword": "ápashiro",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ápashiron"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "iguana"
+    ],
+    "definitions_english": [
+      "iguana"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jóni kénotaronqui moátian ápashironqui piconique.",
+        "spanish": "Cuentan que antiguamente la iguana sacó a un hombre que se había extraviado.",
+        "english": "They say that long ago the iguana rescued a man who had gotten lost."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "ápechido",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de ave"
+    ],
+    "definitions_english": [
+      "species of bird"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "ápichiro"
+    ],
+    "grammatical_notes": "See ápichiro",
+    "page_number": 91
+  },
+  {
+    "headword": "áño",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "anón"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "majás"
+    ],
+    "definitions_english": [
+      "paca (rodent)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Tashacan nónaira epán áño réteque.",
+        "spanish": "El tío mató un majás que nadaba en la tahuampa.",
+        "english": "The uncle killed a paca that was swimming in the swamp."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "-aque",
+    "part_of_speech": "suffix",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "alrededor"
+    ],
+    "definitions_english": [
+      "around"
+    ],
+    "examples": [
+      {
+        "shipibo": "«Nato shóbo cátequinra non oínhaque- tanque; Ishónbira non jáhuebi mérayamaque. Miramos alrededor de esta casa, pero no encontramos nada.»",
+        "spanish": "Miramos alrededor de esta casa, pero no encontramos nada",
+        "english": "We looked around this house, but we found nothing"
+      },
+      {
+        "shipibo": "«Báque mún- cana bënáinihimaranqui jonín bënaaque- tanquin Incán báque mëranque máño meranoa. Cuentan que hace mucho tiempo un niño estaba llorando y un hombre lo buscaba por los alrededores»",
+        "spanish": "Cuentan que hace mucho tiempo un niño estaba llorando y un hombre lo buscaba por los alrededores",
+        "english": "They say that long ago a child was crying and a man was searching for him around the area"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used after the root of the verb and followed by -tan",
+    "page_number": 92
+  },
+  {
+    "headword": "Ara",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "Arán"
+    ],
+    "etymology": "[del cast. ola, elem. de Aladino o Aladina]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "nombre masculino o femenino"
+    ],
+    "definitions_english": [
+      "masculine or feminine name"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used as a masculine or feminine name",
+    "page_number": 92
+  },
+  {
+    "headword": "Arabírito",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "Arabiritonin"
+    ],
+    "etymology": "[del cast. Alberto]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "nombre masculino"
+    ],
+    "definitions_english": [
+      "masculine name"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used as a masculine name",
+    "page_number": 92
+  },
+  {
+    "headword": "apón ániyacati",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "apón ániyacatiin"
+    ],
+    "etymology": "[del ship. ápo, apón rey + áni grande + yácati asiento]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "trono"
+    ],
+    "definitions_english": [
+      "throne"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 92
+  },
+  {
+    "headword": "aquín",
+    "part_of_speech": "interjection",
+    "variant_forms": [],
+    "etymology": "[del ship. formas subordinadas de áti hacer]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "hazlo, hágalo (forma repetida con el sentido de hazlo o hágalo)"
+    ],
+    "definitions_english": [
+      "do it (repeated form with the sense of do it)"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "-i"
+    ],
+    "grammatical_notes": null,
+    "page_number": 92
+  },
+  {
+    "headword": "aquínti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "áquina"
+    ],
+    "etymology": "[del ship. áti hacer + -quin ayudando]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "ayudar"
+    ],
+    "definitions_english": [
+      "help"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jahuen ráyosen husñatianra papán aquínque. Cuando su yerno hacía la chacra, papá le ayudaba.»",
+        "spanish": "Cuando su yerno hacía la chacra, papá le ayudaba",
+        "english": "When his son-in-law was making the field, father helped him"
+      }
+    ],
+    "synonyms": [
+      "-quin"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 92
+  },
+  {
+    "headword": "arábi",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "arábinin"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "árabe"
+    ],
+    "definitions_english": [
+      "Arab, Arabic"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 92
+  },
+  {
+    "headword": "arábibaan",
+    "part_of_speech": "adjective",
+    "variant_forms": [],
+    "etymology": "[del ship. arábi árabe + -boon, forma no básica de -bo, sf. pl.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "arábigo"
+    ],
+    "definitions_english": [
+      "Arabic"
+    ],
+    "examples": [
+      {
+        "shipibo": "1, 2, 3 riqui arábinbaon nómiro. 1, 2, 3 son numerales arábigos.»",
+        "spanish": "1, 2, 3 son numerales arábigos",
+        "english": "1, 2, 3 are Arabic numerals"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 92
+  },
+  {
+    "headword": "arámpiri",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "alámbri",
+      "arámpirin",
+      "alámbrinin"
+    ],
+    "etymology": "[del cast. alambre]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "alambre; alambre de púas"
+    ],
+    "definitions_english": [
+      "wire; barbed wire"
+    ],
+    "examples": [
+      {
+        "shipibo": "«Máioshainra mescó arámpiri jáque; nocon papánra jáinoa icha béque jato máromati. En Pucallpa hay diferentes clases de alambres»",
+        "spanish": "En Pucallpa hay diferentes clases de alambre",
+        "english": "In Pucallpa there are different kinds of wire"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Specifically refers to barbed wire",
+    "page_number": 92
+  },
+  {
+    "headword": "ápichiro",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ápechido"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "apellido"
+    ],
+    "definitions_english": [
+      "surname"
+    ],
+    "examples": [
+      {
+        "shipibo": "¿Jáhue jánerin mía? ¿Min ápichirocan? ¿Cómo se llama usted? ¿Su apellido?",
+        "spanish": "¿Cómo se llama usted? ¿Su apellido?",
+        "english": "What is your name? Your surname?"
+      }
+    ],
+    "synonyms": [
+      "jánetequi"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 92
+  },
+  {
+    "headword": "ápo",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "apón"
+    ],
+    "etymology": "[del quech. apu gobernante]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "jefe",
+      "subprefecto; prefecto",
+      "presidente"
+    ],
+    "definitions_english": [
+      "chief",
+      "subprefect; prefect",
+      "president"
+    ],
+    "examples": [
+      {
+        "shipibo": "«Non rícta nanti pícoa!. Si expulsan a nuestro presidente, haremos una guerra.»",
+        "spanish": "Si expulsan a nuestro presidente, haremos una guerra",
+        "english": "If they expel our president, we will wage war"
+      },
+      {
+        "shipibo": "«spányorobaon ápo el rey de España»",
+        "spanish": "el rey de España",
+        "english": "the king of Spain"
+      },
+      {
+        "shipibo": "«gobérno 〈Apóna noa roriqui ménique icóira shóbati. El gobierno nos ha dado dinero para construir la escuela.»",
+        "spanish": "El gobierno nos ha dado dinero para construir la escuela",
+        "english": "The government has given us money to build the school"
+      }
+    ],
+    "synonyms": [
+      "APO",
+      "PIVOTA",
+      "cóshi"
+    ],
+    "cross_references": [],
+    "grammatical_notes": "APO, PIVOTA: both can be translated as 'president', but APO, the native word, is more common",
+    "page_number": 92
+  },
+  {
+    "headword": "ápo",
+    "part_of_speech": "interjection",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "¡ay! (expresión de dolor, temor o sorpresa al acordarse de algo olvidado)"
+    ],
+    "definitions_english": [
+      "oh! ouch! (expression of pain, fear or surprise, or upon remembering something forgotten)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "APO",
+      "ARI",
+      "ARIRISH",
+      "AYAO",
+      "ERI",
+      "JII",
+      "SHII"
+    ],
+    "cross_references": [],
+    "grammatical_notes": "Used as emotional expressions of pain, fear or surprise corresponding to Spanish 'ay!' In Castellano: ARI signifies a cry of pain; ARIRISH, the painful cry of a demon; ERI, a cry of surprise; JII and SHII, both cries of fright; and AYAO, a Castilian loan less used than ARI, a cry of pain. APO can be softer and imply less emotion than the other synonyms.",
+    "page_number": 92
+  },
+  {
+    "headword": "áraai",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "áraa"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "agujerear en varias partes"
+    ],
+    "definitions_english": [
+      "to perforate in various places"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato baquénra jahuen titán tasón rásaque, malvacati íconi pécashibo Este muchacho agujereó el tazón de su mamá con un clavo.»",
+        "spanish": "Este muchacho agujereó el tazón de su mamá con un clavo",
+        "english": "This boy perforated his mother's bowl with a nail"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 92
+  },
+  {
+    "headword": "árán",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "arán"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "oxidado"
+    ],
+    "definitions_english": [
+      "rusted, oxidized"
+    ],
+    "examples": [
+      {
+        "shipibo": "«Machito arara papán rásaque. Papá raspó el óxido del machete»",
+        "spanish": "Papá raspó el óxido del machete",
+        "english": "Father scraped the rust off the machete"
+      }
+    ],
+    "synonyms": [
+      "yámipoi"
+    ],
+    "cross_references": [],
+    "grammatical_notes": "Exclamation",
+    "page_number": 92
+  },
+  {
+    "headword": "-aresti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "-aresa"
+    ],
+    "etymology": "[del ship. áti, a- hacer + -res no más + -ti, sf. inf]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "vencer"
+    ],
+    "definitions_english": [
+      "to defeat, overcome"
+    ],
+    "examples": [
+      {
+        "shipibo": "éanaresti, míaaresti, jáaresti, nóaaresti míaaresti, jáoaresti vencerme",
+        "spanish": "vencerme, vencerte, vencerlo o vencerla, vencernos, vencerlos a ellos o vencerlas a ellas",
+        "english": "to defeat me, to defeat you, to defeat him or her, to defeat us, to defeat them"
+      },
+      {
+        "shipibo": "En arós saco páptara éaaresque",
+        "spanish": "El saco de arroz que cargué me venció",
+        "english": "The sack of rice I carried defeated me"
+      },
+      {
+        "shipibo": "Ja jónira moa yóslora iqui; jécorra míiaaresque",
+        "spanish": "Aquel hombre ya es muy maduro; por eso te ha vencido",
+        "english": "That man is already very mature; that's why he has defeated you"
+      },
+      {
+        "shipibo": "chashon non tapán níniabira nóaaresque",
+        "spanish": "Aunque jalamos la balsa entre varios, nos venció",
+        "english": "Even though we pulled the raft together, it defeated us"
+      },
+      {
+        "shipibo": "Máton jénequetiarra, mátoaresque",
+        "spanish": "Como ustedes dejaron de esforzarse, les ha vencido",
+        "english": "Since you stopped trying, it has defeated you"
+      },
+      {
+        "shipibo": "Piróánim tsúniquin non játoaresara sinácanque",
+        "spanish": "Se enojaron porque les vencimos jugando fútbol",
+        "english": "They got angry because we defeated them playing soccer"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used with pronominal forms éa-, mía-, ja-, néa-, máo- and jáo- that function as the direct object.",
+    "page_number": 93
+  },
+  {
+    "headword": "ari",
+    "part_of_speech": "interjection",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "¡ay! (como exclamación de dolor)"
+    ],
+    "definitions_english": [
+      "ouch! (as an exclamation of pain)"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "ápo"
+    ],
+    "grammatical_notes": "Used with the sense of '¡ay!' as an exclamation of pain.",
+    "page_number": 93
+  },
+  {
+    "headword": "ari",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "arín"
+    ],
+    "etymology": "[del cast. Arroz]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "nombre masculino"
+    ],
+    "definitions_english": [
+      "masculine name"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used as a masculine name.",
+    "page_number": 93
+  },
+  {
+    "headword": "arimanía",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "alemania",
+      "arimaniánin"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "Alemanía",
+      "Alemania"
+    ],
+    "definitions_english": [
+      "Germany",
+      "Germany"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "arámpiri quere",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "bre de púas; y de allí mi padre trajo muchos para vender"
+    ],
+    "definitions_english": [
+      "man of stakes; and from there my father brought many to sell"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "queré"
+    ],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "aráshti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "sujetar (p. ej., con dos palos) a manera de tenazas"
+    ],
+    "definitions_english": [
+      "to hold, grasp (e.g., with two sticks) like tongs"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jíhuin aráshonra nato quíni meranoa en chíchica bique",
+        "spanish": "Saqué el cuchillo de este hueco agarrándolo con dos palitos",
+        "english": "I took the knife from this hole by grasping it with two sticks"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "aríari",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "aríarican",
+      "ariarín"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "ashara"
+    ],
+    "definitions_english": [
+      "ashara"
+    ],
+    "examples": [
+      {
+        "shipibo": "Cocána ahuínra aríari piósma iqui",
+        "spanish": "La mujer de mi tío nunca ha comido ashara",
+        "english": "My uncle's wife has never eaten ashara"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "arína",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "arínánin"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "harina"
+    ],
+    "definitions_english": [
+      "flour"
+    ],
+    "examples": [
+      {
+        "shipibo": "quínisha hueá arínaya mescóti mezclár con tres medidas de harina",
+        "spanish": "Mezclarlo con tres medidas de harina",
+        "english": "Mix it with three measures of flour"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "árapa",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "árpanin",
+      "árpania"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "arpa"
+    ],
+    "definitions_english": [
+      "harp"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "árati",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "picarse en la superficie",
+      "oxidarse"
+    ],
+    "definitions_english": [
+      "to become pitted on the surface",
+      "to rust"
+    ],
+    "examples": [
+      {
+        "shipibo": "Titán yámiquentira moa áraque, ján táshi nánota icash",
+        "spanish": "La olla de mamá se picó porque pusieron sal en ella",
+        "english": "Mom's pot got pitted because they put salt in it"
+      },
+      {
+        "shipibo": "Moa áraquetiarra nato yamín moa tsóa téeyamai",
+        "spanish": "Como ya se oxidó, nadie trabaja con esta hacha",
+        "english": "Since it has already rusted, nobody works with this axe"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "áresti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "permitir"
+    ],
+    "definitions_english": [
+      "to permit, allow"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato jahuéquibora áresti iqui",
+        "spanish": "Estas cosas son permitidas",
+        "english": "These things are permitted"
+      }
+    ],
+    "synonyms": [
+      "ma"
+    ],
+    "cross_references": [],
+    "grammatical_notes": "ARESTI, BINSINTI both translate as 'to allow, permit,' but ARESTI as a form always combined with the personal pronoun is more limited in use. On the other hand, BINSINTI implies only one person as winner/victor; while ARESTI can imply a person or thing that overcomes one.",
+    "page_number": 93
+  },
+  {
+    "headword": "árihua",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "árihuanin"
+    ],
+    "etymology": "[del ship. árihua, onomat. del canto]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "tarahui",
+      "churo-gavilán"
+    ],
+    "definitions_english": [
+      "tarahui",
+      "snail hawk"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nócho pícasironqui árihua quéotai",
+        "spanish": "Dicen que el tarahui canta cuando quiere comer 'churos'",
+        "english": "They say the tarahui sings when it wants to eat snails"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "áriman",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "árimanin"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "alemán"
+    ],
+    "definitions_english": [
+      "German"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ármanbóronqui áni jónibo iqui",
+        "spanish": "Dicen que los alemanes son gente de estatura alta",
+        "english": "They say that Germans are people of tall stature"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "árimintani",
+    "part_of_process": "intransitive verb",
+    "variant_forms": [
+      "álimentani"
+    ],
+    "etymology": "[del cast. alimentar + ship. -ti, sf. de derivación vbli]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "alimentar"
+    ],
+    "definitions_english": [
+      "to feed, nourish"
+    ],
+    "examples": [
+      {
+        "shipibo": "árimintana mescóti yóinánin i bánacan",
+        "spanish": "Nos alimentamos con la carne de varios animales y con algunas plantas",
+        "english": "We feed ourselves with the meat of various animals and with some plants"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "árirish",
+    "part_of_speech": "interjection",
+    "variant_forms": [],
+    "etymology": "[del ship. arí exclamación + ish, exclamación]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "¡ay! (como expresión del grito de dolor de un demonio)"
+    ],
+    "definitions_english": [
+      "ouch! (as an expression of the cry of pain of a demon)"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "ápo"
+    ],
+    "grammatical_notes": "Used with the sense '¡ay!' as an expression of the cry of pain of a demon.",
+    "page_number": 93
+  },
+  {
+    "headword": "-ariti",
+    "part_of_speech": "suffix",
+    "variant_forms": [
+      "-arita"
+    ],
+    "etymology": "[del ship. -ati hacer + n, elem. no ident.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "hacer sonar de súbito"
+    ],
+    "definitions_english": [
+      "to make sound suddenly"
+    ],
+    "examples": [
+      {
+        "shipibo": "‹Nato baquënra jahuen titán chömo rishquiquín tan arique›",
+        "spanish": "Este niño golpeó la tinaja de su mamá, haciéndola sonar de súbito",
+        "english": "This child hit his mother's jar, making it sound suddenly"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "arís",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "arisin"
+    ],
+    "etymology": "[del cast. arís, elem. de Aristides]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "nombre masculino"
+    ],
+    "definitions_english": [
+      "masculine name"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used as a masculine name",
+    "page_number": 94
+  },
+  {
+    "headword": "arón",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "aroman"
+    ],
+    "etymology": "[del cast. alon, elem. de Alonso]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "nombre masculino"
+    ],
+    "definitions_english": [
+      "masculine name"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used as a masculine name",
+    "page_number": 94
+  },
+  {
+    "headword": "arós",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "árosen"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "arroz"
+    ],
+    "definitions_english": [
+      "rice"
+    ],
+    "examples": [
+      {
+        "shipibo": "‹Inbaonronqui arós cobiáha šhanánqui huísoino racášhon rëteníque›",
+        "spanish": "Cuentan que en la antigüedad una mujer mató a un vampiro arrojándole arroz cocido y caliente",
+        "english": "They say that in ancient times a woman killed a vampire by throwing cooked and hot rice at it"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "ashpáti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "áshpana"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "abrir las piernas a"
+    ],
+    "definitions_english": [
+      "to open the legs of"
+    ],
+    "examples": [
+      {
+        "shipibo": "‹Capóhanoshonra papán cochi ashpánque›",
+        "spanish": "Papá le abrió las piernas al chancho para caparlo",
+        "english": "Dad opened the pig's legs to castrate it"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "ashpáti",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [
+      "áshpata"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "abrirse de piernas"
+    ],
+    "definitions_english": [
+      "to spread one's legs"
+    ],
+    "examples": [
+      {
+        "shipibo": "‹Rain- [incomplete entry]›",
+        "spanish": "quedarse con las piernas abiertas",
+        "english": "to stay with legs spread"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "ashá",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "áshacan"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de sapo de tamaño grande",
+      "campa"
+    ],
+    "definitions_english": [
+      "species of large toad",
+      "Campa (indigenous group)"
+    ],
+    "examples": [
+      {
+        "shipibo": "‹Ashacanronqui ainbo chópaashonique›",
+        "spanish": "Cuentan que cierta vez el sapo ashá hizo ropa para una mujer",
+        "english": "They say that once the ashá toad made clothes for a woman"
+      },
+      {
+        "shipibo": "‹Jainra ashá jóai›",
+        "spanish": "Allí viene un campa",
+        "english": "There comes a Campa"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "ASHA, CAMPA los dos se pueden traducir como 'campa', pero ASHA tiene otro significado también y por consiguiente es menos usado para denotar al grupo etnolingüístico",
+    "page_number": 94
+  },
+  {
+    "headword": "ashón",
+    "part_of_speech": "adverb",
+    "variant_forms": [],
+    "etymology": "[del quech. ashwan más]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "muy",
+      "más"
+    ],
+    "definitions_english": [
+      "very",
+      "more"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used mostly among speakers of Shëtebo. Variants: bebóbires; -bi; -ba; quiquin; -riba; -ëha-; -ma",
+    "page_number": 94
+  },
+  {
+    "headword": "asi",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "asín"
+    ],
+    "etymology": "[del cast. Alcibíades]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "nombre masculino"
+    ],
+    "definitions_english": [
+      "masculine name"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used as a masculine name",
+    "page_number": 94
+  },
+  {
+    "headword": "asta",
+    "part_of_speech": "preposition",
+    "variant_forms": [],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "hasta"
+    ],
+    "definitions_english": [
+      "until, up to"
+    ],
+    "examples": [
+      {
+        "shipibo": "‹Topónhue asta pácha caman›",
+        "spanish": "Cuenta hasta cinco",
+        "english": "Count to five"
+      }
+    ],
+    "synonyms": [
+      "caman"
+    ],
+    "cross_references": [],
+    "grammatical_notes": "Used in constructions where a number is preceded by caman 'hasta'",
+    "page_number": 94
+  },
+  {
+    "headword": "astó",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "ástocan"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "lleno de hilo"
+    ],
+    "definitions_english": [
+      "full of thread"
+    ],
+    "examples": [
+      {
+        "shipibo": "‹Titán yomán šheira astó iqui›",
+        "spanish": "El ovillo de mamá está lleno de hilo",
+        "english": "Mom's ball of yarn is full of thread"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used with aplicación, p. ej., al huso o a la bobina",
+    "page_number": 94
+  },
+  {
+    "headword": "astóati",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "astóaa",
+      "astóaca"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "llenar (p. ej., un huso o una bobina) de hilo"
+    ],
+    "definitions_english": [
+      "to fill (e.g., a spindle or bobbin) with thread"
+    ],
+    "examples": [
+      {
+        "shipibo": "‹Huestiora ihuíra titán rabé néte astóai›",
+        "spanish": "Mamá llena un huso hilando dos días",
+        "english": "Mom fills a spindle spinning for two days"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "asápa",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "asápanin"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "paco"
+    ],
+    "definitions_english": [
+      "paco (fish)"
+    ],
+    "examples": [
+      {
+        "shipibo": "‹Moátian cánqui asápaninqui chorónquin jóni rëteníque›",
+        "spanish": "Cuentan que en la antigüedad un paco mató a un hombre saltándole encima desde el agua",
+        "english": "They say that in ancient times a paco killed a man by jumping on him from the water"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "asëitín",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "aceite de máquina"
+    ],
+    "definitions_english": [
+      "machine oil"
+    ],
+    "examples": [
+      {
+        "shipibo": "‹asíiti botiría una botella de aceite›",
+        "spanish": "una botella de aceite",
+        "english": "a bottle of oil"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "asíti",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "asëiti",
+      "asítinin"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "aceite"
+    ],
+    "definitions_english": [
+      "oil"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "asófri",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [],
+    "definitions_english": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "asójiri"
+    ],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "asójiri",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "asófri",
+      "asójirin"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "azufre"
+    ],
+    "definitions_english": [
+      "sulfur"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "asöcaro",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "asöcaron"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "azúcar"
+    ],
+    "definitions_english": [
+      "sugar"
+    ],
+    "examples": [
+      {
+        "shipibo": "‹Asócarora bátashaman iqui›",
+        "spanish": "El azúcar es muy dulce",
+        "english": "Sugar is very sweet"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "sinón",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "bajo",
+      "áni"
+    ],
+    "definitions_english": [
+      "under",
+      "low"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "árocota",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [],
+    "definitions_english": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "páotl"
+    ],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "árpa",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [],
+    "definitions_english": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "árapa"
+    ],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "áshpa",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "ashpán"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "de piernas torcidas"
+    ],
+    "definitions_english": [
+      "bowlegged"
+    ],
+    "examples": [
+      {
+        "shipibo": "‹Nato ainbo áshpara quiquiábires ishto iqui›",
+        "spanish": "Esta mujer de piernas torcidas es muy rápida porque camina como hombre",
+        "english": "This bowlegged woman is very fast because she walks like a man"
+      },
+      {
+        "shipibo": "‹Ñabo niai quescati niaiícash›",
+        "spanish": "Esta mujer de piernas torcidas es muy rápida porque camina como hombre",
+        "english": "This bowlegged woman is very fast because she walks like a man"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "ásia",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ásiacan"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "Asia"
+    ],
+    "definitions_english": [
+      "Asia"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "ásitona",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "áslitonanin"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "aceituna"
+    ],
+    "definitions_english": [
+      "olive"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "áspa",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "aspán"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "de gran volumen o capacidad",
+      "grande"
+    ],
+    "definitions_english": [
+      "of great volume or capacity",
+      "large"
+    ],
+    "examples": [
+      {
+        "shipibo": "‹Titán chömo áspara cochín téeque›",
+        "spanish": "El chancho rompió la tinaja grande de mamá",
+        "english": "The pig broke mom's large jar"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "ástoran",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [],
+    "definitions_english": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "níshi"
+    ],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "ástoti",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [
+      "ástota"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "llenarse (p. ej., un huso o una bobina) de hilo"
+    ],
+    "definitions_english": [
+      "to become filled (e.g., a spindle or bobbin) with thread"
+    ],
+    "examples": [
+      {
+        "shipibo": "‹Moa ástotasha titán íhui sequéque›",
+        "spanish": "Se quebró el huso de mamá porque se llenó de hilo",
+        "english": "Mom's spindle broke because it filled up with thread"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "-ash",
+    "part_of_speech": "suffix",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "Úsase pospuesto al adverbio o a la posposición o al sufijo posposicional generalmente con el sentido de \"de\" o \"en\", pero en ciertos contextos con el sentido de \"en\""
+    ],
+    "definitions_english": [
+      "Used postposed to the adverb or postposition or postpositional suffix generally with the meaning of \"from\" or \"at\", but in certain contexts with the meaning of \"in\""
+    ],
+    "examples": [
+      {
+        "shipibo": "¿Jahueranoashqui miá joá? —Onoásha ea jóque.",
+        "spanish": "—¿De dónde has venido? —Desde allí he venido.",
+        "english": "—Where have you come from? —I have come from there."
+      },
+      {
+        "shipibo": "Ni meranoásha ea jóque.",
+        "spanish": "He venido del monte.",
+        "english": "I have come from the forest."
+      },
+      {
+        "shipibo": "Rójan chiqui camébi cásha, Cacón-coniash noa néteque.",
+        "spanish": "Cuando viajamos de noche a Roya, amanecimos en Cacón-conia.",
+        "english": "When we traveled at night to Roya, we dawned in Cacón-conia."
+      }
+    ],
+    "synonyms": [
+      "ain"
+    ],
+    "cross_references": [
+      "Bosquejo gramatical 7.4.3.2",
+      "Bosquejo gramatical 7.5",
+      "Bosquejo gramatical 8.3.5"
+    ],
+    "grammatical_notes": "Used postposed to the adverb or postposition or postpositional suffix generally with the meaning of \"from\" or \"at\", but in certain contexts with the meaning of \"in\"",
+    "page_number": 95
+  },
+  {
+    "headword": "ashbíti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "áshbita"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "llevar a horcajadas"
+    ],
+    "definitions_english": [
+      "to carry straddled"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jahuen báque tasquéquetiãnra ashbíshon bóque.",
+        "spanish": "Cuando su hijo se dislocó el pie, lo llevó a horcajadas.",
+        "english": "When his son dislocated his foot, he carried him straddled."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 95
+  },
+  {
+    "headword": "ashtáati",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "cruzar; poner en cruz"
+    ],
+    "definitions_english": [
+      "to cross; to put in the shape of a cross"
+    ],
+    "examples": [
+      {
+        "shipibo": "Main cátan caashonra iltán jahuen huitásh ashtáaque.",
+        "spanish": "Al sentarse en el suelo, mamá cruzó sus piernas.",
+        "english": "When sitting on the ground, mother crossed her legs."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 95
+  },
+  {
+    "headword": "ashánti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "áshana"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "pescar con veneno (p. ej., de huaca o barbasco)"
+    ],
+    "definitions_english": [
+      "to fish with poison (e.g., huaca or barbasco)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ashánquetiãnra pótishabaon yatánque.",
+        "spanish": "Las policías lo prendieron porque pescó con huaca.",
+        "english": "The police arrested him because he fished with huaca."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 95
+  },
+  {
+    "headword": "ashé",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "áshecan"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "culantro (Papashconra ashéya acá pitl píshón qulaánaque)"
+    ],
+    "definitions_english": [
+      "culantro, coriander (Papashconra planted it to vomit when eating prepared food with culantro)"
+    ],
+    "examples": [
+      {
+        "shipibo": "El abuelito vomitó al ingerir comida preparada con culantro",
+        "spanish": "El abuelito vomitó al ingerir comida preparada con culantro",
+        "english": "The grandfather vomited when eating food prepared with culantro"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 95
+  },
+  {
+    "headword": "ashé",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "áshecan"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "costumbre (Ja jónibora jaton ashé jénecashamal)"
+    ],
+    "definitions_english": [
+      "custom (This people does not want to leave their custom)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ja jónibora jaton ashé jénecashamal.",
+        "spanish": "Esta gente no quiere dejar su costumbre.",
+        "english": "This people does not want to leave their custom."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 95
+  },
+  {
+    "headword": "ásheamis",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ásheamiston"
+    ],
+    "etymology": "[del ship. ásheā- enseñar + -mis, sf. de actor]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "profesional de enseñanza; educador; maestro"
+    ],
+    "definitions_english": [
+      "teaching professional; educator; teacher"
+    ],
+    "examples": [],
+    "synonyms": [
+      "jahuéqui acai",
+      "maistoro"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 95
+  },
+  {
+    "headword": "ásheati",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "ásheaa con Sheeca"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "acostumbrar",
+      "enseñar"
+    ],
+    "definitions_english": [
+      "to accustom",
+      "to teach"
+    ],
+    "examples": [
+      {
+        "shipibo": "Maistoron jato pirótanin áshearã báquebaon jénecashamal.",
+        "spanish": "Porque el maestro los ha acostumbrado a jugar con la pelota, los niños no quieren dejar de jugar con ella.",
+        "english": "Because the teacher has accustomed them to playing with the ball, the children don't want to stop playing with it."
+      },
+      {
+        "shipibo": "Jánra quirica écaibo ásheacal.",
+        "spanish": "El enseña a los alumnos.",
+        "english": "He teaches the students."
+      }
+    ],
+    "synonyms": [
+      "onámati"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 95
+  },
+  {
+    "headword": "ásheti",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [
+      "áshea"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "acostumbrarse; estar acostumbrado",
+      "aprender"
+    ],
+    "definitions_english": [
+      "to become accustomed; to be accustomed",
+      "to learn"
+    ],
+    "examples": [
+      {
+        "shipibo": "Eabicbo íitira ea moa áshea iqui.",
+        "spanish": "Ya estoy acostumbrado a estar solo.",
+        "english": "I am already accustomed to being alone."
+      },
+      {
+        "shipibo": "Eará mia jói áshécasal.",
+        "spanish": "Quiero aprender tu idioma.",
+        "english": "I want to learn your language."
+      }
+    ],
+    "synonyms": [
+      "onánti"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 95
+  },
+  {
+    "headword": "ásheyosma",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ásheyosman"
+    ],
+    "etymology": "[del ship. ásheti, ábhe- aprender + -yosma el que nunca hace (cosa específica)]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "el que nunca hace (cosa específica); el que nunca está dispuesto a aprender u obedecer; rebelde"
+    ],
+    "definitions_english": [
+      "one who never does (specific thing); one who is never willing to learn or obey; rebel"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato báquema ásheyosma iqui.",
+        "spanish": "Este niño es un rebelde.",
+        "english": "This child is a rebel."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 95
+  },
+  {
+    "headword": "ásho",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ashón"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "capitona; demonio identificado con el árbol capitona"
+    ],
+    "definitions_english": [
+      "capitona; demon identified with the capitona tree"
+    ],
+    "examples": [
+      {
+        "shipibo": "Áshoronqui cósbi jóni iqui, rashicó jóni quesca, huiso.",
+        "spanish": "Dicen que el demonio de la capitona es un hombre fuerte, parecido a un brasileño de color.",
+        "english": "They say that the capitona demon is a strong man, similar to a colored Brazilian."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 95
+  },
+  {
+    "headword": "átapa",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "átapan"
+    ],
+    "etymology": "conj. átapanin",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "gallina; gallo; pollo"
+    ],
+    "definitions_english": [
+      "hen; rooster; chicken"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jahuen báque sontáro cátanash jóquetiãnra epán átapa réteque.",
+        "spanish": "El tío mató una gallina cuando su",
+        "english": "The uncle killed a hen when his"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 95
+  },
+  {
+    "headword": "ãsha",
+    "part_of_speech": "interjection",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "Úsase repetidamente para azuzar a los perros"
+    ],
+    "definitions_english": [
+      "Used repeatedly to incite dogs"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used repeatedly to incite dogs",
+    "page_number": 95
+  },
+  {
+    "headword": "ãsha",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ashán"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "huaca; el fruto de la huaca o su jugo extraído, que sirve como remedio contra lombrices o de otra manera como veneno (p. ej., para matar peces)"
+    ],
+    "definitions_english": [
+      "huaca; the fruit of the huaca or its extracted juice, which serves as a remedy against worms or otherwise as poison (e.g., to kill fish)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Paerishon ásha shéaasha jóni mahúéque.",
+        "spanish": "Estando borracho, el hombre tomó la huaca y murió.",
+        "english": "Being drunk, the man took the huaca and died."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 95
+  },
+  {
+    "headword": "-ati",
+    "part_of_speech": "suffix",
+    "variant_forms": [
+      "-aa"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "hacer (algo con ruido indicado) a",
+      "hacer sonar (instrumento de música)"
+    ],
+    "definitions_english": [
+      "to do (something with indicated noise) to",
+      "to play (musical instrument)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nimánra tiati shónaque. Nima hizo",
+        "spanish": "Nima hizo",
+        "english": "Nima did/made"
+      }
+    ],
+    "synonyms": [
+      "iti",
+      "ahuemati",
+      "sománti",
+      "yóiti"
+    ],
+    "cross_references": [
+      "Bosquejo gramatical 4.2.3.2.a"
+    ],
+    "grammatical_notes": "Used with a non-basic subject form and behind an onomatopoetic element",
+    "page_number": 96
+  },
+  {
+    "headword": "chóshcaatapa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. chóshca erizado + diapa]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de gallina"
+    ],
+    "definitions_english": [
+      "species of chicken"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 96
+  },
+  {
+    "headword": "cóspoatapa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de gallina"
+    ],
+    "definitions_english": [
+      "species of chicken"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 96
+  },
+  {
+    "headword": "jonín acá",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [],
+    "etymology": "[del ship. jóni, jonín + áti, acá hacer]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "transformado por el hombre: artificial"
+    ],
+    "definitions_english": [
+      "transformed by man: artificial"
+    ],
+    "examples": [
+      {
+        "shipibo": "Párora jonín acáma iqui icáshai repintí jonín aca ríqui. El puerto no es artificial; el puerto, sí",
+        "spanish": "El puerto no es artificial; el puerto, sí",
+        "english": "The port is not artificial; the port, yes"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 96
+  },
+  {
+    "headword": "jonín áresa",
+    "part_of_speech": "adjective",
+    "variant_forms": [],
+    "etymology": "[del ship. jóni, jonín + áti, a-hacer + -res no más]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "hecho a mano: de artesanía"
+    ],
+    "definitions_english": [
+      "handmade: craft/artisan"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 96
+  },
+  {
+    "headword": "jábores áti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [],
+    "etymology": "[del ship. jato, jabo ellos + -res no más + áti hacer]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "perder en el juego"
+    ],
+    "definitions_english": [
+      "to lose in a game"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jaton cápitan yámaquetianra, pirótanin tsínialbo jábaonresque. Como no tenían su capitán, los futbolistas perdieron",
+        "spanish": "Como no tenían su capitán, los futbolistas perdieron",
+        "english": "Since they didn't have their captain, the soccer players lost"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 96
+  },
+  {
+    "headword": "miara en ánaque",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "cuidado que yo no te choque"
+    ],
+    "definitions_english": [
+      "be careful that I don't hit you"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 4.2.3.2.a"
+    ],
+    "grammatical_notes": "From mia te + -ra, sf. de modo indic. + áti, a- hacer + -na sf. de advertencia + -que, sf. vbl.]: con permiso. Lit. 'cuidado que yo no te choque'; de mia te + -ra",
+    "page_number": 96
+  },
+  {
+    "headword": "mátsiatapa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. mátsi frío + diapa gallina]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de gallina de poco plumaje"
+    ],
+    "definitions_english": [
+      "species of chicken with little plumage"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 96
+  },
+  {
+    "headword": "séseatapa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. sése salpicado de puntos + diapa]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de gallina negra manchada de blanco"
+    ],
+    "definitions_english": [
+      "species of black chicken spotted with white"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 96
+  },
+  {
+    "headword": "tëshmétatapa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. tëshrnë de pelo desplumado + diapa]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de gallina"
+    ],
+    "definitions_english": [
+      "species of chicken"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 96
+  },
+  {
+    "headword": "ániatapa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. áni grande + diapa gallina]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de gallina de una raza grande"
+    ],
+    "definitions_english": [
+      "species of large breed chicken"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 96
+  },
+  {
+    "headword": "átapa báqueshoco",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "gallo"
+    ],
+    "definitions_english": [
+      "rooster"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 7.1.8"
+    ],
+    "grammatical_notes": "See under báqueshoco",
+    "page_number": 96
+  },
+  {
+    "headword": "átapa shóbo",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "bajo shóbo"
+    ],
+    "definitions_english": [
+      "under house/shelter"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "shóbo"
+    ],
+    "grammatical_notes": null,
+    "page_number": 96
+  },
+  {
+    "headword": "átapaahuin",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "hijo regresó del ejército"
+    ],
+    "definitions_english": [
+      "son returned from the army"
+    ],
+    "examples": [
+      {
+        "shipibo": "Atapa quéotainra ea jishtënhuaanque. Esta mañana me desperté al cantar el gallo",
+        "spanish": "Atapa quéotainra ea jishtënhuaanque. Esta mañana me desperté al cantar el gallo",
+        "english": "Atapa returned. This morning I woke up when the rooster crowed"
+      }
+    ],
+    "synonyms": [
+      "átapa",
+      "átapabene"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 96
+  },
+  {
+    "headword": "átapaahuin",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "átapaahuinin"
+    ],
+    "etymology": "[del ship. diapa gallo + ahuin hembra]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "gallina"
+    ],
+    "definitions_english": [
+      "hen"
+    ],
+    "examples": [
+      {
+        "shipibo": "Átapaahuinlara quëntican tsíhuai. La gallina pone huevos en la olla de barro",
+        "spanish": "La gallina pone huevos en la olla de barro",
+        "english": "The hen lays eggs in the clay pot"
+      }
+    ],
+    "synonyms": [
+      "átapa",
+      "átapabene"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 96
+  },
+  {
+    "headword": "átapabene",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. diapa gallina + béne macho]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "gallo"
+    ],
+    "definitions_english": [
+      "rooster"
+    ],
+    "examples": [],
+    "synonyms": [
+      "átapa",
+      "átapaahuin"
+    ],
+    "cross_references": [
+      "Bosquejo gramatical 7.1.8"
+    ],
+    "grammatical_notes": null,
+    "page_number": 96
+  },
+  {
+    "headword": "átashai",
+    "part_of_speech": "interjection",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "expresión despectiva"
+    ],
+    "definitions_english": [
+      "derogatory expression"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used as a dismissive expression",
+    "page_number": 96
+  },
+  {
+    "headword": "áti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "hacer",
+      "hablar",
+      "decir",
+      "poner"
+    ],
+    "definitions_english": [
+      "to do, to make",
+      "to speak",
+      "to say",
+      "to put"
+    ],
+    "examples": [
+      {
+        "shipibo": "Rámara en ácai. Ahora lo voy a hacer",
+        "spanish": "Ahora lo voy a hacer",
+        "english": "Now I'm going to do it"
+      },
+      {
+        "shipibo": "Titónara jahuen huetsán shóbo ácai. Tito está construyendo la casa de su hermano",
+        "spanish": "Tito está construyendo la casa de su hermano",
+        "english": "Tito is building his brother's house"
+      },
+      {
+        "shipibo": "¿Minqui janquenhaa? —Acáma. —¿Has terminado? —No he terminado",
+        "spanish": "¿Has terminado? —No he terminado",
+        "english": "Have you finished? —I haven't finished"
+      },
+      {
+        "shipibo": "Miara ácai. Te está hablando",
+        "spanish": "Te está hablando",
+        "english": "He/she is speaking to you"
+      },
+      {
+        "shipibo": "Jainshon Titón acá iqui —¡Óinhuei. Entonces Tito le dijo: —¡Mira!",
+        "spanish": "Entonces Tito le dijo: —¡Mira!",
+        "english": "Then Tito said to him: —Look!"
+      },
+      {
+        "shipibo": "Baquish jotánhue —aquiura rócotoron acá iqui. El doctor me dijo: —Regrese mañana",
+        "spanish": "El doctor me dijo: —Regrese mañana",
+        "english": "The doctor told me: —Come back tomorrow"
+      },
+      {
+        "shipibo": "Nocon machítora en shóbo chícho áque, báquebaon ea potanaanaquetian. He puesto mi machete dentro de la casa para que los niños no lo pierdan",
+        "spanish": "He puesto mi machete dentro de la casa para que los niños no lo pierdan",
+        "english": "I have put my machete inside the house so that the children won't lose it"
+      },
+      {
+        "shipibo": "4 rabë acá páquetai 8. 4 más 4 es igual a 8",
+        "spanish": "4 más 4 es igual a 8",
+        "english": "4 plus 4 equals 8"
+      },
+      {
+        "shipibo": "2 chósco acá iqui 8. 2 por 4 es igual a 8",
+        "spanish": "2 por 4 es igual a 8",
+        "english": "2 times 4 equals 8"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used also with various meanings depending on context. Can be used with direct object citation, subordinate clause with aquin, or direct citation. When introducing direct speech, functions as a substitute for the verb. In subordinate form aquin, determines repeated actions. Used to add (sum) the same number repeatedly.",
+    "page_number": 96
+  },
+  {
+    "headword": "ómoatapa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. ómo, no ident. + diapa gallina]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de gallina de patas cortas"
+    ],
+    "definitions_english": [
+      "species of short-legged chicken"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 96
+  },
+  {
+    "headword": "anáatsa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. and catahua + átsa yuca]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de yuca"
+    ],
+    "definitions_english": [
+      "species of yucca"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "atón",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "átoman"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "lupuna roja"
+    ],
+    "definitions_english": [
+      "red lupuna (tree)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Non réra- quetianronqui átoman ói bémai.",
+        "spanish": "Dicen que cuando cortamos la lupuna roja, esta hace llover",
+        "english": "They say that when we cut the red lupuna, it makes it rain"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "báhuaatsa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. báhua loro + átsa yuca]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de yuca"
+    ],
+    "definitions_english": [
+      "species of yucca"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "báqueatsa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. báque niña + átsa yuca]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de yuca de tres meses y que crece poco"
+    ],
+    "definitions_english": [
+      "species of yucca that grows in three months and grows little"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "chichoráatsa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. chicora arpón + átsa yuca]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de yuca con hojas largas y delgadas"
+    ],
+    "definitions_english": [
+      "species of yucca with long and thin leaves"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "isaíatsa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. jóani con qué sancochar + átsa yuca]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de yuca"
+    ],
+    "definitions_english": [
+      "species of yucca"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "joshín átsa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. joshín rojo + átsa yuca]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de yuca de cáscara roja"
+    ],
+    "definitions_english": [
+      "species of yucca with red peel"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "jóšhoatsa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. jóšho blanco + átsa yuca]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de yuca de cáscara blanca"
+    ],
+    "definitions_english": [
+      "species of yucca with white peel"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "nobéšhatsa",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "nonbéšhatsa"
+    ],
+    "etymology": "[del ship. nobéš paloma + átsa yuca]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de yuca semejante a la yuca común, crece hasta un metro de altura, tiene raíces gruesas"
+    ],
+    "definitions_english": [
+      "species of yucca similar to common yucca, grows up to one meter in height, has thick roots"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "nómátsa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. nóma especie de perdiz + átsa yuca]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de yuca parecida a la yuca nobéšhatsa"
+    ],
+    "definitions_english": [
+      "species of yucca similar to the yucca nobéšhatsa"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "panshín átsa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. panshín amarillo + átsa yuca]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de yuca cuya parte comestible es de color amarillo"
+    ],
+    "definitions_english": [
+      "species of yucca whose edible part is yellow in color"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "queén átsa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. queén deseo + átsa yuca]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de yuca"
+    ],
+    "definitions_english": [
+      "species of yucca"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "rónoatsa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. róno culebra + átsa yuca]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de yuca de tallo torcido"
+    ],
+    "definitions_english": [
+      "species of yucca with twisted stalk"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "áticoma",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "áticoman"
+    ],
+    "etymology": "[del ship. áti hacer + -con verdadero + -ma no]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "difícil",
+      "imposible"
+    ],
+    "definitions_english": [
+      "difficult",
+      "impossible"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ɇa maístoron taría áti ménlabira áticoma iqui.",
+        "spanish": "La tarea que el maestro me dio es difícil",
+        "english": "The task that the teacher gave me is difficult"
+      },
+      {
+        "shipibo": "Jahuen šhóno tárani cášhibira pápa jáquiribi joribaque, jánbicho acá áticoma iquetian.",
+        "spanish": "Papá salió a hacer rodar su lupuna; pero regresó, porque era imposible que lo hiciera solo",
+        "english": "Dad went out to roll his lupuna tree; but he came back, because it was impossible for him to do it alone"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Also used with the resulting sense 'difficult for lack of time'",
+    "page_number": 97
+  },
+  {
+    "headword": "áticoma jahuequi",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "áticoma jahuequinin"
+    ],
+    "etymology": "[del ship. áticoma difícil + jahuéqui cosa]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "problema"
+    ],
+    "definitions_english": [
+      "problem"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ja áticoma jahuéqui acánhue.",
+        "spanish": "Resuelvan el problema",
+        "english": "Solve the problem"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "átio",
+    "part_of_speech": "adverb",
+    "variant_forms": [],
+    "etymology": "[del ship. áti hacer + -o, partícula de dirección]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "por la parte correcta"
+    ],
+    "definitions_english": [
+      "in the correct way, correctly"
+    ],
+    "examples": [
+      {
+        "shipibo": "Baquénra átio machito yatánque.",
+        "spanish": "El niño agarró el machete por el lado correcto",
+        "english": "The child grabbed the machete by the correct side"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "átipana",
+    "part_of_speech": "verb",
+    "variant_forms": [],
+    "etymology": "[del quech. atipay, atipan poder]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "poder"
+    ],
+    "definitions_english": [
+      "to be able to, can"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ɇara wini cáti átipanque. Puedo ir a Lima",
+        "spanish": "Puedo ir a Lima",
+        "english": "I can go to Lima"
+      },
+      {
+        "shipibo": "Oa aínaonra chómoati átipanque.",
+        "spanish": "Aquella mujer puede hacer la tinaja",
+        "english": "That woman can make the jar"
+      },
+      {
+        "shipibo": "Jatíbi jahuéqui átipana",
+        "spanish": "todopoderoso : omnipotente",
+        "english": "all-powerful : omnipotent"
+      },
+      {
+        "shipibo": "Ríos jatíbi jahuéqui átipana",
+        "spanish": "Dios todopoderoso",
+        "english": "God Almighty"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used with transitive or intransitive force according to the infinitive complement it corresponds to. Used in preterite form but with present sense",
+    "page_number": 97
+  },
+  {
+    "headword": "átsa",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "atsán"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "yuca"
+    ],
+    "definitions_english": [
+      "yucca, cassava, manioc"
+    ],
+    "examples": [
+      {
+        "shipibo": "Átsa piáitianra jonín áno átéque.",
+        "spanish": "El hombre mató al majás cuando éste comía la yuca",
+        "english": "The man killed the paca when it was eating the yucca"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "šhámayanconatsa",
+    "part_of_process": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. šháma cogollo + yancón azul + átsa yuca]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de yuca de cogollos de color azul rozijo"
+    ],
+    "definitions_english": [
+      "species of yucca with bluish-red shoots"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 97
+  },
+  {
+    "headword": "-ba",
+    "part_of_speech": "suffix",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "en el sobaco; del sobaco (bánoti hincar en el sobaco)",
+      "en el pecho o del pecho cerca al sobaco (basháshti raspar en el pecho cerca al sobaco)",
+      "brazo o del brazo cerca del sobaco (banénti sentir quemazón en el brazo cerca del sobaco)",
+      "de manga corta (baquéshti coser (una camisa) la manga corta)",
+      "al lado o del lado del cepo (bashóshti retoñar al lado del cepo)"
+    ],
+    "definitions_english": [
+      "in the armpit; of the armpit (bánoti to stick in the armpit)",
+      "in the chest or of the chest near the armpit (basháshti to scrape on the chest near the armpit)",
+      "arm or of the arm near the armpit (banénti to feel burning in the arm near the armpit)",
+      "short-sleeved (baquéshti to sew (a shirt) short-sleeved)",
+      "to the side or from the side of the stocks (bashóshti to sprout at the side of the stocks)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Eaparí cabánon.",
+        "spanish": "Me voy primero.",
+        "english": "I'm going first."
+      },
+      {
+        "shipibo": "Eabicho téchanon; máto oshacanhue.",
+        "spanish": "Ahora yo solo voy a trabajar; duerman ustedes.",
+        "english": "Now I alone will go to work; you sleep."
+      },
+      {
+        "shipibo": "Ján cabátanon.",
+        "spanish": "Que vaya él.",
+        "english": "Let him go."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 4.2.3.4"
+    ],
+    "grammatical_notes": "Used as an aggregate to the root of the verb in the exhortative form to attempt to encourage one's self or a third person",
+    "page_number": 98
+  },
+  {
+    "headword": "atsántita",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "atsántitan"
+    ],
+    "etymology": "[del ship. átsa yuca + íta madre]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "yucamama (Atsántita sháquishon iahuen jéne shéaashonqui, noa shoshó iqui. Dicen que cuando se toma el jugo de la yucamama rallada, uno se engorda)"
+    ],
+    "definitions_english": [
+      "yucamama (Atsántita sháquishon iahuen jéne shéaashonqui, noa shoshó iqui. They say that when one drinks the juice of grated yucamama, one gets fat)"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "póto"
+    ],
+    "grammatical_notes": null,
+    "page_number": 98
+  },
+  {
+    "headword": "ayáo",
+    "part_of_speech": "interjection",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [],
+    "definitions_english": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "ápo"
+    ],
+    "grammatical_notes": "Used with the sense of 'ay!' as an expression of pain",
+    "page_number": 98
+  },
+  {
+    "headword": "ayásh",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "áyashen"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "tamshi (Ayásh tásacan noa namáquetiaa mápotaronqui inón bíti iqui. Dicen que cuando soñamos que nos cubrimos con una canasta de tamshi, es señal de que nos atacará el tigre)"
+    ],
+    "definitions_english": [
+      "tamshi vine (Ayásh tásacan noa namáquetiaa mápotaronqui inón bíti iqui. They say that when we dream that we cover ourselves with a basket of tamshi, it is a sign that the tiger will attack us)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "camári"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 98
+  },
+  {
+    "headword": "ba",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "nombre de la letra b en el alfabeto shipibo"
+    ],
+    "definitions_english": [
+      "name of the letter b in the Shipibo alphabet"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 2.1"
+    ],
+    "grammatical_notes": null,
+    "page_number": 98
+  },
+  {
+    "headword": "babán chua",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "babán chuan"
+    ],
+    "etymology": "[del ship. bába, babán nieto + -chua madre]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "nuera; tb. esposa del hijo de hermano o hermana"
+    ],
+    "definitions_english": [
+      "daughter-in-law; also spouse of the son of a brother or sister"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 98
+  },
+  {
+    "headword": "bába",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "babán"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "nieto; nieta; tb.: nieto de un hermano o una hermana o de un cuñado o una cuñada",
+      "esposo o esposa de un nieto",
+      "nieto de un cuñado o cuñada",
+      "bisnieto",
+      "parientes de la segunda generación descendente"
+    ],
+    "definitions_english": [
+      "grandson; granddaughter; also: grandson of a brother or sister or of a brother-in-law or sister-in-law",
+      "spouse of a grandson",
+      "grandson of a brother-in-law or sister-in-law",
+      "great-grandson",
+      "relatives of the second descending generation"
+    ],
+    "examples": [],
+    "synonyms": [
+      "chío"
+    ],
+    "cross_references": [],
+    "grammatical_notes": "The noun form with chío means 'younger brother' with the sense of 'nieto!' or '¡nieta!' The plural form bábabo is used to indicate the entire group of consanguineous relatives and affines of the generation of grandchildren",
+    "page_number": 98
+  },
+  {
+    "headword": "shónoatsa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. shóno 'lupuna' + átsa]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de yuca de tallo y raíces gruesas"
+    ],
+    "definitions_english": [
+      "species of yucca with thick stem and roots"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 98
+  },
+  {
+    "headword": "támaatsa",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. táma maní + átsa yuca]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de yuca"
+    ],
+    "definitions_english": [
+      "species of yucca"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 98
+  },
+  {
+    "headword": "átsapoto",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [],
+    "definitions_english": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "póto"
+    ],
+    "grammatical_notes": null,
+    "page_number": 98
+  },
+  {
+    "headword": "átsashena",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [],
+    "definitions_english": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "shéna"
+    ],
+    "grammatical_notes": null,
+    "page_number": 98
+  },
+  {
+    "headword": "áya",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ayán"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de pájaro pequeño parecido al loro y que come aguaje (Non áya óinaronqui chiquíshti iqui. Dicen que cuando vemos al pájaro áya, nos volvemos flojos)"
+    ],
+    "definitions_english": [
+      "species of small bird similar to a parrot that eats aguaje (Non áya óinaronqui chiquíshti iqui. They say that when we see the áya bird, we become lazy)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "chiqaish"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 98
+  },
+  {
+    "headword": "áya",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "ayán"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "flojo; perezoso (Nato jónira, áyayora icashbi, huánocasai. A pesar de que este hombre es muy flojo, quiere casarse)"
+    ],
+    "definitions_english": [
+      "lazy; slothful (Nato jónira, áyayora icashbi, huánocasai. Even though this man is very lazy, he wants to get married)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "chiqaish"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 98
+  },
+  {
+    "headword": "áyahuasca",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "áyahuascan"
+    ],
+    "etymology": "[del quech. aya difunto + huasca bejuco]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "ayahuasca (Ayahuasca shéashonronqui jóninqui mahuáyoshin méranique. Cuentan que en la antigüedad un hombre tomó ayahuasca y vio los espíritus de los muertos)"
+    ],
+    "definitions_english": [
+      "ayahuasca (Ayahuasca shéashonronqui jóninqui mahuáyoshin méranique. They tell that in ancient times a man drank ayahuasca and saw the spirits of the dead)"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "AYAHUASCA, MISHI, ONI pueden denotar la ayahuasca. AYAHUASCA y NISHI se usan en el habla shipibo para designar tanto la bebida como la planta y ONI, sin embargo, se emplea poco. En el habla iconibo se usa NISHI denotando el bejuco, mientras que ONI es el nombre de la sustancia derivada; y AYAHUASCA es de poco uso.",
+    "page_number": 98
+  }
+]
