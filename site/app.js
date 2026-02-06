@@ -2,6 +2,7 @@
   "use strict";
 
   let ENTRIES = [];
+  let ICAROS = [];
   const app = document.getElementById("app");
 
   // --- Data ---
@@ -9,6 +10,15 @@
   async function loadEntries() {
     const res = await fetch("data/entries.json");
     ENTRIES = await res.json();
+  }
+
+  async function loadIcaros() {
+    const res = await fetch("data/icaros.json");
+    ICAROS = await res.json();
+  }
+
+  async function loadAll() {
+    await Promise.all([loadEntries(), loadIcaros()]);
     route();
   }
 
@@ -21,6 +31,14 @@
 
     if (path === "/about") {
       renderAbout();
+    } else if (path === "/icaros") {
+      renderIcaroIndex();
+    } else if (path.match(/^\/icaro\/\d+\/learn$/)) {
+      var id = parseInt(path.split("/")[2], 10);
+      renderIcaroLearn(id);
+    } else if (path.match(/^\/icaro\/\d+$/)) {
+      var id = parseInt(path.split("/")[2], 10);
+      renderIcaroSong(id);
     } else if (path.startsWith("/entry/")) {
       const id = parseInt(path.split("/")[2], 10);
       renderEntry(id);
@@ -363,6 +381,272 @@
     window.scrollTo(0, 0);
   }
 
+  // --- Icaro color map ---
+
+  var SUFFIX_COLORS = {
+    red: "morph-suffix-shaman",
+    green: "morph-suffix-yon",
+    blue: "morph-suffix-bo",
+    orange: "morph-suffix-pari",
+    purple: "morph-suffix-kin",
+    brown: "morph-suffix-banon"
+  };
+
+  function suffixClass(color) {
+    return SUFFIX_COLORS[color] || "morph-root";
+  }
+
+  function findDictEntry(word) {
+    if (!word) return null;
+    var lower = word.toLowerCase().replace(/^[-\u2014]/, "");
+    return ENTRIES.find(function (e) {
+      return e.headword.toLowerCase() === lower;
+    }) || null;
+  }
+
+  // --- Icaro Views ---
+
+  function renderIcaroIndex() {
+    document.title = "Icaros \u2014 Shipibo Dictionary";
+
+    var html = '<div class="mb-8">' +
+      '<a href="#/" class="back-link">' +
+      '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+      "Back to dictionary</a></div>";
+
+    html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Icaros</h1>';
+    html += '<p class="text-ink-muted text-lg font-light mb-10">Learn traditional Shipibo healing songs</p>';
+
+    html += '<div class="entries-container">';
+    ICAROS.forEach(function (icaro) {
+      var phraseCount = icaro.phrases ? icaro.phrases.length : 0;
+      html += '<a href="#/icaro/' + icaro.id + '" class="icaro-card">' +
+        '<div class="flex items-baseline gap-3">' +
+        '<span class="font-display text-2xl text-ink">' + esc(icaro.title) + '</span>' +
+        '<span class="badge">' + phraseCount + ' phrases</span>' +
+        '</div>' +
+        '<p class="text-ink-light text-sm mt-1.5 leading-relaxed">';
+      if (icaro.song && icaro.song.sections && icaro.song.sections.length > 0) {
+        var firstLine = icaro.song.sections[0].lines[0];
+        html += esc(firstLine ? firstLine.text : "");
+        if (icaro.song.sections[0].lines.length > 1) {
+          html += ' / ' + esc(icaro.song.sections[0].lines[1].text);
+        }
+        html += ' \u2026';
+      }
+      html += '</p></a>';
+    });
+    html += '</div>';
+
+    app.innerHTML = html;
+    window.scrollTo(0, 0);
+  }
+
+  function renderIcaroSong(id) {
+    var icaro = ICAROS.find(function (ic) { return ic.id === id; });
+    if (!icaro) {
+      app.innerHTML = '<p class="text-ink-muted">Icaro not found.</p>';
+      return;
+    }
+
+    document.title = icaro.title + " \u2014 Icaros \u2014 Shipibo Dictionary";
+
+    var html = '<div class="mb-8">' +
+      '<a href="#/icaros" class="back-link">' +
+      '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+      "All icaros</a></div>";
+
+    html += '<h1 class="font-display text-5xl text-ink mb-4 tracking-tight font-light">' + esc(icaro.title) + '</h1>';
+
+    // View toggle
+    html += '<div class="view-toggle mb-10">' +
+      '<a href="#/icaro/' + id + '" class="active">Song</a>' +
+      '<a href="#/icaro/' + id + '/learn">Learn</a>' +
+      '</div>';
+
+    // Song sections
+    if (icaro.song && icaro.song.sections) {
+      icaro.song.sections.forEach(function (section) {
+        html += '<div class="song-section">';
+        if (section.repeat && section.repeat > 1) {
+          html += '<div class="song-section-bracket"></div>';
+          html += '<span class="song-repeat">X' + section.repeat + '</span>';
+        }
+        section.lines.forEach(function (line) {
+          html += '<div class="song-line">' + esc(line.text);
+          if (line.repeat && line.repeat > 1) {
+            html += '<span class="song-line-repeat">(' + line.repeat + ')</span>';
+          }
+          html += '</div>';
+        });
+        html += '</div>';
+      });
+    }
+
+    // Nav to prev/next icaro
+    html += '<div class="mt-10 pt-6 border-t border-earth-200 flex justify-between">';
+    if (id > 1) {
+      var prev = ICAROS.find(function (ic) { return ic.id === id - 1; });
+      if (prev) {
+        html += '<a href="#/icaro/' + (id - 1) + '" class="back-link">' +
+          '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+          esc(prev.title) + '</a>';
+      }
+    } else {
+      html += '<span></span>';
+    }
+    var next = ICAROS.find(function (ic) { return ic.id === id + 1; });
+    if (next) {
+      html += '<a href="#/icaro/' + (id + 1) + '" class="accent-link">' +
+        esc(next.title) +
+        ' <svg class="w-4 h-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg></a>';
+    }
+    html += '</div>';
+
+    app.innerHTML = html;
+    window.scrollTo(0, 0);
+  }
+
+  function renderIcaroLearn(id) {
+    var icaro = ICAROS.find(function (ic) { return ic.id === id; });
+    if (!icaro) {
+      app.innerHTML = '<p class="text-ink-muted">Icaro not found.</p>';
+      return;
+    }
+
+    document.title = icaro.title + " (Learn) \u2014 Icaros \u2014 Shipibo Dictionary";
+
+    var html = '<div class="mb-8">' +
+      '<a href="#/icaros" class="back-link">' +
+      '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+      "All icaros</a></div>";
+
+    html += '<h1 class="font-display text-5xl text-ink mb-4 tracking-tight font-light">' + esc(icaro.title) + '</h1>';
+
+    // View toggle
+    html += '<div class="view-toggle mb-10">' +
+      '<a href="#/icaro/' + id + '">Song</a>' +
+      '<a href="#/icaro/' + id + '/learn" class="active">Learn</a>' +
+      '</div>';
+
+    // Phrase breakdowns
+    if (icaro.phrases && icaro.phrases.length > 0) {
+      html += '<div class="space-y-6">';
+      icaro.phrases.forEach(function (phrase) {
+        html += '<div class="phrase-card">';
+
+        // Color-coded shipibo text
+        html += '<div class="font-display text-xl mb-3">';
+        if (phrase.parts && phrase.parts.length > 0) {
+          phrase.parts.forEach(function (part) {
+            var cls = part.type === "root" ? "morph-root" : suffixClass(part.color);
+            html += '<span class="' + cls + '">' + esc(part.text) + '</span>';
+          });
+        } else {
+          html += esc(phrase.shipibo);
+        }
+        html += '</div>';
+
+        // Root word with dictionary link
+        if (phrase.root_word) {
+          var dictEntry = findDictEntry(phrase.root_word);
+          html += '<div class="mb-2">';
+          html += '<span class="section-label" style="margin-bottom:0">Root</span> ';
+          if (dictEntry) {
+            html += '<a href="#/entry/' + dictEntry.id + '" class="accent-link">' + esc(phrase.root_word) + '</a>';
+          } else {
+            html += '<span class="font-display text-ink">' + esc(phrase.root_word) + '</span>';
+          }
+          if (phrase.part_of_speech) {
+            html += ' <span class="badge">' + esc(phrase.part_of_speech) + '</span>';
+          }
+          if (phrase.root_meaning) {
+            html += ' <span class="text-ink-light text-sm">\u2014 ' + esc(phrase.root_meaning) + '</span>';
+          }
+          html += '</div>';
+        }
+
+        // Suffix breakdown
+        if (phrase.suffixes && phrase.suffixes.length > 0) {
+          html += '<div class="mb-2">';
+          html += '<span class="section-label" style="margin-bottom:0.25rem">Suffixes</span>';
+          html += '<div class="space-y-1 mt-1">';
+          phrase.suffixes.forEach(function (suf) {
+            var cls = suffixClass(suf.color);
+            html += '<div class="text-sm"><span class="font-semibold ' + cls + '">-' + esc(suf.form) + '</span> ' +
+              '<span class="text-ink-light">' + esc(suf.meaning) + '</span></div>';
+          });
+          html += '</div></div>';
+        }
+
+        // Literal translation
+        if (phrase.literal_translation) {
+          html += '<div class="literal-translation">' + esc(phrase.literal_translation) + '</div>';
+        }
+
+        // Cultural note
+        if (phrase.cultural_note) {
+          html += '<p class="text-ink-muted text-sm italic mt-2">' + esc(phrase.cultural_note) + '</p>';
+        }
+
+        html += '</div>';
+      });
+      html += '</div>';
+    }
+
+    // Vocabulary section
+    if (icaro.vocabulary && icaro.vocabulary.length > 0) {
+      html += '<div class="mt-10"><h2 class="section-label mb-4">Vocabulary</h2>';
+      html += '<table class="suffix-table"><thead><tr><th>Shipibo</th><th>Type</th><th>Meaning</th></tr></thead><tbody>';
+      icaro.vocabulary.forEach(function (v) {
+        var dictEntry = findDictEntry(v.shipibo);
+        html += '<tr><td>';
+        if (dictEntry) {
+          html += '<a href="#/entry/' + dictEntry.id + '" class="accent-link">' + esc(v.shipibo) + '</a>';
+        } else {
+          html += '<span class="font-semibold">' + esc(v.shipibo) + '</span>';
+        }
+        html += '</td><td><span class="badge">' + esc(v.pos || "") + '</span></td>';
+        html += '<td>' + esc(v.meaning) + '</td></tr>';
+      });
+      html += '</tbody></table></div>';
+    }
+
+    // Suffix reference table
+    if (icaro.suffix_reference && icaro.suffix_reference.length > 0) {
+      html += '<div class="mt-10"><h2 class="section-label mb-4">Suffix Reference</h2>';
+      html += '<table class="suffix-table"><thead><tr><th>Suffix</th><th>Meaning</th></tr></thead><tbody>';
+      icaro.suffix_reference.forEach(function (suf) {
+        html += '<tr><td class="font-semibold">-' + esc(suf.form) + '</td>';
+        html += '<td>' + esc(suf.meaning) + '</td></tr>';
+      });
+      html += '</tbody></table></div>';
+    }
+
+    // Nav to prev/next icaro
+    html += '<div class="mt-10 pt-6 border-t border-earth-200 flex justify-between">';
+    if (id > 1) {
+      var prev = ICAROS.find(function (ic) { return ic.id === id - 1; });
+      if (prev) {
+        html += '<a href="#/icaro/' + (id - 1) + '/learn" class="back-link">' +
+          '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+          esc(prev.title) + '</a>';
+      }
+    } else {
+      html += '<span></span>';
+    }
+    var next = ICAROS.find(function (ic) { return ic.id === id + 1; });
+    if (next) {
+      html += '<a href="#/icaro/' + (id + 1) + '/learn" class="accent-link">' +
+        esc(next.title) +
+        ' <svg class="w-4 h-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg></a>';
+    }
+    html += '</div>';
+
+    app.innerHTML = html;
+    window.scrollTo(0, 0);
+  }
+
   function renderAbout() {
     document.title = "About \u2014 Shipibo Dictionary";
     app.innerHTML = '<div class="mb-8">' +
@@ -380,7 +664,7 @@
   }
 
   // --- Init ---
-  loadEntries();
+  loadAll();
 
   // Register service worker
   if ("serviceWorker" in navigator) {

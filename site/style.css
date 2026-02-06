@@ -743,6 +743,191 @@
       color: var(--color-accent-light);
     }
   }
+  /* Icaro styles */
+  .icaro-card {
+    display: block;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid var(--color-earth-100);
+    transition: background-color 0.2s ease;
+    &:hover {
+      background-color: var(--color-parchment);
+    }
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  .view-toggle {
+    display: inline-flex;
+    border: 1px solid var(--color-earth-200);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .view-toggle a {
+    padding: 0.5rem 1.25rem;
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--color-ink-muted);
+    transition: all 0.2s ease;
+    text-decoration: none;
+    &:hover {
+      background-color: var(--color-parchment);
+      color: var(--color-ink);
+    }
+    &.active {
+      background-color: var(--color-ink);
+      color: var(--color-sand);
+    }
+  }
+  .song-section {
+    position: relative;
+    padding: 1rem 0 1rem 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .song-section-bracket {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .song-section-bracket::before {
+    content: "";
+    position: absolute;
+    left: 0.75rem;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    width: 8px;
+    border: 2px solid var(--color-earth-300);
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+  }
+  .song-repeat {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-ink-muted);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2.5rem;
+    text-align: center;
+  }
+  .song-line {
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 400;
+    line-height: 1.8;
+    color: var(--color-ink);
+  }
+  .song-line-repeat {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--color-ink-muted);
+    margin-left: 0.375rem;
+    vertical-align: middle;
+  }
+  .phrase-card {
+    padding: 1.25rem 1.5rem;
+    background-color: var(--color-linen);
+    border: 1px solid var(--color-earth-200);
+    border-radius: 2px;
+    margin-bottom: 1rem;
+  }
+  .morph-root {
+    color: var(--color-ink);
+  }
+  .morph-suffix-shaman,
+  .morph-suffix-ma,
+  .morph-suffix-mea,
+  .morph-suffix-beiran,
+  .morph-suffix-bo-verb {
+    color: #c0392b;
+  }
+  .morph-suffix-yon,
+  .morph-suffix-ke,
+  .morph-suffix-ai,
+  .morph-suffix-a,
+  .morph-suffix-i,
+  .morph-suffix-ya,
+  .morph-suffix-ake,
+  .morph-suffix-ainko,
+  .morph-suffix-tiibi,
+  .morph-suffix-nin,
+  .morph-suffix-en,
+  .morph-suffix-n,
+  .morph-suffix-kaini,
+  .morph-suffix-kan,
+  .morph-suffix-res,
+  .morph-suffix-we,
+  .morph-suffix-riki {
+    color: #27ae60;
+  }
+  .morph-suffix-bo {
+    color: #2980b9;
+  }
+  .morph-suffix-pari {
+    color: #e67e22;
+  }
+  .morph-suffix-taana,
+  .morph-suffix-tan,
+  .morph-suffix-tian {
+    color: #e67e22;
+  }
+  .morph-suffix-kin,
+  .morph-suffix-ra,
+  .morph-suffix-bi,
+  .morph-suffix-ni,
+  .morph-suffix-xon,
+  .morph-suffix-ax,
+  .morph-suffix-biribi,
+  .morph-suffix-pain,
+  .morph-suffix-ki-time {
+    color: #8e44ad;
+  }
+  .morph-suffix-banon,
+  .morph-suffix-ban,
+  .morph-suffix-non {
+    color: #8B4513;
+  }
+  .literal-translation {
+    padding: 0.75rem 1rem;
+    background-color: var(--color-parchment);
+    border-left: 3px solid var(--color-accent-warm);
+    border-radius: 0 2px 2px 0;
+    font-style: italic;
+    color: var(--color-ink-light);
+    margin-top: 0.75rem;
+  }
+  .suffix-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+  }
+  .suffix-table th {
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+    background-color: var(--color-earth-100);
+    color: var(--color-ink);
+    font-weight: 600;
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .suffix-table td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--color-earth-100);
+    color: var(--color-ink-light);
+  }
+  .suffix-table tr:last-child td {
+    border-bottom: none;
+  }
 }
 @property --tw-translate-x {
   syntax: "*";

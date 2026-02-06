@@ -1,0 +1,7527 @@
+[
+  {
+    "id": 1,
+    "title": "Neska Neska",
+    "song": {
+      "sections": [
+        {
+          "repeat": 2,
+          "lines": [
+            {
+              "text": "Neska neskashamankin",
+              "repeat": 2
+            },
+            {
+              "text": "Yora pari abano",
+              "repeat": 2
+            },
+            {
+              "text": "Panayonparibano",
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "repeat": 2,
+          "lines": [
+            {
+              "text": "Ponteyonparibanon",
+              "repeat": 2
+            },
+            {
+              "text": "Kanobo ponteban",
+              "repeat": 2
+            },
+            {
+              "text": "Yoi, yoi shamankin",
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "repeat": 2,
+          "lines": [
+            {
+              "text": "Soa, soa shamankin",
+              "repeat": 2
+            },
+            {
+              "text": "Nete pari abanon",
+              "repeat": null
+            },
+            {
+              "text": "Neska, neska shamankin",
+              "repeat": null
+            },
+            {
+              "text": "Nanta, nanta shamankin",
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "repeat": 2,
+          "lines": [
+            {
+              "text": "Yorabo abanon",
+              "repeat": 2
+            },
+            {
+              "text": "Payanyonparibanon",
+              "repeat": null
+            },
+            {
+              "text": "Oinyonparibanon",
+              "repeat": null
+            },
+            {
+              "text": "Manayonparibanon",
+              "repeat": 2
+            }
+          ]
+        }
+      ]
+    },
+    "phrases": [
+      {
+        "shipibo": "Neska neskashamankin",
+        "parts": [
+          {
+            "text": "Neska neska",
+            "type": "root"
+          },
+          {
+            "text": "shaman",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "kin",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "neskati",
+        "part_of_speech": "v",
+        "root_meaning": "to do/be like this",
+        "suffixes": [
+          {
+            "form": "shaman",
+            "meaning": "to do so excellently"
+          },
+          {
+            "form": "kin",
+            "meaning": "doing so when/while/-ing (transitive)"
+          }
+        ],
+        "literal_translation": "While doing so excellently",
+        "cultural_note": "An expression of doing something with joy, in this manner"
+      },
+      {
+        "shipibo": "Yonapari abanon",
+        "parts": [
+          {
+            "text": "Yora",
+            "type": "root"
+          },
+          {
+            "text": "pari",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "a",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "banon",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "yora",
+        "part_of_speech": "n",
+        "root_meaning": "body",
+        "suffixes": [
+          {
+            "form": "pari",
+            "meaning": "priority, first"
+          },
+          {
+            "form": "a",
+            "meaning": "to do"
+          },
+          {
+            "form": "banon",
+            "meaning": "announcement of action, \"Will do\" immediately"
+          }
+        ],
+        "literal_translation": "will work on the body first",
+        "cultural_note": "Will do medicine work to treat the bodies"
+      },
+      {
+        "shipibo": "Panayonparibanon",
+        "parts": [
+          {
+            "text": "Pana",
+            "type": "root"
+          },
+          {
+            "text": "yon",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "pari",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "banon",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "panati",
+        "part_of_speech": "v",
+        "root_meaning": "to protect, shield",
+        "suffixes": [
+          {
+            "form": "yon",
+            "meaning": "do to completion, fully"
+          },
+          {
+            "form": "pari",
+            "meaning": "priority, first"
+          },
+          {
+            "form": "banon",
+            "meaning": "announcement of action, \"Will do\" immediately"
+          }
+        ],
+        "literal_translation": "will protect fully first",
+        "cultural_note": "The healer will protect him/herself first"
+      },
+      {
+        "shipibo": "Ponteyonparibanon",
+        "parts": [
+          {
+            "text": "Ponte",
+            "type": "root"
+          },
+          {
+            "text": "yon",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "pari",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "banon",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "ponteti",
+        "part_of_speech": "v",
+        "root_meaning": "to straighten, align",
+        "suffixes": [
+          {
+            "form": "yon",
+            "meaning": "do to completion, fully"
+          },
+          {
+            "form": "pari",
+            "meaning": "priority, first"
+          },
+          {
+            "form": "banon",
+            "meaning": "announcement of action, \"Will do\" immediately"
+          }
+        ],
+        "literal_translation": "will align fully first",
+        "cultural_note": "And align their medicine energy first for proper channeling"
+      },
+      {
+        "shipibo": "Kanobo pontebanon",
+        "parts": [
+          {
+            "text": "Kano",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          },
+          {
+            "text": "ponte",
+            "type": "root"
+          },
+          {
+            "text": "banon",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "kano",
+        "part_of_speech": "n",
+        "root_meaning": "connection structure, anchor",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "plural"
+          },
+          {
+            "form": "banon",
+            "meaning": "announcement of action, \"Will do\" immediately"
+          }
+        ],
+        "literal_translation": "will align the connection structures",
+        "cultural_note": "Align all of their connection structures to the highest frequency"
+      },
+      {
+        "shipibo": "Yoi, yoishamankin",
+        "parts": [
+          {
+            "text": "Yoi, yoi",
+            "type": "root"
+          },
+          {
+            "text": "shaman",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "kin",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "yoiti",
+        "part_of_speech": "v",
+        "root_meaning": "to speak, say, invoke by word",
+        "suffixes": [
+          {
+            "form": "shaman",
+            "meaning": "to do so excellently"
+          },
+          {
+            "form": "kin",
+            "meaning": "doing so when/while/-ing (transitive)"
+          }
+        ],
+        "literal_translation": "While I am speaking, invoking excellently",
+        "cultural_note": "The healer invokes their medicine energy for greater connection"
+      },
+      {
+        "shipibo": "Soa, soashamankin",
+        "parts": [
+          {
+            "text": "Soa, soa",
+            "type": "root"
+          },
+          {
+            "text": "shaman",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "kin",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "soati",
+        "part_of_speech": "v",
+        "root_meaning": "to clear, wipe",
+        "suffixes": [
+          {
+            "form": "shaman",
+            "meaning": "to do so excellently"
+          },
+          {
+            "form": "kin",
+            "meaning": "doing so when/while/-ing (transitive)"
+          }
+        ],
+        "literal_translation": "While clearing/wiping excellently",
+        "cultural_note": "Now they begin to clear, do the healing"
+      },
+      {
+        "shipibo": "Netepari abanon",
+        "parts": [
+          {
+            "text": "Nete",
+            "type": "root"
+          },
+          {
+            "text": "pari",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "a",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "banon",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "nete",
+        "part_of_speech": "n",
+        "root_meaning": "Universe",
+        "suffixes": [
+          {
+            "form": "pari",
+            "meaning": "priority, first"
+          },
+          {
+            "form": "a",
+            "meaning": "to do"
+          },
+          {
+            "form": "banon",
+            "meaning": "announcement of action, \"Will do\" immediately"
+          }
+        ],
+        "literal_translation": "will work on the universe first",
+        "cultural_note": "They begin from the energetic universe of the patient. The Shipibo believe that on the energetic plane, people have a \"universe\". These are all the universe of energies that conform a person."
+      },
+      {
+        "shipibo": "Neska, neska shamankin",
+        "parts": [
+          {
+            "text": "Neska, neska",
+            "type": "root"
+          },
+          {
+            "text": "shaman",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "kin",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "neskati",
+        "part_of_speech": "v",
+        "root_meaning": "to do/be like this",
+        "suffixes": [
+          {
+            "form": "shaman",
+            "meaning": "to do so excellently"
+          },
+          {
+            "form": "kin",
+            "meaning": "doing so when/while/-ing (transitive)"
+          }
+        ],
+        "literal_translation": "While doing so excellently",
+        "cultural_note": "They express joy while doing the healing"
+      },
+      {
+        "shipibo": "Nanta, nanta shamankin",
+        "parts": [
+          {
+            "text": "Nanta, nanta",
+            "type": "root"
+          },
+          {
+            "text": "shaman",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "kin",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "nantanti",
+        "part_of_speech": "v",
+        "root_meaning": "to bend, or be inclined",
+        "suffixes": [
+          {
+            "form": "shaman",
+            "meaning": "to do so excellently"
+          },
+          {
+            "form": "kin",
+            "meaning": "doing so when/while/-ing (transitive)"
+          }
+        ],
+        "literal_translation": "While bending excellently",
+        "cultural_note": "They describe their body bending, inclining while doing the healing in a form of ancestral dance"
+      },
+      {
+        "shipibo": "Yorabo abanon",
+        "parts": [
+          {
+            "text": "Yora",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          },
+          {
+            "text": "a",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "banon",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "yora",
+        "part_of_speech": "n",
+        "root_meaning": "body",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "plural"
+          },
+          {
+            "form": "a",
+            "meaning": "to do"
+          },
+          {
+            "form": "banon",
+            "meaning": "announcement of action, \"Will do\" immediately"
+          }
+        ],
+        "literal_translation": "will work on the bodies",
+        "cultural_note": "All the bodies are being treated"
+      },
+      {
+        "shipibo": "Payanyonparibanon",
+        "parts": [
+          {
+            "text": "Payan",
+            "type": "root"
+          },
+          {
+            "text": "yon",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "pari",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "banon",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "payanti",
+        "part_of_speech": "v",
+        "root_meaning": "to blow away, fan",
+        "suffixes": [
+          {
+            "form": "yon",
+            "meaning": "do to completion, fully"
+          },
+          {
+            "form": "pari",
+            "meaning": "priority, first"
+          },
+          {
+            "form": "banon",
+            "meaning": "announcement of action, \"Will do\" immediately"
+          }
+        ],
+        "literal_translation": "will blow away fully first",
+        "cultural_note": "Healer is blowing away the negative energies"
+      },
+      {
+        "shipibo": "Oinyonparibanon",
+        "parts": [
+          {
+            "text": "Oin",
+            "type": "root"
+          },
+          {
+            "text": "yon",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "pari",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "banon",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "ointi",
+        "part_of_speech": "v",
+        "root_meaning": "to see",
+        "suffixes": [
+          {
+            "form": "yon",
+            "meaning": "do to completion, fully"
+          },
+          {
+            "form": "pari",
+            "meaning": "priority, first"
+          },
+          {
+            "form": "banon",
+            "meaning": "announcement of action, \"Will do\" immediately"
+          }
+        ],
+        "literal_translation": "will see fully first",
+        "cultural_note": "Healer will look, in the sense of diagnosing the bodies with vision"
+      },
+      {
+        "shipibo": "Manayonparibanon",
+        "parts": [
+          {
+            "text": "Mana",
+            "type": "root"
+          },
+          {
+            "text": "yon",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "pari",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "banon",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "manati",
+        "part_of_speech": "v",
+        "root_meaning": "to wait",
+        "suffixes": [
+          {
+            "form": "yon",
+            "meaning": "do to completion, fully"
+          },
+          {
+            "form": "pari",
+            "meaning": "priority, first"
+          },
+          {
+            "form": "banon",
+            "meaning": "announcement of action, \"Will do\" immediately"
+          }
+        ],
+        "literal_translation": "will wait fully first",
+        "cultural_note": "Healer will wait, in the sense waiting to see and connect with the energies for appropriate diagnosis"
+      }
+    ],
+    "vocabulary": [
+      {
+        "shipibo": "ati",
+        "pos": "v",
+        "meaning": "to do"
+      },
+      {
+        "shipibo": "kano",
+        "pos": "n",
+        "meaning": "connection structure, anchor"
+      },
+      {
+        "shipibo": "manati",
+        "pos": "v",
+        "meaning": "to wait"
+      },
+      {
+        "shipibo": "nantanti",
+        "pos": "v",
+        "meaning": "to bend, to be inclined"
+      },
+      {
+        "shipibo": "neskati",
+        "pos": "v",
+        "meaning": "to do/be like this"
+      },
+      {
+        "shipibo": "nete",
+        "pos": "n",
+        "meaning": "Universe"
+      },
+      {
+        "shipibo": "ointi",
+        "pos": "v",
+        "meaning": "to see"
+      },
+      {
+        "shipibo": "panati",
+        "pos": "v",
+        "meaning": "to protect, shield"
+      },
+      {
+        "shipibo": "payanti",
+        "pos": "v",
+        "meaning": "to blow away, fan"
+      },
+      {
+        "shipibo": "ponteti",
+        "pos": "v",
+        "meaning": "to straighten, align"
+      },
+      {
+        "shipibo": "soati",
+        "pos": "v",
+        "meaning": "to clear, wipe"
+      },
+      {
+        "shipibo": "yoiti",
+        "pos": "v",
+        "meaning": "to speak, say, invoke by word"
+      },
+      {
+        "shipibo": "yora",
+        "pos": "n",
+        "meaning": "body"
+      }
+    ],
+    "suffix_reference": [
+      {
+        "form": "ban/banon",
+        "meaning": "announcement of action, \"Will do\" immediately"
+      },
+      {
+        "form": "bo",
+        "meaning": "plural"
+      },
+      {
+        "form": "kin",
+        "meaning": "while doing so, or -ing (transitive)"
+      },
+      {
+        "form": "pari",
+        "meaning": "priority, first"
+      },
+      {
+        "form": "shaman",
+        "meaning": "to do so excellently"
+      },
+      {
+        "form": "yon",
+        "meaning": "do to completion, fully"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Neska Neskashamani",
+    "song": {
+      "sections": [
+        {
+          "repeat": 2,
+          "lines": [
+            {
+              "text": "Neska neska shamani",
+              "repeat": null
+            },
+            {
+              "text": "Neska neska shamani ... je, he",
+              "repeat": null
+            },
+            {
+              "text": "Neska neska shamani",
+              "repeat": null
+            },
+            {
+              "text": "Iki ishamani",
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "repeat": 2,
+          "lines": [
+            {
+              "text": "Jakon nira kanoke",
+              "repeat": null
+            },
+            {
+              "text": "Jakon nira kanoke ... je, he",
+              "repeat": null
+            },
+            {
+              "text": "Nokon sama kanobo",
+              "repeat": null
+            },
+            {
+              "text": "Nokon kano keweni",
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "repeat": 2,
+          "lines": [
+            {
+              "text": "Kano kibi kanota",
+              "repeat": null
+            },
+            {
+              "text": "Kano kibi kanota ... je, he",
+              "repeat": null
+            },
+            {
+              "text": "Chullachaki medico",
+              "repeat": null
+            },
+            {
+              "text": "Nete kano riosbo",
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "repeat": 2,
+          "lines": [
+            {
+              "text": "Maanira bekani",
+              "repeat": null
+            },
+            {
+              "text": "Maanira bekani ... je, he",
+              "repeat": null
+            },
+            {
+              "text": "Noki beiranira",
+              "repeat": null
+            },
+            {
+              "text": "Kano kano shamani",
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "repeat": 2,
+          "lines": [
+            {
+              "text": "Jaton nete xamanbi",
+              "repeat": null
+            },
+            {
+              "text": "Jaton nete xamanbi",
+              "repeat": null
+            },
+            {
+              "text": "Nokon sama kanobo",
+              "repeat": null
+            },
+            {
+              "text": "Torrin ewa joyoya",
+              "repeat": 2
+            }
+          ]
+        }
+      ]
+    },
+    "phrases": [
+      {
+        "shipibo": "Neska neskashamani",
+        "parts": [
+          {
+            "text": "Neska neska",
+            "type": "root"
+          },
+          {
+            "text": "shaman",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "neskati",
+        "part_of_speech": "v",
+        "root_meaning": "to do/be like this",
+        "suffixes": [
+          {
+            "form": "-shaman",
+            "meaning": "to do so excellently"
+          },
+          {
+            "form": "-i",
+            "meaning": "doing so when/while/-ing (intransitive)"
+          }
+        ],
+        "literal_translation": "While being so excellently",
+        "cultural_note": "An expression of being or doing with joy, in this manner"
+      },
+      {
+        "shipibo": "Neska neskashamani jehe",
+        "parts": [
+          {
+            "text": "Neska neska",
+            "type": "root"
+          },
+          {
+            "text": "shaman",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "neskati",
+        "part_of_speech": "v",
+        "root_meaning": "to do/be like this",
+        "suffixes": [
+          {
+            "form": "-shaman",
+            "meaning": "to do so excellently"
+          },
+          {
+            "form": "-i",
+            "meaning": "doing so when/while/-ing (intransitive)"
+          }
+        ],
+        "literal_translation": "While doing so excellently",
+        "cultural_note": "Rhythmic exclamation. An expression of being or doing with joy, in this manner"
+      },
+      {
+        "shipibo": "Neska neskashamani",
+        "parts": [
+          {
+            "text": "Neska neska",
+            "type": "root"
+          },
+          {
+            "text": "shaman",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "neskati",
+        "part_of_speech": "v",
+        "root_meaning": "to do/be like this",
+        "suffixes": [
+          {
+            "form": "-shaman",
+            "meaning": "to do so excellently"
+          },
+          {
+            "form": "-i",
+            "meaning": "doing so when/while/-ing (intransitive)"
+          }
+        ],
+        "literal_translation": "While doing so excellently",
+        "cultural_note": "An expression of being or doing with joy, in this manner"
+      },
+      {
+        "shipibo": "Iki ishamani",
+        "parts": [
+          {
+            "text": "Iki i",
+            "type": "root"
+          },
+          {
+            "text": "shaman",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "iti",
+        "part_of_speech": "v",
+        "root_meaning": "to be, iki present tense conjugation",
+        "suffixes": [
+          {
+            "form": "-shaman",
+            "meaning": "to do so excellently"
+          },
+          {
+            "form": "-i",
+            "meaning": "doing so when/while/-ing (intransitive)"
+          }
+        ],
+        "literal_translation": "Celebrating with their song",
+        "cultural_note": "Expression referring to celebratory verbalizations, songs, prayers"
+      },
+      {
+        "shipibo": "Jakonira kanoke",
+        "parts": [
+          {
+            "text": "Jakoni",
+            "type": "root"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "kano",
+            "type": "root"
+          },
+          {
+            "text": "ke",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "kanoti",
+        "part_of_speech": "v",
+        "root_meaning": "to connect, anchor oneself",
+        "suffixes": [
+          {
+            "form": "-ra",
+            "meaning": "emphasis"
+          },
+          {
+            "form": "-ke",
+            "meaning": "most recent past tense"
+          }
+        ],
+        "literal_translation": "Just connected very well",
+        "cultural_note": "The healer has connected very well with their medicine"
+      },
+      {
+        "shipibo": "Jakonira kanoke jehe",
+        "parts": [
+          {
+            "text": "Jakoni",
+            "type": "root"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "kano",
+            "type": "root"
+          },
+          {
+            "text": "ke",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "kanoti",
+        "part_of_speech": "v",
+        "root_meaning": "to connect, anchor oneself",
+        "suffixes": [
+          {
+            "form": "-ra",
+            "meaning": "emphasis"
+          },
+          {
+            "form": "-ke",
+            "meaning": "most recent past tense"
+          }
+        ],
+        "literal_translation": "Just connected very well",
+        "cultural_note": "Rhythmic exclamation. The healer has connected very well with their medicine"
+      },
+      {
+        "shipibo": "Nokon sama kanobo",
+        "parts": [
+          {
+            "text": "Nokon",
+            "type": "root"
+          },
+          {
+            "text": "sama",
+            "type": "root"
+          },
+          {
+            "text": "kano",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "kano",
+        "part_of_speech": "n",
+        "root_meaning": "connection structure, anchor",
+        "suffixes": [
+          {
+            "form": "-bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "My dieta connection structures",
+        "cultural_note": "Their medicine referring to all of the dieta energy cultivated in them"
+      },
+      {
+        "shipibo": "Nokon kano keweni",
+        "parts": [
+          {
+            "text": "Nokon",
+            "type": "root"
+          },
+          {
+            "text": "kano",
+            "type": "root"
+          },
+          {
+            "text": "kewe",
+            "type": "root"
+          },
+          {
+            "text": "ni",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "keweti",
+        "part_of_speech": "v",
+        "root_meaning": "to become embroidered",
+        "suffixes": [
+          {
+            "form": "-ni",
+            "meaning": "ancient past tense"
+          }
+        ],
+        "literal_translation": "My anciently embroidered connection structure",
+        "cultural_note": "They are describing their connection, which is full of embroidery. An 'embroidered energy' symbolizes a beautiful and medicinal connection that took years of dieta to refine."
+      },
+      {
+        "shipibo": "Kanokibi kanota",
+        "parts": [
+          {
+            "text": "Kano",
+            "type": "root"
+          },
+          {
+            "text": "ki",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "bi",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "kanot",
+            "type": "root"
+          },
+          {
+            "text": "a",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "kanoti",
+        "part_of_speech": "v",
+        "root_meaning": "to connect, anchor oneself",
+        "suffixes": [
+          {
+            "form": "-ki",
+            "meaning": "towards"
+          },
+          {
+            "form": "-bi",
+            "meaning": "emphasis, its own"
+          },
+          {
+            "form": "-a",
+            "meaning": "general past"
+          }
+        ],
+        "literal_translation": "Connected towards this connection structure",
+        "cultural_note": "In this case, the healer's medicine has many connections to all kinds of energies that make up their shamanic toolbox"
+      },
+      {
+        "shipibo": "Kanokibi kanota jehe",
+        "parts": [
+          {
+            "text": "Kano",
+            "type": "root"
+          },
+          {
+            "text": "ki",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "bi",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "kanot",
+            "type": "root"
+          },
+          {
+            "text": "a",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "kanoti",
+        "part_of_speech": "v",
+        "root_meaning": "to connect, anchor oneself",
+        "suffixes": [
+          {
+            "form": "-ki",
+            "meaning": "towards"
+          },
+          {
+            "form": "-bi",
+            "meaning": "emphasis, its own"
+          },
+          {
+            "form": "-a",
+            "meaning": "general past"
+          }
+        ],
+        "literal_translation": "Connected towards this connection structure",
+        "cultural_note": "Rhythmic exclamation"
+      },
+      {
+        "shipibo": "Chullachaki medico",
+        "parts": [
+          {
+            "text": "Chullachaki",
+            "type": "root"
+          },
+          {
+            "text": "medico",
+            "type": "root"
+          }
+        ],
+        "root_word": "chullachaki",
+        "part_of_speech": "n",
+        "root_meaning": "Master Tree",
+        "suffixes": [],
+        "literal_translation": "Chullachaki doctor",
+        "cultural_note": "In this case, Don Miguel has a very close connection to the Chullachaki spirit. He is a doctor of Chullachaki. Medico is Spanish for 'doctor'. Used in icaros to refer to medicines or medicinal frequencies."
+      },
+      {
+        "shipibo": "Nete kano riosbo",
+        "parts": [
+          {
+            "text": "Nete",
+            "type": "root"
+          },
+          {
+            "text": "kano",
+            "type": "root"
+          },
+          {
+            "text": "Rios",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "nete",
+        "part_of_speech": "n",
+        "root_meaning": "Universe",
+        "suffixes": [
+          {
+            "form": "-bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "The universe connection/energy Gods",
+        "cultural_note": "The 'gods' refer to the plant spirits. A connection to their universe."
+      },
+      {
+        "shipibo": "Maanira bekani",
+        "parts": [
+          {
+            "text": "Maan",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "bekan",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "maanhati",
+        "part_of_speech": "v",
+        "root_meaning": "to descend, many objects or a mass",
+        "suffixes": [
+          {
+            "form": "-i",
+            "meaning": "doing so when/while/-ing"
+          },
+          {
+            "form": "-ra",
+            "meaning": "emphasis"
+          },
+          {
+            "form": "-i",
+            "meaning": "doing so when/while/-ing"
+          }
+        ],
+        "literal_translation": "Are welcomed as they are descending",
+        "cultural_note": "These spirits come descending from the heavens to the maestro to aid in healing"
+      },
+      {
+        "shipibo": "Maanira bekani jehe",
+        "parts": [
+          {
+            "text": "Maan",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "bekan",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "bekanti",
+        "part_of_speech": "v",
+        "root_meaning": "to welcome many",
+        "suffixes": [
+          {
+            "form": "-i",
+            "meaning": "doing so when/while/-ing"
+          },
+          {
+            "form": "-ra",
+            "meaning": "emphasis"
+          },
+          {
+            "form": "-i",
+            "meaning": "doing so when/while/-ing"
+          }
+        ],
+        "literal_translation": "Are welcomed as they are descending",
+        "cultural_note": "Rhythmic exclamation"
+      },
+      {
+        "shipibo": "Nokibeiranira",
+        "parts": [
+          {
+            "text": "No",
+            "type": "root"
+          },
+          {
+            "text": "ki",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "beiran",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "beiran",
+        "part_of_speech": "v",
+        "root_meaning": "do as you approach (plural or transitive)",
+        "suffixes": [
+          {
+            "form": "-ki",
+            "meaning": "toward"
+          },
+          {
+            "form": "-i",
+            "meaning": "doing so when/while/-ing (intransitive)"
+          },
+          {
+            "form": "-ra",
+            "meaning": "emphasis"
+          }
+        ],
+        "literal_translation": "They come towards us",
+        "cultural_note": "Not only the maestro but the patients as well. The spirits come to help."
+      },
+      {
+        "shipibo": "Kano kanoshamani",
+        "parts": [
+          {
+            "text": "Kano kano",
+            "type": "root"
+          },
+          {
+            "text": "shaman",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "kanoti",
+        "part_of_speech": "v",
+        "root_meaning": "to connect, anchor oneself",
+        "suffixes": [
+          {
+            "form": "-shaman",
+            "meaning": "to do so excellently"
+          },
+          {
+            "form": "-i",
+            "meaning": "doing so when/while/-ing (intransitive)"
+          }
+        ],
+        "literal_translation": "While connecting excellently",
+        "cultural_note": "And are connecting very beautifully"
+      },
+      {
+        "shipibo": "Jaton nete xamanbi",
+        "parts": [
+          {
+            "text": "Jaton",
+            "type": "root"
+          },
+          {
+            "text": "nete",
+            "type": "root"
+          },
+          {
+            "text": "xama",
+            "type": "root"
+          },
+          {
+            "text": "n",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "bi",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "xama",
+        "part_of_speech": "n",
+        "root_meaning": "depths",
+        "suffixes": [
+          {
+            "form": "-n",
+            "meaning": "place, in (in this context)"
+          },
+          {
+            "form": "-bi",
+            "meaning": "emphasis, itself"
+          }
+        ],
+        "literal_translation": "In the depths of their own universe",
+        "cultural_note": "Referring to the universe of the spirits, in the depths of the spirit's universe."
+      },
+      {
+        "shipibo": "Jaton nete xamanbi jehe",
+        "parts": [
+          {
+            "text": "Jaton",
+            "type": "root"
+          },
+          {
+            "text": "nete",
+            "type": "root"
+          },
+          {
+            "text": "xama",
+            "type": "root"
+          },
+          {
+            "text": "n",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "bi",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "xama",
+        "part_of_speech": "n",
+        "root_meaning": "depths",
+        "suffixes": [
+          {
+            "form": "-n",
+            "meaning": "place, in (in this context)"
+          },
+          {
+            "form": "-bi",
+            "meaning": "emphasis, itself"
+          }
+        ],
+        "literal_translation": "In the depths of their own universe",
+        "cultural_note": "Rhythmic exclamation"
+      },
+      {
+        "shipibo": "Nokon sama kanobo",
+        "parts": [
+          {
+            "text": "Nokon",
+            "type": "root"
+          },
+          {
+            "text": "sama",
+            "type": "root"
+          },
+          {
+            "text": "kano",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "kano",
+        "part_of_speech": "n",
+        "root_meaning": "connection structure, anchor",
+        "suffixes": [
+          {
+            "form": "-bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "My dieta connection structures",
+        "cultural_note": "The energies of the dieta are connected to the universe of the spirits as mentioned above"
+      },
+      {
+        "shipibo": "Torrin ewa joyoya",
+        "parts": [
+          {
+            "text": "Tori",
+            "type": "root"
+          },
+          {
+            "text": "n",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "ewa",
+            "type": "root"
+          },
+          {
+            "text": "joyo",
+            "type": "root"
+          },
+          {
+            "text": "ya",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "tori",
+        "part_of_speech": "n",
+        "root_meaning": "from Spanish torre, Tower",
+        "suffixes": [
+          {
+            "form": "-n",
+            "meaning": "possessive"
+          },
+          {
+            "form": "-ya",
+            "meaning": "containing"
+          }
+        ],
+        "literal_translation": "Containing huge towers in line (huge power)",
+        "cultural_note": "Speaking to the immense energies of the towers. The towers refer to medicine temples as seen in the ayahuasca visions or dream space. Temples symbolize divine energy, the highest frequency medicine energy available in the plant medicine realms. The universe of the plant spirits is full of these towers in a line."
+      }
+    ],
+    "vocabulary": [
+      {
+        "shipibo": "neskati",
+        "pos": "v",
+        "meaning": "to do/be like this"
+      },
+      {
+        "shipibo": "iti",
+        "pos": "v",
+        "meaning": "to be (iki present tense conjugation)"
+      },
+      {
+        "shipibo": "jakoni",
+        "pos": "adv",
+        "meaning": "to do something well"
+      },
+      {
+        "shipibo": "kanoti",
+        "pos": "v",
+        "meaning": "to connect, anchor oneself"
+      },
+      {
+        "shipibo": "kano",
+        "pos": "n",
+        "meaning": "connection structure, anchor"
+      },
+      {
+        "shipibo": "sama",
+        "pos": "n",
+        "meaning": "dieta"
+      },
+      {
+        "shipibo": "keweti",
+        "pos": "v",
+        "meaning": "to become embroidered"
+      },
+      {
+        "shipibo": "chullachaki",
+        "pos": "n",
+        "meaning": "Master Tree (local spirit)"
+      },
+      {
+        "shipibo": "medico",
+        "pos": "n",
+        "meaning": "Spanish for 'doctor'; used in icaros to refer to medicines or medicinal frequencies"
+      },
+      {
+        "shipibo": "nete",
+        "pos": "n",
+        "meaning": "Universe"
+      },
+      {
+        "shipibo": "rios",
+        "pos": "n",
+        "meaning": "from Spanish 'Dios', God"
+      },
+      {
+        "shipibo": "maanhati",
+        "pos": "v",
+        "meaning": "to descend, many objects or a mass"
+      },
+      {
+        "shipibo": "bekanti",
+        "pos": "v",
+        "meaning": "to welcome many"
+      },
+      {
+        "shipibo": "beiran",
+        "pos": "v",
+        "meaning": "do as you approach (plural or transitive)"
+      },
+      {
+        "shipibo": "noa",
+        "pos": "pron",
+        "meaning": "us"
+      },
+      {
+        "shipibo": "nokon",
+        "pos": "pron",
+        "meaning": "my"
+      },
+      {
+        "shipibo": "jaton",
+        "pos": "pron",
+        "meaning": "their"
+      },
+      {
+        "shipibo": "xama",
+        "pos": "n",
+        "meaning": "depths"
+      },
+      {
+        "shipibo": "tori",
+        "pos": "n",
+        "meaning": "from Spanish torre, Tower"
+      },
+      {
+        "shipibo": "ewa",
+        "pos": "adj",
+        "meaning": "huge"
+      },
+      {
+        "shipibo": "joyo",
+        "pos": "n",
+        "meaning": "line"
+      }
+    ],
+    "suffix_reference": [
+      {
+        "form": "-shaman",
+        "meaning": "to do so excellently"
+      },
+      {
+        "form": "-i",
+        "meaning": "doing so when/while/-ing (intransitive)"
+      },
+      {
+        "form": "-a",
+        "meaning": "general past tense"
+      },
+      {
+        "form": "-ke",
+        "meaning": "most recent past tense"
+      },
+      {
+        "form": "-ni",
+        "meaning": "ancient past tense"
+      },
+      {
+        "form": "-ra",
+        "meaning": "emphasis"
+      },
+      {
+        "form": "-bi",
+        "meaning": "emphasis, its own/itself"
+      },
+      {
+        "form": "-ki",
+        "meaning": "towards"
+      },
+      {
+        "form": "-bo",
+        "meaning": "plural"
+      },
+      {
+        "form": "-n",
+        "meaning": "place, in / possessive (context dependent)"
+      },
+      {
+        "form": "-ya",
+        "meaning": "containing"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Niwe Tori Campana",
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Niwe Tori Campana je",
+              "repeat": 3
+            },
+            {
+              "text": "Nete ani kepeni",
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Noya Rao Riosbo je",
+              "repeat": 2
+            },
+            {
+              "text": "Joyo joyo niwebo je",
+              "repeat": null
+            },
+            {
+              "text": "Joni tsoa tsoawa",
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "En keyo keyoban je",
+              "repeat": null
+            },
+            {
+              "text": "Min rami niwebo",
+              "repeat": null
+            },
+            {
+              "text": "En keyobokinra je",
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Soa soabokinra je",
+              "repeat": null
+            },
+            {
+              "text": "Pisha, pishabokinra",
+              "repeat": null
+            },
+            {
+              "text": "Nete senenainko",
+              "repeat": null
+            },
+            {
+              "text": "Mayaaketaanax je",
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Maanira bekanai je",
+              "repeat": null
+            },
+            {
+              "text": "Nokibeiranira",
+              "repeat": null
+            },
+            {
+              "text": "Weibeirantaana je",
+              "repeat": null
+            },
+            {
+              "text": "Chiti, chitishamani je",
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Mato kanomayonban je",
+              "repeat": null
+            },
+            {
+              "text": "Ja neten pikoxon",
+              "repeat": null
+            },
+            {
+              "text": "Mana, manashamanban je",
+              "repeat": null
+            },
+            {
+              "text": "Min yora meabo",
+              "repeat": 2
+            }
+          ]
+        }
+      ]
+    },
+    "phrases": [
+      {
+        "shipibo": "Niwe Tori Campana je",
+        "parts": [
+          {
+            "text": "Niwe",
+            "type": "root"
+          },
+          {
+            "text": "Tori",
+            "type": "root"
+          },
+          {
+            "text": "Campana",
+            "type": "root"
+          },
+          {
+            "text": "je",
+            "type": "root"
+          }
+        ],
+        "root_word": "Niwe, Tori, Campana",
+        "part_of_speech": "n",
+        "root_meaning": "Niwe: wind-like energy; Tori: from Spanish torre, tower; Campana: from Spanish campana, bell",
+        "suffixes": [],
+        "literal_translation": "the energetic bell from the tower",
+        "cultural_note": "The bell in an energetic tower symbolizes the medicine of sound, the force of the icaros"
+      },
+      {
+        "shipibo": "Nete ani kepeni",
+        "parts": [
+          {
+            "text": "Nete",
+            "type": "root"
+          },
+          {
+            "text": "ani",
+            "type": "root"
+          },
+          {
+            "text": "kepen",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "kepenti",
+        "part_of_speech": "v",
+        "root_meaning": "to open",
+        "suffixes": [
+          {
+            "form": "-i",
+            "meaning": "doing so when/while/-ing (intransitive)"
+          }
+        ],
+        "literal_translation": "opening the grand universe",
+        "cultural_note": "With this icaro medicine, the greatest universe opens. Speaking of medicinal frequencies"
+      },
+      {
+        "shipibo": "Noya Rao Riosbo je",
+        "parts": [
+          {
+            "text": "Noya Rao",
+            "type": "root"
+          },
+          {
+            "text": "Rios",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          },
+          {
+            "text": "je",
+            "type": "root"
+          }
+        ],
+        "root_word": "Noya Rao, Rios",
+        "part_of_speech": "n",
+        "root_meaning": "Noya Rao: Flying Medicine (Noya means 'Flying', Rao means 'medicine'); Rios: from Spanish Dios, God",
+        "suffixes": [
+          {
+            "form": "-bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "the flying medicine gods",
+        "cultural_note": "The spirits of Noya Rao"
+      },
+      {
+        "shipibo": "Joyo joyo niwebo je",
+        "parts": [
+          {
+            "text": "Joyo",
+            "type": "root"
+          },
+          {
+            "text": "joyo",
+            "type": "root"
+          },
+          {
+            "text": "niwe",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          },
+          {
+            "text": "je",
+            "type": "root"
+          }
+        ],
+        "root_word": "joyo, niwe",
+        "part_of_speech": "n",
+        "root_meaning": "Joyo: line; Niwe: wind-like energy",
+        "suffixes": [
+          {
+            "form": "-bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "the energies (of the spirits) in line",
+        "cultural_note": "The energy of Noya Rao is arranged in a line"
+      },
+      {
+        "shipibo": "Joni tsoa tsoawa",
+        "parts": [
+          {
+            "text": "Joni",
+            "type": "root"
+          },
+          {
+            "text": "tsoa",
+            "type": "root"
+          },
+          {
+            "text": "tsoawa",
+            "type": "root"
+          }
+        ],
+        "root_word": "joni, tsoawa",
+        "part_of_speech": "n",
+        "root_meaning": "Joni: person or man; Tsoawa: species of amazonian bird, symbolizing medicine, a doctor",
+        "suffixes": [],
+        "literal_translation": "medicine man (spirit)",
+        "cultural_note": "The bird, tsoawa, is a metaphor for a medicinal energy; in this case the healer refers to the medicine spirit presenting itself"
+      },
+      {
+        "shipibo": "En keyo keyoban je",
+        "parts": [
+          {
+            "text": "En",
+            "type": "root"
+          },
+          {
+            "text": "keyo",
+            "type": "root"
+          },
+          {
+            "text": "keyo",
+            "type": "root"
+          },
+          {
+            "text": "ban",
+            "type": "suffix",
+            "color": "brown"
+          },
+          {
+            "text": "je",
+            "type": "root"
+          }
+        ],
+        "root_word": "keyoti",
+        "part_of_speech": "v",
+        "root_meaning": "to eliminate",
+        "suffixes": [
+          {
+            "form": "-ban",
+            "meaning": "announcement of action, 'Will do' immediately"
+          }
+        ],
+        "literal_translation": "I will eliminate",
+        "cultural_note": "Begins to do the healing after connecting to the force of his icaro"
+      },
+      {
+        "shipibo": "Min rami niwebo",
+        "parts": [
+          {
+            "text": "Min",
+            "type": "root"
+          },
+          {
+            "text": "rami",
+            "type": "root"
+          },
+          {
+            "text": "niwe",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "niwe",
+        "part_of_speech": "n",
+        "root_meaning": "Min: your; Rami: distorted; Niwe: wind-like energy",
+        "suffixes": [
+          {
+            "form": "-bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "Your distorted energies",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "En keyobokinra je",
+        "parts": [
+          {
+            "text": "En",
+            "type": "root"
+          },
+          {
+            "text": "keyo",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          },
+          {
+            "text": "kin",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "je",
+            "type": "root"
+          }
+        ],
+        "root_word": "keyoti",
+        "part_of_speech": "v",
+        "root_meaning": "to eliminate",
+        "suffixes": [
+          {
+            "form": "-bo",
+            "meaning": "do as you go along"
+          },
+          {
+            "form": "-kin",
+            "meaning": "doing so when/while/-ing"
+          },
+          {
+            "form": "-ra",
+            "meaning": "emphasis"
+          }
+        ],
+        "literal_translation": "I am eliminating as I go along (the song)",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Soa soabokinra je",
+        "parts": [
+          {
+            "text": "Soa",
+            "type": "root"
+          },
+          {
+            "text": "soa",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          },
+          {
+            "text": "kin",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "je",
+            "type": "root"
+          }
+        ],
+        "root_word": "soati",
+        "part_of_speech": "v",
+        "root_meaning": "to clear, wipe",
+        "suffixes": [
+          {
+            "form": "-bo",
+            "meaning": "do as you go along"
+          },
+          {
+            "form": "-kin",
+            "meaning": "doing so when/while/-ing"
+          },
+          {
+            "form": "-ra",
+            "meaning": "emphasis"
+          }
+        ],
+        "literal_translation": "I am clearing as I go along (the song)",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Pisha, pishabokinra",
+        "parts": [
+          {
+            "text": "Pisha",
+            "type": "root"
+          },
+          {
+            "text": "pisha",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          },
+          {
+            "text": "kin",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "pishati",
+        "part_of_speech": "v",
+        "root_meaning": "to release",
+        "suffixes": [
+          {
+            "form": "-bo",
+            "meaning": "do as you go along"
+          },
+          {
+            "form": "-kin",
+            "meaning": "doing so when/while/-ing"
+          },
+          {
+            "form": "-ra",
+            "meaning": "emphasis"
+          }
+        ],
+        "literal_translation": "I am releasing as I go along (the song)",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Nete senenainko",
+        "parts": [
+          {
+            "text": "Nete",
+            "type": "root"
+          },
+          {
+            "text": "senen",
+            "type": "root"
+          },
+          {
+            "text": "ainko",
+            "type": "suffix",
+            "color": "orange"
+          }
+        ],
+        "root_word": "senen",
+        "part_of_speech": "n",
+        "root_meaning": "Nete: universe; Senen: limit, end",
+        "suffixes": [
+          {
+            "form": "-ainko",
+            "meaning": "in, place adverb"
+          }
+        ],
+        "literal_translation": "In the Edge of the universe",
+        "cultural_note": "The end of the universe; the maestro's vision goes to the end of the world, which represents a highly Divine consciousness"
+      },
+      {
+        "shipibo": "Mayaaketaanax je",
+        "parts": [
+          {
+            "text": "Maya",
+            "type": "root"
+          },
+          {
+            "text": "ake",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "taana",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "x",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "je",
+            "type": "root"
+          }
+        ],
+        "root_word": "mayati",
+        "part_of_speech": "v",
+        "root_meaning": "to swirl, circle",
+        "suffixes": [
+          {
+            "form": "-ake",
+            "meaning": "around"
+          },
+          {
+            "form": "-taana",
+            "meaning": "having done so"
+          },
+          {
+            "form": "-x",
+            "meaning": "once done"
+          }
+        ],
+        "literal_translation": "Once (I) have circled around",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Maanira bekanai je",
+        "parts": [
+          {
+            "text": "Maan",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "bekan",
+            "type": "root"
+          },
+          {
+            "text": "ai",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "je",
+            "type": "root"
+          }
+        ],
+        "root_word": "maanhati, bekanti",
+        "part_of_speech": "v",
+        "root_meaning": "Maanhati: to descend, many objects or a mass; Bekanti: to welcome many",
+        "suffixes": [
+          {
+            "form": "-i",
+            "meaning": "doing so when/while/-ing"
+          },
+          {
+            "form": "-ra",
+            "meaning": "emphasis"
+          },
+          {
+            "form": "-ai",
+            "meaning": "present tense"
+          }
+        ],
+        "literal_translation": "Are welcomed as they are descend",
+        "cultural_note": "The spirits descend from that Divine realm"
+      },
+      {
+        "shipibo": "Nokibeiranira",
+        "parts": [
+          {
+            "text": "no",
+            "type": "root"
+          },
+          {
+            "text": "ki",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "beiran",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "noa",
+        "part_of_speech": "pron",
+        "root_meaning": "Us",
+        "suffixes": [
+          {
+            "form": "-ki",
+            "meaning": "toward"
+          },
+          {
+            "form": "-beiran",
+            "meaning": "do as you approach (plural or transitive)"
+          },
+          {
+            "form": "-i",
+            "meaning": "doing so when/while/-ing (intransitive)"
+          },
+          {
+            "form": "-ra",
+            "meaning": "emphasis"
+          }
+        ],
+        "literal_translation": "They come towards us",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Weibeirantaana je",
+        "parts": [
+          {
+            "text": "Wei",
+            "type": "root"
+          },
+          {
+            "text": "beiran",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "taana",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "je",
+            "type": "root"
+          }
+        ],
+        "root_word": "weiti",
+        "part_of_speech": "v",
+        "root_meaning": "to enter, many or a mass",
+        "suffixes": [
+          {
+            "form": "-beiran",
+            "meaning": "doing as you approach (transitive, plural)"
+          },
+          {
+            "form": "-taana",
+            "meaning": "having done so"
+          }
+        ],
+        "literal_translation": "Having entered as they approached",
+        "cultural_note": "Referring to the spirits that enter the maloka to perform the healing"
+      },
+      {
+        "shipibo": "Chiti, chitishamani je",
+        "parts": [
+          {
+            "text": "Chiti",
+            "type": "root"
+          },
+          {
+            "text": "chiti",
+            "type": "root"
+          },
+          {
+            "text": "shaman",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "je",
+            "type": "root"
+          }
+        ],
+        "root_word": "chititi",
+        "part_of_speech": "v",
+        "root_meaning": "to dance swaying back and forth",
+        "suffixes": [
+          {
+            "form": "-shaman",
+            "meaning": "to do so excellently"
+          },
+          {
+            "form": "-i",
+            "meaning": "doing so when/while/-ing"
+          }
+        ],
+        "literal_translation": "While dancing swaying back and forth excellently",
+        "cultural_note": "The spirits are dancing, in celebration, swaying"
+      },
+      {
+        "shipibo": "Mato kanomayonban je",
+        "parts": [
+          {
+            "text": "Mato",
+            "type": "root"
+          },
+          {
+            "text": "kano",
+            "type": "root"
+          },
+          {
+            "text": "ma",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "yon",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "ban",
+            "type": "suffix",
+            "color": "brown"
+          },
+          {
+            "text": "je",
+            "type": "root"
+          }
+        ],
+        "root_word": "kanoti",
+        "part_of_speech": "v",
+        "root_meaning": "to connect, anchor oneself",
+        "suffixes": [
+          {
+            "form": "-ma",
+            "meaning": "make action"
+          },
+          {
+            "form": "-yon",
+            "meaning": "do to completion, fully"
+          },
+          {
+            "form": "-ban",
+            "meaning": "announcement of action, 'Will do' immediately"
+          }
+        ],
+        "literal_translation": "I will make you all connect fully",
+        "cultural_note": "Everyone in the maloka becomes connected to the spirits"
+      },
+      {
+        "shipibo": "Ja neten pikoxon",
+        "parts": [
+          {
+            "text": "Ja",
+            "type": "root"
+          },
+          {
+            "text": "nete",
+            "type": "root"
+          },
+          {
+            "text": "n",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "piko",
+            "type": "root"
+          },
+          {
+            "text": "xon",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "pikoti",
+        "part_of_speech": "v",
+        "root_meaning": "Ja: that; Nete: universe; Pikoti: to take out",
+        "suffixes": [
+          {
+            "form": "-n",
+            "meaning": "place, in"
+          },
+          {
+            "form": "-xon",
+            "meaning": "once done"
+          }
+        ],
+        "literal_translation": "Once I take you out (and place you) in that (medicinal) the universe",
+        "cultural_note": "The patients are being placed in the medicinal, Divine realms to be healed"
+      },
+      {
+        "shipibo": "Mana, manashamanban je",
+        "parts": [
+          {
+            "text": "Mana",
+            "type": "root"
+          },
+          {
+            "text": "mana",
+            "type": "root"
+          },
+          {
+            "text": "shaman",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "ban",
+            "type": "suffix",
+            "color": "brown"
+          },
+          {
+            "text": "je",
+            "type": "root"
+          }
+        ],
+        "root_word": "manati",
+        "part_of_speech": "v",
+        "root_meaning": "to wait",
+        "suffixes": [
+          {
+            "form": "-shaman",
+            "meaning": "to do so excellently"
+          },
+          {
+            "form": "-ban",
+            "meaning": "announcement of action, 'Will do' immediately"
+          }
+        ],
+        "literal_translation": "Will wait excellently",
+        "cultural_note": "The healer will wait, in the sense waiting to see and connect with the energies for appropriate diagnosis"
+      },
+      {
+        "shipibo": "Min yora meabo",
+        "parts": [
+          {
+            "text": "Min",
+            "type": "root"
+          },
+          {
+            "text": "yora",
+            "type": "root"
+          },
+          {
+            "text": "mea",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "yora",
+        "part_of_speech": "n",
+        "root_meaning": "Min: your, singular; Yora: body",
+        "suffixes": [
+          {
+            "form": "-mea",
+            "meaning": "from"
+          },
+          {
+            "form": "-bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "those things from within your body",
+        "cultural_note": "Of the distorted energies in all of the bodies"
+      }
+    ],
+    "vocabulary": [
+      {
+        "shipibo": "Niwe",
+        "pos": "n",
+        "meaning": "wind-like energy"
+      },
+      {
+        "shipibo": "Tori",
+        "pos": "n",
+        "meaning": "from Spanish torre, Tower"
+      },
+      {
+        "shipibo": "Campana",
+        "pos": "n",
+        "meaning": "from Spanish Campana, bell"
+      },
+      {
+        "shipibo": "Nete",
+        "pos": "n",
+        "meaning": "universe"
+      },
+      {
+        "shipibo": "Ani",
+        "pos": "adj",
+        "meaning": "big"
+      },
+      {
+        "shipibo": "Kepenti",
+        "pos": "v",
+        "meaning": "to open"
+      },
+      {
+        "shipibo": "Noya Rao",
+        "pos": "n",
+        "meaning": "Flying Medicine (Noya means 'Flying', Rao means 'medicine')"
+      },
+      {
+        "shipibo": "Rios",
+        "pos": "n",
+        "meaning": "from Spanish Dios, God"
+      },
+      {
+        "shipibo": "Joyo",
+        "pos": "n",
+        "meaning": "line"
+      },
+      {
+        "shipibo": "Joni",
+        "pos": "n",
+        "meaning": "person or man"
+      },
+      {
+        "shipibo": "Tsoawa",
+        "pos": "n",
+        "meaning": "species of amazonian bird, symbolizing medicine, a doctor"
+      },
+      {
+        "shipibo": "En",
+        "pos": "pron",
+        "meaning": "I, transitive form"
+      },
+      {
+        "shipibo": "Keyoti",
+        "pos": "v",
+        "meaning": "to eliminate"
+      },
+      {
+        "shipibo": "Min",
+        "pos": "pron",
+        "meaning": "your, singular"
+      },
+      {
+        "shipibo": "Rami",
+        "pos": "adj",
+        "meaning": "distorted"
+      },
+      {
+        "shipibo": "Soati",
+        "pos": "v",
+        "meaning": "to clear, wipe"
+      },
+      {
+        "shipibo": "Pishati",
+        "pos": "v",
+        "meaning": "to release"
+      },
+      {
+        "shipibo": "Senen",
+        "pos": "n",
+        "meaning": "limit, end"
+      },
+      {
+        "shipibo": "Ainko",
+        "pos": "n",
+        "meaning": "in, place adverb"
+      },
+      {
+        "shipibo": "Mayati",
+        "pos": "v",
+        "meaning": "to swirl, circle"
+      },
+      {
+        "shipibo": "Maanhati",
+        "pos": "v",
+        "meaning": "to descend, many objects or a mass"
+      },
+      {
+        "shipibo": "Bekanti",
+        "pos": "v",
+        "meaning": "to welcome many"
+      },
+      {
+        "shipibo": "Noa",
+        "pos": "pron",
+        "meaning": "us"
+      },
+      {
+        "shipibo": "Weiti",
+        "pos": "v",
+        "meaning": "to enter, many or a mass"
+      },
+      {
+        "shipibo": "Chititi",
+        "pos": "v",
+        "meaning": "to dance swaying back and forth"
+      },
+      {
+        "shipibo": "Mato",
+        "pos": "pron",
+        "meaning": "you plural"
+      },
+      {
+        "shipibo": "Kanoti",
+        "pos": "v",
+        "meaning": "to connect, anchor oneself"
+      },
+      {
+        "shipibo": "Ja",
+        "pos": "pron",
+        "meaning": "that"
+      },
+      {
+        "shipibo": "Pikoti",
+        "pos": "v",
+        "meaning": "to take out"
+      },
+      {
+        "shipibo": "Manati",
+        "pos": "v",
+        "meaning": "to wait"
+      },
+      {
+        "shipibo": "Yora",
+        "pos": "n",
+        "meaning": "body"
+      },
+      {
+        "shipibo": "Ewa",
+        "pos": "adj",
+        "meaning": "huge"
+      }
+    ],
+    "suffix_reference": [
+      {
+        "form": "-ai",
+        "meaning": "present tense"
+      },
+      {
+        "form": "-ainko",
+        "meaning": "in, place adverb"
+      },
+      {
+        "form": "-ake",
+        "meaning": "around"
+      },
+      {
+        "form": "-ax / -x",
+        "meaning": "once done"
+      },
+      {
+        "form": "-ban / -banon",
+        "meaning": "announcement of action, 'Will do' immediately"
+      },
+      {
+        "form": "-beiran",
+        "meaning": "do as you approach (plural or transitive)"
+      },
+      {
+        "form": "-bo (n)",
+        "meaning": "plural"
+      },
+      {
+        "form": "-bo (v)",
+        "meaning": "do as you go along"
+      },
+      {
+        "form": "-i",
+        "meaning": "doing so when/while/-ing"
+      },
+      {
+        "form": "-ki",
+        "meaning": "toward"
+      },
+      {
+        "form": "-kin",
+        "meaning": "while doing so, or -ing"
+      },
+      {
+        "form": "-ma",
+        "meaning": "make action"
+      },
+      {
+        "form": "-mea",
+        "meaning": "from"
+      },
+      {
+        "form": "-n",
+        "meaning": "place, in"
+      },
+      {
+        "form": "-ra",
+        "meaning": "emphasis"
+      },
+      {
+        "form": "-shaman",
+        "meaning": "to do so excellently"
+      },
+      {
+        "form": "-taana",
+        "meaning": "having done so"
+      },
+      {
+        "form": "-xon",
+        "meaning": "once done"
+      },
+      {
+        "form": "-yon",
+        "meaning": "do to completion, fully"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Rao Niwebo",
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Rao niwebo",
+              "repeat": null
+            },
+            {
+              "text": "Noya Rao Riosbo",
+              "repeat": null
+            },
+            {
+              "text": "Joyo joyo niwebo",
+              "repeat": 3
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Niwe jakon roonya",
+              "repeat": 2
+            },
+            {
+              "text": "Kanomayontaanara",
+              "repeat": null
+            },
+            {
+              "text": "Joni tsoa tsoawa",
+              "repeat": 3
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Pampa roninra",
+              "repeat": null
+            },
+            {
+              "text": "Kano pampa roninra",
+              "repeat": null
+            },
+            {
+              "text": "Nete bawa joyoni",
+              "repeat": null
+            },
+            {
+              "text": "Kanoira maanke",
+              "repeat": null
+            },
+            {
+              "text": "Iki ishamani",
+              "repeat": 3
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Nai waporoninbi",
+              "repeat": 2
+            },
+            {
+              "text": "Nete ani rakata",
+              "repeat": 3
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Rono, ronopakexon",
+              "repeat": 3
+            },
+            {
+              "text": "Maton yoratiibi",
+              "repeat": null
+            },
+            {
+              "text": "Naneaketanxonra",
+              "repeat": 2
+            },
+            {
+              "text": "Nete ani kepeni",
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Riosen shinanman",
+              "repeat": 2
+            },
+            {
+              "text": "Nete tori campana",
+              "repeat": null
+            },
+            {
+              "text": "Tsaran imayontaana",
+              "repeat": null
+            },
+            {
+              "text": "Maton yora abanon",
+              "repeat": 3
+            }
+          ]
+        }
+      ]
+    },
+    "phrases": [
+      {
+        "shipibo": "Rao niwebo",
+        "parts": [
+          {
+            "text": "Rao",
+            "type": "root"
+          },
+          {
+            "text": "niwe",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "rao, niwe",
+        "part_of_speech": "n",
+        "root_meaning": "medicine, wind-like energy",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "Medicine energies",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Noya Rao Riosbo",
+        "parts": [
+          {
+            "text": "Noya",
+            "type": "root"
+          },
+          {
+            "text": "Rao",
+            "type": "root"
+          },
+          {
+            "text": "Rios",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "Noya Rao, Rios",
+        "part_of_speech": "n",
+        "root_meaning": "Noya means 'Flying', Rao means 'medicine'. Flying Medicine. Rios from spanish Dios, God",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "Flying Medicine Gods",
+        "cultural_note": "Spirits of the Noya Rao tree"
+      },
+      {
+        "shipibo": "Joyo joyo niwebo",
+        "parts": [
+          {
+            "text": "Joyo",
+            "type": "root"
+          },
+          {
+            "text": "joyo",
+            "type": "root"
+          },
+          {
+            "text": "niwe",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "joyo, niwe",
+        "part_of_speech": "n",
+        "root_meaning": "line, wind-like energy",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "The aligned energies",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Niwe jakon roonya",
+        "parts": [
+          {
+            "text": "Niwe",
+            "type": "root"
+          },
+          {
+            "text": "jakon",
+            "type": "root"
+          },
+          {
+            "text": "roon",
+            "type": "root"
+          },
+          {
+            "text": "ya",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "niwe, jakon, roon",
+        "part_of_speech": "n",
+        "root_meaning": "wind-like energy, good, fluttering sound",
+        "suffixes": [
+          {
+            "form": "ya",
+            "meaning": "containing/with"
+          }
+        ],
+        "literal_translation": "The Good energy with a fluttering sound (nice sound)",
+        "cultural_note": "The energy is strong, so strong it flutters. It is also positive"
+      },
+      {
+        "shipibo": "Kanomayontaanara",
+        "parts": [
+          {
+            "text": "Kano",
+            "type": "root"
+          },
+          {
+            "text": "ma",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "yon",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "taana",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "kanoti",
+        "part_of_speech": "v",
+        "root_meaning": "to connect, anchor oneself",
+        "suffixes": [
+          {
+            "form": "ma",
+            "meaning": "make action happen"
+          },
+          {
+            "form": "yon",
+            "meaning": "do to completion, fully"
+          },
+          {
+            "form": "taana",
+            "meaning": "having done so"
+          },
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          }
+        ],
+        "literal_translation": "Having made it (the energy) connect fully",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Joni tsoa tsoawa",
+        "parts": [
+          {
+            "text": "Joni",
+            "type": "root"
+          },
+          {
+            "text": "tsoa",
+            "type": "root"
+          },
+          {
+            "text": "tsoawa",
+            "type": "root"
+          }
+        ],
+        "root_word": "joni, tsoawa",
+        "part_of_speech": "n",
+        "root_meaning": "person or man; species of amazonian bird, symbolizing medicine, a doctor",
+        "suffixes": [],
+        "literal_translation": "Medicine man (spirit)",
+        "cultural_note": "Referring to the medicine spirit"
+      },
+      {
+        "shipibo": "Pampa roninra",
+        "parts": [
+          {
+            "text": "Pampa",
+            "type": "root"
+          },
+          {
+            "text": "ronin",
+            "type": "root"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "pampa, ronin",
+        "part_of_speech": "n",
+        "root_meaning": "from quechua 'pampa', plain, flatland; anaconda",
+        "suffixes": [
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          }
+        ],
+        "literal_translation": "The flat anaconda (like a flatland)",
+        "cultural_note": "The anaconda symbolizes a powerful energy. This 'flat anaconda' is a different type of anaconda of great power, as opposed to a more common 'round' anaconda."
+      },
+      {
+        "shipibo": "Kano pampa roninra",
+        "parts": [
+          {
+            "text": "Kano",
+            "type": "root"
+          },
+          {
+            "text": "pampa",
+            "type": "root"
+          },
+          {
+            "text": "ronin",
+            "type": "root"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "kano, pampa, ronin",
+        "part_of_speech": "n",
+        "root_meaning": "connection structure, anchor; from quechua 'pampa', plain, flatland; anaconda",
+        "suffixes": [
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          }
+        ],
+        "literal_translation": "The flat anaconda connection",
+        "cultural_note": "The 'pampa' anaconda is so rare that it is revered as an animal with great power. For a healer to have 'domesticated' this rare spirit, it denotes great mastery."
+      },
+      {
+        "shipibo": "Nete bawa joyoni",
+        "parts": [
+          {
+            "text": "Nete",
+            "type": "root"
+          },
+          {
+            "text": "bawa",
+            "type": "root"
+          },
+          {
+            "text": "joyo",
+            "type": "root"
+          },
+          {
+            "text": "ni",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "nete, bawa, joyoti",
+        "part_of_speech": "n/v",
+        "root_meaning": "universe; parrot; to become aligned",
+        "suffixes": [
+          {
+            "form": "ni",
+            "meaning": "ancient ancestral past"
+          }
+        ],
+        "literal_translation": "The universe parrots anciently in line",
+        "cultural_note": "The parrots symbolize the medicine of sound and words, in other words, an medicine frequency that provides the healer with icaros"
+      },
+      {
+        "shipibo": "Kanoira maanke",
+        "parts": [
+          {
+            "text": "Kano",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "maan",
+            "type": "root"
+          },
+          {
+            "text": "ke",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "kanoti, maanhati",
+        "part_of_speech": "v",
+        "root_meaning": "to connect, anchor oneself; to descend, many objects or a mass",
+        "suffixes": [
+          {
+            "form": "i",
+            "meaning": "doing so when/while/-ing"
+          },
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          },
+          {
+            "form": "ke",
+            "meaning": "most recent past tense"
+          }
+        ],
+        "literal_translation": "Connecting as they just descended",
+        "cultural_note": "Connecting to all of these essences as they descend upon the healer"
+      },
+      {
+        "shipibo": "Iki ishamani",
+        "parts": [
+          {
+            "text": "Iki",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "shaman",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "iti",
+        "part_of_speech": "v",
+        "root_meaning": "to be-ki, present tense",
+        "suffixes": [
+          {
+            "form": "shaman",
+            "meaning": "to do so excellently"
+          },
+          {
+            "form": "i",
+            "meaning": "doing so when/while/-ing"
+          }
+        ],
+        "literal_translation": "Expression referring to celebratory verbalizations, songs, prayers",
+        "cultural_note": "Expression referring to celebratory verbalizations, songs, prayers"
+      },
+      {
+        "shipibo": "Nai waporoninbi",
+        "parts": [
+          {
+            "text": "Nai",
+            "type": "root"
+          },
+          {
+            "text": "waporo",
+            "type": "root"
+          },
+          {
+            "text": "nin",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "bi",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "nai, waporo",
+        "part_of_speech": "n",
+        "root_meaning": "sky; ship",
+        "suffixes": [
+          {
+            "form": "nin",
+            "meaning": "in"
+          },
+          {
+            "form": "bi",
+            "meaning": "emphasis, itself"
+          }
+        ],
+        "literal_translation": "In the sky ship itself",
+        "cultural_note": "The ship refers to a vessel containing the dieta or medicine energy. It is a symbol for a medicine connection. The fact that is comes from the sky symbolizes celestial connections."
+      },
+      {
+        "shipibo": "Nete ani rakata",
+        "parts": [
+          {
+            "text": "Nete",
+            "type": "root"
+          },
+          {
+            "text": "ani",
+            "type": "root"
+          },
+          {
+            "text": "rakat",
+            "type": "root"
+          },
+          {
+            "text": "a",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "nete, ani, rakati",
+        "part_of_speech": "n/v",
+        "root_meaning": "universe; big; to lie down",
+        "suffixes": [
+          {
+            "form": "a",
+            "meaning": "general past"
+          }
+        ],
+        "literal_translation": "The great universe is laid out",
+        "cultural_note": "The great universe is the most expanded state or realm, connection to Divinity"
+      },
+      {
+        "shipibo": "Rono, ronopakexon",
+        "parts": [
+          {
+            "text": "Rono",
+            "type": "root"
+          },
+          {
+            "text": "rono",
+            "type": "root"
+          },
+          {
+            "text": "pake",
+            "type": "root"
+          },
+          {
+            "text": "xon",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "rono, paketi",
+        "part_of_speech": "n/v",
+        "root_meaning": "snake; to fall",
+        "suffixes": [
+          {
+            "form": "xon",
+            "meaning": "once done"
+          }
+        ],
+        "literal_translation": "Once it falls with snake movements (zigzag)",
+        "cultural_note": "This ship energy comes from the sky with a snake-like movement"
+      },
+      {
+        "shipibo": "Maton yoratiibi",
+        "parts": [
+          {
+            "text": "Maton",
+            "type": "root"
+          },
+          {
+            "text": "yora",
+            "type": "root"
+          },
+          {
+            "text": "tiibi",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "maton, yora",
+        "part_of_speech": "pron/n",
+        "root_meaning": "yours plural; body",
+        "suffixes": [
+          {
+            "form": "tiibi",
+            "meaning": "all"
+          }
+        ],
+        "literal_translation": "All your bodies",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Naneaketanxonra",
+        "parts": [
+          {
+            "text": "Nane",
+            "type": "root"
+          },
+          {
+            "text": "ake",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "tan",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "xon",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "naneti",
+        "part_of_speech": "v",
+        "root_meaning": "to board on something",
+        "suffixes": [
+          {
+            "form": "ake",
+            "meaning": "around"
+          },
+          {
+            "form": "tan",
+            "meaning": "once done"
+          },
+          {
+            "form": "xon",
+            "meaning": "once done"
+          },
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          }
+        ],
+        "literal_translation": "Once gone and boarded all around (the medicine energy enters the body)",
+        "cultural_note": "This Divine medicine energy enters the bodies"
+      },
+      {
+        "shipibo": "Nete ani kepeni",
+        "parts": [
+          {
+            "text": "Nete",
+            "type": "root"
+          },
+          {
+            "text": "ani",
+            "type": "root"
+          },
+          {
+            "text": "kepen",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "nete, ani, kepenti",
+        "part_of_speech": "n/v",
+        "root_meaning": "universe; big; to open",
+        "suffixes": [
+          {
+            "form": "i",
+            "meaning": "doing so when/while/-ing"
+          }
+        ],
+        "literal_translation": "The great universe is opening",
+        "cultural_note": "And so a great universe opens"
+      },
+      {
+        "shipibo": "Riosen shinanman",
+        "parts": [
+          {
+            "text": "Rios",
+            "type": "root"
+          },
+          {
+            "text": "en",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "shinan",
+            "type": "root"
+          },
+          {
+            "text": "man",
+            "type": "suffix",
+            "color": "red"
+          }
+        ],
+        "root_word": "Rios, shinan",
+        "part_of_speech": "n",
+        "root_meaning": "From spanish Dios, God; mind, consciousness",
+        "suffixes": [
+          {
+            "form": "en",
+            "meaning": "possessive"
+          },
+          {
+            "form": "man",
+            "meaning": "using, with"
+          }
+        ],
+        "literal_translation": "Using God's mind/consciousness, by God's will",
+        "cultural_note": "After connecting to all of these different forms of Divine energy, now through God's will"
+      },
+      {
+        "shipibo": "Nete tori campana",
+        "parts": [
+          {
+            "text": "Nete",
+            "type": "root"
+          },
+          {
+            "text": "tori",
+            "type": "root"
+          },
+          {
+            "text": "campana",
+            "type": "root"
+          }
+        ],
+        "root_word": "nete, tori, campana",
+        "part_of_speech": "n",
+        "root_meaning": "universe; from spanish torre, Tower; from spanish Campana, bell",
+        "suffixes": [],
+        "literal_translation": "The Universe tower bell",
+        "cultural_note": "The bell is a symbol of the medicinal frequency of sound, a special vibration to be channeled through the icaros."
+      },
+      {
+        "shipibo": "Tsaran imayontaana",
+        "parts": [
+          {
+            "text": "Tsaran",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "ma",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "yon",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "taana",
+            "type": "suffix",
+            "color": "orange"
+          }
+        ],
+        "root_word": "tsaran iti",
+        "part_of_speech": "v",
+        "root_meaning": "to sound, metal, echoing",
+        "suffixes": [
+          {
+            "form": "ma",
+            "meaning": "make action happen"
+          },
+          {
+            "form": "yon",
+            "meaning": "do to completion, fully"
+          },
+          {
+            "form": "taana",
+            "meaning": "having done so"
+          }
+        ],
+        "literal_translation": "Having made it sound fully",
+        "cultural_note": "Referring to ringing the bell"
+      },
+      {
+        "shipibo": "Maton yora abanon",
+        "parts": [
+          {
+            "text": "Maton",
+            "type": "root"
+          },
+          {
+            "text": "yora",
+            "type": "root"
+          },
+          {
+            "text": "a",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "banon",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "maton, yora, ati",
+        "part_of_speech": "pron/n/v",
+        "root_meaning": "yours plural; body; to do",
+        "suffixes": [
+          {
+            "form": "banon",
+            "meaning": "announcement of action, 'Will do' immediately"
+          }
+        ],
+        "literal_translation": "Will do the work on your bodies",
+        "cultural_note": "With this sound, connected to Divinity and channeled through the icaros, the healer will work on the bodies. This special sound of Noya Rao bell is being channeled for the healing of the bodies through the icaro."
+      }
+    ],
+    "vocabulary": [
+      {
+        "shipibo": "Ani",
+        "pos": "adj",
+        "meaning": "big"
+      },
+      {
+        "shipibo": "Ati",
+        "pos": "v",
+        "meaning": "to do"
+      },
+      {
+        "shipibo": "Bawa",
+        "pos": "n",
+        "meaning": "parrot"
+      },
+      {
+        "shipibo": "Campana",
+        "pos": "n",
+        "meaning": "from spanish Campana, bell"
+      },
+      {
+        "shipibo": "Iti",
+        "pos": "v",
+        "meaning": "to be, iki present tense conjugation"
+      },
+      {
+        "shipibo": "Jakon",
+        "pos": "adj",
+        "meaning": "good"
+      },
+      {
+        "shipibo": "Joni",
+        "pos": "n",
+        "meaning": "person or man"
+      },
+      {
+        "shipibo": "Joyo",
+        "pos": "n",
+        "meaning": "line"
+      },
+      {
+        "shipibo": "Joyoti",
+        "pos": "v",
+        "meaning": "to become organized in a line"
+      },
+      {
+        "shipibo": "Kano",
+        "pos": "n",
+        "meaning": "connection structure, anchor"
+      },
+      {
+        "shipibo": "Kanoti",
+        "pos": "v",
+        "meaning": "to connect, anchor oneself"
+      },
+      {
+        "shipibo": "Kepenti",
+        "pos": "v",
+        "meaning": "to open"
+      },
+      {
+        "shipibo": "Maanhati",
+        "pos": "v",
+        "meaning": "to descend. Many objects or a mass"
+      },
+      {
+        "shipibo": "Maton",
+        "pos": "pron",
+        "meaning": "yours plural"
+      },
+      {
+        "shipibo": "Nai",
+        "pos": "n",
+        "meaning": "sky"
+      },
+      {
+        "shipibo": "Naneti",
+        "pos": "v",
+        "meaning": "to board on something"
+      },
+      {
+        "shipibo": "Nete",
+        "pos": "n",
+        "meaning": "Universe"
+      },
+      {
+        "shipibo": "Niwe",
+        "pos": "n",
+        "meaning": "wind-like energy"
+      },
+      {
+        "shipibo": "Noya Rao",
+        "pos": "n",
+        "meaning": "Noya means 'Flying', Rao means 'medicine'. Flying Medicine"
+      },
+      {
+        "shipibo": "Paketi",
+        "pos": "v",
+        "meaning": "to fall"
+      },
+      {
+        "shipibo": "Pampa",
+        "pos": "n",
+        "meaning": "from quechua 'pampa', plain, flatland"
+      },
+      {
+        "shipibo": "Rakati",
+        "pos": "v",
+        "meaning": "to lie down"
+      },
+      {
+        "shipibo": "Rao",
+        "pos": "n",
+        "meaning": "medicine"
+      },
+      {
+        "shipibo": "Rios",
+        "pos": "n",
+        "meaning": "From spanish Dios, God"
+      },
+      {
+        "shipibo": "Ronin",
+        "pos": "n",
+        "meaning": "anaconda"
+      },
+      {
+        "shipibo": "Rono",
+        "pos": "n",
+        "meaning": "snake"
+      },
+      {
+        "shipibo": "Roon",
+        "pos": "n",
+        "meaning": "fluttering sound"
+      },
+      {
+        "shipibo": "Shinan",
+        "pos": "n",
+        "meaning": "mind"
+      },
+      {
+        "shipibo": "Tori",
+        "pos": "n",
+        "meaning": "from spanish torre, Tower"
+      },
+      {
+        "shipibo": "Tsaran iti",
+        "pos": "v",
+        "meaning": "to sound, metal, echoing"
+      },
+      {
+        "shipibo": "Tsoawa",
+        "pos": "n",
+        "meaning": "species of amazonian bird, symbolizing medicine, a doctor"
+      },
+      {
+        "shipibo": "Waporo",
+        "pos": "n",
+        "meaning": "Ship"
+      },
+      {
+        "shipibo": "Yora",
+        "pos": "n",
+        "meaning": "body"
+      }
+    ],
+    "suffix_reference": [
+      {
+        "form": "a",
+        "meaning": "general past"
+      },
+      {
+        "form": "ake",
+        "meaning": "around"
+      },
+      {
+        "form": "bo",
+        "meaning": "plural"
+      },
+      {
+        "form": "bi",
+        "meaning": "emphasis, itself"
+      },
+      {
+        "form": "en",
+        "meaning": "possessive"
+      },
+      {
+        "form": "i",
+        "meaning": "doing so when/while/-ing"
+      },
+      {
+        "form": "ke",
+        "meaning": "most recent past tense"
+      },
+      {
+        "form": "ma",
+        "meaning": "make action happen"
+      },
+      {
+        "form": "man",
+        "meaning": "using, with"
+      },
+      {
+        "form": "ni",
+        "meaning": "ancient ancestral past"
+      },
+      {
+        "form": "nin",
+        "meaning": "in"
+      },
+      {
+        "form": "ra",
+        "meaning": "emphasis"
+      },
+      {
+        "form": "shaman",
+        "meaning": "to do so excellently"
+      },
+      {
+        "form": "taana",
+        "meaning": "having done so"
+      },
+      {
+        "form": "tan",
+        "meaning": "once done"
+      },
+      {
+        "form": "tiibi",
+        "meaning": "all"
+      },
+      {
+        "form": "xon",
+        "meaning": "once done"
+      },
+      {
+        "form": "ya",
+        "meaning": "containing/with"
+      },
+      {
+        "form": "yon",
+        "meaning": "do to completion, fully"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Joni Tsoa Tsoawa",
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Joni tsoa tsoawa",
+              "repeat": 6
+            },
+            {
+              "text": "Ani netemeara",
+              "repeat": 4
+            },
+            {
+              "text": "Kanoira maanke je",
+              "repeat": 5
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Nete jakon rakaya",
+              "repeat": null
+            },
+            {
+              "text": "Noa jonibiribi",
+              "repeat": null
+            },
+            {
+              "text": "Nete ani rakaya",
+              "repeat": null
+            },
+            {
+              "text": "Rios jema kepeni",
+              "repeat": null
+            },
+            {
+              "text": "Torin ewa joyoya",
+              "repeat": null
+            },
+            {
+              "text": "Kanoira maanke",
+              "repeat": 6
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Inin kewe niwera",
+              "repeat": 4
+            },
+            {
+              "text": "Rao noma ronkeni je",
+              "repeat": null
+            },
+            {
+              "text": "Kori chiki joyota",
+              "repeat": 6
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Kanobaintaana",
+              "repeat": null
+            },
+            {
+              "text": "Nete kano Riosbo",
+              "repeat": null
+            },
+            {
+              "text": "Isa yoyo irai",
+              "repeat": 6
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Nete kano niwebo...o",
+              "repeat": null
+            },
+            {
+              "text": "Maanira beai",
+              "repeat": 4
+            }
+          ]
+        }
+      ]
+    },
+    "phrases": [
+      {
+        "shipibo": "Joni Tsoa Tsoawa",
+        "parts": [
+          {
+            "text": "Joni",
+            "type": "root"
+          },
+          {
+            "text": "Tsoa",
+            "type": "root"
+          },
+          {
+            "text": "Tsoawa",
+            "type": "root"
+          }
+        ],
+        "root_word": "joni, tsoawa",
+        "part_of_speech": "n",
+        "root_meaning": "person or man; species of amazonian bird, symbolizing medicine, a doctor",
+        "suffixes": [],
+        "literal_translation": "Medicine man (spirit)",
+        "cultural_note": "Referring to the medicine spirits"
+      },
+      {
+        "shipibo": "Ani netemeara",
+        "parts": [
+          {
+            "text": "Ani",
+            "type": "root"
+          },
+          {
+            "text": "nete",
+            "type": "root"
+          },
+          {
+            "text": "mea",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "ani, nete",
+        "part_of_speech": "n/adj",
+        "root_meaning": "big; universe",
+        "suffixes": [
+          {
+            "form": "mea",
+            "meaning": "from"
+          },
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          }
+        ],
+        "literal_translation": "From the greatest universe",
+        "cultural_note": "They come from the highest vibration realms"
+      },
+      {
+        "shipibo": "Kanoira maanke je",
+        "parts": [
+          {
+            "text": "Kano",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "maan",
+            "type": "root"
+          },
+          {
+            "text": "ke",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "je",
+            "type": "root"
+          }
+        ],
+        "root_word": "kanoti, maanhati",
+        "part_of_speech": "v",
+        "root_meaning": "to connect, anchor oneself; to descend, many objects or a mass",
+        "suffixes": [
+          {
+            "form": "i",
+            "meaning": "doing so when/while/-ing"
+          },
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          },
+          {
+            "form": "ke",
+            "meaning": "most recent past tense"
+          }
+        ],
+        "literal_translation": "Connecting as they just descended",
+        "cultural_note": "Rhythmic exclamation. These temples descend from the sky and the participants connect to them"
+      },
+      {
+        "shipibo": "Nete jakon rakaya",
+        "parts": [
+          {
+            "text": "Nete",
+            "type": "root"
+          },
+          {
+            "text": "jakon",
+            "type": "root"
+          },
+          {
+            "text": "raka",
+            "type": "root"
+          },
+          {
+            "text": "ya",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "nete, jakon, rakati",
+        "part_of_speech": "n/v",
+        "root_meaning": "universe; good; to lie down",
+        "suffixes": [
+          {
+            "form": "ya",
+            "meaning": "containing/with"
+          }
+        ],
+        "literal_translation": "Containing the Good universe laid out",
+        "cultural_note": "This is how they describe the spirits. Full of positive energy"
+      },
+      {
+        "shipibo": "Noa jonibiribi",
+        "parts": [
+          {
+            "text": "Noa",
+            "type": "root"
+          },
+          {
+            "text": "joni",
+            "type": "root"
+          },
+          {
+            "text": "biribi",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "noa, joni",
+        "part_of_speech": "pron/n",
+        "root_meaning": "Us; person or man",
+        "suffixes": [
+          {
+            "form": "biribi",
+            "meaning": "exclusively"
+          }
+        ],
+        "literal_translation": "Us, exclusively (making it sound important)",
+        "cultural_note": "These are the healers, ceremony attendants"
+      },
+      {
+        "shipibo": "Nete ani rakaya",
+        "parts": [
+          {
+            "text": "Nete",
+            "type": "root"
+          },
+          {
+            "text": "ani",
+            "type": "root"
+          },
+          {
+            "text": "raka",
+            "type": "root"
+          },
+          {
+            "text": "ya",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "nete, ani, rakati",
+        "part_of_speech": "n/v",
+        "root_meaning": "universe; big; to lie down",
+        "suffixes": [
+          {
+            "form": "ya",
+            "meaning": "containing/with"
+          }
+        ],
+        "literal_translation": "Containing the great universe laid out",
+        "cultural_note": "Also describe this highest vibration realm within their bodies"
+      },
+      {
+        "shipibo": "Rios jema kepeni",
+        "parts": [
+          {
+            "text": "Rios",
+            "type": "root"
+          },
+          {
+            "text": "jema",
+            "type": "root"
+          },
+          {
+            "text": "kepen",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "Rios, jema, kepenti",
+        "part_of_speech": "n/v",
+        "root_meaning": "From spanish Dios, God; city, village, settlement; to open",
+        "suffixes": [
+          {
+            "form": "i",
+            "meaning": "doing so when/while/-ing (intransitive)"
+          }
+        ],
+        "literal_translation": "While God's city is opening",
+        "cultural_note": "The city is a metaphor for a realm, describing an energy as seen in ayahuasca visions or dreams. In this case another way to describe Divine energy"
+      },
+      {
+        "shipibo": "Torin ewa joyoya",
+        "parts": [
+          {
+            "text": "Tori",
+            "type": "root"
+          },
+          {
+            "text": "n",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "ewa",
+            "type": "root"
+          },
+          {
+            "text": "joyo",
+            "type": "root"
+          },
+          {
+            "text": "ya",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "tori, ewa, joyo",
+        "part_of_speech": "n",
+        "root_meaning": "from spanish torre, Tower; huge; line",
+        "suffixes": [
+          {
+            "form": "n",
+            "meaning": "possessive"
+          },
+          {
+            "form": "ya",
+            "meaning": "containing"
+          }
+        ],
+        "literal_translation": "Containing huge towers in line",
+        "cultural_note": "The towers represent temples, which are symbols of divine frequency"
+      },
+      {
+        "shipibo": "Inin kewe niwera",
+        "parts": [
+          {
+            "text": "Inin",
+            "type": "root"
+          },
+          {
+            "text": "kewe",
+            "type": "root"
+          },
+          {
+            "text": "niwe",
+            "type": "root"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "inin, kewe, niwe",
+        "part_of_speech": "n",
+        "root_meaning": "aroma, perfume; shipibo embroidery; wind-like energy",
+        "suffixes": [
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          }
+        ],
+        "literal_translation": "The perfumed embroidered energy",
+        "cultural_note": "The aroma and embroidery are also symbols of medicinal vibration"
+      },
+      {
+        "shipibo": "Rao noma ronkeni je",
+        "parts": [
+          {
+            "text": "Rao",
+            "type": "root"
+          },
+          {
+            "text": "noma",
+            "type": "root"
+          },
+          {
+            "text": "ronke",
+            "type": "root"
+          },
+          {
+            "text": "ni",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "je",
+            "type": "root"
+          }
+        ],
+        "root_word": "rao, noma, ronketi",
+        "part_of_speech": "n/v",
+        "root_meaning": "medicine; woman; to dance moving the legs back/forth, side to side",
+        "suffixes": [
+          {
+            "form": "ni",
+            "meaning": "ancient past tense"
+          }
+        ],
+        "literal_translation": "The medicine women (spirits) danced moving their legs (anciently)",
+        "cultural_note": "The feminine medicine spirits appear dancing in the visions or dreams. Rhythmic exclamation"
+      },
+      {
+        "shipibo": "Kori chiki joyota",
+        "parts": [
+          {
+            "text": "Kori",
+            "type": "root"
+          },
+          {
+            "text": "chiki",
+            "type": "root"
+          },
+          {
+            "text": "joyot",
+            "type": "root"
+          },
+          {
+            "text": "a",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "kori, chiki, joyoti",
+        "part_of_speech": "adj/n/v",
+        "root_meaning": "Golden; species of small hawk; to become organized in a line",
+        "suffixes": [
+          {
+            "form": "a",
+            "meaning": "general past"
+          }
+        ],
+        "literal_translation": "The Golden Hawks aligned (in a line)",
+        "cultural_note": "Hawks are also symbols of medicine as shown in visions or dreams. The hawk is revered as a smart bird, a powerful protector."
+      },
+      {
+        "shipibo": "Kanobaintaana",
+        "parts": [
+          {
+            "text": "Kano",
+            "type": "root"
+          },
+          {
+            "text": "bain",
+            "type": "suffix",
+            "color": "brown"
+          },
+          {
+            "text": "taana",
+            "type": "suffix",
+            "color": "orange"
+          }
+        ],
+        "root_word": "kanoti",
+        "part_of_speech": "v",
+        "root_meaning": "to connect, anchor",
+        "suffixes": [
+          {
+            "form": "bain",
+            "meaning": "doing along the way (trans)"
+          },
+          {
+            "form": "taana",
+            "meaning": "having done so"
+          }
+        ],
+        "literal_translation": "Having connected along the way",
+        "cultural_note": "Everyone is connecting to all of these frequencies"
+      },
+      {
+        "shipibo": "Nete kano Riosbo",
+        "parts": [
+          {
+            "text": "Nete",
+            "type": "root"
+          },
+          {
+            "text": "kano",
+            "type": "root"
+          },
+          {
+            "text": "Rios",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "nete, kano, Rios",
+        "part_of_speech": "n",
+        "root_meaning": "universe; connection structure, anchor; From spanish Dios, God",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "The universe connection Gods",
+        "cultural_note": "Connections with the medicine spirits or gods"
+      },
+      {
+        "shipibo": "Isa yoyo irai",
+        "parts": [
+          {
+            "text": "Isa",
+            "type": "root"
+          },
+          {
+            "text": "yoyo",
+            "type": "root"
+          },
+          {
+            "text": "ira",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "isa, yoyo iti",
+        "part_of_speech": "n/v",
+        "root_meaning": "Bird; to speak",
+        "suffixes": [
+          {
+            "form": "ai",
+            "meaning": "present tense"
+          }
+        ],
+        "literal_translation": "The birds speak",
+        "cultural_note": "Birds represent song, music, harmony, beauty, in this case the plant spirits come in this form"
+      },
+      {
+        "shipibo": "Nete kano niwebo",
+        "parts": [
+          {
+            "text": "Nete",
+            "type": "root"
+          },
+          {
+            "text": "kano",
+            "type": "root"
+          },
+          {
+            "text": "niwe",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "nete, kano, niwe",
+        "part_of_speech": "n",
+        "root_meaning": "universe; connection structure, anchor; wind-like energy",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "The universe connection energies",
+        "cultural_note": "These are the medicine energies"
+      },
+      {
+        "shipibo": "Maanira beai",
+        "parts": [
+          {
+            "text": "Maan",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "be",
+            "type": "root"
+          },
+          {
+            "text": "ai",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "maanhati, beti",
+        "part_of_speech": "v",
+        "root_meaning": "to descend many or in mass; to bring",
+        "suffixes": [
+          {
+            "form": "i",
+            "meaning": "doing so when/while/-ing"
+          },
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          },
+          {
+            "form": "ai",
+            "meaning": "present tense"
+          }
+        ],
+        "literal_translation": "Come descending in mass as (I) bring them",
+        "cultural_note": "They come towards the participants from the heavens"
+      }
+    ],
+    "vocabulary": [
+      {
+        "shipibo": "Ani",
+        "pos": "adj",
+        "meaning": "big"
+      },
+      {
+        "shipibo": "Beti",
+        "pos": "v",
+        "meaning": "to bring"
+      },
+      {
+        "shipibo": "Chiki",
+        "pos": "n",
+        "meaning": "species of small hawk"
+      },
+      {
+        "shipibo": "Ewa",
+        "pos": "adj",
+        "meaning": "huge"
+      },
+      {
+        "shipibo": "Inin",
+        "pos": "n",
+        "meaning": "aroma, perfume"
+      },
+      {
+        "shipibo": "Isa",
+        "pos": "n",
+        "meaning": "Bird"
+      },
+      {
+        "shipibo": "Jakon",
+        "pos": "adj",
+        "meaning": "good"
+      },
+      {
+        "shipibo": "Jema",
+        "pos": "n",
+        "meaning": "city, village, settlement"
+      },
+      {
+        "shipibo": "Joni",
+        "pos": "n",
+        "meaning": "person or man"
+      },
+      {
+        "shipibo": "Joyo",
+        "pos": "n",
+        "meaning": "line"
+      },
+      {
+        "shipibo": "Joyoti",
+        "pos": "v",
+        "meaning": "to become organized in a line"
+      },
+      {
+        "shipibo": "Kano",
+        "pos": "n",
+        "meaning": "connection structure, anchor"
+      },
+      {
+        "shipibo": "Kanoti",
+        "pos": "v",
+        "meaning": "to connect, anchor oneself"
+      },
+      {
+        "shipibo": "Kepenti",
+        "pos": "v",
+        "meaning": "to open"
+      },
+      {
+        "shipibo": "Kewe",
+        "pos": "n",
+        "meaning": "shipibo embroidery"
+      },
+      {
+        "shipibo": "Kori",
+        "pos": "adj",
+        "meaning": "Golden"
+      },
+      {
+        "shipibo": "Maanhati",
+        "pos": "v",
+        "meaning": "to descend. Many objects or a mass"
+      },
+      {
+        "shipibo": "Nete",
+        "pos": "n",
+        "meaning": "Universe"
+      },
+      {
+        "shipibo": "Niwe",
+        "pos": "n",
+        "meaning": "wind-like energy"
+      },
+      {
+        "shipibo": "Noa",
+        "pos": "pron",
+        "meaning": "Us"
+      },
+      {
+        "shipibo": "Noma",
+        "pos": "n",
+        "meaning": "woman"
+      },
+      {
+        "shipibo": "Rao",
+        "pos": "n",
+        "meaning": "medicine"
+      },
+      {
+        "shipibo": "Rakati",
+        "pos": "v",
+        "meaning": "to lie down"
+      },
+      {
+        "shipibo": "Rios",
+        "pos": "n",
+        "meaning": "From spanish Dios, God"
+      },
+      {
+        "shipibo": "Ronketi",
+        "pos": "v",
+        "meaning": "to dance moving the legs back/forth, side to side"
+      },
+      {
+        "shipibo": "Tori",
+        "pos": "n",
+        "meaning": "from spanish torre, Tower"
+      },
+      {
+        "shipibo": "Tsoawa",
+        "pos": "n",
+        "meaning": "species of amazonian bird, symbolizing medicine, a doctor"
+      },
+      {
+        "shipibo": "Yoyo iti",
+        "pos": "v",
+        "meaning": "to speak"
+      }
+    ],
+    "suffix_reference": [
+      {
+        "form": "a",
+        "meaning": "general past"
+      },
+      {
+        "form": "ai",
+        "meaning": "present tense"
+      },
+      {
+        "form": "bain",
+        "meaning": "doing along the way (trans)"
+      },
+      {
+        "form": "biribi",
+        "meaning": "exclusively"
+      },
+      {
+        "form": "bo",
+        "meaning": "plural"
+      },
+      {
+        "form": "i",
+        "meaning": "doing so when/while/-ing"
+      },
+      {
+        "form": "ke",
+        "meaning": "most recent past tense"
+      },
+      {
+        "form": "mea",
+        "meaning": "from"
+      },
+      {
+        "form": "n",
+        "meaning": "possessive"
+      },
+      {
+        "form": "ni",
+        "meaning": "ancient past tense"
+      },
+      {
+        "form": "ra",
+        "meaning": "emphasis"
+      },
+      {
+        "form": "taana",
+        "meaning": "having done so"
+      },
+      {
+        "form": "ya",
+        "meaning": "containing/with"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Nokon Kano Keweni",
+    "song": {
+      "sections": [
+        {
+          "repeat": 2,
+          "lines": [
+            {
+              "text": "Nokon kano keweni",
+              "repeat": 2
+            },
+            {
+              "text": "Joni tsoa tsoawa",
+              "repeat": null
+            },
+            {
+              "text": "Eara neno niai",
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "repeat": 2,
+          "lines": [
+            {
+              "text": "Rao Riosbo",
+              "repeat": null
+            },
+            {
+              "text": "Noya Rao Riosbo",
+              "repeat": null
+            },
+            {
+              "text": "Joni pastorobora",
+              "repeat": null
+            },
+            {
+              "text": "Rokotoro jonibo",
+              "repeat": null
+            },
+            {
+              "text": "Kanomayontaanara",
+              "repeat": null
+            },
+            {
+              "text": "Ea neno neskanon",
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "repeat": 2,
+          "lines": [
+            {
+              "text": "Joi tsoawa",
+              "repeat": null
+            },
+            {
+              "text": "Nokon joi tsoawa",
+              "repeat": null
+            },
+            {
+              "text": "Joni niax, ikani",
+              "repeat": null
+            },
+            {
+              "text": "Ikamara inike",
+              "repeat": null
+            },
+            {
+              "text": "Joi bixon soawe",
+              "repeat": null
+            },
+            {
+              "text": "Eara neno niai",
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "repeat": 2,
+          "lines": [
+            {
+              "text": "Taitianki",
+              "repeat": null
+            },
+            {
+              "text": "Nesktaitianki",
+              "repeat": null
+            },
+            {
+              "text": "Wetsa mai nomabo",
+              "repeat": null
+            },
+            {
+              "text": "Nokon pino ipain",
+              "repeat": null
+            },
+            {
+              "text": "Joni neska neskanon",
+              "repeat": null
+            },
+            {
+              "text": "Iki ikanaibo",
+              "repeat": null
+            },
+            {
+              "text": "Oinaketaanara",
+              "repeat": null
+            },
+            {
+              "text": "Eara neno niai",
+              "repeat": 2
+            }
+          ]
+        }
+      ]
+    },
+    "phrases": [
+      {
+        "shipibo": "Nokon kano keweni",
+        "parts": [
+          {
+            "text": "Nokon",
+            "type": "root"
+          },
+          {
+            "text": "kano",
+            "type": "root"
+          },
+          {
+            "text": "kewe",
+            "type": "root"
+          },
+          {
+            "text": "ni",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "nokon, kano, keweti",
+        "part_of_speech": "pron/n/v",
+        "root_meaning": "My; connection structure, anchor; to become embroidered with Shipibo designs",
+        "suffixes": [
+          {
+            "form": "ni",
+            "meaning": "ancient past tense"
+          }
+        ],
+        "literal_translation": "My anciently embroidered connection",
+        "cultural_note": "The connection, being embroidered, symbolizes the various imprints from the dieta connections from many dietas and spiritual connections"
+      },
+      {
+        "shipibo": "Joni Tsoa Tsoawa",
+        "parts": [
+          {
+            "text": "Joni",
+            "type": "root"
+          },
+          {
+            "text": "Tsoa",
+            "type": "root"
+          },
+          {
+            "text": "Tsoawa",
+            "type": "root"
+          }
+        ],
+        "root_word": "joni, tsoawa",
+        "part_of_speech": "n",
+        "root_meaning": "person or man; species of amazonian bird, symbolizing medicine, a doctor",
+        "suffixes": [],
+        "literal_translation": "Medicine man",
+        "cultural_note": "The spirits of the plants"
+      },
+      {
+        "shipibo": "Eara neno niai",
+        "parts": [
+          {
+            "text": "Ea",
+            "type": "root"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "neno",
+            "type": "root"
+          },
+          {
+            "text": "ni",
+            "type": "root"
+          },
+          {
+            "text": "a",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "ea, neno, niti",
+        "part_of_speech": "pron/adv/v",
+        "root_meaning": "I, intransitive; here; to walk",
+        "suffixes": [
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          },
+          {
+            "form": "ai",
+            "meaning": "present tense"
+          }
+        ],
+        "literal_translation": "I walk here",
+        "cultural_note": "Eara is the intransitive form of 'I'. He walks in the spiritual realms, is present in this ceremony."
+      },
+      {
+        "shipibo": "Rao Riosbo",
+        "parts": [
+          {
+            "text": "Rao",
+            "type": "root"
+          },
+          {
+            "text": "Rios",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "rao, Rios",
+        "part_of_speech": "n",
+        "root_meaning": "medicine; From spanish Dios, God",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "Medicine Gods",
+        "cultural_note": "The Gods are the spirits of the Noya Rao Tree"
+      },
+      {
+        "shipibo": "Noya Rao Riosbo",
+        "parts": [
+          {
+            "text": "Noya",
+            "type": "root"
+          },
+          {
+            "text": "Rao",
+            "type": "root"
+          },
+          {
+            "text": "Rios",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "Noya Rao, Rios",
+        "part_of_speech": "n",
+        "root_meaning": "Noya means 'Flying', Rao means 'medicine'. Flying Medicine. Rios from spanish Dios, God",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "Flying Medicine Gods",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Joni pastorobora",
+        "parts": [
+          {
+            "text": "Joni",
+            "type": "root"
+          },
+          {
+            "text": "pastoro",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "joni, pastoro",
+        "part_of_speech": "n",
+        "root_meaning": "person or man; From spanish Pastor, a priest/pastor",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "plural"
+          },
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          }
+        ],
+        "literal_translation": "The men pastors",
+        "cultural_note": "The priests or pastors are symbols of Divine medicine energy. These frequencies come either in dreams or visions to connect the dietero to the Divine frequencies to channel these essences and behaviors. A dietero must behave like a 'priest', someone connected to the Divine and striving for a good life"
+      },
+      {
+        "shipibo": "Rokotoro jonibo",
+        "parts": [
+          {
+            "text": "Rokotoro",
+            "type": "root"
+          },
+          {
+            "text": "joni",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "rokotoro, joni",
+        "part_of_speech": "n",
+        "root_meaning": "From spanish, doctor; person or man",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "Doctor people",
+        "cultural_note": "Spiritual doctors, as seen in visions or dreams are frequencies that are to be embodied by the dietero. To walk the doctor path is to walk the path of honesty and truth."
+      },
+      {
+        "shipibo": "Kanomayontaanara",
+        "parts": [
+          {
+            "text": "Kano",
+            "type": "root"
+          },
+          {
+            "text": "ma",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "yon",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "taana",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "kanoti",
+        "part_of_speech": "v",
+        "root_meaning": "to connect, anchor oneself",
+        "suffixes": [
+          {
+            "form": "ma",
+            "meaning": "make action happen"
+          },
+          {
+            "form": "yon",
+            "meaning": "do to completion, fully"
+          },
+          {
+            "form": "taana",
+            "meaning": "having done so"
+          },
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          }
+        ],
+        "literal_translation": "Having made (them) connect fully",
+        "cultural_note": "Connecting with these elements"
+      },
+      {
+        "shipibo": "Ea neno neskanon",
+        "parts": [
+          {
+            "text": "Ea",
+            "type": "root"
+          },
+          {
+            "text": "neno",
+            "type": "root"
+          },
+          {
+            "text": "neska",
+            "type": "root"
+          },
+          {
+            "text": "non",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "ea, neno, neskati",
+        "part_of_speech": "pron/adv/v",
+        "root_meaning": "I, intransitive; here; to do/be like this",
+        "suffixes": [
+          {
+            "form": "non",
+            "meaning": "Will do, announcement of action, not immediate"
+          }
+        ],
+        "literal_translation": "I Will be like them here (to act, embody the spirits)",
+        "cultural_note": "The healer will embody these divine frequencies with joy, he will act like the spirits"
+      },
+      {
+        "shipibo": "Joi tsoawa",
+        "parts": [
+          {
+            "text": "Joi",
+            "type": "root"
+          },
+          {
+            "text": "tsoawa",
+            "type": "root"
+          }
+        ],
+        "root_word": "joi, tsoawa",
+        "part_of_speech": "n",
+        "root_meaning": "voice, word; species of amazonian bird, symbolizing medicine, a doctor",
+        "suffixes": [],
+        "literal_translation": "Medicine voice, words",
+        "cultural_note": "Referring to the medicinal quality of the words and voice. A medicinal expression."
+      },
+      {
+        "shipibo": "Nokon joi tsoawa",
+        "parts": [
+          {
+            "text": "Nokon",
+            "type": "root"
+          },
+          {
+            "text": "joi",
+            "type": "root"
+          },
+          {
+            "text": "tsoawa",
+            "type": "root"
+          }
+        ],
+        "root_word": "nokon, joi, tsoawa",
+        "part_of_speech": "pron/n",
+        "root_meaning": "My; voice, word; species of amazonian bird, symbolizing medicine, a doctor",
+        "suffixes": [],
+        "literal_translation": "My medicine voice, words",
+        "cultural_note": "Also referring to the potency of their prayers, connected to the plant spirits"
+      },
+      {
+        "shipibo": "Joni niax, ikani",
+        "parts": [
+          {
+            "text": "Joni",
+            "type": "root"
+          },
+          {
+            "text": "ni",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "ax",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "i",
+            "type": "root"
+          },
+          {
+            "text": "ka",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "ni",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "joni, niti, iti",
+        "part_of_speech": "n/v",
+        "root_meaning": "person or man; to walk; to be",
+        "suffixes": [
+          {
+            "form": "ax",
+            "meaning": "once it just happened very recently, when it happened"
+          },
+          {
+            "form": "ka",
+            "meaning": "plural verb"
+          },
+          {
+            "form": "ni",
+            "meaning": "ancestral past tense indefinite"
+          }
+        ],
+        "literal_translation": "When the (spirit) once walked as a man (in ancient times)",
+        "cultural_note": "In other words, the maestro is saying: 'In some ancient times, the spirits walked as humans like us', expressing his desire to be close in relationship to the spirits. The '-ni' acts as an indefinite past. This construction represents a third person."
+      },
+      {
+        "shipibo": "Ikamara inike",
+        "parts": [
+          {
+            "text": "Ika",
+            "type": "root"
+          },
+          {
+            "text": "ma",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "ini",
+            "type": "root"
+          },
+          {
+            "text": "ke",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "iti",
+        "part_of_speech": "v",
+        "root_meaning": "to be-ka, past tense",
+        "suffixes": [
+          {
+            "form": "ma",
+            "meaning": "negation"
+          },
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          },
+          {
+            "form": "ke",
+            "meaning": "ancestral past tense definite"
+          }
+        ],
+        "literal_translation": "It was never so. (come close to the spirits)",
+        "cultural_note": "But alas, it was not so. Healer expressing that the spirits have never been able to be like men (flesh and bones) in the memorable past of human existence. It is just a longing of this close relationship. He is 'flirting' with the spirits by expressing his desire to be with them."
+      },
+      {
+        "shipibo": "Joi bixon soawe",
+        "parts": [
+          {
+            "text": "Joi",
+            "type": "root"
+          },
+          {
+            "text": "bi",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "xon",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "soa",
+            "type": "root"
+          },
+          {
+            "text": "we",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "joi, biti, soati",
+        "part_of_speech": "n/v",
+        "root_meaning": "voice, word; to obtain, receive; to clear, wipe",
+        "suffixes": [
+          {
+            "form": "xon",
+            "meaning": "once done"
+          },
+          {
+            "form": "we",
+            "meaning": "imperative, command"
+          }
+        ],
+        "literal_translation": "Once you receive the voice, clear it (for doing the healing)",
+        "cultural_note": "The healer asks for the spirits to correct any negative words, if there was ever a time he did not express medicinally. In other words: 'Take my words and clear them, if I ever spoke ill', so he can do the healing"
+      },
+      {
+        "shipibo": "Taitianki",
+        "parts": [
+          {
+            "text": "ta",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "tian",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "ki",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "ta",
+        "part_of_speech": "v",
+        "root_meaning": null,
+        "suffixes": [
+          {
+            "form": "ai",
+            "meaning": "present tense"
+          },
+          {
+            "form": "tian",
+            "meaning": "when"
+          },
+          {
+            "form": "ki",
+            "meaning": "emphasize time"
+          }
+        ],
+        "literal_translation": "When it is like this",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Nesktaitianki",
+        "parts": [
+          {
+            "text": "Neskt",
+            "type": "root"
+          },
+          {
+            "text": "ai",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "tian",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "ki",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "neskati",
+        "part_of_speech": "v",
+        "root_meaning": "to do/be like this",
+        "suffixes": [
+          {
+            "form": "ai",
+            "meaning": "present tense"
+          },
+          {
+            "form": "tian",
+            "meaning": "when"
+          },
+          {
+            "form": "ki",
+            "meaning": "emphasize time"
+          }
+        ],
+        "literal_translation": "When it is like this",
+        "cultural_note": "When it is like this, in the dieta container with students"
+      },
+      {
+        "shipibo": "Wetsa mai nomabo",
+        "parts": [
+          {
+            "text": "Wetsa",
+            "type": "root"
+          },
+          {
+            "text": "mai",
+            "type": "root"
+          },
+          {
+            "text": "noma",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "wetsa, mai, noma",
+        "part_of_speech": "adj/n",
+        "root_meaning": "other; land, earth; woman",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "Spiritual Women from another land",
+        "cultural_note": "Speaking to the feminine spirits connected to other realms, in higher frequencies, OR alternatively the students from other countries coming to join him."
+      },
+      {
+        "shipibo": "Nokon pino ipain",
+        "parts": [
+          {
+            "text": "Nokon",
+            "type": "root"
+          },
+          {
+            "text": "pino",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "root"
+          },
+          {
+            "text": "pain",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "nokon, pino, iti",
+        "part_of_speech": "pron/n/v",
+        "root_meaning": "My; hummingbird; to be",
+        "suffixes": [
+          {
+            "form": "pain",
+            "meaning": "denotes wish, longing"
+          }
+        ],
+        "literal_translation": "I wish they were my hummingbird",
+        "cultural_note": "He wishes the spirits were so closely related to him that they are like his hummingbirds. The hummingbird represents beauty and femininity. Alternatively, the maestro is also admiring the students from having all this medicinal energy in them."
+      },
+      {
+        "shipibo": "Joni neska neskanon",
+        "parts": [
+          {
+            "text": "Joni",
+            "type": "root"
+          },
+          {
+            "text": "neska",
+            "type": "root"
+          },
+          {
+            "text": "neska",
+            "type": "root"
+          },
+          {
+            "text": "non",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "joni, neskati",
+        "part_of_speech": "n/v",
+        "root_meaning": "person or man; to do/be like this",
+        "suffixes": [
+          {
+            "form": "non",
+            "meaning": "Will do, announcement of action, not immediate"
+          }
+        ],
+        "literal_translation": "Person will be like this",
+        "cultural_note": "The students, if they study, will be healers like the maestro, with close relationships to the spirits."
+      },
+      {
+        "shipibo": "Iki ikanaibo",
+        "parts": [
+          {
+            "text": "Iki",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "root"
+          },
+          {
+            "text": "ka",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "na",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "iti",
+        "part_of_speech": "v",
+        "root_meaning": "to be",
+        "suffixes": [
+          {
+            "form": "kan",
+            "meaning": "plural verb"
+          },
+          {
+            "form": "ai",
+            "meaning": "present tense"
+          },
+          {
+            "form": "bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "The people who are becoming",
+        "cultural_note": "Verb 'to be' is being used as a replacement of 'speak'"
+      },
+      {
+        "shipibo": "Oinaketaanara",
+        "parts": [
+          {
+            "text": "Oin",
+            "type": "root"
+          },
+          {
+            "text": "ake",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "taana",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "ointi",
+        "part_of_speech": "v",
+        "root_meaning": "to see",
+        "suffixes": [
+          {
+            "form": "ake",
+            "meaning": "around"
+          },
+          {
+            "form": "taana",
+            "meaning": "having done so"
+          },
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          }
+        ],
+        "literal_translation": "Having looked around (in my vision)",
+        "cultural_note": "The spirits have looked and felt the words uttered by the maestro"
+      }
+    ],
+    "vocabulary": [
+      {
+        "shipibo": "Biti",
+        "pos": "v",
+        "meaning": "to obtain, receive"
+      },
+      {
+        "shipibo": "Ea",
+        "pos": "pron",
+        "meaning": "I, intransitive"
+      },
+      {
+        "shipibo": "Iti",
+        "pos": "v",
+        "meaning": "to be, -ka, past tense"
+      },
+      {
+        "shipibo": "Joi",
+        "pos": "n",
+        "meaning": "voice, word"
+      },
+      {
+        "shipibo": "Joni",
+        "pos": "n",
+        "meaning": "person or man"
+      },
+      {
+        "shipibo": "Kano",
+        "pos": "n",
+        "meaning": "connection structure, anchor"
+      },
+      {
+        "shipibo": "Kanoti",
+        "pos": "v",
+        "meaning": "to connect, anchor oneself"
+      },
+      {
+        "shipibo": "Keweti",
+        "pos": "v",
+        "meaning": "to become embroidered with Shipibo designs"
+      },
+      {
+        "shipibo": "Mai",
+        "pos": "n",
+        "meaning": "land, earth"
+      },
+      {
+        "shipibo": "Neno",
+        "pos": "adv",
+        "meaning": "here"
+      },
+      {
+        "shipibo": "Neskati",
+        "pos": "v",
+        "meaning": "to do/be like this"
+      },
+      {
+        "shipibo": "Niti",
+        "pos": "v",
+        "meaning": "to walk"
+      },
+      {
+        "shipibo": "Nokon",
+        "pos": "pron",
+        "meaning": "My"
+      },
+      {
+        "shipibo": "Noma",
+        "pos": "n",
+        "meaning": "woman"
+      },
+      {
+        "shipibo": "Noya Rao",
+        "pos": "n",
+        "meaning": "Noya means 'Flying', Rao means 'medicine'. Flying Medicine"
+      },
+      {
+        "shipibo": "Ointi",
+        "pos": "v",
+        "meaning": "to see"
+      },
+      {
+        "shipibo": "Pastoro",
+        "pos": "n",
+        "meaning": "From spanish Pastor, a priest/pastor"
+      },
+      {
+        "shipibo": "Pino",
+        "pos": "n",
+        "meaning": "hummingbird"
+      },
+      {
+        "shipibo": "Rao",
+        "pos": "n",
+        "meaning": "medicine"
+      },
+      {
+        "shipibo": "Rios",
+        "pos": "n",
+        "meaning": "From spanish Dios, God"
+      },
+      {
+        "shipibo": "Rokotoro",
+        "pos": "n",
+        "meaning": "From spanish, doctor"
+      },
+      {
+        "shipibo": "Soati",
+        "pos": "v",
+        "meaning": "to clear, wipe"
+      },
+      {
+        "shipibo": "Tsoawa",
+        "pos": "n",
+        "meaning": "species of amazonian bird, symbolizing medicine, a doctor"
+      },
+      {
+        "shipibo": "Wetsa",
+        "pos": "adj",
+        "meaning": "other"
+      }
+    ],
+    "suffix_reference": [
+      {
+        "form": "ai",
+        "meaning": "present tense"
+      },
+      {
+        "form": "ake",
+        "meaning": "around"
+      },
+      {
+        "form": "ax",
+        "meaning": "once it just happened very recently, when it happened"
+      },
+      {
+        "form": "bo",
+        "meaning": "plural"
+      },
+      {
+        "form": "i",
+        "meaning": "doing so when/while/-ing"
+      },
+      {
+        "form": "ka",
+        "meaning": "plural verb"
+      },
+      {
+        "form": "ke",
+        "meaning": "ancestral past tense definite"
+      },
+      {
+        "form": "ki",
+        "meaning": "emphasize time"
+      },
+      {
+        "form": "ma",
+        "meaning": "make action happen / negation"
+      },
+      {
+        "form": "ni",
+        "meaning": "ancient past tense / ancestral past tense indefinite"
+      },
+      {
+        "form": "non",
+        "meaning": "Will do, announcement of action, not immediate"
+      },
+      {
+        "form": "pain",
+        "meaning": "denotes wish, longing"
+      },
+      {
+        "form": "ra",
+        "meaning": "emphasis"
+      },
+      {
+        "form": "taana",
+        "meaning": "having done so"
+      },
+      {
+        "form": "tian",
+        "meaning": "when"
+      },
+      {
+        "form": "we",
+        "meaning": "imperative, command"
+      },
+      {
+        "form": "xon",
+        "meaning": "once done"
+      },
+      {
+        "form": "yon",
+        "meaning": "do to completion, fully"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Kanoyonparibanon",
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Kanoyonparibanon",
+              "repeat": null
+            },
+            {
+              "text": "Rama kanoyonbanon",
+              "repeat": null
+            },
+            {
+              "text": "Netekibi kanoti",
+              "repeat": null
+            },
+            {
+              "text": "Rioskibi kanoti",
+              "repeat": null
+            },
+            {
+              "text": "Kano, kanoshamani",
+              "repeat": 3
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Nokon sama niwebo",
+              "repeat": null
+            },
+            {
+              "text": "Rama niwe koshibo",
+              "repeat": null
+            },
+            {
+              "text": "Tsinkiaketaanara",
+              "repeat": null
+            },
+            {
+              "text": "Bewa, bewakaini",
+              "repeat": null
+            },
+            {
+              "text": "Koshi medikoyonban",
+              "repeat": 3
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Medikoi bewaxon",
+              "repeat": null
+            },
+            {
+              "text": "Yora axonbanon kan",
+              "repeat": null
+            },
+            {
+              "text": "Axonira bewai",
+              "repeat": null
+            },
+            {
+              "text": "Bewa, bewashamani",
+              "repeat": 3
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Maton yoran mayatai",
+              "repeat": null
+            },
+            {
+              "text": "Mayatai niwebo",
+              "repeat": null
+            },
+            {
+              "text": "Tsokas niwe kanoya",
+              "repeat": null
+            },
+            {
+              "text": "Matobira nitani",
+              "repeat": null
+            },
+            {
+              "text": "Nitanibo riki",
+              "repeat": 3
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Mana manashamanxon",
+              "repeat": null
+            },
+            {
+              "text": "Soa soabobanon",
+              "repeat": null
+            },
+            {
+              "text": "Yora meran noabo",
+              "repeat": null
+            },
+            {
+              "text": "Kanota kanobo",
+              "repeat": null
+            },
+            {
+              "text": "Pisha pishabobanon",
+              "repeat": 3
+            }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            {
+              "text": "Masa shinan kanota",
+              "repeat": null
+            },
+            {
+              "text": "Kanota kanobo",
+              "repeat": null
+            },
+            {
+              "text": "Soa soabainxon",
+              "repeat": null
+            },
+            {
+              "text": "Jakon shinanboreskan",
+              "repeat": null
+            },
+            {
+              "text": "Mato bimabobanon",
+              "repeat": 3
+            }
+          ]
+        }
+      ]
+    },
+    "phrases": [
+      {
+        "shipibo": "Kanoyonparibanon",
+        "parts": [
+          {
+            "text": "Kano",
+            "type": "root"
+          },
+          {
+            "text": "yon",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "pari",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "banon",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "kanoti",
+        "part_of_speech": "v",
+        "root_meaning": "to connect, anchor oneself",
+        "suffixes": [
+          {
+            "form": "yon",
+            "meaning": "do to completion, fully"
+          },
+          {
+            "form": "pari",
+            "meaning": "priority, first"
+          },
+          {
+            "form": "banon",
+            "meaning": "announcement of action, 'Will do' immediately"
+          }
+        ],
+        "literal_translation": "I will connect fully with priority",
+        "cultural_note": "Referring to the connection the maestro is making to their medicinal energy"
+      },
+      {
+        "shipibo": "Rama kanoyonbanon",
+        "parts": [
+          {
+            "text": "Rama",
+            "type": "root"
+          },
+          {
+            "text": "kano",
+            "type": "root"
+          },
+          {
+            "text": "yon",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "banon",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "rama, kanoti",
+        "part_of_speech": "adv/v",
+        "root_meaning": "now; to connect, anchor oneself",
+        "suffixes": [
+          {
+            "form": "yon",
+            "meaning": "do to completion, fully"
+          },
+          {
+            "form": "banon",
+            "meaning": "announcement of action, 'Will do' immediately"
+          }
+        ],
+        "literal_translation": "I will connect fully now",
+        "cultural_note": "Bringing the medicine energy to their body"
+      },
+      {
+        "shipibo": "Netekibi kanoti",
+        "parts": [
+          {
+            "text": "Nete",
+            "type": "root"
+          },
+          {
+            "text": "ki",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "bi",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "kanot",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "nete, kanoti",
+        "part_of_speech": "n/v",
+        "root_meaning": "universe; to connect, anchor oneself",
+        "suffixes": [
+          {
+            "form": "ki",
+            "meaning": "towards"
+          },
+          {
+            "form": "bi",
+            "meaning": "emphasis, itself"
+          },
+          {
+            "form": "i",
+            "meaning": "doing so when/while/-ing"
+          }
+        ],
+        "literal_translation": "Connecting towards the universe itself",
+        "cultural_note": "Referring to the connection to medicinal realms of healing frequencies of plants"
+      },
+      {
+        "shipibo": "Rioskibi kanoti",
+        "parts": [
+          {
+            "text": "Rios",
+            "type": "root"
+          },
+          {
+            "text": "ki",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "bi",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "kanot",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "Rios, kanoti",
+        "part_of_speech": "n/v",
+        "root_meaning": "From spanish Dios, God; to connect, anchor oneself",
+        "suffixes": [
+          {
+            "form": "ki",
+            "meaning": "towards"
+          },
+          {
+            "form": "bi",
+            "meaning": "emphasis, itself"
+          },
+          {
+            "form": "i",
+            "meaning": "doing so when/while/-ing"
+          }
+        ],
+        "literal_translation": "Connecting towards the God Himself",
+        "cultural_note": "Connection to God will always support the healer in their medicine work, this is the ultimate healing frequency to perform healing work"
+      },
+      {
+        "shipibo": "Kano, kanoshamani",
+        "parts": [
+          {
+            "text": "Kano",
+            "type": "root"
+          },
+          {
+            "text": "kano",
+            "type": "root"
+          },
+          {
+            "text": "shaman",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "kanoti",
+        "part_of_speech": "v",
+        "root_meaning": "to connect, anchor oneself",
+        "suffixes": [
+          {
+            "form": "shaman",
+            "meaning": "to do so excellently"
+          },
+          {
+            "form": "i",
+            "meaning": "doing so when/while/-ing"
+          }
+        ],
+        "literal_translation": "Connecting excellently",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Nokon sama niwebo",
+        "parts": [
+          {
+            "text": "Nokon",
+            "type": "root"
+          },
+          {
+            "text": "sama",
+            "type": "root"
+          },
+          {
+            "text": "niwe",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "nokon, sama, niwe",
+        "part_of_speech": "pron/n",
+        "root_meaning": "My; Dieta; wind-like energy",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "My dieta energies",
+        "cultural_note": "Connecting to their dieta energy"
+      },
+      {
+        "shipibo": "Rama niwe koshibo",
+        "parts": [
+          {
+            "text": "Rama",
+            "type": "root"
+          },
+          {
+            "text": "niwe",
+            "type": "root"
+          },
+          {
+            "text": "koshi",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "rama, niwe, koshi",
+        "part_of_speech": "adv/n/adj",
+        "root_meaning": "now; wind-like energy; strong, powerful",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "The powerful elements of the current energy",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Tsinkiaketaanara",
+        "parts": [
+          {
+            "text": "Tsinki",
+            "type": "root"
+          },
+          {
+            "text": "ake",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "taana",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "tsinkiti",
+        "part_of_speech": "v",
+        "root_meaning": "to gather",
+        "suffixes": [
+          {
+            "form": "ake",
+            "meaning": "around"
+          },
+          {
+            "form": "taana",
+            "meaning": "having done so"
+          },
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          }
+        ],
+        "literal_translation": "Having gathered (the energies) all around",
+        "cultural_note": "Referring to gathering the powerful dieta energies to 'pack them', make them solid, in their body"
+      },
+      {
+        "shipibo": "Bewa, bewakaini",
+        "parts": [
+          {
+            "text": "Bewa",
+            "type": "root"
+          },
+          {
+            "text": "bewa",
+            "type": "root"
+          },
+          {
+            "text": "kain",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "bewati",
+        "part_of_speech": "v",
+        "root_meaning": "to sing",
+        "suffixes": [
+          {
+            "form": "kain",
+            "meaning": "doing along the way (intrans)"
+          },
+          {
+            "form": "i",
+            "meaning": "doing so when/while/-ing"
+          }
+        ],
+        "literal_translation": "Singing along the way",
+        "cultural_note": "And from this gathering of energy, the maestro sings, with all this powerful medicinal frequency"
+      },
+      {
+        "shipibo": "Koshi medikoyonban",
+        "parts": [
+          {
+            "text": "Koshi",
+            "type": "root"
+          },
+          {
+            "text": "mediko",
+            "type": "root"
+          },
+          {
+            "text": "yon",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "ban",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "koshi, medikoti",
+        "part_of_speech": "adj/v",
+        "root_meaning": "strong, powerful; from spanish medico, doctor, to become a doctor",
+        "suffixes": [
+          {
+            "form": "yon",
+            "meaning": "do to completion, fully"
+          },
+          {
+            "form": "ban",
+            "meaning": "announcement of action, 'Will do' immediately"
+          }
+        ],
+        "literal_translation": "Will become the powerful doctor fully",
+        "cultural_note": "As they embody all of these frequencies, they embody the doctor, they become a doctor."
+      },
+      {
+        "shipibo": "Medikoi bewaxon",
+        "parts": [
+          {
+            "text": "Mediko",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "bewa",
+            "type": "root"
+          },
+          {
+            "text": "xon",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "medikoti, bewati",
+        "part_of_speech": "v",
+        "root_meaning": "from spanish medico, doctor, to become a doctor; to sing",
+        "suffixes": [
+          {
+            "form": "i",
+            "meaning": "doing so when/while/-ing"
+          },
+          {
+            "form": "xon",
+            "meaning": "once done"
+          }
+        ],
+        "literal_translation": "Once I am done singing to become a doctor",
+        "cultural_note": "The healer is fully connected and ready to channel medicine frequencies"
+      },
+      {
+        "shipibo": "Yora axonbanon kan",
+        "parts": [
+          {
+            "text": "Yora",
+            "type": "root"
+          },
+          {
+            "text": "a",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "xon",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "banon",
+            "type": "suffix",
+            "color": "brown"
+          },
+          {
+            "text": "kan",
+            "type": "root"
+          }
+        ],
+        "root_word": "yora, ati",
+        "part_of_speech": "n/v",
+        "root_meaning": "body; to do",
+        "suffixes": [
+          {
+            "form": "xon",
+            "meaning": "on behalf of, middle placement"
+          },
+          {
+            "form": "banon",
+            "meaning": "announcement of action, 'Will do' immediately"
+          }
+        ],
+        "literal_translation": "Will work on behalf of the body",
+        "cultural_note": "The healer begins the healing"
+      },
+      {
+        "shipibo": "Axonira bewai",
+        "parts": [
+          {
+            "text": "A",
+            "type": "root"
+          },
+          {
+            "text": "xon",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "bewa",
+            "type": "root"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "ati, bewati",
+        "part_of_speech": "v",
+        "root_meaning": "to do; to sing",
+        "suffixes": [
+          {
+            "form": "xon",
+            "meaning": "on behalf of, middle placement"
+          },
+          {
+            "form": "i",
+            "meaning": "doing so when/while/-ing"
+          },
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          }
+        ],
+        "literal_translation": "Doing on behalf of while I sing",
+        "cultural_note": "Doing on behalf in the sense of being of service with their icaro"
+      },
+      {
+        "shipibo": "Bewa, bewashamani",
+        "parts": [
+          {
+            "text": "Bewa",
+            "type": "root"
+          },
+          {
+            "text": "bewa",
+            "type": "root"
+          },
+          {
+            "text": "shaman",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "bewati",
+        "part_of_speech": "v",
+        "root_meaning": "to sing",
+        "suffixes": [
+          {
+            "form": "shaman",
+            "meaning": "to do so excellently"
+          },
+          {
+            "form": "i",
+            "meaning": "doing so when/while/-ing"
+          }
+        ],
+        "literal_translation": "While singing excellently",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Maton yoran mayatai",
+        "parts": [
+          {
+            "text": "Maton",
+            "type": "root"
+          },
+          {
+            "text": "yora",
+            "type": "root"
+          },
+          {
+            "text": "n",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "mayat",
+            "type": "root"
+          },
+          {
+            "text": "ai",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "maton, yora, mayati",
+        "part_of_speech": "pron/n/v",
+        "root_meaning": "your, plural possessive; body; to swirl, go round",
+        "suffixes": [
+          {
+            "form": "n",
+            "meaning": "in, place (in this context)"
+          },
+          {
+            "form": "ai",
+            "meaning": "present tense"
+          }
+        ],
+        "literal_translation": "In your bodies they swirl",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Mayatai niwebo",
+        "parts": [
+          {
+            "text": "Mayat",
+            "type": "root"
+          },
+          {
+            "text": "ai",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "niwe",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "mayati, niwe",
+        "part_of_speech": "v/n",
+        "root_meaning": "to swirl, go round; wind-like energy",
+        "suffixes": [
+          {
+            "form": "ai",
+            "meaning": "present tense"
+          },
+          {
+            "form": "bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "The Swirling energies",
+        "cultural_note": "The swirling energies are the distorted energies that cause illness in the body"
+      },
+      {
+        "shipibo": "Tsokas niwe kanoya",
+        "parts": [
+          {
+            "text": "Tsokas",
+            "type": "root"
+          },
+          {
+            "text": "niwe",
+            "type": "root"
+          },
+          {
+            "text": "kano",
+            "type": "root"
+          },
+          {
+            "text": "ya",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "tsokas, niwe, kano",
+        "part_of_speech": "adj/n",
+        "root_meaning": "ungrounded, messy; wind-like energy; connection structure, anchor",
+        "suffixes": [
+          {
+            "form": "ya",
+            "meaning": "containing"
+          }
+        ],
+        "literal_translation": "Containing the messy energy",
+        "cultural_note": "Describing the energy as being scattered and ungrounded, stressful"
+      },
+      {
+        "shipibo": "Matobira nitani",
+        "parts": [
+          {
+            "text": "Mato",
+            "type": "root"
+          },
+          {
+            "text": "bi",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "ra",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "nita",
+            "type": "root"
+          },
+          {
+            "text": "ni",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "mato, niti",
+        "part_of_speech": "pron/v",
+        "root_meaning": "you, plural; to walk, stand",
+        "suffixes": [
+          {
+            "form": "bi",
+            "meaning": "emphasis, its own"
+          },
+          {
+            "form": "ra",
+            "meaning": "emphasis"
+          },
+          {
+            "form": "tan",
+            "meaning": "go and do, -tan"
+          },
+          {
+            "form": "ni",
+            "meaning": "ancient past"
+          }
+        ],
+        "literal_translation": "You have been standing/walking in the past (in the distortion)",
+        "cultural_note": "You (plural) have been walking in these stressful realms, these have been your habits for a long time (talking about the patients)"
+      },
+      {
+        "shipibo": "Nitanibo riki",
+        "parts": [
+          {
+            "text": "Ni",
+            "type": "root"
+          },
+          {
+            "text": "tan",
+            "type": "suffix",
+            "color": "orange"
+          },
+          {
+            "text": "i",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          },
+          {
+            "text": "riki",
+            "type": "root"
+          }
+        ],
+        "root_word": "niti, iti",
+        "part_of_speech": "v",
+        "root_meaning": "to walk, stand; to be. Present conjugation",
+        "suffixes": [
+          {
+            "form": "tan",
+            "meaning": "go and do, -tan"
+          },
+          {
+            "form": "bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "You are the ones that have been standing in the past",
+        "cultural_note": "You have been standing, living in the distortion"
+      },
+      {
+        "shipibo": "Mana manashamanxon",
+        "parts": [
+          {
+            "text": "Mana",
+            "type": "root"
+          },
+          {
+            "text": "mana",
+            "type": "root"
+          },
+          {
+            "text": "shaman",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "xon",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "manati",
+        "part_of_speech": "v",
+        "root_meaning": "to wait",
+        "suffixes": [
+          {
+            "form": "shaman",
+            "meaning": "to do so excellently"
+          },
+          {
+            "form": "xon",
+            "meaning": "once done"
+          }
+        ],
+        "literal_translation": "Having waited excellently",
+        "cultural_note": "The healer waited, in the sense of performed a deep diagnosis"
+      },
+      {
+        "shipibo": "Soa soabobanon",
+        "parts": [
+          {
+            "text": "Soa",
+            "type": "root"
+          },
+          {
+            "text": "soa",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "banon",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "soati",
+        "part_of_speech": "v",
+        "root_meaning": "to clear, wipe",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "to do as you go"
+          },
+          {
+            "form": "banon",
+            "meaning": "announcement of action, 'Will do' immediately"
+          }
+        ],
+        "literal_translation": "Will clear as I go",
+        "cultural_note": "The clearing begins"
+      },
+      {
+        "shipibo": "Yora meran noabo",
+        "parts": [
+          {
+            "text": "Yora",
+            "type": "root"
+          },
+          {
+            "text": "meran",
+            "type": "root"
+          },
+          {
+            "text": "noa",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "yora, meran, noa",
+        "part_of_speech": "n",
+        "root_meaning": "body; inside; from within (suffix turned noun)",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "The elements from within your body",
+        "cultural_note": "Referring to the distorted elements in the patients' bodies"
+      },
+      {
+        "shipibo": "Kanota kanobo",
+        "parts": [
+          {
+            "text": "Kanot",
+            "type": "root"
+          },
+          {
+            "text": "a",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "kano",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          }
+        ],
+        "root_word": "kanoti, kano",
+        "part_of_speech": "v/n",
+        "root_meaning": "to connect, anchor oneself; connection structure, anchor",
+        "suffixes": [
+          {
+            "form": "a",
+            "meaning": "general past"
+          },
+          {
+            "form": "bo",
+            "meaning": "plural"
+          }
+        ],
+        "literal_translation": "The anchored connections",
+        "cultural_note": "These energies are anchored"
+      },
+      {
+        "shipibo": "Pisha pishabobanon",
+        "parts": [
+          {
+            "text": "Pisha",
+            "type": "root"
+          },
+          {
+            "text": "pisha",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "banon",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "pishati",
+        "part_of_speech": "v",
+        "root_meaning": "to release",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "to do as you go"
+          },
+          {
+            "form": "banon",
+            "meaning": "announcement of action, 'Will do' immediately"
+          }
+        ],
+        "literal_translation": "Will release as I go",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Masa shinan kanota",
+        "parts": [
+          {
+            "text": "Masa",
+            "type": "root"
+          },
+          {
+            "text": "shinan",
+            "type": "root"
+          },
+          {
+            "text": "kanot",
+            "type": "root"
+          },
+          {
+            "text": "a",
+            "type": "suffix",
+            "color": "green"
+          }
+        ],
+        "root_word": "masa shinan, kanoti",
+        "part_of_speech": "n/v",
+        "root_meaning": "Masa means 'distorted', shinan means 'mind'. Together it means 'worry'; to connect, anchor oneself",
+        "suffixes": [
+          {
+            "form": "a",
+            "meaning": "general past"
+          }
+        ],
+        "literal_translation": "The anchored worry",
+        "cultural_note": "The worry is anchored, stuck in the patients' soma"
+      },
+      {
+        "shipibo": "Soa soabainxon",
+        "parts": [
+          {
+            "text": "Soa",
+            "type": "root"
+          },
+          {
+            "text": "soa",
+            "type": "root"
+          },
+          {
+            "text": "bain",
+            "type": "suffix",
+            "color": "brown"
+          },
+          {
+            "text": "xon",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "soati",
+        "part_of_speech": "v",
+        "root_meaning": "to clear, wipe",
+        "suffixes": [
+          {
+            "form": "bain",
+            "meaning": "doing along the way (trans)"
+          },
+          {
+            "form": "xon",
+            "meaning": "once done"
+          }
+        ],
+        "literal_translation": "Once cleared along the way",
+        "cultural_note": null
+      },
+      {
+        "shipibo": "Jakon shinanboreskan",
+        "parts": [
+          {
+            "text": "Jakon",
+            "type": "root"
+          },
+          {
+            "text": "shinan",
+            "type": "root"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "blue"
+          },
+          {
+            "text": "res",
+            "type": "suffix",
+            "color": "purple"
+          },
+          {
+            "text": "kan",
+            "type": "suffix",
+            "color": "purple"
+          }
+        ],
+        "root_word": "jakon, shinan",
+        "part_of_speech": "adj/n",
+        "root_meaning": "good; mind",
+        "suffixes": [
+          {
+            "form": "bo",
+            "meaning": "plural"
+          },
+          {
+            "form": "res",
+            "meaning": "only"
+          },
+          {
+            "form": "kan",
+            "meaning": "emphasis, force, truly"
+          }
+        ],
+        "literal_translation": "Only truly good thoughts",
+        "cultural_note": "After clearing the worry and stress, the healing brings the positive thoughts, a healthy mindset"
+      },
+      {
+        "shipibo": "Mato bimabobanon",
+        "parts": [
+          {
+            "text": "Mato",
+            "type": "root"
+          },
+          {
+            "text": "bi",
+            "type": "root"
+          },
+          {
+            "text": "ma",
+            "type": "suffix",
+            "color": "red"
+          },
+          {
+            "text": "bo",
+            "type": "suffix",
+            "color": "green"
+          },
+          {
+            "text": "banon",
+            "type": "suffix",
+            "color": "brown"
+          }
+        ],
+        "root_word": "mato, biti",
+        "part_of_speech": "pron/v",
+        "root_meaning": "you, plural; to obtain, receive",
+        "suffixes": [
+          {
+            "form": "ma",
+            "meaning": "make action happen"
+          },
+          {
+            "form": "bo",
+            "meaning": "to do as you go"
+          },
+          {
+            "form": "banon",
+            "meaning": "announcement of action, 'Will do' immediately"
+          }
+        ],
+        "literal_translation": "I will make you receive as you go",
+        "cultural_note": "Helps the patients receive this new mental state."
+      }
+    ],
+    "vocabulary": [
+      {
+        "shipibo": "Ati",
+        "pos": "v",
+        "meaning": "to do"
+      },
+      {
+        "shipibo": "Bewati",
+        "pos": "v",
+        "meaning": "to sing"
+      },
+      {
+        "shipibo": "Biti",
+        "pos": "v",
+        "meaning": "to obtain, receive"
+      },
+      {
+        "shipibo": "Iti",
+        "pos": "v",
+        "meaning": "to be, riki is present tense conjugation"
+      },
+      {
+        "shipibo": "Jakon",
+        "pos": "adj",
+        "meaning": "good"
+      },
+      {
+        "shipibo": "Kano",
+        "pos": "n",
+        "meaning": "connection structure, anchor"
+      },
+      {
+        "shipibo": "Kanoti",
+        "pos": "v",
+        "meaning": "to connect, anchor oneself"
+      },
+      {
+        "shipibo": "Koshi",
+        "pos": "adj",
+        "meaning": "strong, powerful"
+      },
+      {
+        "shipibo": "Manati",
+        "pos": "v",
+        "meaning": "to wait"
+      },
+      {
+        "shipibo": "Masa shinan",
+        "pos": "n",
+        "meaning": "Masa means 'distorted', shinan means 'mind'. Together it means 'worry'"
+      },
+      {
+        "shipibo": "Mato",
+        "pos": "pron",
+        "meaning": "you, plural"
+      },
+      {
+        "shipibo": "Maton",
+        "pos": "pron",
+        "meaning": "your, plural possessive"
+      },
+      {
+        "shipibo": "Mayati",
+        "pos": "v",
+        "meaning": "to swirl, go round"
+      },
+      {
+        "shipibo": "Medikoti",
+        "pos": "v",
+        "meaning": "from spanish medico, doctor, to become a doctor"
+      },
+      {
+        "shipibo": "Meran",
+        "pos": "adj",
+        "meaning": "inside"
+      },
+      {
+        "shipibo": "Nete",
+        "pos": "n",
+        "meaning": "Universe"
+      },
+      {
+        "shipibo": "Niwe",
+        "pos": "n",
+        "meaning": "wind-like energy"
+      },
+      {
+        "shipibo": "Niti",
+        "pos": "v",
+        "meaning": "to walk"
+      },
+      {
+        "shipibo": "Noa",
+        "pos": "n",
+        "meaning": "from within (suffix turned noun)"
+      },
+      {
+        "shipibo": "Nokon",
+        "pos": "pron",
+        "meaning": "My"
+      },
+      {
+        "shipibo": "Pishati",
+        "pos": "v",
+        "meaning": "to release"
+      },
+      {
+        "shipibo": "Rama",
+        "pos": "adv",
+        "meaning": "now"
+      },
+      {
+        "shipibo": "Rios",
+        "pos": "n",
+        "meaning": "From spanish Dios, God"
+      },
+      {
+        "shipibo": "Sama",
+        "pos": "n",
+        "meaning": "dieta"
+      },
+      {
+        "shipibo": "Shinan",
+        "pos": "n",
+        "meaning": "mind"
+      },
+      {
+        "shipibo": "Soati",
+        "pos": "v",
+        "meaning": "to clear, wipe"
+      },
+      {
+        "shipibo": "Tsokas",
+        "pos": "adj",
+        "meaning": "ungrounded, messy"
+      },
+      {
+        "shipibo": "Tsinkiti",
+        "pos": "v",
+        "meaning": "to gather"
+      },
+      {
+        "shipibo": "Yora",
+        "pos": "n",
+        "meaning": "body"
+      }
+    ],
+    "suffix_reference": [
+      {
+        "form": "a",
+        "meaning": "general past"
+      },
+      {
+        "form": "ai",
+        "meaning": "present tense"
+      },
+      {
+        "form": "ake",
+        "meaning": "around"
+      },
+      {
+        "form": "bain",
+        "meaning": "doing along the way (trans)"
+      },
+      {
+        "form": "ban/banon",
+        "meaning": "announcement of action, 'Will do' immediately"
+      },
+      {
+        "form": "bi",
+        "meaning": "emphasis, itself"
+      },
+      {
+        "form": "bo (noun)",
+        "meaning": "plural"
+      },
+      {
+        "form": "bo (verb)",
+        "meaning": "to do as you go"
+      },
+      {
+        "form": "i",
+        "meaning": "doing so when/while/-ing"
+      },
+      {
+        "form": "kain",
+        "meaning": "doing along the way (intrans)"
+      },
+      {
+        "form": "kan",
+        "meaning": "emphasis, force, truly"
+      },
+      {
+        "form": "ki",
+        "meaning": "towards"
+      },
+      {
+        "form": "ma",
+        "meaning": "make action happen"
+      },
+      {
+        "form": "n",
+        "meaning": "in, place (in this context)"
+      },
+      {
+        "form": "ni",
+        "meaning": "ancient past"
+      },
+      {
+        "form": "pari",
+        "meaning": "priority, first"
+      },
+      {
+        "form": "ra",
+        "meaning": "emphasis"
+      },
+      {
+        "form": "res",
+        "meaning": "only"
+      },
+      {
+        "form": "shaman",
+        "meaning": "to do so excellently"
+      },
+      {
+        "form": "taana",
+        "meaning": "having done so"
+      },
+      {
+        "form": "tan",
+        "meaning": "go and do, -tan"
+      },
+      {
+        "form": "xon",
+        "meaning": "once done / on behalf of"
+      },
+      {
+        "form": "ya",
+        "meaning": "containing"
+      },
+      {
+        "form": "yon",
+        "meaning": "do to completion, fully"
+      }
+    ]
+  }
+]
