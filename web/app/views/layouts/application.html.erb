@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><%= content_for(:title) || "Shipibo Dictionary" %></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= yield :head %>
+
+    <link rel="icon" href="/icon.png" type="image/png">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/icon.png">
+
+    <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body class="min-h-screen">
+    <!-- Header -->
+    <header class="site-header">
+      <div class="max-w-3xl mx-auto px-6 py-5 flex items-center justify-between">
+        <%= link_to root_path, class: "flex items-baseline gap-2.5 no-underline" do %>
+          <span class="site-logo text-2xl text-ink">Shipibo</span>
+          <span class="text-ink-muted text-sm font-light tracking-wide">dictionary</span>
+        <% end %>
+
+        <nav class="flex items-center gap-6">
+          <%= link_to "Browse", root_path, class: "site-nav-link" %>
+          <%= link_to "About", "#", class: "site-nav-link" %>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="max-w-3xl mx-auto px-6 py-10">
+      <%= yield %>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-auto">
+      <div class="max-w-3xl mx-auto px-6 pb-8">
+        <hr class="divider mb-6">
+        <p class="text-center text-xs text-ink-muted font-light tracking-wide">
+          A living record of the Shipibo language of the Peruvian Amazon
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

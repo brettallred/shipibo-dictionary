@@ -1,0 +1,3408 @@
+[
+  {
+    "headword": "chísho",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chishón"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "nalga"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jahuen chishóncora bonán técaque",
+        "spanish": "Una avispa le picó en la nalga"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chishó",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chíshocan"
+    ],
+    "etymology": "[del ship. chi- en el ano + óho, elem. de hócati pelar]",
+    "definitions_spanish": [
+      "diarrea"
+    ],
+    "examples": [
+      {
+        "shipibo": "Chishó betan quínamanra Cacónconia jóni rétequeanque",
+        "spanish": "Un hombre de Caco casi se muere de diarrea y vómito"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chishóhuaste",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "huáste"
+    ],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chishóparanta",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "paránta"
+    ],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chíshopeca",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "pecá"
+    ],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chishóshti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chíshosha"
+    ],
+    "etymology": "[del ship. chi- en la popa + shóihori brotar]",
+    "definitions_spanish": [
+      "crecer en la popa rajada de una canoa vieja"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chishóti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chíshota"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "tener o enfermarse de diarrea o disentería"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ichayora cóchi Sheni piásha ea yamé chishóshinai",
+        "spanish": "Por haber comido algo con mucha manteca de chancho he tenido diarrea toda la noche"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chishpó",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chíshpocan"
+    ],
+    "etymology": "[del ship. chi- en las nalgas + shopó peludo]",
+    "definitions_spanish": [
+      "cerdas o vellos finos en las nalgas"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chishquíti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chíshquita"
+    ],
+    "etymology": "[del ship. chi- en la nalga + sháquiti rallar]",
+    "definitions_spanish": [
+      "arrastrarse sentado sobre el suelo"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chíshteti",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chíshtea"
+    ],
+    "etymology": "[del ship. chi- en la nalga + sháteri cortar]",
+    "definitions_spanish": [
+      "cortar en la nalga",
+      "cortar en el cabo más grande"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chítaca",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chítacan",
+      "chítacanin"
+    ],
+    "etymology": "[del ship. chi- muy adentro + -táca hígado]",
+    "definitions_spanish": [
+      "molleja"
+    ],
+    "examples": [
+      {
+        "shipibo": "En átapa chitaca Shólara ochítinin bóque",
+        "spanish": "El perro se llevó la molleja de gallina que había asado"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chitáshti",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chítasha"
+    ],
+    "etymology": "[del ship. chi- en las partes traseras + taiho-, raíz de táshoti lamer + -+i, sf. inf.]",
+    "definitions_spanish": [
+      "lamer en las partes traseras"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chíte",
+    "part_of_speech": "adj.",
+    "variant_forms": [
+      "chitén"
+    ],
+    "etymology": "[del ship. chi- en la cola + éshe que sobra]",
+    "definitions_spanish": [
+      "que sobra",
+      "sobrado",
+      "parte que sobra; específ. punta colilla",
+      "pez dejado por merma"
+    ],
+    "examples": [
+      {
+        "shipibo": "Min píti chítebires ea ménihue —aquin acábiqui méniamaa iqui",
+        "spanish": "No le dio alimento ni cuando le rogó que le diera aunque fuera lo que le sobraba"
+      },
+      {
+        "shipibo": "Jaton báque ísinaitian yobébo róme Shéishon ácanai chóon amaquin; ja chíte ámacanai téomaquin",
+        "spanish": "Cuando sus hijos se enferman, se hace un cigarrillo para que los brujos boten humo sobre ellos y luego les pongan las puntas de éstos en sus cuellos"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chité",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chítecan"
+    ],
+    "etymology": "[del ship. chi- en la cola + te, elem. no ident.]",
+    "definitions_spanish": [
+      "corral",
+      "cuarto de una casa"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ja chínita chité icainoara máshocan atapa boque",
+        "spanish": "El zorro se llevó la gallina del último corral"
+      },
+      {
+        "shipibo": "Jahuen chité meran óshaa iquetianra en ráteque",
+        "spanish": "Lo desperté mientras dormía en su cuarto"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "chiqué"
+    ],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chíteati",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chíteaa",
+      "chíteaca"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "hacer sobrar"
+    ],
+    "examples": [
+      {
+        "shipibo": "Mia jómi onánshonra en píti chíteaque",
+        "spanish": "Sabía que ibas a venir e hice que la comida me sobrara"
+      }
+    ],
+    "synonyms": [
+      "iésheati"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chitéshti",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chítesha"
+    ],
+    "etymology": "[del ship. chi- en las nalgas + tésheati sobrar]",
+    "definitions_spanish": [
+      "arrancar el abdomen a (un insecto)",
+      "aflojar o bajar totalmente la pampanilla a"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ea técaquetianra en bína chitéshque",
+        "spanish": "Le arranqué el abdomen a la avispa porque me picó"
+      },
+      {
+        "shipibo": "Chitéshquetianra, aínbaon jahuen tsábe bachínque",
+        "spanish": "Una mujer tiró los cabellos de su cuñada cuando ésta le aflojó la pampanilla"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chíteti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chítea"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "sobrar (comida)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Píti chítequetianra en ochíti ménique",
+        "spanish": "Cuándo sobró la comida, se la di al perro"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chíteti",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chítea"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "estar contrario a",
+      "estar contra",
+      "impedir que venga (agua de creciente) con un muro",
+      "prohibir",
+      "vedar"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nihuén noa chítequetiánra noa cáyamaque",
+        "spanish": "No nos fuimos, porque el viento estaba contrario a nosotros"
+      },
+      {
+        "shipibo": "Ichayora jéne béaitianra en chíteque, noa máponaquetian",
+        "spanish": "Cuando vino la creciente, hice un muro para impedir que nos inundara"
+      },
+      {
+        "shipibo": "Níhueabatai oínóhonra en mia chíteque",
+        "spanish": "Al ver que venía la tempestad, te prohibí que te fueras"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 85
+  },
+  {
+    "headword": "chitéti",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chíteta"
+    ],
+    "etymology": "[del ship. chi- en las nalgas + técati picar]",
+    "definitions_spanish": [
+      "picar (p. ej., avispa) en la nalga"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "chitíati",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chitíaa"
+    ],
+    "etymology": "[del ship. chi- en las partes traseras + ti, elem. no ident. + -ati hacer]",
+    "definitions_spanish": [
+      "hacer retroceder",
+      "rebajar (precio)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Icáraniura yoshín chitíaque",
+        "spanish": "Con canciones del tipo icára hizo retroceder al demonio"
+      },
+      {
+        "shipibo": "¿Minqui jahuen copí ea chitíashontima iqui?",
+        "spanish": "¿No me puedes rebajar el precio?"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "chitínti",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chítina"
+    ],
+    "etymology": "[del ship. chi- en el trasero + chíniti cavar]",
+    "definitions_spanish": [
+      "azuelar (canoa) por la popa"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "chitínti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chítina"
+    ],
+    "etymology": "[del ship. chi- en las nalgas + tímati pegar]",
+    "definitions_spanish": [
+      "chocar la nalga contra (algo que estorba)"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "chitínti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chítina"
+    ],
+    "etymology": "[del ship. chi- en la popa + tínati empacar]",
+    "definitions_spanish": [
+      "meter (cosas) en la popa"
+    ],
+    "examples": [
+      {
+        "shipibo": "Sontárobaonra huapóro poinquiain ícha jahuéqui chitínque",
+        "spanish": "Los soldados metieron muchas cosas en la popa de la lancha"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "chitíti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chítita"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "retroceder; específ. : retroceder para escaparse"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ochítinin jojóacara noa chitícanque, noa natéshnaquetian",
+        "spanish": "Cuando el perro nos ladró, retrocedimos por temor a que nos mordiera"
+      },
+      {
+        "shipibo": "Jahuen pátoron méraasha chitíque",
+        "spanish": "Al ver a su patrón, retrocedió porque no quería ir al trabajo"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "chitóati",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chitóaa"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "hacer encoger : achicar a lo largo"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato ainbaonra cotón chitóati onánque Yarínain áshea ishon",
+        "spanish": "Esta mujer sabe achicar camisas porque lo estudió en Yarina"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "chitónti",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chítona"
+    ],
+    "etymology": "[del ship. chi- en las nalgas + tónco redondo + -ti sf. inf.]",
+    "definitions_spanish": [
+      "ponerse (pampanilla)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Titánra jahuen chitónti béna chitónque",
+        "spanish": "Mamá se puso su pampanilla nueva"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "chitónti",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chitóntinin"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "pampanilla"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jahuen chitóntinin yómetsoaitianra titán jahuen tsábe méraque",
+        "spanish": "Mamá descubrió a su cuñada robándole su pampanilla"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "chítoti",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chítoa"
+    ],
+    "etymology": "[del ship. chi- en las nalgas + to, elem. no ident. + -íí sf. inf]",
+    "definitions_spanish": [
+      "abrir las piernas de"
+    ],
+    "examples": [
+      {
+        "shipibo": "Capónhanoshonra nato cóchi non chítoque",
+        "spanish": "Para poder capar a este chancho, le tuvimos que abrir las piernas traseras"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "chitóti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chítota"
+    ],
+    "etymology": "[del ship. chi- en las partes traseras + to, elem. no ident. + -é sf. inf]",
+    "definitions_spanish": [
+      "encogerse o achicarse a lo largo",
+      "ponerse con los pies contraídos hacia la ingle : ponerse en cuclillas"
+    ],
+    "examples": [
+      {
+        "shipibo": "Chiáreshti áni biára moa pátsata chitóque",
+        "spanish": "El pantalón, que me quedaba largo, se ha encogido al lavarlo."
+      },
+      {
+        "shipibo": "Nocon chiáreshti chitó iquetianra ea quéenyamai",
+        "spanish": "No me gusta mi pantalón porque se encogió"
+      },
+      {
+        "shipibo": "Chítoti yacáquetianra jahuen titán sináaque",
+        "spanish": "Cuando ella se sentó en cuclillas, su mamá la riñó por sentarse en una posición indecente."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "-cho",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. choré, palabra para llamar a un hijo o hija]",
+    "definitions_spanish": [
+      "mi estimado"
+    ],
+    "examples": [
+      {
+        "shipibo": "Johué, Sinácho",
+        "spanish": "¡Saludos, mi estimado Siná"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Úsase con el sentido de \"mi estimado\" como expresión de cariño entre adultos. Úsase agregado al sustantivo (P. ej. un nombre personal) vocativo.",
+    "page_number": 86
+  },
+  {
+    "headword": "chóa",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "choán"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "especie de árbol parecido al zapote que se considera como hechizado"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "chócati",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chócaa"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "lavar (algo que no es tela)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nocon yónotininra en tápo chócati yóiabi áyamaque",
+        "spanish": "Aunque ordené a mi criada que lavara el piso, no lo ha hecho"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 3.1"
+    ],
+    "grammatical_notes": null,
+    "page_number": 86
+  },
+  {
+    "headword": "chóchahuasha",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "niáchochobuasha",
+      "chóchoasha",
+      "chóchoashan",
+      "niáchocho huashan"
+    ],
+    "etymology": "[del quech. chuchuhwasi; y éste del quech. chuchu teta + huasi casa]",
+    "definitions_spanish": [
+      "chuchuhuasi",
+      "demonio identificado con el chuchuhuasi"
+    ],
+    "examples": [
+      {
+        "shipibo": "Chóchahuashayoshinronqui benquésh táe máshcoshoco iqui",
+        "spanish": "Dicen que el demonio del chuchuhuasi tiene un pie más pequeñito que el otro"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "níshichochahuasba",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. níshi bejuco + chóchahuasha chuchuhuasi]",
+    "definitions_spanish": [
+      "especie de bejuco"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "choín",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chóiman"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "especie de ashipa dulce de hojas como las del frijol y de raíces más grandes que las de la sachapapa"
+    ],
+    "examples": [
+      {
+        "shipibo": "Péoquin choín cócoasha nato báque chishóque",
+        "spanish": "Este niño tuvo diarrea por comer ashipa por primera vez"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "pítichoin",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. píti comida + choín especie de ashipa dulce]",
+    "definitions_spanish": [
+      "especie de ashipa de raíces parecidas a las de la zanahoria, pero de color morado o blanco"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "chóma",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chomán"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "nubes"
+    ],
+    "examples": [
+      {
+        "shipibo": "Moa Úi béaitianra chóma queshtó iqui",
+        "spanish": "Cuando va a llover las nubes están sombrías"
+      }
+    ],
+    "synonyms": [
+      "coín"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "chómati",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chómaa"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "estar nublado"
+    ],
+    "examples": [
+      {
+        "shipibo": "Naí chómaara moa bári jíshtima iqui",
+        "spanish": "Cuando el cielo se nubla, no se puede ver el sol"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "chómo",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chomón"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "tinaja"
+    ],
+    "examples": [
+      {
+        "shipibo": "Títara moa jahuen chomón mároque",
+        "spanish": "Mamá vendió su tinaja"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "chómoati",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chómoaa",
+      "chómoaca"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "hacer la tinaja"
+    ],
+    "examples": [
+      {
+        "shipibo": "Gahuen ribín copiatira titán chómoaque",
+        "spanish": "Mamá hizo tinajas para pagar su deuda"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "chómpa",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chompán"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "especie de árbol de frutos parecidos a los ubos"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "chómpe",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chompén"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "especie de bejuco del monte de hojas fragrantes que sirven para teñir impartiendo su fragancia"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "chómpi",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chompín"
+    ],
+    "etymology": "[del quech. chumpi]",
+    "definitions_spanish": [
+      "faja de algodón tejido que sirve como cinturón"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "chónca",
+    "part_of_speech": "adj.",
+    "variant_forms": [
+      "choncán"
+    ],
+    "etymology": "[del quech. chunka]",
+    "definitions_spanish": [
+      "diez"
+    ],
+    "examples": [
+      {
+        "shipibo": "Éara Máioshiain cái chónca néte huínotapecaopari",
+        "spanish": "Me voy a Pucallpa dentro de diez días"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "chóncho",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chonchón"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "pollito; específ. chuncho tátapa betan chónchobo gallina con sus pollitos"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato yaméra chóncho matsín rétehuanque",
+        "spanish": "Anoche el chuncho murió de frío"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "chóno",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chonón"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "golondrina"
+    ],
+    "examples": [
+      {
+        "shipibo": "Non chóno ináaquetianronqui non báque máhuatai",
+        "spanish": "Dicen que cuando se crian golondrinas, mueren nuestros hijos"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "buísochono",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. huíso negro + chóno golondrina]",
+    "definitions_spanish": [
+      "especie de golondrina de color negro claro"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "máichono",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. mái tierra + chóno golondrina]",
+    "definitions_spanish": [
+      "especie de golondrina"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "yancónchono",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. yancón azul + chóno golondrina]",
+    "definitions_spanish": [
+      "especie de golondrina de alas de color azul brillante"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "chonónininti",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chonóninintinin"
+    ],
+    "etymology": "[del ship. chóno, chonón golondrina + inómi fragancia]",
+    "definitions_spanish": [
+      "especie de árbol fragante que sirve para teñir"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nocon títashoconra chonóninintinin jahuen chitónti pócoque",
+        "spanish": "Mi abuelita tiñó su pampanilla con tinte del árbol chonónininti"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "chonquésh",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chónqueshen"
+    ],
+    "etymology": "[del ship. chonquésh, onomat. del canto]",
+    "definitions_spanish": [
+      "especie de pájaro pequeño que se parece a una paloma"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 87
+  },
+  {
+    "headword": "chópa",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chopán"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "ropa",
+      "tela"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nocon áhuininra nocon chópa ea patsáshonai",
+        "spanish": "Mi esposa me lava la ropa."
+      },
+      {
+        "shipibo": "Máioshiaiínra ráma chópaati máquina ácanal; játianronqui huashmén huai ati ícai",
+        "spanish": "Ahora van a instalar una fábrica textil en Pucallpa, y dicen que por eso se puede cultivar algodón"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "bichíchopa",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del cast. vichy + ship.: chópa tela]",
+    "definitions_spanish": [
+      "vichy"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "cáquichopa",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del cast. caquí + ship. chópa ropa]",
+    "definitions_spanish": [
+      "caqui"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "máshichopa",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. máshi playa de arena + chópa ropa]",
+    "definitions_spanish": [
+      "tela playa"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "oránchopa",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del cast. orán + chópa ropa]",
+    "definitions_spanish": [
+      "tela floreada"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "chópai",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chópaiton"
+    ],
+    "etymology": "[del ship. chópa tela + -ai, sí. del part. de pres.]",
+    "definitions_spanish": [
+      "tejedor"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "chópaoma",
+    "part_of_speech": "adj.",
+    "variant_forms": [
+      "chópaoman",
+      "chópaomatonin"
+    ],
+    "etymology": "[del ship. chópa ropa + -oma sin]",
+    "definitions_spanish": [
+      "desnudo completamente o solamente por la parte superior del cuerpo"
+    ],
+    "examples": [
+      {
+        "shipibo": "Rámabi níi meranoa pícocana jónira chópaoma icátiai",
+        "spanish": "El hombre que recientemente sacaron del monte estaba desnudo"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "chopé",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chópecan"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "rajadura; específ.: rajadura de madera",
+      "grieta de la tierra",
+      "raya del cabello"
+    ],
+    "examples": [
+      {
+        "shipibo": "Íhui chopetain métoti níaquetianra báque ninbón tétaque",
+        "spanish": "Al niño le picó un alacrán cuando metió el dedo en la abertura de un árbol"
+      }
+    ],
+    "synonyms": [
+      "chacá"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "chópeti",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chópea"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "abrir (p. ej, la boca, el ojo, un baúl o un libro)",
+      "extender",
+      "desplegar"
+    ],
+    "examples": [
+      {
+        "shipibo": "Títashocon queshá chópeshon oíncanara íque jahuen ¿óhétabo yáma",
+        "spanish": "Cuando abrieron la boca de la abuelita, vieron que no tenía dientes"
+      },
+      {
+        "shipibo": "Rócotoron béro chópenaancasara nato báque huínial",
+        "spanish": "Este niño llora porque el doctor le quiere abrir el ojo"
+      },
+      {
+        "shipibo": "Nocon cocánra quírica chópequin jahuen pápa máhuataton jóto méraque",
+        "spanish": "Al abrir un libro, mi tío, el hermano de mi madre, encontró la foto de su finado padre"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "chopéti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chópeta"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "abrirse (p. ej, boca, ojo o libro)",
+      "rajarse (p. ej. árbo), madera o canoa)",
+      "agrietarse (p. ej. tierra o fruta)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nihuén acára quírica chópetai",
+        "spanish": "El libro se está abriendo, por efecto del viento"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "chópiananti",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chópianantinin"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "sandieta"
+    ],
+    "examples": [
+      {
+        "shipibo": "Chópiananti chácaShon ochíti Shéamara mábuatai",
+        "spanish": "Cuando a un perro se le da de tomar sandieta machucada, le causa la muerte"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "chopíti",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chopítinin"
+    ],
+    "etymology": "[del cast]",
+    "definitions_spanish": [
+      "chupete"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "choqué",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chóque"
+    ],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Úsase como palabra para llamar al perico o al pihuicho",
+    "page_number": 88
+  },
+  {
+    "headword": "chóqui",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "choquín"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "arruga de tela o papel"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "chóquiati",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chóquiaa",
+      "chóquiaca"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "formar arrugas en",
+      "arrugar"
+    ],
+    "examples": [
+      {
+        "shipibo": "Tsíniquinra nato baquén jahuen cotón chóquiaque",
+        "spanish": "El niño arrugó su camisa jugando"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "choquíti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chóquita"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "lavarse"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato aínbora nanén síquitashbi moa choquíque",
+        "spanish": "Esta mujer se ha lavado las manos que se pintó con el fruto del huito"
+      },
+      {
+        "shipibo": "Qatíbi rátora moa choquíbires iqui, maístoron jascáati yóiquetian en acá",
+        "spanish": "Los platos ya están lavados porque lo hice cuando el maestro me ordenó que los lavara"
+      },
+      {
+        "shipibo": "Min bemana choquímaiquetianra rócotoron mia osánque",
+        "spanish": "El doctor se ha reído de tí porque tu cara no está lavada"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "chórameeti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chórameeta"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "estar juntos (quelonios)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Copítsoya cabóribo chórameétara non oínque",
+        "spanish": "Vimos juntos a los cupisos y a las taricayas"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 88
+  },
+  {
+    "headword": "choránti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chórana"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "estar amontonados (trozas o tripas)",
+      "enroscarse (culebra)",
+      "enredarse (soga)",
+      "arrugarse (p. ej, tela, papel o la piel)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato bocón ¿hate chóranara mároti ácana iqui",
+        "spanish": "Están en venta las trozas de *cetico amontonadas allí"
+      },
+      {
+        "shipibo": "En rabé ahuá réteara jahuen póco pótacana chórana iqui",
+        "spanish": "Las tripas de las dos *sachavacas que maté están amontonadas donde las botaron"
+      },
+      {
+        "shipibo": "En róno jámatabira ea natéshamaque chórana ishon",
+        "spanish": "Pisé una Culebra pero no me mordió porque estaba enroscada"
+      },
+      {
+        "shipibo": "En níniara nato risbí choránque",
+        "spanish": "Esta soga se enredó porque la jalé"
+      },
+      {
+        "shipibo": "Ménotasha nato baquén póco choránque",
+        "spanish": "La piel de la barriga de este niño se arrugó al quemarse"
+      },
+      {
+        "shipibo": "Nato baquén sáyara chórana iqui",
+        "spanish": "El vestido de esta niña se arrugó"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "chóre",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chorén"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "arruga"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato aínbaon yórara chórebiresiqui, ménota icash",
+        "spanish": "El cuerpo de esta mujer está cubierto de arrugas porque se quemó"
+      }
+    ],
+    "synonyms": [
+      "sipón"
+    ],
+    "cross_references": [],
+    "grammatical_notes": "Úsase como vocativo de cariño a un pariente (p. ej, de abuelos a los nietos, o de tíos o tías a los sobrinos)",
+    "page_number": 89
+  },
+  {
+    "headword": "chorísh",
+    "part_of_speech": "adj.",
+    "variant_forms": [
+      "chórishin"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "duro"
+    ],
+    "examples": [
+      {
+        "shipibo": "Choríshora iquénbira en rimán Sháteque",
+        "spanish": "Aunque era muy duro, lo corté con lima"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "choríshati",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "choríshaa",
+      "choríshaca"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "endurecer"
+    ],
+    "examples": [
+      {
+        "shipibo": "Shóishonra mái choríshacana",
+        "spanish": "Si queman la tierra, se vuelve dura como el ladrillo"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "choríshti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chórisha"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "endurecerse"
+    ],
+    "examples": [
+      {
+        "shipibo": "Bási ól béyamaquetianra moa mái choríshque",
+        "spanish": "Se ha endurecido la tierra porque no ha llovido desde hace mucho tiempo"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "chórocooti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chórocoota"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "desenroscarse (culebra)",
+      "desenvolverse (p. ej., un paquete)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato róno chórocooquetianra báque íshtoque",
+        "spanish": "El muchacho corrió cuando se desenroscó esta culebra"
+      },
+      {
+        "shipibo": "Páquetira nato mishé chórocooque",
+        "spanish": "Este paquete se desenvolvió al caerse"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "chorónti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chórona"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "brincar",
+      "saltar"
+    ],
+    "examples": [
+      {
+        "shipibo": "Róno jámatasha ea chorónque",
+        "spanish": "Al pisar la culebra, di un salto"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "chóroti",
+    "part_of_speech": "v. t.",
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [
+      "desenredar",
+      "desatar (p. ej., canoa o mosquitero)",
+      "sacar puntadas de",
+      "abrir (p. ej., un paquete)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Papánra jahuen risbí chóroque",
+        "spanish": "Papá desenredó su soga"
+      },
+      {
+        "shipibo": "Nato baquén nónti chóroara báican bóque",
+        "spanish": "La canoa fue llevada por la corriente porque este niño la había desatado"
+      },
+      {
+        "shipibo": "Moara néte iqui; báchi chóroe",
+        "spanish": "Ya es de día; desata el mosquitero"
+      },
+      {
+        "shipibo": "Jabuen tapán choróiquetian oínihonra, pátoronin jahuen jónibo notsínque",
+        "spanish": "El patrón riñó a su personal al ver que su balsa se había desatado"
+      },
+      {
+        "shipibo": "Jacómaquin quésheshonra báchi chóroque",
+        "spanish": "Sacó las puntadas del mosquitero porque lo había cosido mal"
+      },
+      {
+        "shipibo": "Jahuenama iquénbira jonín nato paquíti chóroque",
+        "spanish": "Este hombre abrió el paquete aunque no era suyo"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "chóroti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chórota"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "desatarse",
+      "desenvolverse (p. ej. un paquete)",
+      "desenroscarse"
+    ],
+    "examples": [
+      {
+        "shipibo": "Yómetso joni néshacanabira choróque",
+        "spanish": "Aunque habían amarrado al ladrón, sé desató"
+      },
+      {
+        "shipibo": "Janbísha nato báchi choróque",
+        "spanish": "El mosquitero se desató por sí solo"
+      },
+      {
+        "shipibo": "Papán 3hóbo-néshaara choróque",
+        "spanish": "La casa que papá amarró en su construcción se ha desatado"
+      },
+      {
+        "shipibo": "Quírica misheabira risbí. páyo icash choróque",
+        "spanish": "Los papeles empaquetados se han desenvuelto porque la soga era vieja"
+      },
+      {
+        "shipibo": "Risbí chórota oínshonra jonín jahuen báque ríshquique: Ján acára íbirai —i¿hon",
+        "spanish": "El hombre vio que su soga estaba desenroscada y le pegó a su hijo, pensando que él lo había hecho"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "chósco",
+    "part_of_speech": "adj.",
+    "variant_forms": [
+      "choscón"
+    ],
+    "etymology": "[del quech. chusku]",
+    "definitions_spanish": [
+      "Cuatro"
+    ],
+    "examples": [
+      {
+        "shipibo": "Chósco joni yometsora coáratiabaon bóque",
+        "spanish": "Cuatro ladrones fueron llevados por los guardias"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 89
+  },
+  {
+    "headword": "chóscol",
+    "part_of_speech": "adv.",
+    "variant_forms": [
+      "chóscoaquin"
+    ],
+    "etymology": "[del ship. chósco cuatro + -i, -aquín, sf. subord. vbl.]",
+    "definitions_spanish": [
+      "Cuatro veces"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "chóshati",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chóshaa"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "quebrar (p. ej., hueso o caparazón) a golpes",
+      "matar (p. ej., un quelonio) abriendo la cáscara a machetazos por los cantos",
+      "golpear"
+    ],
+    "examples": [
+      {
+        "shipibo": "Atapa ¿hao chóshaquinra papán jahuen métotires chóshaque",
+        "spanish": "Papá se golpeó el dedo al querer quebrar un hueso de gallina"
+      },
+      {
+        "shipibo": "Jóshoshinonronqui manánshahue chóshanique, jíhuibochiqui boshón",
+        "spanish": "Cuentan que cierta vez el \"mono blanco\" quebró la caparazón del \"motelo\" llevándolo a lo alto de un árbol"
+      },
+      {
+        "shipibo": "Píshtatian pítira titán cabóri chóshaque",
+        "spanish": "Mamá mató la \"taricaya\" a machetazos para comerla en la fiesta"
+      }
+    ],
+    "synonyms": [
+      "isácati"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "chóshcaati",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chóshcaa"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "hacer levantarse (hojas del techo)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jépe pei Shoboaara barín chóshcaaque, péi benáiquetian",
+        "spanish": "Las nuevas hojas de \"yarina\", usadas en la construcción del techo de la casa, se levantaron por el sol"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "átapa"
+    ],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "choshcáti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chóshcata"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "hacer parar cerdas o plumas de uno mismo",
+      "proyectarse hacia arriba (hojas de un techado)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Atapa sinára jahuen ráni choshcáque",
+        "spanish": "La gallina rabiosa hizo parar su plumaje"
+      },
+      {
+        "shipibo": "Benáyora 5hóbo icasha péi choshcáque",
+        "spanish": "Las hojas se doblaron hacia arriba porque la casa estaba recién construida"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "chóshi",
+    "part_of_speech": "adj.",
+    "variant_forms": [
+      "choshín"
+    ],
+    "etymology": "[del ship. choshít, choshi- secarse]",
+    "definitions_spanish": [
+      "SECO"
+    ],
+    "examples": [],
+    "synonyms": [
+      "mecháma"
+    ],
+    "cross_references": [],
+    "grammatical_notes": "Úsase acerca de hojas o ramitas",
+    "page_number": 90
+  },
+  {
+    "headword": "chóshiti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chóshia"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "secarse",
+      "estar seco (hojas o ramitas)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Moa jépe pei chóshiquetianra baquén ménoque, yóitima ishon",
+        "spanish": "Cuando las hojas de \"yarina\" estaban secas, el niño malcriado las quemó"
+      },
+      {
+        "shipibo": "Moa jíhuibo chóshiaiquetianra papán huái ménoque",
+        "spanish": "Papá quemó su desena porque ya estaban secas las hojas y las ramitas"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "choshíti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "chóshita"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "quebrarse (p. ej., un hueso) de un golpe",
+      "golpearse contra algo"
+    ],
+    "examples": [
+      {
+        "shipibo": "Bóchiquiash páquetira choshícainque",
+        "spanish": "Al caerse desde lo alto, se quebraron sus huesos"
+      },
+      {
+        "shipibo": "Bóchiquiash chóronira ea macánqui choshícainque",
+        "spanish": "Al arrojarme desde lo alto, me golpeé contra una piedra"
+      },
+      {
+        "shipibo": "Piróta aquira nato jóni choshíque",
+        "spanish": "Este jugador se chocó fuertemente contra otro, jugando fútbol"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "chótati",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "chótaa"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "tener relaciones sexuales"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "chotáti",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chótata"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "experimentar relaciones sexuales"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "chotáyosma aínbo",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chotáyosma aínbon",
+      "aíubaon"
+    ],
+    "etymology": "[del ship. chotáyosma; y éste de chotá-, raíz de chótaii tener relaciones sexuales + -yosma nunca + aínbo mujer]",
+    "definitions_spanish": [
+      "virgen"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "chóyachaqui",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "chóyachaquin"
+    ],
+    "etymology": "[del quech. chullachaki; y éste de chulla desigual + chaki pie]",
+    "definitions_spanish": [
+      "chullachaqui",
+      "demonio identificado con el \"chullachaqui\""
+    ],
+    "examples": [
+      {
+        "shipibo": "Chóyachaquin táeronqui tóncoshoco iqui",
+        "spanish": "Dicen que el pie del demonio chullachaqui es patituerto"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "chóyo",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "choyón"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "especie de árbol parecido al \"cetico\"",
+      "las hormigas rojas que infestan el árbol chóyo; tb.: una de esas hormigas"
+    ],
+    "examples": [
+      {
+        "shipibo": "Noa choyón técaara bási isín tóshcotai",
+        "spanish": "Cuando una hormiga chóyo nos pica, nos duele por mucho tiempo"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 90
+  },
+  {
+    "headword": "desímetro",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "risímitoro"
+    ],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "diácono",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "riácono"
+    ],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "díbidinti",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "ríbirinti"
+    ],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "díbision",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "ríbision"
+    ],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "dibojanti",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "ríbojanti"
+    ],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "dibájo",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "ribójo"
+    ],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "diós",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Riós"
+    ],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "díosen mete",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Ríosen nete"
+    ],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "doctór",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "rócotoro"
+    ],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "dosena",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "rosína"
+    ],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "e",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [
+      "nombre de la letra e en alfabeto shipibo"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Únase como nombre de la letra e en alfabeto shipibo. Véase Bosquejo gramatical 2.1",
+    "page_number": 91
+  },
+  {
+    "headword": "ea",
+    "part_of_speech": "pron.",
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [
+      "yo",
+      "me",
+      "mí",
+      "a mí"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ea yóyoicaitianra mato netéti iqui",
+        "spanish": "Cuando yo hablo, ustedes deben callarse"
+      },
+      {
+        "shipibo": "Enra onánque jáscati jóyamaa",
+        "spanish": "Yo sé por qué no vino"
+      },
+      {
+        "shipibo": "Ea áyamaabira jáhuequescaamabi iqui",
+        "spanish": "No importa que no me lo haga"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Véase Bosquejo gramatical 7.2.1",
+    "page_number": 91
+  },
+  {
+    "headword": "e",
+    "part_of_speech": "sf.",
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [
+      "a sí mismo o mismos"
+    ],
+    "examples": [
+      {
+        "shipibo": "Eara menesheetai",
+        "spanish": "Yo me pongo el brazalete"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Véase Bosquejo gramatical 8.6",
+    "page_number": 91
+  },
+  {
+    "headword": "éeri",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "éri"
+    ],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "ehua",
+    "part_of_speech": "sf.",
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [
+      "madre u origen de una cosa gigantesca"
+    ],
+    "examples": [
+      {
+        "shipibo": "jenén ehua",
+        "spanish": "diluvio"
+      },
+      {
+        "shipibo": "ronón ehua boa",
+        "spanish": ""
+      },
+      {
+        "shipibo": "ihuín ehua",
+        "spanish": "pez raya"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Úsase con la fuerza de \"madre u origen de (una cosa gigantesca)\" en vocablos compuestos.",
+    "page_number": 91
+  },
+  {
+    "headword": "éjersisio",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "íjirisisio"
+    ],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "élefante",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "irijanti"
+    ],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "émo",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "emón"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "moho",
+      "manchas de suciedad"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "émoti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "émoa"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "enmohecerse",
+      "mancharse"
+    ],
+    "examples": [
+      {
+        "shipibo": "Oín mecháara titán chitónti moa émoque",
+        "spanish": "La pampanilla de mamá se enmoheció porque la lluvia la mojó"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "éniti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "énica"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "quejarse",
+      "gemir",
+      "chillar"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nocon epán báquera pórocan chésShai éniitai",
+        "spanish": "El hijo de mi tío paterno está quejándose porque tiene dolor de estómago"
+      }
+    ],
+    "synonyms": [
+      "Ísti"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "énjen",
+    "part_of_speech": "interj.",
+    "variant_forms": [
+      "jenjén",
+      "jénjen"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "sí"
+    ],
+    "examples": [
+      {
+        "shipibo": "—¿Minquiea méniai? —Jénjen. —Ichabires iráque",
+        "spanish": "—¿Me lo regalas? —Sí. —Muchas gracias"
+      }
+    ],
+    "synonyms": [
+      "ENJEN",
+      "IQUÍ"
+    ],
+    "cross_references": [],
+    "grammatical_notes": "Úsase como respuesta con el sentido, p. ej., de \"sí\" para expresar reacciones diversas como de admiración, afirmación, duda o conformidad. ENJEN, a diferencia de IQUI, no lleva sufijo y no tiene relación gramatical con el verbo anterior.",
+    "page_number": 91
+  },
+  {
+    "headword": "entéro",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "i"
+    ],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "épa",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "epán"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "tío paterno",
+      "padrastro"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jahuen épa betanra Máioshiain cáque",
+        "spanish": "Se fue a Pucalipa con su tío paterno"
+      },
+      {
+        "shipibo": "Jahuen epán jacómaara báque jabáque",
+        "spanish": "El niño huyó porque su padrastro lo maltrataba"
+      }
+    ],
+    "synonyms": [
+      "cóca",
+      "onánpapa"
+    ],
+    "cross_references": [],
+    "grammatical_notes": "Úsase la forma vocativa epá o papá para llamar a la persona indicada.",
+    "page_number": 91
+  },
+  {
+    "headword": "éri",
+    "part_of_speech": "interj.",
+    "variant_forms": [
+      "éeri"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "¡ay!"
+    ],
+    "examples": [
+      {
+        "shipibo": "¡Eeri! Moara min ea toenaanque",
+        "spanish": "¡Ay! Ya me hiciste quebrarlo"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "ápo"
+    ],
+    "grammatical_notes": "Úsase como exclamación (p. ej, de sorpresa, miedo o pena y con el sentido de \"¡ay!\").",
+    "page_number": 91
+  },
+  {
+    "headword": "escódo",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "iscóro"
+    ],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "escóela",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "íscoira"
+    ],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "esé",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "ésecan"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "consejo",
+      "ley"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato esébora en mia yóiai, jaá min senénhati",
+        "spanish": "Te doy estos consejos para que los cumplas"
+      },
+      {
+        "shipibo": "Rámara moa benáaquin apón esé áque jaan noa aquínti",
+        "spanish": "Ahora el gobierno ha dado una nueva ley para ayudarnos"
+      },
+      {
+        "shipibo": "Riósen esé",
+        "spanish": "la ley de Dios"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "ésecaati",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "ésecaata"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "hacer y guardar un consejo o plan propio"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jahuen ráhuican acá cópinosha ésecaaque",
+        "spanish": "Para"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 91
+  },
+  {
+    "headword": "éseti",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "ésea"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "aconsejar",
+      "dar buen consejo a"
+    ],
+    "examples": [
+      {
+        "shipibo": "Mín áyamanon ishonra en mia éseai",
+        "spanish": "Yo te aconsejo que no lo hagas"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 92
+  },
+  {
+    "headword": "éseti",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "éseta"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "ser aconsejado",
+      "ser advertido"
+    ],
+    "examples": [
+      {
+        "shipibo": "Moa eséquetian non focasara nato jóni-cacashamai",
+        "spanish": "Este hombre no quiso ir cuando lo quisimos llevar, porque ya le habían advertido"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 92
+  },
+  {
+    "headword": "éste",
+    "part_of_speech": "adj.",
+    "variant_forms": [
+      "estén"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "1: templado",
+      "2: hinchado",
+      "abotagado"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato risbí moa éste icáshbira teséyamai naíron icash",
+        "spanish": "A pesar de que esta soga está templada, no se rompe porque es de nylón"
+      },
+      {
+        "shipibo": "Yápa máhuatara éste iqui",
+        "spanish": "El pez muerto está abotagado"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Úsase acerca de una soga",
+    "page_number": 92
+  },
+  {
+    "headword": "ésteati",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "ésteaa"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "1: templar",
+      "2: estirar (p. ej. cuero de bombo o tambor)",
+      "3: inflar"
+    ],
+    "examples": [
+      {
+        "shipibo": "En risbí ésteaquenbira ea bhaquén tésanaanque",
+        "spanish": "El muchacho rompió la soga que templé"
+      },
+      {
+        "shipibo": "Yamé ránsanoshonra bómpo ésteacanai",
+        "spanish": "Están estirando el cuero del bombo para poder tocar en el baile de esta noche"
+      },
+      {
+        "shipibo": "Moa quiquínhaquin ésteaara piróta toáique",
+        "spanish": "La pelota se reventó porque la inflaron demasiado"
+      }
+    ],
+    "synonyms": [
+      "jotóati",
+      "toshmón ati"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 92
+  },
+  {
+    "headword": "ésteti",
+    "part_of_speech": "v.",
+    "variant_forms": [
+      "éstea"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "1: hincharse",
+      "2: inflarse con aire"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ichayora betén piásha ea ésteque",
+        "spanish": "Cuando comí en exceso mazamorra de pescado betén, se hinchó mi barriga"
+      },
+      {
+        "shipibo": "Ronón ehuan cópia nato báque éstea riqui",
+        "spanish": "A este niñito se le hinchó la barriga porque fue cutipado por la boa"
+      },
+      {
+        "shipibo": "Quirínco báqueainbo jenén réteara, moa ésteash toshbáquetian méracanque",
+        "spanish": "Una gringuita ahogada fue encontrada cuando su cuerpo se hinchó y se puso a flotar"
+      },
+      {
+        "shipibo": "Níhue Shéaash ésteasha tócoro toáique",
+        "spanish": "Un sapo se reventó cuando se infló al tragar aire"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 92
+  },
+  {
+    "headword": "éshi",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "eshín"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "carahuasco"
+    ],
+    "examples": [],
+    "synonyms": [
+      "tashbánishi"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 92
+  },
+  {
+    "headword": "éshpa",
+    "part_of_speech": "adj.",
+    "variant_forms": [
+      "eshpán"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "flojo"
+    ],
+    "examples": [
+      {
+        "shipibo": "Tapán néshaa níshira moa ésbpayora iqui",
+        "spanish": "La soga del monte con que está amarrada la balsa está muy floja"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Úsase, p. ej., acerca de una soga",
+    "page_number": 92
+  },
+  {
+    "headword": "éshpaati",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "éShpaa"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "aflojar",
+      "combar"
+    ],
+    "examples": [
+      {
+        "shipibo": "Papánra jahuen báque notsínque éshpaaquin risbí néshanaana",
+        "spanish": "El papá riñó a su hijo por haber amarrado la soga de manera que se aflojó"
+      },
+      {
+        "shipibo": "Báchi chíaquetianra huacán noa éshpaanque",
+        "spanish": "Cuando tuvimos tendido el mosquitero, la vaca lo dejó combado"
+      }
+    ],
+    "synonyms": [
+      "cápoti",
+      "yéshqueti",
+      "yóshoti"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 92
+  },
+  {
+    "headword": "ésShpati",
+    "part_of_speech": "v. i.",
+    "variant_forms": [
+      "éShpaa"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "aflojarse",
+      "combarse"
+    ],
+    "examples": [
+      {
+        "shipibo": "En báchi chíaara moa éshpaque",
+        "spanish": "El mosquitero que tendí se ha aflojado"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 92
+  },
+  {
+    "headword": "étse",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "etsén"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "mal olor (p. ej., de cuerpo desaseado, de trapo viejo y sucio, o de cadáver ya podrido)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jahuen ochíti étse póataitianra jahuen ibón náshimaque",
+        "spanish": "El dueño bañó a su perro porque despedía mal olor"
+      },
+      {
+        "shipibo": "Mahuá míincanara étse póataí, chichómashoco ácana",
+        "spanish": "El cadáver que enterraron despide mal olor porque lo enterraron muy encima"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 92
+  },
+  {
+    "headword": "grésiabaon joi",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "quirísiabaon joi"
+    ],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "grípe",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "quirípi"
+    ],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "grópo",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "córopo"
+    ],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "guitára",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "quitára"
+    ],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "hua",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [
+      "nombre de la letra hu en el alfabeto shipibo"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 2.1"
+    ],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "huáata",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huáatatita",
+      "huáatanin"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "tía materna",
+      "esposa no materna o cuñada del padre"
+    ],
+    "examples": [
+      {
+        "shipibo": "Johué, Meatitá",
+        "spanish": "Buenos días, tía Méa"
+      },
+      {
+        "shipibo": "Nocon huáatan benénra huestíora sapén réteque",
+        "spanish": "El esposo de mi tía mató una vaca marina"
+      }
+    ],
+    "synonyms": [
+      "NACHI",
+      "YAYA"
+    ],
+    "cross_references": [],
+    "grammatical_notes": "Úsase la forma vocativa fitá que sigue al nombre personal para llamar a la persona indicada. HUAATA denota la tía por parte de la madre, NACHI y YAYA significan la tía por parte del padre. NACHI es el término dirigido a la tía paterna por el sobrino; y YAYA, por la sobrina.",
+    "page_number": 93
+  },
+  {
+    "headword": "huáati",
+    "part_of_speech": "v. i.",
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [
+      "cocinarse"
+    ],
+    "examples": [
+      {
+        "shipibo": "Benquésh huáata bóe rábea iqui",
+        "spanish": "Para que se cocine por el otro lado, volteó el boquichico"
+      },
+      {
+        "shipibo": "Moa átapa huáaquenbira cochín piánque",
+        "spanish": "Ella había cocinado la gallina, pero el chancho se la comió"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "huáca",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huacán"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "pez"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jónironqui huáca áshani cáa iq",
+        "spanish": "Cuentan que un hombre se fue a echar barbascos a los peces"
+      }
+    ],
+    "synonyms": [
+      "JAHUEQUI",
+      "TSATSA",
+      "YAPA"
+    ],
+    "cross_references": [],
+    "grammatical_notes": "Úsase mayormente entre hablantes del shetebo. YAPA es la palabra en uso general mientras que HUACA y TSATSA son prácticamente sinónimos shetebo. JAHUEQUI es una palabra que puede denotar pez al igual que animal, ave o árbol entre los seres vivientes.",
+    "page_number": 93
+  },
+  {
+    "headword": "huáca",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huacán"
+    ],
+    "etymology": "[del quech. waka; y éste del cast]",
+    "definitions_spanish": [
+      "vaca"
+    ],
+    "examples": [
+      {
+        "shipibo": "Huacán cópia báqueronqui queyón bóai",
+        "spanish": "Dicen que el bebé cutipado por la vaca babea mucho"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "huácabaque",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huácabaquen"
+    ],
+    "etymology": "[del cast. vaca + ship. báque cría]",
+    "definitions_spanish": [
+      "ternero",
+      "becerro"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "huácabene",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huácabenen"
+    ],
+    "etymology": "[del ship. huáca vaca + béne macho]",
+    "definitions_spanish": [
+      "toro"
+    ],
+    "examples": [
+      {
+        "shipibo": "Non chiquéaabira huácabenen rásaque",
+        "spanish": "El toro deshizo el cerco que le pusimos"
+      }
+    ],
+    "synonyms": [
+      "tóto"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "huácanahua",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huácanahuan"
+    ],
+    "etymology": "[del ship. ant. huáca pez + náhua indio salvaje]",
+    "definitions_spanish": [
+      "mijanada"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ronónebua huácanahuaronqui chipónqui béai",
+        "spanish": "Dicen que una mijanada de boas está viniendo río abajo"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "huacán ehua",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huacán ehuan"
+    ],
+    "etymology": "[del ship. huáca, huacán pez + —ehua, aument.]",
+    "definitions_spanish": [
+      "saltón"
+    ],
+    "examples": [
+      {
+        "shipibo": "Huacán ehuan bágue cópiaronqui ésteai",
+        "spanish": "Dicen que cuando el saltón cutipa a un bebé, a éste se le hincha la barriguita"
+      }
+    ],
+    "synonyms": [
+      "naítsaca"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "huacápo",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huacáponin"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "huacapú"
+    ],
+    "examples": [
+      {
+        "shipibo": "Non huácapo Shóbo iníchintiaara cóshi iqui",
+        "spanish": "Si utilizamos madera del huacapú para construir los horcones de la casa, éstos serán fuertes"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "huácashoma",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huácashoman"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "leche de vaca"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "huáco",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huacón"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "especie de sapo arbóreo"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "cabórihuaco",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. cabóri taricaya + huáco especie de sapo]",
+    "definitions_spanish": [
+      "especie de sapo"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "huámehuaco",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. huáme paiche + huáco especie de sapo]",
+    "definitions_spanish": [
+      "especie de sapo"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "ínohuaco",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. íno tigre + huáco sapo]",
+    "definitions_spanish": [
+      "especie de sapo"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "manshánhuaco",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. manshár garza + huáco especie de sapo]",
+    "definitions_spanish": [
+      "especie de sapo de tamaño pequeño"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "sapénhuaco",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. sapér vaca marina + huáco especie de sapo]",
+    "definitions_spanish": [
+      "especie de sapo"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "huáco",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huacón"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "especie de murciélago"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 93
+  },
+  {
+    "headword": "isohuaco",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. íso \"maquisapa\" + huáco]",
+    "definitions_spanish": [
+      "especie de sapo",
+      "especie de murciélago que grita como el maquisapa y que según algunos informes segrega un líquido mientras está colgado en un árbol"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "huácho",
+    "part_of_speech": "adj.",
+    "variant_forms": [
+      "huachón"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "suave"
+    ],
+    "examples": [
+      {
+        "shipibo": "Baquísha nato paránta huáchoyora fibaque; ráma moa páyota iqui.",
+        "spanish": "Ayer estaba muy suave este plátano y hoy está podrido"
+      }
+    ],
+    "synonyms": [
+      "báca"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "huáchoati",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "huáchoaa",
+      "huáchoaca"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "hacer suave",
+      "suavizar"
+    ],
+    "examples": [
+      {
+        "shipibo": "Chorish iquénbira, cobínhashon poróto titán huáchoa-que.",
+        "spanish": "A pesar de que estaban duros los frijoles, mamá los suavizó cocinándolos."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "yóra huáchoati",
+    "part_of_speech": "v. t.",
+    "variant_forms": [],
+    "etymology": "[del ship. yóra cuerpo + huáchoati ensuavecer]",
+    "definitions_spanish": [
+      "hacer ejercicio"
+    ],
+    "examples": [],
+    "synonyms": [
+      "bácaati"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "huái",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huaín"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "chacra"
+    ],
+    "examples": [
+      {
+        "shipibo": "Huái napomeara cocán ahuá réteque.",
+        "spanish": "Mi tío materno mató una sachavaca en medio de la chacra."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "huálati",
+    "part_of_speech": "v. t.",
+    "variant_forms": [
+      "huálaa",
+      "huálaca"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "hacer chacra"
+    ],
+    "examples": [
+      {
+        "shipibo": "En huáiaquenbira jatíribibaon áyamaque.",
+        "spanish": "Aunque yo hice una chacra, los demás no hicieron las suyas"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "huáibuanti",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huáihuantin"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "especie de caña que sirve para hacer la flauta réhue"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "huaín téetal",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huaín téetaitonin"
+    ],
+    "etymology": "[del ship. hudi, huaín chacra + téetai, part. de téeti, trabajar]",
+    "definitions_spanish": [
+      "agricultor",
+      "chacarero"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "huáiraonti",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huáiraontinin"
+    ],
+    "etymology": "[del ship. hudi chacra + ráontí remedio]",
+    "definitions_spanish": [
+      "abono",
+      "guano"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "huáiroro",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huáiroron"
+    ],
+    "etymology": "[del quech. wayruru huaíruro]",
+    "definitions_spanish": [
+      "huairuro",
+      "guardía civil"
+    ],
+    "examples": [
+      {
+        "shipibo": "Moátianronqui huáiroroboqui joshín sáhuetiabo icáticanal.",
+        "spanish": "Dicen que antiguamente los guardias llevaban uniformes rojos"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "-Úsase poco actualmente.",
+    "page_number": 94
+  },
+  {
+    "headword": "huáiti",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huáitinin"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "especie de gusano que forma su nido con capullos hechos de telaraña y ramitas secas"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "cabóribuaiti",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. cabóri taricaya + huditi especie de gusano]",
+    "definitions_spanish": [
+      "especie de capullo que sirve para amansar a la taricaya"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "huámebuaiti",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. huóme paiche + huditi especie de gusano]",
+    "definitions_spanish": [
+      "especie de capullo que sirve para amansar el paiche"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "ísohuaiti",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. íso maquisapa + huditi especie de gusano]",
+    "definitions_spanish": [
+      "especie de capullo que sirve para atraer a los maquisapas"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "jasínhuaiti",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. jasín paujil + huditi especie de gusano]",
+    "definitions_spanish": [
+      "especie de capullo que sirve para amansar al paujil"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "sapénhuaiti",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. sapén vaca marina + huditi especie de gusano]",
+    "definitions_spanish": [
+      "especie de capullo que sirve para amansar a la vaca marina"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "sháhuebuaiti",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. sháhue charapa + huáiti especie de gusano]",
+    "definitions_spanish": [
+      "especie de capullo que sirve para amansar a la charapa"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "huáme",
+    "part_of_speech": "s.",
+    "variant_forms": [
+      "huamén"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "paiche"
+    ],
+    "examples": [
+      {
+        "shipibo": "Huáme réte-canonronqui poíncosco jemán níai.",
+        "spanish": "Dicen que la señal de que alguien va a matar a un paiche es cuando un gallinazo anda por el patio"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "huáme",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [
+      "fantasma paiche que aparece con llamas de fuego"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "jóshohuame",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. jósho blanco + hudme paiche]",
+    "definitions_spanish": [
+      "especie de paiche"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  },
+  {
+    "headword": "máshehuame",
+    "part_of_speech": "s.",
+    "variant_forms": [],
+    "etymology": "[del ship. máshe achiote + huáme paiche]",
+    "definitions_spanish": [
+      "especie de paiche del color del achiote"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 94
+  }
+]
