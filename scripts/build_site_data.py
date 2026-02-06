@@ -3,7 +3,6 @@
 
 import json
 import sys
-import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -43,16 +42,7 @@ def main():
     entries = json.loads(input_file.read_text())
     print(f"Loaded {len(entries)} entries")
 
-    # Filter out section B leakage (matching Rails import.rake logic)
-    def is_section_b_leak(entry):
-        hw = entry.get("headword", "")
-        hw = unicodedata.normalize("NFKD", hw)
-        hw = "".join(c for c in hw if not unicodedata.combining(c))
-        hw = hw.lower().lstrip("-")
-        return hw.startswith("b") and not any(x in hw for x in ("atsa", "atapa", "awa"))
-
-    entries = [e for e in entries if not is_section_b_leak(e)]
-    print(f"After filtering: {len(entries)} entries")
+    print(f"Processing {len(entries)} entries")
 
     result = []
     for i, entry in enumerate(entries):

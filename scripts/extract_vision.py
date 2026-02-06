@@ -16,6 +16,8 @@ import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+from queue import Queue
+from threading import Thread
 
 import pymupdf
 from PIL import Image
@@ -30,7 +32,7 @@ DATA_DIR = ROOT / "data"
 
 # Dictionary spans PDF pages 85–549 (1-indexed)
 DICT_START = 85
-DICT_END = 549
+DICT_END = 348
 
 # Section A: pages 85–98
 SECTION_A_START = 85
@@ -86,10 +88,12 @@ Entries may also have multiple "-Úsase" usage notes describing different gramma
 Return the JSON array:"""
 
 
-def extract_page_images(pdf_path, page_numbers, zoom=2.0):
-    """Extract page images as base64 PNGs. Returns dict of page_num -> base64 string."""
+def extract_page_images_streaming(pdf_path, page_numbers, queue, zoom=2.0):
+    """Extract page images as base64 PNGs, pushing each to a queue as it's ready.
+
+    Sends (page_num, base64_string) tuples. Sends None as sentinel when done.
+    """
     doc = pymupdf.open(str(pdf_path))
-    images = {}
     for page_num in page_numbers:
         page_idx = page_num - 1  # Convert 1-indexed to 0-indexed
         if page_idx < 0 or page_idx >= len(doc):
@@ -101,9 +105,9 @@ def extract_page_images(pdf_path, page_numbers, zoom=2.0):
         img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
         buf = io.BytesIO()
         img.save(buf, format="PNG")
-        images[page_num] = base64.standard_b64encode(buf.getvalue()).decode("utf-8")
+        queue.put((page_num, base64.standard_b64encode(buf.getvalue()).decode("utf-8")))
     doc.close()
-    return images
+    queue.put(None)  # sentinel
 
 
 def process_page(client, page_num, img_b64, max_retries=5):
@@ -210,8 +214,8 @@ def main():
                         help='Start page number (1-indexed PDF page)')
     parser.add_argument('--end', type=int, default=None,
                         help='End page number (1-indexed PDF page, inclusive)')
-    parser.add_argument('--workers', type=int, default=2,
-                        help='Number of concurrent API workers (default: 2)')
+    parser.add_argument('--workers', type=int, default=5,
+                        help='Number of concurrent API workers (default: 5)')
     parser.add_argument('--force', action='store_true',
                         help='Overwrite existing output file')
     parser.add_argument('--restart', action='store_true',
@@ -274,43 +278,62 @@ def main():
             progress_file.unlink()
         return
 
-    # Extract page images (sequential, fast)
-    print(f"\nExtracting {len(remaining_pages)} page images from PDF...")
-    t0 = time.time()
-    images = extract_page_images(PDF_PATH, remaining_pages)
-    print(f"  Done in {time.time() - t0:.1f}s")
-
-    if not images:
-        print("Error: No page images extracted")
-        sys.exit(1)
-
     # Process pages with Claude vision API (concurrent)
+    # Images are extracted in a background thread and streamed to API workers
     client = anthropic.Anthropic()
     all_entries = list(existing_entries)
     total_pages = len(page_numbers)
     done_count = len(completed_pages)
 
-    print(f"\nProcessing {len(images)} pages with Claude vision API...")
+    image_queue = Queue(maxsize=args.workers * 2)  # bound memory usage
+    producer = Thread(
+        target=extract_page_images_streaming,
+        args=(PDF_PATH, remaining_pages, image_queue),
+        daemon=True,
+    )
+
+    print(f"\nProcessing {len(remaining_pages)} pages with Claude vision API...")
     t0 = time.time()
+    producer.start()
 
     with ThreadPoolExecutor(max_workers=args.workers) as executor:
-        futures = {
-            executor.submit(process_page, client, page_num, img_b64): page_num
-            for page_num, img_b64 in images.items()
-        }
+        futures = {}
+        images_done = False
 
-        for future in as_completed(futures):
-            page_num, entries, elapsed = future.result()
-            all_entries.extend(entries)
-            completed_pages.add(page_num)
-            done_count += 1
+        while not images_done or futures:
+            # Submit new work from the image queue
+            while not images_done and len(futures) < args.workers:
+                item = image_queue.get()
+                if item is None:
+                    images_done = True
+                    break
+                page_num, img_b64 = item
+                future = executor.submit(process_page, client, page_num, img_b64)
+                futures[future] = page_num
 
-            # Save progress after each page
-            save_progress(progress_file, completed_pages, all_entries)
+            # Collect completed results
+            done_futures = [f for f in futures if f.done()]
+            if not done_futures and futures:
+                # Wait for at least one to finish
+                next(as_completed(futures))
+                done_futures = [f for f in futures if f.done()]
 
-            pages_left = total_pages - done_count
-            if pages_left > 0:
-                print(f"  Progress: {done_count}/{total_pages} pages ({pages_left} remaining)")
+            for future in done_futures:
+                del futures[future]
+                page_num, entries, elapsed = future.result()
+                all_entries.extend(entries)
+                completed_pages.add(page_num)
+                done_count += 1
+
+                # Save progress every 5 pages or on the last page
+                pages_left = total_pages - done_count
+                if done_count % 5 == 0 or pages_left == 0:
+                    save_progress(progress_file, completed_pages, all_entries)
+
+                if pages_left > 0:
+                    print(f"  Progress: {done_count}/{total_pages} pages ({pages_left} remaining)")
+
+    producer.join()
 
     total_time = time.time() - t0
     print(f"\nAPI processing complete in {total_time:.1f}s")
@@ -332,7 +355,7 @@ def main():
     print(f"\nDone! Saved {len(all_entries)} entries to {output_file}")
     print(f"  Pages processed: {len(completed_pages)}")
     print(f"  Total time: {total_time:.1f}s")
-    print(f"  Avg per page: {total_time / max(len(images), 1):.1f}s")
+    print(f"  Avg per page: {total_time / max(len(remaining_pages), 1):.1f}s")
 
     # Show sample entries
     print(f"\n=== Sample entries ===")
