@@ -9,23 +9,26 @@
     <meta name="theme-color" content="#e9dfc7">
     <meta name="description" content="A bilingual dictionary of the Shipibo language from the Peruvian Amazon">
 
-    <link rel="icon" href="icon.png" type="image/png">
-    <link rel="icon" href="icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="icon.png">
-    <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/icon.png" type="image/png">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/icon.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/style.css">
   </head>
 
   <body class="min-h-screen">
     <!-- Header -->
-    <header class="site-header">
-      <div class="max-w-3xl mx-auto px-6 py-5 flex items-center justify-between">
+    <header class="site-header" id="site-header">
+      <div class="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
         <a href="#/" class="flex items-baseline gap-2.5 no-underline">
           <span class="site-logo text-2xl text-ink">Shipibo</span>
           <span class="text-ink-muted text-sm font-light tracking-wide">dictionary</span>
         </a>
 
-        <nav class="flex items-center gap-6">
+        <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+        <nav id="site-nav">
           <a href="#/" class="site-nav-link">Browse</a>
           <a href="#/icaros" class="site-nav-link">Icaros</a>
           <a href="#/about" class="site-nav-link">About</a>
@@ -47,6 +50,6 @@
       </div>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="/app.js"></script>
   </body>
 </html>
