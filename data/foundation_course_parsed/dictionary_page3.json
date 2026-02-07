@@ -1,0 +1,240 @@
+{
+  "words": [
+    {
+      "shipibo": "ja",
+      "part_of_speech": "pronoun",
+      "meaning": "He/She/It/Him"
+    },
+    {
+      "shipibo": "jakon",
+      "part_of_speech": "adjective",
+      "meaning": "Good/Nice"
+    },
+    {
+      "shipibo": "jakonmabo",
+      "part_of_speech": "adjective",
+      "meaning": "Bad"
+    },
+    {
+      "shipibo": "jana",
+      "part_of_speech": "noun",
+      "meaning": "Tongue"
+    },
+    {
+      "shipibo": "jane",
+      "part_of_speech": "noun",
+      "meaning": "Name"
+    },
+    {
+      "shipibo": "jaskara",
+      "part_of_speech": "particle",
+      "meaning": "Due to/according to/Because of"
+    },
+    {
+      "shipibo": "jema",
+      "part_of_speech": "noun",
+      "meaning": "Town/Village/City/Country"
+    },
+    {
+      "shipibo": "jene",
+      "part_of_speech": "noun",
+      "meaning": "Water"
+    },
+    {
+      "shipibo": "jeesh",
+      "part_of_speech": "verb",
+      "meaning": "Used to draw something out. Used both for bad and good energy. Eg. when you are closing ceremony and want to draw out the marecion from people."
+    },
+    {
+      "shipibo": "je",
+      "part_of_speech": "noun",
+      "meaning": "Melody"
+    },
+    {
+      "shipibo": "jimi",
+      "part_of_speech": "noun",
+      "meaning": "Blood"
+    },
+    {
+      "shipibo": "jiki",
+      "part_of_speech": "transitive verb",
+      "meaning": "Enter (Eg. To enter into something)"
+    },
+    {
+      "shipibo": "jiwi",
+      "part_of_speech": "noun",
+      "meaning": "Tree"
+    },
+    {
+      "shipibo": "joe",
+      "part_of_speech": "noun",
+      "meaning": "Light"
+    },
+    {
+      "shipibo": "joi",
+      "part_of_speech": "noun",
+      "meaning": "Words/Voice/Breath"
+    },
+    {
+      "shipibo": "jointi",
+      "part_of_speech": "noun",
+      "meaning": "Heart"
+    },
+    {
+      "shipibo": "joni",
+      "part_of_speech": "noun",
+      "meaning": "People/The people of/the people who"
+    },
+    {
+      "shipibo": "josho",
+      "part_of_speech": "adjective",
+      "meaning": "White"
+    },
+    {
+      "shipibo": "jowe",
+      "part_of_speech": "verb",
+      "meaning": "Come (command tense)"
+    },
+    {
+      "shipibo": "joyo",
+      "part_of_speech": "noun",
+      "meaning": "The said spirits are standing in a line in front of the patient"
+    },
+    {
+      "shipibo": "jua",
+      "part_of_speech": "noun",
+      "meaning": "Flower"
+    },
+    {
+      "shipibo": "juiso",
+      "part_of_speech": "adjective",
+      "meaning": "Black"
+    },
+    {
+      "shipibo": "kambi",
+      "part_of_speech": "adjective",
+      "meaning": "Continuing"
+    },
+    {
+      "shipibo": "kan",
+      "part_of_speech": "particle",
+      "meaning": "Compliment word/filler for melodies"
+    },
+    {
+      "shipibo": "kana",
+      "part_of_speech": "noun",
+      "meaning": "Lightning"
+    },
+    {
+      "shipibo": "kanachiari",
+      "part_of_speech": "noun",
+      "meaning": "Toé"
+    },
+    {
+      "shipibo": "kanchis",
+      "part_of_speech": "noun",
+      "meaning": "Seven"
+    },
+    {
+      "shipibo": "kano",
+      "part_of_speech": "noun",
+      "meaning": "Pathway/Connection"
+    },
+    {
+      "shipibo": "kaintana",
+      "part_of_speech": "adjective",
+      "meaning": "Present. What you are singing about is present."
+    },
+    {
+      "shipibo": "kate",
+      "part_of_speech": "verb",
+      "meaning": "Protection/I protect/Protecting"
+    },
+    {
+      "shipibo": "kaya",
+      "part_of_speech": "noun",
+      "meaning": "Soul/Spirit"
+    },
+    {
+      "shipibo": "kayaka",
+      "part_of_speech": "verb",
+      "meaning": "I call the spirit of...."
+    },
+    {
+      "shipibo": "kena",
+      "part_of_speech": "verb",
+      "meaning": "I call the spirit of...."
+    },
+    {
+      "shipibo": "kepen",
+      "part_of_speech": "verb",
+      "meaning": "To open/Opening (visions and worlds)"
+    },
+    {
+      "shipibo": "keo",
+      "part_of_speech": "verb",
+      "meaning": "Singing/Like bird songs"
+    },
+    {
+      "shipibo": "kesha",
+      "part_of_speech": "noun",
+      "meaning": "Mouth"
+    },
+    {
+      "shipibo": "kewe",
+      "part_of_speech": "noun",
+      "meaning": "A design (Shipibo patterns)"
+    },
+    {
+      "shipibo": "keweni",
+      "part_of_speech": "verb",
+      "meaning": "Designed"
+    },
+    {
+      "shipibo": "keya",
+      "part_of_speech": "verb",
+      "meaning": "To elevate/Raise"
+    },
+    {
+      "shipibo": "keyo",
+      "part_of_speech": "verb",
+      "meaning": "To terminate/To end (also connotes removing something)"
+    },
+    {
+      "shipibo": "kibi",
+      "part_of_speech": "noun",
+      "meaning": "A bridge/To bridge"
+    },
+    {
+      "shipibo": "kibuka",
+      "part_of_speech": "noun",
+      "meaning": "Thing"
+    },
+    {
+      "shipibo": "kimisha",
+      "part_of_speech": "noun",
+      "meaning": "Three"
+    },
+    {
+      "shipibo": "kirika",
+      "part_of_speech": "noun",
+      "meaning": "A piece of paper"
+    },
+    {
+      "shipibo": "kori",
+      "part_of_speech": "noun",
+      "meaning": "Gold"
+    },
+    {
+      "shipibo": "koni",
+      "part_of_speech": "noun",
+      "meaning": "A type of fish with small eggs"
+    }
+  ],
+  "suffixes": [],
+  "prefixes": [],
+  "page_description": "Vocabulary dictionary page containing Shipibo-Konibo words with English translations, organized alphabetically from Ja to Koni. Includes nouns, verbs, adjectives, pronouns, and particles with their definitions.",
+  "pdf": "dictionary.pdf",
+  "page": 3,
+  "parsed_at": "2026-02-07 15:03:20"
+}

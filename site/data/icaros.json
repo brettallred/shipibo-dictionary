@@ -747,6 +747,7 @@
     "teacher": "Koshinete (Macarena/Wexa Metsa)",
     "description": "Healing / diagnosis",
     "also_in": [
+      "foundation_course",
       "foundation_course"
     ]
   },
@@ -3091,6 +3092,7 @@
       ]
     },
     "also_in": [
+      "foundation_course",
       "foundation_course"
     ]
   },
@@ -4232,6 +4234,7 @@
     "teacher": "Koshinete (Macarena/Wexa Metsa)",
     "description": "Calling spirits / opening worlds",
     "also_in": [
+      "foundation_course",
       "foundation_course"
     ]
   },
@@ -5119,6 +5122,7 @@
     "teacher": "Koshinete (Macarena/Wexa Metsa)",
     "description": "Calling spirits / opening worlds",
     "also_in": [
+      "foundation_course",
       "foundation_course"
     ]
   },
@@ -6247,6 +6251,7 @@
     "teacher": "Koshinete (Macarena/Wexa Metsa)",
     "description": "Healing / calling spirits",
     "also_in": [
+      "foundation_course",
       "foundation_course"
     ]
   },
@@ -7873,7 +7878,10 @@
     "alternative_translation": null,
     "source": "foundation_course",
     "teacher": "Ayahuasca Foundation (Don Enrique)",
-    "id": 8
+    "id": 8,
+    "also_in": [
+      "foundation_course"
+    ]
   },
   {
     "title": "Nocon Shawan",
@@ -7976,7 +7984,10 @@
     "alternative_translation": null,
     "source": "foundation_course",
     "teacher": "Ayahuasca Foundation (Don Enrique)",
-    "id": 9
+    "id": 9,
+    "also_in": [
+      "foundation_course"
+    ]
   },
   {
     "title": "Mia Oin Yonbanonkin",
@@ -8072,7 +8083,10 @@
     "alternative_translation": null,
     "source": "foundation_course",
     "teacher": "Ayahuasca Foundation (Don Enrique)",
-    "id": 10
+    "id": 10,
+    "also_in": [
+      "foundation_course"
+    ]
   },
   {
     "title": "Paro Keibakeash",
@@ -8267,7 +8281,10 @@
     },
     "source": "foundation_course",
     "teacher": "Ayahuasca Foundation (Don Enrique)",
-    "id": 11
+    "id": 11,
+    "also_in": [
+      "foundation_course"
+    ]
   },
   {
     "title": "Rama Pari Abano",
@@ -8452,7 +8469,10 @@
     "alternative_translation": null,
     "source": "foundation_course",
     "teacher": "Ayahuasca Foundation (Don Enrique)",
-    "id": 12
+    "id": 12,
+    "also_in": [
+      "foundation_course"
+    ]
   },
   {
     "title": "En Keyo Keyo Baan",
@@ -8648,7 +8668,10 @@
     "alternative_translation": null,
     "source": "foundation_course",
     "teacher": "Ayahuasca Foundation (Don Enrique)",
-    "id": 13
+    "id": 13,
+    "also_in": [
+      "foundation_course"
+    ]
   },
   {
     "title": "Nocon Sama",
@@ -8739,7 +8762,10 @@
     "alternative_translation": null,
     "source": "foundation_course",
     "teacher": "Ayahuasca Foundation (Don Enrique)",
-    "id": 14
+    "id": 14,
+    "also_in": [
+      "foundation_course"
+    ]
   },
   {
     "title": "Pisha Pisha",
@@ -8970,7 +8996,10 @@
     "alternative_translation": null,
     "source": "foundation_course",
     "teacher": "Ayahuasca Foundation (Don Enrique)",
-    "id": 15
+    "id": 15,
+    "also_in": [
+      "foundation_course"
+    ]
   },
   {
     "title": "Meni Meni",
@@ -9074,7 +9103,10 @@
     "alternative_translation": null,
     "source": "foundation_course",
     "teacher": "Ayahuasca Foundation (Don Enrique)",
-    "id": 16
+    "id": 16,
+    "also_in": [
+      "foundation_course"
+    ]
   },
   {
     "title": "Pana Yonparibano",
@@ -9195,7 +9227,10 @@
     "alternative_translation": null,
     "source": "foundation_course",
     "teacher": "Ayahuasca Foundation (Don Enrique)",
-    "id": 17
+    "id": 17,
+    "also_in": [
+      "foundation_course"
+    ]
   },
   {
     "title": "Noyarao Joe Kan",
@@ -9357,7 +9392,10 @@
     "alternative_translation": null,
     "source": "foundation_course",
     "teacher": "Ayahuasca Foundation (Don Enrique)",
-    "id": 18
+    "id": 18,
+    "also_in": [
+      "foundation_course"
+    ]
   },
   {
     "title": "Kate Yonparibanon",
@@ -9583,7 +9621,10 @@
     "alternative_translation": null,
     "source": "foundation_course",
     "teacher": "Ayahuasca Foundation (Don Enrique)",
-    "id": 19
+    "id": 19,
+    "also_in": [
+      "foundation_course"
+    ]
   },
   {
     "title": "Nocon Yora Meabo",
@@ -9715,7 +9756,10 @@
     "alternative_translation": null,
     "source": "foundation_course",
     "teacher": "Ayahuasca Foundation (Don Enrique)",
-    "id": 20
+    "id": 20,
+    "also_in": [
+      "foundation_course"
+    ]
   },
   {
     "title": "Nocon Ocha Kanota",
@@ -9876,7 +9920,10 @@
     "alternative_translation": null,
     "source": "foundation_course",
     "teacher": "Ayahuasca Foundation (Don Enrique)",
-    "id": 21
+    "id": 21,
+    "also_in": [
+      "foundation_course"
+    ]
   },
   {
     "title": "Rios Joni Kanoni",
@@ -10236,6 +10283,9 @@
     "alternative_translation": null,
     "source": "foundation_course",
     "teacher": "Ayahuasca Foundation (Don Enrique)",
-    "id": 22
+    "id": 22,
+    "also_in": [
+      "foundation_course"
+    ]
   }
 ]

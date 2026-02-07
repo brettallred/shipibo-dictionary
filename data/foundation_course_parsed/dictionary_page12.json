@@ -1,0 +1,165 @@
+{
+  "words": [
+    {
+      "shipibo": "neska neska shamankin",
+      "part_of_speech": null,
+      "meaning": "Deepening and focusing what actions are already sung about"
+    },
+    {
+      "shipibo": "kano kano shamani",
+      "part_of_speech": null,
+      "meaning": "Deepening the connection being made/that is present"
+    },
+    {
+      "shipibo": "pana pana shamani",
+      "part_of_speech": null,
+      "meaning": "Deepening and enhancing protection"
+    },
+    {
+      "shipibo": "neska neska shamani/kin",
+      "part_of_speech": null,
+      "meaning": "With great movement/With great energy '...' is being done"
+    },
+    {
+      "shipibo": "kepen yonparibano",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "min shinan kayaka",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "shinan kepen yonbano",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "kepen ira bewai",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "shinan nele kayaka",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "shinan ponte yonbano",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "ponte yontanara",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "min nete yabikan",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "kepen aketanbano",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "kepen ira bewai",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "kepen kepen shamankin",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "min shinan yabikan",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "kano yonparibano",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "jakon nete kepenban",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "min niwe kanoban",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "min shinan kanoban",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "min pae kanoban",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "min pae kayaka",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "keya yonparibano",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "min pae shamanbi",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "mia beba yonbano",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "beba aketanbano",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "yasa yonparibano",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "mia yasa hainkin",
+      "part_of_speech": null,
+      "meaning": null
+    },
+    {
+      "shipibo": "yasa yasa shamakin",
+      "part_of_speech": null,
+      "meaning": null
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-kin",
+      "meaning": "enhances and deepens whatever action is present",
+      "usage": "general enhancement and deepening suffix",
+      "examples": [
+        "shamankin",
+        "hainkin"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "page_description": "This page discusses the deepening and strengthening form of icaros, explaining how 'neska neska shamankin/kin' and similar constructions are used to enhance whatever action is already happening. It includes multiple example icaro lyrics and explains that these forms are typically sung to visions and present-moment situations, and provides table structures for different scenarios.",
+  "pdf": "dictionary.pdf",
+  "page": 12,
+  "parsed_at": "2026-02-07 15:05:02"
+}

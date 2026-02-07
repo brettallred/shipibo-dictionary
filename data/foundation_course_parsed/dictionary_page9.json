@@ -1,0 +1,148 @@
+{
+  "words": [
+    {
+      "shipibo": "yorabo",
+      "part_of_speech": "noun",
+      "meaning": "bodies"
+    },
+    {
+      "shipibo": "netebo",
+      "part_of_speech": "noun",
+      "meaning": "visions"
+    },
+    {
+      "shipibo": "Riosbi",
+      "part_of_speech": "noun",
+      "meaning": "God"
+    },
+    {
+      "shipibo": "kanoi",
+      "part_of_speech": "verb",
+      "meaning": "connected"
+    },
+    {
+      "shipibo": "chokai",
+      "part_of_speech": "verb",
+      "meaning": "washed"
+    },
+    {
+      "shipibo": "Yoka yoka shamanshon",
+      "part_of_speech": null,
+      "meaning": "Give me your knowledge, your wisdom"
+    },
+    {
+      "shipibo": "Kanoke",
+      "part_of_speech": "noun",
+      "meaning": "A connection has recently or just been made"
+    },
+    {
+      "shipibo": "Jakonma",
+      "part_of_speech": "adjective",
+      "meaning": "Not good"
+    },
+    {
+      "shipibo": "Jakon",
+      "part_of_speech": "adjective",
+      "meaning": "Good"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-bo",
+      "meaning": "plural",
+      "usage": "Words ending in -bo denote plural",
+      "examples": [
+        "yorabo",
+        "netebo"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "singular with invitational quality",
+      "usage": "Words ending in -bi indicates singular, yet it has an invitational quality",
+      "examples": [
+        "Riosbi"
+      ]
+    },
+    {
+      "form": "-i",
+      "meaning": "past tense",
+      "usage": "Certain familiar words augmented with the suffix -i indicates the past tense",
+      "examples": [
+        "kanoi",
+        "chokai"
+      ]
+    },
+    {
+      "form": "-shon",
+      "meaning": "commands",
+      "usage": "Words or phrases ending in -shon become commands",
+      "examples": [
+        "shamanshon"
+      ]
+    },
+    {
+      "form": "-mea",
+      "meaning": "from, coming from",
+      "usage": "Words with -mea give the sense of from, coming from",
+      "examples": []
+    },
+    {
+      "form": "-kin",
+      "meaning": "with the help of",
+      "usage": "Means with the help of",
+      "examples": []
+    },
+    {
+      "form": "-ban",
+      "meaning": "here and beyond all time",
+      "usage": "Means here and beyond all time",
+      "examples": []
+    },
+    {
+      "form": "-ke",
+      "meaning": "something that has just happened",
+      "usage": "Something that has just happened",
+      "examples": [
+        "Kanoke"
+      ]
+    },
+    {
+      "form": "-ni",
+      "meaning": "something that has happened a long time ago / already established",
+      "usage": "Something that has happened a long time ago / Already established",
+      "examples": []
+    },
+    {
+      "form": "-ta",
+      "meaning": "something that is already in place/stuck",
+      "usage": "Something that is already in place/stuck",
+      "examples": []
+    },
+    {
+      "form": "-ya",
+      "meaning": "with (nouns)",
+      "usage": "With (nouns)",
+      "examples": []
+    },
+    {
+      "form": "-ma",
+      "meaning": "negation (nouns)",
+      "usage": "Negation (Nouns)",
+      "examples": [
+        "Jakonma"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphasizing what will be done / bringing it to attention",
+      "usage": "Emphasizing what will be done / Bringing it to attention",
+      "examples": []
+    }
+  ],
+  "prefixes": [],
+  "page_description": "Grammatical rules reference page detailing Shipibo-Konibo suffixes and their meanings, with example words provided for several suffixes.",
+  "pdf": "dictionary.pdf",
+  "page": 9,
+  "parsed_at": "2026-02-07 15:04:33"
+}

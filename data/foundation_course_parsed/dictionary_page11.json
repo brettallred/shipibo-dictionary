@@ -1,0 +1,152 @@
+{
+  "words": [
+    {
+      "shipibo": "pari-bano",
+      "part_of_speech": "verb",
+      "meaning": "Going to do..."
+    },
+    {
+      "shipibo": "bano",
+      "part_of_speech": "verb",
+      "meaning": "Am doing now"
+    },
+    {
+      "shipibo": "tanara",
+      "part_of_speech": "verb",
+      "meaning": "In process of doing..."
+    },
+    {
+      "shipibo": "taana",
+      "part_of_speech": "verb",
+      "meaning": "Have been done..."
+    },
+    {
+      "shipibo": "tanbano",
+      "part_of_speech": "verb",
+      "meaning": "Doing..."
+    },
+    {
+      "shipibo": "tanara",
+      "part_of_speech": "verb",
+      "meaning": "Have done..."
+    },
+    {
+      "shipibo": "taana",
+      "part_of_speech": "verb",
+      "meaning": "Is happening..."
+    },
+    {
+      "shipibo": "kin",
+      "part_of_speech": "particle",
+      "meaning": "Done with help of..."
+    },
+    {
+      "shipibo": "shon",
+      "part_of_speech": "particle",
+      "meaning": "For the benefit of..."
+    },
+    {
+      "shipibo": "kayaka",
+      "part_of_speech": "noun",
+      "meaning": "Way of focusing attention and energy, letting the plants know what or who you are working on"
+    },
+    {
+      "shipibo": "kano",
+      "part_of_speech": "verb",
+      "meaning": "to connect"
+    },
+    {
+      "shipibo": "ira",
+      "part_of_speech": "particle",
+      "meaning": "Link between verb and action word, with singing I am..."
+    },
+    {
+      "shipibo": "bewai",
+      "part_of_speech": "verb",
+      "meaning": "singing"
+    },
+    {
+      "shipibo": "sowa",
+      "part_of_speech": "verb",
+      "meaning": "Cleaning"
+    },
+    {
+      "shipibo": "kepen",
+      "part_of_speech": "verb",
+      "meaning": "Opening"
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "pronoun",
+      "meaning": "I/we (subject pronoun)"
+    },
+    {
+      "shipibo": "sama",
+      "part_of_speech": "pronoun",
+      "meaning": "you (subject pronoun)"
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": "pronoun",
+      "meaning": "he/she/it (subject pronoun)"
+    },
+    {
+      "shipibo": "shinan",
+      "part_of_speech": "pronoun",
+      "meaning": "we (subject pronoun)"
+    },
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "you (object pronoun)"
+    },
+    {
+      "shipibo": "noa",
+      "part_of_speech": "pronoun",
+      "meaning": "him/her/it (object pronoun)"
+    },
+    {
+      "shipibo": "mato",
+      "part_of_speech": "pronoun",
+      "meaning": "them (object pronoun)"
+    },
+    {
+      "shipibo": "jain",
+      "part_of_speech": "pronoun",
+      "meaning": "us (object pronoun)"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-yon",
+      "meaning": "Going to do...",
+      "usage": "future tense action word",
+      "examples": [
+        "yonparibano",
+        "yonbano"
+      ]
+    },
+    {
+      "form": "-ake",
+      "meaning": "Doing...",
+      "usage": "present progressive action word",
+      "examples": [
+        "aketanbano"
+      ]
+    },
+    {
+      "form": "-bain",
+      "meaning": "Done with help of...",
+      "usage": "passive/benefactive action word",
+      "examples": [
+        "bainkin",
+        "baintaana"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "page_description": "Grammar guide explaining Shipibo-Konibo action words (verb modifiers) used in icaro singing, with conjugation tables showing different tenses and aspects, plus examples of sentence structures and common phrases like 'kayaka', 'ira bewai', and variations for focusing attention in ceremony.",
+  "pdf": "dictionary.pdf",
+  "page": 11,
+  "parsed_at": "2026-02-07 15:04:53"
+}

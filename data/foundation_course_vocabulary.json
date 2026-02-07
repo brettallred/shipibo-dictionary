@@ -1,0 +1,6743 @@
+{
+  "source": "foundation_course",
+  "teacher": "Ayahuasca Foundation (Don Enrique)",
+  "extracted_at": "2026-02-07",
+  "stats": {
+    "total_words_raw": 805,
+    "total_suffixes_raw": 29,
+    "total_prefixes_raw": 0
+  },
+  "words": [
+    {
+      "shipibo": "abanon",
+      "part_of_speech": "verb",
+      "meaning": "Open to do / to treat a patient or prepare them",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "acai",
+      "part_of_speech": null,
+      "meaning": "Here",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "acero",
+      "part_of_speech": "noun",
+      "meaning": "Steel",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "ake",
+      "part_of_speech": "particle",
+      "meaning": "I am going to do (placed after the verb)",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "akin",
+      "part_of_speech": "verb",
+      "meaning": "Something is being done / Going to be done",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "angeribo",
+      "part_of_speech": "noun",
+      "meaning": "Angels",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "ani",
+      "part_of_speech": "adjective",
+      "meaning": "Large / grand / great",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "ayon",
+      "part_of_speech": "adverb",
+      "meaning": "In the past (Already happened)",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "ashon",
+      "part_of_speech": "verb",
+      "meaning": "Healing / to heal",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "ama",
+      "part_of_speech": "verb",
+      "meaning": "Give information",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "asheti",
+      "part_of_speech": "verb",
+      "meaning": "To teach",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bain",
+      "part_of_speech": null,
+      "meaning": "What is done at the moment / the track (flow of energy)",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "babaki",
+      "part_of_speech": "noun",
+      "meaning": "Ears",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bakecranon",
+      "part_of_speech": "noun",
+      "meaning": "Young doctor",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bari",
+      "part_of_speech": "noun",
+      "meaning": "Sun",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "beba",
+      "part_of_speech": "verb",
+      "meaning": "To move / to pass through / travel",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bechoti",
+      "part_of_speech": "verb",
+      "meaning": "To wash",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bekanke",
+      "part_of_speech": "verb",
+      "meaning": "Have arrived",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "beshon",
+      "part_of_speech": "verb",
+      "meaning": "To bring & receive (Spirits)",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bene",
+      "part_of_speech": "adjective",
+      "meaning": "New",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bensho",
+      "part_of_speech": "verb",
+      "meaning": "To compose / to fix / to heal / to repair",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bero",
+      "part_of_speech": "noun",
+      "meaning": "Eyes",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "berocashni",
+      "part_of_speech": "noun",
+      "meaning": "Eyebrows",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "betan",
+      "part_of_speech": null,
+      "meaning": "here with us",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bewa",
+      "part_of_speech": "verb",
+      "meaning": "Song / Icaro / To sing",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "biblia",
+      "part_of_speech": "noun",
+      "meaning": "Bible",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bikaya",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "biyon",
+      "part_of_speech": "verb",
+      "meaning": "To collect / collecting",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bira",
+      "part_of_speech": "verb",
+      "meaning": "Singing to",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bires",
+      "part_of_speech": "adjective",
+      "meaning": "Purely / All",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "biri",
+      "part_of_speech": "adjective",
+      "meaning": "Glowing / Shining / Glittering",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bishi",
+      "part_of_speech": "noun",
+      "meaning": "Skin",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bobano",
+      "part_of_speech": "verb",
+      "meaning": "Taking away from (usually paired with keyo, sowa, pisha etc)",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bokinra",
+      "part_of_speech": "verb",
+      "meaning": "Taking away from (usually paired with keyo, sowa, pisha etc)",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bochikirixo",
+      "part_of_speech": "noun",
+      "meaning": "The top of the plant",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "boman",
+      "part_of_speech": "noun",
+      "meaning": "Magic / spell / Sorcery",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "bonshun",
+      "part_of_speech": "noun",
+      "meaning": "Lungs",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "boribi",
+      "part_of_speech": "adverb",
+      "meaning": "As well",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "cahua",
+      "part_of_speech": "noun",
+      "meaning": "Catahua",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "caibobo",
+      "part_of_speech": null,
+      "meaning": "A complimentary word (e.g. + Shawan = m + fem plural)",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "campana",
+      "part_of_speech": "noun",
+      "meaning": "Bell",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "cañamo",
+      "part_of_speech": "noun",
+      "meaning": "Cannabis / Hemp",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "chanka",
+      "part_of_speech": "verb",
+      "meaning": "To turn on / activate",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "chani",
+      "part_of_speech": "verb",
+      "meaning": "To invite (eg. Spirits, doctors)",
+      "sources": [
+        "dictionary:p1"
+      ]
+    },
+    {
+      "shipibo": "chesha",
+      "part_of_speech": "noun",
+      "meaning": "pain",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "chi",
+      "part_of_speech": "noun",
+      "meaning": "fire / flame",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "chiti",
+      "part_of_speech": "noun",
+      "meaning": "joyful dancing",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "chipon kirixom",
+      "part_of_speech": null,
+      "meaning": "all the spirits below of the...",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "chonka",
+      "part_of_speech": "noun",
+      "meaning": "ten",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "chono",
+      "part_of_speech": "noun",
+      "meaning": "woman (women) - used the same way as Noma",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "chope",
+      "part_of_speech": "verb",
+      "meaning": "to open (bodies & minds to healing - not to visions & worlds)",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "chorro",
+      "part_of_speech": "verb",
+      "meaning": "to untie / to release",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "choka",
+      "part_of_speech": "verb",
+      "meaning": "to wash / washing (spiritually cleansing)",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "chosko",
+      "part_of_speech": "noun",
+      "meaning": "four",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "churo",
+      "part_of_speech": "verb",
+      "meaning": "to throw away",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "coshi",
+      "part_of_speech": "noun",
+      "meaning": "power / strength / strengthen",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "coniaca",
+      "part_of_speech": "noun",
+      "meaning": "what is blocked",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "coros",
+      "part_of_speech": "noun",
+      "meaning": "cross (sp)",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "corona",
+      "part_of_speech": "noun",
+      "meaning": "crown (sp)",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "crystalinabi",
+      "part_of_speech": "noun",
+      "meaning": "crystalline (sp)",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "cui",
+      "part_of_speech": "noun",
+      "meaning": "chin",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "cuin",
+      "part_of_speech": "noun",
+      "meaning": "smoke",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "cunina",
+      "part_of_speech": null,
+      "meaning": "when a diet is pointing down and not straight up",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "curaca",
+      "part_of_speech": "noun",
+      "meaning": "chief of the community",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "I",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "en",
+      "part_of_speech": "pronoun",
+      "meaning": "I",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "eara",
+      "part_of_speech": "verb",
+      "meaning": "to me",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "ese",
+      "part_of_speech": "noun",
+      "meaning": "advice",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "eki",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "entregar",
+      "part_of_speech": "verb",
+      "meaning": "to enter",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "ewa",
+      "part_of_speech": "noun",
+      "meaning": "giant",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "espada",
+      "part_of_speech": "noun",
+      "meaning": "sword (sp)",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "ibo",
+      "part_of_speech": "noun",
+      "meaning": "lord / master",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "icha",
+      "part_of_speech": "noun",
+      "meaning": "a lot / many",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "iki",
+      "part_of_speech": "verb",
+      "meaning": "joy / to sing (insect in secular language!)",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "ima",
+      "part_of_speech": "verb",
+      "meaning": "to show a vision / lead down a path / to guide in the visions",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "iman",
+      "part_of_speech": "noun",
+      "meaning": "magnet",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "impanima",
+      "part_of_speech": "noun",
+      "meaning": "utility belt",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "inkainko",
+      "part_of_speech": "noun",
+      "meaning": "Marusa (from the Incas)",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "inkankena",
+      "part_of_speech": "noun",
+      "meaning": "a powerful female doctor of Marusa",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "inin",
+      "part_of_speech": "noun",
+      "meaning": "perfume",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "inike",
+      "part_of_speech": "adverb",
+      "meaning": "a long time ago / of a long time ago",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "ino",
+      "part_of_speech": "noun",
+      "meaning": "tiger / jaguar",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "inteligencia",
+      "part_of_speech": "noun",
+      "meaning": "intelligence (sp)",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "ira bewai",
+      "part_of_speech": null,
+      "meaning": "with the words of my song I.... (action word precedes ira)",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "isa",
+      "part_of_speech": "noun",
+      "meaning": "small birds",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "iskon",
+      "part_of_speech": "noun",
+      "meaning": "nine",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "itin",
+      "part_of_speech": "noun",
+      "meaning": "tools",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "isin",
+      "part_of_speech": "noun",
+      "meaning": "disease / illness of the body",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "i shamani",
+      "part_of_speech": null,
+      "meaning": "the movements we make whilst singing",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "iki i shamani",
+      "part_of_speech": null,
+      "meaning": "we sing with a good mareacion / connection",
+      "sources": [
+        "dictionary:p2"
+      ]
+    },
+    {
+      "shipibo": "ja",
+      "part_of_speech": "pronoun",
+      "meaning": "He/She/It/Him",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "jakon",
+      "part_of_speech": "adjective",
+      "meaning": "Good/Nice",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "jakonmabo",
+      "part_of_speech": "adjective",
+      "meaning": "Bad",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "jana",
+      "part_of_speech": "noun",
+      "meaning": "Tongue",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "jane",
+      "part_of_speech": "noun",
+      "meaning": "Name",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "jaskara",
+      "part_of_speech": "particle",
+      "meaning": "Due to/according to/Because of",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "jema",
+      "part_of_speech": "noun",
+      "meaning": "Town/Village/City/Country",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "jene",
+      "part_of_speech": "noun",
+      "meaning": "Water",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "jeesh",
+      "part_of_speech": "verb",
+      "meaning": "Used to draw something out. Used both for bad and good energy. Eg. when you are closing ceremony and want to draw out the marecion from people.",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "je",
+      "part_of_speech": "noun",
+      "meaning": "Melody",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "jimi",
+      "part_of_speech": "noun",
+      "meaning": "Blood",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "jiki",
+      "part_of_speech": "transitive verb",
+      "meaning": "Enter (Eg. To enter into something)",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "jiwi",
+      "part_of_speech": "noun",
+      "meaning": "Tree",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "joe",
+      "part_of_speech": "noun",
+      "meaning": "Light",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "joi",
+      "part_of_speech": "noun",
+      "meaning": "Words/Voice/Breath",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "jointi",
+      "part_of_speech": "noun",
+      "meaning": "Heart",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "joni",
+      "part_of_speech": "noun",
+      "meaning": "People/The people of/the people who",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "josho",
+      "part_of_speech": "adjective",
+      "meaning": "White",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "jowe",
+      "part_of_speech": "verb",
+      "meaning": "Come (command tense)",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "joyo",
+      "part_of_speech": "noun",
+      "meaning": "The said spirits are standing in a line in front of the patient",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "jua",
+      "part_of_speech": "noun",
+      "meaning": "Flower",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "juiso",
+      "part_of_speech": "adjective",
+      "meaning": "Black",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kambi",
+      "part_of_speech": "adjective",
+      "meaning": "Continuing",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kan",
+      "part_of_speech": "particle",
+      "meaning": "Compliment word/filler for melodies",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kana",
+      "part_of_speech": "noun",
+      "meaning": "Lightning",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kanachiari",
+      "part_of_speech": "noun",
+      "meaning": "Toé",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kanchis",
+      "part_of_speech": "noun",
+      "meaning": "Seven",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kano",
+      "part_of_speech": "noun",
+      "meaning": "Pathway/Connection",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kaintana",
+      "part_of_speech": "adjective",
+      "meaning": "Present. What you are singing about is present.",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kate",
+      "part_of_speech": "verb",
+      "meaning": "Protection/I protect/Protecting",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kaya",
+      "part_of_speech": "noun",
+      "meaning": "Soul/Spirit",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kayaka",
+      "part_of_speech": "verb",
+      "meaning": "I call the spirit of....",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kena",
+      "part_of_speech": "verb",
+      "meaning": "I call the spirit of....",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kepen",
+      "part_of_speech": "verb",
+      "meaning": "To open/Opening (visions and worlds)",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "keo",
+      "part_of_speech": "verb",
+      "meaning": "Singing/Like bird songs",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kesha",
+      "part_of_speech": "noun",
+      "meaning": "Mouth",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kewe",
+      "part_of_speech": "noun",
+      "meaning": "A design (Shipibo patterns)",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "keweni",
+      "part_of_speech": "verb",
+      "meaning": "Designed",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "keya",
+      "part_of_speech": "verb",
+      "meaning": "To elevate/Raise",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "keyo",
+      "part_of_speech": "verb",
+      "meaning": "To terminate/To end (also connotes removing something)",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kibi",
+      "part_of_speech": "noun",
+      "meaning": "A bridge/To bridge",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kibuka",
+      "part_of_speech": "noun",
+      "meaning": "Thing",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kimisha",
+      "part_of_speech": "noun",
+      "meaning": "Three",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kirika",
+      "part_of_speech": "noun",
+      "meaning": "A piece of paper",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "kori",
+      "part_of_speech": "noun",
+      "meaning": "Gold",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "koni",
+      "part_of_speech": "noun",
+      "meaning": "A type of fish with small eggs",
+      "sources": [
+        "dictionary:p3"
+      ]
+    },
+    {
+      "shipibo": "mabikan",
+      "part_of_speech": null,
+      "meaning": "To do",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mabo",
+      "part_of_speech": null,
+      "meaning": "To do",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mabano",
+      "part_of_speech": null,
+      "meaning": "Surrounded by",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mai",
+      "part_of_speech": "noun",
+      "meaning": "The Earth",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "maiti",
+      "part_of_speech": "noun",
+      "meaning": "Crown",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "make",
+      "part_of_speech": null,
+      "meaning": "The vibration of the voice",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mairi",
+      "part_of_speech": "noun",
+      "meaning": "Power",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mana",
+      "part_of_speech": "noun",
+      "meaning": "Hills",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mana",
+      "part_of_speech": null,
+      "meaning": "Connecting/Waiting (for the connection to form)",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mapwa",
+      "part_of_speech": null,
+      "meaning": "Enclosed",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "masha",
+      "part_of_speech": "noun",
+      "meaning": "Song for celebration",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "manshonbina",
+      "part_of_speech": null,
+      "meaning": "Crown centre",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "maquina",
+      "part_of_speech": "noun",
+      "meaning": "Machine sp",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mato",
+      "part_of_speech": "pronoun",
+      "meaning": "You (plural)",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "maton",
+      "part_of_speech": "pronoun",
+      "meaning": "Your (plural)",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "matsi",
+      "part_of_speech": "adjective",
+      "meaning": "Cold",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "maya",
+      "part_of_speech": null,
+      "meaning": "Circular movement/swirling (mayonban and other derivatives share this meaning)",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mayanihue",
+      "part_of_speech": null,
+      "meaning": "Bad airs",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mayon",
+      "part_of_speech": null,
+      "meaning": "To do",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mearabi",
+      "part_of_speech": null,
+      "meaning": "I have seen",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "medicina",
+      "part_of_speech": "noun",
+      "meaning": "Medicine sp",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "medico",
+      "part_of_speech": "noun",
+      "meaning": "Doctor sp",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "meken",
+      "part_of_speech": "noun",
+      "meaning": "Hand",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "memoria",
+      "part_of_speech": "noun",
+      "meaning": "Memory sp",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "meni",
+      "part_of_speech": "verb",
+      "meaning": "To give/To deliver",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mepi",
+      "part_of_speech": "verb",
+      "meaning": "To connect to god",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mera",
+      "part_of_speech": "verb",
+      "meaning": "Look/See",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "meraya",
+      "part_of_speech": "noun",
+      "meaning": "Great curanderos of old – seers who could fly /know non-local information",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "merontama",
+      "part_of_speech": null,
+      "meaning": "I pick it up",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mesco",
+      "part_of_speech": "adjective",
+      "meaning": "All",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mesha",
+      "part_of_speech": null,
+      "meaning": "Pull out from the root",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "metsa",
+      "part_of_speech": "adjective",
+      "meaning": "Good/Nice/Beautiful",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mia",
+      "part_of_speech": "pronoun",
+      "meaning": "You (sing)",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "milagrosonbi",
+      "part_of_speech": null,
+      "meaning": "Miraculous sp",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "min",
+      "part_of_speech": "pronoun",
+      "meaning": "Your (sing) (the person, their body, mind, problems ...)",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "mokapari",
+      "part_of_speech": null,
+      "meaning": "Chiric Sanango",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "nacho",
+      "part_of_speech": "verb",
+      "meaning": "To wring out (Cleaning, like wringing out the bad energy)",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "nai",
+      "part_of_speech": "noun",
+      "meaning": "Sky/Heaven",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "nai shepote",
+      "part_of_speech": "noun",
+      "meaning": "The door to heaven",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "nainko",
+      "part_of_speech": "adverb",
+      "meaning": "Inside",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "nama",
+      "part_of_speech": "noun",
+      "meaning": "Dream",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "nanta",
+      "part_of_speech": "verb",
+      "meaning": "Dancing from side to side (like a snake moves)",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "naso",
+      "part_of_speech": null,
+      "meaning": "Thorough clean",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "nashi",
+      "part_of_speech": "verb",
+      "meaning": "To bathe",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "nato",
+      "part_of_speech": "pronoun",
+      "meaning": "This",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "neno",
+      "part_of_speech": "verb",
+      "meaning": "to walk",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "neska",
+      "part_of_speech": null,
+      "meaning": "Joy/Dancing (spirits)",
+      "sources": [
+        "dictionary:p4"
+      ]
+    },
+    {
+      "shipibo": "nesha",
+      "part_of_speech": "verb",
+      "meaning": "to fall in love",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "neshba",
+      "part_of_speech": "noun",
+      "meaning": "the jungle",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": "noun",
+      "meaning": "day/vision/world",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "niai",
+      "part_of_speech": "adverb",
+      "meaning": "here",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "nibi",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "nichin",
+      "part_of_speech": "verb",
+      "meaning": "to plant/stand up/centre self",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "nini",
+      "part_of_speech": "verb",
+      "meaning": "to pull towards/to bring",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "nishi",
+      "part_of_speech": "noun",
+      "meaning": "vine",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "noun",
+      "meaning": "airs (spiritual ones emitted by plants and other things)",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "noa",
+      "part_of_speech": "pronoun",
+      "meaning": "we",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "nocon",
+      "part_of_speech": "pronoun",
+      "meaning": "my/mine",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "noi",
+      "part_of_speech": "noun",
+      "meaning": "love",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "noma",
+      "part_of_speech": "noun",
+      "meaning": "woman (spirits)",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "nomabo",
+      "part_of_speech": "noun",
+      "meaning": "women (spirits)",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "non",
+      "part_of_speech": "pronoun",
+      "meaning": "our",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "nonra",
+      "part_of_speech": "pronoun",
+      "meaning": "us",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "notsi",
+      "part_of_speech": "verb",
+      "meaning": "heardy (Joi notsi – I heard these words)",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "noya",
+      "part_of_speech": "verb",
+      "meaning": "flying",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "ocha",
+      "part_of_speech": "noun",
+      "meaning": "sin, esp against diet (also signifies issues or problems from daily life)",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "ompash",
+      "part_of_speech": "noun",
+      "meaning": "water (drinking)",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "ona",
+      "part_of_speech": "noun",
+      "meaning": "wisdom",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "onaya",
+      "part_of_speech": "noun",
+      "meaning": "one who has wisdom (ref. Shipibo curandero of old who could diagnose patients purely by sight or touch)",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "onankiri",
+      "part_of_speech": "noun",
+      "meaning": "the bottom of the plant",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "oni",
+      "part_of_speech": "noun",
+      "meaning": "ayahuasca",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "onsa",
+      "part_of_speech": "noun",
+      "meaning": "fear",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "oran",
+      "part_of_speech": "noun",
+      "meaning": "prayer",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "ori",
+      "part_of_speech": "verb",
+      "meaning": "used to call upon protection/to call on strength- from the elements",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "osha",
+      "part_of_speech": "noun",
+      "meaning": "sleep",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "oshe",
+      "part_of_speech": "noun",
+      "meaning": "moon",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "oshin",
+      "part_of_speech": "adjective",
+      "meaning": "red",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "oin",
+      "part_of_speech": "verb",
+      "meaning": "to look/looking",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "pae",
+      "part_of_speech": "noun",
+      "meaning": "ayahuasca/mareaceon/bitter",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "pana",
+      "part_of_speech": "verb",
+      "meaning": "encircling/I encircle (and therefore protect)",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "panshin",
+      "part_of_speech": "adjective",
+      "meaning": "yellow",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "pani",
+      "part_of_speech": "noun",
+      "meaning": "hanging/something descending",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "pao",
+      "part_of_speech": "verb",
+      "meaning": "to wear",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "para",
+      "part_of_speech": "verb",
+      "meaning": "activate",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "pari",
+      "part_of_speech": "verb",
+      "meaning": "to prepare",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "paro",
+      "part_of_speech": "noun",
+      "meaning": "ocean",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "pastoro",
+      "part_of_speech": "noun",
+      "meaning": "pastor (sp)",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "payan",
+      "part_of_speech": "verb",
+      "meaning": "to fan (spiritual airs to purify)",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "pei",
+      "part_of_speech": "noun",
+      "meaning": "leaf/leaves",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "pene",
+      "part_of_speech": "adjective",
+      "meaning": "shining/colourful",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "pharmacia",
+      "part_of_speech": "noun",
+      "meaning": "pharmacy (sp)",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "pichika",
+      "part_of_speech": null,
+      "meaning": "five",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "piko",
+      "part_of_speech": "verb",
+      "meaning": "emerging from/conjuring of",
+      "sources": [
+        "dictionary:p5"
+      ]
+    },
+    {
+      "shipibo": "piko",
+      "part_of_speech": "verb",
+      "meaning": "to open/close worlds - to remove from one bad world and place in a good one. Also to straighten diet with it is cunina",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "pinon",
+      "part_of_speech": "noun",
+      "meaning": "hummingbird",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "pisin",
+      "part_of_speech": "noun",
+      "meaning": "swimming pool",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "pisha",
+      "part_of_speech": "verb",
+      "meaning": "to liberate/liberating/throwing away",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "pishi",
+      "part_of_speech": "noun",
+      "meaning": "bad smell",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "pishta",
+      "part_of_speech": "noun",
+      "meaning": "giant party",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "planeta",
+      "part_of_speech": "noun",
+      "meaning": "planet",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "poderonibi",
+      "part_of_speech": "adjective",
+      "meaning": "powerful",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "ponte",
+      "part_of_speech": "verb",
+      "meaning": "to straighten/to fix (diet lines/Kano)",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "pono",
+      "part_of_speech": "noun",
+      "meaning": "veins",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "poro",
+      "part_of_speech": "noun",
+      "meaning": "stomach",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "posaka",
+      "part_of_speech": "noun",
+      "meaning": "eight",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "puno",
+      "part_of_speech": "noun",
+      "meaning": "nerves",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "rabe",
+      "part_of_speech": "noun",
+      "meaning": "two",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "rainbo",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "rakan",
+      "part_of_speech": "verb",
+      "meaning": "to order (place in order)",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "rakaya",
+      "part_of_speech": "verb",
+      "meaning": "to put in place",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "rake",
+      "part_of_speech": "noun",
+      "meaning": "fear",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "rama",
+      "part_of_speech": "adverb",
+      "meaning": "now",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "rami",
+      "part_of_speech": "adjective",
+      "meaning": "bad",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "rao",
+      "part_of_speech": "noun",
+      "meaning": "medicinal plant spirit/plant remedy",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "raro",
+      "part_of_speech": "adjective",
+      "meaning": "joyful/dancin",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "rate",
+      "part_of_speech": "noun",
+      "meaning": "shock/fear",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "rawe",
+      "part_of_speech": "noun",
+      "meaning": "walking the path of the Kano",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "ray",
+      "part_of_speech": "noun",
+      "meaning": "kingly spirit",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "rebonbi",
+      "part_of_speech": "noun",
+      "meaning": "tip of (i.e. the tip of the tongue/tip of a sword etc)",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "rebokixom",
+      "part_of_speech": "noun",
+      "meaning": "all the spirits above the earth",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "rebes",
+      "part_of_speech": "verb",
+      "meaning": "to the end of",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "ribi",
+      "part_of_speech": "conjunction",
+      "meaning": "as well",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "riki",
+      "part_of_speech": "verb",
+      "meaning": "is",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "rios",
+      "part_of_speech": "noun",
+      "meaning": "god",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "riri",
+      "part_of_speech": "noun",
+      "meaning": "a sound",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "roanyon",
+      "part_of_speech": "noun",
+      "meaning": "sound of a spirit",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "rokotoro",
+      "part_of_speech": "noun",
+      "meaning": "plant doctor of NoyaRao",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "rome",
+      "part_of_speech": "noun",
+      "meaning": "tobacco/Mapacho",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "ronke",
+      "part_of_speech": "noun",
+      "meaning": "plants dancing in the wind",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "ronin",
+      "part_of_speech": "noun",
+      "meaning": "spirits of giant snakes who are 'mothers' of the plants",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "sabaduria",
+      "part_of_speech": "noun",
+      "meaning": "knowledge/wisdom (from the plants)",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "santa",
+      "part_of_speech": "adjective",
+      "meaning": "holy",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "sanke",
+      "part_of_speech": "adjective",
+      "meaning": "beautiful/wonderful (everything beautiful - the scents, sounds, spirits, visions, feelings of what you are singing about/to)",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "sarna",
+      "part_of_speech": "noun",
+      "meaning": "a plant diet/dieta",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "sawe",
+      "part_of_speech": "verb",
+      "meaning": "to put on",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "sen",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "sene",
+      "part_of_speech": "verb",
+      "meaning": "end/end of/its ending",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "semeinbobinsana",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "shaba",
+      "part_of_speech": "verb",
+      "meaning": "to elevate/raise/heal",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "shana",
+      "part_of_speech": "noun",
+      "meaning": "heat",
+      "sources": [
+        "dictionary:p6"
+      ]
+    },
+    {
+      "shipibo": "shaman",
+      "part_of_speech": null,
+      "meaning": "Deep/Deeply/Head/Great/a lot/Top of the tree",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shara",
+      "part_of_speech": null,
+      "meaning": "The space in between",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shatenil",
+      "part_of_speech": "verb",
+      "meaning": "consumed/I ate",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shawan",
+      "part_of_speech": "noun",
+      "meaning": "Family / Giant macaw",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shawan caibobo",
+      "part_of_speech": "noun",
+      "meaning": "Ancestors",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shawe",
+      "part_of_speech": "noun",
+      "meaning": "Man",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shawebo",
+      "part_of_speech": "noun",
+      "meaning": "Men (spirits)",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shea",
+      "part_of_speech": "verb",
+      "meaning": "To consume",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shepo",
+      "part_of_speech": "verb",
+      "meaning": "To close",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shepote",
+      "part_of_speech": "noun",
+      "meaning": "Gate",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "sheponi",
+      "part_of_speech": "adjective",
+      "meaning": "That which is closed",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shete",
+      "part_of_speech": "noun",
+      "meaning": "Bald vulture (namesake of Shetebo)",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shina",
+      "part_of_speech": "noun",
+      "meaning": "An 'idea' (form)/Of the mind/Thought or concept",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shinan",
+      "part_of_speech": "noun",
+      "meaning": "Thoughts",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shintana",
+      "part_of_speech": "noun",
+      "meaning": "Black energy",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shipi",
+      "part_of_speech": "noun",
+      "meaning": "Monkey with white markings on face (namesake of Shipibo)",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shobo",
+      "part_of_speech": "noun",
+      "meaning": "House / Maloca / Ceremony space",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shoro",
+      "part_of_speech": "adjective",
+      "meaning": "Powerful",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "shosho",
+      "part_of_speech": "verb",
+      "meaning": "Grow",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "sokota",
+      "part_of_speech": "noun",
+      "meaning": "Six",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "soi",
+      "part_of_speech": "adjective",
+      "meaning": "Beautiful",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "sowa",
+      "part_of_speech": "verb",
+      "meaning": "To clean/purify/cleaning",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tae",
+      "part_of_speech": "noun",
+      "meaning": "Foot",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tai",
+      "part_of_speech": "adverb",
+      "meaning": "Now",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tankibi",
+      "part_of_speech": "noun",
+      "meaning": "Tank (Like a water tank)",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tapish",
+      "part_of_speech": "verb",
+      "meaning": "To open (Eg. Tapish Shepotebokan)",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tapon",
+      "part_of_speech": "noun",
+      "meaning": "Roots",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tari",
+      "part_of_speech": "noun",
+      "meaning": "Cushma",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "templo",
+      "part_of_speech": "noun",
+      "meaning": "Temple (sp)",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tena",
+      "part_of_speech": "verb",
+      "meaning": "To illuminate",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "teo",
+      "part_of_speech": "noun",
+      "meaning": "Place around neck",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tesho",
+      "part_of_speech": "noun",
+      "meaning": "Neck",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tibi",
+      "part_of_speech": "conjunction",
+      "meaning": "As well",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tirasa",
+      "part_of_speech": "noun",
+      "meaning": "Circulating (Niwe tirasa = circulating energy)",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "toé",
+      "part_of_speech": "verb",
+      "meaning": "Smash/Punch/Destroy OR to open",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "toninram",
+      "part_of_speech": "noun",
+      "meaning": "Echo",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "torri",
+      "part_of_speech": "noun",
+      "meaning": "A Tower connecting one to god (sp)",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "torro",
+      "part_of_speech": "noun",
+      "meaning": "Circle",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "toshko",
+      "part_of_speech": "verb",
+      "meaning": "Erase",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tranca",
+      "part_of_speech": "noun",
+      "meaning": "Block",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tronco",
+      "part_of_speech": "noun",
+      "meaning": "Trunk of a tree",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tsara",
+      "part_of_speech": "verb",
+      "meaning": "Referencing hearing a sound of something",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tsetka",
+      "part_of_speech": "verb",
+      "meaning": "Remove/removing/extracting",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tsinki",
+      "part_of_speech": "verb",
+      "meaning": "Collecting/connecting/joining",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tsitsi",
+      "part_of_speech": "verb",
+      "meaning": "Chupe (To suck)",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tsiri",
+      "part_of_speech": "adjective",
+      "meaning": "Beautiful",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tsononia",
+      "part_of_speech": "noun",
+      "meaning": "(Used with jene ts...) The water liquid extract from dieted plant used to wash things",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tsontarobo",
+      "part_of_speech": "noun",
+      "meaning": "Soldiers (sp)",
+      "sources": [
+        "dictionary:p7"
+      ]
+    },
+    {
+      "shipibo": "tsokas",
+      "part_of_speech": "adjective",
+      "meaning": "fragmented",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "tson",
+      "part_of_speech": null,
+      "meaning": "no one",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "tunibi",
+      "part_of_speech": null,
+      "meaning": "fragmented (eg. Tsokas Shinan - Fragmented Thoughts - used for trauma)",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "vima",
+      "part_of_speech": "verb",
+      "meaning": "to give",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "viri",
+      "part_of_speech": "adjective",
+      "meaning": "shining/with many colours",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "virivi",
+      "part_of_speech": "adjective",
+      "meaning": "glowing",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "wampa",
+      "part_of_speech": "noun",
+      "meaning": "plants dancing in the wind - cyclical movements",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "wampaman",
+      "part_of_speech": "noun",
+      "meaning": "waves or cycles of energy",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "wapuro",
+      "part_of_speech": "noun",
+      "meaning": "boat",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "wapuronibi",
+      "part_of_speech": "verb",
+      "meaning": "we have arrived (us after place arrived in)",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "waste",
+      "part_of_speech": "noun",
+      "meaning": "piri piri plant",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "wetsa",
+      "part_of_speech": "noun",
+      "meaning": "brothers",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "weshti",
+      "part_of_speech": "noun",
+      "meaning": "sickle",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "weshke",
+      "part_of_speech": "verb",
+      "meaning": "chopping something (the act of chopping with a machete)",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "westiora",
+      "part_of_speech": "adjective",
+      "meaning": "one",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "winkash",
+      "part_of_speech": "noun",
+      "meaning": "sadness (from traumas)",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "wishtin",
+      "part_of_speech": "noun",
+      "meaning": "star",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "yabi",
+      "part_of_speech": "adjective",
+      "meaning": "whole",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "yaka",
+      "part_of_speech": "verb",
+      "meaning": "to seat oneself in",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "yame",
+      "part_of_speech": "noun",
+      "meaning": "night",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "yancun",
+      "part_of_speech": "adjective",
+      "meaning": "blue or green",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "yasa",
+      "part_of_speech": "verb",
+      "meaning": "to seat another",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "yatan",
+      "part_of_speech": "verb",
+      "meaning": "to gather (used specifically with Yoshin & Samson Mediko)",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "yeshke",
+      "part_of_speech": "verb",
+      "meaning": "moving/spinning",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "yobe",
+      "part_of_speech": "noun",
+      "meaning": "brujo/sorcerer (lit one with demon eyes)",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "yoi",
+      "part_of_speech": "verb",
+      "meaning": "speaking",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "yoka",
+      "part_of_speech": "verb",
+      "meaning": "to ask for",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "yonbano",
+      "part_of_speech": "particle",
+      "meaning": "I do..... (used after the first verb)",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "yonparibanno",
+      "part_of_speech": "particle",
+      "meaning": "I will do..... (used after the first verb)",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "yora",
+      "part_of_speech": "noun",
+      "meaning": "body/trunk of a tree",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "yoshin",
+      "part_of_speech": "noun",
+      "meaning": "demon (lit. one with the red eyes)",
+      "sources": [
+        "dictionary:p8"
+      ]
+    },
+    {
+      "shipibo": "yorabo",
+      "part_of_speech": "noun",
+      "meaning": "bodies",
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "shipibo": "netebo",
+      "part_of_speech": "noun",
+      "meaning": "visions",
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "shipibo": "Riosbi",
+      "part_of_speech": "noun",
+      "meaning": "God",
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "shipibo": "kanoi",
+      "part_of_speech": "verb",
+      "meaning": "connected",
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "shipibo": "chokai",
+      "part_of_speech": "verb",
+      "meaning": "washed",
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "shipibo": "Yoka yoka shamanshon",
+      "part_of_speech": null,
+      "meaning": "Give me your knowledge, your wisdom",
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "shipibo": "Kanoke",
+      "part_of_speech": "noun",
+      "meaning": "A connection has recently or just been made",
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "shipibo": "Jakonma",
+      "part_of_speech": "adjective",
+      "meaning": "Not good",
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "shipibo": "Jakon",
+      "part_of_speech": "adjective",
+      "meaning": "Good",
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "shipibo": "Rami",
+      "part_of_speech": "noun",
+      "meaning": "Bad",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Kano",
+      "part_of_speech": "noun",
+      "meaning": "Connection",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Sowa",
+      "part_of_speech": "verb",
+      "meaning": "Clean",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Jakon",
+      "part_of_speech": "noun",
+      "meaning": "Good",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Nete",
+      "part_of_speech": "noun",
+      "meaning": "World Visions",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Keyo",
+      "part_of_speech": "verb",
+      "meaning": "End",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Yabi",
+      "part_of_speech": "noun",
+      "meaning": "Entire",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Sama",
+      "part_of_speech": "noun",
+      "meaning": "Dieta",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Ponte",
+      "part_of_speech": "verb",
+      "meaning": "Straightening",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Yame",
+      "part_of_speech": "noun",
+      "meaning": "Dark",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Yora",
+      "part_of_speech": "noun",
+      "meaning": "Body",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Pana",
+      "part_of_speech": "verb",
+      "meaning": "Protect Encircle",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Metsa",
+      "part_of_speech": "noun",
+      "meaning": "Beautiful",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Shinan",
+      "part_of_speech": "noun",
+      "meaning": "Mind",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Choka",
+      "part_of_speech": "verb",
+      "meaning": "Wash",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Ani",
+      "part_of_speech": "noun",
+      "meaning": "Great",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Kaya",
+      "part_of_speech": "noun",
+      "meaning": "Spirit Soul",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Keya",
+      "part_of_speech": "verb",
+      "meaning": "Elevate",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Coshi",
+      "part_of_speech": "noun",
+      "meaning": "Strong",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Niwe",
+      "part_of_speech": "noun",
+      "meaning": "Air Energy",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Kepen",
+      "part_of_speech": "verb",
+      "meaning": "Open",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Josho",
+      "part_of_speech": "noun",
+      "meaning": "White",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Rios",
+      "part_of_speech": "noun",
+      "meaning": "God",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Kena",
+      "part_of_speech": "verb",
+      "meaning": "Call",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Yancun",
+      "part_of_speech": "noun",
+      "meaning": "Blue / Green",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Poro",
+      "part_of_speech": "noun",
+      "meaning": "Stomach",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Pisha",
+      "part_of_speech": "verb",
+      "meaning": "Liberate",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Wiso",
+      "part_of_speech": "noun",
+      "meaning": "Black",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Rao",
+      "part_of_speech": "noun",
+      "meaning": "Plant",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Chorro",
+      "part_of_speech": "verb",
+      "meaning": "Un-tie",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Shaman-bi",
+      "part_of_speech": "noun",
+      "meaning": "Center of Top of",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Pae",
+      "part_of_speech": "noun",
+      "meaning": "Maereci-on",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Beba",
+      "part_of_speech": "verb",
+      "meaning": "To travel",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Kayaka",
+      "part_of_speech": "noun",
+      "meaning": "Focus on",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Kewe",
+      "part_of_speech": "noun",
+      "meaning": "Design",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "Yasa",
+      "part_of_speech": "verb",
+      "meaning": "To sit",
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "shipibo": "pari-bano",
+      "part_of_speech": "verb",
+      "meaning": "Going to do...",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "bano",
+      "part_of_speech": "verb",
+      "meaning": "Am doing now",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "tanara",
+      "part_of_speech": "verb",
+      "meaning": "In process of doing...",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "taana",
+      "part_of_speech": "verb",
+      "meaning": "Have been done...",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "tanbano",
+      "part_of_speech": "verb",
+      "meaning": "Doing...",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "tanara",
+      "part_of_speech": "verb",
+      "meaning": "Have done...",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "taana",
+      "part_of_speech": "verb",
+      "meaning": "Is happening...",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "kin",
+      "part_of_speech": "particle",
+      "meaning": "Done with help of...",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "shon",
+      "part_of_speech": "particle",
+      "meaning": "For the benefit of...",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "kayaka",
+      "part_of_speech": "noun",
+      "meaning": "Way of focusing attention and energy, letting the plants know what or who you are working on",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "kano",
+      "part_of_speech": "verb",
+      "meaning": "to connect",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "ira",
+      "part_of_speech": "particle",
+      "meaning": "Link between verb and action word, with singing I am...",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "bewai",
+      "part_of_speech": "verb",
+      "meaning": "singing",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "sowa",
+      "part_of_speech": "verb",
+      "meaning": "Cleaning",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "kepen",
+      "part_of_speech": "verb",
+      "meaning": "Opening",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "pronoun",
+      "meaning": "I/we (subject pronoun)",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "sama",
+      "part_of_speech": "pronoun",
+      "meaning": "you (subject pronoun)",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": "pronoun",
+      "meaning": "he/she/it (subject pronoun)",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "shinan",
+      "part_of_speech": "pronoun",
+      "meaning": "we (subject pronoun)",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "you (object pronoun)",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "noa",
+      "part_of_speech": "pronoun",
+      "meaning": "him/her/it (object pronoun)",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "mato",
+      "part_of_speech": "pronoun",
+      "meaning": "them (object pronoun)",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "jain",
+      "part_of_speech": "pronoun",
+      "meaning": "us (object pronoun)",
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "shipibo": "neska neska shamankin",
+      "part_of_speech": null,
+      "meaning": "Deepening and focusing what actions are already sung about",
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "kano kano shamani",
+      "part_of_speech": null,
+      "meaning": "Deepening the connection being made/that is present",
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "pana pana shamani",
+      "part_of_speech": null,
+      "meaning": "Deepening and enhancing protection",
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "neska neska shamani/kin",
+      "part_of_speech": null,
+      "meaning": "With great movement/With great energy '...' is being done",
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "kepen yonparibano",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "min shinan kayaka",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "shinan kepen yonbano",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "kepen ira bewai",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "shinan nele kayaka",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "shinan ponte yonbano",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "ponte yontanara",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "min nete yabikan",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "kepen aketanbano",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "kepen ira bewai",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "kepen kepen shamankin",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "min shinan yabikan",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "kano yonparibano",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "jakon nete kepenban",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "min niwe kanoban",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "min shinan kanoban",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "min pae kanoban",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "min pae kayaka",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "keya yonparibano",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "min pae shamanbi",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "mia beba yonbano",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "beba aketanbano",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "yasa yonparibano",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "mia yasa hainkin",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "yasa yasa shamakin",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "dictionary:p12"
+      ]
+    },
+    {
+      "shipibo": "mato jowe",
+      "part_of_speech": null,
+      "meaning": "opening / calling spirits",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "mato jowe ayonban je",
+      "part_of_speech": null,
+      "meaning": "welcome to the ceremony",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "raro raro shamankin",
+      "part_of_speech": null,
+      "meaning": "I am pleased and all is well",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "mato ikinyonbano je",
+      "part_of_speech": null,
+      "meaning": "spirits now I call to heal you",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "nomabora bekanke",
+      "part_of_speech": null,
+      "meaning": "men and women all will heal",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "mato betan raroi je",
+      "part_of_speech": null,
+      "meaning": "I am pleased to be with you here",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "mato ikinyonbano",
+      "part_of_speech": null,
+      "meaning": "in my visions I'm with you",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "nocon shawan",
+      "part_of_speech": null,
+      "meaning": "welcome / calling spirits / ancestors",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "nocon shawan caibobo",
+      "part_of_speech": null,
+      "meaning": "welcome family from afar",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "nonra mato jowe acai",
+      "part_of_speech": null,
+      "meaning": "now the spirits welcome you",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "neska neska shamankin",
+      "part_of_speech": null,
+      "meaning": "I call you to this healing place",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "mato jowe acai",
+      "part_of_speech": null,
+      "meaning": "I call the spirits to heal you",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "mato jowe ayunshon",
+      "part_of_speech": null,
+      "meaning": "with this prayer I will heal you",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "mato ishon banonkin",
+      "part_of_speech": null,
+      "meaning": "listen to this healing prayer",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "neska neska ranike",
+      "part_of_speech": null,
+      "meaning": "my ancestors heal the sick",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "non shawan anibo",
+      "part_of_speech": null,
+      "meaning": "I call my sickly family",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "nomabo beashki",
+      "part_of_speech": null,
+      "meaning": "spirits of the plants shall come",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "chiti chiti shamani",
+      "part_of_speech": null,
+      "meaning": "they will dance among us now",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "karo raro shamani",
+      "part_of_speech": null,
+      "meaning": "with their joyous dance they heal",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "non mato ishonon",
+      "part_of_speech": null,
+      "meaning": "to you all I give this prayer",
+      "sources": [
+        "icaros:p1"
+      ]
+    },
+    {
+      "shipibo": "neska neska shamankin",
+      "part_of_speech": null,
+      "meaning": "hear you now the words I sing",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "yora pati abano",
+      "part_of_speech": null,
+      "meaning": "your sickness and your body",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "pana yonparibano",
+      "part_of_speech": null,
+      "meaning": "I am healing it right now",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "ponte yonparibano",
+      "part_of_speech": null,
+      "meaning": "I go to where the illness starts",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "kano Ponte Yonkabano",
+      "part_of_speech": null,
+      "meaning": "with my strength I heal you",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "yoi yoi shamankin",
+      "part_of_speech": null,
+      "meaning": "I seek to name your illness",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "sowa sowa shamankin",
+      "part_of_speech": null,
+      "meaning": "I search to clean your body now",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "nete pari abano",
+      "part_of_speech": null,
+      "meaning": "I open up your visions",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "neska neska shamankin",
+      "part_of_speech": null,
+      "meaning": "I sing all full of joy",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "nanta nanta shamankin",
+      "part_of_speech": null,
+      "meaning": "with my hands I will heal you",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "yorabo abano",
+      "part_of_speech": null,
+      "meaning": "I search to treat your body now",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "payan yonparibano",
+      "part_of_speech": null,
+      "meaning": "with this I now will heal you",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "oin Yonparibano",
+      "part_of_speech": null,
+      "meaning": "for I have found your illness",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "mana yonparibano",
+      "part_of_speech": null,
+      "meaning": "yes I know from where it comes",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "mia oin yonbanonkin",
+      "part_of_speech": null,
+      "meaning": "spirits come to help me see",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "nocon pie merankin",
+      "part_of_speech": null,
+      "meaning": "guide me on this journey",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "oin oin shamankin",
+      "part_of_speech": null,
+      "meaning": "I will seek your illness now",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "nocon iana rebonbi",
+      "part_of_speech": null,
+      "meaning": "in my mouth upon my tongue",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "medicina yontaana",
+      "part_of_speech": null,
+      "meaning": "medicine is what I have",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "mia oin banonkin",
+      "part_of_speech": null,
+      "meaning": "with this song I heal you now",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "yoi yanta nankin",
+      "part_of_speech": null,
+      "meaning": "I will name the medicine",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "en mia ashonban",
+      "part_of_speech": null,
+      "meaning": "that will heal you from your ills",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "ashon shamantaana",
+      "part_of_speech": null,
+      "meaning": "I am healing all your pain",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "mia sene ayonkin",
+      "part_of_speech": null,
+      "meaning": "now the healing is all done",
+      "sources": [
+        "icaros:p2"
+      ]
+    },
+    {
+      "shipibo": "paro keibakeash",
+      "part_of_speech": null,
+      "meaning": "preparation for the future",
+      "sources": [
+        "icaros:p3"
+      ]
+    },
+    {
+      "shipibo": "nete senenainko",
+      "part_of_speech": null,
+      "meaning": "I come from where",
+      "sources": [
+        "icaros:p3"
+      ]
+    },
+    {
+      "shipibo": "maya aketanash",
+      "part_of_speech": null,
+      "meaning": "the whole world has ended",
+      "sources": [
+        "icaros:p3"
+      ]
+    },
+    {
+      "shipibo": "noki mai beai",
+      "part_of_speech": null,
+      "meaning": "healing plants turn into kings",
+      "sources": [
+        "icaros:p3"
+      ]
+    },
+    {
+      "shipibo": "ray joyo akeash",
+      "part_of_speech": null,
+      "meaning": "you receive my icaro",
+      "sources": [
+        "icaros:p3"
+      ]
+    },
+    {
+      "shipibo": "nocon joi binora",
+      "part_of_speech": null,
+      "meaning": "you receive my medicine",
+      "sources": [
+        "icaros:p3"
+      ]
+    },
+    {
+      "shipibo": "make rakan shobano",
+      "part_of_speech": null,
+      "meaning": "so don't be afraid - have faith in god",
+      "sources": [
+        "icaros:p3"
+      ]
+    },
+    {
+      "shipibo": "ani jematiibi",
+      "part_of_speech": null,
+      "meaning": "all the countries may fear",
+      "sources": [
+        "icaros:p3"
+      ]
+    },
+    {
+      "shipibo": "jema anitibi",
+      "part_of_speech": null,
+      "meaning": "yet we know of other worlds",
+      "sources": [
+        "icaros:p3"
+      ]
+    },
+    {
+      "shipibo": "kirikabo noyain",
+      "part_of_speech": null,
+      "meaning": "we, like healing plants can fly",
+      "sources": [
+        "icaros:p3"
+      ]
+    },
+    {
+      "shipibo": "noya baintaana",
+      "part_of_speech": null,
+      "meaning": "so therefore be prepared",
+      "sources": [
+        "icaros:p3"
+      ]
+    },
+    {
+      "shipibo": "maketi bekanii",
+      "part_of_speech": null,
+      "meaning": "spirits come and sing with us",
+      "sources": [
+        "icaros:p3"
+      ]
+    },
+    {
+      "shipibo": "rama pari abano",
+      "part_of_speech": null,
+      "meaning": "Diet connection / Clearing Negative Energy",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "nokon sama tari",
+      "part_of_speech": null,
+      "meaning": "now as I prepare myself",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "rao sama tari",
+      "part_of_speech": null,
+      "meaning": "with the cushma of my diet",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "sawe aketanara",
+      "part_of_speech": null,
+      "meaning": "the cushma of the plants I dieted",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "nokon sama maiti",
+      "part_of_speech": null,
+      "meaning": "I put it on to wear it and protect myself",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "rao sama maiti",
+      "part_of_speech": null,
+      "meaning": "and the crown of my diets",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "rao jiwibodibi",
+      "part_of_speech": null,
+      "meaning": "of the plants I carry inside of me",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "rao shamabodibi",
+      "part_of_speech": null,
+      "meaning": "I wear it to protect and guide me",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "yaka tira bewai",
+      "part_of_speech": null,
+      "meaning": "and to the top of the tree as well",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "bewa bewa shamаnai",
+      "part_of_speech": null,
+      "meaning": "I prepare to go there and work",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "shinitapon maquina",
+      "part_of_speech": null,
+      "meaning": "with my words and singing I seat myself there",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "ani rao maquina",
+      "part_of_speech": null,
+      "meaning": "singing strongly and clearly",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "iman bewa maquina",
+      "part_of_speech": null,
+      "meaning": "in the top of the tree I work and sing through my pipe",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "coshi bewa maquina",
+      "part_of_speech": null,
+      "meaning": "this great machine of the plants",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "ja shaman yakashon",
+      "part_of_speech": null,
+      "meaning": "through the magnetic resonance of my machine",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "yakashonra acai",
+      "part_of_speech": null,
+      "meaning": "and in the powerful singing that flows through me",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "jakonmabo niwebo",
+      "part_of_speech": null,
+      "meaning": "I seat myself here in the center of my machine",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "wiso maya niwebo",
+      "part_of_speech": null,
+      "meaning": "sitting myself here to work and sing",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "payan payan shamankin",
+      "part_of_speech": null,
+      "meaning": "and all the bad energies",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "sowa sowa shamankin",
+      "part_of_speech": null,
+      "meaning": "the dark energies that swirl around us",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "keyo keyo shamankin",
+      "part_of_speech": null,
+      "meaning": "I fan these away with the great winds of the plants",
+      "sources": [
+        "icaros:p4"
+      ]
+    },
+    {
+      "shipibo": "keyo keyo baan",
+      "part_of_speech": null,
+      "meaning": "healing/clearing negative energy",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "yora",
+      "part_of_speech": "noun",
+      "meaning": "body",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "noabo",
+      "part_of_speech": null,
+      "meaning": "spirit",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "bokinra",
+      "part_of_speech": null,
+      "meaning": "to take out",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "jiwira",
+      "part_of_speech": "noun",
+      "meaning": "bad/negative",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "acero",
+      "part_of_speech": "noun",
+      "meaning": "steel/sword",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "joniibo",
+      "part_of_speech": null,
+      "meaning": "transforms",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "ikanaii",
+      "part_of_speech": null,
+      "meaning": "power",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "meabi",
+      "part_of_speech": null,
+      "meaning": "finished",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "shonkinra",
+      "part_of_speech": null,
+      "meaning": "to heal",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "campana",
+      "part_of_speech": "noun",
+      "meaning": "bell",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "rakanaii",
+      "part_of_speech": null,
+      "meaning": "powers",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "nocon sama",
+      "part_of_speech": null,
+      "meaning": "to end a diet",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "kanobi",
+      "part_of_speech": null,
+      "meaning": "song of my path",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "shatebanonkin",
+      "part_of_speech": null,
+      "meaning": "diet",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "panaban",
+      "part_of_speech": null,
+      "meaning": "protection",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "noyarao",
+      "part_of_speech": "noun",
+      "meaning": "plant doctors",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "niwekin",
+      "part_of_speech": null,
+      "meaning": "air",
+      "sources": [
+        "icaros:p5"
+      ]
+    },
+    {
+      "shipibo": "pisha pisha",
+      "part_of_speech": "noun",
+      "meaning": "healing / altering mareacion / protection",
+      "sources": [
+        "icaros:p6"
+      ]
+    },
+    {
+      "shipibo": "jawen shaman",
+      "part_of_speech": "noun",
+      "meaning": "shaman",
+      "sources": [
+        "icaros:p6"
+      ]
+    },
+    {
+      "shipibo": "bewa",
+      "part_of_speech": "noun",
+      "meaning": "good",
+      "sources": [
+        "icaros:p6"
+      ]
+    },
+    {
+      "shipibo": "kakinra",
+      "part_of_speech": "noun",
+      "meaning": "energy",
+      "sources": [
+        "icaros:p6"
+      ]
+    },
+    {
+      "shipibo": "rama kano",
+      "part_of_speech": "noun",
+      "meaning": "song",
+      "sources": [
+        "icaros:p6"
+      ]
+    },
+    {
+      "shipibo": "pisha aketanshonra",
+      "part_of_speech": "verb",
+      "meaning": "to set free",
+      "sources": [
+        "icaros:p6"
+      ]
+    },
+    {
+      "shipibo": "tsetka",
+      "part_of_speech": "noun",
+      "meaning": "vision",
+      "sources": [
+        "icaros:p6"
+      ]
+    },
+    {
+      "shipibo": "keyo",
+      "part_of_speech": "noun",
+      "meaning": "power",
+      "sources": [
+        "icaros:p6"
+      ]
+    },
+    {
+      "shipibo": "mia keskatanshonra",
+      "part_of_speech": "verb",
+      "meaning": "to transform",
+      "sources": [
+        "icaros:p6"
+      ]
+    },
+    {
+      "shipibo": "tsinki",
+      "part_of_speech": "noun",
+      "meaning": "doctor",
+      "sources": [
+        "icaros:p6"
+      ]
+    },
+    {
+      "shipibo": "nawe nawe",
+      "part_of_speech": "noun",
+      "meaning": "plant",
+      "sources": [
+        "icaros:p6"
+      ]
+    },
+    {
+      "shipibo": "nocon bibliakan",
+      "part_of_speech": "verb",
+      "meaning": "to heal",
+      "sources": [
+        "icaros:p6"
+      ]
+    },
+    {
+      "shipibo": "jan shaman",
+      "part_of_speech": "noun",
+      "meaning": "holy",
+      "sources": [
+        "icaros:p6"
+      ]
+    },
+    {
+      "shipibo": "payan yonpiribano",
+      "part_of_speech": "verb",
+      "meaning": "to purify",
+      "sources": [
+        "icaros:p6"
+      ]
+    },
+    {
+      "shipibo": "memoria netenkan",
+      "part_of_speech": "noun",
+      "meaning": "memory",
+      "sources": [
+        "icaros:p6"
+      ]
+    },
+    {
+      "shipibo": "ani nete rakaya",
+      "part_of_speech": "noun",
+      "meaning": "illness",
+      "sources": [
+        "icaros:p6"
+      ]
+    },
+    {
+      "shipibo": "meni meni baan",
+      "part_of_speech": null,
+      "meaning": "giving mareacion",
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "pae meni makhina",
+      "part_of_speech": null,
+      "meaning": "freeing the energy",
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "pisha aketaana",
+      "part_of_speech": null,
+      "meaning": "transform into Doctors",
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "enra kano mairi",
+      "part_of_speech": null,
+      "meaning": "of the plant people",
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "joni mereayasbora",
+      "part_of_speech": null,
+      "meaning": "Doctors of the Doctors",
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "kano ira bewai",
+      "part_of_speech": null,
+      "meaning": "who sing to bring medicine",
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "pae bekinra",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "oni pae maguina",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "pisha aketanshorira",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "niwe jakon ponteni",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "kano para maira",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "noa neno neskano",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "noa kano keweni",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "nocon kano keweni",
+      "part_of_speech": null,
+      "meaning": "healing / calling spirits",
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "joni sowa sowawa",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "eara neno niai",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "rao riosbo",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "noyarao riosbo",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "joni pastorobora",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "rokotoro jonibo",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "kano mayontanara",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "ea neno neskano",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "jowi sowawa",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "nocon jowi sowawa",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "joni niash ikani",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "ikamara inike",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "jowi bishon sowawe",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "eara neno niai",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "tai tianki",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "neska tai tianki",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "wetsa mai nomabo",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "nocon pinon jpain",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "joni neska neskano",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "iki ikanaibo",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "oin yakana",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "eara neno niai",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "shawan caibobo",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p7"
+      ]
+    },
+    {
+      "shipibo": "joni sowa sowawa",
+      "part_of_speech": null,
+      "meaning": "calling spirits/opening worlds",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "nete ani meara",
+      "part_of_speech": null,
+      "meaning": "the doctors",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "kano ira manke",
+      "part_of_speech": null,
+      "meaning": "giving energy and sending wisdom",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "nete jakon rakaya",
+      "part_of_speech": null,
+      "meaning": "cleaning me of illness",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "noa joni virivi",
+      "part_of_speech": null,
+      "meaning": "in my visions",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "nete ani rakaya",
+      "part_of_speech": null,
+      "meaning": "in my mareacion",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "rios jema kepeni",
+      "part_of_speech": null,
+      "meaning": "giving energy",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "tore ewa joyoya",
+      "part_of_speech": null,
+      "meaning": "sending wisdom",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "inin kewe niwera",
+      "part_of_speech": null,
+      "meaning": "my energies are like sweet smelling perfumes",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "rao roma romenji",
+      "part_of_speech": null,
+      "meaning": "the female masters of the plants",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "kory chiki joyota",
+      "part_of_speech": null,
+      "meaning": "the messenger birds",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "kano baintana",
+      "part_of_speech": null,
+      "meaning": "opening a path",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "nete kano riosbo",
+      "part_of_speech": null,
+      "meaning": "to the illuminated visions of God",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "isa yoyo irai",
+      "part_of_speech": null,
+      "meaning": "I talk to the messenger birds",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "nete leshe niwebo",
+      "part_of_speech": null,
+      "meaning": "who tell me what they see",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "manira bei",
+      "part_of_speech": null,
+      "meaning": "with my power and airs I will design the world",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "pana yonparibano",
+      "part_of_speech": null,
+      "meaning": "protection",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "yora panayonbano",
+      "part_of_speech": null,
+      "meaning": "I'm protecting myself / my body",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "pana pana shamankin",
+      "part_of_speech": null,
+      "meaning": "I'm protecting everyone and the whole world",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "pana yontamankaya",
+      "part_of_speech": null,
+      "meaning": "in making this protection",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "paro shaman bebaban",
+      "part_of_speech": null,
+      "meaning": "I will arrive at an ocean and within this ocean",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "beba yontaana",
+      "part_of_speech": null,
+      "meaning": "I walk and wonder",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "nai shaman bebaban",
+      "part_of_speech": null,
+      "meaning": "I walk and wonder",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "beba beba shamani",
+      "part_of_speech": null,
+      "meaning": "and I arrive",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "mato ashonyonbano",
+      "part_of_speech": null,
+      "meaning": "I arrive in heaven / I purify you all",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "pac pirenjieni ban",
+      "part_of_speech": null,
+      "meaning": "and here I walk and converse with aliens",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "joni meraya bokan",
+      "part_of_speech": null,
+      "meaning": "and the master curanderos",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "kena kena shamankin",
+      "part_of_speech": null,
+      "meaning": "and their disciples will come",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "yora metsa ayonban",
+      "part_of_speech": null,
+      "meaning": "to adorn our bodies with patterns",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "yora kewe ayonban",
+      "part_of_speech": null,
+      "meaning": "to adorn our bodies with designs",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "rama ishamani",
+      "part_of_speech": null,
+      "meaning": "and these designs signify that we are strong",
+      "sources": [
+        "icaros:p8"
+      ]
+    },
+    {
+      "shipibo": "niwebo",
+      "part_of_speech": null,
+      "meaning": "spirit/world",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "noyaro",
+      "part_of_speech": null,
+      "meaning": "god",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "joyo",
+      "part_of_speech": null,
+      "meaning": "joy/joyful",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": null,
+      "meaning": "spirit",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "jakon",
+      "part_of_speech": null,
+      "meaning": "line",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "kano",
+      "part_of_speech": null,
+      "meaning": "medicine/medicinal",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "sowa",
+      "part_of_speech": null,
+      "meaning": "sound",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "joni",
+      "part_of_speech": null,
+      "meaning": "doctor",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "panpa",
+      "part_of_speech": null,
+      "meaning": "plant",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "ronira",
+      "part_of_speech": null,
+      "meaning": "spirit",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": null,
+      "meaning": "call/open",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "bowa",
+      "part_of_speech": null,
+      "meaning": "people",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "ira",
+      "part_of_speech": null,
+      "meaning": "line/connection",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "iki",
+      "part_of_speech": null,
+      "meaning": "shaman",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "mato",
+      "part_of_speech": null,
+      "meaning": "machine",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "pae",
+      "part_of_speech": null,
+      "meaning": "enter/descend",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "kepen",
+      "part_of_speech": null,
+      "meaning": "heaven/door",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "rono",
+      "part_of_speech": null,
+      "meaning": "slowly/carefully",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "yora",
+      "part_of_speech": null,
+      "meaning": "world",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "enra",
+      "part_of_speech": null,
+      "meaning": "speak/ask",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "rios",
+      "part_of_speech": null,
+      "meaning": "power/healing",
+      "sources": [
+        "icaros:p9"
+      ]
+    },
+    {
+      "shipibo": "niwe torri campana",
+      "part_of_speech": null,
+      "meaning": "healing (icaro title)",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "niwe torri campana",
+      "part_of_speech": null,
+      "meaning": "healing bell",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "nete ani kepeni",
+      "part_of_speech": null,
+      "meaning": "connection rings",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "noyarao riosbo",
+      "part_of_speech": null,
+      "meaning": "world of the gods of Noyarao",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "joyo joyo niwebo",
+      "part_of_speech": null,
+      "meaning": "world of god",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "joni sowa sowawa",
+      "part_of_speech": null,
+      "meaning": "connecting to the world of god",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "en keyo baan",
+      "part_of_speech": null,
+      "meaning": "care for you",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "min rami niwebo",
+      "part_of_speech": null,
+      "meaning": "raise you up healthy",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "en keyo bokinra",
+      "part_of_speech": null,
+      "meaning": "cleaning and washing your body",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "sowa sowa bokinra",
+      "part_of_speech": null,
+      "meaning": "remove your bad spirits and energy",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "pisha pisha bokinra",
+      "part_of_speech": null,
+      "meaning": "diagnose you",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "nete senenainko",
+      "part_of_speech": null,
+      "meaning": "released the bad spirits",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "maya aketanash",
+      "part_of_speech": null,
+      "meaning": "where the world ends",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "manira bekanai",
+      "part_of_speech": null,
+      "meaning": "walked where the Noyarao world ends",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "noki beiranira",
+      "part_of_speech": null,
+      "meaning": "from there the people of Noaya Rao came to heal you",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "weiberam",
+      "part_of_speech": null,
+      "meaning": "in our ceremony",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "chiti chiti shamani",
+      "part_of_speech": null,
+      "meaning": "entered our mareacion",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "mato kano mayonban",
+      "part_of_speech": null,
+      "meaning": "happy because they saw you healthy",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "ja neten pikotas",
+      "part_of_speech": null,
+      "meaning": "vision I will connect you",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "mana mana shamanbaan",
+      "part_of_speech": null,
+      "meaning": "wonderful world",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "min yora meabi",
+      "part_of_speech": null,
+      "meaning": "seeing everything in you",
+      "sources": [
+        "icaros:p10"
+      ]
+    },
+    {
+      "shipibo": "noyarao",
+      "part_of_speech": null,
+      "meaning": "a spirit or divine entity",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "joe",
+      "part_of_speech": "noun",
+      "meaning": "song or chant",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "kan",
+      "part_of_speech": "particle",
+      "meaning": "vocative/calling particle",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "nocon yora",
+      "part_of_speech": null,
+      "meaning": "white light",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "kanoban",
+      "part_of_speech": "verb",
+      "meaning": "to sing or chant",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "yora",
+      "part_of_speech": "noun",
+      "meaning": "light or sun",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "kibi",
+      "part_of_speech": "adjective",
+      "meaning": "white",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "shinan",
+      "part_of_speech": null,
+      "meaning": "healing or spirit",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "kaya",
+      "part_of_speech": "noun",
+      "meaning": "thought or mind",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "bewa",
+      "part_of_speech": "noun",
+      "meaning": "soul or spirit",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "kakinra",
+      "part_of_speech": "verb",
+      "meaning": "to connect or bridge",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "mato",
+      "part_of_speech": "noun",
+      "meaning": "body",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "ashonira",
+      "part_of_speech": "verb",
+      "meaning": "to sing or heal",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "bewai",
+      "part_of_speech": null,
+      "meaning": "soul or spirit",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "ashon",
+      "part_of_speech": "verb",
+      "meaning": "to chant or sing spiritually",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "shamantaana",
+      "part_of_speech": null,
+      "meaning": "shamanic or spiritual chanting",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "nato",
+      "part_of_speech": "noun",
+      "meaning": "word or language",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "bokaya",
+      "part_of_speech": "verb",
+      "meaning": "to heal or work",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "maton",
+      "part_of_speech": "noun",
+      "meaning": "body",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "meabo",
+      "part_of_speech": "verb",
+      "meaning": "to heal",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "sowa",
+      "part_of_speech": "noun",
+      "meaning": "inside or interior",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "bain",
+      "part_of_speech": "noun",
+      "meaning": "heart or interior",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "pariban",
+      "part_of_speech": "verb",
+      "meaning": "to cleanse or purify",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "josho",
+      "part_of_speech": "verb",
+      "meaning": "to wash or clean",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "min",
+      "part_of_speech": "verb",
+      "meaning": "to think or see",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "winkash",
+      "part_of_speech": "verb",
+      "meaning": "to have seen or witnessed",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "boribi",
+      "part_of_speech": null,
+      "meaning": "sadness or sorrow",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "chorro",
+      "part_of_speech": "interjection",
+      "meaning": "a repeated chant or healing sound",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "shamankin",
+      "part_of_speech": null,
+      "meaning": "shamanic healing",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "noyarao",
+      "part_of_speech": null,
+      "meaning": "Noyarao spirit entity",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "torribo",
+      "part_of_speech": "verb",
+      "meaning": "to connect or link",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "chanka",
+      "part_of_speech": "noun",
+      "meaning": "divine or sacred",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "nira",
+      "part_of_speech": "noun",
+      "meaning": "sacred or divine",
+      "sources": [
+        "icaros:p11"
+      ]
+    },
+    {
+      "shipibo": "kate yonpariban",
+      "part_of_speech": "noun",
+      "meaning": "opening/protection/defense",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "chonka",
+      "part_of_speech": "noun",
+      "meaning": "hill",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "neshba",
+      "part_of_speech": "noun",
+      "meaning": "ocean",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "rios tsontarobokan",
+      "part_of_speech": null,
+      "meaning": "soldiers of God",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "nete angeribokan",
+      "part_of_speech": null,
+      "meaning": "holy angels",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "chita tsontarobokan",
+      "part_of_speech": null,
+      "meaning": "godly soldiers",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "nete ori ribikan",
+      "part_of_speech": null,
+      "meaning": "with day",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "yame ori ribikan",
+      "part_of_speech": null,
+      "meaning": "with night",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "jene ori ribikan",
+      "part_of_speech": null,
+      "meaning": "with water",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "nai ori ribikan",
+      "part_of_speech": null,
+      "meaning": "with the skies",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "nocon ronin paoti",
+      "part_of_speech": null,
+      "meaning": "I wear my snake around my neck",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "jawen jaweki bokan",
+      "part_of_speech": null,
+      "meaning": "bullet-proof vest",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "impanima yonbano",
+      "part_of_speech": null,
+      "meaning": "utility belt",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "merontama yonbano",
+      "part_of_speech": null,
+      "meaning": "demons have an appearance",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "yoshinbo ribi kaya",
+      "part_of_speech": null,
+      "meaning": "that provokes fear",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "nete espadakaya",
+      "part_of_speech": null,
+      "meaning": "my swords",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "kene espadakaya",
+      "part_of_speech": null,
+      "meaning": "that have designs",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "kana rera kamaya",
+      "part_of_speech": null,
+      "meaning": "that shoot lightning",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "coros ayontaana",
+      "part_of_speech": null,
+      "meaning": "are placed in a cross in front of me",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "chanka nira bewai",
+      "part_of_speech": null,
+      "meaning": "and I activate them with the words of my song",
+      "sources": [
+        "icaros:p12"
+      ]
+    },
+    {
+      "shipibo": "nocon yora meabo",
+      "part_of_speech": null,
+      "meaning": "when in trouble, crossed, being attacked etc",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "rami boribi",
+      "part_of_speech": null,
+      "meaning": "the bad connections (or things)",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "keyo aketabano",
+      "part_of_speech": null,
+      "meaning": "I remove them",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "nocon shinan meabi",
+      "part_of_speech": null,
+      "meaning": "inside my body",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "sowa sowa bokinra",
+      "part_of_speech": null,
+      "meaning": "the bad connections",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "nocon joi mearanoa",
+      "part_of_speech": null,
+      "meaning": "inside my mind",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "keyo aketabano",
+      "part_of_speech": null,
+      "meaning": "I am cleaning and taking away",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "nocon pae mearanko",
+      "part_of_speech": null,
+      "meaning": "my mareaicion",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "rami kano kanota",
+      "part_of_speech": null,
+      "meaning": "the bad things I am experiencing (in my mareaicion)",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "ocha nete kanoya",
+      "part_of_speech": null,
+      "meaning": "the world of sins",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "sowa aketanara",
+      "part_of_speech": null,
+      "meaning": "I purify all these",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "shinan shaba ayonban",
+      "part_of_speech": null,
+      "meaning": "I elevate these thought forms",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "tsinki aketanara",
+      "part_of_speech": null,
+      "meaning": "join them together",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "keya aketanara",
+      "part_of_speech": null,
+      "meaning": "raise them up (to the divine)",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "rios kibi kanban",
+      "part_of_speech": null,
+      "meaning": "bridge them to God",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "kano kano shamani",
+      "part_of_speech": null,
+      "meaning": "and solidify this connection",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "nocon ocha kanota",
+      "part_of_speech": null,
+      "meaning": "cleaning/fixing your diet",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "ocha niwe kanota",
+      "part_of_speech": null,
+      "meaning": "the line of my diet sins",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "sowa aketabano",
+      "part_of_speech": null,
+      "meaning": "cleaning and taking away",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "sowa sowa bokinra",
+      "part_of_speech": null,
+      "meaning": "the airs of these sins",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "noyarao riosbo",
+      "part_of_speech": null,
+      "meaning": "the Gods of Noyarao",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "rios yoka yonbano",
+      "part_of_speech": null,
+      "meaning": "I ask these Gods for",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "ani perdon netebi",
+      "part_of_speech": null,
+      "meaning": "a great wealth of forgiveness",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "ea entregabano",
+      "part_of_speech": null,
+      "meaning": "to be given to me",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "ocha niwe kanota",
+      "part_of_speech": null,
+      "meaning": "the airs of sin",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "rios jimi chokaban",
+      "part_of_speech": null,
+      "meaning": "I wash them with the blood of God",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "ochaoma jimikan",
+      "part_of_speech": null,
+      "meaning": "blood that is exists beyond sin",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "rios poder bokaya",
+      "part_of_speech": null,
+      "meaning": "with the power of God",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "ja niwe bokaya",
+      "part_of_speech": null,
+      "meaning": "these airs",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "sowa sowa bainban",
+      "part_of_speech": null,
+      "meaning": "I cleanse and purify",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "chorro chorro bainban",
+      "part_of_speech": null,
+      "meaning": "I untie and release them",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "pisha pisha boabano",
+      "part_of_speech": null,
+      "meaning": "and liberate them",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "rios templo bikaya",
+      "part_of_speech": null,
+      "meaning": "the temple of God",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "pani pani mayonshon",
+      "part_of_speech": null,
+      "meaning": "is descending",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "ea yaka yonbano",
+      "part_of_speech": null,
+      "meaning": "I seat myself there",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "yaka yaka shamani",
+      "part_of_speech": null,
+      "meaning": "deeply",
+      "sources": [
+        "icaros:p13"
+      ]
+    },
+    {
+      "shipibo": "rios joni kanoni",
+      "part_of_speech": null,
+      "meaning": "connecting to your diet/healing (icaro title)",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "kano kano shamani",
+      "part_of_speech": null,
+      "meaning": "kano (repetition) shaman",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "jaska raini nanoish",
+      "part_of_speech": null,
+      "meaning": "energy lines/diets",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "mato kano mayonban",
+      "part_of_speech": null,
+      "meaning": "with the kano (song/medicine)",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "jain ribi pikoni",
+      "part_of_speech": null,
+      "meaning": "all of our energy lines",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "pikoni netebo",
+      "part_of_speech": null,
+      "meaning": "energy lines come",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "raka raka baina",
+      "part_of_speech": null,
+      "meaning": "order/arrange arrange",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "mato rawa mayonban",
+      "part_of_speech": null,
+      "meaning": "with the song/medicine",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "shiran yashi namai",
+      "part_of_speech": null,
+      "meaning": "spirit/vision words",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "rawa rawa shamani",
+      "part_of_speech": null,
+      "meaning": "song song shaman",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "jakonira kanoke",
+      "part_of_speech": null,
+      "meaning": "building a bridge/connection",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "maton sama kanota",
+      "part_of_speech": null,
+      "meaning": "with the same song/connection",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "rios kibi kanota",
+      "part_of_speech": null,
+      "meaning": "connecting kibi (power)",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "kanota boriki",
+      "part_of_speech": null,
+      "meaning": "connection/bridge good",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "kanota borikikan",
+      "part_of_speech": null,
+      "meaning": "connections are good",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "noyarao netebi",
+      "part_of_speech": null,
+      "meaning": "gods come/arrive",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "nocon sama parabokan",
+      "part_of_speech": null,
+      "meaning": "boat of the diet",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "jawen shamatibi",
+      "part_of_speech": null,
+      "meaning": "liberation shaman",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "pisha pisha bainban",
+      "part_of_speech": null,
+      "meaning": "vision vision ordering",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "pisha ita bewai",
+      "part_of_speech": null,
+      "meaning": "vision coming/arriving",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "maton yora tibi",
+      "part_of_speech": null,
+      "meaning": "with the song power/medicine",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "pisha pisha bobano",
+      "part_of_speech": null,
+      "meaning": "vision vision opening",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "noyarao rioskan",
+      "part_of_speech": null,
+      "meaning": "gods connecting",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "maton pae kibikan",
+      "part_of_speech": null,
+      "meaning": "with the fire/light good",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "pae nete kibikan",
+      "part_of_speech": null,
+      "meaning": "fire/light come good",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "jawen medicobokan",
+      "part_of_speech": null,
+      "meaning": "plant doctor/healer",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "maton yora tibi",
+      "part_of_speech": null,
+      "meaning": "with the song medicine/power",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "jain kanoshonkaya",
+      "part_of_speech": null,
+      "meaning": "all established/fixed",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "kaya kena yonbano",
+      "part_of_speech": null,
+      "meaning": "work/medicine established/fixed",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "kena ira bewai",
+      "part_of_speech": null,
+      "meaning": "medicine come/arrive",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "nocon iman maguina",
+      "part_of_speech": null,
+      "meaning": "boat/vessel perceive/understand",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "kaya nini yonbano",
+      "part_of_speech": null,
+      "meaning": "work small established",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "mana mana shamani",
+      "part_of_speech": null,
+      "meaning": "mana mana shaman/song",
+      "sources": [
+        "icaros:p14"
+      ]
+    },
+    {
+      "shipibo": "jawen yora tibi",
+      "part_of_speech": null,
+      "meaning": "your body",
+      "sources": [
+        "icaros:p15"
+      ]
+    },
+    {
+      "shipibo": "min bira kayaka",
+      "part_of_speech": null,
+      "meaning": "I am singing for you (singular)",
+      "sources": [
+        "icaros:p15"
+      ]
+    },
+    {
+      "shipibo": "rami niwe bokaya",
+      "part_of_speech": null,
+      "meaning": "and your bad airs",
+      "sources": [
+        "icaros:p15"
+      ]
+    },
+    {
+      "shipibo": "biyonabo rikikan",
+      "part_of_speech": null,
+      "meaning": "that you have gathered to yourself",
+      "sources": [
+        "icaros:p15"
+      ]
+    },
+    {
+      "shipibo": "iki ishamankin",
+      "part_of_speech": null,
+      "meaning": "to the things I have seen in your body",
+      "sources": [
+        "icaros:p15"
+      ]
+    },
+    {
+      "shipibo": "yora meabokaya",
+      "part_of_speech": null,
+      "meaning": "untying them",
+      "sources": [
+        "icaros:p15"
+      ]
+    },
+    {
+      "shipibo": "chorro chorro bobano",
+      "part_of_speech": null,
+      "meaning": "removing and terminating them",
+      "sources": [
+        "icaros:p15"
+      ]
+    },
+    {
+      "shipibo": "keyo keyo bainkin",
+      "part_of_speech": null,
+      "meaning": "and deeply purifying them",
+      "sources": [
+        "icaros:p15"
+      ]
+    },
+    {
+      "shipibo": "sowa hain shamankin",
+      "part_of_speech": null,
+      "meaning": null,
+      "sources": [
+        "icaros:p15"
+      ]
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-bo",
+      "meaning": "plural",
+      "usage": "Words ending in -bo denote plural",
+      "examples": [
+        "yorabo",
+        "netebo"
+      ],
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "singular with invitational quality",
+      "usage": "Words ending in -bi indicates singular, yet it has an invitational quality",
+      "examples": [
+        "Riosbi"
+      ],
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "form": "-i",
+      "meaning": "past tense",
+      "usage": "Certain familiar words augmented with the suffix -i indicates the past tense",
+      "examples": [
+        "kanoi",
+        "chokai"
+      ],
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "form": "-shon",
+      "meaning": "commands",
+      "usage": "Words or phrases ending in -shon become commands",
+      "examples": [
+        "shamanshon"
+      ],
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "form": "-mea",
+      "meaning": "from, coming from",
+      "usage": "Words with -mea give the sense of from, coming from",
+      "examples": [],
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "form": "-kin",
+      "meaning": "with the help of",
+      "usage": "Means with the help of",
+      "examples": [],
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "form": "-ban",
+      "meaning": "here and beyond all time",
+      "usage": "Means here and beyond all time",
+      "examples": [],
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "form": "-ke",
+      "meaning": "something that has just happened",
+      "usage": "Something that has just happened",
+      "examples": [
+        "Kanoke"
+      ],
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "form": "-ni",
+      "meaning": "something that has happened a long time ago / already established",
+      "usage": "Something that has happened a long time ago / Already established",
+      "examples": [],
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "form": "-ta",
+      "meaning": "something that is already in place/stuck",
+      "usage": "Something that is already in place/stuck",
+      "examples": [],
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "form": "-ya",
+      "meaning": "with (nouns)",
+      "usage": "With (nouns)",
+      "examples": [],
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "form": "-ma",
+      "meaning": "negation (nouns)",
+      "usage": "Negation (Nouns)",
+      "examples": [
+        "Jakonma"
+      ],
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphasizing what will be done / bringing it to attention",
+      "usage": "Emphasizing what will be done / Bringing it to attention",
+      "examples": [],
+      "sources": [
+        "dictionary:p9"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "Singular (noun)",
+      "usage": "Singular noun marker",
+      "examples": [
+        "Shaman-bi"
+      ],
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "form": "-bo",
+      "meaning": "Plural and present (noun)",
+      "usage": "Plural and present tense marker",
+      "examples": [],
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "form": "-ban",
+      "meaning": "Do",
+      "usage": "Action marker",
+      "examples": [],
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "Doing",
+      "usage": "Progressive action marker",
+      "examples": [],
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "form": "-ya",
+      "meaning": "With",
+      "usage": "Comitative marker",
+      "examples": [],
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "form": "-kin",
+      "meaning": "With help of",
+      "usage": "Instrumental marker",
+      "examples": [],
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "form": "-ke",
+      "meaning": "Recent past",
+      "usage": "Recent past tense",
+      "examples": [],
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "form": "-i",
+      "meaning": "Present",
+      "usage": "Present tense marker",
+      "examples": [],
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "form": "-ni",
+      "meaning": "Long time past",
+      "usage": "Past tense marker",
+      "examples": [],
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "form": "-nike",
+      "meaning": "Ancient past",
+      "usage": "Ancient past tense",
+      "examples": [],
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "form": "-kan",
+      "meaning": "Plural",
+      "usage": "Plural marker",
+      "examples": [],
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "form": "-ta",
+      "meaning": "In place",
+      "usage": "Locative marker",
+      "examples": [],
+      "sources": [
+        "dictionary:p10"
+      ]
+    },
+    {
+      "form": "-yon",
+      "meaning": "Going to do...",
+      "usage": "future tense action word",
+      "examples": [
+        "yonparibano",
+        "yonbano"
+      ],
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "form": "-ake",
+      "meaning": "Doing...",
+      "usage": "present progressive action word",
+      "examples": [
+        "aketanbano"
+      ],
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "form": "-bain",
+      "meaning": "Done with help of...",
+      "usage": "passive/benefactive action word",
+      "examples": [
+        "bainkin",
+        "baintaana"
+      ],
+      "sources": [
+        "dictionary:p11"
+      ]
+    },
+    {
+      "form": "-kin",
+      "meaning": "enhances and deepens whatever action is present",
+      "usage": "general enhancement and deepening suffix",
+      "examples": [
+        "shamankin",
+        "hainkin"
+      ],
+      "sources": [
+        "dictionary:p12"
+      ]
+    }
+  ],
+  "prefixes": []
+}

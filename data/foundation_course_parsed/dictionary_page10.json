@@ -1,0 +1,265 @@
+{
+  "words": [
+    {
+      "shipibo": "Rami",
+      "part_of_speech": "noun",
+      "meaning": "Bad"
+    },
+    {
+      "shipibo": "Kano",
+      "part_of_speech": "noun",
+      "meaning": "Connection"
+    },
+    {
+      "shipibo": "Sowa",
+      "part_of_speech": "verb",
+      "meaning": "Clean"
+    },
+    {
+      "shipibo": "Jakon",
+      "part_of_speech": "noun",
+      "meaning": "Good"
+    },
+    {
+      "shipibo": "Nete",
+      "part_of_speech": "noun",
+      "meaning": "World Visions"
+    },
+    {
+      "shipibo": "Keyo",
+      "part_of_speech": "verb",
+      "meaning": "End"
+    },
+    {
+      "shipibo": "Yabi",
+      "part_of_speech": "noun",
+      "meaning": "Entire"
+    },
+    {
+      "shipibo": "Sama",
+      "part_of_speech": "noun",
+      "meaning": "Dieta"
+    },
+    {
+      "shipibo": "Ponte",
+      "part_of_speech": "verb",
+      "meaning": "Straightening"
+    },
+    {
+      "shipibo": "Yame",
+      "part_of_speech": "noun",
+      "meaning": "Dark"
+    },
+    {
+      "shipibo": "Yora",
+      "part_of_speech": "noun",
+      "meaning": "Body"
+    },
+    {
+      "shipibo": "Pana",
+      "part_of_speech": "verb",
+      "meaning": "Protect Encircle"
+    },
+    {
+      "shipibo": "Metsa",
+      "part_of_speech": "noun",
+      "meaning": "Beautiful"
+    },
+    {
+      "shipibo": "Shinan",
+      "part_of_speech": "noun",
+      "meaning": "Mind"
+    },
+    {
+      "shipibo": "Choka",
+      "part_of_speech": "verb",
+      "meaning": "Wash"
+    },
+    {
+      "shipibo": "Ani",
+      "part_of_speech": "noun",
+      "meaning": "Great"
+    },
+    {
+      "shipibo": "Kaya",
+      "part_of_speech": "noun",
+      "meaning": "Spirit Soul"
+    },
+    {
+      "shipibo": "Keya",
+      "part_of_speech": "verb",
+      "meaning": "Elevate"
+    },
+    {
+      "shipibo": "Coshi",
+      "part_of_speech": "noun",
+      "meaning": "Strong"
+    },
+    {
+      "shipibo": "Niwe",
+      "part_of_speech": "noun",
+      "meaning": "Air Energy"
+    },
+    {
+      "shipibo": "Kepen",
+      "part_of_speech": "verb",
+      "meaning": "Open"
+    },
+    {
+      "shipibo": "Josho",
+      "part_of_speech": "noun",
+      "meaning": "White"
+    },
+    {
+      "shipibo": "Rios",
+      "part_of_speech": "noun",
+      "meaning": "God"
+    },
+    {
+      "shipibo": "Kena",
+      "part_of_speech": "verb",
+      "meaning": "Call"
+    },
+    {
+      "shipibo": "Yancun",
+      "part_of_speech": "noun",
+      "meaning": "Blue / Green"
+    },
+    {
+      "shipibo": "Poro",
+      "part_of_speech": "noun",
+      "meaning": "Stomach"
+    },
+    {
+      "shipibo": "Pisha",
+      "part_of_speech": "verb",
+      "meaning": "Liberate"
+    },
+    {
+      "shipibo": "Wiso",
+      "part_of_speech": "noun",
+      "meaning": "Black"
+    },
+    {
+      "shipibo": "Rao",
+      "part_of_speech": "noun",
+      "meaning": "Plant"
+    },
+    {
+      "shipibo": "Chorro",
+      "part_of_speech": "verb",
+      "meaning": "Un-tie"
+    },
+    {
+      "shipibo": "Shaman-bi",
+      "part_of_speech": "noun",
+      "meaning": "Center of Top of"
+    },
+    {
+      "shipibo": "Pae",
+      "part_of_speech": "noun",
+      "meaning": "Maereci-on"
+    },
+    {
+      "shipibo": "Beba",
+      "part_of_speech": "verb",
+      "meaning": "To travel"
+    },
+    {
+      "shipibo": "Kayaka",
+      "part_of_speech": "noun",
+      "meaning": "Focus on"
+    },
+    {
+      "shipibo": "Kewe",
+      "part_of_speech": "noun",
+      "meaning": "Design"
+    },
+    {
+      "shipibo": "Yasa",
+      "part_of_speech": "verb",
+      "meaning": "To sit"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-bi",
+      "meaning": "Singular (noun)",
+      "usage": "Singular noun marker",
+      "examples": [
+        "Shaman-bi"
+      ]
+    },
+    {
+      "form": "-bo",
+      "meaning": "Plural and present (noun)",
+      "usage": "Plural and present tense marker",
+      "examples": []
+    },
+    {
+      "form": "-ban",
+      "meaning": "Do",
+      "usage": "Action marker",
+      "examples": []
+    },
+    {
+      "form": "-ra",
+      "meaning": "Doing",
+      "usage": "Progressive action marker",
+      "examples": []
+    },
+    {
+      "form": "-ya",
+      "meaning": "With",
+      "usage": "Comitative marker",
+      "examples": []
+    },
+    {
+      "form": "-kin",
+      "meaning": "With help of",
+      "usage": "Instrumental marker",
+      "examples": []
+    },
+    {
+      "form": "-ke",
+      "meaning": "Recent past",
+      "usage": "Recent past tense",
+      "examples": []
+    },
+    {
+      "form": "-i",
+      "meaning": "Present",
+      "usage": "Present tense marker",
+      "examples": []
+    },
+    {
+      "form": "-ni",
+      "meaning": "Long time past",
+      "usage": "Past tense marker",
+      "examples": []
+    },
+    {
+      "form": "-nike",
+      "meaning": "Ancient past",
+      "usage": "Ancient past tense",
+      "examples": []
+    },
+    {
+      "form": "-kan",
+      "meaning": "Plural",
+      "usage": "Plural marker",
+      "examples": []
+    },
+    {
+      "form": "-ta",
+      "meaning": "In place",
+      "usage": "Locative marker",
+      "examples": []
+    }
+  ],
+  "prefixes": [],
+  "page_description": "Grammar reference table for Shipibo-Konibo language showing pronouns, objects, subjects, verbs, and suffixes with English translations and example phrases demonstrating various sentence structures and tense/aspect formations.",
+  "pdf": "dictionary.pdf",
+  "page": 10,
+  "parsed_at": "2026-02-07 15:04:44"
+}

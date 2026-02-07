@@ -89,6 +89,16 @@ def load_basic_course_vocabulary() -> dict:
         return json.load(f)
 
 
+def load_foundation_course_vocabulary() -> dict:
+    """Load vocabulary extracted from foundation_course PDFs (vision API)."""
+    path = DATA_DIR / "foundation_course_vocabulary.json"
+    if not path.exists():
+        print(f"Warning: {path} not found")
+        return {"words": [], "suffixes": [], "prefixes": []}
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
 def merge_icaros(icaro_course: list, foundation_course: list, dry_run: bool = False) -> list[dict]:
     """Merge icaros from both courses, deduplicating by title.
 
@@ -228,8 +238,10 @@ def deduplicate_words(all_words: list[dict]) -> list[dict]:
             for s in word.get("sources", []):
                 if s not in existing["sources"]:
                     existing["sources"].append(s)
-            if len(word.get("meaning", "")) > len(existing.get("meaning", "")):
-                existing["meaning"] = word["meaning"]
+            new_meaning = word.get("meaning") or ""
+            old_meaning = existing.get("meaning") or ""
+            if len(new_meaning) > len(old_meaning):
+                existing["meaning"] = new_meaning
             if word.get("context") and not existing.get("context"):
                 existing["context"] = word["context"]
             if word.get("part_of_speech") and not existing.get("part_of_speech"):
@@ -299,9 +311,26 @@ def main():
         s["sources"] = [f"basic_course:{src}" for src in s.get("sources", [])]
         basic_suffixes.append(s)
 
+    # Load foundation_course vocabulary (from vision extraction)
+    foundation = load_foundation_course_vocabulary()
+    foundation_words = []
+    for w in foundation.get("words", []):
+        if "sources" not in w:
+            w["sources"] = ["foundation_course"]
+        else:
+            w["sources"] = [f"foundation_course:{s}" for s in w["sources"]]
+        foundation_words.append(w)
+    foundation_suffixes = []
+    for s in foundation.get("suffixes", []):
+        if "sources" not in s:
+            s["sources"] = ["foundation_course"]
+        else:
+            s["sources"] = [f"foundation_course:{src}" for src in s["sources"]]
+        foundation_suffixes.append(s)
+
     # Merge all vocabulary
-    all_words = icaro_words + basic_words
-    all_suffixes = icaro_suffixes + basic_suffixes
+    all_words = icaro_words + basic_words + foundation_words
+    all_suffixes = icaro_suffixes + basic_suffixes + foundation_suffixes
 
     words = deduplicate_words(all_words)
     suffixes = deduplicate_suffixes(all_suffixes)
@@ -309,6 +338,7 @@ def main():
     print(f"\nVocabulary merge results:")
     print(f"  From icaros: {len(icaro_words)} words, {len(icaro_suffixes)} suffixes")
     print(f"  From basic_course: {len(basic_words)} words, {len(basic_suffixes)} suffixes")
+    print(f"  From foundation_course: {len(foundation_words)} words, {len(foundation_suffixes)} suffixes")
     print(f"  After dedup: {len(words)} words, {len(suffixes)} suffixes")
 
     # POS breakdown
@@ -345,6 +375,7 @@ def main():
             "total_suffixes": len(suffixes),
             "from_icaros_words": len(icaro_words),
             "from_basic_course_words": len(basic_words),
+            "from_foundation_course_words": len(foundation_words),
         },
         "words": words,
         "suffixes": suffixes,
