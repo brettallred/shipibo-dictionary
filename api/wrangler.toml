@@ -18,3 +18,7 @@ id = "275b2ef8ffd64e56be5d3fd0c413ada7"
 [[r2_buckets]]
 binding = "AUDIO_BUCKET"
 bucket_name = "shipibo-audio"
+
+[[routes]]
+pattern = "api.onanti.com/*"
+zone_name = "onanti.com"

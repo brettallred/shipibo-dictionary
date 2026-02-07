@@ -1,3 +1,4 @@
 <svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="256" cy="256" r="256" fill="red"/>
+  <rect width="512" height="512" rx="96" fill="#7a3333"/>
+  <text x="256" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="320" font-weight="400" fill="#fff">O</text>
 </svg>

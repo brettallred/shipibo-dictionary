@@ -1,9 +1,11 @@
-var CACHE_NAME = "shipibo-v7";
+var CACHE_NAME = "onanti-v1";
 var ASSETS = [
   "/",
   "/index.html",
   "/app.js",
   "/style.css",
+  "/tokens.css",
+  "/kene-patterns.js",
   "/data/entries.json",
   "/manifest.json",
   "/icon.png",
@@ -55,7 +57,7 @@ self.addEventListener("fetch", function (event) {
   }
 
   // For app.js and style.css, use stale-while-revalidate to balance speed and freshness
-  if (event.request.url.endsWith("/app.js") || event.request.url.endsWith("/style.css")) {
+  if (event.request.url.endsWith("/app.js") || event.request.url.endsWith("/style.css") || event.request.url.endsWith("/tokens.css") || event.request.url.endsWith("/kene-patterns.js")) {
     event.respondWith(
       caches.open(CACHE_NAME).then(function (cache) {
         return cache.match(event.request).then(function (cached) {

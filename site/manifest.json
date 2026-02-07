@@ -1,11 +1,11 @@
 {
-  "name": "Shipibo Dictionary",
-  "short_name": "Shipibo",
-  "description": "A bilingual dictionary of the Shipibo language from the Peruvian Amazon",
+  "name": "Onanti",
+  "short_name": "Onanti",
+  "description": "Learn the Shipibo language through sacred icaros",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#e9dfc7",
-  "theme_color": "#e9dfc7",
+  "background_color": "#f9f8f7",
+  "theme_color": "#7a3333",
   "icons": [
     {
       "src": "icon.png",

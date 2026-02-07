@@ -9,7 +9,7 @@
 
   var API_URL = location.hostname === "localhost"
     ? "http://localhost:8787"
-    : "https://shipibo-api.brett-5db.workers.dev";
+    : "https://api.onanti.com";
 
   var GOOGLE_CLIENT_ID = "1031125691626-be1alhdjerga7uicudgmgaghsh3ad6je.apps.googleusercontent.com";
 
@@ -37,15 +37,23 @@
   // --- API Client (token-based auth via localStorage) ---
 
   function getToken() {
-    return localStorage.getItem("shipibo_token");
+    var token = localStorage.getItem("onanti_token");
+    if (!token) {
+      token = localStorage.getItem("shipibo_token");
+      if (token) {
+        localStorage.setItem("onanti_token", token);
+        localStorage.removeItem("shipibo_token");
+      }
+    }
+    return token;
   }
 
   function setToken(token) {
-    localStorage.setItem("shipibo_token", token);
+    localStorage.setItem("onanti_token", token);
   }
 
   function clearToken() {
-    localStorage.removeItem("shipibo_token");
+    localStorage.removeItem("onanti_token");
   }
 
   async function api(path, options) {
@@ -109,11 +117,11 @@
         currentUser = data.user;
       }
     } catch (e) {
-      // OAuth callback failed silently
+      // OAuth exchange failed
     }
 
-    // Redirect to home
-    window.location.href = location.origin + "/#/icaros";
+    // Redirect to home (use replace so back button doesn't return to callback)
+    window.location.replace(location.origin + "/#/");
     return true;
   }
 
@@ -382,6 +390,12 @@
     var nav = document.getElementById("site-nav");
     if (!nav) return;
 
+    // Landing page has its own header — clear nav for unauthenticated users
+    if (!currentUser) {
+      nav.textContent = "";
+      return;
+    }
+
     var links = '<a href="#/" class="site-nav-link">Browse</a>' +
       '<a href="#/icaros" class="site-nav-link">Icaros</a>' +
       '<a href="#/about" class="site-nav-link">About</a>';
@@ -478,6 +492,15 @@
     ICAROS = await fallback.json();
   }
 
+  var dataLoaded = false;
+
+  async function ensureDataLoaded() {
+    if (dataLoaded) return;
+    await Promise.all([loadEntries(), loadIcaros()]);
+    await Promise.all([loadProgress(), loadBookmarks()]);
+    dataLoaded = true;
+  }
+
   async function loadAll() {
     // Check for OAuth callback first — handle it and stop, the redirect will reload the app
     if (window.location.pathname === "/auth/callback" || window.location.pathname === "/auth/callback/") {
@@ -485,15 +508,38 @@
       return;
     }
 
-    await Promise.all([loadEntries(), loadIcaros()]);
     await checkAuth();
-    await Promise.all([loadProgress(), loadBookmarks()]);
+    if (currentUser) {
+      await Promise.all([loadEntries(), loadIcaros()]);
+      await Promise.all([loadProgress(), loadBookmarks()]);
+      dataLoaded = true;
+    }
     route();
   }
 
   // --- Router ---
 
   function route() {
+    // Auth gate: unauthenticated visitors see landing page
+    if (!currentUser) {
+      renderLanding();
+      return;
+    }
+
+    // Ensure data is loaded for authenticated users
+    if (!dataLoaded) {
+      ensureDataLoaded().then(function () { route(); });
+      return;
+    }
+
+    // Restore header/footer and content constraints for authenticated views
+    var header = document.getElementById("site-header");
+    var footer = document.querySelector("footer");
+    if (header) header.style.display = "";
+    if (footer) footer.style.display = "";
+    app.classList.add("max-w-3xl", "mx-auto", "px-6", "py-10");
+    app.style.maxWidth = "";
+
     const hash = location.hash || "#/";
     const [path, qs] = hash.slice(1).split("?");
     const params = new URLSearchParams(qs || "");
@@ -592,7 +638,7 @@
   // --- Views ---
 
   function renderBrowse(letter) {
-    document.title = "Shipibo Dictionary \u2014 Browse";
+    document.title = "Onanti \u2014 Browse";
     var letters = computeLetters();
     var filtered = ENTRIES;
     if (letter) {
@@ -690,7 +736,7 @@
   }
 
   function renderSearch(query) {
-    document.title = "Search \u201c" + query + "\u201d \u2014 Shipibo Dictionary";
+    document.title = "Search \u201c" + query + "\u201d \u2014 Onanti";
     var results = query ? searchEntries(query) : [];
 
     var searchIcon = '<svg class="absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5 text-ink-muted pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /></svg>';
@@ -749,7 +795,7 @@
       return;
     }
 
-    document.title = entry.headword + " \u2014 Shipibo Dictionary";
+    document.title = entry.headword + " \u2014 Onanti";
 
     var html = "";
 
@@ -936,7 +982,7 @@
   }
 
   function renderIcaroIndex() {
-    document.title = "Icaros \u2014 Shipibo Dictionary";
+    document.title = "Icaros \u2014 Onanti";
 
     var html = '<div class="mb-8">' +
       '<a href="#/" class="back-link">' +
@@ -1054,7 +1100,7 @@
       return;
     }
 
-    document.title = icaro.title + " \u2014 Icaros \u2014 Shipibo Dictionary";
+    document.title = icaro.title + " \u2014 Icaros \u2014 Onanti";
     var phrases = icaro.phrases || [];
 
     // Track selected phrase indices (Set-like using object)
@@ -1578,7 +1624,7 @@
   }
 
   function renderReview(params) {
-    document.title = "Review \u2014 Shipibo Dictionary";
+    document.title = "Review \u2014 Onanti";
 
     if (!currentUser) {
       app.innerHTML = '<div class="mb-8">' +
@@ -1775,7 +1821,7 @@
   }
 
   function renderBookmarks() {
-    document.title = "Bookmarks \u2014 Shipibo Dictionary";
+    document.title = "Bookmarks \u2014 Onanti";
 
     if (!currentUser) {
       app.innerHTML = '<div class="mb-8">' +
@@ -1872,7 +1918,7 @@
   // --- Contributions ---
 
   async function renderContributions() {
-    document.title = "My Contributions \u2014 Shipibo Dictionary";
+    document.title = "My Contributions \u2014 Onanti";
 
     if (!currentUser) {
       app.innerHTML = '<div class="mb-8">' +
@@ -1922,7 +1968,7 @@
   }
 
   async function renderContributionEditor(editId) {
-    document.title = (editId ? "Edit" : "New") + " Contribution \u2014 Shipibo Dictionary";
+    document.title = (editId ? "Edit" : "New") + " Contribution \u2014 Onanti";
 
     if (!currentUser) {
       app.innerHTML = '<p class="text-ink-muted">Sign in to contribute.</p>';
@@ -2019,7 +2065,7 @@
   // --- Admin Views ---
 
   async function renderAdminContributions() {
-    document.title = "Admin: Contributions \u2014 Shipibo Dictionary";
+    document.title = "Admin: Contributions \u2014 Onanti";
 
     if (!currentUser || currentUser.role !== "admin") {
       app.innerHTML = '<p class="text-ink-muted">Access denied.</p>';
@@ -2139,7 +2185,7 @@
   }
 
   async function renderAdminFeedback() {
-    document.title = "Admin: Feedback \u2014 Shipibo Dictionary";
+    document.title = "Admin: Feedback \u2014 Onanti";
 
     if (!currentUser || currentUser.role !== "admin") {
       app.innerHTML = '<p class="text-ink-muted">Access denied.</p>';
@@ -2228,7 +2274,7 @@
   }
 
   async function renderAdminAudio() {
-    document.title = "Admin: Audio \u2014 Shipibo Dictionary";
+    document.title = "Admin: Audio \u2014 Onanti";
 
     if (!currentUser || currentUser.role !== "admin") {
       app.innerHTML = '<p class="text-ink-muted">Access denied.</p>';
@@ -2495,7 +2541,7 @@
   }
 
   async function renderChat(sessionId) {
-    document.title = "Chat \u2014 Shipibo Dictionary";
+    document.title = "Chat \u2014 Onanti";
 
     if (!currentUser) {
       app.innerHTML = '<div class="mb-8">' +
@@ -2618,19 +2664,97 @@
     });
   }
 
+  // --- Landing Page ---
+
+  function renderLanding() {
+    document.title = "Onanti — Learn the Shipibo Language";
+
+    // Hide header/footer, remove content width constraint and padding
+    var header = document.getElementById("site-header");
+    var footer = document.querySelector("footer");
+    if (header) header.style.display = "none";
+    if (footer) footer.style.display = "none";
+    app.classList.remove("max-w-3xl", "mx-auto", "px-6", "py-10");
+    app.style.maxWidth = "none";
+
+    var authUrl = getGoogleAuthUrl();
+
+    // Build diamond grid pattern as data URI for background
+    var patternSvg = KENE_PATTERNS.diamondGrid;
+    var patternDataUri = "data:image/svg+xml," + encodeURIComponent(patternSvg.replace('currentColor', '#d09e9e'));
+
+    // Zigzag divider as repeating background
+    var zigzagDataUri = "data:image/svg+xml," + encodeURIComponent(KENE_PATTERNS.zigzag.replace(/currentColor/g, '#7a3333'));
+
+    // All content below is static — no user-supplied values
+    var html =
+      // Hero
+      '<section class="landing-hero">' +
+        '<div class="landing-hero-pattern" style="background-image:url(\'' + patternDataUri + '\')"></div>' +
+        '<div class="landing-hero-content">' +
+          '<h1 class="landing-title">Onanti</h1>' +
+          '<p class="landing-subtitle">Learn the Shipibo language through sacred icaros</p>' +
+          '<a href="' + esc(authUrl) + '" class="landing-cta">' +
+            '<svg width="20" height="20" viewBox="0 0 48 48" style="display:inline-block;vertical-align:middle;margin-right:8px"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.9 33.1 29.4 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.2-2.7-.4-3.9z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.5 15.5 18.8 12 24 12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.4 0-9.9-3.5-11.5-8.3l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.1-4.1 5.5l6.2 5.2C36.7 39.3 44 34 44 24c0-1.3-.2-2.7-.4-3.9z"/></svg>' +
+            'Sign in with Google' +
+          '</a>' +
+        '</div>' +
+      '</section>' +
+      // Kene divider
+      '<div class="landing-divider" style="background-image:url(\'' + zigzagDataUri + '\')"></div>' +
+      // Features
+      '<section class="landing-features">' +
+        '<h2 class="landing-features-title">Everything you need to learn Shipibo</h2>' +
+        '<div class="landing-features-grid">' +
+          '<div class="landing-feature-card">' +
+            '<div class="landing-feature-icon"><svg width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/></svg></div>' +
+            '<h3 class="landing-feature-name">Dictionary</h3>' +
+            '<p class="landing-feature-desc">Explore 1,000+ Shipibo words with English and Spanish definitions</p>' +
+          '</div>' +
+          '<div class="landing-feature-card">' +
+            '<div class="landing-feature-icon"><svg width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 1 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163Zm0 0V4.103A3.75 3.75 0 0 0 15.75 8.1l-8.5 2.429m0 0v5.69a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 1 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 7.25 12.22Z"/></svg></div>' +
+            '<h3 class="landing-feature-name">Icaros</h3>' +
+            '<p class="landing-feature-desc">Learn traditional healing songs with line-by-line translations</p>' +
+          '</div>' +
+          '<div class="landing-feature-card">' +
+            '<div class="landing-feature-icon"><svg width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a23.54 23.54 0 0 0-2.688 6.413A48.427 48.427 0 0 1 12 23.25a48.44 48.44 0 0 1 8.429-3.69A23.54 23.54 0 0 0 17.74 13.15M4.26 10.147A48.37 48.37 0 0 1 12 8.25a48.37 48.37 0 0 1 7.74 1.897m-15.48 0c.181-.855.407-1.692.673-2.51m14.134 2.51c-.182-.855-.408-1.692-.674-2.51m0 0A23.901 23.901 0 0 0 12 3.75a23.9 23.9 0 0 0-7.06 3.89"/></svg></div>' +
+            '<h3 class="landing-feature-name">Spaced Repetition</h3>' +
+            '<p class="landing-feature-desc">Master vocabulary with SM-2 flashcard review</p>' +
+          '</div>' +
+          '<div class="landing-feature-card">' +
+            '<div class="landing-feature-icon"><svg width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.281 48.281 0 0 0 5.862-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"/></svg></div>' +
+            '<h3 class="landing-feature-name">AI Chat</h3>' +
+            '<p class="landing-feature-desc">Ask questions about Shipibo language and culture</p>' +
+          '</div>' +
+        '</div>' +
+      '</section>' +
+      // Bottom CTA
+      '<section class="landing-bottom-cta">' +
+        '<h2 class="landing-bottom-title">Ready to begin your journey?</h2>' +
+        '<a href="' + esc(authUrl) + '" class="landing-cta">' +
+          '<svg width="20" height="20" viewBox="0 0 48 48" style="display:inline-block;vertical-align:middle;margin-right:8px"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.9 33.1 29.4 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.2-2.7-.4-3.9z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.5 15.5 18.8 12 24 12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.4 0-9.9-3.5-11.5-8.3l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.1-4.1 5.5l6.2 5.2C36.7 39.3 44 34 44 24c0-1.3-.2-2.7-.4-3.9z"/></svg>' +
+          'Sign in with Google' +
+        '</a>' +
+      '</section>';
+
+    // Safe: all content is static, authUrl is escaped via esc()
+    app.textContent = "";
+    app.insertAdjacentHTML("afterbegin", html);
+  }
+
   function renderAbout() {
-    document.title = "About \u2014 Shipibo Dictionary";
+    document.title = "About \u2014 Onanti";
     app.innerHTML = '<div class="mb-8">' +
       '<a href="#/" class="back-link">' +
       '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
       "Back to dictionary</a></div>" +
       '<h1 class="font-display text-5xl text-ink mb-6 tracking-tight font-light">About</h1>' +
       '<div class="space-y-4 text-ink-light leading-relaxed">' +
-      "<p>This dictionary is a bilingual Shipibo\u2013English reference derived from a scanned Shipibo\u2013Spanish dictionary. " +
+      "<p>Onanti is a platform for learning the Shipibo language through a bilingual dictionary and traditional icaros (healing songs). " +
       "Shipibo (Shipibo-Conibo) is an indigenous language spoken by the Shipibo people of the Peruvian Amazon.</p>" +
-      "<p>The original dictionary was digitized using OCR, parsed into structured entries, and translated from Spanish to English. " +
-      "Currently it includes entries from Section A of the source dictionary.</p>" +
-      "<p>This is a living project. More sections and features will be added over time.</p>" +
+      "<p>The dictionary was digitized from a scanned Shipibo\u2013Spanish dictionary using OCR, parsed into structured entries, and translated from Spanish to English. " +
+      "Icaros are presented with line-by-line translations and morphological analysis.</p>" +
+      "<p>Onanti is a living project. More content and features are added over time.</p>" +
       "</div>";
   }
 
