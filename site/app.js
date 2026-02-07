@@ -390,6 +390,7 @@
       links += '<a href="#/bookmarks" class="site-nav-link">Bookmarks</a>';
       links += '<a href="#/review" class="site-nav-link">Review</a>';
       links += '<a href="#/contributions" class="site-nav-link">Contribute</a>';
+      links += '<a href="#/chat" class="site-nav-link">Chat</a>';
       if (currentUser.role === "admin") {
         links += '<a href="#/admin/feedback" class="site-nav-link">Admin</a>';
       }
@@ -486,6 +487,11 @@
       renderAdminAudio();
     } else if (path === "/admin/contributions") {
       renderAdminContributions();
+    } else if (path === "/chat") {
+      renderChat(null);
+    } else if (path.match(/^\/chat\/[a-f0-9-]+$/)) {
+      var chatSid = path.split("/")[2];
+      renderChat(chatSid);
     } else if (path === "/icaros") {
       renderIcaroIndex();
     } else if (path.match(/^\/icaro\/\d+\/learn$/)) {
@@ -2245,6 +2251,298 @@
           badges[1].className = "badge feedback-status-" + status;
         }
         btn.disabled = false;
+      });
+    });
+  }
+
+  // --- Chat ---
+
+  var chatCurrentSessionId = null;
+  var chatMessages = []; // { role, content }
+  var chatSessions = [];
+  var chatSending = false;
+
+  function escChat(str) {
+    if (!str) return "";
+    // Basic markdown: **bold**, *italic*, `code`, ```code blocks```, newlines
+    var s = esc(str);
+    // Code blocks
+    s = s.replace(/```([\s\S]*?)```/g, '<pre class="chat-code-block">$1</pre>');
+    // Inline code
+    s = s.replace(/`([^`]+)`/g, '<code class="chat-code-inline">$1</code>');
+    // Bold
+    s = s.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    // Italic
+    s = s.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    // Line breaks
+    s = s.replace(/\n/g, '<br>');
+    return s;
+  }
+
+  function chatMessageHTML(msg) {
+    var cls = msg.role === "user" ? "chat-msg chat-msg-user" : "chat-msg chat-msg-assistant";
+    return '<div class="' + cls + '">' +
+      '<div class="chat-msg-content">' + escChat(msg.content) + '</div>' +
+      '</div>';
+  }
+
+  function buildChatContext() {
+    // Build context from dictionary entries that match recent messages
+    var context = {};
+
+    // Search for relevant dictionary entries from the last user message
+    var lastUserMsg = null;
+    for (var i = chatMessages.length - 1; i >= 0; i--) {
+      if (chatMessages[i].role === "user") { lastUserMsg = chatMessages[i].content; break; }
+    }
+
+    if (lastUserMsg && ENTRIES.length) {
+      var words = lastUserMsg.toLowerCase().split(/\s+/);
+      var matchedEntries = [];
+      ENTRIES.forEach(function (entry) {
+        var hw = entry.headword.toLowerCase();
+        for (var w = 0; w < words.length; w++) {
+          if (words[w].length > 2 && (hw.includes(words[w]) || words[w].includes(hw))) {
+            matchedEntries.push({
+              headword: entry.headword,
+              part_of_speech: entry.part_of_speech,
+              definitions_english: entry.definitions_english,
+              examples: entry.examples ? entry.examples.slice(0, 2).map(function (ex) {
+                return { shipibo: ex.shipibo, english: ex.english };
+              }) : []
+            });
+            break;
+          }
+        }
+      });
+      if (matchedEntries.length > 0) {
+        context.entries = matchedEntries.slice(0, 10);
+      }
+    }
+
+    return Object.keys(context).length > 0 ? context : undefined;
+  }
+
+  async function sendChatMessage(message) {
+    if (chatSending || !message.trim()) return;
+    chatSending = true;
+
+    // Add user message to UI immediately
+    chatMessages.push({ role: "user", content: message });
+    updateChatMessages();
+
+    // Show typing indicator
+    var typingEl = document.getElementById("chat-typing");
+    if (typingEl) typingEl.classList.remove("hidden");
+
+    var sendBtn = document.getElementById("chat-send-btn");
+    if (sendBtn) sendBtn.disabled = true;
+
+    var context = buildChatContext();
+
+    var data = await api("/api/chat", {
+      method: "POST",
+      body: {
+        message: message,
+        sessionId: chatCurrentSessionId,
+        context: context
+      }
+    });
+
+    if (typingEl) typingEl.classList.add("hidden");
+
+    if (data) {
+      if (!chatCurrentSessionId && data.sessionId) {
+        chatCurrentSessionId = data.sessionId;
+        // Update URL without re-rendering
+        history.replaceState(null, "", "#/chat/" + chatCurrentSessionId);
+      }
+      chatMessages.push({ role: "assistant", content: data.response });
+    } else {
+      chatMessages.push({ role: "assistant", content: "Sorry, I couldn't get a response. Please try again." });
+    }
+
+    chatSending = false;
+    if (sendBtn) sendBtn.disabled = false;
+    updateChatMessages();
+  }
+
+  function updateChatMessages() {
+    var container = document.getElementById("chat-messages");
+    if (!container) return;
+    var html = "";
+    chatMessages.forEach(function (msg) {
+      html += chatMessageHTML(msg);
+    });
+    if (html === "") {
+      html = '<div class="chat-empty">' +
+        '<p class="text-ink-muted text-lg mb-2">Ask about Shipibo language, icaros, or culture</p>' +
+        '<div class="chat-suggestions">' +
+        '<button class="chat-suggestion" data-msg="What does the word \'joni\' mean in Shipibo?">What does "joni" mean?</button>' +
+        '<button class="chat-suggestion" data-msg="Can you explain what icaros are and their significance in Shipibo culture?">What are icaros?</button>' +
+        '<button class="chat-suggestion" data-msg="How does verb conjugation work in Shipibo?">Shipibo verb conjugation</button>' +
+        '</div>' +
+        '</div>';
+    }
+    container.innerHTML = html;
+    container.scrollTop = container.scrollHeight;
+
+    // Wire suggestion buttons
+    container.querySelectorAll(".chat-suggestion").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var msg = btn.getAttribute("data-msg");
+        var input = document.getElementById("chat-input");
+        if (input) input.value = msg;
+        sendChatMessage(msg);
+      });
+    });
+  }
+
+  async function loadChatSessions() {
+    var data = await api("/api/chat/sessions");
+    if (data && data.sessions) {
+      chatSessions = data.sessions;
+    }
+  }
+
+  async function loadChatHistory(sessionId) {
+    var data = await api("/api/chat/sessions/" + sessionId);
+    if (data && data.messages) {
+      chatMessages = data.messages.map(function (m) {
+        return { role: m.role, content: m.content };
+      });
+    }
+  }
+
+  async function deleteChatSession(sessionId) {
+    await api("/api/chat/sessions/" + sessionId, { method: "DELETE" });
+    if (chatCurrentSessionId === sessionId) {
+      chatCurrentSessionId = null;
+      chatMessages = [];
+    }
+    location.hash = "#/chat";
+  }
+
+  async function renderChat(sessionId) {
+    document.title = "Chat \u2014 Shipibo Dictionary";
+
+    if (!currentUser) {
+      app.innerHTML = '<div class="mb-8">' +
+        '<a href="#/" class="back-link">' +
+        '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+        'Back to dictionary</a></div>' +
+        '<p class="text-ink-muted">Sign in to use the AI chat.</p>';
+      return;
+    }
+
+    app.innerHTML = '<p class="text-ink-muted">Loading chat...</p>';
+
+    await loadChatSessions();
+
+    if (sessionId) {
+      chatCurrentSessionId = sessionId;
+      await loadChatHistory(sessionId);
+    } else {
+      chatCurrentSessionId = null;
+      chatMessages = [];
+    }
+
+    var html = '<div class="chat-layout">';
+
+    // Sidebar
+    html += '<div class="chat-sidebar">';
+    html += '<button class="chat-new-btn" id="chat-new-btn">+ New Chat</button>';
+    if (chatSessions.length > 0) {
+      html += '<div class="chat-session-list">';
+      chatSessions.forEach(function (s) {
+        var active = s.id === chatCurrentSessionId ? " chat-session-active" : "";
+        html += '<div class="chat-session-item' + active + '" data-sid="' + s.id + '">';
+        html += '<div class="chat-session-preview">' + esc(s.lastMessage) + '</div>';
+        html += '<button class="chat-session-delete" data-del-sid="' + s.id + '" title="Delete">&times;</button>';
+        html += '</div>';
+      });
+      html += '</div>';
+    }
+    html += '</div>';
+
+    // Main chat area
+    html += '<div class="chat-main">';
+    html += '<div class="chat-messages" id="chat-messages"></div>';
+    html += '<div class="chat-typing hidden" id="chat-typing">' +
+      '<span class="chat-typing-dot"></span>' +
+      '<span class="chat-typing-dot"></span>' +
+      '<span class="chat-typing-dot"></span>' +
+      '</div>';
+    html += '<div class="chat-input-area">';
+    html += '<textarea class="chat-input" id="chat-input" placeholder="Ask about Shipibo language, icaros, or culture..." rows="1"></textarea>';
+    html += '<button class="chat-send-btn" id="chat-send-btn">' +
+      '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>' +
+      '</button>';
+    html += '</div>';
+    html += '</div>';
+
+    html += '</div>';
+
+    app.innerHTML = html;
+    updateChatMessages();
+
+    // Wire events
+    var input = document.getElementById("chat-input");
+    var sendBtn = document.getElementById("chat-send-btn");
+
+    if (input) {
+      input.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" && !e.shiftKey) {
+          e.preventDefault();
+          var msg = input.value.trim();
+          if (msg) {
+            input.value = "";
+            input.style.height = "auto";
+            sendChatMessage(msg);
+          }
+        }
+      });
+      // Auto-resize textarea
+      input.addEventListener("input", function () {
+        input.style.height = "auto";
+        input.style.height = Math.min(input.scrollHeight, 120) + "px";
+      });
+    }
+
+    if (sendBtn) {
+      sendBtn.addEventListener("click", function () {
+        var msg = input.value.trim();
+        if (msg) {
+          input.value = "";
+          input.style.height = "auto";
+          sendChatMessage(msg);
+        }
+      });
+    }
+
+    // New chat
+    var newBtn = document.getElementById("chat-new-btn");
+    if (newBtn) {
+      newBtn.addEventListener("click", function () {
+        location.hash = "#/chat";
+      });
+    }
+
+    // Session clicks
+    app.querySelectorAll(".chat-session-item").forEach(function (el) {
+      el.addEventListener("click", function (e) {
+        if (e.target.classList.contains("chat-session-delete")) return;
+        var sid = el.getAttribute("data-sid");
+        location.hash = "#/chat/" + sid;
+      });
+    });
+
+    // Delete session
+    app.querySelectorAll(".chat-session-delete").forEach(function (btn) {
+      btn.addEventListener("click", function (e) {
+        e.stopPropagation();
+        var sid = btn.getAttribute("data-del-sid");
+        deleteChatSession(sid);
       });
     });
   }

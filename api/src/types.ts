@@ -11,6 +11,7 @@ export type Env = {
     SESSION_SECRET: string;
     ENVIRONMENT: string;
     APP_URL: string;
+    ANTHROPIC_API_KEY: string;
   };
   Variables: {
     db: DrizzleD1Database<typeof schema>;
