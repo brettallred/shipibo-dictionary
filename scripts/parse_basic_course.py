@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Step 2: Parse vocabulary from Course 2 raw text using Claude API.
+Parse vocabulary from Basic Course (Koshinete) raw text using Claude API.
 
 For each PDF's extracted text, calls Claude to identify words, suffixes,
 and prefixes with their definitions. Saves per-file results for resumability.
 
 Usage:
-    python scripts/parse_course2_vocabulary.py --module 1
-    python scripts/parse_course2_vocabulary.py --module 1 --restart  # ignore cached results
+    python scripts/parse_basic_course.py --module 1
+    python scripts/parse_basic_course.py --module 1 --restart
 """
 
 import argparse
@@ -23,13 +23,13 @@ import anthropic
 
 BASE_DIR = Path(__file__).parent.parent
 DATA_DIR = BASE_DIR / "data"
-PARSED_DIR = DATA_DIR / "course_2_parsed"
+PARSED_DIR = DATA_DIR / "basic_course_parsed"
 
 load_dotenv(BASE_DIR / ".env")
 
 PARSE_PROMPT = """You are extracting Shipibo language vocabulary from a Koshinete course PDF.
 
-The PDF is from Course 2 of a Shipibo-Konibo language course focused on icaro (sacred healing song) composition. The filename is: {filename}
+The PDF is from the Basic Course (Koshinete) — a Shipibo-Konibo language course focused on icaro (sacred healing song) composition. The filename is: {filename}
 
 Extract ALL vocabulary items from this text. Include:
 
@@ -123,7 +123,7 @@ def parse_with_claude(client: anthropic.Anthropic, filename: str, text: str) -> 
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Parse Course 2 vocabulary with Claude API")
+    parser = argparse.ArgumentParser(description="Parse Basic Course vocabulary with Claude API")
     parser.add_argument("--module", type=int, required=True, choices=[1, 2, 3])
     parser.add_argument("--restart", action="store_true", help="Ignore cached per-file results")
     args = parser.parse_args()
@@ -134,10 +134,10 @@ def main():
         sys.exit(1)
 
     # Load raw text
-    raw_file = DATA_DIR / f"course_2_module{args.module}_raw.json"
+    raw_file = DATA_DIR / f"basic_course_module{args.module}_raw.json"
     if not raw_file.exists():
         print(f"Raw text not found: {raw_file}")
-        print("Run extract_course2.py --module {args.module} first")
+        print(f"Run extract_basic_course.py --module {args.module} first")
         sys.exit(1)
 
     with open(raw_file, "r", encoding="utf-8") as f:
@@ -216,7 +216,7 @@ def main():
     print(f"  Prefixes: {total_prefixes}")
     print(f"  Skipped (no text): {skipped}")
     print(f"\nPer-file results saved in {PARSED_DIR}/")
-    print(f"Run merge_course2.py --module {args.module} to deduplicate and produce final output.")
+    print(f"Run merge_basic_course.py --module {args.module} to deduplicate and produce final output.")
 
 
 if __name__ == "__main__":

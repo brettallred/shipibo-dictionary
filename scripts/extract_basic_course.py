@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Step 1: Extract raw text from Course 2 PDFs using pdftotext.
+Extract raw text from Basic Course (Koshinete) PDFs using pdftotext.
 
 Usage:
-    python scripts/extract_course2.py --module 1
-    python scripts/extract_course2.py --module 2
-    python scripts/extract_course2.py --module 3
+    python scripts/extract_basic_course.py --module 1
+    python scripts/extract_basic_course.py --module 2
+    python scripts/extract_basic_course.py --module 3
 """
 
 import argparse
@@ -17,7 +17,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent
 DATA_DIR = BASE_DIR / "data"
-COURSE_DIR = DATA_DIR / "course_2"
+COURSE_DIR = BASE_DIR / "courses" / "basic_course"
 
 MODULE_DIRS = {
     1: COURSE_DIR / "Module 1",
@@ -48,7 +48,7 @@ def get_section_number(filename: str) -> str:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Extract text from Course 2 PDFs")
+    parser = argparse.ArgumentParser(description="Extract text from Basic Course PDFs")
     parser.add_argument("--module", type=int, required=True, choices=[1, 2, 3])
     args = parser.parse_args()
 
@@ -86,7 +86,6 @@ def main():
             low_text_files.append((pdf.name, char_count))
             print(f"    -> Low text: {char_count} chars")
         else:
-            # Show first line of meaningful content
             first_line = ""
             for line in clean.split("\n"):
                 line = line.strip()
@@ -96,10 +95,9 @@ def main():
             if first_line:
                 print(f"    -> {char_count} chars: {first_line}...")
 
-    # Save output
-    output_file = DATA_DIR / f"course_2_module{args.module}_raw.json"
+    output_file = DATA_DIR / f"basic_course_module{args.module}_raw.json"
     output = {
-        "source": "course_2",
+        "source": "basic_course",
         "module": args.module,
         "extracted_at": datetime.now().strftime("%Y-%m-%d"),
         "file_count": len(results),
@@ -111,7 +109,6 @@ def main():
 
     print(f"\nSaved to {output_file}")
 
-    # Summary
     total_chars = sum(r["char_count"] for r in results)
     good_files = [r for r in results if r["char_count"] >= 200]
     print(f"\nSummary:")

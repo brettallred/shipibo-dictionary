@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Merge Koshi Nete icaros (existing) with Ayahuasca Foundation icaros (new).
+Merge Koshinete icaros (existing) with Ayahuasca Foundation icaros (Don Enrique).
 
 Adds source/description/note fields to all icaros, assigns sequential IDs,
 and writes merged output to both data/icaros.json and site/data/icaros.json.

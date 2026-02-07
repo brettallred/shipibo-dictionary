@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-Step 3: Merge and deduplicate parsed Course 2 vocabulary into module-level output.
+Step 3: Merge and deduplicate parsed Basic Course vocabulary into module-level output.
 
 Combines per-file parsed results, deduplicates words and suffixes,
 and produces the final module vocabulary JSON.
 
 Usage:
-    python scripts/merge_course2.py --module 1
-    python scripts/merge_course2.py --module 1 --module 2 --module 3  # merge all
-    python scripts/merge_course2.py --all  # merge all modules into one file
+    python scripts/merge_basic_course.py --module 1
+    python scripts/merge_basic_course.py --module 1 --module 2 --module 3  # merge all
+    python scripts/merge_basic_course.py --all  # merge all modules into one file
 """
 
 import argparse
@@ -20,7 +20,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent
 DATA_DIR = BASE_DIR / "data"
-PARSED_DIR = DATA_DIR / "course_2_parsed"
+PARSED_DIR = DATA_DIR / "basic_course_parsed"
 
 
 def load_parsed_files(module: int) -> list[dict]:
@@ -179,7 +179,7 @@ def merge_module(module: int) -> dict:
     prefixes = deduplicate_prefixes(all_prefixes)
 
     return {
-        "source": "course_2",
+        "source": "basic_course",
         "module": module,
         "extracted_at": datetime.now().strftime("%Y-%m-%d"),
         "stats": {
@@ -235,7 +235,7 @@ def print_summary(data: dict):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Merge and deduplicate Course 2 vocabulary")
+    parser = argparse.ArgumentParser(description="Merge and deduplicate Basic Course vocabulary")
     parser.add_argument("--module", type=int, action="append", choices=[1, 2, 3],
                         help="Module(s) to merge (can specify multiple)")
     parser.add_argument("--all", action="store_true", help="Merge all 3 modules into one file")
@@ -254,7 +254,7 @@ def main():
         if data is None:
             continue
 
-        output_file = DATA_DIR / f"course_2_module{module}_vocabulary.json"
+        output_file = DATA_DIR / f"basic_course_module{module}_vocabulary.json"
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -269,7 +269,7 @@ def main():
         total_files = 0
 
         for module in [1, 2, 3]:
-            mod_file = DATA_DIR / f"course_2_module{module}_vocabulary.json"
+            mod_file = DATA_DIR / f"basic_course_module{module}_vocabulary.json"
             if not mod_file.exists():
                 print(f"Warning: {mod_file} not found, skipping")
                 continue
@@ -292,7 +292,7 @@ def main():
         prefixes = deduplicate_prefixes(all_prefixes)
 
         combined = {
-            "source": "course_2",
+            "source": "basic_course",
             "module": "all",
             "extracted_at": datetime.now().strftime("%Y-%m-%d"),
             "stats": {
@@ -309,7 +309,7 @@ def main():
             "prefixes": prefixes,
         }
 
-        combined_file = DATA_DIR / "course_2_vocabulary.json"
+        combined_file = DATA_DIR / "basic_course_vocabulary.json"
         with open(combined_file, "w", encoding="utf-8") as f:
             json.dump(combined, f, ensure_ascii=False, indent=2)
 
