@@ -137,6 +137,15 @@ audio.delete("/:id", requireAuth, async (c) => {
   return c.json({ ok: true });
 });
 
+// Admin: list all recordings
+audio.get("/admin/all", requireAdmin, async (c) => {
+  const db = c.get("db");
+  const recordings = await db.query.audioRecordings.findMany({
+    orderBy: (r, { desc }) => [desc(r.createdAt)],
+  });
+  return c.json({ recordings });
+});
+
 // Admin: update status/sort_order
 audio.put("/:id", requireAdmin, async (c) => {
   const db = c.get("db");

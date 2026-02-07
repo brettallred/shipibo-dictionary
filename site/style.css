@@ -1589,6 +1589,84 @@
   .feedback-status-reviewed { background: #dbeafe; color: #1e40af; }
   .feedback-status-resolved { background: #d1fae5; color: #065f46; }
   .feedback-status-dismissed { background: var(--color-earth-200); color: var(--color-ink-muted); }
+  .feedback-status-approved { background: #d1fae5; color: #065f46; }
+  .feedback-status-rejected { background: #fee2e2; color: #991b1b; }
+
+  /* Admin tabs */
+  .admin-tabs {
+    display: flex;
+    gap: 0.5rem;
+    border-bottom: 1px solid var(--color-earth-200);
+    padding-bottom: 0.5rem;
+  }
+  .admin-tab {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.8125rem;
+    color: var(--color-ink-muted);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.15s;
+  }
+  .admin-tab:hover {
+    color: var(--color-ink);
+  }
+  .admin-tab-active {
+    background: var(--color-accent);
+    color: var(--color-linen);
+  }
+  .admin-tab-active:hover {
+    color: var(--color-linen);
+  }
+
+  /* Audio section */
+  .audio-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .audio-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem;
+    border: 1px solid var(--color-earth-200);
+    border-radius: 8px;
+    background: var(--color-linen);
+    flex-wrap: wrap;
+  }
+  .audio-info {
+    display: flex;
+    flex-direction: column;
+    min-width: 8rem;
+  }
+  .audio-singer {
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var(--color-ink);
+  }
+  .audio-bio {
+    font-size: 0.75rem;
+    color: var(--color-ink-muted);
+  }
+  .audio-player {
+    height: 2rem;
+    flex: 1;
+    min-width: 12rem;
+  }
+  .audio-upload-btn {
+    font-size: 0.8125rem;
+    color: var(--color-accent);
+    background: none;
+    border: 1px solid var(--color-accent);
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .audio-upload-btn:hover {
+    background: var(--color-accent);
+    color: var(--color-linen);
+  }
 }
 @property --tw-translate-x {
   syntax: "*";

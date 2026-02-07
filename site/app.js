@@ -474,6 +474,8 @@
       renderReview(params);
     } else if (path === "/admin/feedback") {
       renderAdminFeedback();
+    } else if (path === "/admin/audio") {
+      renderAdminAudio();
     } else if (path === "/icaros") {
       renderIcaroIndex();
     } else if (path.match(/^\/icaro\/\d+\/learn$/)) {
@@ -1104,6 +1106,9 @@
       html += '</tbody></table></div>';
     }
 
+    // Audio section
+    html += '<div class="mt-10" id="audio-section"></div>';
+
     // Nav to prev/next icaro
     html += '<div class="mt-10 pt-6 border-t border-earth-200 flex justify-between">';
     if (id > 1) {
@@ -1296,6 +1301,128 @@
           sections[progress.currentStanzaIdx].scrollIntoView({ behavior: "smooth", block: "center" });
         }, 300);
       }
+    }
+
+    // Load audio recordings asynchronously
+    loadAudioSection(id);
+  }
+
+  async function loadAudioSection(icaroId) {
+    var container = document.getElementById("audio-section");
+    if (!container) return;
+
+    var data;
+    try {
+      var res = await fetch(API_URL + "/api/audio?icaro_id=" + icaroId);
+      data = await res.json();
+    } catch (e) {
+      return; // silent fail — audio is optional
+    }
+
+    var recordings = data && data.recordings ? data.recordings : [];
+
+    var html = '<h2 class="section-label mb-4">Audio Recordings</h2>';
+
+    if (recordings.length === 0) {
+      html += '<p class="text-ink-muted text-sm">No recordings yet.</p>';
+    } else {
+      html += '<div class="audio-list">';
+      recordings.forEach(function (rec) {
+        html += '<div class="audio-item">';
+        html += '<div class="audio-info">';
+        html += '<span class="audio-singer">' + esc(rec.singerName) + '</span>';
+        if (rec.singerBio) {
+          html += '<span class="audio-bio">' + esc(rec.singerBio) + '</span>';
+        }
+        html += '</div>';
+        html += '<audio controls preload="none" class="audio-player">' +
+          '<source src="' + API_URL + '/api/audio/' + rec.id + '/url" type="audio/mpeg">' +
+          '</audio>';
+        html += '</div>';
+      });
+      html += '</div>';
+    }
+
+    // Upload button for logged-in users
+    if (currentUser) {
+      html += '<div class="audio-upload mt-4">';
+      html += '<button class="audio-upload-btn" id="audio-upload-btn">Upload Recording</button>';
+      html += '<div class="audio-upload-form hidden" id="audio-upload-form">';
+      html += '<div class="feedback-field mb-3">';
+      html += '<label class="text-xs text-ink-muted uppercase tracking-wide mb-1">Singer Name</label>';
+      html += '<input type="text" class="feedback-textarea" id="audio-singer" style="padding:0.5rem" placeholder="Name of the singer">';
+      html += '</div>';
+      html += '<div class="feedback-field mb-3">';
+      html += '<label class="text-xs text-ink-muted uppercase tracking-wide mb-1">Singer Bio (optional)</label>';
+      html += '<input type="text" class="feedback-textarea" id="audio-bio" style="padding:0.5rem" placeholder="e.g. Maestro from Pucallpa">';
+      html += '</div>';
+      html += '<div class="feedback-field mb-3">';
+      html += '<label class="text-xs text-ink-muted uppercase tracking-wide mb-1">Audio File (mp3, m4a, wav)</label>';
+      html += '<input type="file" id="audio-file" accept="audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/webm">';
+      html += '</div>';
+      html += '<div class="feedback-actions">';
+      html += '<button class="feedback-cancel-btn" id="audio-cancel">Cancel</button>';
+      html += '<button class="feedback-submit-btn" id="audio-submit">Upload</button>';
+      html += '</div>';
+      html += '</div></div>';
+    }
+
+    container.innerHTML = html;
+
+    // Wire upload form
+    var uploadBtn = document.getElementById("audio-upload-btn");
+    var uploadForm = document.getElementById("audio-upload-form");
+    if (uploadBtn && uploadForm) {
+      uploadBtn.addEventListener("click", function () {
+        uploadBtn.classList.add("hidden");
+        uploadForm.classList.remove("hidden");
+      });
+      document.getElementById("audio-cancel").addEventListener("click", function () {
+        uploadForm.classList.add("hidden");
+        uploadBtn.classList.remove("hidden");
+      });
+      document.getElementById("audio-submit").addEventListener("click", async function () {
+        var singerName = document.getElementById("audio-singer").value.trim();
+        var singerBio = document.getElementById("audio-bio").value.trim();
+        var fileInput = document.getElementById("audio-file");
+        var file = fileInput.files[0];
+
+        if (!singerName || !file) {
+          if (!singerName) document.getElementById("audio-singer").focus();
+          else fileInput.focus();
+          return;
+        }
+
+        var submitBtn = document.getElementById("audio-submit");
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Uploading...";
+
+        var formData = new FormData();
+        formData.append("file", file);
+        formData.append("icaro_id", String(icaroId));
+        formData.append("singer_name", singerName);
+        if (singerBio) formData.append("singer_bio", singerBio);
+
+        try {
+          var token = getToken();
+          var res = await fetch(API_URL + "/api/audio", {
+            method: "POST",
+            headers: token ? { "Authorization": "Bearer " + token } : {},
+            body: formData
+          });
+          if (res.ok) {
+            // Reload audio section
+            loadAudioSection(icaroId);
+          } else {
+            var err = await res.json();
+            submitBtn.textContent = err.error || "Upload failed";
+            submitBtn.disabled = false;
+          }
+        } catch (e) {
+          submitBtn.textContent = "Upload failed";
+          submitBtn.disabled = false;
+        }
+      });
     }
   }
 
@@ -1707,6 +1834,11 @@
       '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
       'Back to dictionary</a></div>';
 
+    html += '<div class="admin-tabs mb-6">' +
+      '<a href="#/admin/feedback" class="admin-tab admin-tab-active">Feedback</a>' +
+      '<a href="#/admin/audio" class="admin-tab">Audio</a>' +
+      '</div>';
+
     html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Feedback Queue</h1>';
     html += '<p class="text-ink-muted text-lg font-light mb-8">' + items.length + ' item' + (items.length !== 1 ? 's' : '') + '</p>';
 
@@ -1761,6 +1893,104 @@
         if (badges.length >= 3) {
           badges[2].textContent = status;
           badges[2].className = "badge feedback-status-" + status;
+        }
+        btn.disabled = false;
+      });
+    });
+  }
+
+  async function renderAdminAudio() {
+    document.title = "Admin: Audio \u2014 Shipibo Dictionary";
+
+    if (!currentUser || currentUser.role !== "admin") {
+      app.innerHTML = '<p class="text-ink-muted">Access denied.</p>';
+      return;
+    }
+
+    app.innerHTML = '<p class="text-ink-muted">Loading recordings...</p>';
+
+    var data = await api("/api/audio/admin/all");
+    if (!data || !data.recordings) {
+      app.innerHTML = '<p class="text-ink-muted">Failed to load recordings.</p>';
+      return;
+    }
+
+    var items = data.recordings;
+
+    var html = '<div class="mb-8">' +
+      '<a href="#/" class="back-link">' +
+      '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+      'Back to dictionary</a></div>';
+
+    html += '<div class="admin-tabs mb-6">' +
+      '<a href="#/admin/feedback" class="admin-tab">Feedback</a>' +
+      '<a href="#/admin/audio" class="admin-tab admin-tab-active">Audio</a>' +
+      '</div>';
+
+    html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Audio Moderation</h1>';
+    html += '<p class="text-ink-muted text-lg font-light mb-8">' + items.length + ' recording' + (items.length !== 1 ? 's' : '') + '</p>';
+
+    if (items.length === 0) {
+      html += '<p class="text-ink-muted">No recordings uploaded yet.</p>';
+      app.innerHTML = html;
+      return;
+    }
+
+    items.forEach(function (rec) {
+      var statusClass = "feedback-status-" + rec.status;
+      var icaro = ICAROS.find(function (ic) { return String(ic.id) === rec.icaroId; });
+      html += '<div class="admin-feedback-item" data-rec-id="' + rec.id + '">';
+      html += '<div class="flex items-center gap-2 mb-2 flex-wrap">';
+      html += '<span class="badge">' + esc(icaro ? icaro.title : "Icaro " + rec.icaroId) + '</span>';
+      html += '<span class="badge ' + statusClass + '">' + esc(rec.status) + '</span>';
+      html += '<span class="text-ink-muted text-xs ml-auto">' + esc(rec.createdAt) + '</span>';
+      html += '</div>';
+      html += '<div class="audio-info mb-2">';
+      html += '<span class="audio-singer">' + esc(rec.singerName) + '</span>';
+      if (rec.singerBio) {
+        html += '<span class="audio-bio">' + esc(rec.singerBio) + '</span>';
+      }
+      html += '</div>';
+      html += '<audio controls preload="none" class="audio-player mb-3">' +
+        '<source src="' + API_URL + '/api/audio/' + rec.id + '/url" type="audio/mpeg">' +
+        '</audio>';
+
+      // Status buttons
+      html += '<div class="admin-feedback-actions">';
+      ["pending", "approved", "rejected"].forEach(function (s) {
+        var active = rec.status === s ? " admin-status-active" : "";
+        html += '<button class="admin-status-btn' + active + '" data-rid="' + rec.id + '" data-status="' + s + '">' +
+          s.charAt(0).toUpperCase() + s.slice(1) + '</button>';
+      });
+      html += '</div>';
+      html += '</div>';
+    });
+
+    app.innerHTML = html;
+    window.scrollTo(0, 0);
+
+    // Wire status buttons
+    app.querySelectorAll(".admin-status-btn[data-rid]").forEach(function (btn) {
+      btn.addEventListener("click", async function () {
+        var rid = btn.getAttribute("data-rid");
+        var status = btn.getAttribute("data-status");
+        btn.disabled = true;
+        var result = await api("/api/audio/" + rid, {
+          method: "PUT",
+          body: { status: status }
+        });
+        if (result && result.error) {
+          btn.textContent = result.error;
+          btn.disabled = false;
+          return;
+        }
+        var itemEl = btn.closest(".admin-feedback-item");
+        itemEl.querySelectorAll(".admin-status-btn").forEach(function (b) { b.classList.remove("admin-status-active"); });
+        btn.classList.add("admin-status-active");
+        var badges = itemEl.querySelectorAll(".badge");
+        if (badges.length >= 2) {
+          badges[1].textContent = status;
+          badges[1].className = "badge feedback-status-" + status;
         }
         btn.disabled = false;
       });
