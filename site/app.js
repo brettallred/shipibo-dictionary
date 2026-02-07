@@ -5,20 +5,246 @@
   let ICAROS = [];
   const app = document.getElementById("app");
 
+  // --- Config ---
+
+  var API_URL = location.hostname === "localhost"
+    ? "http://localhost:8787"
+    : "https://shipibo-api.brett-5db.workers.dev";
+
+  var GOOGLE_CLIENT_ID = "1031125691626-be1alhdjerga7uicudgmgaghsh3ad6je.apps.googleusercontent.com";
+
+  // --- Auth State ---
+
+  var currentUser = null;
+  var userProgress = {}; // keyed by icaro_id
+
+  function getRedirectUri() {
+    return location.origin + "/auth/callback/";
+  }
+
+  function getGoogleAuthUrl() {
+    var params = new URLSearchParams({
+      client_id: GOOGLE_CLIENT_ID,
+      redirect_uri: getRedirectUri(),
+      response_type: "code",
+      scope: "openid email profile",
+      access_type: "offline",
+      prompt: "consent"
+    });
+    return "https://accounts.google.com/o/oauth2/v2/auth?" + params.toString();
+  }
+
+  // --- API Client (token-based auth via localStorage) ---
+
+  function getToken() {
+    return localStorage.getItem("shipibo_token");
+  }
+
+  function setToken(token) {
+    localStorage.setItem("shipibo_token", token);
+  }
+
+  function clearToken() {
+    localStorage.removeItem("shipibo_token");
+  }
+
+  async function api(path, options) {
+    var opts = options || {};
+    var headers = {};
+    var token = getToken();
+    if (token) {
+      headers["Authorization"] = "Bearer " + token;
+    }
+    if (opts.body) {
+      headers["Content-Type"] = "application/json";
+    }
+    var res = await fetch(API_URL + path, {
+      method: opts.method || "GET",
+      headers: headers,
+      body: opts.body ? JSON.stringify(opts.body) : undefined
+    });
+    if (!res.ok && res.status === 401) {
+      currentUser = null;
+      clearToken();
+      renderNav();
+      return null;
+    }
+    return res.json();
+  }
+
+  async function checkAuth() {
+    if (!getToken()) {
+      currentUser = null;
+      renderNav();
+      return;
+    }
+    try {
+      var data = await api("/api/auth/me");
+      if (data && data.user) {
+        currentUser = data.user;
+      } else {
+        currentUser = null;
+        clearToken();
+      }
+    } catch (e) {
+      currentUser = null;
+    }
+    renderNav();
+  }
+
+  async function handleOAuthCallback() {
+    var params = new URLSearchParams(window.location.search);
+    var code = params.get("code");
+    if (!code) return false;
+
+    try {
+      var data = await api("/api/auth/google", {
+        method: "POST",
+        body: { code: code, redirect_uri: getRedirectUri() }
+      });
+      if (data && data.token) {
+        setToken(data.token);
+      }
+      if (data && data.user) {
+        currentUser = data.user;
+      }
+    } catch (e) {
+      // OAuth callback failed silently
+    }
+
+    // Redirect to home
+    window.location.href = location.origin + "/#/icaros";
+    return true;
+  }
+
+  async function logout() {
+    await api("/api/auth/logout", { method: "POST" });
+    clearToken();
+    currentUser = null;
+    userProgress = {};
+    renderNav();
+    route();
+  }
+
+  // --- Progress ---
+
+  async function loadProgress() {
+    if (!currentUser) return;
+    try {
+      var data = await api("/api/progress");
+      if (data && data.progress) {
+        userProgress = {};
+        data.progress.forEach(function (p) {
+          userProgress[p.icaroId] = p;
+        });
+      }
+    } catch (e) {
+      // silent
+    }
+  }
+
+  async function trackIcaro(icaroId, stanzaIdx) {
+    var data = await api("/api/progress/" + icaroId, {
+      method: "PUT",
+      body: { currentStanzaIdx: stanzaIdx || 0 }
+    });
+    if (data && data.progress) {
+      userProgress[icaroId] = data.progress;
+    }
+    return data;
+  }
+
+  async function untrackIcaro(icaroId) {
+    await api("/api/progress/" + icaroId, { method: "DELETE" });
+    delete userProgress[icaroId];
+  }
+
+  async function updateStanzaPosition(icaroId, stanzaIdx) {
+    var data = await api("/api/progress/" + icaroId, {
+      method: "PUT",
+      body: { currentStanzaIdx: stanzaIdx }
+    });
+    if (data && data.progress) {
+      userProgress[icaroId] = data.progress;
+    }
+  }
+
+  // --- Nav Rendering ---
+  // Note: all user-supplied values go through esc() which uses textContent for safe escaping
+
+  function renderNav() {
+    var nav = document.getElementById("site-nav");
+    if (!nav) return;
+
+    var links = '<a href="#/" class="site-nav-link">Browse</a>' +
+      '<a href="#/icaros" class="site-nav-link">Icaros</a>' +
+      '<a href="#/about" class="site-nav-link">About</a>';
+
+    if (currentUser) {
+      links += '<div class="user-menu">' +
+        '<button class="user-menu-btn" id="user-menu-btn">';
+      if (currentUser.avatarUrl) {
+        links += '<img src="' + esc(currentUser.avatarUrl) + '" alt="" class="user-avatar">';
+      } else {
+        links += '<span class="user-avatar-placeholder">' + esc(currentUser.name.charAt(0)) + '</span>';
+      }
+      links += '</button>' +
+        '<div class="user-dropdown hidden" id="user-dropdown">' +
+        '<div class="user-dropdown-name">' + esc(currentUser.name) + '</div>' +
+        '<div class="user-dropdown-email">' + esc(currentUser.email) + '</div>' +
+        '<button class="user-dropdown-logout" id="logout-btn">Sign out</button>' +
+        '</div></div>';
+    } else {
+      links += '<a href="' + getGoogleAuthUrl() + '" class="sign-in-btn">Sign in</a>';
+    }
+
+    // Safe: all dynamic values escaped via esc()
+    nav.textContent = "";
+    nav.insertAdjacentHTML("afterbegin", links);
+
+    // Wire up user menu
+    var menuBtn = document.getElementById("user-menu-btn");
+    var dropdown = document.getElementById("user-dropdown");
+    var logoutBtn = document.getElementById("logout-btn");
+
+    if (menuBtn && dropdown) {
+      menuBtn.addEventListener("click", function (e) {
+        e.stopPropagation();
+        dropdown.classList.toggle("hidden");
+      });
+      document.addEventListener("click", function () {
+        dropdown.classList.add("hidden");
+      });
+    }
+    if (logoutBtn) {
+      logoutBtn.addEventListener("click", function () {
+        logout();
+      });
+    }
+  }
+
   // --- Data ---
 
   async function loadEntries() {
-    const res = await fetch("data/entries.json");
+    const res = await fetch("/data/entries.json");
     ENTRIES = await res.json();
   }
 
   async function loadIcaros() {
-    const res = await fetch("data/icaros.json");
+    const res = await fetch("/data/icaros.json");
     ICAROS = await res.json();
   }
 
   async function loadAll() {
+    // Check for OAuth callback first — handle it and stop, the redirect will reload the app
+    if (window.location.pathname === "/auth/callback" || window.location.pathname === "/auth/callback/") {
+      await handleOAuthCallback();
+      return;
+    }
+
     await Promise.all([loadEntries(), loadIcaros()]);
+    await checkAuth();
+    await loadProgress();
     route();
   }
 
@@ -406,6 +632,34 @@
 
   // --- Icaro Views ---
 
+  function icaroCardHTML(icaro) {
+    var phraseCount = icaro.phrases ? icaro.phrases.length : 0;
+    var progress = userProgress[String(icaro.id)];
+    var trackingClass = progress ? ' icaro-card-tracked' : '';
+
+    var cardHtml = '<a href="#/icaro/' + icaro.id + '" class="icaro-card' + trackingClass + '">' +
+      '<div class="flex items-baseline gap-3">' +
+      '<span class="font-display text-2xl text-ink">' + esc(icaro.title) + '</span>' +
+      '<span class="badge">' + phraseCount + ' phrases</span>';
+    if (progress) {
+      var sectionCount = icaro.song && icaro.song.sections ? icaro.song.sections.length : 0;
+      var stanza = (progress.currentStanzaIdx || 0) + 1;
+      cardHtml += '<span class="badge badge-progress">Stanza ' + stanza + '/' + sectionCount + '</span>';
+    }
+    cardHtml += '</div>' +
+      '<p class="text-ink-light text-sm mt-1.5 leading-relaxed">';
+    if (icaro.song && icaro.song.sections && icaro.song.sections.length > 0) {
+      var firstLine = icaro.song.sections[0].lines[0];
+      cardHtml += esc(firstLine ? firstLine.text : "");
+      if (icaro.song.sections[0].lines.length > 1) {
+        cardHtml += ' / ' + esc(icaro.song.sections[0].lines[1].text);
+      }
+      cardHtml += ' \u2026';
+    }
+    cardHtml += '</p></a>';
+    return cardHtml;
+  }
+
   function renderIcaroIndex() {
     document.title = "Icaros \u2014 Shipibo Dictionary";
 
@@ -417,28 +671,30 @@
     html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Icaros</h1>';
     html += '<p class="text-ink-muted text-lg font-light mb-10">Learn traditional Shipibo healing songs</p>';
 
+    // My Icaros section (if user is tracking any)
+    var trackedIcaros = ICAROS.filter(function (ic) {
+      return userProgress[String(ic.id)];
+    });
+
+    if (currentUser && trackedIcaros.length > 0) {
+      html += '<div class="mb-10">';
+      html += '<h2 class="section-label mb-4">My Icaros</h2>';
+      html += '<div class="entries-container">';
+      trackedIcaros.forEach(function (icaro) {
+        html += icaroCardHTML(icaro);
+      });
+      html += '</div></div>';
+      html += '<h2 class="section-label mb-4">All Icaros</h2>';
+    }
+
     html += '<div class="entries-container">';
     ICAROS.forEach(function (icaro) {
-      var phraseCount = icaro.phrases ? icaro.phrases.length : 0;
-      html += '<a href="#/icaro/' + icaro.id + '" class="icaro-card">' +
-        '<div class="flex items-baseline gap-3">' +
-        '<span class="font-display text-2xl text-ink">' + esc(icaro.title) + '</span>' +
-        '<span class="badge">' + phraseCount + ' phrases</span>' +
-        '</div>' +
-        '<p class="text-ink-light text-sm mt-1.5 leading-relaxed">';
-      if (icaro.song && icaro.song.sections && icaro.song.sections.length > 0) {
-        var firstLine = icaro.song.sections[0].lines[0];
-        html += esc(firstLine ? firstLine.text : "");
-        if (icaro.song.sections[0].lines.length > 1) {
-          html += ' / ' + esc(icaro.song.sections[0].lines[1].text);
-        }
-        html += ' \u2026';
-      }
-      html += '</p></a>';
+      html += icaroCardHTML(icaro);
     });
     html += '</div>';
 
-    app.innerHTML = html;
+    app.textContent = "";
+    app.insertAdjacentHTML("afterbegin", html);
     window.scrollTo(0, 0);
   }
 
@@ -522,7 +778,19 @@
       '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
       "All icaros</a></div>";
 
-    html += '<h1 class="font-display text-5xl text-ink mb-6 tracking-tight font-light">' + esc(icaro.title) + '</h1>';
+    // Title + track button
+    html += '<div class="flex items-center justify-between mb-6">';
+    html += '<h1 class="font-display text-5xl text-ink tracking-tight font-light">' + esc(icaro.title) + '</h1>';
+    if (currentUser) {
+      var isTracked = !!userProgress[String(id)];
+      html += '<button class="track-btn' + (isTracked ? ' track-btn-active' : '') + '" id="track-btn" data-icaro-id="' + id + '">' +
+        '<svg class="w-5 h-5" fill="' + (isTracked ? 'currentColor' : 'none') + '" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">' +
+        '<path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />' +
+        '</svg>' +
+        '<span>' + (isTracked ? 'Tracking' : 'Track') + '</span>' +
+        '</button>';
+    }
+    html += '</div>';
     html += '<p class="text-ink-muted text-sm mb-8 icaro-hint">Tap a line to explore its meaning</p>';
 
     // Two-column layout: song + panel
@@ -718,6 +986,68 @@
     window.addEventListener("resize", function () {
       isMobile = window.innerWidth < 768;
     });
+
+    // Track/untrack button
+    var trackBtn = document.getElementById("track-btn");
+    if (trackBtn) {
+      trackBtn.addEventListener("click", async function () {
+        var icaroId = String(trackBtn.getAttribute("data-icaro-id"));
+        var isTracked = !!userProgress[icaroId];
+        trackBtn.disabled = true;
+
+        if (isTracked) {
+          await untrackIcaro(icaroId);
+        } else {
+          await trackIcaro(icaroId, 0);
+        }
+
+        // Update button state
+        var nowTracked = !!userProgress[icaroId];
+        trackBtn.className = "track-btn" + (nowTracked ? " track-btn-active" : "");
+        var svgEl = trackBtn.querySelector("svg");
+        if (svgEl) svgEl.setAttribute("fill", nowTracked ? "currentColor" : "none");
+        var spanEl = trackBtn.querySelector("span");
+        if (spanEl) spanEl.textContent = nowTracked ? "Tracking" : "Track";
+        trackBtn.disabled = false;
+      });
+    }
+
+    // Stanza position tracking: when a user clicks a line, update their position
+    // and highlight the current stanza section
+    function highlightCurrentStanza(sectionIdx) {
+      var sections = document.querySelectorAll(".song-section");
+      sections.forEach(function (s) { s.classList.remove("song-section-current"); });
+      if (sections[sectionIdx]) {
+        sections[sectionIdx].classList.add("song-section-current");
+      }
+    }
+
+    if (currentUser && userProgress[String(id)]) {
+      var songCol = document.querySelector(".icaro-song-col");
+      if (songCol) {
+        songCol.addEventListener("click", function (e) {
+          var lineEl = e.target.closest(".song-line[data-clickable]");
+          if (!lineEl) return;
+          var sectionIdx = parseInt(lineEl.getAttribute("data-section"), 10);
+          if (!isNaN(sectionIdx)) {
+            highlightCurrentStanza(sectionIdx);
+            updateStanzaPosition(String(id), sectionIdx);
+          }
+        });
+      }
+    }
+
+    // Restore tracked stanza position: highlight and scroll
+    var progress = userProgress[String(id)];
+    if (progress && progress.currentStanzaIdx != null) {
+      var sections = document.querySelectorAll(".song-section");
+      if (sections[progress.currentStanzaIdx]) {
+        highlightCurrentStanza(progress.currentStanzaIdx);
+        setTimeout(function () {
+          sections[progress.currentStanzaIdx].scrollIntoView({ behavior: "smooth", block: "center" });
+        }, 300);
+      }
+    }
   }
 
   function renderAbout() {

@@ -1,14 +1,14 @@
-var CACHE_NAME = "shipibo-v3";
+var CACHE_NAME = "shipibo-v5";
 var ASSETS = [
-  "./",
-  "index.html",
-  "app.js",
-  "style.css",
-  "data/entries.json",
-  "data/icaros.json",
-  "manifest.json",
-  "icon.png",
-  "icon.svg"
+  "/",
+  "/index.html",
+  "/app.js",
+  "/style.css",
+  "/data/entries.json",
+  "/data/icaros.json",
+  "/manifest.json",
+  "/icon.png",
+  "/icon.svg"
 ];
 
 self.addEventListener("install", function (event) {
@@ -33,6 +33,10 @@ self.addEventListener("activate", function (event) {
 });
 
 self.addEventListener("fetch", function (event) {
+  // Don't cache API calls or OAuth callbacks
+  if (event.request.url.includes("/api/") || event.request.url.includes("/auth/callback")) {
+    return;
+  }
   event.respondWith(
     caches.match(event.request).then(function (cached) {
       return cached || fetch(event.request);

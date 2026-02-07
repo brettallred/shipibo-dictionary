@@ -1,0 +1,20 @@
+name = "shipibo-api"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[vars]
+ENVIRONMENT = "production"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "shipibo-db"
+database_id = "a5e84643-ada5-4639-8c83-c4b9d80c4ed7"
+migrations_dir = "drizzle"
+
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = "275b2ef8ffd64e56be5d3fd0c413ada7"
+
+[[r2_buckets]]
+binding = "AUDIO_BUCKET"
+bucket_name = "shipibo-audio"

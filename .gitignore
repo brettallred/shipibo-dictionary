@@ -6,3 +6,6 @@ __pycache__/
 venv/
 *.pdf
 .claude/
+node_modules/
+.wrangler/
+google_oauth.json
