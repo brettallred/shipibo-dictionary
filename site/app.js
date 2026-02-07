@@ -278,6 +278,7 @@
 
     if (currentUser) {
       links += '<a href="#/bookmarks" class="site-nav-link">Bookmarks</a>';
+      links += '<a href="#/review" class="site-nav-link">Review</a>';
       links += '<div class="user-menu">' +
         '<button class="user-menu-btn" id="user-menu-btn">';
       if (currentUser.avatarUrl) {
@@ -356,6 +357,8 @@
       renderAbout();
     } else if (path === "/bookmarks") {
       renderBookmarks();
+    } else if (path === "/review") {
+      renderReview(params);
     } else if (path === "/icaros") {
       renderIcaroIndex();
     } else if (path.match(/^\/icaro\/\d+\/learn$/)) {
@@ -1167,6 +1170,296 @@
     }
   }
 
+  // --- Review Mode ---
+
+  async function updateComfort(bookmarkId, comfort) {
+    await api("/api/bookmarks/" + bookmarkId, {
+      method: "PUT",
+      body: { comfort: comfort }
+    });
+    var bm = userBookmarks.find(function (b) { return b.id === bookmarkId; });
+    if (bm) {
+      bm.comfort = comfort;
+      bm.lastReviewedAt = new Date().toISOString();
+    }
+  }
+
+  function getCardContent(bm) {
+    var front = "";
+    var back = "";
+    if (bm.type === "word") {
+      var entry = ENTRIES.find(function (e) { return e.id === bm.entryId; });
+      if (!entry) return null;
+      front = '<span class="font-display text-4xl">' + esc(entry.headword) + '</span>';
+      if (entry.part_of_speech) {
+        front += '<span class="badge mt-3">' + esc(entry.part_of_speech) + '</span>';
+      }
+      back = '';
+      if (entry.definitions_english && entry.definitions_english.length > 0) {
+        back += '<div class="mb-3"><span class="section-label">English</span>';
+        entry.definitions_english.forEach(function (d) {
+          back += '<div class="text-ink leading-relaxed">' + esc(d) + '</div>';
+        });
+        back += '</div>';
+      }
+      if (entry.definitions_spanish && entry.definitions_spanish.length > 0) {
+        back += '<div><span class="section-label">Spanish</span>';
+        entry.definitions_spanish.forEach(function (d) {
+          back += '<div class="text-ink-light leading-relaxed">' + esc(d) + '</div>';
+        });
+        back += '</div>';
+      }
+    } else if (bm.type === "phrase") {
+      var icaro = ICAROS.find(function (ic) { return String(ic.id) === bm.icaroId; });
+      var phrase = icaro && icaro.phrases ? icaro.phrases[bm.phraseIdx] : null;
+      if (!phrase) return null;
+      front = '<span class="font-display text-3xl">' + esc(phrase.shipibo) + '</span>';
+      front += '<span class="text-ink-muted text-sm mt-2">' + esc(icaro.title) + '</span>';
+      back = '';
+      if (phrase.parts && phrase.parts.length > 0) {
+        back += '<div class="font-display text-xl mb-3">';
+        phrase.parts.forEach(function (part) {
+          var cls = part.type === "root" ? "morph-root" : suffixClass(part.color);
+          back += '<span class="' + cls + '">' + esc(part.text) + '</span>';
+        });
+        back += '</div>';
+      }
+      if (phrase.root_word) {
+        back += '<div class="mb-2"><span class="section-label" style="margin-bottom:0">Root</span> ';
+        back += '<span class="font-display text-ink">' + esc(phrase.root_word) + '</span>';
+        if (phrase.root_meaning) {
+          back += ' <span class="text-ink-light text-sm">\u2014 ' + esc(phrase.root_meaning) + '</span>';
+        }
+        back += '</div>';
+      }
+      if (phrase.suffixes && phrase.suffixes.length > 0) {
+        back += '<div class="mb-2"><span class="section-label" style="margin-bottom:0.25rem">Suffixes</span>';
+        back += '<div class="space-y-1 mt-1">';
+        phrase.suffixes.forEach(function (suf) {
+          var cls = suffixClass(suf.color);
+          back += '<div class="text-sm"><span class="font-semibold ' + cls + '">-' + esc(suf.form) + '</span> ' +
+            '<span class="text-ink-light">' + esc(suf.meaning) + '</span></div>';
+        });
+        back += '</div></div>';
+      }
+      if (phrase.literal_translation) {
+        back += '<div class="literal-translation">' + esc(phrase.literal_translation) + '</div>';
+      }
+    } else if (bm.type === "stanza") {
+      var icaro = ICAROS.find(function (ic) { return String(ic.id) === bm.icaroId; });
+      if (!icaro || !icaro.song || !icaro.song.sections || !icaro.song.sections[bm.stanzaIdx]) return null;
+      var section = icaro.song.sections[bm.stanzaIdx];
+      front = '<div class="space-y-1">';
+      section.lines.forEach(function (line) {
+        front += '<div class="font-display text-xl">' + esc(line.text) + '</div>';
+      });
+      front += '</div>';
+      front += '<span class="text-ink-muted text-sm mt-3">' + esc(icaro.title) + ' \u2014 Stanza ' + (bm.stanzaIdx + 1) + '</span>';
+      // Back: show phrase breakdowns for lines in this stanza
+      back = '';
+      var seenPhrases = {};
+      section.lines.forEach(function (line) {
+        var pi = line.phrase_idx;
+        if (pi != null && !seenPhrases[pi] && icaro.phrases && icaro.phrases[pi]) {
+          seenPhrases[pi] = true;
+          var p = icaro.phrases[pi];
+          back += '<div class="mb-3 pb-2 border-b border-earth-200">';
+          back += '<div class="font-display text-lg">' + esc(p.shipibo) + '</div>';
+          if (p.literal_translation) {
+            back += '<div class="text-ink-light text-sm">' + esc(p.literal_translation) + '</div>';
+          }
+          back += '</div>';
+        }
+      });
+      if (!back) back = '<p class="text-ink-muted">No phrase breakdowns available for this stanza.</p>';
+    }
+    return { front: front, back: back };
+  }
+
+  function renderReview(params) {
+    document.title = "Review \u2014 Shipibo Dictionary";
+
+    if (!currentUser) {
+      app.innerHTML = '<div class="mb-8">' +
+        '<a href="#/" class="back-link">' +
+        '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+        'Back to dictionary</a></div>' +
+        '<h1 class="font-display text-5xl text-ink mb-6 tracking-tight font-light">Review</h1>' +
+        '<p class="text-ink-muted">Sign in to review your bookmarks.</p>';
+      return;
+    }
+
+    if (userBookmarks.length === 0) {
+      app.innerHTML = '<div class="mb-8">' +
+        '<a href="#/" class="back-link">' +
+        '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+        'Back to dictionary</a></div>' +
+        '<h1 class="font-display text-5xl text-ink mb-6 tracking-tight font-light">Review</h1>' +
+        '<p class="text-ink-muted">No bookmarks to review. Bookmark words, phrases, or stanzas first.</p>';
+      return;
+    }
+
+    // Filters
+    var filterType = params.get("type") || "all";
+    var filterComfort = params.get("comfort") || "all";
+    var filterIcaro = params.get("icaro") || "all";
+
+    // Filter bookmarks
+    var deck = userBookmarks.filter(function (bm) {
+      if (filterType !== "all" && bm.type !== filterType) return false;
+      if (filterComfort !== "all" && bm.comfort !== filterComfort) return false;
+      if (filterIcaro !== "all" && bm.icaroId !== filterIcaro) return false;
+      return true;
+    });
+
+    // Sort: prioritize new and unreviewed, then by last reviewed (oldest first)
+    var comfortOrder = { "new": 0, "learning": 1, "familiar": 2, "mastered": 3 };
+    deck.sort(function (a, b) {
+      var ca = comfortOrder[a.comfort] || 0;
+      var cb = comfortOrder[b.comfort] || 0;
+      if (ca !== cb) return ca - cb;
+      var ta = a.lastReviewedAt || "";
+      var tb = b.lastReviewedAt || "";
+      return ta.localeCompare(tb);
+    });
+
+    // Build filter bar
+    var html = '<div class="mb-8">' +
+      '<a href="#/bookmarks" class="back-link">' +
+      '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+      'Back to bookmarks</a></div>';
+
+    html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Review</h1>';
+    html += '<p class="text-ink-muted text-lg font-light mb-6">' + deck.length + ' card' + (deck.length !== 1 ? 's' : '') + ' to review</p>';
+
+    // Filter controls
+    html += '<div class="review-filters mb-8">';
+    html += '<div class="review-filter-group">';
+    html += '<span class="text-ink-muted text-xs uppercase tracking-wide">Type</span>';
+    html += '<div class="review-filter-options">';
+    ["all", "word", "phrase", "stanza"].forEach(function (t) {
+      var active = filterType === t ? " review-filter-active" : "";
+      html += '<a href="#/review?type=' + t + '&comfort=' + filterComfort + '&icaro=' + filterIcaro + '" class="review-filter' + active + '">' + (t === "all" ? "All" : t.charAt(0).toUpperCase() + t.slice(1)) + 's</a>';
+    });
+    html += '</div></div>';
+
+    html += '<div class="review-filter-group">';
+    html += '<span class="text-ink-muted text-xs uppercase tracking-wide">Level</span>';
+    html += '<div class="review-filter-options">';
+    ["all", "new", "learning", "familiar", "mastered"].forEach(function (c) {
+      var active = filterComfort === c ? " review-filter-active" : "";
+      html += '<a href="#/review?type=' + filterType + '&comfort=' + c + '&icaro=' + filterIcaro + '" class="review-filter' + active + '">' + (c === "all" ? "All" : c.charAt(0).toUpperCase() + c.slice(1)) + '</a>';
+    });
+    html += '</div></div>';
+    html += '</div>';
+
+    if (deck.length === 0) {
+      html += '<p class="text-ink-muted">No cards match the current filters.</p>';
+      app.innerHTML = html;
+      return;
+    }
+
+    // Card area
+    html += '<div class="review-card-area">';
+    html += '<div class="review-card" id="review-card">';
+    html += '<div class="review-card-inner" id="review-card-inner">';
+    html += '<div class="review-card-front" id="review-card-front"></div>';
+    html += '<div class="review-card-back" id="review-card-back"></div>';
+    html += '</div></div>';
+
+    // Progress
+    html += '<div class="review-progress" id="review-progress"></div>';
+
+    // Controls
+    html += '<div class="review-controls">';
+    html += '<button class="review-flip-btn" id="review-flip">Flip</button>';
+    html += '</div>';
+
+    // Comfort buttons (shown after flip)
+    html += '<div class="review-comfort hidden" id="review-comfort">';
+    html += '<span class="text-ink-muted text-xs uppercase tracking-wide mb-2">How well do you know this?</span>';
+    html += '<div class="review-comfort-btns">';
+    html += '<button class="review-comfort-btn review-comfort-new" data-comfort="new">New</button>';
+    html += '<button class="review-comfort-btn review-comfort-learning" data-comfort="learning">Learning</button>';
+    html += '<button class="review-comfort-btn review-comfort-familiar" data-comfort="familiar">Familiar</button>';
+    html += '<button class="review-comfort-btn review-comfort-mastered" data-comfort="mastered">Mastered</button>';
+    html += '</div></div>';
+
+    html += '</div>';
+
+    app.innerHTML = html;
+    window.scrollTo(0, 0);
+
+    // --- Review interactive logic ---
+    var cardIdx = 0;
+    var flipped = false;
+    var cardEl = document.getElementById("review-card-inner");
+    var frontEl = document.getElementById("review-card-front");
+    var backEl = document.getElementById("review-card-back");
+    var flipBtn = document.getElementById("review-flip");
+    var comfortEl = document.getElementById("review-comfort");
+    var progressEl = document.getElementById("review-progress");
+
+    function showCard() {
+      if (cardIdx >= deck.length) {
+        frontEl.innerHTML = '<div class="review-done"><span class="font-display text-3xl text-ink">Done!</span>' +
+          '<p class="text-ink-muted mt-2">You reviewed all ' + deck.length + ' card' + (deck.length !== 1 ? 's' : '') + '.</p></div>';
+        backEl.innerHTML = '';
+        flipBtn.style.display = 'none';
+        comfortEl.classList.add('hidden');
+        progressEl.textContent = deck.length + ' / ' + deck.length;
+        return;
+      }
+      var bm = deck[cardIdx];
+      var content = getCardContent(bm);
+      if (!content) {
+        cardIdx++;
+        showCard();
+        return;
+      }
+      frontEl.innerHTML = '<div class="review-card-content">' + content.front + '</div>';
+      backEl.innerHTML = '<div class="review-card-content">' + content.back + '</div>';
+      flipped = false;
+      cardEl.classList.remove("review-card-flipped");
+      flipBtn.style.display = '';
+      flipBtn.textContent = 'Flip';
+      comfortEl.classList.add('hidden');
+      progressEl.textContent = (cardIdx + 1) + ' / ' + deck.length;
+    }
+
+    function flipCard() {
+      if (cardIdx >= deck.length) return;
+      flipped = !flipped;
+      if (flipped) {
+        cardEl.classList.add("review-card-flipped");
+        flipBtn.textContent = 'Show front';
+        comfortEl.classList.remove('hidden');
+      } else {
+        cardEl.classList.remove("review-card-flipped");
+        flipBtn.textContent = 'Flip';
+        comfortEl.classList.add('hidden');
+      }
+    }
+
+    flipBtn.addEventListener("click", flipCard);
+
+    document.getElementById("review-card").addEventListener("click", function () {
+      if (cardIdx < deck.length) flipCard();
+    });
+
+    comfortEl.querySelectorAll(".review-comfort-btn").forEach(function (btn) {
+      btn.addEventListener("click", async function () {
+        var comfort = btn.getAttribute("data-comfort");
+        var bm = deck[cardIdx];
+        await updateComfort(bm.id, comfort);
+        cardIdx++;
+        showCard();
+      });
+    });
+
+    showCard();
+  }
+
   function renderBookmarks() {
     document.title = "Bookmarks \u2014 Shipibo Dictionary";
 
@@ -1186,7 +1479,8 @@
       'Back to dictionary</a></div>';
 
     html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Bookmarks</h1>';
-    html += '<p class="text-ink-muted text-lg font-light mb-10">Your saved words, phrases, and stanzas</p>';
+    html += '<p class="text-ink-muted text-lg font-light mb-6">Your saved words, phrases, and stanzas</p>';
+    html += '<div class="mb-10"><a href="#/review" class="review-start-btn">Review Cards</a></div>';
 
     if (userBookmarks.length === 0) {
       html += '<p class="text-ink-muted">No bookmarks yet. Use the bookmark icon on entries, phrases, or stanzas to save them here.</p>';

@@ -170,6 +170,7 @@
 - PWA updates for new features
 - Service worker updates
 - Responsive design for new views
+- Spaced repetition algorithm for card review (SM-2 or similar) — schedule cards based on comfort level and time since last review, replacing simple sequential deck
 
 ### iOS (Native, Offline-First)
 
