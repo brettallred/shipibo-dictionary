@@ -2198,6 +2198,61 @@
   .landing-bottom-cta .landing-cta:hover {
     background: #5e2828;
   }
+
+  /* Bottom nav */
+  .bottom-nav {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    background-color: var(--color-sand);
+    border-top: 1px solid var(--color-sand-dark);
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 0;
+    padding-bottom: calc(0.5rem + env(safe-area-inset-bottom, 0px));
+  }
+  .bottom-nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.125rem;
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--color-ink-muted);
+    text-decoration: none;
+    padding: 0.25rem 0.75rem;
+    transition: color 0.15s ease;
+  }
+  .bottom-nav-item svg {
+    display: block;
+    width: 22px;
+    height: 22px;
+  }
+  .bottom-nav-item.active {
+    color: var(--color-accent);
+  }
+  @media (max-width: 767px) {
+    .bottom-nav {
+      display: flex;
+    }
+    .nav-toggle {
+      display: none !important;
+    }
+    #site-nav {
+      display: none !important;
+    }
+    #app {
+      padding-bottom: calc(3.5rem + env(safe-area-inset-bottom, 0px));
+    }
+    footer {
+      padding-bottom: calc(3.5rem + env(safe-area-inset-bottom, 0px));
+    }
+  }
 }
 @property --tw-translate-x {
   syntax: "*";

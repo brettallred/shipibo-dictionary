@@ -32,9 +32,9 @@
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
         </button>
         <nav id="site-nav">
-          <a href="#/" class="site-nav-link">Browse</a>
-          <a href="#/icaros" class="site-nav-link">Icaros</a>
-          <a href="#/about" class="site-nav-link">About</a>
+          <a href="#/" class="site-nav-link">Home</a>
+          <a href="#/icaros" class="site-nav-link">Library</a>
+          <a href="#/browse" class="site-nav-link">Dictionary</a>
         </nav>
       </div>
     </header>
@@ -52,6 +52,21 @@
         </p>
       </div>
     </footer>
+
+    <nav id="bottom-nav" class="bottom-nav" aria-label="Mobile navigation">
+      <a href="#/icaros" class="bottom-nav-item" data-tab="library">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 9l10.5-3m0 0v12a2.25 2.25 0 01-4.5 0V5.25m4.5 1.5H9m0-3v12a2.25 2.25 0 01-4.5 0V3"/></svg>
+        <span>Library</span>
+      </a>
+      <a href="#/" class="bottom-nav-item" data-tab="home">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955a1.126 1.126 0 0 1 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>
+        <span>Home</span>
+      </a>
+      <a href="#/browse" class="bottom-nav-item" data-tab="dictionary">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/></svg>
+        <span>Dictionary</span>
+      </a>
+    </nav>
 
     <script src="/kene-patterns.js"></script>
     <script src="/app.js"></script>

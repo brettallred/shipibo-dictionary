@@ -17,6 +17,7 @@
 
   var currentUser = null;
   var userProgress = {}; // keyed by icaro_id
+  var devAuthEnabled = false;
 
   function getRedirectUri() {
     return location.origin + "/auth/callback/";
@@ -396,16 +397,13 @@
       return;
     }
 
-    var links = '<a href="#/" class="site-nav-link">Browse</a>' +
-      '<a href="#/icaros" class="site-nav-link">Icaros</a>' +
-      '<a href="#/about" class="site-nav-link">About</a>';
+    var links = '<a href="#/" class="site-nav-link">Home</a>' +
+      '<a href="#/icaros" class="site-nav-link">Library</a>' +
+      '<a href="#/browse" class="site-nav-link">Dictionary</a>';
 
     if (currentUser) {
-      links += '<a href="#/bookmarks" class="site-nav-link">Bookmarks</a>';
-      links += '<a href="#/review" class="site-nav-link">Review</a>';
-      links += '<a href="#/contributions" class="site-nav-link">Contribute</a>';
-      links += '<a href="#/chat" class="site-nav-link">Chat</a>';
       if (currentUser.role === "admin") {
+        links += '<a href="#/chat" class="site-nav-link">Chat</a>';
         links += '<a href="#/admin/feedback" class="site-nav-link">Admin</a>';
       }
       links += '<div class="user-menu">' +
@@ -472,6 +470,36 @@
     }
   }
 
+  function updateBottomNav() {
+    var nav = document.getElementById("bottom-nav");
+    if (!nav) return;
+
+    // Hide for unauthenticated users
+    if (!currentUser) {
+      nav.style.display = "none";
+      return;
+    }
+    nav.style.display = "";
+
+    var hash = location.hash || "#/";
+    var path = hash.slice(1).split("?")[0];
+
+    var tab = "home";
+    if (path === "/icaros" || path.startsWith("/icaro/")) {
+      tab = "library";
+    } else if (path === "/browse" || path === "/search" || path.startsWith("/entry/")) {
+      tab = "dictionary";
+    }
+
+    nav.querySelectorAll(".bottom-nav-item").forEach(function (item) {
+      if (item.getAttribute("data-tab") === tab) {
+        item.classList.add("active");
+      } else {
+        item.classList.remove("active");
+      }
+    });
+  }
+
   // --- Data ---
 
   async function loadEntries() {
@@ -501,6 +529,35 @@
     dataLoaded = true;
   }
 
+  async function checkConfig() {
+    try {
+      var res = await fetch(API_URL + "/api/config");
+      if (res.ok) {
+        var data = await res.json();
+        devAuthEnabled = !!data.disableAuth;
+      }
+    } catch (e) {
+      // Config check failed, keep defaults
+    }
+  }
+
+  async function devLogin() {
+    try {
+      var data = await api("/api/auth/dev-login", { method: "POST" });
+      if (data && data.token) {
+        setToken(data.token);
+        currentUser = data.user;
+        renderNav();
+        await Promise.all([loadEntries(), loadIcaros()]);
+        await Promise.all([loadProgress(), loadBookmarks()]);
+        dataLoaded = true;
+        route();
+      }
+    } catch (e) {
+      // Dev login failed
+    }
+  }
+
   async function loadAll() {
     // Check for OAuth callback first — handle it and stop, the redirect will reload the app
     if (window.location.pathname === "/auth/callback" || window.location.pathname === "/auth/callback/") {
@@ -508,6 +565,7 @@
       return;
     }
 
+    await checkConfig();
     await checkAuth();
     if (currentUser) {
       await Promise.all([loadEntries(), loadIcaros()]);
@@ -523,6 +581,7 @@
     // Auth gate: unauthenticated visitors see landing page
     if (!currentUser) {
       renderLanding();
+      updateBottomNav();
       return;
     }
 
@@ -581,9 +640,13 @@
       renderEntry(id);
     } else if (path === "/search") {
       renderSearch(params.get("q") || "");
-    } else {
+    } else if (path === "/browse") {
       renderBrowse(params.get("letter") || null);
+    } else {
+      renderBookmarks();
     }
+
+    updateBottomNav();
   }
 
   window.addEventListener("hashchange", route);
@@ -663,9 +726,9 @@
     // Alphabet nav
     if (letters.length > 0) {
       html += '<div class="flex flex-wrap gap-1 mb-6">';
-      html += '<a href="#/" class="alpha-link' + (!letter ? " active" : "") + '">All</a>';
+      html += '<a href="#/browse" class="alpha-link' + (!letter ? " active" : "") + '">All</a>';
       letters.forEach(function (l) {
-        html += '<a href="#/?letter=' + l + '" class="alpha-link' + (letter === l ? " active" : "") + '">' + l.toUpperCase() + "</a>";
+        html += '<a href="#/browse?letter=' + l + '" class="alpha-link' + (letter === l ? " active" : "") + '">' + l.toUpperCase() + "</a>";
       });
       html += "</div>";
     }
@@ -767,7 +830,7 @@
     }
 
     html += '<div class="mt-8">' +
-      '<a href="#/" class="back-link">' +
+      '<a href="#/browse" class="back-link">' +
       '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
       "Browse all entries</a></div>";
 
@@ -801,7 +864,7 @@
 
     // Back link
     html += '<div class="mb-8">' +
-      '<a href="#/" class="back-link">' +
+      '<a href="#/browse" class="back-link">' +
       '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
       "Back to dictionary</a></div>";
 
@@ -984,12 +1047,7 @@
   function renderIcaroIndex() {
     document.title = "Icaros \u2014 Onanti";
 
-    var html = '<div class="mb-8">' +
-      '<a href="#/" class="back-link">' +
-      '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
-      "Back to dictionary</a></div>";
-
-    html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Icaros</h1>';
+    var html = '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Icaros</h1>';
     html += '<p class="text-ink-muted text-lg font-light mb-10">Learn traditional Shipibo healing songs</p>';
 
     // My Icaros section (if user is tracking any)
@@ -1630,7 +1688,7 @@
       app.innerHTML = '<div class="mb-8">' +
         '<a href="#/" class="back-link">' +
         '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
-        'Back to dictionary</a></div>' +
+        'Home</a></div>' +
         '<h1 class="font-display text-5xl text-ink mb-6 tracking-tight font-light">Review</h1>' +
         '<p class="text-ink-muted">Sign in to review your bookmarks.</p>';
       return;
@@ -1640,7 +1698,7 @@
       app.innerHTML = '<div class="mb-8">' +
         '<a href="#/" class="back-link">' +
         '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
-        'Back to dictionary</a></div>' +
+        'Home</a></div>' +
         '<h1 class="font-display text-5xl text-ink mb-6 tracking-tight font-light">Review</h1>' +
         '<p class="text-ink-muted">No bookmarks to review. Bookmark words, phrases, or stanzas first.</p>';
       return;
@@ -1821,24 +1879,16 @@
   }
 
   function renderBookmarks() {
-    document.title = "Bookmarks \u2014 Onanti";
+    document.title = "Home \u2014 Onanti";
 
     if (!currentUser) {
-      app.innerHTML = '<div class="mb-8">' +
-        '<a href="#/" class="back-link">' +
-        '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
-        'Back to dictionary</a></div>' +
-        '<h1 class="font-display text-5xl text-ink mb-6 tracking-tight font-light">Bookmarks</h1>' +
+      app.innerHTML =
+        '<h1 class="font-display text-5xl text-ink mb-6 tracking-tight font-light">Home</h1>' +
         '<p class="text-ink-muted">Sign in to save bookmarks.</p>';
       return;
     }
 
-    var html = '<div class="mb-8">' +
-      '<a href="#/" class="back-link">' +
-      '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
-      'Back to dictionary</a></div>';
-
-    html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Bookmarks</h1>';
+    var html = '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Home</h1>';
     html += '<p class="text-ink-muted text-lg font-light mb-6">Your saved words, phrases, and stanzas</p>';
     html += '<div class="mb-10"><a href="#/review" class="review-start-btn">Review Cards</a></div>';
 
@@ -1924,7 +1974,7 @@
       app.innerHTML = '<div class="mb-8">' +
         '<a href="#/" class="back-link">' +
         '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
-        'Back to dictionary</a></div>' +
+        'Home</a></div>' +
         '<h1 class="font-display text-5xl text-ink mb-6 tracking-tight font-light">Contribute</h1>' +
         '<p class="text-ink-muted">Sign in to contribute icaros.</p>';
       return;
@@ -1937,7 +1987,7 @@
     var html = '<div class="mb-8">' +
       '<a href="#/" class="back-link">' +
       '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
-      'Back to dictionary</a></div>';
+      'Home</a></div>';
 
     html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">My Contributions</h1>';
     html += '<p class="text-ink-muted text-lg font-light mb-6">Submit icaro texts for review</p>';
@@ -2084,7 +2134,7 @@
     var html = '<div class="mb-8">' +
       '<a href="#/" class="back-link">' +
       '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
-      'Back to dictionary</a></div>';
+      'Home</a></div>';
 
     html += '<div class="admin-tabs mb-6">' +
       '<a href="#/admin/feedback" class="admin-tab">Feedback</a>' +
@@ -2205,7 +2255,7 @@
     var html = '<div class="mb-8">' +
       '<a href="#/" class="back-link">' +
       '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
-      'Back to dictionary</a></div>';
+      'Home</a></div>';
 
     html += '<div class="admin-tabs mb-6">' +
       '<a href="#/admin/feedback" class="admin-tab admin-tab-active">Feedback</a>' +
@@ -2294,7 +2344,7 @@
     var html = '<div class="mb-8">' +
       '<a href="#/" class="back-link">' +
       '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
-      'Back to dictionary</a></div>';
+      'Home</a></div>';
 
     html += '<div class="admin-tabs mb-6">' +
       '<a href="#/admin/feedback" class="admin-tab">Feedback</a>' +
@@ -2547,7 +2597,7 @@
       app.innerHTML = '<div class="mb-8">' +
         '<a href="#/" class="back-link">' +
         '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
-        'Back to dictionary</a></div>' +
+        'Home</a></div>' +
         '<p class="text-ink-muted">Sign in to use the AI chat.</p>';
       return;
     }
@@ -2740,6 +2790,17 @@
     // Safe: all content is static, authUrl is escaped via esc()
     app.textContent = "";
     app.insertAdjacentHTML("afterbegin", html);
+
+    // Wire up dev login if auth is disabled
+    if (devAuthEnabled) {
+      app.querySelectorAll(".landing-cta").forEach(function (btn) {
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          btn.textContent = "Signing in...";
+          devLogin();
+        });
+      });
+    }
   }
 
   function renderAbout() {
@@ -2747,7 +2808,7 @@
     app.innerHTML = '<div class="mb-8">' +
       '<a href="#/" class="back-link">' +
       '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
-      "Back to dictionary</a></div>" +
+      "Home</a></div>" +
       '<h1 class="font-display text-5xl text-ink mb-6 tracking-tight font-light">About</h1>' +
       '<div class="space-y-4 text-ink-light leading-relaxed">' +
       "<p>Onanti is a platform for learning the Shipibo language through a bilingual dictionary and traditional icaros (healing songs). " +

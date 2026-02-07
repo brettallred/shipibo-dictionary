@@ -34,6 +34,11 @@ app.get("/api/health", (c) => {
   return c.json({ status: "ok", timestamp: new Date().toISOString() });
 });
 
+// Config endpoint (exposes safe client config)
+app.get("/api/config", (c) => {
+  return c.json({ disableAuth: c.env.DISABLE_AUTH === "true" });
+});
+
 // Routes
 app.route("/api/auth", auth);
 app.route("/api/progress", progress);

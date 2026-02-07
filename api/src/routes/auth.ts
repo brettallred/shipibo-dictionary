@@ -100,6 +100,55 @@ auth.post("/google", async (c) => {
   });
 });
 
+// Dev login (only when DISABLE_AUTH=true)
+auth.post("/dev-login", async (c) => {
+  if (c.env.DISABLE_AUTH !== "true") {
+    return c.json({ error: "Dev login disabled" }, 403);
+  }
+
+  const db = c.get("db");
+  const devEmail = "brettallred@gmail.com";
+  const devName = "Brett Allred";
+  const devGoogleId = "dev-user-001";
+
+  // Upsert dev user
+  let user = await db.query.users.findFirst({
+    where: eq(schema.users.email, devEmail),
+  });
+
+  if (!user) {
+    const [newUser] = await db
+      .insert(schema.users)
+      .values({
+        googleId: devGoogleId,
+        email: devEmail,
+        name: devName,
+        role: "admin",
+      })
+      .returning();
+    user = newUser;
+  }
+
+  // Create session token
+  const sessionToken = crypto.randomUUID();
+  await c.env.SESSIONS.put(
+    sessionToken,
+    JSON.stringify({ userId: user.id }),
+    { expirationTtl: 60 * 60 * 24 * 30 }
+  );
+
+  return c.json({
+    token: sessionToken,
+    user: {
+      id: user.id,
+      email: user.email,
+      name: user.name,
+      avatarUrl: user.avatarUrl,
+      role: user.role,
+    },
+  });
+});
+
 // Get current user
 auth.get("/me", requireAuth, async (c) => {
   const user = c.get("user")!;
