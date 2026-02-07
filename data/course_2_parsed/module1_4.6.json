@@ -1,0 +1,228 @@
+{
+  "words": [
+    {
+      "shipibo": "onis",
+      "part_of_speech": "noun",
+      "meaning": "sadness",
+      "context": "used in icaros to express sadness or the desire to cry"
+    },
+    {
+      "shipibo": "winkas",
+      "part_of_speech": "noun",
+      "meaning": "desire to cry",
+      "context": "used in icaros to express sadness or the desire to cry"
+    },
+    {
+      "shipibo": "pae",
+      "part_of_speech": "noun",
+      "meaning": "mareación (dizziness/disorientation)"
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": "noun",
+      "meaning": "universe"
+    },
+    {
+      "shipibo": "shinan",
+      "part_of_speech": "noun",
+      "meaning": "mind"
+    },
+    {
+      "shipibo": "joi",
+      "part_of_speech": "noun",
+      "meaning": "voice, word"
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "noun",
+      "meaning": "wind-like energy"
+    },
+    {
+      "shipibo": "onisti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to become sad"
+    },
+    {
+      "shipibo": "rama",
+      "part_of_speech": "adverb",
+      "meaning": "now"
+    },
+    {
+      "shipibo": "ronki",
+      "part_of_speech": "verb",
+      "meaning": "they say"
+    },
+    {
+      "shipibo": "ponteti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to straighten, align"
+    },
+    {
+      "shipibo": "rios",
+      "part_of_speech": "noun",
+      "meaning": "God"
+    },
+    {
+      "shipibo": "bari",
+      "part_of_speech": "noun",
+      "meaning": "sun (God)"
+    },
+    {
+      "shipibo": "oxe",
+      "part_of_speech": "noun",
+      "meaning": "moon (God)"
+    },
+    {
+      "shipibo": "wishtin",
+      "part_of_speech": "noun",
+      "meaning": "star (God)"
+    },
+    {
+      "shipibo": "osan",
+      "part_of_speech": "noun",
+      "meaning": "laughter, smile, joy"
+    },
+    {
+      "shipibo": "yora",
+      "part_of_speech": "noun",
+      "meaning": "body"
+    },
+    {
+      "shipibo": "paxkin",
+      "part_of_speech": "noun",
+      "meaning": "tired"
+    },
+    {
+      "shipibo": "paxna",
+      "part_of_speech": "noun",
+      "meaning": "exhausted"
+    },
+    {
+      "shipibo": "yosma",
+      "part_of_speech": "noun",
+      "meaning": "weak"
+    },
+    {
+      "shipibo": "paxkinti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to become tired"
+    },
+    {
+      "shipibo": "paxnati",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to become exhausted"
+    },
+    {
+      "shipibo": "yosmati",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to become weak"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-meran",
+      "meaning": "inside",
+      "usage": "locative suffix indicating location within something",
+      "examples": [
+        "paemeran (inside mareación/dizziness)",
+        "netemeran (inside universe)"
+      ]
+    },
+    {
+      "form": "-ya",
+      "meaning": "with, containing",
+      "usage": "comitative suffix expressing accompaniment or possession of a quality",
+      "examples": [
+        "shinanyabi (with all the mind)",
+        "joiyabi (with all the voice)",
+        "neteyabi (with all the universe)",
+        "niweyabi (with all the energy)",
+        "osanyabi (with all the laughter/smile/joy)",
+        "yorayabi (with all the body)"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "emphatic",
+      "usage": "emphatic particle marking intensity or emphasis",
+      "examples": [
+        "shinanyabi",
+        "joiyabi",
+        "neteyabi",
+        "niweyabi",
+        "rioskibi (towards God with emphasis)",
+        "barikibi (towards the Sun with emphasis)",
+        "oxekibi (towards the Moon with emphasis)",
+        "wishtinkibi (towards the Stars with emphasis)",
+        "ikenbi (even though with emphasis)",
+        "osanyabi",
+        "yorayabi"
+      ]
+    },
+    {
+      "form": "-a",
+      "meaning": "general past tense",
+      "usage": "marks simple past tense action",
+      "examples": [
+        "onisa (saddened)",
+        "paxkina (became tired)",
+        "paxnaa (became exhausted)",
+        "yosmaa (became weakened)"
+      ]
+    },
+    {
+      "form": "-ki",
+      "meaning": "towards",
+      "usage": "allative suffix marking direction or destination",
+      "examples": [
+        "rioskibi (towards God)",
+        "barikibi (towards the Sun)",
+        "oxekibi (towards the Moon)",
+        "wishtinkibi (towards the Stars)"
+      ]
+    },
+    {
+      "form": "-i",
+      "meaning": "-ing verb ending equivalent in English; present participle or simultaneous action",
+      "usage": "marks present participle or continuous action happening simultaneously with another action",
+      "examples": [
+        "pontei (straightening)"
+      ]
+    },
+    {
+      "form": "-yona",
+      "meaning": "even though, despite",
+      "usage": "concessive suffix marking subordinate clauses expressing contrast",
+      "examples": [
+        "onisyona ikenbi (even though I became fully saddened)",
+        "paxkinyona ikenbi (even though I became fully tired)",
+        "paxnayona ikenbi (even though I became fully exhausted)",
+        "yosmayona ikenbi (even though I became fully weakened)"
+      ]
+    },
+    {
+      "form": "-yonta",
+      "meaning": "to perform an action fully, to completion",
+      "usage": "perfectivity marker indicating completion of action",
+      "examples": [
+        "ponteyontaanara (having fully straightened)"
+      ]
+    },
+    {
+      "form": "-anara",
+      "meaning": "having done so; emphatic past completion",
+      "usage": "marks completed action with emphatic finality",
+      "examples": [
+        "oniskaintaanara",
+        "winkaskaintaanara",
+        "eabirakayara",
+        "ponteyontaanara"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "4.6-Icaro-writing-Excercise-Sadness_Exhaustion.pdf",
+  "section": "4.6",
+  "module": 1,
+  "parsed_at": "2026-02-07 14:28:53"
+}

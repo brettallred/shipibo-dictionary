@@ -1,0 +1,163 @@
+{
+  "words": [
+    {
+      "shipibo": "iti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to be",
+      "context": "fundamental state verb in Shipibo"
+    },
+    {
+      "shipibo": "axeti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to learn",
+      "context": "used in icaro teaching contexts"
+    },
+    {
+      "shipibo": "bewati",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to sing",
+      "context": "directly relevant to icaro composition and performance"
+    },
+    {
+      "shipibo": "ransati",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to dance"
+    },
+    {
+      "shipibo": "osanti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to laugh, smile"
+    },
+    {
+      "shipibo": "niti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to walk"
+    },
+    {
+      "shipibo": "nashiti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to bathe, shower"
+    },
+    {
+      "shipibo": "tantiti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to rest"
+    },
+    {
+      "shipibo": "ati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to do"
+    },
+    {
+      "shipibo": "soati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to wipe, clear"
+    },
+    {
+      "shipibo": "saweti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to dress"
+    },
+    {
+      "shipibo": "xeati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to drink"
+    },
+    {
+      "shipibo": "maketi",
+      "part_of_speech": "transitive verb",
+      "meaning": "to perfect, develop something further"
+    },
+    {
+      "shipibo": "biti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to obtain, receive"
+    },
+    {
+      "shipibo": "ointi",
+      "part_of_speech": "transitive verb",
+      "meaning": "to see"
+    },
+    {
+      "shipibo": "piti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to eat"
+    },
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "I"
+    },
+    {
+      "shipibo": "mia",
+      "part_of_speech": "pronoun",
+      "meaning": "you"
+    },
+    {
+      "shipibo": "ja",
+      "part_of_speech": "pronoun",
+      "meaning": "she, he, it"
+    },
+    {
+      "shipibo": "noa",
+      "part_of_speech": "pronoun",
+      "meaning": "we"
+    },
+    {
+      "shipibo": "mato",
+      "part_of_speech": "pronoun",
+      "meaning": "you all"
+    },
+    {
+      "shipibo": "jato",
+      "part_of_speech": "pronoun",
+      "meaning": "they"
+    },
+    {
+      "shipibo": "jabo",
+      "part_of_speech": "pronoun",
+      "meaning": "they"
+    },
+    {
+      "shipibo": "en",
+      "part_of_speech": "pronoun",
+      "meaning": "I (transitive form)"
+    },
+    {
+      "shipibo": "min",
+      "part_of_speech": "pronoun",
+      "meaning": "you (transitive form)"
+    },
+    {
+      "shipibo": "jan",
+      "part_of_speech": "pronoun",
+      "meaning": "she, he, it (transitive form)"
+    },
+    {
+      "shipibo": "non",
+      "part_of_speech": "pronoun",
+      "meaning": "we (transitive form)"
+    },
+    {
+      "shipibo": "maton",
+      "part_of_speech": "pronoun",
+      "meaning": "you all (transitive form)"
+    },
+    {
+      "shipibo": "jaton",
+      "part_of_speech": "pronoun",
+      "meaning": "they (transitive form)"
+    },
+    {
+      "shipibo": "jabaon",
+      "part_of_speech": "pronoun",
+      "meaning": "they (transitive form)"
+    }
+  ],
+  "suffixes": [],
+  "prefixes": [],
+  "filename": "5.1-Transitive-Intransitive-Verbs.pdf",
+  "section": "5.1",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:33:47"
+}

@@ -1,0 +1,270 @@
+{
+  "words": [
+    {
+      "shipibo": "joi",
+      "part_of_speech": null,
+      "meaning": "joy, rejoicing",
+      "context": "Used in icaro title and throughout song about completing dieta"
+    },
+    {
+      "shipibo": "ronki",
+      "part_of_speech": null,
+      "meaning": "contract, agreement",
+      "context": "Refers to dieta contract in icaro"
+    },
+    {
+      "shipibo": "senenke",
+      "part_of_speech": null,
+      "meaning": "ended, finished",
+      "context": "Describes completion of dieta in icaro"
+    },
+    {
+      "shipibo": "sama",
+      "part_of_speech": "noun",
+      "meaning": "dieta, healing diet/practice",
+      "context": "Central concept in Shipibo healing practices"
+    },
+    {
+      "shipibo": "taribo",
+      "part_of_speech": null,
+      "meaning": "equal, same",
+      "context": "Used in icaro composition"
+    },
+    {
+      "shipibo": "sawe",
+      "part_of_speech": null,
+      "meaning": "dress, garment, clothing",
+      "context": "Metaphorically refers to dieta practices"
+    },
+    {
+      "shipibo": "maitibokan",
+      "part_of_speech": null,
+      "meaning": "crowns",
+      "context": "Metaphorical element in dieta imagery"
+    },
+    {
+      "shipibo": "raro",
+      "part_of_speech": "adverb",
+      "meaning": "excellently, well, beautifully",
+      "context": "Describes manner of rejoicing in icaro"
+    },
+    {
+      "shipibo": "xepoban",
+      "part_of_speech": "verb",
+      "meaning": "will close",
+      "context": "Future action of closing dieta"
+    },
+    {
+      "shipibo": "xepoti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to close",
+      "context": "Base verb for xepoban"
+    },
+    {
+      "shipibo": "arkana",
+      "part_of_speech": "noun",
+      "meaning": "sacred healing work, sacred practice",
+      "context": "Central healing concept in Shipibo icaros"
+    },
+    {
+      "shipibo": "joxo",
+      "part_of_speech": "adjective",
+      "meaning": "white",
+      "context": "Describes the tortoise in icaro"
+    },
+    {
+      "shipibo": "mananxawe",
+      "part_of_speech": "noun",
+      "meaning": "tortoise",
+      "context": "Animal spirit ally in healing icaro"
+    },
+    {
+      "shipibo": "medico",
+      "part_of_speech": "noun",
+      "meaning": "medicine",
+      "context": "Healing medicine in icaro context"
+    },
+    {
+      "shipibo": "jaskara",
+      "part_of_speech": null,
+      "meaning": "like this, in this way",
+      "context": "Used to reference manner of praying"
+    },
+    {
+      "shipibo": "orimpi",
+      "part_of_speech": "verb",
+      "meaning": "to pray",
+      "context": "From Spanish 'orar', used in icaro"
+    },
+    {
+      "shipibo": "rami",
+      "part_of_speech": "verb",
+      "meaning": "to become distorted",
+      "context": "Root verb describing potential negative outcome avoided through healing"
+    },
+    {
+      "shipibo": "ramiti",
+      "part_of_speech": "verb",
+      "meaning": "to become distorted",
+      "context": "Verb form related to rami"
+    },
+    {
+      "shipibo": "podero",
+      "part_of_speech": "noun",
+      "meaning": "God, Almighty",
+      "context": "From Spanish 'Poderoso', refers to divine protection in icaro"
+    },
+    {
+      "shipibo": "panai",
+      "part_of_speech": "transitive verb",
+      "meaning": "to protect",
+      "context": "Central healing action in icaro"
+    },
+    {
+      "shipibo": "koros",
+      "part_of_speech": "noun",
+      "meaning": "cross",
+      "context": "Drawn in body during healing to symbolize protection"
+    },
+    {
+      "shipibo": "torre",
+      "part_of_speech": "noun",
+      "meaning": "tower",
+      "context": "From Spanish; represents temples of heaven and divine connection, alignment to greatest spirit"
+    },
+    {
+      "shipibo": "torri",
+      "part_of_speech": "noun",
+      "meaning": "tower",
+      "context": "Alternative form of torre"
+    },
+    {
+      "shipibo": "tsonbibiki",
+      "part_of_speech": null,
+      "meaning": "no one",
+      "context": "Used in icaro to describe that no one finds distortion"
+    },
+    {
+      "shipibo": "tsararan",
+      "part_of_speech": "noun",
+      "meaning": "resounding sound, like bells",
+      "context": "Symbolizes celebration of the arkana"
+    },
+    {
+      "shipibo": "merati",
+      "part_of_speech": null,
+      "meaning": "find, certainly find",
+      "context": "Used in contrast with tsonbibiki in icaro"
+    },
+    {
+      "shipibo": "piko",
+      "part_of_speech": null,
+      "meaning": "coming out",
+      "context": "Describes emergence or expression in icaro"
+    },
+    {
+      "shipibo": "jane",
+      "part_of_speech": null,
+      "meaning": "name, identity, all that you are",
+      "context": "Refers to complete essence or identity in icaro"
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": null,
+      "meaning": "universe",
+      "context": "Cosmic element in icaro imagery"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-ban",
+      "meaning": "announcement, future action, will",
+      "usage": "Verb suffix indicating future tense or announcement",
+      "examples": [
+        "xepoban (will close)"
+      ]
+    },
+    {
+      "form": "-bo",
+      "meaning": "plural",
+      "usage": "Nominal or adjectival plural marker",
+      "examples": [
+        "jaskaraboa (in these ways, from jaskara + -bo)"
+      ]
+    },
+    {
+      "form": "-nin",
+      "meaning": "agent marker for transitive verbs, denoting the one doing the action",
+      "usage": "Pairs with transitive verbs to mark the agent",
+      "examples": [
+        "poderonin (God as the protector)"
+      ]
+    },
+    {
+      "form": "-nake",
+      "meaning": "possibility, potential, ability",
+      "usage": "Suffix denoting possibility or potential to happen",
+      "examples": [
+        "raminaketiankan (from ramiti, possibility of becoming distorted)"
+      ]
+    },
+    {
+      "form": "-tian",
+      "meaning": "time, timeframe",
+      "usage": "Temporal suffix marking time or duration",
+      "examples": [
+        "raminaketiankan (when there was possibility)"
+      ]
+    },
+    {
+      "form": "-kan",
+      "meaning": "this one, this particular instance",
+      "usage": "Demonstrative or particularizing suffix",
+      "examples": [
+        "raminaketiankan"
+      ]
+    },
+    {
+      "form": "-abi",
+      "meaning": "agent, one who does, coming out",
+      "usage": "Nominal suffix marking agent or action",
+      "examples": [
+        "nete tsararanyabi (universe resounds)",
+        "janeyabi (all your names)"
+      ]
+    },
+    {
+      "form": "-yontaanara",
+      "meaning": "having fully done, fully made, complete action",
+      "usage": "Completive aspect suffix indicating thorough or complete action",
+      "examples": [
+        "sawebainkin",
+        "arkana ayontaanara (having fully done arkana)",
+        "panayontaanara (having fully protected)"
+      ]
+    },
+    {
+      "form": "-shamani",
+      "meaning": "excellently, skillfully, well",
+      "usage": "Adverbial suffix indicating manner",
+      "examples": [
+        "raroshamani (rejoicing excellently)",
+        "pikoshamani (coming out excellently)"
+      ]
+    },
+    {
+      "form": "-ira",
+      "meaning": "as, while, during",
+      "usage": "Suffix indicating temporal or circumstantial action",
+      "examples": [
+        "xepoira (closing as)",
+        "raroira (rejoicing as I sing)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "12.2-Bonus_ Joi ronki Senenke – Koshinete.pdf",
+  "section": "12.2",
+  "module": 3,
+  "parsed_at": "2026-02-07 14:39:00"
+}

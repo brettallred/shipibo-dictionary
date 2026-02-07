@@ -1,0 +1,446 @@
+{
+  "words": [
+    {
+      "shipibo": "joi",
+      "part_of_speech": null,
+      "meaning": "sacred healing song, icaro",
+      "context": "Title of the exercise"
+    },
+    {
+      "shipibo": "rama",
+      "part_of_speech": "adverb",
+      "meaning": "now",
+      "context": "Used in icaro announcements"
+    },
+    {
+      "shipibo": "ronki",
+      "part_of_speech": "verb",
+      "meaning": "they say",
+      "context": "Used to frame announcements in icaros"
+    },
+    {
+      "shipibo": "nashiti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to bathe",
+      "context": "Cleansing verb used in aromatizing section"
+    },
+    {
+      "shipibo": "chokiti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to wash oneself",
+      "context": "Cleansing verb used in aromatizing section"
+    },
+    {
+      "shipibo": "soati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to clear, clean, wipe",
+      "context": "Transitive cleansing verb"
+    },
+    {
+      "shipibo": "chokati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to wash",
+      "context": "Transitive cleansing verb"
+    },
+    {
+      "shipibo": "choroti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to untangle",
+      "context": "Transitive cleansing verb"
+    },
+    {
+      "shipibo": "pishati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to release",
+      "context": "Transitive cleansing verb"
+    },
+    {
+      "shipibo": "payanti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to fan off, blow away",
+      "context": "Transitive cleansing verb"
+    },
+    {
+      "shipibo": "keyoti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to eliminate",
+      "context": "Transitive cleansing verb"
+    },
+    {
+      "shipibo": "inin ati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to aromatize, make fragrant",
+      "context": "Transitive cleansing verb"
+    },
+    {
+      "shipibo": "raikiti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to penetrate the body",
+      "context": "Used to describe how aroma enters the body"
+    },
+    {
+      "shipibo": "raikia",
+      "part_of_speech": "adjective",
+      "meaning": "penetrated",
+      "context": "Describes aroma that has penetrated"
+    },
+    {
+      "shipibo": "huaringa",
+      "part_of_speech": "noun",
+      "meaning": "aromatic plant/preparation",
+      "context": "Type of aroma used in cleansing icaros"
+    },
+    {
+      "shipibo": "peitoro ininti",
+      "part_of_speech": "noun",
+      "meaning": "Jungle Basil",
+      "context": "Aromatic plant used in icaros"
+    },
+    {
+      "shipibo": "agua de florida",
+      "part_of_speech": "noun",
+      "meaning": "Florida Water",
+      "context": "Commercial aromatic preparation used in icaros"
+    },
+    {
+      "shipibo": "rimon",
+      "part_of_speech": "noun",
+      "meaning": "lemon, lemongrass",
+      "context": "Aromatic plant used in icaros"
+    },
+    {
+      "shipibo": "rimon ininti",
+      "part_of_speech": "noun",
+      "meaning": "lemongrass",
+      "context": "Aromatic plant used in icaros"
+    },
+    {
+      "shipibo": "sharamasho",
+      "part_of_speech": "noun",
+      "meaning": "Ocimum americanum L (aromatic herb)",
+      "context": "Aromatic plant used in icaros"
+    },
+    {
+      "shipibo": "jakon",
+      "part_of_speech": "adjective",
+      "meaning": "good",
+      "context": "Used in negation to describe negative energies"
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "noun",
+      "meaning": "wind-like energy",
+      "context": "Type of energy being cleared in icaros"
+    },
+    {
+      "shipibo": "nokon",
+      "part_of_speech": "pronoun",
+      "meaning": "my",
+      "context": "Possessive pronoun used in aromatizing section"
+    },
+    {
+      "shipibo": "soa",
+      "part_of_speech": "verb",
+      "meaning": "clear",
+      "context": "Base form of soati, used in icaro refrains"
+    },
+    {
+      "shipibo": "choka",
+      "part_of_speech": "verb",
+      "meaning": "wash",
+      "context": "Base form of chokati, used in icaro refrains"
+    },
+    {
+      "shipibo": "choro",
+      "part_of_speech": "verb",
+      "meaning": "untangle",
+      "context": "Base form of choroti, used in icaro refrains"
+    },
+    {
+      "shipibo": "pisha",
+      "part_of_speech": "verb",
+      "meaning": "release",
+      "context": "Base form of pishati, used in icaro refrains"
+    },
+    {
+      "shipibo": "payan",
+      "part_of_speech": "verb",
+      "meaning": "fan off",
+      "context": "Base form of payanti, used in icaro refrains"
+    },
+    {
+      "shipibo": "keyo",
+      "part_of_speech": "verb",
+      "meaning": "eliminate",
+      "context": "Base form of keyoti, used in icaro refrains"
+    },
+    {
+      "shipibo": "nashi",
+      "part_of_speech": "verb",
+      "meaning": "bathe",
+      "context": "Base form of nashiti, used in aromatizing section"
+    },
+    {
+      "shipibo": "choki",
+      "part_of_speech": "verb",
+      "meaning": "wash myself",
+      "context": "Form of chokiti used in aromatizing section"
+    },
+    {
+      "shipibo": "inin",
+      "part_of_speech": "verb",
+      "meaning": "aromatize",
+      "context": "Base form of inin ati, used in aromatizing section"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-i",
+      "meaning": "present participle ('-ing'), while doing so, happening right now",
+      "usage": "Marks an action in present continuous aspect",
+      "examples": [
+        "soai (clear)",
+        "chokai (wash)",
+        "choroai (untangle)",
+        "pishai (release)",
+        "payanai (fan off)",
+        "keyoai (eliminate)",
+        "nashishamani (bathing excellently)",
+        "chokishamani (washing myself excellently)"
+      ]
+    },
+    {
+      "form": "-ai",
+      "meaning": "present tense",
+      "usage": "Marks present tense action, first person singular in announcement context",
+      "examples": [
+        "soai (clear)",
+        "chokai (wash)",
+        "choroai (untangle)",
+        "pishai (release)",
+        "payanai (fan off)",
+        "keyoai (eliminate)"
+      ]
+    },
+    {
+      "form": "-ban",
+      "meaning": "will do immediately, announcement",
+      "usage": "Future tense marker for immediate actions",
+      "examples": [
+        "nashishamanban (will bathe excellently)",
+        "chokishamanban (will wash myself excellently)"
+      ]
+    },
+    {
+      "form": "-banon",
+      "meaning": "will do immediately (considering a listener)",
+      "usage": "Future tense marker that acknowledges audience",
+      "examples": []
+    },
+    {
+      "form": "-kin",
+      "meaning": "while doing so, descriptive present participle ('-ing'), doing so presently",
+      "usage": "Marks ongoing or descriptive action in present",
+      "examples": [
+        "soashamankin (clearing excellently)",
+        "chokashamankin (washing excellently)",
+        "choroshamankin (untangling excellently)",
+        "pishashamankin (releasing excellently)",
+        "payanshamankin (fanning off excellently)",
+        "keyoshamankin (eliminating excellently)",
+        "soabainkin (clearing along the way)",
+        "chokabainkin (washing along the way)",
+        "chorobainkin (untangling along the way)",
+        "pishabainkin (releasing along the way)",
+        "payanbainkin (fanning off along the way)",
+        "keyobainkin (eliminating along the way)"
+      ]
+    },
+    {
+      "form": "-bo",
+      "meaning": "for verbs, doing as one goes; for nouns, plural",
+      "usage": "Verbal aspect marker for progressive action",
+      "examples": [
+        "abobanonri (will aromatize as I go)"
+      ]
+    },
+    {
+      "form": "-bainkin",
+      "meaning": "doing along the way",
+      "usage": "Combined suffix marking action done progressively/along the way",
+      "examples": [
+        "soabainkin (clearing along the way)",
+        "chokabainkin (washing along the way)",
+        "chorobainkin (untangling along the way)",
+        "pishabainkin (releasing along the way)",
+        "payanbainkin (fanning off along the way)",
+        "keyobainkin (eliminating along the way)"
+      ]
+    },
+    {
+      "form": "-shamani",
+      "meaning": "doing excellently (combined with -shaman and -i)",
+      "usage": "Marks excellent execution of an action in present",
+      "examples": [
+        "soashamani (clearing excellently)",
+        "chokashamani (washing excellently)",
+        "choroshamani (untangling excellently)",
+        "pishashamani (releasing excellently)",
+        "payanshamani (fanning off excellently)",
+        "keyoshamani (eliminating excellently)",
+        "nashishamani (bathing excellently)",
+        "chokishamani (washing myself excellently)"
+      ]
+    },
+    {
+      "form": "-shamankin",
+      "meaning": "doing excellently, descriptive present participle",
+      "usage": "Marks excellent execution with descriptive present aspect",
+      "examples": [
+        "soashamankin (clearing excellently)",
+        "chokashamankin (washing excellently)",
+        "choroshamankin (untangling excellently)",
+        "pishashamankin (releasing excellently)",
+        "payanshamankin (fanning off excellently)",
+        "keyoshamankin (eliminating excellently)"
+      ]
+    },
+    {
+      "form": "-shaman",
+      "meaning": "doing something with excellence",
+      "usage": "Marks superior or excellent execution of action",
+      "examples": [
+        "soashamani (clearing excellently)",
+        "chokashamani (washing excellently)",
+        "choroshamani (untangling excellently)",
+        "pishashamani (releasing excellently)",
+        "payanshamani (fanning off excellently)",
+        "keyoshamani (eliminating excellently)",
+        "nashishamanban (will bathe excellently)",
+        "chokishamanban (will wash myself excellently)",
+        "nashishamani (bathing excellently)",
+        "chokishamani (washing myself excellently)"
+      ]
+    },
+    {
+      "form": "-taana",
+      "meaning": "having done so",
+      "usage": "Perfect aspect marker, indicates completed action",
+      "examples": [
+        "soayontaanara (having fully cleared)",
+        "chokayontaanara (having fully washed)",
+        "choroyontaanara (having fully untangled)",
+        "pishayontaanara (having fully released)",
+        "payanyontaanara (having fully fanned off)",
+        "keyoyontaanara (having fully eliminated)",
+        "nashiyontaanara (having bathed fully)",
+        "chokiyontaanara (having washed myself fully)",
+        "inin ayontaanara (having made it fully fragrant)"
+      ]
+    },
+    {
+      "form": "-yontaanara",
+      "meaning": "having done so fully or to completion",
+      "usage": "Combined suffix marking completed action with emphasis",
+      "examples": [
+        "soayontaanara (having fully cleared)",
+        "chokayontaanara (having fully washed)",
+        "choroyontaanara (having fully untangled)",
+        "pishayontaanara (having fully released)",
+        "payanyontaanara (having fully fanned off)",
+        "keyoyontaanara (having fully eliminated)",
+        "nashiyontaanara (having bathed fully)",
+        "chokiyontaanara (having washed myself fully)",
+        "inin ayontaanara (having made it fully fragrant)"
+      ]
+    },
+    {
+      "form": "-yon",
+      "meaning": "doing an action fully",
+      "usage": "Aspect marker indicating completion or fullness of action",
+      "examples": [
+        "soayontaanara (having fully cleared)",
+        "chokayontaanara (having fully washed)",
+        "choroyontaanara (having fully untangled)",
+        "pishayontaanara (having fully released)",
+        "payanyontaanara (having fully fanned off)",
+        "keyoyontaanara (having fully eliminated)",
+        "nashiyontaanara (having bathed fully)",
+        "chokiyontaanara (having washed myself fully)",
+        "inin ayontaanara (having made it fully fragrant)"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphatic",
+      "usage": "Emphasis or intensification marker",
+      "examples": [
+        "soayontaanara (having fully cleared)",
+        "chokayontaanara (having fully washed)",
+        "choroyontaanara (having fully untangled)",
+        "pishayontaanara (having fully released)",
+        "payanyontaanara (having fully fanned off)",
+        "keyoyontaanara (having fully eliminated)",
+        "nashiyontaanara (having bathed fully)",
+        "chokiyontaanara (having washed myself fully)",
+        "inin ayontaanara (having made it fully fragrant)"
+      ]
+    },
+    {
+      "form": "-ri",
+      "meaning": "emphasis",
+      "usage": "Emphatic marker",
+      "examples": [
+        "abobanonri (will aromatize as I go)"
+      ]
+    },
+    {
+      "form": "-man",
+      "meaning": "using (usually after m or n, more lax in icaros)",
+      "usage": "Instrumental case marker meaning 'with' or 'using'",
+      "examples": [
+        "Huaringuitaman (using my Huaringa)",
+        "raikia rimonman (using lemongrass aroma that penetrated)",
+        "nokon sharamashoman (using my sharamasho)",
+        "Peitoro Ininman (using basil)"
+      ]
+    },
+    {
+      "form": "-nin",
+      "meaning": "using (usually with 3 syllabic words or more)",
+      "usage": "Instrumental case marker, variant of -man for longer words",
+      "examples": [
+        "Rimon Ininmanbikan (using lemongrass)"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "emphasis",
+      "usage": "Emphatic marker",
+      "examples": [
+        "Agua Floridaninbi (using florida water)"
+      ]
+    },
+    {
+      "form": "-kan",
+      "meaning": "actually, this one",
+      "usage": "Marker indicating specificity or emphasis",
+      "examples": [
+        "Rimon Ininmanbikan (using lemongrass)"
+      ]
+    },
+    {
+      "form": "-ma",
+      "meaning": "negation",
+      "usage": "Negative marker",
+      "examples": [
+        "Jakonma (not good)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "7.4-Introduction-to-Icaro-Writing-Excercise-2.pdf",
+  "section": "7.4",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:42:14"
+}

@@ -1,0 +1,343 @@
+{
+  "words": [
+    {
+      "shipibo": "rama",
+      "part_of_speech": "adverb",
+      "meaning": "now",
+      "context": "time marker in icaros"
+    },
+    {
+      "shipibo": "ronki",
+      "part_of_speech": "verb",
+      "meaning": "they say",
+      "context": "common framing device in icaros"
+    },
+    {
+      "shipibo": "piko",
+      "part_of_speech": "verb",
+      "meaning": "to come out",
+      "context": "root form of pikóti"
+    },
+    {
+      "shipibo": "pikóti",
+      "part_of_speech": "verb",
+      "meaning": "to come out",
+      "context": "announcement of emergence in icaros"
+    },
+    {
+      "shipibo": "bena",
+      "part_of_speech": "adjective",
+      "meaning": "new",
+      "context": "describes new universes"
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": "noun",
+      "meaning": "universe",
+      "context": "common in icaro references to spiritual realms"
+    },
+    {
+      "shipibo": "rios",
+      "part_of_speech": "noun",
+      "meaning": "God",
+      "context": "Spanish loanword used in spiritual context"
+    },
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "I",
+      "context": "first person singular"
+    },
+    {
+      "shipibo": "ponteti",
+      "part_of_speech": "verb",
+      "meaning": "to become aligned",
+      "context": "spiritual alignment in icaros"
+    },
+    {
+      "shipibo": "bari",
+      "part_of_speech": "noun",
+      "meaning": "sun",
+      "context": "celestial reference in icaros"
+    },
+    {
+      "shipibo": "nai",
+      "part_of_speech": "noun",
+      "meaning": "sky",
+      "context": "celestial reference in icaros"
+    },
+    {
+      "shipibo": "jakoni",
+      "part_of_speech": "adverb",
+      "meaning": "well",
+      "context": "adverbial modifier"
+    },
+    {
+      "shipibo": "xawe",
+      "part_of_speech": "noun",
+      "meaning": "gentleman (formal)",
+      "context": "formal address in celebration section"
+    },
+    {
+      "shipibo": "noma",
+      "part_of_speech": "noun",
+      "meaning": "woman (formal)",
+      "context": "formal address in celebration section"
+    },
+    {
+      "shipibo": "iti",
+      "part_of_speech": "verb",
+      "meaning": "to be (general verb)",
+      "context": "general existential verb"
+    },
+    {
+      "shipibo": "jaskati",
+      "part_of_speech": "verb",
+      "meaning": "to behave",
+      "context": "describing actions along a path"
+    },
+    {
+      "shipibo": "medico",
+      "part_of_speech": "noun",
+      "meaning": "doctor",
+      "context": "Spanish loanword, refers to traditional healers or shamans"
+    },
+    {
+      "shipibo": "jawen",
+      "part_of_speech": "pronoun",
+      "meaning": "his, her",
+      "context": "possessive pronoun"
+    },
+    {
+      "shipibo": "joi",
+      "part_of_speech": "noun",
+      "meaning": "word, voice",
+      "context": "central concept in icaro composition"
+    },
+    {
+      "shipibo": "jakon",
+      "part_of_speech": "adjective",
+      "meaning": "good",
+      "context": "quality descriptor"
+    },
+    {
+      "shipibo": "ninkati",
+      "part_of_speech": "verb",
+      "meaning": "to listen",
+      "context": "receiving wisdom in icaros"
+    },
+    {
+      "shipibo": "onanti",
+      "part_of_speech": "verb",
+      "meaning": "to know",
+      "context": "knowledge acquisition in spiritual context"
+    },
+    {
+      "shipibo": "bibo",
+      "part_of_speech": "verb",
+      "meaning": "to receive or obtain",
+      "context": "root form of biti"
+    },
+    {
+      "shipibo": "biti",
+      "part_of_speech": "verb",
+      "meaning": "to obtain or receive",
+      "context": "receiving words and wisdom in icaros"
+    },
+    {
+      "shipibo": "kanoti",
+      "part_of_speech": "verb",
+      "meaning": "to connect oneself",
+      "context": "deepening connection to received wisdom"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-ai",
+      "meaning": "present tense",
+      "usage": "verbal suffix marking present tense",
+      "examples": [
+        "pikotai (I come out)"
+      ]
+    },
+    {
+      "form": "-shaman",
+      "meaning": "to do something excellently",
+      "usage": "verbal suffix indicating excellent or skilled execution",
+      "examples": [
+        "pikoshamani (I am coming out excellently)",
+        "kanoshami (connecting excellently)",
+        "ishamani (singing excellently)"
+      ]
+    },
+    {
+      "form": "-i",
+      "meaning": "present participle, -ing",
+      "usage": "verbal suffix marking ongoing action",
+      "examples": [
+        "pikoshamani (coming out excellently)",
+        "kanoshami (connecting excellently)",
+        "ishamani (singing excellently)"
+      ]
+    },
+    {
+      "form": "-n",
+      "meaning": "in, place",
+      "usage": "locational suffix",
+      "examples": [
+        "netenkibikan (in the universe towards)"
+      ]
+    },
+    {
+      "form": "-ki",
+      "meaning": "towards",
+      "usage": "directional suffix",
+      "examples": [
+        "netenkibikan (towards the universe)",
+        "netekibikan (towards the universe)"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "emphasis",
+      "usage": "emphatic suffix",
+      "examples": [
+        "netenkibikan (towards the universe with emphasis)",
+        "xawebiribi (the one and only gentleman)",
+        "nomabiribi (the one and only woman)"
+      ]
+    },
+    {
+      "form": "-kan",
+      "meaning": "actually, this one",
+      "usage": "emphatic/identificational suffix",
+      "examples": [
+        "netenkibikan (towards this one universe)",
+        "medicomanbirakan (the actual doctor)"
+      ]
+    },
+    {
+      "form": "-ke",
+      "meaning": "most recent past tense",
+      "usage": "verbal suffix marking immediate past",
+      "examples": [
+        "pikoke (I just came out)",
+        "ponteke (I just became aligned)",
+        "onanke (I already know)"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphasis",
+      "usage": "emphatic suffix",
+      "examples": [
+        "jakonira (very well)",
+        "kanoyontaanara (having fully connected)"
+      ]
+    },
+    {
+      "form": "-biribi",
+      "meaning": "one and only, uniquely (with appreciation)",
+      "usage": "emphatic suffix expressing uniqueness",
+      "examples": [
+        "xawebiribi (the one and only gentleman)",
+        "nomabiribi (the one and only woman)"
+      ]
+    },
+    {
+      "form": "-kain",
+      "meaning": "along the way",
+      "usage": "verbal suffix, intransitive",
+      "examples": [
+        "jaskakaintaanara (having behaved like this along the way)"
+      ]
+    },
+    {
+      "form": "-man",
+      "meaning": "transitive marker, the doctor is doing the making listen",
+      "usage": "transitive verbal suffix",
+      "examples": [
+        "medicomanbirakan (doctor making listen)"
+      ]
+    },
+    {
+      "form": "-taana",
+      "meaning": "having done so",
+      "usage": "perfective suffix",
+      "examples": [
+        "jaskakaintaanara (having behaved along the way)",
+        "kanoyontaanara (having fully connected)"
+      ]
+    },
+    {
+      "form": "-bira",
+      "meaning": "without knowing, adds humility",
+      "usage": "verbal suffix expressing humility",
+      "examples": [
+        "medicomanbirakan (doctor without knowing)"
+      ]
+    },
+    {
+      "form": "-ma",
+      "meaning": "make (causative)",
+      "usage": "causative verbal suffix",
+      "examples": [
+        "ninkamaa (make listen)"
+      ]
+    },
+    {
+      "form": "-a",
+      "meaning": "general past",
+      "usage": "verbal suffix marking past tense",
+      "examples": [
+        "ninkamaa (made listen)"
+      ]
+    },
+    {
+      "form": "-bo",
+      "meaning": "to do as you go",
+      "usage": "verbal suffix indicating action in motion",
+      "examples": [
+        "bibo (go on receiving)",
+        "biboxon (went on receiving)"
+      ]
+    },
+    {
+      "form": "-bain",
+      "meaning": "to do along the way",
+      "usage": "verbal suffix indicating ongoing action",
+      "examples": [
+        "bibobainkin (going on receiving along the way)"
+      ]
+    },
+    {
+      "form": "-kin",
+      "meaning": "present participle, more descriptive",
+      "usage": "verbal suffix marking descriptive present action",
+      "examples": [
+        "bibobainkin (going on receiving along the way)"
+      ]
+    },
+    {
+      "form": "-xon",
+      "meaning": "once done",
+      "usage": "verbal suffix marking completed action",
+      "examples": [
+        "biboxon (once received)"
+      ]
+    },
+    {
+      "form": "-yon",
+      "meaning": "to do something fully or to completion",
+      "usage": "completive verbal suffix",
+      "examples": [
+        "kanoyontaanara (having fully connected)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "8.3-Icaro-Writing-Excercise-Week-8.pdf",
+  "section": "8.3",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:36:34"
+}

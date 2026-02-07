@@ -1,0 +1,269 @@
+{
+  "words": [
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "I (intransitive)"
+    },
+    {
+      "shipibo": "en",
+      "part_of_speech": "pronoun",
+      "meaning": "I (transitive)"
+    },
+    {
+      "shipibo": "ikenbi",
+      "part_of_speech": "particle",
+      "meaning": "even though"
+    },
+    {
+      "shipibo": "jakonma",
+      "part_of_speech": "adjective",
+      "meaning": "negative"
+    },
+    {
+      "shipibo": "jan",
+      "part_of_speech": "pronoun",
+      "meaning": "he, she (transitive)"
+    },
+    {
+      "shipibo": "joi",
+      "part_of_speech": "noun",
+      "meaning": "word, voice"
+    },
+    {
+      "shipibo": "kanoti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to connect itself"
+    },
+    {
+      "shipibo": "keras",
+      "part_of_speech": "adjective",
+      "meaning": "dirty"
+    },
+    {
+      "shipibo": "maya",
+      "part_of_speech": "adjective",
+      "meaning": "swirling"
+    },
+    {
+      "shipibo": "meran",
+      "part_of_speech": "noun",
+      "meaning": "inside"
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "noun",
+      "meaning": "wind-like energy"
+    },
+    {
+      "shipibo": "nokon",
+      "part_of_speech": "pronoun",
+      "meaning": "my"
+    },
+    {
+      "shipibo": "noma",
+      "part_of_speech": "noun",
+      "meaning": "woman (formal), bird (great tinamou)"
+    },
+    {
+      "shipibo": "ocha",
+      "part_of_speech": "noun",
+      "meaning": "sin"
+    },
+    {
+      "shipibo": "ochati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to sin"
+    },
+    {
+      "shipibo": "pae",
+      "part_of_speech": "noun",
+      "meaning": "mareacion"
+    },
+    {
+      "shipibo": "papa",
+      "part_of_speech": "noun",
+      "meaning": "father"
+    },
+    {
+      "shipibo": "rami",
+      "part_of_speech": "adjective",
+      "meaning": "distorted"
+    },
+    {
+      "shipibo": "rate",
+      "part_of_speech": "noun",
+      "meaning": "shock"
+    },
+    {
+      "shipibo": "rateti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to become shocked"
+    },
+    {
+      "shipibo": "shinan",
+      "part_of_speech": "noun",
+      "meaning": "mind"
+    },
+    {
+      "shipibo": "tita",
+      "part_of_speech": "noun",
+      "meaning": "mother"
+    },
+    {
+      "shipibo": "toeti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to break"
+    },
+    {
+      "shipibo": "wiso",
+      "part_of_speech": "adjective",
+      "meaning": "black"
+    },
+    {
+      "shipibo": "xawan",
+      "part_of_speech": "noun",
+      "meaning": "macaw (poetic and loving way to refer to elders)"
+    },
+    {
+      "shipibo": "yosi",
+      "part_of_speech": "noun",
+      "meaning": "grandfather"
+    },
+    {
+      "shipibo": "yoxan",
+      "part_of_speech": "noun",
+      "meaning": "grandmother"
+    },
+    {
+      "shipibo": "boman",
+      "part_of_speech": "noun",
+      "meaning": "bad intentions from others"
+    },
+    {
+      "shipibo": "jakon",
+      "part_of_speech": "adjective",
+      "meaning": "good"
+    },
+    {
+      "shipibo": "yora",
+      "part_of_speech": "noun",
+      "meaning": "body"
+    },
+    {
+      "shipibo": "moatian",
+      "part_of_speech": "adverb",
+      "meaning": "a long time ago"
+    },
+    {
+      "shipibo": "kano",
+      "part_of_speech": "noun",
+      "meaning": "connection structure"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-a",
+      "meaning": "general past",
+      "usage": "verb tense marker",
+      "examples": [
+        "ochayona (sinned)",
+        "rateyona (became shocked)"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "emphasis",
+      "usage": "noun/verb emphasis marker",
+      "examples": [
+        "joimanbi (with word, emphasized)",
+        "shinanmanbi (with mind, emphasized)",
+        "ikenbi (even though)"
+      ]
+    },
+    {
+      "form": "-bira",
+      "meaning": "without knowing, reflects humility",
+      "usage": "noun suffix showing humility",
+      "examples": [
+        "enbira (I, humbly)",
+        "joibira (words, humbly)",
+        "eabira (I, humbly)",
+        "yosimanbira (grandfather, humbly)",
+        "yoxanmanbira (grandmother, humbly)"
+      ]
+    },
+    {
+      "form": "-bo",
+      "meaning": "plural",
+      "usage": "noun pluralizer",
+      "examples": [
+        "jakonmabo (negative energies)",
+        "niwebo (energies)",
+        "meranbo (insides)"
+      ]
+    },
+    {
+      "form": "-kan",
+      "meaning": "one and only, actually, this one",
+      "usage": "noun marker",
+      "examples": [
+        "titakan (actual mother)",
+        "papakan (actual father)"
+      ]
+    },
+    {
+      "form": "-ma",
+      "meaning": "negation",
+      "usage": "adjective negation",
+      "examples": [
+        "jakonma (negative, not good)"
+      ]
+    },
+    {
+      "form": "-man",
+      "meaning": "using, with; transitivity marker for pronouns",
+      "usage": "preposition-like suffix; pronoun transitivity",
+      "examples": [
+        "joimanbi (with word)",
+        "shinanmanbi (with mind)",
+        "yosimanbira (grandfather with)",
+        "yoxanmanbira (grandmother with)"
+      ]
+    },
+    {
+      "form": "-ni",
+      "meaning": "ancient past; event that happened a long time ago or any time in the past with added feeling of responsibility",
+      "usage": "verb tense marker",
+      "examples": [
+        "enbira ochani (I sinned)",
+        "joibira toeni (I broke the word)",
+        "eabira rateni (I became shocked)",
+        "moatian rateni (I became shocked a long time ago)",
+        "kanoni (energies that became connected in the past)"
+      ]
+    },
+    {
+      "form": "-yon",
+      "meaning": "action done fully, completely",
+      "usage": "verb aspect marker",
+      "examples": [
+        "ochayona (sinned fully)",
+        "rateyona (became fully shocked)"
+      ]
+    },
+    {
+      "form": "-n",
+      "meaning": "in, locative marker",
+      "usage": "postposition-like suffix",
+      "examples": [
+        "paen (in mareacion)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "6.4-Icaro-Writing-Excercise-Week-6-5.pdf",
+  "section": "6.4",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:35:01"
+}

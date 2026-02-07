@@ -1,0 +1,275 @@
+{
+  "words": [
+    {
+      "shipibo": "onisti",
+      "part_of_speech": "verb",
+      "meaning": "to become sad",
+      "context": "used in icaros to describe emotional state"
+    },
+    {
+      "shipibo": "kain",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to do something along the way"
+    },
+    {
+      "shipibo": "winkasti",
+      "part_of_speech": "verb",
+      "meaning": "to feel the urge to cry"
+    },
+    {
+      "shipibo": "taana",
+      "part_of_speech": "verb",
+      "meaning": "having done so, finished action"
+    },
+    {
+      "shipibo": "paxkin",
+      "part_of_speech": "adjective",
+      "meaning": "tired"
+    },
+    {
+      "shipibo": "bira",
+      "part_of_speech": "noun",
+      "meaning": "perhaps, without knowing, gives effect of revelation in icaros"
+    },
+    {
+      "shipibo": "paxna",
+      "part_of_speech": "adjective",
+      "meaning": "exhausted"
+    },
+    {
+      "shipibo": "kaya",
+      "part_of_speech": "noun",
+      "meaning": "truly, with certainty"
+    },
+    {
+      "shipibo": "yosma",
+      "part_of_speech": "adjective",
+      "meaning": "weak"
+    },
+    {
+      "shipibo": "yabi",
+      "part_of_speech": "noun",
+      "meaning": "with all"
+    },
+    {
+      "shipibo": "pae",
+      "part_of_speech": "noun",
+      "meaning": "altered state"
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": "noun",
+      "meaning": "universe"
+    },
+    {
+      "shipibo": "shinan",
+      "part_of_speech": "noun",
+      "meaning": "mind"
+    },
+    {
+      "shipibo": "joi",
+      "part_of_speech": "noun",
+      "meaning": "voice, word"
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "noun",
+      "meaning": "wind, energy"
+    },
+    {
+      "shipibo": "yora",
+      "part_of_speech": "noun",
+      "meaning": "body"
+    },
+    {
+      "shipibo": "ikenbi",
+      "part_of_speech": "conjunction",
+      "meaning": "even though"
+    },
+    {
+      "shipibo": "rama",
+      "part_of_speech": "adverb",
+      "meaning": "now"
+    },
+    {
+      "shipibo": "ronki",
+      "part_of_speech": "verb",
+      "meaning": "they say"
+    },
+    {
+      "shipibo": "ponteti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to align, straighten"
+    },
+    {
+      "shipibo": "rios",
+      "part_of_speech": "noun",
+      "meaning": "God"
+    },
+    {
+      "shipibo": "bari",
+      "part_of_speech": "noun",
+      "meaning": "Sun"
+    },
+    {
+      "shipibo": "oxe",
+      "part_of_speech": "noun",
+      "meaning": "Moon"
+    },
+    {
+      "shipibo": "wishtin",
+      "part_of_speech": "noun",
+      "meaning": "Stars"
+    },
+    {
+      "shipibo": "osan",
+      "part_of_speech": "noun",
+      "meaning": "smile, laughter"
+    },
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "I"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-kain",
+      "meaning": "along the way, in the process of",
+      "usage": "verbal suffix indicating action done along a path or process",
+      "examples": [
+        "oniskaintaanara",
+        "winkaskaintaanara",
+        "paxkinkaintaanara",
+        "paxnakaintaanara",
+        "yosmakaintaanara"
+      ]
+    },
+    {
+      "form": "-taana",
+      "meaning": "having done so, finished action, completed",
+      "usage": "verbal suffix indicating completion",
+      "examples": [
+        "oniskaintaanara",
+        "winkaskaintaanara",
+        "paxkinkaintaanara",
+        "paxnakaintaanara",
+        "yosmakaintaanara",
+        "ponteyontaanara"
+      ]
+    },
+    {
+      "form": "-a",
+      "meaning": "general past tense",
+      "usage": "verbal suffix for past tense",
+      "examples": [
+        "paxnaa",
+        "yosmaa"
+      ]
+    },
+    {
+      "form": "-yona",
+      "meaning": "marked or emphasized state",
+      "usage": "nominal/adjectival suffix",
+      "examples": [
+        "paxkinyona",
+        "paxnayona",
+        "onisyona",
+        "yosmayona"
+      ]
+    },
+    {
+      "form": "-yabi",
+      "meaning": "with all, encompassing",
+      "usage": "nominal suffix expressing totality",
+      "examples": [
+        "yorayabi",
+        "shinanyabi",
+        "joiyabi",
+        "osanyabi",
+        "neteyabi",
+        "niweyabi"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphatic",
+      "usage": "emphatic particle suffix",
+      "examples": [
+        "eabirakayara"
+      ]
+    },
+    {
+      "form": "-kaya",
+      "meaning": "truly, with certainty",
+      "usage": "adverbial suffix expressing certainty",
+      "examples": [
+        "eabirakayara"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "emphatic",
+      "usage": "emphatic particle suffix",
+      "examples": [
+        "ikenbi",
+        "rioskibi",
+        "barikibi",
+        "oxekibi",
+        "wishtinkibi"
+      ]
+    },
+    {
+      "form": "-ki",
+      "meaning": "towards",
+      "usage": "postposition-like suffix indicating direction",
+      "examples": [
+        "rioskibi",
+        "barikibi",
+        "ronki",
+        "wishtinkibi"
+      ]
+    },
+    {
+      "form": "-ai",
+      "meaning": "present tense",
+      "usage": "verbal suffix for present tense",
+      "examples": [
+        "ponteai"
+      ]
+    },
+    {
+      "form": "-i",
+      "meaning": "present participle, -ing, doing action simultaneously",
+      "usage": "verbal suffix for ongoing action",
+      "examples": [
+        "pontei"
+      ]
+    },
+    {
+      "form": "-on",
+      "meaning": "to do an action fully",
+      "usage": "verbal suffix indicating completion or fullness",
+      "examples": [
+        "ponteyontaanara"
+      ]
+    },
+    {
+      "form": "-je",
+      "meaning": "locative or emphatic marker",
+      "usage": "nominal suffix",
+      "examples": [
+        "paxnaa je",
+        "yosmaa je",
+        "yorayabi paxna je",
+        "shinanyabi yosma je",
+        "joiyabi yosma je"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "4.5-Icaro-Writing-Excercise-Sad_Exhausted-Sheet1.pdf",
+  "section": "4.5",
+  "module": 1,
+  "parsed_at": "2026-02-07 14:28:42"
+}

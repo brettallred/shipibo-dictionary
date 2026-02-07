@@ -1,0 +1,427 @@
+{
+  "words": [
+    {
+      "shipibo": "bewai",
+      "part_of_speech": "particle",
+      "meaning": "while doing so, as I sing",
+      "context": "Used in icaro construction with -i and -ra suffixes"
+    },
+    {
+      "shipibo": "kano",
+      "part_of_speech": "verb",
+      "meaning": "to connect",
+      "context": "Example: kanoira bewai - connecting as I sing"
+    },
+    {
+      "shipibo": "pana",
+      "part_of_speech": "verb",
+      "meaning": "to protect",
+      "context": "Example: panaira bewai - protecting as I sing"
+    },
+    {
+      "shipibo": "soa",
+      "part_of_speech": "verb",
+      "meaning": "to clear",
+      "context": "Example: soaira bewai - clearing as I sing"
+    },
+    {
+      "shipibo": "choka",
+      "part_of_speech": "verb",
+      "meaning": "to wash",
+      "context": "Example: chokaira bewai - washing as I sing"
+    },
+    {
+      "shipibo": "payan",
+      "part_of_speech": "verb",
+      "meaning": "to blow away",
+      "context": "Example: payanira bewai - blowing away as I sing"
+    },
+    {
+      "shipibo": "axon",
+      "part_of_speech": "verb",
+      "meaning": "to do (medicine work)",
+      "context": "Example: axonira bewai - doing for you the medicine work as I sing"
+    },
+    {
+      "shipibo": "westiora",
+      "part_of_speech": "noun",
+      "meaning": "one"
+    },
+    {
+      "shipibo": "rabe",
+      "part_of_speech": "noun",
+      "meaning": "two"
+    },
+    {
+      "shipibo": "kimisha",
+      "part_of_speech": "noun",
+      "meaning": "three"
+    },
+    {
+      "shipibo": "chosko",
+      "part_of_speech": "noun",
+      "meaning": "four"
+    },
+    {
+      "shipibo": "pichika",
+      "part_of_speech": "noun",
+      "meaning": "five"
+    },
+    {
+      "shipibo": "sokota",
+      "part_of_speech": "noun",
+      "meaning": "six"
+    },
+    {
+      "shipibo": "kanchis",
+      "part_of_speech": "noun",
+      "meaning": "seven"
+    },
+    {
+      "shipibo": "pusaka",
+      "part_of_speech": "noun",
+      "meaning": "eight"
+    },
+    {
+      "shipibo": "iskon",
+      "part_of_speech": "noun",
+      "meaning": "nine"
+    },
+    {
+      "shipibo": "chonka",
+      "part_of_speech": "noun",
+      "meaning": "ten"
+    },
+    {
+      "shipibo": "pacha",
+      "part_of_speech": "noun",
+      "meaning": "one hundred"
+    },
+    {
+      "shipibo": "waranka",
+      "part_of_speech": "noun",
+      "meaning": "one thousand"
+    },
+    {
+      "shipibo": "mapo",
+      "part_of_speech": "noun",
+      "meaning": "head",
+      "context": "External body part"
+    },
+    {
+      "shipibo": "bemana",
+      "part_of_speech": "noun",
+      "meaning": "face",
+      "context": "External body part"
+    },
+    {
+      "shipibo": "bero",
+      "part_of_speech": "noun",
+      "meaning": "eye",
+      "context": "External body part"
+    },
+    {
+      "shipibo": "meken",
+      "part_of_speech": "noun",
+      "meaning": "hands",
+      "context": "External body part"
+    },
+    {
+      "shipibo": "peka",
+      "part_of_speech": "noun",
+      "meaning": "back",
+      "context": "External body part"
+    },
+    {
+      "shipibo": "poko",
+      "part_of_speech": "noun",
+      "meaning": "abdomen",
+      "context": "External body part"
+    },
+    {
+      "shipibo": "texo",
+      "part_of_speech": "noun",
+      "meaning": "neck",
+      "context": "External body part"
+    },
+    {
+      "shipibo": "tae",
+      "part_of_speech": "noun",
+      "meaning": "foot",
+      "context": "External body part"
+    },
+    {
+      "shipibo": "xochi",
+      "part_of_speech": "noun",
+      "meaning": "chest",
+      "context": "External body part"
+    },
+    {
+      "shipibo": "bichi",
+      "part_of_speech": "noun",
+      "meaning": "skin or bark",
+      "context": "External body part or tree part"
+    },
+    {
+      "shipibo": "jana",
+      "part_of_speech": "noun",
+      "meaning": "tongue",
+      "context": "Internal body part"
+    },
+    {
+      "shipibo": "poro",
+      "part_of_speech": "noun",
+      "meaning": "stomach",
+      "context": "Internal body part"
+    },
+    {
+      "shipibo": "jointi",
+      "part_of_speech": "noun",
+      "meaning": "heart",
+      "context": "Internal body part"
+    },
+    {
+      "shipibo": "kaxa xao",
+      "part_of_speech": "noun",
+      "meaning": "spinal cord",
+      "context": "Internal body part"
+    },
+    {
+      "shipibo": "pono",
+      "part_of_speech": "noun",
+      "meaning": "blood vessels",
+      "context": "Internal body part"
+    },
+    {
+      "shipibo": "xao",
+      "part_of_speech": "noun",
+      "meaning": "bone",
+      "context": "Internal body part"
+    },
+    {
+      "shipibo": "rebon",
+      "part_of_speech": "adverb",
+      "meaning": "in front"
+    },
+    {
+      "shipibo": "naman",
+      "part_of_speech": "adverb",
+      "meaning": "below"
+    },
+    {
+      "shipibo": "xaman",
+      "part_of_speech": "adverb",
+      "meaning": "in the depths"
+    },
+    {
+      "shipibo": "yoinabo",
+      "part_of_speech": "noun",
+      "meaning": "bird"
+    },
+    {
+      "shipibo": "isabo",
+      "part_of_speech": "noun",
+      "meaning": "bird"
+    },
+    {
+      "shipibo": "isa",
+      "part_of_speech": "noun",
+      "meaning": "bird"
+    },
+    {
+      "shipibo": "chixka",
+      "part_of_speech": "noun",
+      "meaning": "little tinamou",
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "pino",
+      "part_of_speech": "noun",
+      "meaning": "hummingbird",
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "kána",
+      "part_of_speech": "noun",
+      "meaning": "blue/yellow macaw",
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "chono",
+      "part_of_speech": "noun",
+      "meaning": "jungle swallow",
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "xawan",
+      "part_of_speech": "noun",
+      "meaning": "red macaw",
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "rono",
+      "part_of_speech": "noun",
+      "meaning": "snake",
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "shino",
+      "part_of_speech": "noun",
+      "meaning": "monkey",
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "konin ewa",
+      "part_of_speech": "noun",
+      "meaning": "electric eel",
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "yotan",
+      "part_of_speech": "noun",
+      "meaning": "tarantula",
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "boe xoi",
+      "part_of_speech": "noun",
+      "meaning": "grilled boquechico",
+      "context": "Dieta food"
+    },
+    {
+      "shipibo": "paranta xoo xoi",
+      "part_of_speech": "noun",
+      "meaning": "unripe grilled plantain",
+      "context": "Dieta food"
+    },
+    {
+      "shipibo": "pei",
+      "part_of_speech": "noun",
+      "meaning": "leaf",
+      "context": "Tree parts"
+    },
+    {
+      "shipibo": "tapon",
+      "part_of_speech": "noun",
+      "meaning": "root",
+      "context": "Tree parts"
+    },
+    {
+      "shipibo": "joa",
+      "part_of_speech": "noun",
+      "meaning": "flower",
+      "context": "Tree parts"
+    },
+    {
+      "shipibo": "jene",
+      "part_of_speech": "noun",
+      "meaning": "water",
+      "context": "Tree parts or element"
+    },
+    {
+      "shipibo": "poyan",
+      "part_of_speech": "noun",
+      "meaning": "branch",
+      "context": "Tree parts"
+    },
+    {
+      "shipibo": "bepon",
+      "part_of_speech": "noun",
+      "meaning": "resin",
+      "context": "Tree parts"
+    },
+    {
+      "shipibo": "inin",
+      "part_of_speech": "noun",
+      "meaning": "aroma",
+      "context": "Tree parts or qualities"
+    },
+    {
+      "shipibo": "inka",
+      "part_of_speech": "noun",
+      "meaning": "spirit",
+      "context": "Spiritual vocabulary"
+    },
+    {
+      "shipibo": "chaikoni",
+      "part_of_speech": "noun",
+      "meaning": "water spirit or chaikoni spirit",
+      "context": "Spiritual vocabulary"
+    },
+    {
+      "shipibo": "chono nita",
+      "part_of_speech": "noun",
+      "meaning": "jungle swallow spirit",
+      "context": "Spirit type"
+    },
+    {
+      "shipibo": "rai nita",
+      "part_of_speech": "noun",
+      "meaning": "rai spirit",
+      "context": "Spirit type"
+    },
+    {
+      "shipibo": "non nete",
+      "part_of_speech": "noun",
+      "meaning": "our world, the dimension of the land",
+      "context": "4 dimensions cosmology"
+    },
+    {
+      "shipibo": "jene nete",
+      "part_of_speech": "noun",
+      "meaning": "world of water",
+      "context": "4 dimensions cosmology"
+    },
+    {
+      "shipibo": "panshin nete",
+      "part_of_speech": "noun",
+      "meaning": "yellow world, world of spirits",
+      "context": "4 dimensions cosmology"
+    },
+    {
+      "shipibo": "jakon nete",
+      "part_of_speech": "noun",
+      "meaning": "good universe, divine realm",
+      "context": "4 dimensions cosmology"
+    },
+    {
+      "shipibo": "jiwi",
+      "part_of_speech": "noun",
+      "meaning": "parts of a tree",
+      "context": "Category heading for tree vocabulary"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-i",
+      "meaning": "present participle, while doing so",
+      "usage": "Attached to verbs to create present participle form",
+      "examples": [
+        "kano-i (connecting)",
+        "pana-i (protecting)",
+        "soa-i (clearing)",
+        "choka-i (washing)",
+        "payan-i (blowing away)",
+        "axon-i (doing)"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphatic",
+      "usage": "Attached after -i to create emphatic form in icaro construction",
+      "examples": [
+        "kanoira (emphatic connecting)",
+        "panaira (emphatic protecting)",
+        "soaira (emphatic clearing)",
+        "chokaira (emphatic washing)",
+        "payanira (emphatic blowing away)",
+        "axonira (emphatic doing)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "12.1-Final-Onan-Joibo-Week-12-1.pdf",
+  "section": "12.1",
+  "module": 3,
+  "parsed_at": "2026-02-07 14:38:45"
+}

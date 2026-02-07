@@ -1,0 +1,367 @@
+{
+  "words": [
+    {
+      "shipibo": "jawe",
+      "part_of_speech": "pronoun",
+      "meaning": "what",
+      "context": "used in interrogative phrases for asking questions"
+    },
+    {
+      "shipibo": "min",
+      "part_of_speech": "pronoun",
+      "meaning": "you (transitive pronoun)",
+      "context": "used as transitive object pronoun in questions"
+    },
+    {
+      "shipibo": "jan",
+      "part_of_speech": "pronoun",
+      "meaning": "he/she (transitive pronoun)",
+      "context": "transitive pronoun for third person"
+    },
+    {
+      "shipibo": "maton",
+      "part_of_speech": "pronoun",
+      "meaning": "them (plural transitive pronoun)",
+      "context": "transitive pronoun for plural objects"
+    },
+    {
+      "shipibo": "jaton",
+      "part_of_speech": "pronoun",
+      "meaning": "them (transitive pronoun)",
+      "context": "variant transitive pronoun form"
+    },
+    {
+      "shipibo": "bewati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to sing"
+    },
+    {
+      "shipibo": "biti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to obtain"
+    },
+    {
+      "shipibo": "nashiti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to bathe"
+    },
+    {
+      "shipibo": "tantiti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to rest"
+    },
+    {
+      "shipibo": "piti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to eat"
+    },
+    {
+      "shipibo": "ointi",
+      "part_of_speech": "transitive verb",
+      "meaning": "to see"
+    },
+    {
+      "shipibo": "ati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to do"
+    },
+    {
+      "shipibo": "kobin ati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to cook by boiling"
+    },
+    {
+      "shipibo": "kinanti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to vomit or purge"
+    },
+    {
+      "shipibo": "samati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to diet with master plants"
+    },
+    {
+      "shipibo": "poakati",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to do a vapor bath"
+    },
+    {
+      "shipibo": "banati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to plant"
+    },
+    {
+      "shipibo": "nishi",
+      "part_of_speech": "noun",
+      "meaning": "vine or ayahuasca brew",
+      "context": "plant used in shamanic healing practices"
+    },
+    {
+      "shipibo": "semein",
+      "part_of_speech": "noun",
+      "meaning": "Bobinsana",
+      "context": "medicinal plant"
+    },
+    {
+      "shipibo": "aton",
+      "part_of_speech": "noun",
+      "meaning": "Red Lupuna",
+      "context": "tree species"
+    },
+    {
+      "shipibo": "bichi",
+      "part_of_speech": "noun",
+      "meaning": "skin"
+    },
+    {
+      "shipibo": "wiso pionis",
+      "part_of_speech": "noun",
+      "meaning": "Piñon Colorado",
+      "context": "tree species"
+    },
+    {
+      "shipibo": "kawa",
+      "part_of_speech": "noun",
+      "meaning": "chacruna",
+      "context": "medicinal plant used with ayahuasca"
+    },
+    {
+      "shipibo": "paranta",
+      "part_of_speech": "noun",
+      "meaning": "banana"
+    },
+    {
+      "shipibo": "xoi",
+      "part_of_speech": "adjective",
+      "meaning": "grilled"
+    },
+    {
+      "shipibo": "raon",
+      "part_of_speech": "noun",
+      "meaning": "moon (or water/river)"
+    },
+    {
+      "shipibo": "kobin",
+      "part_of_speech": "noun",
+      "meaning": "boiling/cooking by boiling",
+      "context": "used with ati verb to mean cook by boiling"
+    },
+    {
+      "shipibo": "bena",
+      "part_of_speech": "interjection",
+      "meaning": "good/okay"
+    },
+    {
+      "shipibo": "joi",
+      "part_of_speech": "interjection",
+      "meaning": "alright/okay"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-ti",
+      "meaning": "infinitive/base form marker",
+      "usage": "marks the base form of verbs",
+      "examples": [
+        "bewati (to sing)",
+        "biti (to obtain)",
+        "nashiti (to bathe)",
+        "tantiti (to rest)",
+        "piti (to eat)",
+        "ointi (to see)",
+        "ati (to do)"
+      ]
+    },
+    {
+      "form": "-ai",
+      "meaning": "simple present tense",
+      "usage": "indicates simple present action",
+      "examples": [
+        "bewai (sings)",
+        "biai (obtains)",
+        "nashiai (bathes)",
+        "tantiai (rests)",
+        "piai (eats)",
+        "oinai (sees)",
+        "akai (does)"
+      ]
+    },
+    {
+      "form": "-i",
+      "meaning": "present participle",
+      "usage": "marks present participle form",
+      "examples": [
+        "bewi (singing)",
+        "bii (obtaining)",
+        "nashii (bathing)",
+        "tantii (resting)",
+        "pii (eating)",
+        "oini (seeing)",
+        "aki (doing)"
+      ]
+    },
+    {
+      "form": "-a",
+      "meaning": "general past tense",
+      "usage": "marks general/indefinite past action",
+      "examples": [
+        "bewaa (sang)",
+        "bia (obtained)",
+        "nashia (bathed)",
+        "tantia (rested)",
+        "pia (ate)",
+        "oina (saw)",
+        "aka (did)"
+      ]
+    },
+    {
+      "form": "-ke",
+      "meaning": "past tense - minutes ago",
+      "usage": "marks action that occurred minutes ago (definite past)",
+      "examples": [
+        "bewake (sang minutes ago)",
+        "bike (obtained minutes ago)",
+        "nashike (bathed minutes ago)",
+        "tantike (rested minutes ago)",
+        "pike (ate minutes ago)",
+        "oinke (saw minutes ago)",
+        "ake (did minutes ago)"
+      ]
+    },
+    {
+      "form": "-wanke",
+      "meaning": "definite past tense - hours ago",
+      "usage": "marks action that occurred hours ago (definite past)",
+      "examples": [
+        "bewawanke (sang hours ago)",
+        "biwanke (obtained hours ago)",
+        "nashiwanke (bathed hours ago)",
+        "tantiwanke (rested hours ago)",
+        "piwanke (ate hours ago)",
+        "oinwanke (saw hours ago)",
+        "awanke (did hours ago)"
+      ]
+    },
+    {
+      "form": "-ibake",
+      "meaning": "definite past tense - days/weeks ago",
+      "usage": "marks action that occurred days or weeks ago (definite past)",
+      "examples": [
+        "bewaibake (sang days/weeks ago)",
+        "biibake (obtained days/weeks ago)",
+        "nashiibake (bathed days/weeks ago)",
+        "tantiibake (rested days/weeks ago)",
+        "piibake (ate days/weeks ago)",
+        "oinibake (saw days/weeks ago)",
+        "aibake (did days/weeks ago)"
+      ]
+    },
+    {
+      "form": "-yantanke",
+      "meaning": "definite past tense - months/couple of years ago",
+      "usage": "marks action that occurred months or a couple of years ago (definite past)",
+      "examples": [
+        "bewayantanke (sang months ago)",
+        "biyantanke (obtained months ago)",
+        "nashiyantanke (bathed months ago)",
+        "tantiyantanke (rested months ago)",
+        "piyantanke (ate months ago)",
+        "oinyantanke (saw months ago)",
+        "ayantanke (did months ago)"
+      ]
+    },
+    {
+      "form": "-nike",
+      "meaning": "definite past tense - many years ago",
+      "usage": "marks action that occurred many years ago (definite past)",
+      "examples": [
+        "bewanike (sang many years ago)",
+        "binike (obtained many years ago)",
+        "nashinike (bathed many years ago)",
+        "tantinike (rested many years ago)",
+        "pinike (ate many years ago)",
+        "oinike (saw many years ago)",
+        "anike (did many years ago)"
+      ]
+    },
+    {
+      "form": "-wana",
+      "meaning": "indefinite past tense - hours ago",
+      "usage": "marks action that occurred hours ago (indefinite past, does not require -ra)",
+      "examples": [
+        "bewawana (sang hours ago)",
+        "biwana (obtained hours ago)",
+        "nashiwana (bathed hours ago)",
+        "tantiwana (rested hours ago)",
+        "piwana (ate hours ago)",
+        "oinwana (saw hours ago)",
+        "awana (did hours ago)"
+      ]
+    },
+    {
+      "form": "-ibata",
+      "meaning": "indefinite past tense - days/weeks ago",
+      "usage": "marks action that occurred days or weeks ago (indefinite past, does not require -ra)",
+      "examples": [
+        "bewaibata (sang days/weeks ago)",
+        "biibata (obtained days/weeks ago)",
+        "nashiibata (bathed days/weeks ago)",
+        "tantiibata (rested days/weeks ago)",
+        "piibata (ate days/weeks ago)",
+        "oinibata (saw days/weeks ago)",
+        "aibata (did days/weeks ago)"
+      ]
+    },
+    {
+      "form": "-yantana",
+      "meaning": "indefinite past tense - months/couple of years ago",
+      "usage": "marks action that occurred months or a couple of years ago (indefinite past, does not require -ra)",
+      "examples": [
+        "bewayantana (sang months ago)",
+        "biyantana (obtained months ago)",
+        "nashiyantana (bathed months ago)",
+        "tantiyantana (rested months ago)",
+        "piyantana (ate months ago)",
+        "oinyantana (saw months ago)",
+        "ayantana (did months ago)"
+      ]
+    },
+    {
+      "form": "-ni",
+      "meaning": "indefinite past tense - many years ago",
+      "usage": "marks action that occurred many years ago (indefinite past, does not require -ra)",
+      "examples": [
+        "bewani (sang many years ago)",
+        "bini (obtained many years ago)",
+        "nashini (bathed many years ago)",
+        "tantini (rested many years ago)",
+        "pini (ate many years ago)",
+        "oini (saw many years ago)",
+        "ani (did many years ago)"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "first subject marker (required with definite past)",
+      "usage": "marks the first/primary subject in definite past tense constructions",
+      "examples": [
+        "eara (she/it - definite past)",
+        "enra (we - definite past)",
+        "ramashokobira (shaman - definite past)"
+      ]
+    },
+    {
+      "form": "-nin",
+      "meaning": "instrumental/locative marker (using/with)",
+      "usage": "indicates use of or action with something",
+      "examples": [
+        "bichinin (using the skin)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "6.1-More-past-Tenses-2.pdf",
+  "section": "6.1",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:34:30"
+}

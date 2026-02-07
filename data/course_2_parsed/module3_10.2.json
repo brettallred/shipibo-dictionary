@@ -1,0 +1,132 @@
+{
+  "words": [
+    {
+      "shipibo": "jakon",
+      "part_of_speech": "adjective",
+      "meaning": "good",
+      "context": "used in icaro analysis"
+    },
+    {
+      "shipibo": "piti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to eat",
+      "context": "used in icaro composition"
+    },
+    {
+      "shipibo": "jawe",
+      "part_of_speech": "pronoun",
+      "meaning": "what, something",
+      "context": "used in icaro analysis"
+    },
+    {
+      "shipibo": "iti",
+      "part_of_speech": "verb",
+      "meaning": "to be",
+      "context": "used in icaro composition"
+    },
+    {
+      "shipibo": "itsa",
+      "part_of_speech": "noun",
+      "meaning": "a pungent smell",
+      "context": "used in icaro analysis"
+    },
+    {
+      "shipibo": "jawetianbi",
+      "part_of_speech": "adverb",
+      "meaning": "never",
+      "context": "used in icaro composition"
+    },
+    {
+      "shipibo": "rami",
+      "part_of_speech": "adjective",
+      "meaning": "distorted, negative",
+      "context": "used in icaro analysis"
+    },
+    {
+      "shipibo": "medico",
+      "part_of_speech": "noun",
+      "meaning": "medicine (from Spanish doctor)",
+      "context": "used in icaro composition"
+    },
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "I",
+      "context": "used in icaro composition"
+    },
+    {
+      "shipibo": "xawe",
+      "part_of_speech": "noun",
+      "meaning": "gentleman",
+      "context": "used in icaro composition"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-bi",
+      "meaning": "plural or emphasis",
+      "usage": "noun/adjective/verb suffix",
+      "examples": [
+        "piaxbi (eat plural/emphasis)",
+        "itsaboki (pungent smell plural/toward)",
+        "jawetianbi (never)"
+      ]
+    },
+    {
+      "form": "-ki",
+      "meaning": "toward, plural",
+      "usage": "noun/adjective suffix",
+      "examples": [
+        "itsaboki (pungent smell toward)"
+      ]
+    },
+    {
+      "form": "-ma",
+      "meaning": "as soon as",
+      "usage": "verb suffix",
+      "examples": [
+        "jakonmabo (as soon as good)",
+        "piaxbikaya (as soon as eat)"
+      ]
+    },
+    {
+      "form": "-ya",
+      "meaning": "emphasis",
+      "usage": "verb suffix",
+      "examples": [
+        "piaxbikaya (eat with emphasis)",
+        "jawetianbikaya (never with emphasis)"
+      ]
+    },
+    {
+      "form": "-kaya",
+      "meaning": "certainly, without a doubt",
+      "usage": "verb suffix",
+      "examples": [
+        "iyosmakaya (seldom happens without a doubt)",
+        "jawetianbikaya (never without a doubt)"
+      ]
+    },
+    {
+      "form": "-osma",
+      "meaning": "to seldom do so",
+      "usage": "adjective/verb suffix",
+      "examples": [
+        "ramiyosma (distorted/seldom distorted)"
+      ]
+    },
+    {
+      "form": "-ribi",
+      "meaning": "one and only, with affection",
+      "usage": "noun suffix",
+      "examples": [
+        "xawebiribi (the one and only gentleman)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "10.2-Icaro-3-Analysis-Part-2-1.pdf",
+  "section": "10.2",
+  "module": 3,
+  "parsed_at": "2026-02-07 14:36:53"
+}

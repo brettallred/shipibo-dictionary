@@ -1,0 +1,100 @@
+{
+  "words": [
+    {
+      "shipibo": "payanti",
+      "part_of_speech": "noun",
+      "meaning": "to fan off; an energetic cleanse or healing ceremony",
+      "context": "Core ceremonial concept in Shipibo healing tradition"
+    },
+    {
+      "shipibo": "niwebo",
+      "part_of_speech": "noun",
+      "meaning": "energies (stagnant or otherwise)",
+      "context": "Energetic forces that can be cleared in payanti"
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "noun",
+      "meaning": "energy",
+      "context": "Can be felt as symptoms like depression, addiction, illness"
+    },
+    {
+      "shipibo": "onanya",
+      "part_of_speech": "noun",
+      "meaning": "healer",
+      "context": "Person who performs payanti and healing ceremonies"
+    },
+    {
+      "shipibo": "jakonma niwe",
+      "part_of_speech": "noun",
+      "meaning": "a type of harmful energy",
+      "context": "Example of energy that can be expelled in one ceremony"
+    },
+    {
+      "shipibo": "ibo",
+      "part_of_speech": "noun",
+      "meaning": "owner; spirit in human form at the root of an energy",
+      "context": "Every plant, disease, addiction, and material has an ibo; objective of healing is to see and expel it"
+    },
+    {
+      "shipibo": "yoshin",
+      "part_of_speech": "noun",
+      "meaning": "demon; distortion",
+      "context": "Negative entity that can possess and control humans"
+    },
+    {
+      "shipibo": "ibobo",
+      "part_of_speech": "noun",
+      "meaning": "negative owners/spirits (plural form of ibo)",
+      "context": "Can control humans through bad habits, addictions, and diseases"
+    },
+    {
+      "shipibo": "yoshinbo",
+      "part_of_speech": "noun",
+      "meaning": "demons (plural form of yoshin)",
+      "context": "Negative entities that protest when ayahuasca is given and are evicted by curandero"
+    },
+    {
+      "shipibo": "disco maquina",
+      "part_of_speech": "noun",
+      "meaning": "a spiritual machine or device invoked in icaros",
+      "context": "Used by grandmother in icaros to evict negative entities"
+    },
+    {
+      "shipibo": "maquina",
+      "part_of_speech": "noun",
+      "meaning": "machine; spiritual device",
+      "context": "Invoked in healing icaros to frighten away negative entities"
+    },
+    {
+      "shipibo": "icaro",
+      "part_of_speech": "noun",
+      "meaning": "sacred healing song",
+      "context": "Used by healers to invoke spiritual power and evict negative entities"
+    },
+    {
+      "shipibo": "curandero",
+      "part_of_speech": "noun",
+      "meaning": "healer; shaman",
+      "context": "Person who evicts demons and facilitates patient rebirth"
+    },
+    {
+      "shipibo": "Oni",
+      "part_of_speech": "noun",
+      "meaning": "a type of ceremony",
+      "context": "In Oni ceremony symbols can be seen that represent body conditions"
+    },
+    {
+      "shipibo": "jatiibi riki iboya",
+      "part_of_speech": "phrase",
+      "meaning": "Everything is with an owner, or everything contains an owner",
+      "context": "Shipibo cosmological principle"
+    }
+  ],
+  "suffixes": [],
+  "prefixes": [],
+  "filename": "7.3-What is a ceremonial “Payanti”_ – Koshinete.pdf",
+  "section": "7.3",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:35:26"
+}

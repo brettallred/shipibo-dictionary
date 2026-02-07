@@ -1,0 +1,357 @@
+{
+  "words": [
+    {
+      "shipibo": "joi",
+      "part_of_speech": "noun",
+      "meaning": "crown",
+      "context": "invocation in icaro composition"
+    },
+    {
+      "shipibo": "medico",
+      "part_of_speech": "noun",
+      "meaning": "doctor",
+      "context": "plant spirit doctors invoked in icaros"
+    },
+    {
+      "shipibo": "noya rao",
+      "part_of_speech": "noun",
+      "meaning": "a type of medicinal plant/doctor spirit",
+      "context": "plant doctor invoked in icaro"
+    },
+    {
+      "shipibo": "shihuahuaco",
+      "part_of_speech": "noun",
+      "meaning": "a type of medicinal plant/doctor spirit",
+      "context": "plant doctor invoked in icaro"
+    },
+    {
+      "shipibo": "mokapari",
+      "part_of_speech": "noun",
+      "meaning": "Chiric Sanango, a type of medicinal plant/doctor spirit",
+      "context": "plant doctor invoked in icaro"
+    },
+    {
+      "shipibo": "semei",
+      "part_of_speech": "noun",
+      "meaning": "Bobinsana, a type of medicinal plant/doctor spirit",
+      "context": "plant doctor invoked in icaro"
+    },
+    {
+      "shipibo": "joxo pionis",
+      "part_of_speech": "noun",
+      "meaning": "Piñón Blanco, a type of medicinal plant/doctor spirit",
+      "context": "plant doctor invoked in icaro"
+    },
+    {
+      "shipibo": "wiso pionis",
+      "part_of_speech": "noun",
+      "meaning": "Piñón Colorado, a type of medicinal plant/doctor spirit",
+      "context": "plant doctor invoked in icaro"
+    },
+    {
+      "shipibo": "inoaxatan",
+      "part_of_speech": "noun",
+      "meaning": "Ayahuma, a type of medicinal plant/doctor spirit",
+      "context": "plant doctor invoked in icaro"
+    },
+    {
+      "shipibo": "inkaiko",
+      "part_of_speech": "noun",
+      "meaning": "Marosa, a type of medicinal plant/doctor spirit",
+      "context": "plant doctor invoked in icaro"
+    },
+    {
+      "shipibo": "min",
+      "part_of_speech": "pronoun",
+      "meaning": "your",
+      "context": "possessive pronoun in icaro descriptions"
+    },
+    {
+      "shipibo": "inin",
+      "part_of_speech": "adjective",
+      "meaning": "aromatic",
+      "context": "descriptive quality in icaro verses"
+    },
+    {
+      "shipibo": "kori",
+      "part_of_speech": "noun",
+      "meaning": "gold",
+      "context": "descriptive element in icaro verses"
+    },
+    {
+      "shipibo": "joe",
+      "part_of_speech": "noun",
+      "meaning": "light",
+      "context": "descriptive element in icaro verses"
+    },
+    {
+      "shipibo": "kewe",
+      "part_of_speech": "adjective",
+      "meaning": "embroidered",
+      "context": "descriptive quality in icaro verses"
+    },
+    {
+      "shipibo": "joa",
+      "part_of_speech": "noun",
+      "meaning": "flower",
+      "context": "descriptive element in icaro verses"
+    },
+    {
+      "shipibo": "pene",
+      "part_of_speech": "adjective",
+      "meaning": "bright",
+      "context": "descriptive quality in icaro verses"
+    },
+    {
+      "shipibo": "maiti",
+      "part_of_speech": "noun",
+      "meaning": "crown",
+      "context": "object being put on in icaro ritual sequence"
+    },
+    {
+      "shipibo": "maiti",
+      "part_of_speech": "verb",
+      "meaning": "to crown oneself",
+      "context": "action verb in icaro composition"
+    },
+    {
+      "shipibo": "tari",
+      "part_of_speech": "noun",
+      "meaning": "tunic, robe",
+      "context": "garment in icaro ritual sequence"
+    },
+    {
+      "shipibo": "ribi",
+      "part_of_speech": "adverb",
+      "meaning": "also",
+      "context": "conjunction used in icaro verses"
+    },
+    {
+      "shipibo": "saweti",
+      "part_of_speech": "verb",
+      "meaning": "to dress oneself",
+      "context": "action verb in icaro ritual sequence"
+    },
+    {
+      "shipibo": "jawen",
+      "part_of_speech": "pronoun",
+      "meaning": "it's",
+      "context": "demonstrative pronoun in icaro descriptions"
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "noun",
+      "meaning": "wind-like energy",
+      "context": "energetic quality in icaro composition"
+    },
+    {
+      "shipibo": "paoti",
+      "part_of_speech": "noun",
+      "meaning": "belt, stole, band",
+      "context": "energetic garment in icaro ritual sequence"
+    },
+    {
+      "shipibo": "paoti",
+      "part_of_speech": "verb",
+      "meaning": "to put on a belt, stole, or band",
+      "context": "action verb in icaro composition"
+    },
+    {
+      "shipibo": "mion",
+      "part_of_speech": "adverb",
+      "meaning": "towards you, destination of soft impact",
+      "context": "directional particle in icaro verses"
+    },
+    {
+      "shipibo": "medicoti",
+      "part_of_speech": "verb",
+      "meaning": "to become doctor",
+      "context": "transformation verb in icaro composition"
+    },
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "I",
+      "context": "first person singular in icaro verses"
+    },
+    {
+      "shipibo": "xawe",
+      "part_of_speech": "noun",
+      "meaning": "gentleman",
+      "context": "identity expression in icaro composition"
+    },
+    {
+      "shipibo": "noma",
+      "part_of_speech": "noun",
+      "meaning": "woman (formal)",
+      "context": "identity expression in icaro composition"
+    },
+    {
+      "shipibo": "iti",
+      "part_of_speech": "verb",
+      "meaning": "to be",
+      "context": "auxiliary verb in icaro composition"
+    },
+    {
+      "shipibo": "bewati",
+      "part_of_speech": "verb",
+      "meaning": "to sing",
+      "context": "action verb in icaro celebration section"
+    },
+    {
+      "shipibo": "rama",
+      "part_of_speech": "adverb",
+      "meaning": "now",
+      "context": "temporal marker in icaro verses"
+    },
+    {
+      "shipibo": "ronki",
+      "part_of_speech": "verb",
+      "meaning": "they say",
+      "context": "reported speech marker in icaro composition"
+    },
+    {
+      "shipibo": "jishtiti",
+      "part_of_speech": "verb",
+      "meaning": "to appear",
+      "context": "action verb in icaro composition"
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": "noun",
+      "meaning": "universe",
+      "context": "cosmic scope in icaro verses"
+    },
+    {
+      "shipibo": "meran",
+      "part_of_speech": "adverb",
+      "meaning": "inside",
+      "context": "locational adverb in icaro verses"
+    },
+    {
+      "shipibo": "kanoti",
+      "part_of_speech": "verb",
+      "meaning": "to connect oneself",
+      "context": "action verb in icaro composition"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-shaman",
+      "meaning": "to do so excellently",
+      "usage": "verbal suffix indicating excellent or superior execution of an action",
+      "examples": [
+        "maishamanban (to crown oneself excellently)",
+        "saweshamanban (to dress oneself excellently)",
+        "ishamani (to be excellently)",
+        "Bewashamani (to sing excellently)"
+      ]
+    },
+    {
+      "form": "-ban",
+      "meaning": "immediate announcement, will do immediately",
+      "usage": "verbal suffix indicating immediate or imminent action",
+      "examples": [
+        "maishamanban (will crown oneself excellently immediately)",
+        "medicoyonban (will become your doctor immediately)"
+      ]
+    },
+    {
+      "form": "-bain",
+      "meaning": "doing along the way",
+      "usage": "verbal suffix indicating action performed while progressing",
+      "examples": [
+        "maibainkin (crowning oneself along the way)"
+      ]
+    },
+    {
+      "form": "-kin",
+      "meaning": "present participle, more descriptive; doing, while doing so",
+      "usage": "verbal suffix for present participle and descriptive aspect",
+      "examples": [
+        "maibainkin (crowning myself along the way)",
+        "ribikan (also this one, actually)",
+        "sawekin (dressing excellently)"
+      ]
+    },
+    {
+      "form": "-kan",
+      "meaning": "this one, actually",
+      "usage": "nominal suffix indicating specificity or emphasis",
+      "examples": [
+        "ribikan (this one also, actually)"
+      ]
+    },
+    {
+      "form": "-yon",
+      "meaning": "to do fully, to completion",
+      "usage": "verbal suffix indicating complete or thorough action",
+      "examples": [
+        "Saweyontaanara (having fully dressed myself)",
+        "Paoyonribataana (having fully put on the belt)",
+        "Jishtiyontaanara (having fully appeared)",
+        "Kanoyontaanara (having fully connected myself)"
+      ]
+    },
+    {
+      "form": "-taana",
+      "meaning": "having done so, having completed the action",
+      "usage": "verbal suffix indicating completed or perfective aspect",
+      "examples": [
+        "Saweyontaanara (having fully dressed myself)",
+        "Paoyonribataana (having fully put on the belt, one more time)",
+        "Jishtiyontaanara (having fully appeared)",
+        "Kanoyontaanara (having fully connected myself)"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphatic",
+      "usage": "verbal suffix adding emphasis to the action",
+      "examples": [
+        "Saweyontaanara (having fully dressed myself, emphatic)",
+        "Jishtiyontaanara (having fully appeared, emphatic)",
+        "Kanoyontaanara (having fully connected myself, emphatic)"
+      ]
+    },
+    {
+      "form": "-riba",
+      "meaning": "once more, one more time",
+      "usage": "verbal suffix indicating repetition or reiteration",
+      "examples": [
+        "Paoyonribataana (having fully put on the belt, stole, or band one more time)"
+      ]
+    },
+    {
+      "form": "-biribi",
+      "meaning": "one and only, with affection",
+      "usage": "nominal/adjectival suffix indicating uniqueness and affection",
+      "examples": [
+        "xawebiribi (the one and only gentleman)",
+        "nomabiribi (the one and only woman)"
+      ]
+    },
+    {
+      "form": "-i",
+      "meaning": "present participle, -ing/while doing so",
+      "usage": "verbal suffix for present participle aspect",
+      "examples": [
+        "ishamani (being excellently, singing excellently)"
+      ]
+    },
+    {
+      "form": "-ai",
+      "meaning": "present tense",
+      "usage": "verbal suffix indicating present tense action",
+      "examples": [
+        "jishtiai (appear, present tense)",
+        "Medicoi Bewai (singing as I become doctor)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "11.4-Icaro-Writing-Excercise-Week-11-1.pdf",
+  "section": "11.4",
+  "module": 3,
+  "parsed_at": "2026-02-07 14:38:11"
+}

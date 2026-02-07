@@ -1,0 +1,192 @@
+{
+  "words": [
+    {
+      "shipibo": "nii",
+      "part_of_speech": "noun",
+      "meaning": "forest"
+    },
+    {
+      "shipibo": "meran",
+      "part_of_speech": "noun",
+      "meaning": "inside"
+    },
+    {
+      "shipibo": "merati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to find"
+    },
+    {
+      "shipibo": "jaskatax",
+      "part_of_speech": "adverb",
+      "meaning": "in this manner"
+    },
+    {
+      "shipibo": "jakonti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to improve, become better"
+    },
+    {
+      "shipibo": "benxoti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to heal oneself"
+    },
+    {
+      "shipibo": "joxo pionis",
+      "part_of_speech": "noun",
+      "meaning": "piñón blanco"
+    },
+    {
+      "shipibo": "noeshaman",
+      "part_of_speech": "adjective",
+      "meaning": "delicious"
+    },
+    {
+      "shipibo": "tantiti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to rest"
+    },
+    {
+      "shipibo": "oni",
+      "part_of_speech": "noun",
+      "meaning": "Ayahuasca"
+    },
+    {
+      "shipibo": "xeaxon",
+      "part_of_speech": "verb",
+      "meaning": "drank (past tense with -xon suffix)"
+    },
+    {
+      "shipibo": "jakon",
+      "part_of_speech": "adjective",
+      "meaning": "good"
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": "noun",
+      "meaning": "universe"
+    },
+    {
+      "shipibo": "ointi",
+      "part_of_speech": "transitive verb",
+      "meaning": "to see"
+    },
+    {
+      "shipibo": "chopa",
+      "part_of_speech": "noun",
+      "meaning": "house"
+    },
+    {
+      "shipibo": "kaxon",
+      "part_of_speech": "verb",
+      "meaning": "went (past tense with -xon suffix)"
+    },
+    {
+      "shipibo": "mesko",
+      "part_of_speech": "adjective",
+      "meaning": "dirty"
+    },
+    {
+      "shipibo": "keska",
+      "part_of_speech": "adjective",
+      "meaning": "distorted"
+    },
+    {
+      "shipibo": "raobo",
+      "part_of_speech": "noun",
+      "meaning": "energy"
+    },
+    {
+      "shipibo": "xobo",
+      "part_of_speech": "adverb",
+      "meaning": "very"
+    },
+    {
+      "shipibo": "keras",
+      "part_of_speech": "adjective",
+      "meaning": "dirty"
+    },
+    {
+      "shipibo": "oinax",
+      "part_of_speech": "verb",
+      "meaning": "is (with -ax suffix)"
+    },
+    {
+      "shipibo": "poakata",
+      "part_of_speech": "noun",
+      "meaning": "body"
+    },
+    {
+      "shipibo": "nishi",
+      "part_of_speech": "noun",
+      "meaning": "dream"
+    },
+    {
+      "shipibo": "kinana",
+      "part_of_speech": "noun",
+      "meaning": "power, strength"
+    },
+    {
+      "shipibo": "kinanax",
+      "part_of_speech": "verb",
+      "meaning": "with power/strength (with -ax suffix)"
+    },
+    {
+      "shipibo": "benxoa",
+      "part_of_speech": "verb",
+      "meaning": "healed"
+    },
+    {
+      "shipibo": "samata",
+      "part_of_speech": "verb",
+      "meaning": "to plant, to heal"
+    },
+    {
+      "shipibo": "samatax",
+      "part_of_speech": "verb",
+      "meaning": "planted/healed (with -ax suffix)"
+    },
+    {
+      "shipibo": "axea",
+      "part_of_speech": "verb",
+      "meaning": "grows, develops"
+    },
+    {
+      "shipibo": "bewaa",
+      "part_of_speech": "verb",
+      "meaning": "blossoms"
+    },
+    {
+      "shipibo": "piax",
+      "part_of_speech": "verb",
+      "meaning": "ate (with -ax suffix)"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-ax",
+      "meaning": "once it has been done, as soon as it has happened; expresses a completed action and an immediate subsequent action",
+      "usage": "used to describe past events in icaros and spoken language",
+      "examples": [
+        "piax - ate",
+        "oinax - is",
+        "samatax - planted/healed",
+        "jaskatax - in this manner"
+      ]
+    },
+    {
+      "form": "-xon",
+      "meaning": "once I have done; expresses a completed action and a not so immediate subsequent action",
+      "usage": "used to describe past events in icaros and spoken language",
+      "examples": [
+        "xeaxon - drank",
+        "kaxon - went",
+        "tanaxon - rested"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "9.1-Suffix-ax-and-xon-1.pdf",
+  "section": "9.1",
+  "module": 3,
+  "parsed_at": "2026-02-07 14:39:30"
+}

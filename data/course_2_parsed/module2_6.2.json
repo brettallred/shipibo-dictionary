@@ -1,0 +1,168 @@
+{
+  "words": [
+    {
+      "shipibo": "jaweki",
+      "part_of_speech": "pronoun",
+      "meaning": "what",
+      "context": "question word used in icaros"
+    },
+    {
+      "shipibo": "moatian",
+      "part_of_speech": "adverb",
+      "meaning": "long ago in the past",
+      "context": "temporal reference in icaros"
+    },
+    {
+      "shipibo": "min",
+      "part_of_speech": "pronoun",
+      "meaning": "you (transitive pronoun)",
+      "context": "second person singular object pronoun"
+    },
+    {
+      "shipibo": "ani",
+      "part_of_speech": "verb",
+      "meaning": "do (many years ago)",
+      "context": "past tense form, used in icaro composition"
+    },
+    {
+      "shipibo": "ati",
+      "part_of_speech": "verb",
+      "meaning": "do",
+      "context": "base verb form for ani (ati + past tense suffix)"
+    },
+    {
+      "shipibo": "oni",
+      "part_of_speech": "noun",
+      "meaning": "things",
+      "context": "used in icaro responses"
+    },
+    {
+      "shipibo": "tita",
+      "part_of_speech": "noun",
+      "meaning": "mother",
+      "context": "family kinship term"
+    },
+    {
+      "shipibo": "papa",
+      "part_of_speech": "noun",
+      "meaning": "father",
+      "context": "family kinship term"
+    },
+    {
+      "shipibo": "yosi",
+      "part_of_speech": "noun",
+      "meaning": "grandfather",
+      "context": "family kinship term"
+    },
+    {
+      "shipibo": "yoxan",
+      "part_of_speech": "noun",
+      "meaning": "grandmother",
+      "context": "family kinship term"
+    },
+    {
+      "shipibo": "mesko keska",
+      "part_of_speech": "noun",
+      "meaning": "all kinds",
+      "context": "general descriptive phrase in icaros"
+    },
+    {
+      "shipibo": "masha",
+      "part_of_speech": "noun",
+      "meaning": "traditional Shipibo song for celebrations",
+      "context": "cultural practice, used in icaro composition"
+    },
+    {
+      "shipibo": "nokon",
+      "part_of_speech": "adverb",
+      "meaning": "long ago / in the past",
+      "context": "temporal marker in icaro responses"
+    },
+    {
+      "shipibo": "bewanike",
+      "part_of_speech": "verb",
+      "meaning": "used to sing",
+      "context": "past habitual action in icaros"
+    },
+    {
+      "shipibo": "nishi",
+      "part_of_speech": "adverb",
+      "meaning": "very / much",
+      "context": "intensifier in icaro descriptions"
+    },
+    {
+      "shipibo": "kobin",
+      "part_of_speech": "adverb",
+      "meaning": "well",
+      "context": "manner adverb in icaro context"
+    },
+    {
+      "shipibo": "anike",
+      "part_of_speech": "verb",
+      "meaning": "did / did perform",
+      "context": "past tense action marker in icaros"
+    },
+    {
+      "shipibo": "raobo",
+      "part_of_speech": "adverb",
+      "meaning": "always / continuously",
+      "context": "used in describing habitual actions in icaros"
+    },
+    {
+      "shipibo": "samanike",
+      "part_of_speech": "verb",
+      "meaning": "used to teach / used to show",
+      "context": "past habitual action in icaros"
+    },
+    {
+      "shipibo": "xeanike",
+      "part_of_speech": "verb",
+      "meaning": "used to make / used to do",
+      "context": "past habitual action in icaros"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-ki",
+      "meaning": "past tense marker / question marker",
+      "usage": "attached to verbs to indicate past tense or form questions",
+      "examples": [
+        "jaweki (what did?)"
+      ]
+    },
+    {
+      "form": "-an",
+      "meaning": "transitive pronoun marker (singular object)",
+      "usage": "attached to nouns to indicate transitive relation with singular object",
+      "examples": [
+        "titan (mother-him/her)",
+        "papan (father-him/her)",
+        "yosibaon (grandfathers-them)"
+      ]
+    },
+    {
+      "form": "-bo",
+      "meaning": "plural marker",
+      "usage": "marks plural nouns and plural objects",
+      "examples": [
+        "yosibo (grandfathers)",
+        "yoxanbo (grandmothers)",
+        "raobo (continuously plural form)"
+      ]
+    },
+    {
+      "form": "-baon",
+      "meaning": "transitive plural pronoun marker",
+      "usage": "attached to plural nouns to indicate transitive relation with plural object",
+      "examples": [
+        "yosibaon (grandfathers-them)",
+        "yoxanbaon (grandmothers-them)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "6.2-Jaweki-moatian-min-ani.pdf",
+  "section": "6.2",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:34:38"
+}

@@ -1,0 +1,273 @@
+{
+  "words": [
+    {
+      "shipibo": "bicha",
+      "part_of_speech": "noun",
+      "meaning": "phlegm",
+      "context": "energies that come from sexual behavior"
+    },
+    {
+      "shipibo": "maya",
+      "part_of_speech": "adjective",
+      "meaning": "swirling",
+      "context": "describes energies in icaros"
+    },
+    {
+      "shipibo": "niwebo",
+      "part_of_speech": "noun",
+      "meaning": "wind-like energy",
+      "context": "used in icaro descriptions"
+    },
+    {
+      "shipibo": "janxo",
+      "part_of_speech": "noun",
+      "meaning": "smell of blood or body fluids",
+      "context": "energetic quality addressed in icaros"
+    },
+    {
+      "shipibo": "ocha",
+      "part_of_speech": "noun",
+      "meaning": "sin, action misaligned with plant medicine frequency",
+      "context": "shamanic concept in icaros"
+    },
+    {
+      "shipibo": "eki",
+      "part_of_speech": "pronoun",
+      "meaning": "toward me",
+      "context": "directional pronoun"
+    },
+    {
+      "shipibo": "kanoti",
+      "part_of_speech": "verb",
+      "meaning": "to connect itself",
+      "context": "used in icaro verses"
+    },
+    {
+      "shipibo": "ikenbi",
+      "part_of_speech": "conjunction",
+      "meaning": "even though",
+      "context": "conjunctive particle"
+    },
+    {
+      "shipibo": "rama",
+      "part_of_speech": "adverb",
+      "meaning": "now",
+      "context": "temporal adverb"
+    },
+    {
+      "shipibo": "ronki",
+      "part_of_speech": "verb",
+      "meaning": "they say",
+      "context": "reportative verb"
+    },
+    {
+      "shipibo": "inin",
+      "part_of_speech": "noun",
+      "meaning": "aroma",
+      "context": "medicinal aromatic quality"
+    },
+    {
+      "shipibo": "atin",
+      "part_of_speech": "verb",
+      "meaning": "to make aromatic",
+      "context": "verb form in icaro"
+    },
+    {
+      "shipibo": "nokon",
+      "part_of_speech": "pronoun",
+      "meaning": "my",
+      "context": "possessive pronoun"
+    },
+    {
+      "shipibo": "huaringa",
+      "part_of_speech": "noun",
+      "meaning": "traditional Peruvian perfume",
+      "context": "medicinal plant medicine referenced in icaros"
+    },
+    {
+      "shipibo": "noma",
+      "part_of_speech": "noun",
+      "meaning": "woman (formal)",
+      "context": "spirits of medicines appear as men or women"
+    },
+    {
+      "shipibo": "jawen",
+      "part_of_speech": "pronoun",
+      "meaning": "his, hers, its",
+      "context": "possessive pronoun"
+    },
+    {
+      "shipibo": "chokiti",
+      "part_of_speech": "verb",
+      "meaning": "to wash oneself",
+      "context": "cleansing action in icaros"
+    },
+    {
+      "shipibo": "choki",
+      "part_of_speech": "verb",
+      "meaning": "wash",
+      "context": "cleaning action"
+    },
+    {
+      "shipibo": "ponteti",
+      "part_of_speech": "verb",
+      "meaning": "to align, straighten",
+      "context": "alignment action following cleansing"
+    },
+    {
+      "shipibo": "ponte",
+      "part_of_speech": "verb",
+      "meaning": "straighten",
+      "context": "alignment action"
+    },
+    {
+      "shipibo": "bari",
+      "part_of_speech": "noun",
+      "meaning": "sun",
+      "context": "symbol of God in icaros"
+    },
+    {
+      "shipibo": "nai",
+      "part_of_speech": "noun",
+      "meaning": "sky",
+      "context": "symbol of the heavens and divine"
+    },
+    {
+      "shipibo": "ati",
+      "part_of_speech": "verb",
+      "meaning": "to do",
+      "context": "general action verb"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-bo",
+      "meaning": "plural (noun); doing as you go (verb)",
+      "usage": "noun and verb suffix",
+      "examples": [
+        "bicha bo (plural of phlegm)"
+      ]
+    },
+    {
+      "form": "-bira",
+      "meaning": "emphatic, revealing",
+      "usage": "emphasis marking",
+      "examples": [
+        "ekibira (emphasized connection)"
+      ]
+    },
+    {
+      "form": "-a",
+      "meaning": "general past",
+      "usage": "verbal aspect",
+      "examples": []
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphasis (noun/verb)",
+      "usage": "emphasis marking on nouns and verbs",
+      "examples": [
+        "ponteyontaanara (having aligned fully)"
+      ]
+    },
+    {
+      "form": "-kin",
+      "meaning": "-ing verb ending (present participial); while doing so, simultaneous action",
+      "usage": "present participle and simultaneous action marker",
+      "examples": [
+        "abokin (aromatizing)"
+      ]
+    },
+    {
+      "form": "-man",
+      "meaning": "using an element",
+      "usage": "instrumental marker",
+      "examples": [
+        "ininman (using aroma)",
+        "huaringuita man (using huaringa)"
+      ]
+    },
+    {
+      "form": "-kan",
+      "meaning": "this one, actually",
+      "usage": "demonstrative/specificity marker",
+      "examples": [
+        "nomakan (the woman specifically)"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "emphatic",
+      "usage": "emphasis particle",
+      "examples": [
+        "choki chokishamani",
+        "barikibi (sun-related emphasis)",
+        "naikibi (sky-related emphasis)"
+      ]
+    },
+    {
+      "form": "-shamani",
+      "meaning": "doing so excellently",
+      "usage": "adverbial superlative/excellent action marker",
+      "examples": [
+        "ponteshamani (straighten excellently)",
+        "chokishamani (wash excellently)"
+      ]
+    },
+    {
+      "form": "-yon",
+      "meaning": "doing fully, to completion",
+      "usage": "completive aspect",
+      "examples": [
+        "ponteyontaanara (aligned fully)"
+      ]
+    },
+    {
+      "form": "-taana",
+      "meaning": "having done so, has been done",
+      "usage": "perfect aspect",
+      "examples": [
+        "ponteyontaanara (having aligned fully)"
+      ]
+    },
+    {
+      "form": "-ki",
+      "meaning": "towards",
+      "usage": "directional marker",
+      "examples": [
+        "barikibi (towards the sun)"
+      ]
+    },
+    {
+      "form": "-ita",
+      "meaning": "object marker",
+      "usage": "accusative/object case",
+      "examples": [
+        "huaringuita (the huaringa - object)"
+      ]
+    },
+    {
+      "form": "-ti",
+      "meaning": "reflexive self",
+      "usage": "reflexive marker",
+      "examples": [
+        "ponteti (align oneself)",
+        "chokiti (wash oneself)",
+        "barikibi ponteti (become aligned towards sun)"
+      ]
+    },
+    {
+      "form": "-ikan",
+      "meaning": "using",
+      "usage": "instrumental/comitative marker",
+      "examples": [
+        "ininmanbikan (using her aroma)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "5.0-Sample-Icaro-2-Sheet1.pdf",
+  "section": "5.0",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:33:41"
+}

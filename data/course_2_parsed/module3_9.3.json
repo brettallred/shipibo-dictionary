@@ -1,0 +1,227 @@
+{
+  "words": [
+    {
+      "shipibo": "joi",
+      "part_of_speech": "noun",
+      "meaning": "voice, word, prayer",
+      "context": "Used in icaros to reference sacred utterances and prayers"
+    },
+    {
+      "shipibo": "nokon",
+      "part_of_speech": "pronoun",
+      "meaning": "my",
+      "context": "Possessive pronoun used throughout icaro composition"
+    },
+    {
+      "shipibo": "yora",
+      "part_of_speech": "noun",
+      "meaning": "body",
+      "context": "Key concept in protective icaros"
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": "noun",
+      "meaning": "universe",
+      "context": "Cosmological element in icaro structure"
+    },
+    {
+      "shipibo": "shinan",
+      "part_of_speech": "noun",
+      "meaning": "mind",
+      "context": "Element of consciousness protected in icaros"
+    },
+    {
+      "shipibo": "panai",
+      "part_of_speech": "verb",
+      "meaning": "protect (present tense)",
+      "context": "Primary protective action verb in icaros"
+    },
+    {
+      "shipibo": "panati",
+      "part_of_speech": "verb",
+      "meaning": "to protect",
+      "context": "Infinitive form of protection verb"
+    },
+    {
+      "shipibo": "sama",
+      "part_of_speech": "noun",
+      "meaning": "diet",
+      "context": "Refers to dieta practice in shamanic healing"
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "noun",
+      "meaning": "wind-like energy",
+      "context": "Energy concept used in protective icaros"
+    },
+    {
+      "shipibo": "acero",
+      "part_of_speech": "noun",
+      "meaning": "steel",
+      "context": "Protective element; from Spanish loanword"
+    },
+    {
+      "shipibo": "yonki",
+      "part_of_speech": "noun",
+      "meaning": "metal, steel",
+      "context": "Protective material in icaro composition"
+    },
+    {
+      "shipibo": "pene",
+      "part_of_speech": "adjective",
+      "meaning": "bright",
+      "context": "Descriptive quality used in icaros"
+    },
+    {
+      "shipibo": "koshi",
+      "part_of_speech": "adjective",
+      "meaning": "powerful",
+      "context": "Descriptive quality used in icaros"
+    },
+    {
+      "shipibo": "soi",
+      "part_of_speech": "adjective",
+      "meaning": "lustrously beautiful",
+      "context": "Descriptive quality used in icaros"
+    },
+    {
+      "shipibo": "sanken",
+      "part_of_speech": "noun",
+      "meaning": "beauty of shipibo designs",
+      "context": "Cultural aesthetic element in icaros"
+    },
+    {
+      "shipibo": "kene",
+      "part_of_speech": "noun",
+      "meaning": "shipibo designs",
+      "context": "Cultural pattern element in icaros"
+    },
+    {
+      "shipibo": "metsa",
+      "part_of_speech": "adjective",
+      "meaning": "beautiful",
+      "context": "Descriptive quality used in icaros"
+    },
+    {
+      "shipibo": "maton",
+      "part_of_speech": "pronoun",
+      "meaning": "your (plural)",
+      "context": "Possessive pronoun for plural second person"
+    },
+    {
+      "shipibo": "ribi",
+      "part_of_speech": "particle",
+      "meaning": "also",
+      "context": "Conjunction particle in icaro construction"
+    },
+    {
+      "shipibo": "pana",
+      "part_of_speech": "verb",
+      "meaning": "protect",
+      "context": "Protective verb used in icaros"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-ai",
+      "meaning": "present tense",
+      "usage": "Marks verbs in present tense",
+      "examples": [
+        "panai (protect)",
+        "joi (voice, word, prayer)"
+      ]
+    },
+    {
+      "form": "-bo",
+      "meaning": "plural",
+      "usage": "Marks plural nouns",
+      "examples": [
+        "niwebo (wind-like energies)"
+      ]
+    },
+    {
+      "form": "-yabi",
+      "meaning": "with all",
+      "usage": "Inclusive marker indicating 'with all'",
+      "examples": [
+        "neteyabi (with all universe)",
+        "shinanyabi (with all mind)",
+        "joiyabi (with all voice/prayer)"
+      ]
+    },
+    {
+      "form": "-shaman",
+      "meaning": "excellent",
+      "usage": "Marks adjectival quality of excellence",
+      "examples": [
+        "panashaman (protecting excellently)"
+      ]
+    },
+    {
+      "form": "-i",
+      "meaning": "present participle (-ing)",
+      "usage": "Marks gerund or present participle form",
+      "examples": [
+        "panashamani (protecting excellently)"
+      ]
+    },
+    {
+      "form": "-nin",
+      "meaning": "using",
+      "usage": "Marks instrumental case; indicates using/with",
+      "examples": [
+        "aceronin (using steel)",
+        "aceroninbi (using steel with emphasis)"
+      ]
+    },
+    {
+      "form": "-man",
+      "meaning": "using",
+      "usage": "Marks instrumental case; indicates using/with",
+      "examples": [
+        "yonkiman (using metal/steel)"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "emphasis",
+      "usage": "Emphatic marker",
+      "examples": [
+        "yonkimanbira (using my steel with emphasis)",
+        "aceroninbi (using steel with emphasis)"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphasis",
+      "usage": "Emphatic marker",
+      "examples": [
+        "yonkimanbira (using my steel with emphasis)"
+      ]
+    },
+    {
+      "form": "-kan",
+      "meaning": "this one, actually",
+      "usage": "Demonstrative/emphatic marker",
+      "examples": [
+        "yora ribikan (this body also)",
+        "nete ribikan (this universe also)",
+        "shinan ribikan (this mind also)",
+        "joi ribikan (this voice/prayer also)"
+      ]
+    },
+    {
+      "form": "-kin",
+      "meaning": "present participle (-ing), one degree less present, more descriptive",
+      "usage": "Marks gerund or present participle with descriptive quality",
+      "examples": [
+        "panashamankin (protecting excellently)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "9.3-Icaro-Writing-Excercise-Week-9.pdf",
+  "section": "9.3",
+  "module": 3,
+  "parsed_at": "2026-02-07 14:39:46"
+}

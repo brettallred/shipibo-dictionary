@@ -1,0 +1,188 @@
+{
+  "words": [
+    {
+      "shipibo": "nato",
+      "part_of_speech": "noun",
+      "meaning": "this"
+    },
+    {
+      "shipibo": "nokoti",
+      "part_of_speech": "verb",
+      "meaning": "to arrive"
+    },
+    {
+      "shipibo": "mai",
+      "part_of_speech": "noun",
+      "meaning": "land"
+    },
+    {
+      "shipibo": "jakiribi",
+      "part_of_speech": "adverb",
+      "meaning": "once more time, one more time"
+    },
+    {
+      "shipibo": "kaibo",
+      "part_of_speech": "noun",
+      "meaning": "family"
+    },
+    {
+      "shipibo": "medico",
+      "part_of_speech": "noun",
+      "meaning": "doctor (Spanish loanword)"
+    },
+    {
+      "shipibo": "jakon",
+      "part_of_speech": "adjective",
+      "meaning": "good"
+    },
+    {
+      "shipibo": "koshi",
+      "part_of_speech": "adjective",
+      "meaning": "powerful, strong"
+    },
+    {
+      "shipibo": "joi",
+      "part_of_speech": "noun",
+      "meaning": "word"
+    },
+    {
+      "shipibo": "biti",
+      "part_of_speech": "verb",
+      "meaning": "to receive, obtain"
+    },
+    {
+      "shipibo": "shinan",
+      "part_of_speech": "noun",
+      "meaning": "mind, thoughts"
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "noun",
+      "meaning": "energy"
+    },
+    {
+      "shipibo": "metsa",
+      "part_of_speech": "adjective",
+      "meaning": "beautiful"
+    },
+    {
+      "shipibo": "noimisti",
+      "part_of_speech": "adjective",
+      "meaning": "loving"
+    },
+    {
+      "shipibo": "akinmisti",
+      "part_of_speech": "adjective",
+      "meaning": "helpful"
+    },
+    {
+      "shipibo": "benxomisti",
+      "part_of_speech": "adjective",
+      "meaning": "healing"
+    },
+    {
+      "shipibo": "akin",
+      "part_of_speech": "verb",
+      "meaning": "doing"
+    },
+    {
+      "shipibo": "maketi",
+      "part_of_speech": "verb",
+      "meaning": "to polish, further develop"
+    },
+    {
+      "shipibo": "meniti",
+      "part_of_speech": "verb",
+      "meaning": "to give"
+    },
+    {
+      "shipibo": "ribi",
+      "part_of_speech": "adverb",
+      "meaning": "also"
+    },
+    {
+      "shipibo": "jaton",
+      "part_of_speech": "pronoun",
+      "meaning": "they (transitive)"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-in",
+      "meaning": "in, locative",
+      "usage": "nominal locative suffix",
+      "examples": [
+        "Nato main (this land)"
+      ]
+    },
+    {
+      "form": "-ax",
+      "meaning": "once it has already happened (recently)",
+      "usage": "verbal aspect suffix indicating recent perfective",
+      "examples": [
+        "nokoax (arrived)",
+        "Nato main nokoax (Once I arrived to this land)"
+      ]
+    },
+    {
+      "form": "-bo",
+      "meaning": "plural",
+      "usage": "nominal plural suffix",
+      "examples": [
+        "kaibobo (family members)",
+        "medicobo (doctors)",
+        "shinanbo (thoughts)"
+      ]
+    },
+    {
+      "form": "-non",
+      "meaning": "will, announcement of something that will happen in the future",
+      "usage": "verbal future/prospective suffix",
+      "examples": [
+        "binonra (will receive)",
+        "binonon (will receive)",
+        "meninon (will give)",
+        "makenon (will polish/develop)"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphasis",
+      "usage": "emphatic suffix",
+      "examples": [
+        "binonra (will receive with emphasis)"
+      ]
+    },
+    {
+      "form": "-shaman",
+      "meaning": "doing something excellently",
+      "usage": "verbal adverbial suffix indicating excellence/quality",
+      "examples": [
+        "biboshamanon (will go on receiving excellently)",
+        "makeshamanon (will polish/develop excellently)",
+        "menishamanon (will give excellently)"
+      ]
+    },
+    {
+      "form": "-bira",
+      "meaning": "revealing, disclosure",
+      "usage": "nominal suffix indicating revelation or manifestation",
+      "examples": [
+        "jakiribibobira (the things that I receive over and over again)"
+      ]
+    },
+    {
+      "form": "-oki",
+      "meaning": "towards",
+      "usage": "directional/allative suffix",
+      "examples": [
+        "kaiboboki (towards the family members)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "4.4-Icaro-writing-exercise-Joy.pdf",
+  "section": "4.4",
+  "module": 1,
+  "parsed_at": "2026-02-07 14:28:31"
+}

@@ -1,0 +1,3944 @@
+{
+  "source": "course_2",
+  "module": 3,
+  "extracted_at": "2026-02-07",
+  "stats": {
+    "files_parsed": 16,
+    "words_before_dedup": 477,
+    "words_after_dedup": 337,
+    "suffixes_before_dedup": 133,
+    "suffixes_after_dedup": 60,
+    "prefixes_before_dedup": 0,
+    "prefixes_after_dedup": 0
+  },
+  "words": [
+    {
+      "shipibo": "abanon",
+      "part_of_speech": "verb",
+      "meaning": "will heal",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "acero",
+      "part_of_speech": "noun",
+      "meaning": "steel, metal",
+      "sources": [
+        "10.3",
+        "10.4",
+        "9.3",
+        "9.4"
+      ],
+      "context": "material quality attributed to spirit helpers for strength"
+    },
+    {
+      "shipibo": "akai",
+      "part_of_speech": "verb",
+      "meaning": "working on",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "akax",
+      "part_of_speech": "verb",
+      "meaning": "worked, did",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "akinra",
+      "part_of_speech": "verb",
+      "meaning": "doing, working on",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "akinti",
+      "part_of_speech": "transitive verb",
+      "meaning": "help",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "arkana",
+      "part_of_speech": "noun",
+      "meaning": "sacred healing work, sacred practice",
+      "sources": [
+        "10.4",
+        "12.2"
+      ],
+      "context": "specific plant spirit used in icaros"
+    },
+    {
+      "shipibo": "ati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to do, to make",
+      "sources": [
+        "10.1",
+        "11.1",
+        "11.2",
+        "9.0",
+        "9.2"
+      ],
+      "context": "General action verb"
+    },
+    {
+      "shipibo": "axea",
+      "part_of_speech": "verb",
+      "meaning": "grows, develops",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "axon",
+      "part_of_speech": "verb",
+      "meaning": "to do (medicine work)",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Example: axonira bewai - doing for you the medicine work as I sing"
+    },
+    {
+      "shipibo": "ayahuasca",
+      "part_of_speech": "noun",
+      "meaning": "ayahuasca (sacred plant)",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "ayontaanara",
+      "part_of_speech": "verb",
+      "meaning": "having fully finished the process",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "bailarina",
+      "part_of_speech": "noun",
+      "meaning": "dancer",
+      "sources": [
+        "10.4"
+      ],
+      "context": "graceful quality of spirit helper manifestation"
+    },
+    {
+      "shipibo": "bake",
+      "part_of_speech": "noun",
+      "meaning": "child",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "bakera",
+      "part_of_speech": "adjective",
+      "meaning": "young",
+      "sources": [
+        "10.4"
+      ],
+      "context": "descriptive term used in icaros"
+    },
+    {
+      "shipibo": "bane",
+      "part_of_speech": "verb",
+      "meaning": "to place orders, to plant",
+      "sources": [
+        "10.4"
+      ],
+      "context": "positioning instructions along spiritual pathways"
+    },
+    {
+      "shipibo": "bemana",
+      "part_of_speech": "noun",
+      "meaning": "face",
+      "sources": [
+        "12.1"
+      ],
+      "context": "External body part"
+    },
+    {
+      "shipibo": "benxo",
+      "part_of_speech": "verb",
+      "meaning": "heal another",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "benxoa",
+      "part_of_speech": "verb",
+      "meaning": "has healed",
+      "sources": [
+        "11.5",
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "benxoi",
+      "part_of_speech": "verb",
+      "meaning": "is healing",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "benxokainshamanax",
+      "part_of_speech": "verb",
+      "meaning": "as soon as it has healed excellently along the way",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "benxoti",
+      "part_of_speech": "verb",
+      "meaning": "to heal oneself",
+      "sources": [
+        "11.5",
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "bepon",
+      "part_of_speech": "noun",
+      "meaning": "resin",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Tree parts"
+    },
+    {
+      "shipibo": "bero",
+      "part_of_speech": "noun",
+      "meaning": "eye",
+      "sources": [
+        "12.1"
+      ],
+      "context": "External body part"
+    },
+    {
+      "shipibo": "beti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to bring",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "bewa",
+      "part_of_speech": "noun",
+      "meaning": "song, icaro",
+      "sources": [
+        "11.2",
+        "11.5",
+        "9.0"
+      ],
+      "context": "Refers to the healing song"
+    },
+    {
+      "shipibo": "bewaa",
+      "part_of_speech": "verb",
+      "meaning": "blossoms",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "bewabiribi",
+      "part_of_speech": "noun",
+      "meaning": "song",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "bewabo",
+      "part_of_speech": "noun",
+      "meaning": "songs",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "bewai",
+      "part_of_speech": "particle",
+      "meaning": "while doing so, as I sing",
+      "sources": [
+        "12.1",
+        "9.4"
+      ],
+      "context": "Used in icaro construction with -i and -ra suffixes"
+    },
+    {
+      "shipibo": "bewati",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to sing",
+      "sources": [
+        "11.1",
+        "11.4"
+      ],
+      "context": "action verb in icaro celebration section"
+    },
+    {
+      "shipibo": "bewayonbanon",
+      "part_of_speech": "verb",
+      "meaning": "I will sing fully",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "bichi",
+      "part_of_speech": "noun",
+      "meaning": "skin or bark",
+      "sources": [
+        "12.1"
+      ],
+      "context": "External body part or tree part"
+    },
+    {
+      "shipibo": "blankita",
+      "part_of_speech": "adjective",
+      "meaning": "white",
+      "sources": [
+        "10.4"
+      ],
+      "context": "color descriptor for spirit helpers"
+    },
+    {
+      "shipibo": "bocho",
+      "part_of_speech": "adjective",
+      "meaning": "full",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "boe xoi",
+      "part_of_speech": "noun",
+      "meaning": "grilled boquechico",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Dieta food"
+    },
+    {
+      "shipibo": "boti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to take",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "caballito",
+      "part_of_speech": "noun",
+      "meaning": "horse (diminutive)",
+      "sources": [
+        "10.4"
+      ],
+      "context": "animal spirit helper"
+    },
+    {
+      "shipibo": "caballo",
+      "part_of_speech": "noun",
+      "meaning": "horse",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "cabellerito",
+      "part_of_speech": "noun",
+      "meaning": "gentleman, nobleman (diminutive)",
+      "sources": [
+        "10.4"
+      ],
+      "context": "respectful character designation for spirit helpers"
+    },
+    {
+      "shipibo": "chaikoni",
+      "part_of_speech": "noun",
+      "meaning": "water spirit or chaikoni spirit",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Spiritual vocabulary"
+    },
+    {
+      "shipibo": "chankati",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to stand on 2 feet",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "chixka",
+      "part_of_speech": "noun",
+      "meaning": "little tinamou",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "choka",
+      "part_of_speech": "verb",
+      "meaning": "to wash",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Example: chokaira bewai - washing as I sing"
+    },
+    {
+      "shipibo": "chonka",
+      "part_of_speech": "adjective",
+      "meaning": "ten",
+      "sources": [
+        "10.4",
+        "12.1"
+      ],
+      "context": "number descriptor in spirit helper references"
+    },
+    {
+      "shipibo": "chono",
+      "part_of_speech": "noun",
+      "meaning": "jungle swallow",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "chono nita",
+      "part_of_speech": "noun",
+      "meaning": "jungle swallow spirit",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Spirit type"
+    },
+    {
+      "shipibo": "chopa",
+      "part_of_speech": "noun",
+      "meaning": "house",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "chosko",
+      "part_of_speech": "noun",
+      "meaning": "four",
+      "sources": [
+        "12.1"
+      ]
+    },
+    {
+      "shipibo": "contamana",
+      "part_of_speech": "noun",
+      "meaning": "Contamana",
+      "sources": [
+        "10.4"
+      ],
+      "context": "geographic/spiritual reference location"
+    },
+    {
+      "shipibo": "dietero",
+      "part_of_speech": "noun",
+      "meaning": "one who is on a dieta; someone in relationship with a master plant",
+      "sources": [
+        "11.3"
+      ],
+      "context": "person undergoing master plant dieta practice"
+    },
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "they, they say",
+      "sources": [
+        "10.2",
+        "11.2",
+        "11.4",
+        "9.0",
+        "9.2",
+        "9.4"
+      ],
+      "context": "used in icaro composition"
+    },
+    {
+      "shipibo": "eara",
+      "part_of_speech": "pronoun",
+      "meaning": "I (intransitive pronoun)",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "en",
+      "part_of_speech": "pronoun",
+      "meaning": "I/me (transitive pronoun)",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "enra",
+      "part_of_speech": "pronoun",
+      "meaning": "I (transitive pronoun)",
+      "sources": [
+        "10.1",
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "eon",
+      "part_of_speech": "verb",
+      "meaning": "fell lightly towards me",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "espejo",
+      "part_of_speech": "noun",
+      "meaning": "mirror",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "ewa",
+      "part_of_speech": "adjective",
+      "meaning": "huge",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "guardia",
+      "part_of_speech": "noun",
+      "meaning": "guardian, guard",
+      "sources": [
+        "10.4"
+      ],
+      "context": "protective spirit helper role"
+    },
+    {
+      "shipibo": "ibo",
+      "part_of_speech": "noun",
+      "meaning": "spirit; a human form spirit",
+      "sources": [
+        "11.3"
+      ],
+      "context": "central concept in master plant dieta - the spirit behind a plant or divine consciousness"
+    },
+    {
+      "shipibo": "icara",
+      "part_of_speech": "noun",
+      "meaning": "icaros, healing songs",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "icaro",
+      "part_of_speech": "noun",
+      "meaning": "sacred healing song",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "ikai",
+      "part_of_speech": "verb",
+      "meaning": "sing, be (present tense conjugation of iti)",
+      "sources": [
+        "9.4"
+      ],
+      "context": "Present tense form used as umbrella term for intransitive verbs"
+    },
+    {
+      "shipibo": "iki",
+      "part_of_speech": "verb",
+      "meaning": "to do, to perform",
+      "sources": [
+        "10.4",
+        "11.5"
+      ],
+      "context": "general action verb in icaros"
+    },
+    {
+      "shipibo": "ikonrake",
+      "part_of_speech": "interjection",
+      "meaning": "well then, okay",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "inin",
+      "part_of_speech": "verb",
+      "meaning": "to make fragrant, to aromatize",
+      "sources": [
+        "11.2",
+        "11.4",
+        "12.1",
+        "9.0"
+      ],
+      "context": "Preparation action in icaro"
+    },
+    {
+      "shipibo": "inka",
+      "part_of_speech": "noun",
+      "meaning": "spirit",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Spiritual vocabulary"
+    },
+    {
+      "shipibo": "inkaiko",
+      "part_of_speech": "noun",
+      "meaning": "Marosa, a type of medicinal plant/doctor spirit",
+      "sources": [
+        "11.4"
+      ],
+      "context": "plant doctor invoked in icaro"
+    },
+    {
+      "shipibo": "inkaiko rao",
+      "part_of_speech": "noun",
+      "meaning": "remedy, medicine preparation",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "ino",
+      "part_of_speech": "noun",
+      "meaning": "jaguar",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "inoaxatan",
+      "part_of_speech": "noun",
+      "meaning": "Ayahuma, a type of medicinal plant/doctor spirit",
+      "sources": [
+        "11.4"
+      ],
+      "context": "plant doctor invoked in icaro"
+    },
+    {
+      "shipibo": "inoka",
+      "part_of_speech": "noun",
+      "meaning": "jaguar",
+      "sources": [
+        "10.4"
+      ],
+      "context": "powerful animal spirit helper"
+    },
+    {
+      "shipibo": "irake",
+      "part_of_speech": "interjection",
+      "meaning": "thank you",
+      "sources": [
+        "11.1",
+        "11.3"
+      ],
+      "context": "greeting/expression of gratitude"
+    },
+    {
+      "shipibo": "isa",
+      "part_of_speech": "noun",
+      "meaning": "bird",
+      "sources": [
+        "12.1"
+      ]
+    },
+    {
+      "shipibo": "isabo",
+      "part_of_speech": "noun",
+      "meaning": "bird",
+      "sources": [
+        "12.1"
+      ]
+    },
+    {
+      "shipibo": "isin",
+      "part_of_speech": "noun",
+      "meaning": "illness",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "iskon",
+      "part_of_speech": "noun",
+      "meaning": "nine",
+      "sources": [
+        "12.1"
+      ]
+    },
+    {
+      "shipibo": "iti",
+      "part_of_speech": "verb",
+      "meaning": "to be, to sing",
+      "sources": [
+        "10.2",
+        "11.1",
+        "11.2",
+        "11.4",
+        "9.0",
+        "9.2",
+        "9.4"
+      ],
+      "context": "used in icaro composition"
+    },
+    {
+      "shipibo": "itsa",
+      "part_of_speech": "noun",
+      "meaning": "a pungent smell",
+      "sources": [
+        "10.2",
+        "9.0"
+      ],
+      "context": "used in icaro analysis"
+    },
+    {
+      "shipibo": "iwe",
+      "part_of_speech": "adjective",
+      "meaning": "heavyness",
+      "sources": [
+        "11.1",
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "ixon",
+      "part_of_speech": "particle",
+      "meaning": "once being, as a result of being",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "iyosma",
+      "part_of_speech": "verb",
+      "meaning": "to do",
+      "sources": [
+        "9.0"
+      ]
+    },
+    {
+      "shipibo": "jabaon",
+      "part_of_speech": "pronoun",
+      "meaning": "their",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "jain",
+      "part_of_speech": "adverb",
+      "meaning": "there",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "jainxonki",
+      "part_of_speech": "adverb",
+      "meaning": "right there",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "jakiribibirakan",
+      "part_of_speech": "adverb",
+      "meaning": "joyfully, happily",
+      "sources": [
+        "10.4"
+      ],
+      "context": "emotional quality of spirit manifestation"
+    },
+    {
+      "shipibo": "jakon",
+      "part_of_speech": "adjective",
+      "meaning": "good",
+      "sources": [
+        "10.2",
+        "9.1"
+      ],
+      "context": "used in icaro analysis"
+    },
+    {
+      "shipibo": "jakon nete",
+      "part_of_speech": "noun",
+      "meaning": "good universe, divine realm",
+      "sources": [
+        "12.1"
+      ],
+      "context": "4 dimensions cosmology"
+    },
+    {
+      "shipibo": "jakonma",
+      "part_of_speech": "adjective",
+      "meaning": "incompatible, bad",
+      "sources": [
+        "9.0"
+      ]
+    },
+    {
+      "shipibo": "jakonti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to improve, become better",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "jan",
+      "part_of_speech": "pronoun",
+      "meaning": "transitive pronoun",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "jana",
+      "part_of_speech": "noun",
+      "meaning": "tongue",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Internal body part"
+    },
+    {
+      "shipibo": "jane",
+      "part_of_speech": null,
+      "meaning": "name, identity, all that you are",
+      "sources": [
+        "12.2"
+      ],
+      "context": "Refers to complete essence or identity in icaro"
+    },
+    {
+      "shipibo": "jaskara",
+      "part_of_speech": null,
+      "meaning": "like this, in this way",
+      "sources": [
+        "12.2"
+      ],
+      "context": "Used to reference manner of praying"
+    },
+    {
+      "shipibo": "jaskatax",
+      "part_of_speech": "adverb",
+      "meaning": "in this manner",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "jawe",
+      "part_of_speech": "pronoun",
+      "meaning": "what, something",
+      "sources": [
+        "10.2",
+        "11.2",
+        "9.0",
+        "9.2"
+      ],
+      "context": "used in icaro analysis"
+    },
+    {
+      "shipibo": "jawebi",
+      "part_of_speech": "noun",
+      "meaning": "nothing",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "jaweki",
+      "part_of_speech": "noun",
+      "meaning": "objects",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "jawen",
+      "part_of_speech": "noun",
+      "meaning": "gear, equipment, belongings",
+      "sources": [
+        "10.4",
+        "11.4"
+      ],
+      "context": "refers to the complete power and attributes of spirit helpers"
+    },
+    {
+      "shipibo": "jawetianbi",
+      "part_of_speech": "adverb",
+      "meaning": "never",
+      "sources": [
+        "10.2",
+        "9.0"
+      ],
+      "context": "used in icaro composition"
+    },
+    {
+      "shipibo": "jene",
+      "part_of_speech": "noun",
+      "meaning": "water",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Tree parts or element"
+    },
+    {
+      "shipibo": "jene nete",
+      "part_of_speech": "noun",
+      "meaning": "world of water",
+      "sources": [
+        "12.1"
+      ],
+      "context": "4 dimensions cosmology"
+    },
+    {
+      "shipibo": "jise",
+      "part_of_speech": "interjection",
+      "meaning": "there you go",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "jishtiti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to appear",
+      "sources": [
+        "10.3",
+        "11.4"
+      ],
+      "context": "action verb in icaro composition"
+    },
+    {
+      "shipibo": "jisonti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "urinate",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "jiwi",
+      "part_of_speech": "noun",
+      "meaning": "parts of a tree",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Category heading for tree vocabulary"
+    },
+    {
+      "shipibo": "joa",
+      "part_of_speech": "noun",
+      "meaning": "flower",
+      "sources": [
+        "11.4",
+        "12.1"
+      ],
+      "context": "descriptive element in icaro verses"
+    },
+    {
+      "shipibo": "joe",
+      "part_of_speech": "noun",
+      "meaning": "light",
+      "sources": [
+        "11.4"
+      ],
+      "context": "descriptive element in icaro verses"
+    },
+    {
+      "shipibo": "joi",
+      "part_of_speech": "noun",
+      "meaning": "icaro, sacred healing song",
+      "sources": [
+        "10.3",
+        "10.4",
+        "11.2",
+        "11.4",
+        "12.2",
+        "9.0",
+        "9.2",
+        "9.3"
+      ],
+      "context": "used in icaros for spiritual communication"
+    },
+    {
+      "shipibo": "jointi",
+      "part_of_speech": "noun",
+      "meaning": "heart",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Internal body part"
+    },
+    {
+      "shipibo": "joni",
+      "part_of_speech": "noun",
+      "meaning": "true, real, genuine",
+      "sources": [
+        "10.3",
+        "10.4"
+      ],
+      "context": "quality descriptor for authentic spirit helpers in icaros"
+    },
+    {
+      "shipibo": "joxo",
+      "part_of_speech": "adjective",
+      "meaning": "white",
+      "sources": [
+        "10.3",
+        "12.2"
+      ],
+      "context": "Describes the tortoise in icaro"
+    },
+    {
+      "shipibo": "joxo pionis",
+      "part_of_speech": "noun",
+      "meaning": "Piñón Blanco, a type of medicinal plant/doctor spirit",
+      "sources": [
+        "11.4",
+        "9.1"
+      ],
+      "context": "plant doctor invoked in icaro"
+    },
+    {
+      "shipibo": "joyo",
+      "part_of_speech": "adverb",
+      "meaning": "standing, straight",
+      "sources": [
+        "10.4"
+      ],
+      "context": "describes positioning or stance of spirit helpers"
+    },
+    {
+      "shipibo": "joyoti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to place oneself in line",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "kai",
+      "part_of_speech": "particle",
+      "meaning": "go",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "kanchis",
+      "part_of_speech": "noun",
+      "meaning": "seven",
+      "sources": [
+        "12.1"
+      ]
+    },
+    {
+      "shipibo": "kano",
+      "part_of_speech": "verb",
+      "meaning": "building, building the connection structure",
+      "sources": [
+        "11.5",
+        "12.1"
+      ],
+      "context": "Example: kanoira bewai - connecting as I sing"
+    },
+    {
+      "shipibo": "kanoti",
+      "part_of_speech": "verb",
+      "meaning": "to connect oneself",
+      "sources": [
+        "11.2",
+        "11.4",
+        "9.0"
+      ],
+      "context": "Action of connecting oneself in icaro"
+    },
+    {
+      "shipibo": "katema",
+      "part_of_speech": "verb",
+      "meaning": "to surround, to encircle",
+      "sources": [
+        "10.4"
+      ],
+      "context": "used in icaros to describe spirits protecting by surrounding"
+    },
+    {
+      "shipibo": "kateti",
+      "part_of_speech": "verb",
+      "meaning": "to surround",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "kaxa xao",
+      "part_of_speech": "noun",
+      "meaning": "spinal cord",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Internal body part"
+    },
+    {
+      "shipibo": "kaxon",
+      "part_of_speech": "verb",
+      "meaning": "went (past tense with -xon suffix)",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "kena",
+      "part_of_speech": "verb",
+      "meaning": "to summon",
+      "sources": [
+        "10.4"
+      ],
+      "context": "core action verb in healing icaros for calling spirit helpers"
+    },
+    {
+      "shipibo": "kenati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to call, summon",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "kene",
+      "part_of_speech": "noun",
+      "meaning": "shipibo designs",
+      "sources": [
+        "9.3"
+      ],
+      "context": "Cultural pattern element in icaros"
+    },
+    {
+      "shipibo": "kenti",
+      "part_of_speech": "noun",
+      "meaning": "pot",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "kepenboi",
+      "part_of_speech": "verb",
+      "meaning": "I go opening as I sing",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "kepenkin",
+      "part_of_speech": "verb",
+      "meaning": "opening",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "kepenti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to open",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "kepenyonxonbanon",
+      "part_of_speech": "verb",
+      "meaning": "I will open fully for you",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "keras",
+      "part_of_speech": "adjective",
+      "meaning": "dirty",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "keska",
+      "part_of_speech": "adjective",
+      "meaning": "distorted",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "kewe",
+      "part_of_speech": "adjective",
+      "meaning": "embroidered",
+      "sources": [
+        "11.4"
+      ],
+      "context": "descriptive quality in icaro verses"
+    },
+    {
+      "shipibo": "keyoke",
+      "part_of_speech": "verb",
+      "meaning": "finished! (command/emphatic form)",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "keyoti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to finish, eliminate",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "kimisha",
+      "part_of_speech": "noun",
+      "meaning": "three",
+      "sources": [
+        "12.1"
+      ]
+    },
+    {
+      "shipibo": "kinana",
+      "part_of_speech": "noun",
+      "meaning": "power, strength",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "kinanax",
+      "part_of_speech": "verb",
+      "meaning": "with power/strength (with -ax suffix)",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "kinanti",
+      "part_of_speech": "transitive verb",
+      "meaning": "purge",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "king",
+      "part_of_speech": "noun",
+      "meaning": "king (English loanword)",
+      "sources": [
+        "10.4"
+      ],
+      "context": "used in spirit helper names"
+    },
+    {
+      "shipibo": "kochi",
+      "part_of_speech": "noun",
+      "meaning": "pork, pig",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "koiranti",
+      "part_of_speech": "transitive verb",
+      "meaning": "commands, orders",
+      "sources": [
+        "10.1",
+        "10.3",
+        "10.4"
+      ],
+      "context": "refers to instructions given to spirit helpers in icaros"
+    },
+    {
+      "shipibo": "kon",
+      "part_of_speech": "noun",
+      "meaning": "king",
+      "sources": [
+        "10.4"
+      ],
+      "context": "powerful spirit helper classification"
+    },
+    {
+      "shipibo": "konin ewa",
+      "part_of_speech": "noun",
+      "meaning": "electric eel",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "kori",
+      "part_of_speech": "noun",
+      "meaning": "gold",
+      "sources": [
+        "11.4"
+      ],
+      "context": "descriptive element in icaro verses"
+    },
+    {
+      "shipibo": "koriki",
+      "part_of_speech": "noun",
+      "meaning": "money",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "koros",
+      "part_of_speech": "noun",
+      "meaning": "cross",
+      "sources": [
+        "12.2"
+      ],
+      "context": "Drawn in body during healing to symbolize protection"
+    },
+    {
+      "shipibo": "koshi",
+      "part_of_speech": "adjective",
+      "meaning": "powerful, strong",
+      "sources": [
+        "11.2",
+        "9.0",
+        "9.3"
+      ],
+      "context": "Describes protection quality"
+    },
+    {
+      "shipibo": "koshibira",
+      "part_of_speech": "adjective",
+      "meaning": "powerful, strong",
+      "sources": [
+        "9.0"
+      ]
+    },
+    {
+      "shipibo": "kána",
+      "part_of_speech": "noun",
+      "meaning": "blue/yellow macaw",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "leon",
+      "part_of_speech": "noun",
+      "meaning": "lion",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "maiti",
+      "part_of_speech": "noun",
+      "meaning": "to crown oneself",
+      "sources": [
+        "11.4"
+      ],
+      "context": "object being put on in icaro ritual sequence"
+    },
+    {
+      "shipibo": "maitibokan",
+      "part_of_speech": null,
+      "meaning": "crowns",
+      "sources": [
+        "12.2"
+      ],
+      "context": "Metaphorical element in dieta imagery"
+    },
+    {
+      "shipibo": "mana",
+      "part_of_speech": "verb",
+      "meaning": "to stand vigilant, to remain alert",
+      "sources": [
+        "10.4"
+      ],
+      "context": "closing action in many icaro verses, commanding spirits to remain watchful"
+    },
+    {
+      "shipibo": "manan",
+      "part_of_speech": "noun",
+      "meaning": "mountain",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "mananbo",
+      "part_of_speech": "noun",
+      "meaning": "mountain",
+      "sources": [
+        "10.4"
+      ],
+      "context": "earth element spirit helper or power source"
+    },
+    {
+      "shipibo": "mananxawe",
+      "part_of_speech": "noun",
+      "meaning": "tortoise",
+      "sources": [
+        "12.2"
+      ],
+      "context": "Animal spirit ally in healing icaro"
+    },
+    {
+      "shipibo": "manati",
+      "part_of_speech": "verb",
+      "meaning": "to wait",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "mapo",
+      "part_of_speech": "noun",
+      "meaning": "head",
+      "sources": [
+        "12.1"
+      ],
+      "context": "External body part"
+    },
+    {
+      "shipibo": "masa",
+      "part_of_speech": "interjection",
+      "meaning": "don't worry",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "masa shinanti",
+      "part_of_speech": "transitive verb",
+      "meaning": "worry",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "masá",
+      "part_of_speech": "noun",
+      "meaning": "forgetting, loss",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "mato",
+      "part_of_speech": "pronoun",
+      "meaning": "I/me",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "maton",
+      "part_of_speech": "pronoun",
+      "meaning": "your, your bodies",
+      "sources": [
+        "11.5",
+        "9.3"
+      ],
+      "context": "Possessive pronoun for plural second person"
+    },
+    {
+      "shipibo": "mayama",
+      "part_of_speech": "verb",
+      "meaning": "to circle, to go around",
+      "sources": [
+        "10.4"
+      ],
+      "context": "protective movement of spirits around the patient or space"
+    },
+    {
+      "shipibo": "mayati",
+      "part_of_speech": "verb",
+      "meaning": "to circle, go around, swirl",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "meax",
+      "part_of_speech": "adverb",
+      "meaning": "from",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "medicina",
+      "part_of_speech": "noun",
+      "meaning": "medicine",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "medico",
+      "part_of_speech": "noun",
+      "meaning": "medicine (from Spanish doctor)",
+      "sources": [
+        "10.2",
+        "11.4",
+        "12.2",
+        "9.0"
+      ],
+      "context": "used in icaro composition"
+    },
+    {
+      "shipibo": "medicoti",
+      "part_of_speech": "verb",
+      "meaning": "to become doctor",
+      "sources": [
+        "11.4"
+      ],
+      "context": "transformation verb in icaro composition"
+    },
+    {
+      "shipibo": "meken",
+      "part_of_speech": "noun",
+      "meaning": "hands",
+      "sources": [
+        "12.1"
+      ],
+      "context": "External body part"
+    },
+    {
+      "shipibo": "mera",
+      "part_of_speech": "verb",
+      "meaning": "finding",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "meran",
+      "part_of_speech": "noun",
+      "meaning": "medicine, realm",
+      "sources": [
+        "10.4",
+        "11.4",
+        "9.1"
+      ],
+      "context": "spiritual or healing dimension"
+    },
+    {
+      "shipibo": "merani",
+      "part_of_speech": "verb",
+      "meaning": "I have found",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "merati",
+      "part_of_speech": "verb",
+      "meaning": "find, certainly find",
+      "sources": [
+        "11.2",
+        "12.2",
+        "9.0",
+        "9.1"
+      ],
+      "context": "Action that should not happen to the singer"
+    },
+    {
+      "shipibo": "mesko",
+      "part_of_speech": "adjective",
+      "meaning": "dirty",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "metsa",
+      "part_of_speech": "noun",
+      "meaning": "realm, beautiful realm",
+      "sources": [
+        "11.5",
+        "9.3"
+      ],
+      "context": "Descriptive quality used in icaros"
+    },
+    {
+      "shipibo": "mia",
+      "part_of_speech": "pronoun",
+      "meaning": "you (object)",
+      "sources": [
+        "10.1",
+        "11.1",
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "min",
+      "part_of_speech": "pronoun",
+      "meaning": "transitive pronoun",
+      "sources": [
+        "11.1",
+        "11.4",
+        "11.5"
+      ],
+      "context": "possessive pronoun in icaro descriptions"
+    },
+    {
+      "shipibo": "mion",
+      "part_of_speech": "adverb",
+      "meaning": "towards you, destination of soft impact",
+      "sources": [
+        "11.4"
+      ],
+      "context": "directional particle in icaro verses"
+    },
+    {
+      "shipibo": "mokapari",
+      "part_of_speech": "noun",
+      "meaning": "Chiric Sanango, a type of medicinal plant/doctor spirit",
+      "sources": [
+        "11.4"
+      ],
+      "context": "plant doctor invoked in icaro"
+    },
+    {
+      "shipibo": "médico",
+      "part_of_speech": "noun",
+      "meaning": "doctor, healer",
+      "sources": [
+        "10.4"
+      ],
+      "context": "spirit helper classification in icaros"
+    },
+    {
+      "shipibo": "naman",
+      "part_of_speech": "adverb",
+      "meaning": "below",
+      "sources": [
+        "11.5",
+        "12.1"
+      ]
+    },
+    {
+      "shipibo": "nashiti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "bathe",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "neska",
+      "part_of_speech": "adverb",
+      "meaning": "like this, excellently",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "neskara",
+      "part_of_speech": "adverb",
+      "meaning": "like this, in this manner",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "neskati",
+      "part_of_speech": "verb",
+      "meaning": "to be or do in a certain way",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": "noun",
+      "meaning": "beautiful, lustrous",
+      "sources": [
+        "11.1",
+        "11.4",
+        "11.5",
+        "12.2",
+        "9.1",
+        "9.3"
+      ],
+      "context": "cosmic scope in icaro verses"
+    },
+    {
+      "shipibo": "nete ibo",
+      "part_of_speech": "noun",
+      "meaning": "God; ultimate divine consciousness; the ultimate boss",
+      "sources": [
+        "11.3"
+      ],
+      "context": "highest level of spiritual manifestation; plants are manifestations of Nete Ibo"
+    },
+    {
+      "shipibo": "netenbiribi",
+      "part_of_speech": "noun",
+      "meaning": "universe",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "neteyabi",
+      "part_of_speech": "verb",
+      "meaning": "I am opening with all the universe",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "nichin",
+      "part_of_speech": "verb",
+      "meaning": "to stand firm, to stand there",
+      "sources": [
+        "10.4"
+      ],
+      "context": "describes stable positioning of spirits"
+    },
+    {
+      "shipibo": "nichinti",
+      "part_of_speech": "verb",
+      "meaning": "to implant, place firmly, very rooted",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "nii",
+      "part_of_speech": "noun",
+      "meaning": "forest",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "ninka",
+      "part_of_speech": "verb",
+      "meaning": "to listen",
+      "sources": [
+        "10.4"
+      ],
+      "context": "used in icaros to command spirits to hear and obey"
+    },
+    {
+      "shipibo": "ninkati",
+      "part_of_speech": "verb",
+      "meaning": "to listen",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "nishi",
+      "part_of_speech": "noun",
+      "meaning": "memory",
+      "sources": [
+        "11.1",
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "noun",
+      "meaning": "wind-like energy",
+      "sources": [
+        "11.4",
+        "9.3"
+      ],
+      "context": "energetic quality in icaro composition"
+    },
+    {
+      "shipibo": "noeshaman",
+      "part_of_speech": "adjective",
+      "meaning": "delicious",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "nokon",
+      "part_of_speech": "pronoun",
+      "meaning": "my, one and only",
+      "sources": [
+        "10.3",
+        "10.4",
+        "11.1",
+        "11.2",
+        "11.5",
+        "9.0",
+        "9.2",
+        "9.3",
+        "9.4"
+      ],
+      "context": "possessive pronoun used throughout the icaro to indicate ownership of the spirit helpers and entities being summoned"
+    },
+    {
+      "shipibo": "noma",
+      "part_of_speech": "noun",
+      "meaning": "woman (formal)",
+      "sources": [
+        "11.4"
+      ],
+      "context": "identity expression in icaro composition"
+    },
+    {
+      "shipibo": "non nete",
+      "part_of_speech": "noun",
+      "meaning": "our world, the dimension of the land",
+      "sources": [
+        "12.1"
+      ],
+      "context": "4 dimensions cosmology"
+    },
+    {
+      "shipibo": "noya rao",
+      "part_of_speech": "noun",
+      "meaning": "a type of medicinal plant/doctor spirit",
+      "sources": [
+        "11.4"
+      ],
+      "context": "plant doctor invoked in icaro"
+    },
+    {
+      "shipibo": "ochati",
+      "part_of_speech": "transitive verb",
+      "meaning": "sin",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "oinax",
+      "part_of_speech": "verb",
+      "meaning": "is (with -ax suffix)",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "oinkin",
+      "part_of_speech": "verb",
+      "meaning": "is seeing",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "ointi",
+      "part_of_speech": "transitive verb",
+      "meaning": "to see",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "oinyamaa",
+      "part_of_speech": "noun",
+      "meaning": "condition, sickness",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "onan",
+      "part_of_speech": "verb",
+      "meaning": "to let know, to inform",
+      "sources": [
+        "10.4"
+      ],
+      "context": "communicating with spirits about their duties"
+    },
+    {
+      "shipibo": "onanya",
+      "part_of_speech": "noun",
+      "meaning": "healer, shaman",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "oni",
+      "part_of_speech": "noun",
+      "meaning": "Ayahuasca",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "onsa",
+      "part_of_speech": "adjective",
+      "meaning": "dangerous",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "orimpi",
+      "part_of_speech": "verb",
+      "meaning": "to pray",
+      "sources": [
+        "12.2"
+      ],
+      "context": "From Spanish 'orar', used in icaro"
+    },
+    {
+      "shipibo": "oso",
+      "part_of_speech": "noun",
+      "meaning": "bear",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "pacha",
+      "part_of_speech": "noun",
+      "meaning": "one hundred",
+      "sources": [
+        "12.1"
+      ]
+    },
+    {
+      "shipibo": "paen",
+      "part_of_speech": "noun",
+      "meaning": "astrals, astral realms",
+      "sources": [
+        "10.4"
+      ],
+      "context": "spiritual dimensions where protection occurs"
+    },
+    {
+      "shipibo": "pake",
+      "part_of_speech": "verb",
+      "meaning": "to fall",
+      "sources": [
+        "10.4"
+      ],
+      "context": "describes spirits descending in icaros"
+    },
+    {
+      "shipibo": "pana",
+      "part_of_speech": "noun",
+      "meaning": "excellently, well",
+      "sources": [
+        "10.3",
+        "12.1",
+        "9.3",
+        "9.4"
+      ],
+      "context": "Example: panaira bewai - protecting as I sing"
+    },
+    {
+      "shipibo": "panaban",
+      "part_of_speech": "verb",
+      "meaning": "I will protect",
+      "sources": [
+        "11.2",
+        "9.0"
+      ],
+      "context": "Main action of the icaro"
+    },
+    {
+      "shipibo": "panai",
+      "part_of_speech": "verb",
+      "meaning": "protect (present tense)",
+      "sources": [
+        "11.5",
+        "12.2",
+        "9.3",
+        "9.4"
+      ],
+      "context": "Central healing action in icaro"
+    },
+    {
+      "shipibo": "panaira",
+      "part_of_speech": "verb",
+      "meaning": "protecting while I sing",
+      "sources": [
+        "9.4"
+      ],
+      "context": "Combination form expressing simultaneous protection and singing"
+    },
+    {
+      "shipibo": "panashamani",
+      "part_of_speech": "verb",
+      "meaning": "protecting excellently",
+      "sources": [
+        "9.4"
+      ],
+      "context": "Combination form used repetitively in icaro refrain"
+    },
+    {
+      "shipibo": "panati",
+      "part_of_speech": "noun",
+      "meaning": "fence, protection",
+      "sources": [
+        "11.2",
+        "9.0",
+        "9.2",
+        "9.3"
+      ],
+      "context": "Protection barrier in icaro"
+    },
+    {
+      "shipibo": "panshin nete",
+      "part_of_speech": "noun",
+      "meaning": "yellow world, world of spirits",
+      "sources": [
+        "12.1"
+      ],
+      "context": "4 dimensions cosmology"
+    },
+    {
+      "shipibo": "paoti",
+      "part_of_speech": "noun",
+      "meaning": "to put on a belt, stole, or band",
+      "sources": [
+        "11.4"
+      ],
+      "context": "energetic garment in icaro ritual sequence"
+    },
+    {
+      "shipibo": "paranta xoo xoi",
+      "part_of_speech": "noun",
+      "meaning": "unripe grilled plantain",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Dieta food"
+    },
+    {
+      "shipibo": "patax",
+      "part_of_speech": "adverb",
+      "meaning": "besides",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "payan",
+      "part_of_speech": "verb",
+      "meaning": "blowing away",
+      "sources": [
+        "11.5",
+        "12.1"
+      ],
+      "context": "Example: payanira bewai - blowing away as I sing"
+    },
+    {
+      "shipibo": "pei",
+      "part_of_speech": "noun",
+      "meaning": "leaf",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Tree parts"
+    },
+    {
+      "shipibo": "peka",
+      "part_of_speech": "noun",
+      "meaning": "back",
+      "sources": [
+        "12.1"
+      ],
+      "context": "External body part"
+    },
+    {
+      "shipibo": "pene",
+      "part_of_speech": "adjective",
+      "meaning": "bright",
+      "sources": [
+        "11.4",
+        "9.3"
+      ],
+      "context": "descriptive quality in icaro verses"
+    },
+    {
+      "shipibo": "piax",
+      "part_of_speech": "verb",
+      "meaning": "ate (with -ax suffix)",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "piaxbi",
+      "part_of_speech": "verb",
+      "meaning": "to eat",
+      "sources": [
+        "9.0"
+      ]
+    },
+    {
+      "shipibo": "pichika",
+      "part_of_speech": "noun",
+      "meaning": "five",
+      "sources": [
+        "12.1"
+      ]
+    },
+    {
+      "shipibo": "piko",
+      "part_of_speech": null,
+      "meaning": "coming out",
+      "sources": [
+        "12.2"
+      ],
+      "context": "Describes emergence or expression in icaro"
+    },
+    {
+      "shipibo": "pino",
+      "part_of_speech": "noun",
+      "meaning": "hummingbird",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "pisha",
+      "part_of_speech": "verb",
+      "meaning": "to display, to show",
+      "sources": [
+        "10.4"
+      ],
+      "context": "used in icaros to describe manifestation of spirit power"
+    },
+    {
+      "shipibo": "pishati",
+      "part_of_speech": "verb",
+      "meaning": "to release",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "pisi",
+      "part_of_speech": "noun",
+      "meaning": "something that smells rotten",
+      "sources": [
+        "11.2",
+        "9.0",
+        "9.2"
+      ],
+      "context": "Referenced in consumption context"
+    },
+    {
+      "shipibo": "piti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to eat",
+      "sources": [
+        "10.2",
+        "9.0",
+        "9.2"
+      ],
+      "context": "used in icaro composition"
+    },
+    {
+      "shipibo": "poakata",
+      "part_of_speech": "noun",
+      "meaning": "body",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "podero",
+      "part_of_speech": "noun",
+      "meaning": "God, Almighty",
+      "sources": [
+        "12.2"
+      ],
+      "context": "From Spanish 'Poderoso', refers to divine protection in icaro"
+    },
+    {
+      "shipibo": "poko",
+      "part_of_speech": "noun",
+      "meaning": "abdomen",
+      "sources": [
+        "12.1"
+      ],
+      "context": "External body part"
+    },
+    {
+      "shipibo": "pono",
+      "part_of_speech": "noun",
+      "meaning": "blood vessels",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Internal body part"
+    },
+    {
+      "shipibo": "pontexon",
+      "part_of_speech": "verb",
+      "meaning": "to clarify, to make clear (middle -xon form of pónti)",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "poro",
+      "part_of_speech": "noun",
+      "meaning": "stomach",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Internal body part"
+    },
+    {
+      "shipibo": "poroxaman",
+      "part_of_speech": "noun",
+      "meaning": "what is within your stomach",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "poyan",
+      "part_of_speech": "noun",
+      "meaning": "branch",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Tree parts"
+    },
+    {
+      "shipibo": "pusaka",
+      "part_of_speech": "noun",
+      "meaning": "eight",
+      "sources": [
+        "12.1"
+      ]
+    },
+    {
+      "shipibo": "rabe",
+      "part_of_speech": "noun",
+      "meaning": "two",
+      "sources": [
+        "12.1"
+      ]
+    },
+    {
+      "shipibo": "rai nita",
+      "part_of_speech": "noun",
+      "meaning": "rai spirit",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Spirit type"
+    },
+    {
+      "shipibo": "raketi",
+      "part_of_speech": "transitive verb",
+      "meaning": "fear",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "rama",
+      "part_of_speech": "particle",
+      "meaning": "well, now",
+      "sources": [
+        "11.1",
+        "11.4",
+        "11.5"
+      ],
+      "context": "temporal marker in icaro verses"
+    },
+    {
+      "shipibo": "ramakan",
+      "part_of_speech": "particle",
+      "meaning": "and now?",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "rami",
+      "part_of_speech": "adjective",
+      "meaning": "distorted, negative",
+      "sources": [
+        "10.2",
+        "12.2"
+      ],
+      "context": "used in icaro analysis"
+    },
+    {
+      "shipibo": "ramiti",
+      "part_of_speech": "verb",
+      "meaning": "to become distorted",
+      "sources": [
+        "12.2",
+        "9.0",
+        "9.2"
+      ],
+      "context": "Verb form related to rami"
+    },
+    {
+      "shipibo": "ramiyosma",
+      "part_of_speech": "adjective",
+      "meaning": "seldom gets distorted",
+      "sources": [
+        "9.0"
+      ]
+    },
+    {
+      "shipibo": "raobo",
+      "part_of_speech": "noun",
+      "meaning": "energy",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "raometi",
+      "part_of_speech": "transitive verb",
+      "meaning": "medicate oneself",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "raro",
+      "part_of_speech": "noun",
+      "meaning": "excellently, well, beautifully",
+      "sources": [
+        "11.5",
+        "12.2"
+      ],
+      "context": "Describes manner of rejoicing in icaro"
+    },
+    {
+      "shipibo": "rebon",
+      "part_of_speech": "adverb",
+      "meaning": "in front",
+      "sources": [
+        "12.1"
+      ]
+    },
+    {
+      "shipibo": "ribi",
+      "part_of_speech": "adverb",
+      "meaning": "also",
+      "sources": [
+        "11.4",
+        "9.3"
+      ],
+      "context": "conjunction used in icaro verses"
+    },
+    {
+      "shipibo": "riki",
+      "part_of_speech": "particle",
+      "meaning": "just, very",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "rome",
+      "part_of_speech": "noun",
+      "meaning": "tobacco, mapacho",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "ronin",
+      "part_of_speech": "noun",
+      "meaning": "anaconda",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "ronki",
+      "part_of_speech": "noun",
+      "meaning": "contract, agreement",
+      "sources": [
+        "10.4",
+        "11.4",
+        "12.2",
+        "9.4"
+      ],
+      "context": "spiritual movement through realms"
+    },
+    {
+      "shipibo": "rono",
+      "part_of_speech": "noun",
+      "meaning": "snake",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "sama",
+      "part_of_speech": "noun",
+      "meaning": "dieta, healing diet/practice",
+      "sources": [
+        "12.2",
+        "9.3"
+      ],
+      "context": "Central concept in Shipibo healing practices"
+    },
+    {
+      "shipibo": "samakasai",
+      "part_of_speech": "verb",
+      "meaning": "scattered/confused (present state)",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "samata",
+      "part_of_speech": "verb",
+      "meaning": "to plant, to heal",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "samatax",
+      "part_of_speech": "verb",
+      "meaning": "planted/healed (with -ax suffix)",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "sanken",
+      "part_of_speech": "noun",
+      "meaning": "beautiful, with beautiful designs",
+      "sources": [
+        "9.3",
+        "9.4"
+      ],
+      "context": "Cultural aesthetic element in icaros"
+    },
+    {
+      "shipibo": "sawe",
+      "part_of_speech": null,
+      "meaning": "dress, garment, clothing",
+      "sources": [
+        "12.2"
+      ],
+      "context": "Metaphorically refers to dieta practices"
+    },
+    {
+      "shipibo": "saweti",
+      "part_of_speech": "verb",
+      "meaning": "to dress oneself",
+      "sources": [
+        "11.4"
+      ],
+      "context": "action verb in icaro ritual sequence"
+    },
+    {
+      "shipibo": "saweyontaanara",
+      "part_of_speech": "verb",
+      "meaning": "I have dressed (with it) fully",
+      "sources": [
+        "9.4"
+      ],
+      "context": "Expression of complete protection/dressing in the icaro"
+    },
+    {
+      "shipibo": "semei",
+      "part_of_speech": "noun",
+      "meaning": "Bobinsana, a type of medicinal plant/doctor spirit",
+      "sources": [
+        "11.4"
+      ],
+      "context": "plant doctor invoked in icaro"
+    },
+    {
+      "shipibo": "senen",
+      "part_of_speech": "verb",
+      "meaning": "having fully finished",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "senen ati",
+      "part_of_speech": "transitive verb",
+      "meaning": "finish a process",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "senenke",
+      "part_of_speech": null,
+      "meaning": "ended, finished",
+      "sources": [
+        "12.2"
+      ],
+      "context": "Describes completion of dieta in icaro"
+    },
+    {
+      "shipibo": "shamani",
+      "part_of_speech": "noun",
+      "meaning": "shaman",
+      "sources": [
+        "10.4"
+      ],
+      "context": "reference to the healer conducting the icaro"
+    },
+    {
+      "shipibo": "shihuahuaco",
+      "part_of_speech": "noun",
+      "meaning": "a type of medicinal plant/doctor spirit",
+      "sources": [
+        "11.4"
+      ],
+      "context": "plant doctor invoked in icaro"
+    },
+    {
+      "shipibo": "shinan",
+      "part_of_speech": "noun",
+      "meaning": "mind",
+      "sources": [
+        "11.1",
+        "9.3",
+        "9.4"
+      ],
+      "context": "Element of consciousness protected in icaros"
+    },
+    {
+      "shipibo": "shinanti",
+      "part_of_speech": "transitive verb",
+      "meaning": "think, remember",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "shinanyamawe",
+      "part_of_speech": "interjection",
+      "meaning": "don't worry",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "shino",
+      "part_of_speech": "noun",
+      "meaning": "monkey",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "soa",
+      "part_of_speech": "verb",
+      "meaning": "clearing",
+      "sources": [
+        "11.5",
+        "12.1"
+      ],
+      "context": "Example: soaira bewai - clearing as I sing"
+    },
+    {
+      "shipibo": "soi",
+      "part_of_speech": "noun",
+      "meaning": "realm, lustrous realm",
+      "sources": [
+        "11.5",
+        "9.3"
+      ],
+      "context": "Descriptive quality used in icaros"
+    },
+    {
+      "shipibo": "sokota",
+      "part_of_speech": "noun",
+      "meaning": "six",
+      "sources": [
+        "12.1"
+      ]
+    },
+    {
+      "shipibo": "sontaro",
+      "part_of_speech": "noun",
+      "meaning": "soldier",
+      "sources": [
+        "10.3",
+        "10.4"
+      ],
+      "context": "used in icaro composition to refer to spirit protectors and guardians"
+    },
+    {
+      "shipibo": "tae",
+      "part_of_speech": "noun",
+      "meaning": "foot",
+      "sources": [
+        "12.1"
+      ],
+      "context": "External body part"
+    },
+    {
+      "shipibo": "tanita",
+      "part_of_speech": "verb",
+      "meaning": "standing in the foots of something, below something",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "tanque",
+      "part_of_speech": "noun",
+      "meaning": "tank",
+      "sources": [
+        "10.4"
+      ],
+      "context": "modern spirit helper used in contemporary icaros"
+    },
+    {
+      "shipibo": "tantiti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to rest",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "tapon",
+      "part_of_speech": "noun",
+      "meaning": "root",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Tree parts"
+    },
+    {
+      "shipibo": "tari",
+      "part_of_speech": "noun",
+      "meaning": "steel, tunic, armor",
+      "sources": [
+        "11.4",
+        "9.4"
+      ],
+      "context": "garment in icaro ritual sequence"
+    },
+    {
+      "shipibo": "taribo",
+      "part_of_speech": null,
+      "meaning": "equal, same",
+      "sources": [
+        "12.2"
+      ],
+      "context": "Used in icaro composition"
+    },
+    {
+      "shipibo": "texo",
+      "part_of_speech": "noun",
+      "meaning": "neck",
+      "sources": [
+        "12.1"
+      ],
+      "context": "External body part"
+    },
+    {
+      "shipibo": "toeti",
+      "part_of_speech": "transitive verb",
+      "meaning": "break",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "torin",
+      "part_of_speech": "noun",
+      "meaning": "tower",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "torre",
+      "part_of_speech": "noun",
+      "meaning": "tower",
+      "sources": [
+        "12.2"
+      ],
+      "context": "From Spanish; represents temples of heaven and divine connection, alignment to greatest spirit"
+    },
+    {
+      "shipibo": "torri",
+      "part_of_speech": "noun",
+      "meaning": "tower",
+      "sources": [
+        "12.2"
+      ],
+      "context": "Alternative form of torre"
+    },
+    {
+      "shipibo": "tsararan",
+      "part_of_speech": "noun",
+      "meaning": "resounding sound, like bells",
+      "sources": [
+        "12.2"
+      ],
+      "context": "Symbolizes celebration of the arkana"
+    },
+    {
+      "shipibo": "tseka",
+      "part_of_speech": "verb",
+      "meaning": "taking out, remove",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "tsekati",
+      "part_of_speech": "verb",
+      "meaning": "to take out, remove",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "tsiri",
+      "part_of_speech": "noun",
+      "meaning": "a quality of beauty that denotes purity",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "tsoawa",
+      "part_of_speech": "noun",
+      "meaning": "a species of amazonian bird with medicinal significance",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "tsokas",
+      "part_of_speech": "interjection",
+      "meaning": "exclamation",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "tsokasti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "become scattered",
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "shipibo": "tsonbi",
+      "part_of_speech": "pronoun",
+      "meaning": "no one",
+      "sources": [
+        "11.2",
+        "9.0"
+      ],
+      "context": "Used in protective context"
+    },
+    {
+      "shipibo": "tsonbibiki",
+      "part_of_speech": null,
+      "meaning": "no one",
+      "sources": [
+        "12.2"
+      ],
+      "context": "Used in icaro to describe that no one finds distortion"
+    },
+    {
+      "shipibo": "waranka",
+      "part_of_speech": "noun",
+      "meaning": "one thousand",
+      "sources": [
+        "12.1"
+      ]
+    },
+    {
+      "shipibo": "weninti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to make someone stand",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "weniti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to lift yourself up",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "westiora",
+      "part_of_speech": "noun",
+      "meaning": "one",
+      "sources": [
+        "12.1"
+      ]
+    },
+    {
+      "shipibo": "wiso",
+      "part_of_speech": "adjective",
+      "meaning": "black",
+      "sources": [
+        "10.3",
+        "10.4"
+      ],
+      "context": "color descriptor for spirit helpers"
+    },
+    {
+      "shipibo": "wiso pionis",
+      "part_of_speech": "noun",
+      "meaning": "Piñón Colorado, a type of medicinal plant/doctor spirit",
+      "sources": [
+        "11.4"
+      ],
+      "context": "plant doctor invoked in icaro"
+    },
+    {
+      "shipibo": "xaman",
+      "part_of_speech": "verb",
+      "meaning": "to sit, to be seated",
+      "sources": [
+        "10.4",
+        "12.1"
+      ],
+      "context": "positioning of spirits in their power places"
+    },
+    {
+      "shipibo": "xao",
+      "part_of_speech": "noun",
+      "meaning": "bone",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Internal body part"
+    },
+    {
+      "shipibo": "xawan",
+      "part_of_speech": "noun",
+      "meaning": "red macaw",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Animal vocabulary"
+    },
+    {
+      "shipibo": "xawe",
+      "part_of_speech": "noun",
+      "meaning": "the man, person",
+      "sources": [
+        "10.2",
+        "10.4",
+        "11.4",
+        "11.5",
+        "9.0",
+        "9.2"
+      ],
+      "context": "used in icaro composition"
+    },
+    {
+      "shipibo": "xaweboki",
+      "part_of_speech": "noun",
+      "meaning": "ladies and gentlemen",
+      "sources": [
+        "10.4"
+      ],
+      "context": "addressing spirits or those present in the healing"
+    },
+    {
+      "shipibo": "xeaxon",
+      "part_of_speech": "verb",
+      "meaning": "drank (past tense with -xon suffix)",
+      "sources": [
+        "9.1"
+      ]
+    },
+    {
+      "shipibo": "xei",
+      "part_of_speech": "noun",
+      "meaning": "roll",
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "shipibo": "xepoban",
+      "part_of_speech": "verb",
+      "meaning": "will close",
+      "sources": [
+        "12.2"
+      ],
+      "context": "Future action of closing dieta"
+    },
+    {
+      "shipibo": "xepoti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to close",
+      "sources": [
+        "12.2"
+      ],
+      "context": "Base verb for xepoban"
+    },
+    {
+      "shipibo": "xobo",
+      "part_of_speech": "noun",
+      "meaning": "house",
+      "sources": [
+        "10.3",
+        "10.4",
+        "9.1"
+      ],
+      "context": "used metaphorically in icaros to refer to the patient or space being protected"
+    },
+    {
+      "shipibo": "xochi",
+      "part_of_speech": "noun",
+      "meaning": "chest",
+      "sources": [
+        "12.1"
+      ],
+      "context": "External body part"
+    },
+    {
+      "shipibo": "yakaxon",
+      "part_of_speech": "verb",
+      "meaning": "to be in depths",
+      "sources": [
+        "10.4"
+      ],
+      "context": "spiritual penetration or grounding"
+    },
+    {
+      "shipibo": "yasan",
+      "part_of_speech": "verb",
+      "meaning": "to place, to set",
+      "sources": [
+        "10.4"
+      ],
+      "context": "positioning spirits along the path of protection"
+    },
+    {
+      "shipibo": "yoiki",
+      "part_of_speech": "verb",
+      "meaning": "to take care of, to protect",
+      "sources": [
+        "10.4"
+      ],
+      "context": "key action in healing icaros where spirits are asked to care for the patient"
+    },
+    {
+      "shipibo": "yoinabo",
+      "part_of_speech": "noun",
+      "meaning": "bird",
+      "sources": [
+        "12.1"
+      ]
+    },
+    {
+      "shipibo": "yoiti",
+      "part_of_speech": "verb",
+      "meaning": "to speak, say",
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "shipibo": "yonki",
+      "part_of_speech": "noun",
+      "meaning": "metal, steel",
+      "sources": [
+        "9.3"
+      ],
+      "context": "Protective material in icaro composition"
+    },
+    {
+      "shipibo": "yora",
+      "part_of_speech": "noun",
+      "meaning": "prayer",
+      "sources": [
+        "11.2",
+        "11.5",
+        "9.0",
+        "9.2",
+        "9.3",
+        "9.4"
+      ],
+      "context": "Protected in the icaro"
+    },
+    {
+      "shipibo": "yorabira",
+      "part_of_speech": "noun",
+      "meaning": "working on the body",
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "shipibo": "yotan",
+      "part_of_speech": "noun",
+      "meaning": "tarantula",
+      "sources": [
+        "12.1"
+      ],
+      "context": "Animal vocabulary"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-abi",
+      "meaning": "agent, one who does, coming out",
+      "usage": "noun suffix for collective/comprehensive meaning",
+      "examples": [
+        "nete tsararanyabi (universe resounds)",
+        "janeyabi (all your names)"
+      ],
+      "sources": [
+        "12.2",
+        "9.2"
+      ]
+    },
+    {
+      "form": "-ai",
+      "meaning": "present tense: I do, currently doing",
+      "usage": "Used with middle -xon-; does require -ra in the pronoun",
+      "examples": [
+        "ayamai (don't do, present)",
+        "kinanyamai (don't purge, present)",
+        "nokon joi ninkamai (present action)",
+        "axonai (I do it for another)",
+        "keyoresai (it's all finishing)",
+        "jishtiai (appear, present tense)",
+        "Medicoi Bewai (singing as I become doctor)",
+        "panai (protect)",
+        "joi (voice, word, prayer)"
+      ],
+      "sources": [
+        "10.1",
+        "10.3",
+        "11.1",
+        "11.4",
+        "9.3"
+      ]
+    },
+    {
+      "form": "-ake",
+      "meaning": "to do around",
+      "usage": "verb suffix",
+      "examples": [
+        "joyoaketaanara (having placed themselves in line all around)",
+        "chankaaketaanara (having stood up all around)"
+      ],
+      "sources": [
+        "10.3"
+      ]
+    },
+    {
+      "form": "-an",
+      "meaning": "will do immediately",
+      "usage": "verb suffix indicating immediate future action",
+      "examples": [],
+      "sources": [
+        "9.2"
+      ]
+    },
+    {
+      "form": "-ana",
+      "meaning": "fully, to completion; having done so",
+      "usage": "verb suffix for completive aspect",
+      "examples": [
+        "ayontaana (having made fully fragrant)"
+      ],
+      "sources": [
+        "11.2"
+      ]
+    },
+    {
+      "form": "-ano",
+      "meaning": "agent marker, one who does",
+      "usage": "nominalizing suffix",
+      "examples": [
+        "bakerano (young one, young agent)"
+      ],
+      "sources": [
+        "10.4"
+      ]
+    },
+    {
+      "form": "-ara",
+      "meaning": "having done, after doing",
+      "usage": "perfective or sequential suffix",
+      "examples": [
+        "yoiyontaanara (having said this)",
+        "pishayontaananra (having displayed)"
+      ],
+      "sources": [
+        "10.4"
+      ]
+    },
+    {
+      "form": "-ati",
+      "meaning": "to do, to be in a certain way (infinitive/root marker)",
+      "usage": "infinitive/root form marker",
+      "examples": [
+        "benxoti (to heal oneself)",
+        "neskati (to be or do in a certain way)",
+        "tsekati (to take out, remove)"
+      ],
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "form": "-ax",
+      "meaning": "once it has been done, as soon as it has happened; expresses a completed action and an immediate subsequent action",
+      "usage": "used to describe past events in icaros and spoken language",
+      "examples": [
+        "piax - ate",
+        "oinax - is",
+        "samatax - planted/healed",
+        "jaskatax - in this manner"
+      ],
+      "sources": [
+        "9.0",
+        "9.1",
+        "9.2"
+      ]
+    },
+    {
+      "form": "-bain",
+      "meaning": "to do along the way",
+      "usage": "verbal suffix indicating action performed while progressing",
+      "examples": [
+        "joyobaintaanara (having placed themselves in line along the way)",
+        "chankabaintaanara (having stood up along the way)",
+        "yoibainkin (telling them along the way)",
+        "nichinhbainkin (planting them along the way)",
+        "maibainkin (crowning oneself along the way)"
+      ],
+      "sources": [
+        "10.3",
+        "11.4"
+      ]
+    },
+    {
+      "form": "-bainkin",
+      "meaning": "along the way, in a line",
+      "usage": "locative/directional suffix",
+      "examples": [
+        "jawekiyabi (with gear)",
+        "yasanbainkin (place along way)",
+        "pishabainkin (display along way)"
+      ],
+      "sources": [
+        "10.4"
+      ]
+    },
+    {
+      "form": "-ban",
+      "meaning": "immediate announcement, will do immediately",
+      "usage": "verbal suffix indicating immediate or imminent action",
+      "examples": [
+        "kenashamanban (will immediately call excellently)",
+        "manamabanon (will stand vigilant)",
+        "yasanbainkin (will place)",
+        "panaban (will protect)",
+        "maishamanban (will crown oneself excellently immediately)",
+        "medicoyonban (will become your doctor immediately)",
+        "xepoban (will close)"
+      ],
+      "sources": [
+        "10.3",
+        "10.4",
+        "11.2",
+        "11.4",
+        "12.2"
+      ]
+    },
+    {
+      "form": "-ban/-banon",
+      "meaning": "immediate announcement; emphasis",
+      "usage": "verbal suffix",
+      "examples": [
+        "panaban (I will protect)"
+      ],
+      "sources": [
+        "9.0"
+      ]
+    },
+    {
+      "form": "-banon",
+      "meaning": "announcement, will, future tense indicator",
+      "usage": "Used with middle -xon-; does not require -ra in the pronoun",
+      "examples": [
+        "kenabanonri (will immediately call)",
+        "xobo katemabanon (will make them surround the house)",
+        "mana manamabanon (I will make them wait)",
+        "axonbanon (will do it for another)",
+        "ixonbanon (will be it for another)",
+        "bewayonbanon (I will sing fully)",
+        "abanon (will heal)",
+        "kepenyonxonbanon (I will open fully for you)"
+      ],
+      "sources": [
+        "10.3",
+        "11.1",
+        "11.5"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "emphasis, certainly, without a doubt",
+      "usage": "verb suffix for emphatic or assertive action",
+      "examples": [
+        "piaxbi (eat plural/emphasis)",
+        "itsaboki (pungent smell plural/toward)",
+        "jawetianbi (never)",
+        "piaxbi (what is incompatible with emphasis)",
+        "bewakanbi (this song with emphasis)",
+        "bewabiribi (song)",
+        "netenbiribi (universe)",
+        "piaxbi (to eat)",
+        "yonkimanbira (using my steel with emphasis)",
+        "aceroninbi (using steel with emphasis)"
+      ],
+      "sources": [
+        "10.2",
+        "11.2",
+        "11.5",
+        "9.0",
+        "9.2",
+        "9.3"
+      ]
+    },
+    {
+      "form": "-bira",
+      "meaning": "instrumental, with, by means of",
+      "usage": "instrumental case marker",
+      "examples": [
+        "yorabira (working on the body)",
+        "soaboira (clearing)"
+      ],
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "form": "-biribi",
+      "meaning": "one and only, with affection",
+      "usage": "nominal/adjectival suffix indicating uniqueness and affection",
+      "examples": [
+        "xawebiribi (the one and only gentleman)",
+        "nomabiribi (the one and only woman)"
+      ],
+      "sources": [
+        "11.4",
+        "9.0"
+      ]
+    },
+    {
+      "form": "-bo",
+      "meaning": "plural (for nouns); do as you go (for verbs)",
+      "usage": "Nominal or adjectival plural marker",
+      "examples": [
+        "sontarobokan (plural soldiers)",
+        "espejobo (mirror plural)",
+        "mayamabokin (making it circle around)",
+        "jaskaraboa (in these ways, from jaskara + -bo)",
+        "jakonmabo (once I eat incompatible elements)",
+        "niwebo (wind-like energies)"
+      ],
+      "sources": [
+        "10.3",
+        "12.2",
+        "9.0",
+        "9.3"
+      ]
+    },
+    {
+      "form": "-i",
+      "meaning": "present participle, -ing/while doing so",
+      "usage": "Attached to verbs to create present participle form",
+      "examples": [
+        "ishamani (being excellently, singing excellently)",
+        "kano-i (connecting)",
+        "pana-i (protecting)",
+        "soa-i (clearing)",
+        "choka-i (washing)",
+        "payan-i (blowing away)",
+        "axon-i (doing)",
+        "panashamani (protecting excellently)"
+      ],
+      "sources": [
+        "11.4",
+        "12.1",
+        "9.0",
+        "9.3"
+      ]
+    },
+    {
+      "form": "-ing",
+      "meaning": "present participle verb ending",
+      "usage": "verb suffix marking progressive/gerundive aspect",
+      "examples": [],
+      "sources": [
+        "9.2"
+      ]
+    },
+    {
+      "form": "-ira",
+      "meaning": "to the extreme, very",
+      "usage": "Suffix indicating temporal or circumstantial action",
+      "examples": [
+        "bochoira (very full)",
+        "metsaira (very pretty)",
+        "xepoira (closing as)",
+        "raroira (rejoicing as I sing)"
+      ],
+      "sources": [
+        "10.1",
+        "12.2"
+      ]
+    },
+    {
+      "form": "-iti",
+      "meaning": "diminutive marker",
+      "usage": "creates diminutive or affectionate forms",
+      "examples": [
+        "tanquecitoi (little tank)",
+        "caballitoi (little horse)",
+        "guardicito (little guardian)"
+      ],
+      "sources": [
+        "10.4"
+      ]
+    },
+    {
+      "form": "-jonibo",
+      "meaning": "true, real, authentic version",
+      "usage": "authenticity marker",
+      "examples": [
+        "acero jonibo (true/real steel)",
+        "joni (true/real)"
+      ],
+      "sources": [
+        "10.4"
+      ]
+    },
+    {
+      "form": "-ka",
+      "meaning": "as soon as, when",
+      "usage": "temporal verb suffix",
+      "examples": [
+        "piaxbikaya (as soon as incompatible)",
+        "ayontaana (having aromatized fully)"
+      ],
+      "sources": [
+        "11.2"
+      ]
+    },
+    {
+      "form": "-kan",
+      "meaning": "this one, this particular instance",
+      "usage": "nominal suffix indicating specificity or emphasis",
+      "examples": [
+        "leonkan (actual lion)",
+        "sontarobokan (actual soldiers)",
+        "ramakan (and now?)",
+        "bewakanbi (with this song)",
+        "ribikan (this one also, actually)",
+        "raminaketiankan",
+        "yora ribikan (this body also)",
+        "nete ribikan (this universe also)",
+        "shinan ribikan (this mind also)",
+        "joi ribikan (this voice/prayer also)"
+      ],
+      "sources": [
+        "10.3",
+        "11.1",
+        "11.2",
+        "11.4",
+        "12.2",
+        "9.0",
+        "9.3"
+      ]
+    },
+    {
+      "form": "-kanbo",
+      "meaning": "made of, material composition",
+      "usage": "material marker suffix",
+      "examples": [
+        "inokan (jaguar)",
+        "medicokan (medicine-like)"
+      ],
+      "sources": [
+        "10.4"
+      ]
+    },
+    {
+      "form": "-kasai",
+      "meaning": "want, desire in the present tense",
+      "usage": "composed of -kas (want, desire) + -ai (present tense)",
+      "examples": [
+        "akasai (want to do)",
+        "nashikasai (want to bathe)"
+      ],
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "form": "-kashamai",
+      "meaning": "do not want, do not desire in the present tense",
+      "usage": "composed of -kasham (don't want, don't desire) + -ai (present tense)",
+      "examples": [
+        "akashamai (do not want to do)",
+        "nashikashamai (do not want to bathe)"
+      ],
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "form": "-kaya",
+      "meaning": "to seldom do so, emphasis, certainly without a doubt",
+      "usage": "verb suffix with dual meaning of rarity and certainty",
+      "examples": [
+        "iyosmakaya (seldom happens without a doubt)",
+        "jawetianbikaya (never without a doubt)",
+        "sontarokaya (of soldiers)",
+        "piaxbikaya (as soon as I eat)",
+        "iyosmakaya (nothing happens)"
+      ],
+      "sources": [
+        "10.2",
+        "10.3",
+        "10.4",
+        "9.0",
+        "9.2"
+      ]
+    },
+    {
+      "form": "-ke",
+      "meaning": "recent past tense marker",
+      "usage": "tense suffix used with verbs",
+      "examples": [
+        "ayamake (didn't do just now)"
+      ],
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "form": "-ki",
+      "meaning": "emphasis, towards",
+      "usage": "pronoun and nominal suffix",
+      "examples": [
+        "itsaboki (pungent smell toward)",
+        "koirantiki yoikin (tell them to take care)",
+        "tsonbibiki (no one with emphasis)",
+        "jainxonki (right there)",
+        "tsonbibiki (for no one to find me)"
+      ],
+      "sources": [
+        "10.2",
+        "10.3",
+        "11.2",
+        "11.5",
+        "9.0"
+      ]
+    },
+    {
+      "form": "-kin",
+      "meaning": "present participle (-ing), one degree less present, more descriptive",
+      "usage": "verbal suffix for present participle and descriptive aspect",
+      "examples": [
+        "yoibainkin (telling them along the way)",
+        "mayamabokin (making it circle around the house as I go)",
+        "joyobaintaanara (having placed themselves)",
+        "joyo joyobainkin (standing in line)",
+        "onanmabokin (let him know)",
+        "maibainkin (crowning myself along the way)",
+        "ribikan (also this one, actually)",
+        "sawekin (dressing excellently)",
+        "panashamankin (protecting excellently)"
+      ],
+      "sources": [
+        "10.3",
+        "10.4",
+        "11.4",
+        "9.3"
+      ]
+    },
+    {
+      "form": "-kinra",
+      "meaning": "progressive aspect, as I go/ongoing action",
+      "usage": "verbal suffix indicating continuous or progressive action",
+      "examples": [
+        "tsekabokinra (taking out as I go)",
+        "mera merabokinra (I go on finding)",
+        "payanbokinra (I am blowing away as I go)",
+        "nete kepenbokinra (I go on opening the universe)"
+      ],
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "form": "-ma",
+      "meaning": "make an action happen",
+      "usage": "verb suffix for negative meaning",
+      "examples": [
+        "jakonmabo (as soon as good)",
+        "piaxbikaya (as soon as eat)",
+        "nokon joi ninkamai (make them listen to my words)",
+        "katemabanon (will make them surround)",
+        "katemayontaanara (having made them surround fully)",
+        "mayamabokin (making it circle around)",
+        "meratima (not to find)",
+        "ramiyosma (seldom gets distorted)"
+      ],
+      "sources": [
+        "10.2",
+        "10.3",
+        "11.2",
+        "9.0",
+        "9.2"
+      ]
+    },
+    {
+      "form": "-man",
+      "meaning": "using",
+      "usage": "Marks instrumental case; indicates using/with",
+      "examples": [
+        "yonkiman (using metal/steel)"
+      ],
+      "sources": [
+        "9.3"
+      ]
+    },
+    {
+      "form": "-nake",
+      "meaning": "possibility, potential, ability",
+      "usage": "Suffix denoting possibility or potential to happen",
+      "examples": [
+        "raminaketiankan (from ramiti, possibility of becoming distorted)"
+      ],
+      "sources": [
+        "12.2"
+      ]
+    },
+    {
+      "form": "-nin",
+      "meaning": "agent marker for transitive verbs, denoting the one doing the action",
+      "usage": "Pairs with transitive verbs to mark the agent",
+      "examples": [
+        "poderonin (God as the protector)",
+        "aceronin (using steel)",
+        "aceroninbi (using steel with emphasis)"
+      ],
+      "sources": [
+        "12.2",
+        "9.3"
+      ]
+    },
+    {
+      "form": "-non",
+      "meaning": "will do (not immediately, announcement)",
+      "usage": "future tense marker for announced actions",
+      "examples": [
+        "benxonon (you will heal)",
+        "kanobanonri (will connect immediately)",
+        "abanon (will make)"
+      ],
+      "sources": [
+        "10.1",
+        "11.2"
+      ]
+    },
+    {
+      "form": "-oma",
+      "meaning": "without",
+      "usage": "nominal suffix indicating absence or negation",
+      "examples": [
+        "korikioma (without money)"
+      ],
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "form": "-on",
+      "meaning": "to fall lightly on, towards",
+      "usage": "verb suffix indicating future or command",
+      "examples": [
+        "ninkamabanon (will make listen)",
+        "eon (fell lightly towards me)"
+      ],
+      "sources": [
+        "10.4",
+        "11.5"
+      ]
+    },
+    {
+      "form": "-osma",
+      "meaning": "to seldom do so",
+      "usage": "adjective/verb suffix",
+      "examples": [
+        "ramiyosma (distorted/seldom distorted)"
+      ],
+      "sources": [
+        "10.2"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "marker for transitive pronouns",
+      "usage": "Required with certain tense suffixes like -ai; marks the object of the action",
+      "examples": [
+        "enra (I, transitive with -ra)",
+        "nokon shinanra (with the scattered mind)",
+        "koshibira (powerful with humility)",
+        "Saweyontaanara (having fully dressed myself, emphatic)",
+        "Jishtiyontaanara (having fully appeared, emphatic)",
+        "Kanoyontaanara (having fully connected myself, emphatic)",
+        "ayontaanara (having fully finished)",
+        "benxoayontaanara (having healed it fully)",
+        "kanoira (emphatic connecting)",
+        "panaira (emphatic protecting)",
+        "soaira (emphatic clearing)",
+        "chokaira (emphatic washing)",
+        "payanira (emphatic blowing away)",
+        "axonira (emphatic doing)",
+        "ea kanobanonri (I will connect myself)",
+        "yonkimanbira (using my steel with emphasis)"
+      ],
+      "sources": [
+        "10.3",
+        "11.1",
+        "11.2",
+        "11.4",
+        "11.5",
+        "12.1",
+        "9.0",
+        "9.3"
+      ]
+    },
+    {
+      "form": "-res",
+      "meaning": "purely this action, focused action",
+      "usage": "Emphasizes the specific action itself",
+      "examples": [
+        "keyoresai (its all finishing - keyo- + -res + -ai)"
+      ],
+      "sources": [
+        "11.1"
+      ]
+    },
+    {
+      "form": "-ri",
+      "meaning": "immediate announcement",
+      "usage": "verb suffix",
+      "examples": [
+        "kenabanonri (will immediately call with emphasis)",
+        "kanobanonri (will connect immediately)"
+      ],
+      "sources": [
+        "10.3",
+        "11.2"
+      ]
+    },
+    {
+      "form": "-riba",
+      "meaning": "once more, one more time",
+      "usage": "verbal suffix indicating repetition or reiteration",
+      "examples": [
+        "Paoyonribataana (having fully put on the belt, stole, or band one more time)"
+      ],
+      "sources": [
+        "11.4"
+      ]
+    },
+    {
+      "form": "-ribi",
+      "meaning": "one and only, with affection",
+      "usage": "noun suffix for singularity and endearment",
+      "examples": [
+        "xawebiribi (the one and only gentleman)"
+      ],
+      "sources": [
+        "10.2",
+        "9.2"
+      ]
+    },
+    {
+      "form": "-shaman",
+      "meaning": "doing so excellently",
+      "usage": "verbal suffix indicating excellent or superior execution of an action",
+      "examples": [
+        "kenashamanban (will immediately call excellently)",
+        "maishamanban (to crown oneself excellently)",
+        "saweshamanban (to dress oneself excellently)",
+        "ishamani (to be excellently)",
+        "Bewashamani (to sing excellently)",
+        "panashaman (protecting excellently)"
+      ],
+      "sources": [
+        "10.3",
+        "11.4",
+        "9.3"
+      ]
+    },
+    {
+      "form": "-shamanban",
+      "meaning": "excellently, very well, superbly",
+      "usage": "adverbial intensifier suffix",
+      "examples": [
+        "kenashamanban (summon excellently)",
+        "pakeshamanban (fall excellently)"
+      ],
+      "sources": [
+        "10.4"
+      ]
+    },
+    {
+      "form": "-shamani",
+      "meaning": "excellently, skillfully, well",
+      "usage": "Adverbial suffix indicating manner",
+      "examples": [
+        "raroshamani (rejoicing excellently)",
+        "pikoshamani (coming out excellently)"
+      ],
+      "sources": [
+        "12.2"
+      ]
+    },
+    {
+      "form": "-shamankin",
+      "meaning": "excellently, in an excellent manner",
+      "usage": "adverbial suffix expressing quality or manner",
+      "examples": [
+        "neskashamankin (like this excellently)",
+        "raroshamankin (excellently rejoicing)",
+        "bewashamankin (singing excellently)"
+      ],
+      "sources": [
+        "11.5"
+      ]
+    },
+    {
+      "form": "-taana",
+      "meaning": "having done so, having completed the action",
+      "usage": "verbal suffix indicating completed or perfective aspect",
+      "examples": [
+        "jishtimayontaanara (having made it fully appear)",
+        "chankamayontaanara (having made it stand up fully)",
+        "katemayontaanara (having made them surround fully)",
+        "nichinyontaanara (having planted them fully)",
+        "Saweyontaanara (having fully dressed myself)",
+        "Paoyonribataana (having fully put on the belt, one more time)",
+        "Jishtiyontaanara (having fully appeared)",
+        "Kanoyontaanara (having fully connected myself)",
+        "ayontaana (having aromatized fully)"
+      ],
+      "sources": [
+        "10.3",
+        "11.4",
+        "9.0"
+      ]
+    },
+    {
+      "form": "-tian",
+      "meaning": "time, timeframe",
+      "usage": "Temporal suffix marking time or duration",
+      "examples": [
+        "raminaketiankan (when there was possibility)"
+      ],
+      "sources": [
+        "12.2"
+      ]
+    },
+    {
+      "form": "-we",
+      "meaning": "imperative marker, prohibition",
+      "usage": "used with negation to form imperative commands",
+      "examples": [
+        "ochayamawe (don't sin)",
+        "jisonyamawe (don't urinate)",
+        "rakeyamawe (don't fear)",
+        "tsokasyamawe (don't become scattered)",
+        "toeyamawe (don't break)",
+        "masa shinanyamawe (don't worry)"
+      ],
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "form": "-xon",
+      "meaning": "once I have done; expresses a completed action and a not so immediate subsequent action",
+      "usage": "Goes right after the root of a transitive verb; requires other suffixes (tenses, commands) to follow; requires a transitive pronoun (en, min, jan, etc.) before it; makes all verbs transitive in nature",
+      "examples": [
+        "yakaxon (once seated)",
+        "banebainxon (once orders are placed)",
+        "ati + -xon- = axon (to do for another)",
+        "axonbanon (will do it for another)",
+        "axonai (I do it for another, present)",
+        "iti + -xon- = ixon (to be for another)",
+        "ixonbanon (will be it for another)",
+        "kepenxonbanon (will open for another)",
+        "weninxonbanon (will make stand for another)",
+        "pontexonbanon (will clarify for another)",
+        "bexonbanon (will bring for another)",
+        "boxonbanon (will take for another)",
+        "jainxonki (right there)",
+        "xeaxon - drank",
+        "kaxon - went",
+        "tanaxon - rested"
+      ],
+      "sources": [
+        "10.4",
+        "11.1",
+        "11.5",
+        "9.1"
+      ]
+    },
+    {
+      "form": "-ya",
+      "meaning": "immediately, announcement",
+      "usage": "verb suffix for immediate action announcement",
+      "examples": [
+        "piaxbikaya (eat with emphasis)",
+        "jawetianbikaya (never with emphasis)",
+        "kanobanonri (will connect immediately)",
+        "panati (protection)"
+      ],
+      "sources": [
+        "10.2",
+        "11.2"
+      ]
+    },
+    {
+      "form": "-yabi",
+      "meaning": "with, having, equipped with",
+      "usage": "Inclusive marker indicating 'with all'",
+      "examples": [
+        "jawekiyabi (with all their gear)",
+        "jawekiyabi (with all his gear)",
+        "joiyabi (protecting all my prayers)",
+        "neteyabi (with all universe)",
+        "shinanyabi (with all mind)",
+        "joiyabi (with all voice/prayer)"
+      ],
+      "sources": [
+        "10.3",
+        "10.4",
+        "9.0",
+        "9.3"
+      ]
+    },
+    {
+      "form": "-yama",
+      "meaning": "negation of a verb",
+      "usage": "attached to verb stems, followed by tense markers",
+      "examples": [
+        "ayamai (don't do, present)",
+        "ayamake (didn't do just now)",
+        "kinanyamai (don't purge, present)",
+        "nashiyamai (don't bathe, present)",
+        "ochayamawe (don't sin)"
+      ],
+      "sources": [
+        "10.1"
+      ]
+    },
+    {
+      "form": "-yon",
+      "meaning": "to do fully, to completion",
+      "usage": "verbal suffix indicating complete or thorough action",
+      "examples": [
+        "jishtimayontaanara (having made it fully appear)",
+        "chankamayontaanara (having made it stand up fully)",
+        "katemayontaanara (having made them surround fully)",
+        "pishayontaanara (having released it fully)",
+        "nichinyontaanara (having planted them fully)",
+        "Saweyontaanara (having fully dressed myself)",
+        "Paoyonribataana (having fully put on the belt)",
+        "Jishtiyontaanara (having fully appeared)",
+        "Kanoyontaanara (having fully connected myself)"
+      ],
+      "sources": [
+        "10.3",
+        "11.4",
+        "9.0"
+      ]
+    },
+    {
+      "form": "-yontaanara",
+      "meaning": "having fully done, fully made, complete action",
+      "usage": "Completive aspect suffix indicating thorough or complete action",
+      "examples": [
+        "sawebainkin",
+        "arkana ayontaanara (having fully done arkana)",
+        "panayontaanara (having fully protected)"
+      ],
+      "sources": [
+        "12.2"
+      ]
+    },
+    {
+      "form": "-yosma",
+      "meaning": "seldom does/is so",
+      "usage": "verbal suffix",
+      "examples": [
+        "ramiyosma (seldom gets distorted)"
+      ],
+      "sources": [
+        "9.0"
+      ]
+    }
+  ],
+  "prefixes": []
+}

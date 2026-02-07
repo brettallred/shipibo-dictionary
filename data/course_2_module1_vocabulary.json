@@ -1,0 +1,1096 @@
+{
+  "source": "course_2",
+  "module": 1,
+  "extracted_at": "2026-02-07",
+  "stats": {
+    "files_parsed": 25,
+    "words_before_dedup": 122,
+    "words_after_dedup": 75,
+    "suffixes_before_dedup": 44,
+    "suffixes_after_dedup": 28,
+    "prefixes_before_dedup": 0,
+    "prefixes_after_dedup": 0
+  },
+  "words": [
+    {
+      "shipibo": "akin",
+      "part_of_speech": "verb",
+      "meaning": "doing",
+      "sources": [
+        "4.3",
+        "4.4"
+      ],
+      "context": "used in icaro composition"
+    },
+    {
+      "shipibo": "akinmisti",
+      "part_of_speech": "adjective",
+      "meaning": "tends to be helpful",
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "ani",
+      "part_of_speech": "noun",
+      "meaning": "great, universe",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "ati",
+      "part_of_speech": "transitive verb",
+      "meaning": "do, make",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "ax",
+      "part_of_speech": "verb",
+      "meaning": "once it has happened, as soon as it's happened",
+      "sources": [
+        "4.3"
+      ]
+    },
+    {
+      "shipibo": "bari",
+      "part_of_speech": "noun",
+      "meaning": "sun (God)",
+      "sources": [
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "bene",
+      "part_of_speech": "noun",
+      "meaning": "healing (in context of beneshamani - healing excellently)",
+      "sources": [
+        "4.3"
+      ]
+    },
+    {
+      "shipibo": "benxomisti",
+      "part_of_speech": "adjective",
+      "meaning": "tends to be healing",
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "bewai",
+      "part_of_speech": "verb",
+      "meaning": "sing, embody, I sing as I embody",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "bira",
+      "part_of_speech": "noun",
+      "meaning": "perhaps, without knowing, gives effect of revelation in icaros",
+      "sources": [
+        "4.5"
+      ]
+    },
+    {
+      "shipibo": "biti",
+      "part_of_speech": "verb",
+      "meaning": "to receive or obtain",
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "I",
+      "sources": [
+        "4.2",
+        "4.5"
+      ],
+      "context": "Used in icaro opening lines"
+    },
+    {
+      "shipibo": "ikenbi",
+      "part_of_speech": "conjunction",
+      "meaning": "even though",
+      "sources": [
+        "4.5"
+      ]
+    },
+    {
+      "shipibo": "jakiribi",
+      "part_of_speech": "adverb",
+      "meaning": "once more time, one more time",
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "jakiribibobira",
+      "part_of_speech": "adverb",
+      "meaning": "over and over again",
+      "sources": [
+        "4.3"
+      ]
+    },
+    {
+      "shipibo": "jakon",
+      "part_of_speech": "adjective",
+      "meaning": "good",
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "janeya",
+      "part_of_speech": "noun",
+      "meaning": "name, with the name",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "jaton",
+      "part_of_speech": "pronoun",
+      "meaning": "they (transitive)",
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "joi",
+      "part_of_speech": "noun",
+      "meaning": "voice, word",
+      "sources": [
+        "4.3",
+        "4.4",
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "joni",
+      "part_of_speech": "noun",
+      "meaning": "man, person",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "jonikan",
+      "part_of_speech": "noun",
+      "meaning": "man, person, a true man/person",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "joti",
+      "part_of_speech": "verb",
+      "meaning": "come",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "kaibo",
+      "part_of_speech": "noun",
+      "meaning": "family",
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "kaiboboki",
+      "part_of_speech": "noun",
+      "meaning": "family members",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "kain",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to do something along the way",
+      "sources": [
+        "4.5"
+      ]
+    },
+    {
+      "shipibo": "kano",
+      "part_of_speech": "noun",
+      "meaning": "connection structure; channel",
+      "sources": [
+        "2.3"
+      ],
+      "context": "Represents all connections with energies or spirits built along one's life-path, including connection to the Divine; can be visualized as images, stamps, or medicinal essence; can be positive or negative (dark magic)"
+    },
+    {
+      "shipibo": "kanoya",
+      "part_of_speech": "noun",
+      "meaning": "structure, connection structure",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "kaya",
+      "part_of_speech": "noun",
+      "meaning": "truly, with certainty",
+      "sources": [
+        "4.5"
+      ]
+    },
+    {
+      "shipibo": "kene",
+      "part_of_speech": "noun",
+      "meaning": "designs; patterns",
+      "sources": [
+        "2.3"
+      ],
+      "context": "Mentioned as part of visual representation in kano illustrations"
+    },
+    {
+      "shipibo": "kewe",
+      "part_of_speech": "noun",
+      "meaning": "embroidery, connection",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "koshi",
+      "part_of_speech": "adjective",
+      "meaning": "powerful, strong",
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "mai",
+      "part_of_speech": "noun",
+      "meaning": "land",
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "maketi",
+      "part_of_speech": "verb",
+      "meaning": "to continue to develop, polish, perfect",
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "mato",
+      "part_of_speech": "pronoun",
+      "meaning": "you all",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "medico",
+      "part_of_speech": "noun",
+      "meaning": "doctor (from Spanish médico)",
+      "sources": [
+        "4.2",
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "medicobo",
+      "part_of_speech": "noun",
+      "meaning": "medicine people, doctor people",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "medicoi",
+      "part_of_speech": "noun",
+      "meaning": "doctor (variant form)",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "medicokan",
+      "part_of_speech": "noun",
+      "meaning": "doctor, a true doctor",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "meniti",
+      "part_of_speech": "verb",
+      "meaning": "to give",
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "metsa",
+      "part_of_speech": "adjective",
+      "meaning": "beautiful",
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "nato",
+      "part_of_speech": "pronoun",
+      "meaning": "this",
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": "noun",
+      "meaning": "universe; the energetic state of being",
+      "sources": [
+        "2.3",
+        "4.2",
+        "4.5",
+        "4.6"
+      ],
+      "context": "Like a day-to-day painting of one's being; subject to change like mood; represents the state of body, mind, and soul in a given moment; one's energetic home"
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "noun",
+      "meaning": "wind-like energy",
+      "sources": [
+        "2.3",
+        "4.3",
+        "4.4",
+        "4.5",
+        "4.6"
+      ],
+      "context": "Described as mobile energy that can move in and out of a body; can come from animals, places, dead people, or other healers; can be positive or negative"
+    },
+    {
+      "shipibo": "noimisti",
+      "part_of_speech": "adjective",
+      "meaning": "tends to be loving",
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "nokoax",
+      "part_of_speech": "verb",
+      "meaning": "arrived, once they have arrived",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "nokoti",
+      "part_of_speech": "verb",
+      "meaning": "to arrive",
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "onis",
+      "part_of_speech": "noun",
+      "meaning": "sadness",
+      "sources": [
+        "4.6"
+      ],
+      "context": "used in icaros to express sadness or the desire to cry"
+    },
+    {
+      "shipibo": "onisti",
+      "part_of_speech": "verb",
+      "meaning": "to become sad",
+      "sources": [
+        "4.5",
+        "4.6"
+      ],
+      "context": "used in icaros to describe emotional state"
+    },
+    {
+      "shipibo": "osan",
+      "part_of_speech": "noun",
+      "meaning": "laughter, smile, joy",
+      "sources": [
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "oxe",
+      "part_of_speech": "noun",
+      "meaning": "moon (God)",
+      "sources": [
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "pae",
+      "part_of_speech": "noun",
+      "meaning": "mareación (dizziness/disorientation)",
+      "sources": [
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "paxkin",
+      "part_of_speech": "adjective",
+      "meaning": "tired",
+      "sources": [
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "paxkinti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to become tired",
+      "sources": [
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "paxna",
+      "part_of_speech": "adjective",
+      "meaning": "exhausted",
+      "sources": [
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "paxnati",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to become exhausted",
+      "sources": [
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "ponteti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to align, straighten",
+      "sources": [
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "rakaya",
+      "part_of_speech": "verb",
+      "meaning": "laid out, containing",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "rama",
+      "part_of_speech": "adverb",
+      "meaning": "now",
+      "sources": [
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "raro",
+      "part_of_speech": "noun",
+      "meaning": "healing/excellence (in context of raroshamani - doing excellently)",
+      "sources": [
+        "4.3"
+      ]
+    },
+    {
+      "shipibo": "raroira",
+      "part_of_speech": "verb",
+      "meaning": "rejoice",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "ribi",
+      "part_of_speech": "adverb",
+      "meaning": "also",
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "shipibo": "rios",
+      "part_of_speech": "noun",
+      "meaning": "God",
+      "sources": [
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "ronki",
+      "part_of_speech": "verb",
+      "meaning": "they say",
+      "sources": [
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "shinan",
+      "part_of_speech": "noun",
+      "meaning": "mind, thoughts",
+      "sources": [
+        "4.3",
+        "4.4",
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "shipibokan",
+      "part_of_speech": "adjective",
+      "meaning": "Shipibo, true Shipibo",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "taana",
+      "part_of_speech": "verb",
+      "meaning": "having done so, finished action",
+      "sources": [
+        "4.5"
+      ]
+    },
+    {
+      "shipibo": "wexa metsa",
+      "part_of_speech": "noun",
+      "meaning": "proper name (Wexa Metsa)",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "winkas",
+      "part_of_speech": "noun",
+      "meaning": "desire to cry",
+      "sources": [
+        "4.6"
+      ],
+      "context": "used in icaros to express sadness or the desire to cry"
+    },
+    {
+      "shipibo": "winkasti",
+      "part_of_speech": "verb",
+      "meaning": "to feel the urge to cry",
+      "sources": [
+        "4.5"
+      ]
+    },
+    {
+      "shipibo": "wishtin",
+      "part_of_speech": "noun",
+      "meaning": "star (God)",
+      "sources": [
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "xawebiribi",
+      "part_of_speech": "noun",
+      "meaning": "the one and only gentleman",
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "shipibo": "yabi",
+      "part_of_speech": "noun",
+      "meaning": "with all",
+      "sources": [
+        "4.5"
+      ]
+    },
+    {
+      "shipibo": "yora",
+      "part_of_speech": "noun",
+      "meaning": "body",
+      "sources": [
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "yosma",
+      "part_of_speech": "adjective",
+      "meaning": "weak",
+      "sources": [
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "shipibo": "yosmati",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to become weak",
+      "sources": [
+        "4.6"
+      ]
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-a",
+      "meaning": "general past tense",
+      "usage": "marks simple past tense action",
+      "examples": [
+        "paxnaa",
+        "yosmaa",
+        "onisa (saddened)",
+        "paxkina (became tired)",
+        "paxnaa (became exhausted)",
+        "yosmaa (became weakened)"
+      ],
+      "sources": [
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "form": "-ai",
+      "meaning": "present tense",
+      "usage": "verbal suffix for present tense",
+      "examples": [
+        "ponteai"
+      ],
+      "sources": [
+        "4.5"
+      ]
+    },
+    {
+      "form": "-anara",
+      "meaning": "having done so; emphatic past completion",
+      "usage": "marks completed action with emphatic finality",
+      "examples": [
+        "oniskaintaanara",
+        "winkaskaintaanara",
+        "eabirakayara",
+        "ponteyontaanara"
+      ],
+      "sources": [
+        "4.6"
+      ]
+    },
+    {
+      "form": "-ax",
+      "meaning": "once it has happened, as soon as it's happened",
+      "usage": "verbal aspect suffix indicating recent perfective",
+      "examples": [
+        "nokoax (arrived once)",
+        "jakonax",
+        "nokoax (arrived)",
+        "Nato main nokoax (Once I arrived to this land)"
+      ],
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "emphatic",
+      "usage": "emphatic particle marking intensity or emphasis",
+      "examples": [
+        "ikenbi",
+        "rioskibi",
+        "barikibi",
+        "oxekibi",
+        "wishtinkibi",
+        "shinanyabi",
+        "joiyabi",
+        "neteyabi",
+        "niweyabi",
+        "rioskibi (towards God with emphasis)",
+        "barikibi (towards the Sun with emphasis)",
+        "oxekibi (towards the Moon with emphasis)",
+        "wishtinkibi (towards the Stars with emphasis)",
+        "ikenbi (even though with emphasis)",
+        "osanyabi",
+        "yorayabi"
+      ],
+      "sources": [
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "form": "-bira",
+      "meaning": "revealing, disclosure",
+      "usage": "nominal suffix indicating revelation or manifestation",
+      "examples": [
+        "jakiribibobira (the things that I receive over and over again)"
+      ],
+      "sources": [
+        "4.4"
+      ]
+    },
+    {
+      "form": "-bo",
+      "meaning": "plural (noun) or doing along a process (verb)",
+      "usage": "can function as noun plural or verbal aspect marker",
+      "examples": [
+        "medicobo (medicine people)",
+        "kaiboboki (family members)",
+        "shinanbo (minds)",
+        "joibo",
+        "kaibobo",
+        "medicobo",
+        "kaibobo (family members)",
+        "medicobo (doctors)",
+        "shinanbo (thoughts)"
+      ],
+      "sources": [
+        "4.2",
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "form": "-i",
+      "meaning": "-ing verb ending equivalent in English; present participle or simultaneous action",
+      "usage": "marks present participle or continuous action happening simultaneously with another action",
+      "examples": [
+        "medicoi",
+        "pontei",
+        "pontei (straightening)"
+      ],
+      "sources": [
+        "4.3",
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "form": "-in",
+      "meaning": "in, locative",
+      "usage": "nominal locative suffix",
+      "examples": [
+        "Nato main (this land)"
+      ],
+      "sources": [
+        "4.4"
+      ]
+    },
+    {
+      "form": "-je",
+      "meaning": "locative or emphatic marker",
+      "usage": "nominal suffix",
+      "examples": [
+        "paxnaa je",
+        "yosmaa je",
+        "yorayabi paxna je",
+        "shinanyabi yosma je",
+        "joiyabi yosma je"
+      ],
+      "sources": [
+        "4.5"
+      ]
+    },
+    {
+      "form": "-kain",
+      "meaning": "along the way, in the process of",
+      "usage": "verbal suffix indicating action done along a path or process",
+      "examples": [
+        "oniskaintaanara",
+        "winkaskaintaanara",
+        "paxkinkaintaanara",
+        "paxnakaintaanara",
+        "yosmakaintaanara"
+      ],
+      "sources": [
+        "4.5"
+      ]
+    },
+    {
+      "form": "-kan",
+      "meaning": "this one, actually; true, genuine",
+      "usage": "nominal marker indicating authenticity or specificity",
+      "examples": [
+        "shipibokan (a true Shipibo man)",
+        "medicokan (a true doctor)",
+        "jonikan (a true man/person)"
+      ],
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "form": "-kaya",
+      "meaning": "truly, with certainty",
+      "usage": "adverbial suffix expressing certainty",
+      "examples": [
+        "eabirakayara"
+      ],
+      "sources": [
+        "4.5"
+      ]
+    },
+    {
+      "form": "-ki",
+      "meaning": "towards, to",
+      "usage": "allative suffix marking direction or destination",
+      "examples": [
+        "kaiboboki",
+        "rioskibi",
+        "barikibi",
+        "ronki",
+        "wishtinkibi",
+        "rioskibi (towards God)",
+        "barikibi (towards the Sun)",
+        "oxekibi (towards the Moon)",
+        "wishtinkibi (towards the Stars)"
+      ],
+      "sources": [
+        "4.3",
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "form": "-meran",
+      "meaning": "inside",
+      "usage": "locative suffix indicating location within something",
+      "examples": [
+        "paemeran (inside mareación/dizziness)",
+        "netemeran (inside universe)"
+      ],
+      "sources": [
+        "4.6"
+      ]
+    },
+    {
+      "form": "-misti",
+      "meaning": "tends to, inclined to (quality/tendency)",
+      "usage": "adjectival suffix indicating tendency or quality",
+      "examples": [
+        "akinmisti (tends to be helpful)",
+        "benxomisti (tends to be healing)",
+        "noimisti (tends to be loving)"
+      ],
+      "sources": [
+        "4.3"
+      ]
+    },
+    {
+      "form": "-n",
+      "meaning": "place, in",
+      "usage": "locative suffix",
+      "examples": [],
+      "sources": [
+        "4.3"
+      ]
+    },
+    {
+      "form": "-non",
+      "meaning": "will, announcement of something that will happen in the future",
+      "usage": "verbal future/prospective suffix",
+      "examples": [
+        "abanon (I will make/do)",
+        "binonra",
+        "meninon",
+        "biboshamanon",
+        "makenon",
+        "binonra (will receive)",
+        "binonon (will receive)",
+        "meninon (will give)",
+        "makenon (will polish/develop)"
+      ],
+      "sources": [
+        "4.2",
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "form": "-oki",
+      "meaning": "towards",
+      "usage": "directional/allative suffix",
+      "examples": [
+        "kaiboboki (towards the family members)"
+      ],
+      "sources": [
+        "4.4"
+      ]
+    },
+    {
+      "form": "-on",
+      "meaning": "to do an action fully",
+      "usage": "verbal suffix indicating completion or fullness",
+      "examples": [
+        "ponteyontaanara"
+      ],
+      "sources": [
+        "4.5"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphatic",
+      "usage": "emphasis/intensifier suffix",
+      "examples": [
+        "binonra",
+        "meninon",
+        "binonra (will receive with emphasis)",
+        "eabirakayara"
+      ],
+      "sources": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ]
+    },
+    {
+      "form": "-shaman",
+      "meaning": "doing something excellently",
+      "usage": "verbal adverbial suffix indicating excellence/quality",
+      "examples": [
+        "raroshamani",
+        "beneshamani",
+        "biboshamanon",
+        "menishamanon",
+        "makeshamanon",
+        "ishamani",
+        "biboshamanon (will go on receiving excellently)",
+        "makeshamanon (will polish/develop excellently)",
+        "menishamanon (will give excellently)"
+      ],
+      "sources": [
+        "4.3",
+        "4.4"
+      ]
+    },
+    {
+      "form": "-taana",
+      "meaning": "having done so, finished action, completed",
+      "usage": "verbal suffix indicating completion",
+      "examples": [
+        "oniskaintaanara",
+        "winkaskaintaanara",
+        "paxkinkaintaanara",
+        "paxnakaintaanara",
+        "yosmakaintaanara",
+        "ponteyontaanara"
+      ],
+      "sources": [
+        "4.5"
+      ]
+    },
+    {
+      "form": "-we",
+      "meaning": "imperative, command (singular)",
+      "usage": "verbal imperative marker",
+      "examples": [
+        "jowe (come!)"
+      ],
+      "sources": [
+        "4.2"
+      ]
+    },
+    {
+      "form": "-ya",
+      "meaning": "with, containing",
+      "usage": "comitative suffix expressing accompaniment or possession of a quality",
+      "examples": [
+        "janeya (with the name)",
+        "shinanyabi (with all the mind)",
+        "joiyabi (with all the voice)",
+        "neteyabi (with all the universe)",
+        "niweyabi (with all the energy)",
+        "osanyabi (with all the laughter/smile/joy)",
+        "yorayabi (with all the body)"
+      ],
+      "sources": [
+        "4.2",
+        "4.6"
+      ]
+    },
+    {
+      "form": "-yabi",
+      "meaning": "with all, encompassing",
+      "usage": "nominal suffix expressing totality",
+      "examples": [
+        "yorayabi",
+        "shinanyabi",
+        "joiyabi",
+        "osanyabi",
+        "neteyabi",
+        "niweyabi"
+      ],
+      "sources": [
+        "4.5"
+      ]
+    },
+    {
+      "form": "-yona",
+      "meaning": "marked or emphasized state",
+      "usage": "concessive suffix marking subordinate clauses expressing contrast",
+      "examples": [
+        "paxkinyona",
+        "paxnayona",
+        "onisyona",
+        "yosmayona",
+        "onisyona ikenbi (even though I became fully saddened)",
+        "paxkinyona ikenbi (even though I became fully tired)",
+        "paxnayona ikenbi (even though I became fully exhausted)",
+        "yosmayona ikenbi (even though I became fully weakened)"
+      ],
+      "sources": [
+        "4.5",
+        "4.6"
+      ]
+    },
+    {
+      "form": "-yonta",
+      "meaning": "to perform an action fully, to completion",
+      "usage": "perfectivity marker indicating completion of action",
+      "examples": [
+        "ponteyontaanara (having fully straightened)"
+      ],
+      "sources": [
+        "4.6"
+      ]
+    }
+  ],
+  "prefixes": []
+}

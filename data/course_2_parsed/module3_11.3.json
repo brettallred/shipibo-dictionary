@@ -1,0 +1,34 @@
+{
+  "words": [
+    {
+      "shipibo": "irake",
+      "part_of_speech": "interjection",
+      "meaning": "thank you",
+      "context": "greeting/expression of gratitude"
+    },
+    {
+      "shipibo": "ibo",
+      "part_of_speech": "noun",
+      "meaning": "spirit; a human form spirit",
+      "context": "central concept in master plant dieta - the spirit behind a plant or divine consciousness"
+    },
+    {
+      "shipibo": "nete ibo",
+      "part_of_speech": "noun",
+      "meaning": "God; ultimate divine consciousness; the ultimate boss",
+      "context": "highest level of spiritual manifestation; plants are manifestations of Nete Ibo"
+    },
+    {
+      "shipibo": "dietero",
+      "part_of_speech": "noun",
+      "meaning": "one who is on a dieta; someone in relationship with a master plant",
+      "context": "person undergoing master plant dieta practice"
+    }
+  ],
+  "suffixes": [],
+  "prefixes": [],
+  "filename": "11.3-Week-11-Shipibo-Konibo-Master-Plant-Dieta.pdf",
+  "section": "11.3",
+  "module": 3,
+  "parsed_at": "2026-02-07 14:37:54"
+}

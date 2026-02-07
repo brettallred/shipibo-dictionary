@@ -1,0 +1,315 @@
+{
+  "words": [
+    {
+      "shipibo": "joi",
+      "part_of_speech": "noun",
+      "meaning": "word, voice",
+      "context": "used in icaros for spiritual communication"
+    },
+    {
+      "shipibo": "nokon",
+      "part_of_speech": "pronoun",
+      "meaning": "my"
+    },
+    {
+      "shipibo": "sontaro",
+      "part_of_speech": "noun",
+      "meaning": "soldier"
+    },
+    {
+      "shipibo": "acero",
+      "part_of_speech": "noun",
+      "meaning": "steel"
+    },
+    {
+      "shipibo": "joni",
+      "part_of_speech": "noun",
+      "meaning": "person"
+    },
+    {
+      "shipibo": "joxo",
+      "part_of_speech": "adjective",
+      "meaning": "white"
+    },
+    {
+      "shipibo": "leon",
+      "part_of_speech": "noun",
+      "meaning": "lion"
+    },
+    {
+      "shipibo": "caballo",
+      "part_of_speech": "noun",
+      "meaning": "horse"
+    },
+    {
+      "shipibo": "oso",
+      "part_of_speech": "noun",
+      "meaning": "bear"
+    },
+    {
+      "shipibo": "ronin",
+      "part_of_speech": "noun",
+      "meaning": "anaconda"
+    },
+    {
+      "shipibo": "wiso",
+      "part_of_speech": "adjective",
+      "meaning": "black"
+    },
+    {
+      "shipibo": "ino",
+      "part_of_speech": "noun",
+      "meaning": "jaguar"
+    },
+    {
+      "shipibo": "manan",
+      "part_of_speech": "noun",
+      "meaning": "mountain"
+    },
+    {
+      "shipibo": "kenati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to call, summon"
+    },
+    {
+      "shipibo": "joyoti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to place oneself in line"
+    },
+    {
+      "shipibo": "chankati",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to stand on 2 feet"
+    },
+    {
+      "shipibo": "jishtiti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to appear"
+    },
+    {
+      "shipibo": "ninkati",
+      "part_of_speech": "verb",
+      "meaning": "to listen"
+    },
+    {
+      "shipibo": "koiranti",
+      "part_of_speech": "verb",
+      "meaning": "to take care"
+    },
+    {
+      "shipibo": "yoiti",
+      "part_of_speech": "verb",
+      "meaning": "to speak, say"
+    },
+    {
+      "shipibo": "xobo",
+      "part_of_speech": "noun",
+      "meaning": "house"
+    },
+    {
+      "shipibo": "kateti",
+      "part_of_speech": "verb",
+      "meaning": "to surround"
+    },
+    {
+      "shipibo": "jabaon",
+      "part_of_speech": "pronoun",
+      "meaning": "their"
+    },
+    {
+      "shipibo": "jaweki",
+      "part_of_speech": "noun",
+      "meaning": "objects"
+    },
+    {
+      "shipibo": "pishati",
+      "part_of_speech": "verb",
+      "meaning": "to release"
+    },
+    {
+      "shipibo": "manati",
+      "part_of_speech": "verb",
+      "meaning": "to wait"
+    },
+    {
+      "shipibo": "mayati",
+      "part_of_speech": "verb",
+      "meaning": "to circle, go around, swirl"
+    },
+    {
+      "shipibo": "pana",
+      "part_of_speech": "noun",
+      "meaning": "protector"
+    },
+    {
+      "shipibo": "espejo",
+      "part_of_speech": "noun",
+      "meaning": "mirror"
+    },
+    {
+      "shipibo": "nichinti",
+      "part_of_speech": "verb",
+      "meaning": "to implant, place firmly, very rooted"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-bo",
+      "meaning": "plural (for nouns); do as you go (for verbs)",
+      "usage": "noun and verb suffix",
+      "examples": [
+        "sontarobokan (plural soldiers)",
+        "espejobo (mirror plural)",
+        "mayamabokin (making it circle around)"
+      ]
+    },
+    {
+      "form": "-kan",
+      "meaning": "actual, truly",
+      "usage": "noun suffix",
+      "examples": [
+        "leonkan (actual lion)",
+        "sontarobokan (actual soldiers)"
+      ]
+    },
+    {
+      "form": "-kaya",
+      "meaning": "true, without doubt",
+      "usage": "noun suffix",
+      "examples": []
+    },
+    {
+      "form": "-banon",
+      "meaning": "immediate announcement",
+      "usage": "verb suffix",
+      "examples": [
+        "kenabanonri (will immediately call)",
+        "xobo katemabanon (will make them surround the house)",
+        "mana manamabanon (I will make them wait)"
+      ]
+    },
+    {
+      "form": "-ri",
+      "meaning": "emphasis",
+      "usage": "verb suffix",
+      "examples": [
+        "kenabanonri (will immediately call with emphasis)"
+      ]
+    },
+    {
+      "form": "-shaman",
+      "meaning": "doing so excellently",
+      "usage": "verb suffix",
+      "examples": [
+        "kenashamanban (will immediately call excellently)"
+      ]
+    },
+    {
+      "form": "-ban",
+      "meaning": "announcement, immediate",
+      "usage": "verb suffix",
+      "examples": [
+        "kenashamanban (will immediately call excellently)"
+      ]
+    },
+    {
+      "form": "-bain",
+      "meaning": "to do along the way",
+      "usage": "verb suffix for transitive or plural intransitive verbs",
+      "examples": [
+        "joyobaintaanara (having placed themselves in line along the way)",
+        "chankabaintaanara (having stood up along the way)",
+        "yoibainkin (telling them along the way)",
+        "nichinhbainkin (planting them along the way)"
+      ]
+    },
+    {
+      "form": "-ake",
+      "meaning": "to do around",
+      "usage": "verb suffix",
+      "examples": [
+        "joyoaketaanara (having placed themselves in line all around)",
+        "chankaaketaanara (having stood up all around)"
+      ]
+    },
+    {
+      "form": "-taana",
+      "meaning": "having done so",
+      "usage": "verb suffix",
+      "examples": [
+        "jishtimayontaanara (having made it fully appear)",
+        "chankamayontaanara (having made it stand up fully)",
+        "katemayontaanara (having made them surround fully)",
+        "nichinyontaanara (having planted them fully)"
+      ]
+    },
+    {
+      "form": "-ma",
+      "meaning": "make an action happen",
+      "usage": "verb suffix",
+      "examples": [
+        "nokon joi ninkamai (make them listen to my words)",
+        "katemabanon (will make them surround)",
+        "katemayontaanara (having made them surround fully)",
+        "mayamabokin (making it circle around)"
+      ]
+    },
+    {
+      "form": "-yon",
+      "meaning": "do an action fully",
+      "usage": "verb suffix",
+      "examples": [
+        "jishtimayontaanara (having made it fully appear)",
+        "chankamayontaanara (having made it stand up fully)",
+        "katemayontaanara (having made them surround fully)",
+        "pishayontaanara (having released it fully)",
+        "nichinyontaanara (having planted them fully)"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphatic",
+      "usage": "verb suffix",
+      "examples": []
+    },
+    {
+      "form": "-ai",
+      "meaning": "present",
+      "usage": "verb suffix",
+      "examples": [
+        "nokon joi ninkamai (present action)"
+      ]
+    },
+    {
+      "form": "-ki",
+      "meaning": "emphasis, towards",
+      "usage": "verb suffix",
+      "examples": [
+        "koirantiki yoikin (tell them to take care)"
+      ]
+    },
+    {
+      "form": "-kin",
+      "meaning": "present participle, more descriptive and external",
+      "usage": "verb suffix",
+      "examples": [
+        "yoibainkin (telling them along the way)",
+        "mayamabokin (making it circle around the house as I go)",
+        "joyobaintaanara (having placed themselves)"
+      ]
+    },
+    {
+      "form": "-yabi",
+      "meaning": "with all",
+      "usage": "noun suffix",
+      "examples": [
+        "jawekiyabi (with all their gear)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "10.3-Icaro-Writing-Excercise-Week-10-2.pdf",
+  "section": "10.3",
+  "module": 3,
+  "parsed_at": "2026-02-07 14:37:07"
+}

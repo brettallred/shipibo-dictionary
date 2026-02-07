@@ -1,0 +1,172 @@
+{
+  "words": [
+    {
+      "shipibo": "tita",
+      "part_of_speech": "noun",
+      "meaning": "mother",
+      "context": "Used in the song title and throughout the icaro"
+    },
+    {
+      "shipibo": "bewa",
+      "part_of_speech": "noun",
+      "meaning": "song",
+      "context": "Part of the title 'Titabaon Nete Bewa' (Mother's Day Song)"
+    },
+    {
+      "shipibo": "netera",
+      "part_of_speech": "noun",
+      "meaning": "day",
+      "context": "Used in 'min netera nokoke tita' (your day has arrived, mother)"
+    },
+    {
+      "shipibo": "ja",
+      "part_of_speech": "particle",
+      "meaning": "this",
+      "context": "Demonstrative particle used in 'ja kopira noa raroai'"
+    },
+    {
+      "shipibo": "kopi",
+      "part_of_speech": "conjunction",
+      "meaning": "that is why",
+      "context": "Conjunction used to connect clauses; variant 'ja kopi' also given"
+    },
+    {
+      "shipibo": "rama",
+      "part_of_speech": "adverb",
+      "meaning": "now",
+      "context": "Temporal adverb used in 'rama noa tsinkike' (now we have gathered)"
+    },
+    {
+      "shipibo": "tsinkiti",
+      "part_of_speech": "verb",
+      "meaning": "to gather",
+      "context": "Used in the song 'rama noa tsinkike' (now we have gathered)"
+    },
+    {
+      "shipibo": "bake",
+      "part_of_speech": "noun",
+      "meaning": "child",
+      "context": "Used in 'min bakebo' (your children); bakebo is plural form"
+    },
+    {
+      "shipibo": "rarokini",
+      "part_of_speech": "verb",
+      "meaning": "celebrate",
+      "context": "Used in 'min bakebo, mia rarokini' (your children celebrate you)"
+    },
+    {
+      "shipibo": "wetsatian",
+      "part_of_speech": "adverb",
+      "meaning": "in another time",
+      "context": "Used in 'wetsatianbo noa yoitimabo' (other days, we were naughty)"
+    },
+    {
+      "shipibo": "yoitima",
+      "part_of_speech": "adjective",
+      "meaning": "naughty, mischievous",
+      "context": "Describes the children's past behavior in the song"
+    },
+    {
+      "shipibo": "winiti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to cry",
+      "context": "Used in 'non mia winimabo' (we made you cry)"
+    },
+    {
+      "shipibo": "irake",
+      "part_of_speech": "interjection",
+      "meaning": "thank you",
+      "context": "Expression of gratitude used in 'irake arai non ibo' (we thank our Lord)"
+    },
+    {
+      "shipibo": "non",
+      "part_of_speech": "pronoun",
+      "meaning": "we, our",
+      "context": "First person plural pronoun used throughout the song"
+    },
+    {
+      "shipibo": "ibo",
+      "part_of_speech": "noun",
+      "meaning": "Lord, God",
+      "context": "Used in 'non ibo' (our Lord) in phrase 'non ibo' (our Lord, God)"
+    },
+    {
+      "shipibo": "noiti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to love",
+      "context": "Used in 'nonra mia noike' (we love you mother) and 'min noa noiai kopi' (for loving us)"
+    },
+    {
+      "shipibo": "beti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to bring",
+      "context": "Used in 'nato neten, min noa bea kopi' (for bringing us to this world)"
+    },
+    {
+      "shipibo": "mia",
+      "part_of_speech": "pronoun",
+      "meaning": "you",
+      "context": "Second person singular pronoun used throughout the song"
+    },
+    {
+      "shipibo": "min",
+      "part_of_speech": "pronoun",
+      "meaning": "your",
+      "context": "Second person possessive pronoun used throughout the song"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-bo",
+      "meaning": "plural marker",
+      "usage": "Noun pluralization",
+      "examples": [
+        "bakebo (children)",
+        "yoitimabo (we were naughty, plural form)",
+        "wetsatianbo (other days, plural)"
+      ]
+    },
+    {
+      "form": "-ke",
+      "meaning": "perfective aspect marker",
+      "usage": "Verb aspect marking for completed actions",
+      "examples": [
+        "nokoke (has arrived)",
+        "tsinkike (have gathered)"
+      ]
+    },
+    {
+      "form": "-ini",
+      "meaning": "causative or agent marker",
+      "usage": "Verb derivation",
+      "examples": [
+        "rarokini (celebrate)"
+      ]
+    },
+    {
+      "form": "-ai",
+      "meaning": "emphatic or marker of completed action",
+      "usage": "Verb aspect or emphasis",
+      "examples": [
+        "raroai (we rejoice)",
+        "arai (verb form of gratitude expression)"
+      ]
+    },
+    {
+      "form": "-iti",
+      "meaning": "infinitive or base verb form",
+      "usage": "Verb nominalization or infinitive form",
+      "examples": [
+        "tsinkiti (to gather)",
+        "winiti (to cry)",
+        "noiti (to love)",
+        "beti (to bring)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "5.5-Bonus_ Titabaon Nete Bewa (Mother’s Day Song) – Koshinete.pdf",
+  "section": "5.5",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:34:15"
+}

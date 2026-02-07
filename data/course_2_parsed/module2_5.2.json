@@ -1,0 +1,223 @@
+{
+  "words": [
+    {
+      "shipibo": "jaweki",
+      "part_of_speech": "pronoun",
+      "meaning": "what",
+      "context": "used in questions about actions"
+    },
+    {
+      "shipibo": "rama",
+      "part_of_speech": "adverb",
+      "meaning": "now"
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": "noun",
+      "meaning": "day"
+    },
+    {
+      "shipibo": "min",
+      "part_of_speech": "pronoun",
+      "meaning": "you (transitive)"
+    },
+    {
+      "shipibo": "aka",
+      "part_of_speech": "verb",
+      "meaning": "did/do (general past tense form of ati, to do)"
+    },
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "I (used with intransitive verbs)"
+    },
+    {
+      "shipibo": "en",
+      "part_of_speech": "pronoun",
+      "meaning": "I (used with transitive verbs)"
+    },
+    {
+      "shipibo": "jan",
+      "part_of_speech": "pronoun",
+      "meaning": "he/she/it"
+    },
+    {
+      "shipibo": "non",
+      "part_of_speech": "pronoun",
+      "meaning": "we"
+    },
+    {
+      "shipibo": "maton",
+      "part_of_speech": "pronoun",
+      "meaning": "you (plural)"
+    },
+    {
+      "shipibo": "jaton",
+      "part_of_speech": "pronoun",
+      "meaning": "they"
+    },
+    {
+      "shipibo": "jabaon",
+      "part_of_speech": "pronoun",
+      "meaning": "they"
+    },
+    {
+      "shipibo": "saweti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to dress, put on clothes"
+    },
+    {
+      "shipibo": "chopa",
+      "part_of_speech": "adverb",
+      "meaning": "yesterday"
+    },
+    {
+      "shipibo": "bewati",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to sing"
+    },
+    {
+      "shipibo": "xeati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to drink"
+    },
+    {
+      "shipibo": "ransati",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to dance"
+    },
+    {
+      "shipibo": "soati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to clear, wipe, or clean a surface"
+    },
+    {
+      "shipibo": "niti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to walk"
+    },
+    {
+      "shipibo": "nashiti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to bathe, shower"
+    },
+    {
+      "shipibo": "biti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to receive, obtain"
+    },
+    {
+      "shipibo": "tantiti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to rest"
+    },
+    {
+      "shipibo": "piti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to eat"
+    },
+    {
+      "shipibo": "ointi",
+      "part_of_speech": "transitive verb",
+      "meaning": "to see"
+    },
+    {
+      "shipibo": "inoaxatan",
+      "part_of_speech": "noun",
+      "meaning": "ayahuma"
+    },
+    {
+      "shipibo": "jiwi",
+      "part_of_speech": "noun",
+      "meaning": "tree, stick"
+    },
+    {
+      "shipibo": "piti",
+      "part_of_speech": "noun",
+      "meaning": "food"
+    },
+    {
+      "shipibo": "jainoax",
+      "part_of_speech": "adverb",
+      "meaning": "after, following (intransitive)"
+    },
+    {
+      "shipibo": "jainxon",
+      "part_of_speech": "adverb",
+      "meaning": "after, following (transitive)"
+    },
+    {
+      "shipibo": "ramabishokora",
+      "part_of_speech": "adverb",
+      "meaning": "right now"
+    },
+    {
+      "shipibo": "ramashokobira",
+      "part_of_speech": "adverb",
+      "meaning": "right now"
+    },
+    {
+      "shipibo": "noeshaman",
+      "part_of_speech": "noun",
+      "meaning": "shaman's assistant or related figure"
+    },
+    {
+      "shipibo": "rao",
+      "part_of_speech": "adverb",
+      "meaning": "with medicine"
+    },
+    {
+      "shipibo": "xobo",
+      "part_of_speech": "noun",
+      "meaning": "dirt, filth"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-a",
+      "meaning": "general past tense marker",
+      "usage": "attached to verb roots to indicate past action without specific time specification",
+      "examples": [
+        "sawea (saw)",
+        "piaa (ate)",
+        "ransaa (danced)",
+        "oina (saw)",
+        "pia (ate)",
+        "soaa (cleaned)",
+        "nashia (showered)"
+      ]
+    },
+    {
+      "form": "-ke",
+      "meaning": "very recent past tense marker",
+      "usage": "attached to verb roots to indicate action that happened a few instants or minutes ago",
+      "examples": [
+        "saweke (just saw)",
+        "Nike (just showered)",
+        "xeake (just drank)",
+        "nashike (just showered)",
+        "tantike (just rested)"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "emphasis",
+      "usage": "emphatic particle suffix"
+    },
+    {
+      "form": "-shoko",
+      "meaning": "diminutive",
+      "usage": "diminutive suffix"
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphasis",
+      "usage": "emphatic particle suffix"
+    }
+  ],
+  "prefixes": [],
+  "filename": "5.2-Introduction-to-Past-tenses-1.pdf",
+  "section": "5.2",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:33:55"
+}

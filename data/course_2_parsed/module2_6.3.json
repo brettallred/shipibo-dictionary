@@ -1,0 +1,225 @@
+{
+  "words": [
+    {
+      "shipibo": "bicha",
+      "part_of_speech": "noun",
+      "meaning": "phlegm",
+      "context": "used in icaro to describe swirling energies"
+    },
+    {
+      "shipibo": "maya",
+      "part_of_speech": "noun",
+      "meaning": "swirling energies",
+      "context": "describes spiritual/energetic qualities in icaro"
+    },
+    {
+      "shipibo": "niwebo",
+      "part_of_speech": "verb",
+      "meaning": "swirling",
+      "context": "describes movement of energies in icaro"
+    },
+    {
+      "shipibo": "janxo",
+      "part_of_speech": "noun",
+      "meaning": "body fluid smell",
+      "context": "used in icaro analysis"
+    },
+    {
+      "shipibo": "ocha",
+      "part_of_speech": "noun",
+      "meaning": "sin",
+      "context": "spiritual concept in icaro"
+    },
+    {
+      "shipibo": "ekibira",
+      "part_of_speech": "verb",
+      "meaning": "have connected",
+      "context": "describes spiritual connection in icaro"
+    },
+    {
+      "shipibo": "kanota",
+      "part_of_speech": "verb",
+      "meaning": "to become connected, build a connection",
+      "context": "icaro verb for establishing spiritual links"
+    },
+    {
+      "shipibo": "ikenbi",
+      "part_of_speech": "conjunction",
+      "meaning": "even though",
+      "context": "used in icaro narrative structure"
+    },
+    {
+      "shipibo": "rama",
+      "part_of_speech": "adverb",
+      "meaning": "now",
+      "context": "temporal marker in icaro"
+    },
+    {
+      "shipibo": "ronki",
+      "part_of_speech": "verb",
+      "meaning": "they say",
+      "context": "expresses being seen by others, spirits, and the Great Spirit in icaro performance"
+    },
+    {
+      "shipibo": "inin",
+      "part_of_speech": "verb",
+      "meaning": "to perfume something",
+      "context": "action of applying perfume in icaro"
+    },
+    {
+      "shipibo": "abokin",
+      "part_of_speech": "verb",
+      "meaning": "to do something as you go",
+      "context": "describes simultaneous actions in icaro"
+    },
+    {
+      "shipibo": "nokon",
+      "part_of_speech": "pronoun",
+      "meaning": "my",
+      "context": "possessive pronoun in icaro"
+    },
+    {
+      "shipibo": "huaringuita",
+      "part_of_speech": "noun",
+      "meaning": "diminutive form of Huaringa, a special Peruvian perfume",
+      "context": "sacred perfume used in healing icaros"
+    },
+    {
+      "shipibo": "huaringa",
+      "part_of_speech": "noun",
+      "meaning": "special Peruvian perfume",
+      "context": "healing plant/perfume in icaro tradition"
+    },
+    {
+      "shipibo": "nomakan",
+      "part_of_speech": "noun",
+      "meaning": "woman",
+      "context": "used as Huaringa woman in icaro"
+    },
+    {
+      "shipibo": "jawen",
+      "part_of_speech": "verb",
+      "meaning": "using her aroma",
+      "context": "describes use of perfume in icaro"
+    },
+    {
+      "shipibo": "ininmanbikan",
+      "part_of_speech": "verb",
+      "meaning": "using her aroma",
+      "context": "icaro action"
+    },
+    {
+      "shipibo": "choki",
+      "part_of_speech": "verb",
+      "meaning": "to wash oneself",
+      "context": "purification action in icaro"
+    },
+    {
+      "shipibo": "chokishamani",
+      "part_of_speech": "verb",
+      "meaning": "I wash myself excellently",
+      "context": "describes purification in icaro"
+    },
+    {
+      "shipibo": "chokiyontaanara",
+      "part_of_speech": "verb",
+      "meaning": "having washed myself fully",
+      "context": "completion of purification in icaro"
+    },
+    {
+      "shipibo": "ponte",
+      "part_of_speech": "verb",
+      "meaning": "to straighten oneself, to align",
+      "context": "describes spiritual alignment in icaro"
+    },
+    {
+      "shipibo": "ponteshamani",
+      "part_of_speech": "verb",
+      "meaning": "I straighten myself excellently",
+      "context": "describes excellent alignment in icaro"
+    },
+    {
+      "shipibo": "ponteti",
+      "part_of_speech": "verb",
+      "meaning": "I am becoming aligned",
+      "context": "describes ongoing alignment process in icaro"
+    },
+    {
+      "shipibo": "ponteyontaanara",
+      "part_of_speech": "verb",
+      "meaning": "I have become fully aligned",
+      "context": "completion of alignment in icaro"
+    },
+    {
+      "shipibo": "naiki",
+      "part_of_speech": "noun",
+      "meaning": "sky",
+      "context": "directional reference in icaro alignment"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-bi",
+      "meaning": "general past tense",
+      "usage": "verb suffix indicating completed past action",
+      "examples": [
+        "ikenbi (even though they have connected)"
+      ]
+    },
+    {
+      "form": "-kayara",
+      "meaning": "truly, without a doubt, emphatic",
+      "usage": "adverbial/verbal suffix adding emphasis",
+      "examples": [
+        "ronkikayara (they say, emphasizing)"
+      ]
+    },
+    {
+      "form": "-in",
+      "meaning": "to do something as you go, present participle with simultaneous action",
+      "usage": "verb suffix describing simultaneous or continuous action, descriptive use, mostly transitive",
+      "examples": [
+        "abokin (perfuming as I go)"
+      ]
+    },
+    {
+      "form": "-man",
+      "meaning": "using, with",
+      "usage": "noun suffix indicating instrumental/locative function",
+      "examples": [
+        "huaringuitaman (using my huaringa perfume)"
+      ]
+    },
+    {
+      "form": "-ita",
+      "meaning": "diminutive",
+      "usage": "noun suffix creating diminutive form",
+      "examples": [
+        "huaringuita (little Huaringa)"
+      ]
+    },
+    {
+      "form": "-shamani",
+      "meaning": "excellently, in an excellent manner",
+      "usage": "adverbial suffix indicating high degree or quality",
+      "examples": [
+        "chokishamani (I wash myself excellently)",
+        "ponteshamani (I straighten myself excellently)"
+      ]
+    },
+    {
+      "form": "-yontaanara",
+      "meaning": "fully, having completed the action",
+      "usage": "verb suffix indicating completion and fullness of action",
+      "examples": [
+        "chokiyontaanara (having washed myself fully)",
+        "ponteyontaanara (I have become fully aligned)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "6.3-Icaro-Analysis-Part-2-2.pdf",
+  "section": "6.3",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:34:49"
+}

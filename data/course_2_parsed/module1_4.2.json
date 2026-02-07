@@ -1,0 +1,170 @@
+{
+  "words": [
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "I",
+      "context": "Used in icaro opening lines"
+    },
+    {
+      "shipibo": "xawebiribi",
+      "part_of_speech": "noun",
+      "meaning": "the one and only gentleman"
+    },
+    {
+      "shipibo": "wexa metsa",
+      "part_of_speech": "noun",
+      "meaning": "proper name (Wexa Metsa)"
+    },
+    {
+      "shipibo": "janeya",
+      "part_of_speech": "noun",
+      "meaning": "name, with the name"
+    },
+    {
+      "shipibo": "shipibokan",
+      "part_of_speech": "adjective",
+      "meaning": "Shipibo, true Shipibo"
+    },
+    {
+      "shipibo": "jonikan",
+      "part_of_speech": "noun",
+      "meaning": "man, person, a true man/person"
+    },
+    {
+      "shipibo": "medicokan",
+      "part_of_speech": "noun",
+      "meaning": "doctor, a true doctor"
+    },
+    {
+      "shipibo": "ani",
+      "part_of_speech": "noun",
+      "meaning": "great, universe"
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": "noun",
+      "meaning": "universe, containing"
+    },
+    {
+      "shipibo": "rakaya",
+      "part_of_speech": "verb",
+      "meaning": "laid out, containing"
+    },
+    {
+      "shipibo": "kewe",
+      "part_of_speech": "noun",
+      "meaning": "embroidery, connection"
+    },
+    {
+      "shipibo": "kanoya",
+      "part_of_speech": "noun",
+      "meaning": "structure, connection structure"
+    },
+    {
+      "shipibo": "medicoi",
+      "part_of_speech": "noun",
+      "meaning": "doctor (variant form)"
+    },
+    {
+      "shipibo": "bewai",
+      "part_of_speech": "verb",
+      "meaning": "sing, embody, I sing as I embody"
+    },
+    {
+      "shipibo": "raroira",
+      "part_of_speech": "verb",
+      "meaning": "rejoice"
+    },
+    {
+      "shipibo": "kaiboboki",
+      "part_of_speech": "noun",
+      "meaning": "family members"
+    },
+    {
+      "shipibo": "nokoax",
+      "part_of_speech": "verb",
+      "meaning": "arrived, once they have arrived"
+    },
+    {
+      "shipibo": "medicobo",
+      "part_of_speech": "noun",
+      "meaning": "medicine people, doctor people"
+    },
+    {
+      "shipibo": "medico",
+      "part_of_speech": "noun",
+      "meaning": "doctor (from Spanish médico)"
+    },
+    {
+      "shipibo": "joni",
+      "part_of_speech": "noun",
+      "meaning": "man, person"
+    },
+    {
+      "shipibo": "mato",
+      "part_of_speech": "pronoun",
+      "meaning": "you all"
+    },
+    {
+      "shipibo": "joti",
+      "part_of_speech": "verb",
+      "meaning": "come"
+    },
+    {
+      "shipibo": "ati",
+      "part_of_speech": "transitive verb",
+      "meaning": "do, make"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-bo",
+      "meaning": "plural",
+      "usage": "nominal plural marker",
+      "examples": [
+        "medicobo (medicine people)",
+        "kaiboboki (family members)"
+      ]
+    },
+    {
+      "form": "-kan",
+      "meaning": "this one, actually; true, genuine",
+      "usage": "nominal marker indicating authenticity or specificity",
+      "examples": [
+        "shipibokan (a true Shipibo man)",
+        "medicokan (a true doctor)",
+        "jonikan (a true man/person)"
+      ]
+    },
+    {
+      "form": "-ya",
+      "meaning": "with, having",
+      "usage": "postposition or relational marker",
+      "examples": [
+        "janeya (with the name)"
+      ]
+    },
+    {
+      "form": "-we",
+      "meaning": "imperative, command (singular)",
+      "usage": "verbal imperative marker",
+      "examples": [
+        "jowe (come!)"
+      ]
+    },
+    {
+      "form": "-non",
+      "meaning": "will do immediately, future immediate action",
+      "usage": "verbal future/imperative marker",
+      "examples": [
+        "abanon (I will make/do)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "4.2-Introduction Icaro Analysis Part 4 – Koshinete.pdf",
+  "section": "4.2",
+  "module": 1,
+  "parsed_at": "2026-02-07 14:28:14"
+}

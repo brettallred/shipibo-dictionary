@@ -1,0 +1,211 @@
+{
+  "words": [
+    {
+      "shipibo": "ati",
+      "part_of_speech": "transitive verb",
+      "meaning": "do, make"
+    },
+    {
+      "shipibo": "kinanti",
+      "part_of_speech": "transitive verb",
+      "meaning": "purge"
+    },
+    {
+      "shipibo": "nashiti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "bathe"
+    },
+    {
+      "shipibo": "ochati",
+      "part_of_speech": "transitive verb",
+      "meaning": "sin"
+    },
+    {
+      "shipibo": "jisonti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "urinate"
+    },
+    {
+      "shipibo": "raometi",
+      "part_of_speech": "transitive verb",
+      "meaning": "medicate oneself"
+    },
+    {
+      "shipibo": "senen ati",
+      "part_of_speech": "transitive verb",
+      "meaning": "finish a process"
+    },
+    {
+      "shipibo": "tsokasti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "become scattered"
+    },
+    {
+      "shipibo": "shinanti",
+      "part_of_speech": "transitive verb",
+      "meaning": "think, remember"
+    },
+    {
+      "shipibo": "toeti",
+      "part_of_speech": "transitive verb",
+      "meaning": "break"
+    },
+    {
+      "shipibo": "masa shinanti",
+      "part_of_speech": "transitive verb",
+      "meaning": "worry"
+    },
+    {
+      "shipibo": "akinti",
+      "part_of_speech": "transitive verb",
+      "meaning": "help"
+    },
+    {
+      "shipibo": "raketi",
+      "part_of_speech": "transitive verb",
+      "meaning": "fear"
+    },
+    {
+      "shipibo": "koiranti",
+      "part_of_speech": "transitive verb",
+      "meaning": "take care"
+    },
+    {
+      "shipibo": "patax",
+      "part_of_speech": "adverb",
+      "meaning": "besides"
+    },
+    {
+      "shipibo": "kochi",
+      "part_of_speech": "noun",
+      "meaning": "pork, pig"
+    },
+    {
+      "shipibo": "koriki",
+      "part_of_speech": "noun",
+      "meaning": "money"
+    },
+    {
+      "shipibo": "bocho",
+      "part_of_speech": "adjective",
+      "meaning": "full"
+    },
+    {
+      "shipibo": "onsa",
+      "part_of_speech": "adjective",
+      "meaning": "dangerous"
+    },
+    {
+      "shipibo": "enra",
+      "part_of_speech": "pronoun",
+      "meaning": "I (transitive pronoun)"
+    },
+    {
+      "shipibo": "eara",
+      "part_of_speech": "pronoun",
+      "meaning": "I (intransitive pronoun)"
+    },
+    {
+      "shipibo": "mia",
+      "part_of_speech": "pronoun",
+      "meaning": "you"
+    },
+    {
+      "shipibo": "ixon",
+      "part_of_speech": "particle",
+      "meaning": "once being, as a result of being"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-yama",
+      "meaning": "negation of a verb",
+      "usage": "attached to verb stems, followed by tense markers",
+      "examples": [
+        "ayamai (don't do, present)",
+        "ayamake (didn't do just now)",
+        "kinanyamai (don't purge, present)",
+        "nashiyamai (don't bathe, present)",
+        "ochayamawe (don't sin)"
+      ]
+    },
+    {
+      "form": "-kasai",
+      "meaning": "want, desire in the present tense",
+      "usage": "composed of -kas (want, desire) + -ai (present tense)",
+      "examples": [
+        "akasai (want to do)",
+        "nashikasai (want to bathe)"
+      ]
+    },
+    {
+      "form": "-kashamai",
+      "meaning": "do not want, do not desire in the present tense",
+      "usage": "composed of -kasham (don't want, don't desire) + -ai (present tense)",
+      "examples": [
+        "akashamai (do not want to do)",
+        "nashikashamai (do not want to bathe)"
+      ]
+    },
+    {
+      "form": "-ai",
+      "meaning": "present tense marker",
+      "usage": "tense suffix used with verbs",
+      "examples": [
+        "ayamai (don't do, present)",
+        "kinanyamai (don't purge, present)"
+      ]
+    },
+    {
+      "form": "-ke",
+      "meaning": "recent past tense marker",
+      "usage": "tense suffix used with verbs",
+      "examples": [
+        "ayamake (didn't do just now)"
+      ]
+    },
+    {
+      "form": "-we",
+      "meaning": "imperative marker, prohibition",
+      "usage": "used with negation to form imperative commands",
+      "examples": [
+        "ochayamawe (don't sin)",
+        "jisonyamawe (don't urinate)",
+        "rakeyamawe (don't fear)",
+        "tsokasyamawe (don't become scattered)",
+        "toeyamawe (don't break)",
+        "masa shinanyamawe (don't worry)"
+      ]
+    },
+    {
+      "form": "-non",
+      "meaning": "will do (not immediately, announcement)",
+      "usage": "future tense marker for announced actions",
+      "examples": [
+        "benxonon (you will heal)"
+      ]
+    },
+    {
+      "form": "-oma",
+      "meaning": "without",
+      "usage": "nominal suffix indicating absence or negation",
+      "examples": [
+        "korikioma (without money)"
+      ]
+    },
+    {
+      "form": "-ira",
+      "meaning": "to the extreme, very",
+      "usage": "adjectival suffix for intensification",
+      "examples": [
+        "bochoira (very full)",
+        "metsaira (very pretty)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "10.1-Suffix-yama-1.pdf",
+  "section": "10.1",
+  "module": 3,
+  "parsed_at": "2026-02-07 14:36:48"
+}

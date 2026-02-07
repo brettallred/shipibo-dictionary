@@ -1,0 +1,210 @@
+{
+  "words": [
+    {
+      "shipibo": "bicha",
+      "part_of_speech": "noun",
+      "meaning": "phlegm",
+      "context": "used in icaro to describe swirling energies"
+    },
+    {
+      "shipibo": "maya",
+      "part_of_speech": "noun",
+      "meaning": "swirling energies",
+      "context": "describes energetic movements in healing songs"
+    },
+    {
+      "shipibo": "niwebo",
+      "part_of_speech": "verb",
+      "meaning": "swirling, moving in circles",
+      "context": "describes the movement of energies"
+    },
+    {
+      "shipibo": "janxo",
+      "part_of_speech": "noun",
+      "meaning": "body fluid smell",
+      "context": "used in icaro analysis"
+    },
+    {
+      "shipibo": "ocha",
+      "part_of_speech": "noun",
+      "meaning": "sin",
+      "context": "spiritual concept in icaro"
+    },
+    {
+      "shipibo": "ekibira",
+      "part_of_speech": "verb",
+      "meaning": "have connected",
+      "context": "describes connection of energies toward the healer"
+    },
+    {
+      "shipibo": "kanota",
+      "part_of_speech": "verb",
+      "meaning": "connected, have connected",
+      "context": "indicates connection in icaro"
+    },
+    {
+      "shipibo": "ikenbi",
+      "part_of_speech": "adverb",
+      "meaning": "even though",
+      "context": "conjunction in icaro text"
+    },
+    {
+      "shipibo": "rama",
+      "part_of_speech": "adverb",
+      "meaning": "now",
+      "context": "temporal marker in icaro"
+    },
+    {
+      "shipibo": "ronkikayara",
+      "part_of_speech": "verb",
+      "meaning": "they say",
+      "context": "speech verb in icaro"
+    },
+    {
+      "shipibo": "inin",
+      "part_of_speech": "noun",
+      "meaning": "aroma",
+      "context": "fragrance used in healing songs"
+    },
+    {
+      "shipibo": "abokin",
+      "part_of_speech": "verb",
+      "meaning": "perfuming as I go",
+      "context": "describes the healer's action in icaro"
+    },
+    {
+      "shipibo": "nokon",
+      "part_of_speech": "pronoun",
+      "meaning": "my",
+      "context": "possessive pronoun"
+    },
+    {
+      "shipibo": "huaringuita",
+      "part_of_speech": "noun",
+      "meaning": "diminutive of Huaringa, a traditional Peruvian perfume",
+      "context": "sacred perfume used in icaro"
+    },
+    {
+      "shipibo": "huaringa",
+      "part_of_speech": "noun",
+      "meaning": "traditional Peruvian perfume",
+      "context": "healing agent in icaro"
+    },
+    {
+      "shipibo": "noma",
+      "part_of_speech": "noun",
+      "meaning": "woman (formal); Great Tinamou (bird)",
+      "context": "used in icaro context"
+    },
+    {
+      "shipibo": "jawen",
+      "part_of_speech": "pronoun",
+      "meaning": "his, her, its",
+      "context": "possessive pronoun in icaro"
+    },
+    {
+      "shipibo": "chokiti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to wash oneself",
+      "context": "purification action in icaro"
+    },
+    {
+      "shipibo": "choki",
+      "part_of_speech": "verb",
+      "meaning": "wash",
+      "context": "root form used in icaro repetition"
+    },
+    {
+      "shipibo": "ponte",
+      "part_of_speech": "verb",
+      "meaning": "straighten",
+      "context": "alignment action in icaro"
+    },
+    {
+      "shipibo": "ponteti",
+      "part_of_speech": "verb",
+      "meaning": "becoming aligned",
+      "context": "describes alignment toward sun and sky"
+    },
+    {
+      "shipibo": "barikibi",
+      "part_of_speech": "noun",
+      "meaning": "sun",
+      "context": "directional reference in icaro"
+    },
+    {
+      "shipibo": "naikibi",
+      "part_of_speech": "noun",
+      "meaning": "sky",
+      "context": "directional reference in icaro"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-kan",
+      "meaning": "this one, actually",
+      "usage": "nominal suffix indicating specificity or emphasis",
+      "examples": [
+        "nomakan (the woman, actually)",
+        "huaringuita nomakan (the Huaringa woman, actually)"
+      ]
+    },
+    {
+      "form": "-man",
+      "meaning": "using, with emphasis, really",
+      "usage": "adverbial/instrumental suffix indicating manner or means",
+      "examples": [
+        "ininmanbikan (using her aroma, really)"
+      ]
+    },
+    {
+      "form": "-bikan",
+      "meaning": "hers, really using it",
+      "usage": "possessive-instrumental suffix combining possession and emphasis",
+      "examples": [
+        "ininmanbikan (using her own aroma, actually)"
+      ]
+    },
+    {
+      "form": "-shamani",
+      "meaning": "to do so excellently",
+      "usage": "adverbial suffix indicating excellence or manner of action",
+      "examples": [
+        "chokishamani (washing myself excellently)",
+        "ponteshamani (straighten myself excellently)"
+      ]
+    },
+    {
+      "form": "-ni",
+      "meaning": "present participle, -ing verb ending",
+      "usage": "verbal suffix marking present continuous aspect",
+      "examples": [
+        "chokishamani (washing excellently)",
+        "ponteshamani (straightening excellently)"
+      ]
+    },
+    {
+      "form": "-yonta",
+      "meaning": "to do an action fully",
+      "usage": "verbal suffix indicating completive or thorough aspect",
+      "examples": [
+        "chokiyontaanara (having washed myself fully)",
+        "ponteyontaanara (having become fully aligned)"
+      ]
+    },
+    {
+      "form": "-anara",
+      "meaning": "having done so, emphatic",
+      "usage": "verbal suffix marking perfect aspect with emphasis",
+      "examples": [
+        "chokiyontaanara (having washed myself fully)",
+        "ponteyontaanara (having become fully aligned)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "7.2-Icaro-2-Analysis-Part-3-1-1.pdf",
+  "section": "7.2",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:35:19"
+}

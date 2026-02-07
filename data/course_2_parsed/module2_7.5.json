@@ -1,0 +1,205 @@
+{
+  "words": [
+    {
+      "shipibo": "soa",
+      "part_of_speech": "noun",
+      "meaning": "clean/cleaning",
+      "context": "Used in icaro title and opening line for purification"
+    },
+    {
+      "shipibo": "maya",
+      "part_of_speech": "noun",
+      "meaning": "energy/energies",
+      "context": "Refers to different types of energies in healing songs"
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "verb",
+      "meaning": "clean/remove",
+      "context": "Used with suffixes in icaro for cleansing action"
+    },
+    {
+      "shipibo": "bishton",
+      "part_of_speech": "adjective",
+      "meaning": "distorted/energetic distortions",
+      "context": "Describes type of negative energy"
+    },
+    {
+      "shipibo": "wia",
+      "part_of_speech": "noun",
+      "meaning": "mucus/turned into mucus",
+      "context": "Describes energies that have become stagnant"
+    },
+    {
+      "shipibo": "ocha",
+      "part_of_speech": "noun",
+      "meaning": "sins/negativity",
+      "context": "Refers to all transgressions or negative states"
+    },
+    {
+      "shipibo": "pisha",
+      "part_of_speech": "verb",
+      "meaning": "release/releasing",
+      "context": "Action of releasing negative elements with strength"
+    },
+    {
+      "shipibo": "min",
+      "part_of_speech": "pronoun",
+      "meaning": "your/your",
+      "context": "Possessive pronoun referring to the patient"
+    },
+    {
+      "shipibo": "rami",
+      "part_of_speech": "adjective",
+      "meaning": "negative",
+      "context": "Describes negative energies"
+    },
+    {
+      "shipibo": "keras",
+      "part_of_speech": "adjective",
+      "meaning": "unclean",
+      "context": "Describes impure or contaminated energies"
+    },
+    {
+      "shipibo": "boman",
+      "part_of_speech": "noun",
+      "meaning": "jealousy/jealous energies",
+      "context": "Negative emotion that can be extracted"
+    },
+    {
+      "shipibo": "yora",
+      "part_of_speech": "noun",
+      "meaning": "element",
+      "context": "Elements within the body"
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": "noun",
+      "meaning": "element/depths",
+      "context": "Refers to components or depths of universe/energy"
+    },
+    {
+      "shipibo": "keyo",
+      "part_of_speech": "verb",
+      "meaning": "bring/remove",
+      "context": "Used in context of extracting or bringing medicine"
+    },
+    {
+      "shipibo": "medicina",
+      "part_of_speech": "noun",
+      "meaning": "medicines",
+      "context": "Refers to healing plants or remedies"
+    },
+    {
+      "shipibo": "inaketaa",
+      "part_of_speech": "verb",
+      "meaning": "got upset",
+      "context": "Describes emotional state before healing"
+    },
+    {
+      "shipibo": "inka",
+      "part_of_speech": "noun",
+      "meaning": "inkas/ancient ones",
+      "context": "Reference to sacred ancestral knowledge"
+    },
+    {
+      "shipibo": "oro",
+      "part_of_speech": "adjective",
+      "meaning": "golden/sacred",
+      "context": "Describes sacred water from the inkas"
+    },
+    {
+      "shipibo": "jene",
+      "part_of_speech": "noun",
+      "meaning": "water/aroma",
+      "context": "Used for cleansing and healing"
+    },
+    {
+      "shipibo": "nashi",
+      "part_of_speech": "verb",
+      "meaning": "bathe/bathe joyfully",
+      "context": "Action of ritual bathing in sacred water"
+    },
+    {
+      "shipibo": "kano",
+      "part_of_speech": "verb",
+      "meaning": "connect/connect excellently",
+      "context": "Used in healing to establish proper alignment"
+    },
+    {
+      "shipibo": "ponte",
+      "part_of_speech": "verb",
+      "meaning": "straighten/straighten excellently",
+      "context": "Action of correcting or realigning energy"
+    },
+    {
+      "shipibo": "xaman",
+      "part_of_speech": "noun",
+      "meaning": "universe/depths",
+      "context": "Refers to the cosmic or inner depths"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-ban",
+      "meaning": "excellently/well/properly",
+      "usage": "Adverbial suffix indicating manner of action",
+      "examples": [
+        "soashamanban (clean excellently)",
+        "kanoshamanban (connect excellently)",
+        "ponteshamanban (straighten excellently)"
+      ]
+    },
+    {
+      "form": "-bo",
+      "meaning": "past tense/completed action",
+      "usage": "Verbal suffix marking perfective aspect",
+      "examples": [
+        "kanobo (cleaned)",
+        "niwebo (removed)",
+        "meabo (brought)"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "future tense/will",
+      "usage": "Verbal suffix marking prospective aspect",
+      "examples": [
+        "niwenibi (will clean/remove)",
+        "xamanbi (will straighten)",
+        "niwexamanbi (will remove excellently)"
+      ]
+    },
+    {
+      "form": "-ara",
+      "meaning": "having/after/once",
+      "usage": "Suffix indicating completion or sequence",
+      "examples": [
+        "ininaketaanara (after bringing)",
+        "ponteyontaanara (having fully aligned)"
+      ]
+    },
+    {
+      "form": "-ni",
+      "meaning": "agent/active participant",
+      "usage": "Nominalizing suffix",
+      "examples": [
+        "pishashamani (releasing with strength)",
+        "nashishamani (bathing joyfully)"
+      ]
+    },
+    {
+      "form": "-ri",
+      "meaning": "completive/altogether",
+      "usage": "Suffix indicating completion",
+      "examples": [
+        "keyobanonri (altogether removed)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "7.5-Bonus_ Soa Soashamanban Icaro by Wexa Metsa – Koshinete.pdf",
+  "section": "7.5",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:35:56"
+}

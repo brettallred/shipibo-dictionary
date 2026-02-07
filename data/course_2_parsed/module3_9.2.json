@@ -1,0 +1,113 @@
+{
+  "words": [
+    {
+      "shipibo": "nokon",
+      "part_of_speech": "pronoun",
+      "meaning": "my"
+    },
+    {
+      "shipibo": "yora",
+      "part_of_speech": "noun",
+      "meaning": "body"
+    },
+    {
+      "shipibo": "panati",
+      "part_of_speech": "verb",
+      "meaning": "to protect",
+      "context": "commonly used in icaros; the verb maintains the -t in the root, indicating reflexive action ('for yourself')"
+    },
+    {
+      "shipibo": "joi",
+      "part_of_speech": "noun",
+      "meaning": "voice, word",
+      "context": "used in icaro composition"
+    },
+    {
+      "shipibo": "ramiti",
+      "part_of_speech": "verb",
+      "meaning": "to get distorted"
+    },
+    {
+      "shipibo": "ati",
+      "part_of_speech": "verb",
+      "meaning": "to do"
+    },
+    {
+      "shipibo": "pisi",
+      "part_of_speech": "adjective",
+      "meaning": "rotting smell"
+    },
+    {
+      "shipibo": "piti",
+      "part_of_speech": "verb",
+      "meaning": "to eat"
+    },
+    {
+      "shipibo": "jawe",
+      "part_of_speech": "pronoun",
+      "meaning": "what, something"
+    },
+    {
+      "shipibo": "iti",
+      "part_of_speech": "verb",
+      "meaning": "to be"
+    },
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "I"
+    },
+    {
+      "shipibo": "xawe",
+      "part_of_speech": "noun",
+      "meaning": "gentleman"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-an",
+      "meaning": "will do immediately",
+      "usage": "verb suffix indicating immediate future action"
+    },
+    {
+      "form": "-abi",
+      "meaning": "with all",
+      "usage": "noun suffix for collective/comprehensive meaning"
+    },
+    {
+      "form": "-ing",
+      "meaning": "present participle verb ending",
+      "usage": "verb suffix marking progressive/gerundive aspect"
+    },
+    {
+      "form": "-ma",
+      "meaning": "negation",
+      "usage": "noun/verb suffix for negation"
+    },
+    {
+      "form": "-ax",
+      "meaning": "as soon as",
+      "usage": "verb suffix marking immediacy/temporal sequence"
+    },
+    {
+      "form": "-bi",
+      "meaning": "emphasis, certainly, without a doubt",
+      "usage": "verb suffix for emphatic or assertive action"
+    },
+    {
+      "form": "-kaya",
+      "meaning": "to seldom do so, emphasis, certainly without a doubt",
+      "usage": "verb suffix with dual meaning of rarity and certainty"
+    },
+    {
+      "form": "-ribi",
+      "meaning": "one and only, with affection",
+      "usage": "noun suffix for singularity and endearment"
+    }
+  ],
+  "prefixes": [],
+  "filename": "9.2-Icaro-3-Analysis-Part-1-1.pdf",
+  "section": "9.2",
+  "module": 3,
+  "parsed_at": "2026-02-07 14:39:35"
+}

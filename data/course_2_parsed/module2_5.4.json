@@ -1,0 +1,167 @@
+{
+  "words": [
+    {
+      "shipibo": "janxo",
+      "part_of_speech": "noun",
+      "meaning": "smell of blood or body fluids",
+      "context": "used in icaro for describing distortions or maya niwebo"
+    },
+    {
+      "shipibo": "wia",
+      "part_of_speech": "noun",
+      "meaning": "nauseating smell",
+      "context": "body fluid/smell vocabulary in icaro"
+    },
+    {
+      "shipibo": "pisi",
+      "part_of_speech": "noun",
+      "meaning": "rotting smell",
+      "context": "body fluid/smell vocabulary in icaro"
+    },
+    {
+      "shipibo": "koro",
+      "part_of_speech": "adjective",
+      "meaning": "decolored or greyish, moldy",
+      "context": "descriptive quality in icaro"
+    },
+    {
+      "shipibo": "itsa",
+      "part_of_speech": "noun",
+      "meaning": "pungent smell",
+      "context": "smell vocabulary in icaro"
+    },
+    {
+      "shipibo": "bishton",
+      "part_of_speech": "noun",
+      "meaning": "phlegm",
+      "context": "body fluids vocabulary"
+    },
+    {
+      "shipibo": "bicha",
+      "part_of_speech": "noun",
+      "meaning": "viscose fluid",
+      "context": "body fluids vocabulary"
+    },
+    {
+      "shipibo": "este",
+      "part_of_speech": "noun",
+      "meaning": "gas that causes bloating",
+      "context": "body fluids and gas vocabulary"
+    },
+    {
+      "shipibo": "keras",
+      "part_of_speech": "adjective",
+      "meaning": "dirty",
+      "context": "quality descriptor in icaro"
+    },
+    {
+      "shipibo": "wiso",
+      "part_of_speech": "adjective",
+      "meaning": "black",
+      "context": "color descriptor in icaro"
+    },
+    {
+      "shipibo": "boman",
+      "part_of_speech": "noun",
+      "meaning": "bad intentions from others",
+      "context": "spiritual/energetic concept in icaro"
+    },
+    {
+      "shipibo": "ocha",
+      "part_of_speech": "noun",
+      "meaning": "sin",
+      "context": "spiritual concept in icaro"
+    },
+    {
+      "shipibo": "maya",
+      "part_of_speech": "verb",
+      "meaning": "swirling, turning",
+      "context": "action verb used in icaro composition"
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "noun",
+      "meaning": "wind, energy",
+      "context": "spiritual/energetic concept in icaro"
+    },
+    {
+      "shipibo": "eki",
+      "part_of_speech": "adverb",
+      "meaning": "towards me",
+      "context": "directional adverb in icaro"
+    },
+    {
+      "shipibo": "kanoti",
+      "part_of_speech": "verb",
+      "meaning": "to connect itself",
+      "context": "reflexive verb used in icaro"
+    },
+    {
+      "shipibo": "poro",
+      "part_of_speech": "noun",
+      "meaning": "stomach",
+      "context": "body part vocabulary in icaro"
+    },
+    {
+      "shipibo": "xama",
+      "part_of_speech": "adverb",
+      "meaning": "in the depths",
+      "context": "location/directional adverb in icaro"
+    },
+    {
+      "shipibo": "ikenbi",
+      "part_of_speech": "conjunction",
+      "meaning": "even though",
+      "context": "conjunctive particle in icaro"
+    },
+    {
+      "shipibo": "ekibira",
+      "part_of_speech": "verb",
+      "meaning": "it was connected/anchored",
+      "context": "past tense verb in icaro"
+    },
+    {
+      "shipibo": "niwebo",
+      "part_of_speech": "noun",
+      "meaning": "distortions",
+      "context": "term for maya niwebo (distortions) in icaro"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-bo",
+      "meaning": "plural",
+      "usage": "noun plural marker",
+      "examples": []
+    },
+    {
+      "form": "-bi",
+      "meaning": "emphatic",
+      "usage": "emphatic particle for nouns and adjectives",
+      "examples": []
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphatic",
+      "usage": "emphatic particle",
+      "examples": []
+    },
+    {
+      "form": "-n",
+      "meaning": "in, locative",
+      "usage": "locative case marker",
+      "examples": []
+    },
+    {
+      "form": "-a",
+      "meaning": "general past",
+      "usage": "past tense marker for verbs",
+      "examples": []
+    }
+  ],
+  "prefixes": [],
+  "filename": "5.4-Icaro-Writing-Excercise-5-Sheet1.pdf",
+  "section": "5.4",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:34:06"
+}

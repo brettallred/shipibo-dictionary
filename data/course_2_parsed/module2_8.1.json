@@ -1,0 +1,249 @@
+{
+  "words": [
+    {
+      "shipibo": "jakon",
+      "part_of_speech": "adjective",
+      "meaning": "good",
+      "context": "example of adjective that can take -ma suffix for negation"
+    },
+    {
+      "shipibo": "ointi",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to see, to look",
+      "context": "used in icaro composition examples"
+    },
+    {
+      "shipibo": "nashiti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to bathe, to shower",
+      "context": "used in icaro composition examples"
+    },
+    {
+      "shipibo": "ninkati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to hear, to listen",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "onanti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to know",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "yoiti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to say, to speak",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "tanati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to try (clothes, food, or being tested)",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "amati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to offer",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "ikonrake",
+      "part_of_speech": "interjection",
+      "meaning": "of course!",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "westiora",
+      "part_of_speech": "noun",
+      "meaning": "one",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "betan",
+      "part_of_speech": "adverb",
+      "meaning": "with, together",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "koton",
+      "part_of_speech": "noun",
+      "meaning": "Shipibo women's shirt",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "nishi boains",
+      "part_of_speech": "noun",
+      "meaning": "ajo sacha (plant name)",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "noi rao",
+      "part_of_speech": "noun",
+      "meaning": "love plants",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "xontako",
+      "part_of_speech": "noun",
+      "meaning": "young woman",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "ranon",
+      "part_of_speech": "noun",
+      "meaning": "young man",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "bake",
+      "part_of_speech": "noun",
+      "meaning": "child",
+      "context": "vocabulary from Bena Joi section; accent changes when addressing"
+    },
+    {
+      "shipibo": "baba",
+      "part_of_speech": "noun",
+      "meaning": "grandchild",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "koka",
+      "part_of_speech": "noun",
+      "meaning": "uncle from mother's side",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "epa",
+      "part_of_speech": "noun",
+      "meaning": "uncle from father's side",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "wata",
+      "part_of_speech": "noun",
+      "meaning": "aunt from mother's side",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "yoxan",
+      "part_of_speech": "noun",
+      "meaning": "aunt from father's side (implied)",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "yosi",
+      "part_of_speech": "noun",
+      "meaning": "aunt",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "papa",
+      "part_of_speech": "noun",
+      "meaning": "father",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "tita",
+      "part_of_speech": "noun",
+      "meaning": "mother",
+      "context": "vocabulary from Bena Joi section"
+    },
+    {
+      "shipibo": "nishi xea",
+      "part_of_speech": "noun",
+      "meaning": "healing plant/medicine (implied)",
+      "context": "used in icaro context with -ma suffix example"
+    },
+    {
+      "shipibo": "wiso pioni",
+      "part_of_speech": "noun",
+      "meaning": "fish (implied)",
+      "context": "used in icaro context with -ma suffix example"
+    },
+    {
+      "shipibo": "nokon joi",
+      "part_of_speech": "noun",
+      "meaning": "sacred knowledge/song (implied)",
+      "context": "used in icaro context"
+    },
+    {
+      "shipibo": "en",
+      "part_of_speech": "pronoun",
+      "meaning": "you (intransitive form)",
+      "context": "used in pronoun examples with -ma suffix"
+    },
+    {
+      "shipibo": "enra",
+      "part_of_speech": "pronoun",
+      "meaning": "you (transitive form)",
+      "context": "used in pronoun examples with -ma suffix"
+    },
+    {
+      "shipibo": "mia",
+      "part_of_speech": "pronoun",
+      "meaning": "I/me (transitive form)",
+      "context": "used in pronoun examples with -ma suffix"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-ma",
+      "meaning": "negation of adjectives or nouns; for verbs: to make an action happen, causative",
+      "usage": "attached to adjectives, nouns, and verbs; does not indicate tense and requires accompanying tense marker",
+      "examples": [
+        "jakonma (not good)",
+        "oinmai (make see, with -ai present tense)",
+        "nashimai (make bathe, with -ai present tense)",
+        "oinmabanon (will make see, with -banon announcement tense)",
+        "nashimabanon (will make bathe, with -banon announcement tense)"
+      ]
+    },
+    {
+      "form": "-we",
+      "meaning": "singular imperative, singular command",
+      "usage": "command directed to a single person; widely used in icaros and day-to-day language; can be combined with -ma",
+      "examples": [
+        "oinwe (look!)",
+        "nashiwe (bathe!)",
+        "oinmawe (make me look, see!)",
+        "nashimawe (make me bathe, bathe me!)",
+        "ninkamawe (make me hear!)",
+        "yoiwe (speak!)",
+        "tanamawe (make me try!)",
+        "amawe (make me offer!)",
+        "oinmawe (make me see!)",
+        "nashimawe (make me bathe!)"
+      ]
+    },
+    {
+      "form": "-ai",
+      "meaning": "present tense marker",
+      "usage": "indicates present tense; used with verb stems that have taken -ma suffix",
+      "examples": [
+        "oinmai (make see, present)",
+        "nashimai (make bathe, present)"
+      ]
+    },
+    {
+      "form": "-banon",
+      "meaning": "announcement of an action that will happen immediately after",
+      "usage": "tense marker; indicates immediate future; does not require -ra with first subject pronoun",
+      "examples": [
+        "oinmabanon (will make see, will show)",
+        "nashimabanon (will make bathe)",
+        "ninkamabanon (will make hear)",
+        "xeamabanon (will make heal/bathe, implied)",
+        "kinanmabanon (will make do, implied)",
+        "oinmabanon (will make see)",
+        "nashimabanon (will make bathe)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "8.1-Suffix-ma-and-Suffix-we.pdf",
+  "section": "8.1",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:36:10"
+}

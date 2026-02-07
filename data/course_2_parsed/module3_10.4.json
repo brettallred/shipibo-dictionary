@@ -1,0 +1,408 @@
+{
+  "words": [
+    {
+      "shipibo": "nokon",
+      "part_of_speech": "pronoun",
+      "meaning": "my",
+      "context": "possessive pronoun used throughout the icaro to indicate ownership of the spirit helpers and entities being summoned"
+    },
+    {
+      "shipibo": "sontaro",
+      "part_of_speech": "noun",
+      "meaning": "soldier",
+      "context": "used in icaro composition to refer to spirit protectors and guardians"
+    },
+    {
+      "shipibo": "bakera",
+      "part_of_speech": "adjective",
+      "meaning": "young",
+      "context": "descriptive term used in icaros"
+    },
+    {
+      "shipibo": "kena",
+      "part_of_speech": "verb",
+      "meaning": "to summon",
+      "context": "core action verb in healing icaros for calling spirit helpers"
+    },
+    {
+      "shipibo": "joi",
+      "part_of_speech": "verb",
+      "meaning": "to make, to deliver",
+      "context": "transitive verb used to express commanding or delivering instructions"
+    },
+    {
+      "shipibo": "ninka",
+      "part_of_speech": "verb",
+      "meaning": "to listen",
+      "context": "used in icaros to command spirits to hear and obey"
+    },
+    {
+      "shipibo": "koiranti",
+      "part_of_speech": "noun",
+      "meaning": "commands, orders",
+      "context": "refers to instructions given to spirit helpers in icaros"
+    },
+    {
+      "shipibo": "yoiki",
+      "part_of_speech": "verb",
+      "meaning": "to take care of, to protect",
+      "context": "key action in healing icaros where spirits are asked to care for the patient"
+    },
+    {
+      "shipibo": "xobo",
+      "part_of_speech": "noun",
+      "meaning": "house",
+      "context": "used metaphorically in icaros to refer to the patient or space being protected"
+    },
+    {
+      "shipibo": "katema",
+      "part_of_speech": "verb",
+      "meaning": "to surround, to encircle",
+      "context": "used in icaros to describe spirits protecting by surrounding"
+    },
+    {
+      "shipibo": "joyo",
+      "part_of_speech": "adverb",
+      "meaning": "standing, straight",
+      "context": "describes positioning or stance of spirit helpers"
+    },
+    {
+      "shipibo": "jawen",
+      "part_of_speech": "noun",
+      "meaning": "gear, equipment, belongings",
+      "context": "refers to the complete power and attributes of spirit helpers"
+    },
+    {
+      "shipibo": "pisha",
+      "part_of_speech": "verb",
+      "meaning": "to display, to show",
+      "context": "used in icaros to describe manifestation of spirit power"
+    },
+    {
+      "shipibo": "mana",
+      "part_of_speech": "verb",
+      "meaning": "to stand vigilant, to remain alert",
+      "context": "closing action in many icaro verses, commanding spirits to remain watchful"
+    },
+    {
+      "shipibo": "tanque",
+      "part_of_speech": "noun",
+      "meaning": "tank",
+      "context": "modern spirit helper used in contemporary icaros"
+    },
+    {
+      "shipibo": "médico",
+      "part_of_speech": "noun",
+      "meaning": "doctor, healer",
+      "context": "spirit helper classification in icaros"
+    },
+    {
+      "shipibo": "pake",
+      "part_of_speech": "verb",
+      "meaning": "to fall",
+      "context": "describes spirits descending in icaros"
+    },
+    {
+      "shipibo": "yasan",
+      "part_of_speech": "verb",
+      "meaning": "to place, to set",
+      "context": "positioning spirits along the path of protection"
+    },
+    {
+      "shipibo": "acero",
+      "part_of_speech": "noun",
+      "meaning": "steel, metal",
+      "context": "material quality attributed to spirit helpers for strength"
+    },
+    {
+      "shipibo": "joni",
+      "part_of_speech": "adjective",
+      "meaning": "true, real, genuine",
+      "context": "quality descriptor for authentic spirit helpers in icaros"
+    },
+    {
+      "shipibo": "nichin",
+      "part_of_speech": "verb",
+      "meaning": "to stand firm, to stand there",
+      "context": "describes stable positioning of spirits"
+    },
+    {
+      "shipibo": "kon",
+      "part_of_speech": "noun",
+      "meaning": "king",
+      "context": "powerful spirit helper classification"
+    },
+    {
+      "shipibo": "king",
+      "part_of_speech": "noun",
+      "meaning": "king (English loanword)",
+      "context": "used in spirit helper names"
+    },
+    {
+      "shipibo": "guardia",
+      "part_of_speech": "noun",
+      "meaning": "guardian, guard",
+      "context": "protective spirit helper role"
+    },
+    {
+      "shipibo": "bane",
+      "part_of_speech": "verb",
+      "meaning": "to place orders, to plant",
+      "context": "positioning instructions along spiritual pathways"
+    },
+    {
+      "shipibo": "onan",
+      "part_of_speech": "verb",
+      "meaning": "to let know, to inform",
+      "context": "communicating with spirits about their duties"
+    },
+    {
+      "shipibo": "xawe",
+      "part_of_speech": "noun",
+      "meaning": "the man, person",
+      "context": "referring to the traveler in medicine realms"
+    },
+    {
+      "shipibo": "ronki",
+      "part_of_speech": "noun",
+      "meaning": "travels, journey",
+      "context": "spiritual movement through realms"
+    },
+    {
+      "shipibo": "meran",
+      "part_of_speech": "noun",
+      "meaning": "medicine, realm",
+      "context": "spiritual or healing dimension"
+    },
+    {
+      "shipibo": "jakiribibirakan",
+      "part_of_speech": "adverb",
+      "meaning": "joyfully, happily",
+      "context": "emotional quality of spirit manifestation"
+    },
+    {
+      "shipibo": "iki",
+      "part_of_speech": "verb",
+      "meaning": "to do, to perform",
+      "context": "general action verb in icaros"
+    },
+    {
+      "shipibo": "shamani",
+      "part_of_speech": "noun",
+      "meaning": "shaman",
+      "context": "reference to the healer conducting the icaro"
+    },
+    {
+      "shipibo": "wiso",
+      "part_of_speech": "adjective",
+      "meaning": "black",
+      "context": "color descriptor for spirit helpers"
+    },
+    {
+      "shipibo": "inoka",
+      "part_of_speech": "noun",
+      "meaning": "jaguar",
+      "context": "powerful animal spirit helper"
+    },
+    {
+      "shipibo": "mayama",
+      "part_of_speech": "verb",
+      "meaning": "to circle, to go around",
+      "context": "protective movement of spirits around the patient or space"
+    },
+    {
+      "shipibo": "arkana",
+      "part_of_speech": "noun",
+      "meaning": "arkana tree",
+      "context": "specific plant spirit used in icaros"
+    },
+    {
+      "shipibo": "chonka",
+      "part_of_speech": "adjective",
+      "meaning": "ten",
+      "context": "number descriptor in spirit helper references"
+    },
+    {
+      "shipibo": "mananbo",
+      "part_of_speech": "noun",
+      "meaning": "mountain",
+      "context": "earth element spirit helper or power source"
+    },
+    {
+      "shipibo": "contamana",
+      "part_of_speech": "noun",
+      "meaning": "Contamana",
+      "context": "geographic/spiritual reference location"
+    },
+    {
+      "shipibo": "xaman",
+      "part_of_speech": "verb",
+      "meaning": "to sit, to be seated",
+      "context": "positioning of spirits in their power places"
+    },
+    {
+      "shipibo": "yakaxon",
+      "part_of_speech": "verb",
+      "meaning": "to be in depths",
+      "context": "spiritual penetration or grounding"
+    },
+    {
+      "shipibo": "caballito",
+      "part_of_speech": "noun",
+      "meaning": "horse (diminutive)",
+      "context": "animal spirit helper"
+    },
+    {
+      "shipibo": "blankita",
+      "part_of_speech": "adjective",
+      "meaning": "white",
+      "context": "color descriptor for spirit helpers"
+    },
+    {
+      "shipibo": "cabellerito",
+      "part_of_speech": "noun",
+      "meaning": "gentleman, nobleman (diminutive)",
+      "context": "respectful character designation for spirit helpers"
+    },
+    {
+      "shipibo": "bailarina",
+      "part_of_speech": "noun",
+      "meaning": "dancer",
+      "context": "graceful quality of spirit helper manifestation"
+    },
+    {
+      "shipibo": "xaweboki",
+      "part_of_speech": "noun",
+      "meaning": "ladies and gentlemen",
+      "context": "addressing spirits or those present in the healing"
+    },
+    {
+      "shipibo": "paen",
+      "part_of_speech": "noun",
+      "meaning": "astrals, astral realms",
+      "context": "spiritual dimensions where protection occurs"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-kaya",
+      "meaning": "belonging to, of",
+      "usage": "possessive suffix forming compound nouns",
+      "examples": [
+        "sontarokaya (of soldiers)"
+      ]
+    },
+    {
+      "form": "-ano",
+      "meaning": "agent marker, one who does",
+      "usage": "nominalizing suffix",
+      "examples": [
+        "bakerano (young one, young agent)"
+      ]
+    },
+    {
+      "form": "-shamanban",
+      "meaning": "excellently, very well, superbly",
+      "usage": "adverbial intensifier suffix",
+      "examples": [
+        "kenashamanban (summon excellently)",
+        "pakeshamanban (fall excellently)"
+      ]
+    },
+    {
+      "form": "-ban",
+      "meaning": "will, future tense marker",
+      "usage": "future tense suffix",
+      "examples": [
+        "manamabanon (will stand vigilant)",
+        "yasanbainkin (will place)"
+      ]
+    },
+    {
+      "form": "-on",
+      "meaning": "future or modal marker",
+      "usage": "verb suffix indicating future or command",
+      "examples": [
+        "ninkamabanon (will make listen)"
+      ]
+    },
+    {
+      "form": "-bainkin",
+      "meaning": "along the way, in a line",
+      "usage": "locative/directional suffix",
+      "examples": [
+        "jawekiyabi (with gear)",
+        "yasanbainkin (place along way)",
+        "pishabainkin (display along way)"
+      ]
+    },
+    {
+      "form": "-ara",
+      "meaning": "having done, after doing",
+      "usage": "perfective or sequential suffix",
+      "examples": [
+        "yoiyontaanara (having said this)",
+        "pishayontaananra (having displayed)"
+      ]
+    },
+    {
+      "form": "-kin",
+      "meaning": "and, also, additionally",
+      "usage": "conjunctive suffix",
+      "examples": [
+        "joyo joyobainkin (standing in line)",
+        "onanmabokin (let him know)"
+      ]
+    },
+    {
+      "form": "-yabi",
+      "meaning": "with, having, equipped with",
+      "usage": "comitative suffix",
+      "examples": [
+        "jawekiyabi (with all his gear)"
+      ]
+    },
+    {
+      "form": "-iti",
+      "meaning": "diminutive marker",
+      "usage": "creates diminutive or affectionate forms",
+      "examples": [
+        "tanquecitoi (little tank)",
+        "caballitoi (little horse)",
+        "guardicito (little guardian)"
+      ]
+    },
+    {
+      "form": "-kanbo",
+      "meaning": "made of, material composition",
+      "usage": "material marker suffix",
+      "examples": [
+        "inokan (jaguar)",
+        "medicokan (medicine-like)"
+      ]
+    },
+    {
+      "form": "-jonibo",
+      "meaning": "true, real, authentic version",
+      "usage": "authenticity marker",
+      "examples": [
+        "acero jonibo (true/real steel)",
+        "joni (true/real)"
+      ]
+    },
+    {
+      "form": "-xon",
+      "meaning": "once, after",
+      "usage": "temporal/sequential marker",
+      "examples": [
+        "yakaxon (once seated)",
+        "banebainxon (once orders are placed)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "10.4-Bonus_ Nokon Sontarokaya – Koshinete.pdf",
+  "section": "10.4",
+  "module": 3,
+  "parsed_at": "2026-02-07 14:37:30"
+}

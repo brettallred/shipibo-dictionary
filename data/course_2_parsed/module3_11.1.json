@@ -1,0 +1,261 @@
+{
+  "words": [
+    {
+      "shipibo": "ati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to do"
+    },
+    {
+      "shipibo": "iti",
+      "part_of_speech": "verb",
+      "meaning": "to be"
+    },
+    {
+      "shipibo": "bewati",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to sing"
+    },
+    {
+      "shipibo": "inkaiko rao",
+      "part_of_speech": "noun",
+      "meaning": "remedy, medicine preparation"
+    },
+    {
+      "shipibo": "jawebi",
+      "part_of_speech": "noun",
+      "meaning": "nothing"
+    },
+    {
+      "shipibo": "kepenti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to open"
+    },
+    {
+      "shipibo": "keyoti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to finish, eliminate"
+    },
+    {
+      "shipibo": "weninti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to make someone stand"
+    },
+    {
+      "shipibo": "weniti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to lift yourself up"
+    },
+    {
+      "shipibo": "rome",
+      "part_of_speech": "noun",
+      "meaning": "tobacco, mapacho"
+    },
+    {
+      "shipibo": "xei",
+      "part_of_speech": "noun",
+      "meaning": "roll"
+    },
+    {
+      "shipibo": "beti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to bring"
+    },
+    {
+      "shipibo": "kenti",
+      "part_of_speech": "noun",
+      "meaning": "pot"
+    },
+    {
+      "shipibo": "iwe",
+      "part_of_speech": "adjective",
+      "meaning": "heavy"
+    },
+    {
+      "shipibo": "boti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to take"
+    },
+    {
+      "shipibo": "en",
+      "part_of_speech": "pronoun",
+      "meaning": "I/me (transitive pronoun)"
+    },
+    {
+      "shipibo": "min",
+      "part_of_speech": "pronoun",
+      "meaning": "transitive pronoun"
+    },
+    {
+      "shipibo": "jan",
+      "part_of_speech": "pronoun",
+      "meaning": "transitive pronoun"
+    },
+    {
+      "shipibo": "mia",
+      "part_of_speech": "pronoun",
+      "meaning": "you (object)"
+    },
+    {
+      "shipibo": "onanya",
+      "part_of_speech": "noun",
+      "meaning": "healer, shaman"
+    },
+    {
+      "shipibo": "icaro",
+      "part_of_speech": "noun",
+      "meaning": "sacred healing song"
+    },
+    {
+      "shipibo": "shinan",
+      "part_of_speech": "noun",
+      "meaning": "mind"
+    },
+    {
+      "shipibo": "nishi",
+      "part_of_speech": "noun",
+      "meaning": "memory"
+    },
+    {
+      "shipibo": "rama",
+      "part_of_speech": "particle",
+      "meaning": "well, now"
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": "noun",
+      "meaning": "path, way"
+    },
+    {
+      "shipibo": "masá",
+      "part_of_speech": "noun",
+      "meaning": "forgetting, loss"
+    },
+    {
+      "shipibo": "jise",
+      "part_of_speech": "interjection",
+      "meaning": "there you go"
+    },
+    {
+      "shipibo": "irake",
+      "part_of_speech": "interjection",
+      "meaning": "thank you"
+    },
+    {
+      "shipibo": "mato",
+      "part_of_speech": "pronoun",
+      "meaning": "I/me"
+    },
+    {
+      "shipibo": "nokon",
+      "part_of_speech": "particle",
+      "meaning": "now, so"
+    },
+    {
+      "shipibo": "riki",
+      "part_of_speech": "particle",
+      "meaning": "just, very"
+    },
+    {
+      "shipibo": "tsokas",
+      "part_of_speech": "interjection",
+      "meaning": "exclamation"
+    },
+    {
+      "shipibo": "ikonrake",
+      "part_of_speech": "interjection",
+      "meaning": "well then, okay"
+    },
+    {
+      "shipibo": "samakasai",
+      "part_of_speech": "verb",
+      "meaning": "scattered/confused (present state)"
+    },
+    {
+      "shipibo": "pontexon",
+      "part_of_speech": "verb",
+      "meaning": "to clarify, to make clear (middle -xon form of pónti)"
+    },
+    {
+      "shipibo": "oinyamaa",
+      "part_of_speech": "noun",
+      "meaning": "condition, sickness"
+    },
+    {
+      "shipibo": "keyoke",
+      "part_of_speech": "verb",
+      "meaning": "finished! (command/emphatic form)"
+    },
+    {
+      "shipibo": "ramakan",
+      "part_of_speech": "particle",
+      "meaning": "and now?"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-xon",
+      "meaning": "middle voice: to do something for another or in service of another",
+      "usage": "Goes right after the root of a transitive verb; requires other suffixes (tenses, commands) to follow; requires a transitive pronoun (en, min, jan, etc.) before it; makes all verbs transitive in nature",
+      "examples": [
+        "ati + -xon- = axon (to do for another)",
+        "axonbanon (will do it for another)",
+        "axonai (I do it for another, present)",
+        "iti + -xon- = ixon (to be for another)",
+        "ixonbanon (will be it for another)",
+        "kepenxonbanon (will open for another)",
+        "weninxonbanon (will make stand for another)",
+        "pontexonbanon (will clarify for another)",
+        "bexonbanon (will bring for another)",
+        "boxonbanon (will take for another)"
+      ]
+    },
+    {
+      "form": "-banon",
+      "meaning": "future tense: will do",
+      "usage": "Used with middle -xon-; does not require -ra in the pronoun",
+      "examples": [
+        "axonbanon (will do it for another)",
+        "ixonbanon (will be it for another)"
+      ]
+    },
+    {
+      "form": "-ai",
+      "meaning": "present tense: I do, currently doing",
+      "usage": "Used with middle -xon-; does require -ra in the pronoun",
+      "examples": [
+        "axonai (I do it for another)",
+        "keyoresai (it's all finishing)"
+      ]
+    },
+    {
+      "form": "-res",
+      "meaning": "purely this action, focused action",
+      "usage": "Emphasizes the specific action itself",
+      "examples": [
+        "keyoresai (its all finishing - keyo- + -res + -ai)"
+      ]
+    },
+    {
+      "form": "-kan",
+      "meaning": "and, conjunction",
+      "usage": "Connects clauses or questions",
+      "examples": [
+        "ramakan (and now?)"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "marker for transitive pronouns",
+      "usage": "Required with certain tense suffixes like -ai; marks the object of the action",
+      "examples": [
+        "enra (I, transitive with -ra)",
+        "nokon shinanra (with the scattered mind)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "11.1-Suffix-xon-middle-1.pdf",
+  "section": "11.1",
+  "module": 3,
+  "parsed_at": "2026-02-07 14:37:42"
+}

@@ -1,0 +1,199 @@
+{
+  "words": [
+    {
+      "shipibo": "joi",
+      "part_of_speech": "noun",
+      "meaning": "icaro, sacred healing song",
+      "context": "Title of the icaro being analyzed"
+    },
+    {
+      "shipibo": "nokon",
+      "part_of_speech": "noun",
+      "meaning": "body",
+      "context": "Used in icaro composition for protection"
+    },
+    {
+      "shipibo": "yora",
+      "part_of_speech": "noun",
+      "meaning": "prayer",
+      "context": "Protected in the icaro"
+    },
+    {
+      "shipibo": "panaban",
+      "part_of_speech": "verb",
+      "meaning": "protect",
+      "context": "Main action of the icaro"
+    },
+    {
+      "shipibo": "pisi",
+      "part_of_speech": "noun",
+      "meaning": "something that smells rotten",
+      "context": "Referenced in consumption context"
+    },
+    {
+      "shipibo": "jawe",
+      "part_of_speech": "adverb",
+      "meaning": "nothing",
+      "context": "Used in negation phrases"
+    },
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "I",
+      "context": "First person singular speaker"
+    },
+    {
+      "shipibo": "kanoti",
+      "part_of_speech": "verb",
+      "meaning": "to connect",
+      "context": "Action of connecting oneself in icaro"
+    },
+    {
+      "shipibo": "bewa",
+      "part_of_speech": "noun",
+      "meaning": "song, icaro",
+      "context": "Refers to the healing song"
+    },
+    {
+      "shipibo": "iti",
+      "part_of_speech": "verb",
+      "meaning": "to be, to sing",
+      "context": "Used in singing with the icaro"
+    },
+    {
+      "shipibo": "inin",
+      "part_of_speech": "verb",
+      "meaning": "to make fragrant, to aromatize",
+      "context": "Preparation action in icaro"
+    },
+    {
+      "shipibo": "koshi",
+      "part_of_speech": "adjective",
+      "meaning": "powerful",
+      "context": "Describes protection quality"
+    },
+    {
+      "shipibo": "panati",
+      "part_of_speech": "noun",
+      "meaning": "fence, protection",
+      "context": "Protection barrier in icaro"
+    },
+    {
+      "shipibo": "tsonbi",
+      "part_of_speech": "pronoun",
+      "meaning": "no one",
+      "context": "Used in protective context"
+    },
+    {
+      "shipibo": "merati",
+      "part_of_speech": "verb",
+      "meaning": "to find",
+      "context": "Action that should not happen to the singer"
+    },
+    {
+      "shipibo": "ati",
+      "part_of_speech": "verb",
+      "meaning": "to do, to make",
+      "context": "General action verb"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-ban",
+      "meaning": "protect, will protect",
+      "usage": "verb suffix for future/habitual action",
+      "examples": [
+        "panaban (will protect)"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "emphasis",
+      "usage": "nominal and verbal suffix",
+      "examples": [
+        "piaxbi (what is incompatible with emphasis)",
+        "bewakanbi (this song with emphasis)"
+      ]
+    },
+    {
+      "form": "-ka",
+      "meaning": "as soon as, when",
+      "usage": "temporal verb suffix",
+      "examples": [
+        "piaxbikaya (as soon as incompatible)",
+        "ayontaana (having aromatized fully)"
+      ]
+    },
+    {
+      "form": "-ya",
+      "meaning": "immediately, announcement",
+      "usage": "verb suffix for immediate action announcement",
+      "examples": [
+        "kanobanonri (will connect immediately)",
+        "panati (protection)"
+      ]
+    },
+    {
+      "form": "-ri",
+      "meaning": "immediate announcement",
+      "usage": "verb suffix",
+      "examples": [
+        "kanobanonri (will connect immediately)"
+      ]
+    },
+    {
+      "form": "-kan",
+      "meaning": "with this one",
+      "usage": "nominal suffix indicating accompaniment",
+      "examples": [
+        "bewakanbi (with this song)"
+      ]
+    },
+    {
+      "form": "-ana",
+      "meaning": "fully, to completion; having done so",
+      "usage": "verb suffix for completive aspect",
+      "examples": [
+        "ayontaana (having made fully fragrant)"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "adds humility",
+      "usage": "adjectival suffix",
+      "examples": [
+        "koshibira (powerful with humility)"
+      ]
+    },
+    {
+      "form": "-ki",
+      "meaning": "emphasis",
+      "usage": "pronoun and nominal suffix",
+      "examples": [
+        "tsonbibiki (no one with emphasis)"
+      ]
+    },
+    {
+      "form": "-ma",
+      "meaning": "negation",
+      "usage": "verb suffix for negative meaning",
+      "examples": [
+        "meratima (not to find)"
+      ]
+    },
+    {
+      "form": "-non",
+      "meaning": "will do immediately",
+      "usage": "verb suffix for immediate future action",
+      "examples": [
+        "kanobanonri (will connect immediately)",
+        "abanon (will make)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "11.2-Icaro-3-Analysis-Part-3.pdf",
+  "section": "11.2",
+  "module": 3,
+  "parsed_at": "2026-02-07 14:37:51"
+}

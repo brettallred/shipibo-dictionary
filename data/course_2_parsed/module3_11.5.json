@@ -1,0 +1,433 @@
+{
+  "words": [
+    {
+      "shipibo": "yora",
+      "part_of_speech": "noun",
+      "meaning": "body"
+    },
+    {
+      "shipibo": "panai",
+      "part_of_speech": "verb",
+      "meaning": "protect"
+    },
+    {
+      "shipibo": "akinra",
+      "part_of_speech": "verb",
+      "meaning": "doing, working on"
+    },
+    {
+      "shipibo": "bewayonbanon",
+      "part_of_speech": "verb",
+      "meaning": "I will sing fully"
+    },
+    {
+      "shipibo": "ayahuasca",
+      "part_of_speech": "noun",
+      "meaning": "ayahuasca (sacred plant)"
+    },
+    {
+      "shipibo": "bewabo",
+      "part_of_speech": "noun",
+      "meaning": "songs"
+    },
+    {
+      "shipibo": "kepenboi",
+      "part_of_speech": "verb",
+      "meaning": "I go opening as I sing"
+    },
+    {
+      "shipibo": "bewa",
+      "part_of_speech": "verb",
+      "meaning": "sing"
+    },
+    {
+      "shipibo": "neskara",
+      "part_of_speech": "adverb",
+      "meaning": "like this, in this manner"
+    },
+    {
+      "shipibo": "iki",
+      "part_of_speech": "verb",
+      "meaning": "is, be"
+    },
+    {
+      "shipibo": "payan",
+      "part_of_speech": "verb",
+      "meaning": "blowing away"
+    },
+    {
+      "shipibo": "medicina",
+      "part_of_speech": "noun",
+      "meaning": "medicine"
+    },
+    {
+      "shipibo": "shinanyamawe",
+      "part_of_speech": "interjection",
+      "meaning": "don't worry"
+    },
+    {
+      "shipibo": "masa",
+      "part_of_speech": "interjection",
+      "meaning": "don't worry"
+    },
+    {
+      "shipibo": "mia",
+      "part_of_speech": "pronoun",
+      "meaning": "I, me"
+    },
+    {
+      "shipibo": "benxo",
+      "part_of_speech": "verb",
+      "meaning": "heal another"
+    },
+    {
+      "shipibo": "abanon",
+      "part_of_speech": "verb",
+      "meaning": "will heal"
+    },
+    {
+      "shipibo": "neska",
+      "part_of_speech": "adverb",
+      "meaning": "like this, excellently"
+    },
+    {
+      "shipibo": "min",
+      "part_of_speech": "pronoun",
+      "meaning": "your, your body"
+    },
+    {
+      "shipibo": "poroxaman",
+      "part_of_speech": "noun",
+      "meaning": "what is within your stomach"
+    },
+    {
+      "shipibo": "tseka",
+      "part_of_speech": "verb",
+      "meaning": "taking out, remove"
+    },
+    {
+      "shipibo": "yorabira",
+      "part_of_speech": "noun",
+      "meaning": "working on the body"
+    },
+    {
+      "shipibo": "neteyabi",
+      "part_of_speech": "verb",
+      "meaning": "I am opening with all the universe"
+    },
+    {
+      "shipibo": "kepenkin",
+      "part_of_speech": "verb",
+      "meaning": "opening"
+    },
+    {
+      "shipibo": "metsa",
+      "part_of_speech": "noun",
+      "meaning": "realm, beautiful realm"
+    },
+    {
+      "shipibo": "nete",
+      "part_of_speech": "adjective",
+      "meaning": "beautiful, lustrous"
+    },
+    {
+      "shipibo": "soi",
+      "part_of_speech": "noun",
+      "meaning": "realm, lustrous realm"
+    },
+    {
+      "shipibo": "kepenyonxonbanon",
+      "part_of_speech": "verb",
+      "meaning": "I will open fully for you"
+    },
+    {
+      "shipibo": "xawe",
+      "part_of_speech": "noun",
+      "meaning": "gentleman"
+    },
+    {
+      "shipibo": "rama",
+      "part_of_speech": "noun",
+      "meaning": "now"
+    },
+    {
+      "shipibo": "oinkin",
+      "part_of_speech": "verb",
+      "meaning": "is seeing"
+    },
+    {
+      "shipibo": "mera",
+      "part_of_speech": "verb",
+      "meaning": "finding"
+    },
+    {
+      "shipibo": "maton",
+      "part_of_speech": "pronoun",
+      "meaning": "your, your bodies"
+    },
+    {
+      "shipibo": "isin",
+      "part_of_speech": "noun",
+      "meaning": "illness"
+    },
+    {
+      "shipibo": "merani",
+      "part_of_speech": "verb",
+      "meaning": "I have found"
+    },
+    {
+      "shipibo": "jainxonki",
+      "part_of_speech": "adverb",
+      "meaning": "right there"
+    },
+    {
+      "shipibo": "enra",
+      "part_of_speech": "verb",
+      "meaning": "I am working on"
+    },
+    {
+      "shipibo": "akai",
+      "part_of_speech": "verb",
+      "meaning": "working on"
+    },
+    {
+      "shipibo": "raro",
+      "part_of_speech": "noun",
+      "meaning": "heavyness"
+    },
+    {
+      "shipibo": "iwe",
+      "part_of_speech": "noun",
+      "meaning": "heavyness"
+    },
+    {
+      "shipibo": "benxoi",
+      "part_of_speech": "verb",
+      "meaning": "is healing"
+    },
+    {
+      "shipibo": "eon",
+      "part_of_speech": "verb",
+      "meaning": "fell lightly towards me"
+    },
+    {
+      "shipibo": "meax",
+      "part_of_speech": "adverb",
+      "meaning": "from"
+    },
+    {
+      "shipibo": "benxokainshamanax",
+      "part_of_speech": "verb",
+      "meaning": "as soon as it has healed excellently along the way"
+    },
+    {
+      "shipibo": "nokon",
+      "part_of_speech": "pronoun",
+      "meaning": "my, one and only"
+    },
+    {
+      "shipibo": "bewabiribi",
+      "part_of_speech": "noun",
+      "meaning": "song"
+    },
+    {
+      "shipibo": "icara",
+      "part_of_speech": "noun",
+      "meaning": "icaros, healing songs"
+    },
+    {
+      "shipibo": "kano",
+      "part_of_speech": "verb",
+      "meaning": "building, building the connection structure"
+    },
+    {
+      "shipibo": "naman",
+      "part_of_speech": "adverb",
+      "meaning": "below"
+    },
+    {
+      "shipibo": "tanita",
+      "part_of_speech": "verb",
+      "meaning": "standing in the foots of something, below something"
+    },
+    {
+      "shipibo": "torin",
+      "part_of_speech": "noun",
+      "meaning": "tower"
+    },
+    {
+      "shipibo": "ewa",
+      "part_of_speech": "adjective",
+      "meaning": "huge"
+    },
+    {
+      "shipibo": "soa",
+      "part_of_speech": "verb",
+      "meaning": "clearing"
+    },
+    {
+      "shipibo": "senen",
+      "part_of_speech": "verb",
+      "meaning": "having fully finished"
+    },
+    {
+      "shipibo": "ayontaanara",
+      "part_of_speech": "verb",
+      "meaning": "having fully finished the process"
+    },
+    {
+      "shipibo": "akax",
+      "part_of_speech": "verb",
+      "meaning": "worked, did"
+    },
+    {
+      "shipibo": "kai",
+      "part_of_speech": "particle",
+      "meaning": "go"
+    },
+    {
+      "shipibo": "netenbiribi",
+      "part_of_speech": "noun",
+      "meaning": "universe"
+    },
+    {
+      "shipibo": "tsiri",
+      "part_of_speech": "noun",
+      "meaning": "a quality of beauty that denotes purity"
+    },
+    {
+      "shipibo": "bake",
+      "part_of_speech": "noun",
+      "meaning": "child"
+    },
+    {
+      "shipibo": "tsoawa",
+      "part_of_speech": "noun",
+      "meaning": "a species of amazonian bird with medicinal significance"
+    },
+    {
+      "shipibo": "benxoa",
+      "part_of_speech": "verb",
+      "meaning": "has healed"
+    },
+    {
+      "shipibo": "jain",
+      "part_of_speech": "adverb",
+      "meaning": "there"
+    },
+    {
+      "shipibo": "neskati",
+      "part_of_speech": "verb",
+      "meaning": "to be or do in a certain way"
+    },
+    {
+      "shipibo": "benxoti",
+      "part_of_speech": "verb",
+      "meaning": "to heal oneself"
+    },
+    {
+      "shipibo": "tsekati",
+      "part_of_speech": "verb",
+      "meaning": "to take out, remove"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-banon",
+      "meaning": "announcement, will, future tense indicator",
+      "usage": "verbal suffix for future or announced action",
+      "examples": [
+        "bewayonbanon (I will sing fully)",
+        "abanon (will heal)",
+        "kepenyonxonbanon (I will open fully for you)"
+      ]
+    },
+    {
+      "form": "-shamankin",
+      "meaning": "excellently, in an excellent manner",
+      "usage": "adverbial suffix expressing quality or manner",
+      "examples": [
+        "neskashamankin (like this excellently)",
+        "raroshamankin (excellently rejoicing)",
+        "bewashamankin (singing excellently)"
+      ]
+    },
+    {
+      "form": "-kinra",
+      "meaning": "progressive aspect, as I go/ongoing action",
+      "usage": "verbal suffix indicating continuous or progressive action",
+      "examples": [
+        "tsekabokinra (taking out as I go)",
+        "mera merabokinra (I go on finding)",
+        "payanbokinra (I am blowing away as I go)",
+        "nete kepenbokinra (I go on opening the universe)"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "gerundive, having done",
+      "usage": "nominal/verbal suffix indicating completion or state",
+      "examples": [
+        "ayontaanara (having fully finished)",
+        "benxoayontaanara (having healed it fully)"
+      ]
+    },
+    {
+      "form": "-xon",
+      "meaning": "suffix for emphasizing the place of a transitive action",
+      "usage": "locative emphasis marker",
+      "examples": [
+        "jainxonki (right there)"
+      ]
+    },
+    {
+      "form": "-ki",
+      "meaning": "emphasis",
+      "usage": "emphatic particle suffix",
+      "examples": [
+        "jainxonki (right there)"
+      ]
+    },
+    {
+      "form": "-on",
+      "meaning": "to fall lightly on, towards",
+      "usage": "directional/motion suffix",
+      "examples": [
+        "eon (fell lightly towards me)"
+      ]
+    },
+    {
+      "form": "-ati",
+      "meaning": "to do, to be in a certain way (infinitive/root marker)",
+      "usage": "infinitive/root form marker",
+      "examples": [
+        "benxoti (to heal oneself)",
+        "neskati (to be or do in a certain way)",
+        "tsekati (to take out, remove)"
+      ]
+    },
+    {
+      "form": "-bira",
+      "meaning": "instrumental, with, by means of",
+      "usage": "instrumental case marker",
+      "examples": [
+        "yorabira (working on the body)",
+        "soaboira (clearing)"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "noun marker, nominalizer",
+      "usage": "noun-forming suffix",
+      "examples": [
+        "bewabiribi (song)",
+        "netenbiribi (universe)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "11.5-Bonus 2_ Icaro by Shipibo Maestro Jaime – Koshinete.pdf",
+  "section": "11.5",
+  "module": 3,
+  "parsed_at": "2026-02-07 14:38:30"
+}

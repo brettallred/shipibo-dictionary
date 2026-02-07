@@ -1,0 +1,224 @@
+{
+  "words": [
+    {
+      "shipibo": "nashiti",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to bathe",
+      "context": "cleansing verb"
+    },
+    {
+      "shipibo": "soati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to wipe, clean",
+      "context": "cleansing verb"
+    },
+    {
+      "shipibo": "chokati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to wash",
+      "context": "cleansing verb"
+    },
+    {
+      "shipibo": "choroti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to untangle",
+      "context": "cleansing verb"
+    },
+    {
+      "shipibo": "pishati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to release, set free",
+      "context": "cleansing verb"
+    },
+    {
+      "shipibo": "payanti",
+      "part_of_speech": "transitive verb",
+      "meaning": "to fan",
+      "context": "cleansing verb"
+    },
+    {
+      "shipibo": "inin ati",
+      "part_of_speech": "transitive verb",
+      "meaning": "to aromatize",
+      "context": "cleansing verb"
+    },
+    {
+      "shipibo": "rato",
+      "part_of_speech": "noun",
+      "meaning": "dish"
+    },
+    {
+      "shipibo": "poiti",
+      "part_of_speech": "verb",
+      "meaning": "to poop"
+    },
+    {
+      "shipibo": "poiti xobo",
+      "part_of_speech": "noun",
+      "meaning": "bathroom"
+    },
+    {
+      "shipibo": "risbi",
+      "part_of_speech": "noun",
+      "meaning": "rope"
+    },
+    {
+      "shipibo": "wexeti",
+      "part_of_speech": "verb",
+      "meaning": "to become entangled"
+    },
+    {
+      "shipibo": "motoro",
+      "part_of_speech": "noun",
+      "meaning": "engine",
+      "context": "from Spanish motor"
+    },
+    {
+      "shipibo": "mayati",
+      "part_of_speech": "verb",
+      "meaning": "to swirl or go around"
+    },
+    {
+      "shipibo": "kati",
+      "part_of_speech": "verb",
+      "meaning": "to go"
+    },
+    {
+      "shipibo": "mayati kai",
+      "part_of_speech": "verb",
+      "meaning": "to go around (the block, for a walk, etc)"
+    },
+    {
+      "shipibo": "inin",
+      "part_of_speech": "noun",
+      "meaning": "aroma, scent",
+      "context": "used in aromatizing context"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-banon",
+      "meaning": "will do something quite immediately",
+      "usage": "announcement/future tense suffix for verbs"
+    },
+    {
+      "form": "-pari",
+      "meaning": "first, with priority",
+      "usage": "announcement/future tense suffix for verbs"
+    },
+    {
+      "form": "-paribanon",
+      "meaning": "will do something quite immediately, first or with priority",
+      "usage": "compound suffix: -pari + -banon"
+    },
+    {
+      "form": "-i",
+      "meaning": "present participle; while doing something",
+      "usage": "present process suffix for verbs",
+      "examples": [
+        "chokai",
+        "nashii",
+        "shamani"
+      ]
+    },
+    {
+      "form": "-kin",
+      "meaning": "present participle, one degree less present; while doing something",
+      "usage": "present process suffix, mostly for transitive verbs",
+      "examples": [
+        "samakin",
+        "chokabainkin",
+        "chokashamankin"
+      ]
+    },
+    {
+      "form": "-ai",
+      "meaning": "simple present; habitual present",
+      "usage": "present process suffix for verbs",
+      "examples": [
+        "nashiai",
+        "chokabainai",
+        "chokashamanai"
+      ]
+    },
+    {
+      "form": "-bain",
+      "meaning": "to do something along the way",
+      "usage": "present process suffix, for transitive verbs only"
+    },
+    {
+      "form": "-bainai",
+      "meaning": "do something along the way",
+      "usage": "compound suffix: -bain + -ai",
+      "examples": [
+        "chokabainai"
+      ]
+    },
+    {
+      "form": "-bainkin",
+      "meaning": "doing something along the way",
+      "usage": "compound suffix: -bain + -kin",
+      "examples": [
+        "chokabainkin"
+      ]
+    },
+    {
+      "form": "-shaman",
+      "meaning": "doing something excellently",
+      "usage": "present process suffix for verbs"
+    },
+    {
+      "form": "-shamani",
+      "meaning": "doing something excellently",
+      "usage": "compound suffix: -shaman + -i",
+      "examples": [
+        "chokashamani"
+      ]
+    },
+    {
+      "form": "-shamankin",
+      "meaning": "doing something excellently",
+      "usage": "compound suffix: -shaman + -kin",
+      "examples": [
+        "chokashamankin"
+      ]
+    },
+    {
+      "form": "-shamanai",
+      "meaning": "do something excellently",
+      "usage": "compound suffix: -shaman + -ai",
+      "examples": [
+        "chokashamanai"
+      ]
+    },
+    {
+      "form": "-taana",
+      "meaning": "having done so",
+      "usage": "closure suffix for verbs"
+    },
+    {
+      "form": "-yon",
+      "meaning": "doing an action fully, to completion",
+      "usage": "closure suffix for verbs"
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphatic",
+      "usage": "closure suffix for verbs"
+    },
+    {
+      "form": "-yontaanara",
+      "meaning": "having done so fully or to completion",
+      "usage": "compound suffix: -yon + -taana + -ra",
+      "examples": [
+        "chokayontaanara",
+        "pishayontaanara"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "7.1-Cleansing-Verbs-1.pdf",
+  "section": "7.1",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:35:09"
+}

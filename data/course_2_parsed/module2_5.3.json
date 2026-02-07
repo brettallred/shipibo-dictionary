@@ -1,0 +1,70 @@
+{
+  "words": [
+    {
+      "shipibo": "bicha",
+      "part_of_speech": "noun",
+      "meaning": "phlegm",
+      "context": "Used in icaro to describe physical manifestations being treated"
+    },
+    {
+      "shipibo": "maya",
+      "part_of_speech": "adjective",
+      "meaning": "swirling",
+      "context": "Describes the quality of energies in icaro composition"
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "noun",
+      "meaning": "wind-like energy",
+      "context": "Refers to spiritual or energetic forces in healing songs"
+    },
+    {
+      "shipibo": "janxo",
+      "part_of_speech": "noun",
+      "meaning": "smell of blood or body fluids",
+      "context": "Physical manifestation referenced in icaro analysis"
+    },
+    {
+      "shipibo": "ocha",
+      "part_of_speech": "noun",
+      "meaning": "sin",
+      "context": "Spiritual/energetic concept addressed in icaro composition"
+    },
+    {
+      "shipibo": "eki",
+      "part_of_speech": "particle",
+      "meaning": "emphasis towards me",
+      "context": "Particle indicating direction of emphasis in icaro"
+    },
+    {
+      "shipibo": "kanot",
+      "part_of_speech": "intransitive verb",
+      "meaning": "to connect oneself",
+      "context": "Verb used in icaro expressions"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-bo",
+      "meaning": "plural",
+      "usage": "Marks plural nouns",
+      "examples": [
+        "niwebo (wind-like energies)",
+        "bichamayaniwebό (the swirling energies of phlegm)"
+      ]
+    },
+    {
+      "form": "-a",
+      "meaning": "general past",
+      "usage": "Marks general past tense verbs",
+      "examples": [
+        "kanota (connected)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "5.3-Icaro-2-Analysis-Part-1.pdf",
+  "section": "5.3",
+  "module": 2,
+  "parsed_at": "2026-02-07 14:33:59"
+}

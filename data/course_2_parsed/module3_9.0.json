@@ -1,0 +1,261 @@
+{
+  "words": [
+    {
+      "shipibo": "nokon",
+      "part_of_speech": "pronoun",
+      "meaning": "my",
+      "context": "possessive pronoun used in icaro context"
+    },
+    {
+      "shipibo": "yora",
+      "part_of_speech": "noun",
+      "meaning": "body"
+    },
+    {
+      "shipibo": "panaban",
+      "part_of_speech": "verb",
+      "meaning": "I will protect"
+    },
+    {
+      "shipibo": "joi",
+      "part_of_speech": "noun",
+      "meaning": "voice, word"
+    },
+    {
+      "shipibo": "panati",
+      "part_of_speech": "verb",
+      "meaning": "to protect"
+    },
+    {
+      "shipibo": "ramiti",
+      "part_of_speech": "verb",
+      "meaning": "to distort"
+    },
+    {
+      "shipibo": "pisi",
+      "part_of_speech": "adjective",
+      "meaning": "rotten smell"
+    },
+    {
+      "shipibo": "piaxbi",
+      "part_of_speech": "verb",
+      "meaning": "to eat"
+    },
+    {
+      "shipibo": "jawe",
+      "part_of_speech": "noun",
+      "meaning": "what"
+    },
+    {
+      "shipibo": "iyosma",
+      "part_of_speech": "verb",
+      "meaning": "to do"
+    },
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "I"
+    },
+    {
+      "shipibo": "xawe",
+      "part_of_speech": "noun",
+      "meaning": "gentleman"
+    },
+    {
+      "shipibo": "jakonma",
+      "part_of_speech": "adjective",
+      "meaning": "incompatible, bad"
+    },
+    {
+      "shipibo": "itsa",
+      "part_of_speech": "adjective",
+      "meaning": "pungent smell"
+    },
+    {
+      "shipibo": "jawetianbi",
+      "part_of_speech": "adverb",
+      "meaning": "never"
+    },
+    {
+      "shipibo": "ramiyosma",
+      "part_of_speech": "adjective",
+      "meaning": "seldom gets distorted"
+    },
+    {
+      "shipibo": "medico",
+      "part_of_speech": "noun",
+      "meaning": "doctor (from Spanish)"
+    },
+    {
+      "shipibo": "inin",
+      "part_of_speech": "verb",
+      "meaning": "to perfume"
+    },
+    {
+      "shipibo": "koshibira",
+      "part_of_speech": "adjective",
+      "meaning": "powerful, strong"
+    },
+    {
+      "shipibo": "kanoti",
+      "part_of_speech": "verb",
+      "meaning": "to connect itself"
+    },
+    {
+      "shipibo": "bewa",
+      "part_of_speech": "noun",
+      "meaning": "song"
+    },
+    {
+      "shipibo": "merati",
+      "part_of_speech": "verb",
+      "meaning": "to find"
+    },
+    {
+      "shipibo": "tsonbi",
+      "part_of_speech": "pronoun",
+      "meaning": "no one"
+    },
+    {
+      "shipibo": "ati",
+      "part_of_speech": "verb",
+      "meaning": "to be"
+    },
+    {
+      "shipibo": "iti",
+      "part_of_speech": "verb",
+      "meaning": "to be"
+    },
+    {
+      "shipibo": "koshi",
+      "part_of_speech": "adjective",
+      "meaning": "powerful, strong"
+    },
+    {
+      "shipibo": "piti",
+      "part_of_speech": "verb",
+      "meaning": "to eat"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-ax",
+      "meaning": "as soon as it's done",
+      "usage": "verbal suffix indicating immediate action",
+      "examples": []
+    },
+    {
+      "form": "-ban/-banon",
+      "meaning": "immediate announcement; emphasis",
+      "usage": "verbal suffix",
+      "examples": [
+        "panaban (I will protect)"
+      ]
+    },
+    {
+      "form": "-bi",
+      "meaning": "emphasis; one and only, affection",
+      "usage": "noun/verb suffix",
+      "examples": [
+        "piaxbi (to eat)",
+        "jawetianbi (never)"
+      ]
+    },
+    {
+      "form": "-biribi",
+      "meaning": "one and only, affection",
+      "usage": "noun suffix",
+      "examples": [
+        "xawebiribi (the one and only gentleman)"
+      ]
+    },
+    {
+      "form": "-bo",
+      "meaning": "plural",
+      "usage": "noun/adjective suffix",
+      "examples": [
+        "jakonmabo (once I eat incompatible elements)"
+      ]
+    },
+    {
+      "form": "-i",
+      "meaning": "present participle",
+      "usage": "verbal suffix",
+      "examples": []
+    },
+    {
+      "form": "-kan",
+      "meaning": "emphasis, or using",
+      "usage": "noun suffix",
+      "examples": []
+    },
+    {
+      "form": "-kaya",
+      "meaning": "truly, without doubt",
+      "usage": "noun/verb suffix",
+      "examples": [
+        "piaxbikaya (as soon as I eat)",
+        "iyosmakaya (nothing happens)"
+      ]
+    },
+    {
+      "form": "-ki",
+      "meaning": "towards; negation",
+      "usage": "noun/adjective suffix",
+      "examples": [
+        "tsonbibiki (for no one to find me)"
+      ]
+    },
+    {
+      "form": "-ma",
+      "meaning": "emphasis",
+      "usage": "noun suffix",
+      "examples": [
+        "ramiyosma (seldom gets distorted)"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphasis",
+      "usage": "noun/verb/adjective suffix",
+      "examples": [
+        "ea kanobanonri (I will connect myself)"
+      ]
+    },
+    {
+      "form": "-taana",
+      "meaning": "having done so",
+      "usage": "verbal suffix",
+      "examples": [
+        "ayontaana (having aromatized fully)"
+      ]
+    },
+    {
+      "form": "-yabi",
+      "meaning": "with all",
+      "usage": "noun suffix",
+      "examples": [
+        "joiyabi (protecting all my prayers)"
+      ]
+    },
+    {
+      "form": "-yon",
+      "meaning": "doing an action fully",
+      "usage": "verbal suffix",
+      "examples": []
+    },
+    {
+      "form": "-yosma",
+      "meaning": "seldom does/is so",
+      "usage": "verbal suffix",
+      "examples": [
+        "ramiyosma (seldom gets distorted)"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "9.0-Icaro-3-Nokon-Yora-Panaban.pdf",
+  "section": "9.0",
+  "module": 3,
+  "parsed_at": "2026-02-07 14:39:23"
+}

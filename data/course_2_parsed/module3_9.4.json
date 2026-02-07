@@ -1,0 +1,106 @@
+{
+  "words": [
+    {
+      "shipibo": "yora",
+      "part_of_speech": "noun",
+      "meaning": "body",
+      "context": "Used in icaro for protection and healing"
+    },
+    {
+      "shipibo": "panai",
+      "part_of_speech": "verb",
+      "meaning": "protect",
+      "context": "Core verb in this protection icaro"
+    },
+    {
+      "shipibo": "nokon",
+      "part_of_speech": "pronoun",
+      "meaning": "my, I",
+      "context": "First person possessive/subject marker"
+    },
+    {
+      "shipibo": "shinan",
+      "part_of_speech": "noun",
+      "meaning": "mind",
+      "context": "Part of body/spirit to be protected"
+    },
+    {
+      "shipibo": "pana",
+      "part_of_speech": "adverb",
+      "meaning": "excellently, well",
+      "context": "Intensifies the protecting action"
+    },
+    {
+      "shipibo": "panashamani",
+      "part_of_speech": "verb",
+      "meaning": "protecting excellently",
+      "context": "Combination form used repetitively in icaro refrain"
+    },
+    {
+      "shipibo": "tari",
+      "part_of_speech": "noun",
+      "meaning": "steel, tunic, armor",
+      "context": "Metaphorical protection garment in icaro"
+    },
+    {
+      "shipibo": "acero",
+      "part_of_speech": "noun",
+      "meaning": "steel",
+      "context": "Material of protective tunic imagery"
+    },
+    {
+      "shipibo": "sanken",
+      "part_of_speech": "adjective",
+      "meaning": "beautiful, with beautiful designs",
+      "context": "Describes the decorative quality of the steel tunic"
+    },
+    {
+      "shipibo": "saweyontaanara",
+      "part_of_speech": "verb",
+      "meaning": "I have dressed (with it) fully",
+      "context": "Expression of complete protection/dressing in the icaro"
+    },
+    {
+      "shipibo": "ronki",
+      "part_of_speech": "verb",
+      "meaning": "sing, say",
+      "context": "Speech/singing action in icaro"
+    },
+    {
+      "shipibo": "ikai",
+      "part_of_speech": "verb",
+      "meaning": "sing, be (present tense conjugation of iti)",
+      "context": "Present tense form used as umbrella term for intransitive verbs"
+    },
+    {
+      "shipibo": "iti",
+      "part_of_speech": "verb",
+      "meaning": "to be",
+      "context": "Base verb; ikai is its present tense conjugation"
+    },
+    {
+      "shipibo": "ea",
+      "part_of_speech": "pronoun",
+      "meaning": "they, they say",
+      "context": "Third person marker or reportative particle"
+    },
+    {
+      "shipibo": "panaira",
+      "part_of_speech": "verb",
+      "meaning": "protecting while I sing",
+      "context": "Combination form expressing simultaneous protection and singing"
+    },
+    {
+      "shipibo": "bewai",
+      "part_of_speech": "verb",
+      "meaning": "sing, be singing",
+      "context": "Variant or related form of singing action"
+    }
+  ],
+  "suffixes": [],
+  "prefixes": [],
+  "filename": "9.4-Bonus_ Yora Panai – Koshinete.pdf",
+  "section": "9.4",
+  "module": 3,
+  "parsed_at": "2026-02-07 14:39:52"
+}

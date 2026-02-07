@@ -1,0 +1,222 @@
+{
+  "words": [
+    {
+      "shipibo": "akin",
+      "part_of_speech": "verb",
+      "meaning": "doing",
+      "context": "used in icaro composition"
+    },
+    {
+      "shipibo": "ax",
+      "part_of_speech": "verb",
+      "meaning": "once it has happened, as soon as it's happened"
+    },
+    {
+      "shipibo": "bene",
+      "part_of_speech": "noun",
+      "meaning": "healing (in context of beneshamani - healing excellently)"
+    },
+    {
+      "shipibo": "biti",
+      "part_of_speech": "verb",
+      "meaning": "to receive or obtain"
+    },
+    {
+      "shipibo": "jakiribi",
+      "part_of_speech": "adverb",
+      "meaning": "once again"
+    },
+    {
+      "shipibo": "jakon",
+      "part_of_speech": "adjective",
+      "meaning": "good"
+    },
+    {
+      "shipibo": "jaton",
+      "part_of_speech": "pronoun",
+      "meaning": "they (transitive)"
+    },
+    {
+      "shipibo": "joi",
+      "part_of_speech": "noun",
+      "meaning": "voice"
+    },
+    {
+      "shipibo": "kaibo",
+      "part_of_speech": "noun",
+      "meaning": "family"
+    },
+    {
+      "shipibo": "koshi",
+      "part_of_speech": "adjective",
+      "meaning": "strong"
+    },
+    {
+      "shipibo": "mai",
+      "part_of_speech": "noun",
+      "meaning": "land"
+    },
+    {
+      "shipibo": "maketi",
+      "part_of_speech": "verb",
+      "meaning": "to continue to develop, polish, perfect"
+    },
+    {
+      "shipibo": "medico",
+      "part_of_speech": "noun",
+      "meaning": "doctor"
+    },
+    {
+      "shipibo": "meniti",
+      "part_of_speech": "verb",
+      "meaning": "to give"
+    },
+    {
+      "shipibo": "metsa",
+      "part_of_speech": "adjective",
+      "meaning": "beautiful"
+    },
+    {
+      "shipibo": "nato",
+      "part_of_speech": "pronoun",
+      "meaning": "this"
+    },
+    {
+      "shipibo": "niwe",
+      "part_of_speech": "noun",
+      "meaning": "wind, energy"
+    },
+    {
+      "shipibo": "nokoti",
+      "part_of_speech": "verb",
+      "meaning": "to arrive"
+    },
+    {
+      "shipibo": "raro",
+      "part_of_speech": "noun",
+      "meaning": "healing/excellence (in context of raroshamani - doing excellently)"
+    },
+    {
+      "shipibo": "ribi",
+      "part_of_speech": "adverb",
+      "meaning": "also"
+    },
+    {
+      "shipibo": "shinan",
+      "part_of_speech": "noun",
+      "meaning": "mind"
+    },
+    {
+      "shipibo": "akinmisti",
+      "part_of_speech": "adjective",
+      "meaning": "tends to be helpful"
+    },
+    {
+      "shipibo": "benxomisti",
+      "part_of_speech": "adjective",
+      "meaning": "tends to be healing"
+    },
+    {
+      "shipibo": "noimisti",
+      "part_of_speech": "adjective",
+      "meaning": "tends to be loving"
+    },
+    {
+      "shipibo": "jakiribibobira",
+      "part_of_speech": "adverb",
+      "meaning": "over and over again"
+    }
+  ],
+  "suffixes": [
+    {
+      "form": "-ax",
+      "meaning": "once it has happened, as soon as it's happened",
+      "usage": "verbal suffix indicating completion",
+      "examples": [
+        "nokoax (arrived once)",
+        "jakonax"
+      ]
+    },
+    {
+      "form": "-bo",
+      "meaning": "plural (noun) or doing along a process (verb)",
+      "usage": "can function as noun plural or verbal aspect marker",
+      "examples": [
+        "shinanbo (minds)",
+        "joibo",
+        "kaibobo",
+        "medicobo"
+      ]
+    },
+    {
+      "form": "-ki",
+      "meaning": "towards, to",
+      "usage": "postposition/directional suffix",
+      "examples": [
+        "kaiboboki"
+      ]
+    },
+    {
+      "form": "-n",
+      "meaning": "place, in",
+      "usage": "locative suffix",
+      "examples": []
+    },
+    {
+      "form": "-non",
+      "meaning": "will do in the future",
+      "usage": "future tense marker",
+      "examples": [
+        "binonra",
+        "meninon",
+        "biboshamanon",
+        "makenon"
+      ]
+    },
+    {
+      "form": "-ra",
+      "meaning": "emphatic",
+      "usage": "emphasis/intensifier suffix",
+      "examples": [
+        "binonra",
+        "meninon"
+      ]
+    },
+    {
+      "form": "-shaman",
+      "meaning": "doing excellently",
+      "usage": "verb suffix indicating excellence or mastery",
+      "examples": [
+        "raroshamani",
+        "beneshamani",
+        "biboshamanon",
+        "menishamanon",
+        "makeshamanon",
+        "ishamani"
+      ]
+    },
+    {
+      "form": "-misti",
+      "meaning": "tends to, inclined to (quality/tendency)",
+      "usage": "adjectival suffix indicating tendency or quality",
+      "examples": [
+        "akinmisti (tends to be helpful)",
+        "benxomisti (tends to be healing)",
+        "noimisti (tends to be loving)"
+      ]
+    },
+    {
+      "form": "-i",
+      "meaning": "nominalizer or object marker",
+      "usage": "general suffix with multiple grammatical functions",
+      "examples": [
+        "medicoi"
+      ]
+    }
+  ],
+  "prefixes": [],
+  "filename": "4.3-Icaro-Writing-Excercise-4-Sad_Tired-Sheet3.pdf",
+  "section": "4.3",
+  "module": 1,
+  "parsed_at": "2026-02-07 14:28:23"
+}
