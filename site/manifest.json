@@ -2,7 +2,7 @@
   "name": "Shipibo Dictionary",
   "short_name": "Shipibo",
   "description": "A bilingual dictionary of the Shipibo language from the Peruvian Amazon",
-  "start_url": "./",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#e9dfc7",
   "theme_color": "#e9dfc7",

@@ -434,6 +434,28 @@
         logout();
       });
     }
+
+    // Mobile nav toggle
+    var navToggle = document.getElementById("nav-toggle");
+    if (navToggle) {
+      navToggle.addEventListener("click", function (e) {
+        e.stopPropagation();
+        nav.classList.toggle("nav-open");
+      });
+      // Close mobile nav on link click
+      nav.querySelectorAll("a").forEach(function (link) {
+        link.addEventListener("click", function () {
+          nav.classList.remove("nav-open");
+        });
+      });
+      // Close mobile nav on outside click
+      document.addEventListener("click", function () {
+        nav.classList.remove("nav-open");
+      });
+      nav.addEventListener("click", function (e) {
+        e.stopPropagation();
+      });
+    }
   }
 
   // --- Data ---
@@ -1584,16 +1606,25 @@
       return true;
     });
 
-    // Sort: prioritize new and unreviewed, then by last reviewed (oldest first)
-    var comfortOrder = { "new": 0, "learning": 1, "familiar": 2, "mastered": 3 };
+    // SM-2 spaced repetition: calculate due date based on comfort and last review
+    // Intervals: new=0, learning=1day, familiar=3days, mastered=7days
+    var comfortIntervals = { "new": 0, "learning": 1, "familiar": 3, "mastered": 7 };
+    var now = Date.now();
+
+    function getDueScore(bm) {
+      if (!bm.lastReviewedAt) return -Infinity; // never reviewed = most urgent
+      var interval = (comfortIntervals[bm.comfort] || 0) * 86400000; // days to ms
+      var reviewedAt = new Date(bm.lastReviewedAt).getTime();
+      var dueAt = reviewedAt + interval;
+      return dueAt - now; // negative = overdue (more negative = more urgent)
+    }
+
     deck.sort(function (a, b) {
-      var ca = comfortOrder[a.comfort] || 0;
-      var cb = comfortOrder[b.comfort] || 0;
-      if (ca !== cb) return ca - cb;
-      var ta = a.lastReviewedAt || "";
-      var tb = b.lastReviewedAt || "";
-      return ta.localeCompare(tb);
+      return getDueScore(a) - getDueScore(b);
     });
+
+    // Count due cards
+    var dueCount = deck.filter(function (bm) { return getDueScore(bm) <= 0; }).length;
 
     // Build filter bar
     var html = '<div class="mb-8">' +
@@ -1602,7 +1633,11 @@
       'Back to bookmarks</a></div>';
 
     html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Review</h1>';
-    html += '<p class="text-ink-muted text-lg font-light mb-6">' + deck.length + ' card' + (deck.length !== 1 ? 's' : '') + ' to review</p>';
+    var countText = dueCount + ' due now';
+    if (dueCount < deck.length) {
+      countText += ' / ' + deck.length + ' total';
+    }
+    html += '<p class="text-ink-muted text-lg font-light mb-6">' + countText + '</p>';
 
     // Filter controls
     html += '<div class="review-filters mb-8">';

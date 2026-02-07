@@ -19,13 +19,16 @@
   <body class="min-h-screen">
     <!-- Header -->
     <header class="site-header" id="site-header">
-      <div class="max-w-3xl mx-auto px-6 py-5 flex items-center justify-between">
+      <div class="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
         <a href="#/" class="flex items-baseline gap-2.5 no-underline">
           <span class="site-logo text-2xl text-ink">Shipibo</span>
           <span class="text-ink-muted text-sm font-light tracking-wide">dictionary</span>
         </a>
 
-        <nav class="flex items-center gap-6" id="site-nav">
+        <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+        <nav id="site-nav">
           <a href="#/" class="site-nav-link">Browse</a>
           <a href="#/icaros" class="site-nav-link">Icaros</a>
           <a href="#/about" class="site-nav-link">About</a>

@@ -1,13 +1,12 @@
-# Shipibo Icaro Learning Platform — Implementation Plan
+# Shipibo Icaro Learning Platform — Web Plan
 
 ## Tech Stack
-- **Frontend (Web):** Existing static site on Cloudflare Pages (vanilla JS)
+- **Frontend (Web):** Static site on Cloudflare Pages (vanilla JS)
 - **Backend API:** Cloudflare Workers + Hono framework
 - **Database:** Cloudflare D1 (SQLite at edge) + Drizzle ORM
 - **Object Storage:** Cloudflare R2 (audio files)
-- **AI:** Workers AI or Anthropic API via Workers
+- **AI:** Anthropic API (Claude) via Workers
 - **Auth Sessions:** Cloudflare KV
-- **iOS:** Native SwiftUI + SwiftData, offline-first
 
 ## Data Model
 
@@ -108,12 +107,11 @@
 - POST /api/chat — Send message, get AI response
 - GET /api/chat/sessions — List chat sessions
 - GET /api/chat/sessions/:id — Get chat history
+- DELETE /api/chat/sessions/:id — Delete chat session
 
 ## Phases
 
-### Backend + Web
-
-**Phase 1: Foundation**
+**Phase 1: Foundation** ✅
 - Cloudflare Worker project with Hono
 - D1 database setup with Drizzle ORM
 - Schema + migrations for all tables
@@ -121,31 +119,31 @@
 - Session management with KV
 - Auth middleware
 
-**Phase 2: Icaro Progress**
+**Phase 2: Icaro Progress** ✅
 - Bookmark icaros, track stanza position
 - Resume learning from where you left off
 - Progress API endpoints
 - Web UI: bookmark button on icaros, resume from dashboard
 
-**Phase 3: Study Bookmarks**
+**Phase 3: Study Bookmarks** ✅
 - Save phrases, words, stanzas from any view
 - Bookmark API endpoints
 - Web UI: bookmark buttons on entries, phrases, stanzas
 
-**Phase 4: Review Mode**
+**Phase 4: Review Mode** ✅
 - Dedicated study view with card-flip interface
 - Shipibo on front, breakdown/definition on back
 - Comfort tracking (new → learning → familiar → mastered)
 - Filter by type, by icaro, by comfort level
 - Prioritize unreviewed and new items
 
-**Phase 5: Feedback**
+**Phase 5: Feedback** ✅
 - Report incorrect entries/phrases
 - Category selection + free text
 - Admin review queue
 - Web UI: "Report issue" button on entries and phrases
 
-**Phase 6: Audio**
+**Phase 6: Audio** ✅
 - R2 bucket setup
 - Upload endpoint with file validation (mp3/m4a/wav)
 - Singer name + bio fields
@@ -154,23 +152,22 @@
 - Max 5 approved per icaro
 - Web UI: audio player section on icaro detail view
 
-**Phase 7: Contributions**
+**Phase 7: Contributions** ✅
 - Icaro text editor
 - Draft/save/submit workflow
 - Admin review + approve/reject
 - Web UI: contribution editor page
 
-**Phase 8: AI Chat**
-- Workers AI or Anthropic API integration
+**Phase 8: AI Chat** ✅
+- Anthropic API integration (Claude Sonnet)
 - Dictionary + icaro data as context (RAG pattern)
-- Chat history persistence
-- Web UI: chat panel
+- Chat history persistence with sessions
+- Web UI: chat panel with session management
 
-**Phase 9: Web Polish**
-- PWA updates for new features
-- Service worker updates
-- Responsive design for new views
-- Spaced repetition algorithm for card review (SM-2 or similar) — schedule cards based on comfort level and time since last review, replacing simple sequential deck
+**Phase 9: Web Polish** ✅
+- PWA updates: service worker v6 with network-first HTML, stale-while-revalidate for JS/CSS
+- Responsive design: mobile hamburger nav, admin tab wrapping
+- Spaced repetition (SM-2): review cards scheduled by comfort interval (new=0d, learning=1d, familiar=3d, mastered=7d)
 
 **Phase 10: Icaro Publishing Pipeline**
 - Migrate existing icaros from static JSON into D1 `icaros` table
@@ -179,44 +176,3 @@
 - Admin "Publish" action on approved contributions → creates icaro record in D1
 - Published icaros appear in the main icaros list alongside original extracted icaros
 - Admin can edit/unpublish community icaros
-
-### iOS (Native, Offline-First)
-
-**Phase 11: iOS Project Setup + Local Data**
-- Xcode project, SwiftUI
-- Bundle dictionary + icaro JSON locally
-- SwiftData models mirroring D1 schema
-- Tab navigation (Dictionary, Icaros, Review, Profile)
-
-**Phase 12: iOS Dictionary + Icaro Views**
-- Native search (fast, local, no network needed)
-- Entry detail view
-- Icaro view with stanza/phrase breakdown
-- Morphological color coding in native UI
-- Audio playback with cached recordings
-
-**Phase 13: iOS Auth + Sync Engine**
-- Google Sign-In SDK for iOS
-- Local-first write queue
-- Background sync when connectivity detected
-- Conflict resolution (last-write-wins, timestamp-based)
-
-**Phase 14: iOS User Features**
-- Icaro progress tracking with stanza position
-- Study bookmarks (phrases, words, stanzas)
-- Review mode with native card-flip animations
-- Comfort tracking
-
-**Phase 15: iOS Audio**
-- Record icaros in-app (AVAudioRecorder)
-- Local playback cache
-- Upload queue — sync recordings when back online
-
-**Phase 16: iOS AI Chat**
-- Chat interface (online-only, graceful offline message)
-- Cache previous conversations locally for reference
-
-**Phase 17: App Store Submission**
-- TestFlight beta
-- App Store assets (screenshots, description, privacy policy)
-- Review + launch

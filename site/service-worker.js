@@ -1,4 +1,4 @@
-var CACHE_NAME = "shipibo-v5";
+var CACHE_NAME = "shipibo-v6";
 var ASSETS = [
   "/",
   "/index.html",
@@ -37,6 +37,41 @@ self.addEventListener("fetch", function (event) {
   if (event.request.url.includes("/api/") || event.request.url.includes("/auth/callback")) {
     return;
   }
+
+  // For navigation requests (HTML pages), use network-first to pick up updates quickly
+  if (event.request.mode === "navigate") {
+    event.respondWith(
+      fetch(event.request).then(function (response) {
+        return caches.open(CACHE_NAME).then(function (cache) {
+          cache.put(event.request, response.clone());
+          return response;
+        });
+      }).catch(function () {
+        return caches.match(event.request).then(function (cached) {
+          return cached || caches.match("/");
+        });
+      })
+    );
+    return;
+  }
+
+  // For app.js and style.css, use stale-while-revalidate to balance speed and freshness
+  if (event.request.url.endsWith("/app.js") || event.request.url.endsWith("/style.css")) {
+    event.respondWith(
+      caches.open(CACHE_NAME).then(function (cache) {
+        return cache.match(event.request).then(function (cached) {
+          var fetchPromise = fetch(event.request).then(function (response) {
+            cache.put(event.request, response.clone());
+            return response;
+          });
+          return cached || fetchPromise;
+        });
+      })
+    );
+    return;
+  }
+
+  // Everything else: cache-first
   event.respondWith(
     caches.match(event.request).then(function (cached) {
       return cached || fetch(event.request);
