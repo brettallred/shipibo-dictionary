@@ -265,6 +265,116 @@
     });
   }
 
+  // --- Feedback ---
+
+  function showFeedbackModal(targetType, targetId, targetLabel) {
+    // Remove any existing modal
+    var existing = document.getElementById("feedback-modal");
+    if (existing) existing.remove();
+
+    var overlay = document.createElement("div");
+    overlay.id = "feedback-modal";
+    overlay.className = "feedback-overlay";
+    overlay.innerHTML = '<div class="feedback-modal">' +
+      '<div class="feedback-modal-header">' +
+      '<h3 class="font-display text-xl text-ink">Report Issue</h3>' +
+      '<button class="feedback-modal-close" id="feedback-close">\u00d7</button>' +
+      '</div>' +
+      '<p class="text-ink-muted text-sm mb-4">About: ' + esc(targetLabel) + '</p>' +
+      '<div class="feedback-field mb-3">' +
+      '<label class="text-xs text-ink-muted uppercase tracking-wide mb-1">Category</label>' +
+      '<div class="feedback-categories" id="feedback-categories">' +
+      '<button class="feedback-cat-btn feedback-cat-active" data-cat="incorrect">Incorrect</button>' +
+      '<button class="feedback-cat-btn" data-cat="missing">Missing</button>' +
+      '<button class="feedback-cat-btn" data-cat="suggestion">Suggestion</button>' +
+      '</div></div>' +
+      '<div class="feedback-field mb-4">' +
+      '<label class="text-xs text-ink-muted uppercase tracking-wide mb-1">Details</label>' +
+      '<textarea class="feedback-textarea" id="feedback-message" rows="4" placeholder="Describe the issue..."></textarea>' +
+      '</div>' +
+      '<div class="feedback-actions">' +
+      '<button class="feedback-cancel-btn" id="feedback-cancel">Cancel</button>' +
+      '<button class="feedback-submit-btn" id="feedback-submit">Submit</button>' +
+      '</div>' +
+      '</div>';
+
+    document.body.appendChild(overlay);
+
+    var selectedCat = "incorrect";
+
+    // Category selection
+    overlay.querySelectorAll(".feedback-cat-btn").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        overlay.querySelectorAll(".feedback-cat-btn").forEach(function (b) { b.classList.remove("feedback-cat-active"); });
+        btn.classList.add("feedback-cat-active");
+        selectedCat = btn.getAttribute("data-cat");
+      });
+    });
+
+    // Close
+    function closeModal() { overlay.remove(); }
+    document.getElementById("feedback-close").addEventListener("click", closeModal);
+    document.getElementById("feedback-cancel").addEventListener("click", closeModal);
+    overlay.addEventListener("click", function (e) {
+      if (e.target === overlay) closeModal();
+    });
+
+    // Submit
+    document.getElementById("feedback-submit").addEventListener("click", async function () {
+      var message = document.getElementById("feedback-message").value.trim();
+      if (!message) {
+        document.getElementById("feedback-message").focus();
+        return;
+      }
+      var submitBtn = document.getElementById("feedback-submit");
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Sending...";
+      try {
+        await api("/api/feedback", {
+          method: "POST",
+          body: {
+            targetType: targetType,
+            targetId: targetId,
+            category: selectedCat,
+            message: message
+          }
+        });
+        overlay.querySelector(".feedback-modal").innerHTML =
+          '<div class="feedback-done">' +
+          '<p class="font-display text-xl text-ink mb-2">Thank you!</p>' +
+          '<p class="text-ink-muted text-sm">Your feedback has been submitted.</p>' +
+          '<button class="feedback-cancel-btn mt-4" id="feedback-done-close">Close</button>' +
+          '</div>';
+        document.getElementById("feedback-done-close").addEventListener("click", closeModal);
+      } catch (e) {
+        submitBtn.disabled = false;
+        submitBtn.textContent = "Submit";
+      }
+    });
+  }
+
+  function feedbackBtnHTML(targetType, targetId, targetLabel) {
+    if (!currentUser) return "";
+    return '<button class="feedback-btn" data-fb-type="' + esc(targetType) +
+      '" data-fb-id="' + esc(targetId) +
+      '" data-fb-label="' + esc(targetLabel) + '">Report issue</button>';
+  }
+
+  function wireFeedbackButtons(container) {
+    if (!currentUser) return;
+    (container || document).querySelectorAll(".feedback-btn").forEach(function (btn) {
+      btn.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        showFeedbackModal(
+          btn.getAttribute("data-fb-type"),
+          btn.getAttribute("data-fb-id"),
+          btn.getAttribute("data-fb-label")
+        );
+      });
+    });
+  }
+
   // --- Nav Rendering ---
   // Note: all user-supplied values go through esc() which uses textContent for safe escaping
 
@@ -279,6 +389,9 @@
     if (currentUser) {
       links += '<a href="#/bookmarks" class="site-nav-link">Bookmarks</a>';
       links += '<a href="#/review" class="site-nav-link">Review</a>';
+      if (currentUser.role === "admin") {
+        links += '<a href="#/admin/feedback" class="site-nav-link">Admin</a>';
+      }
       links += '<div class="user-menu">' +
         '<button class="user-menu-btn" id="user-menu-btn">';
       if (currentUser.avatarUrl) {
@@ -359,6 +472,8 @@
       renderBookmarks();
     } else if (path === "/review") {
       renderReview(params);
+    } else if (path === "/admin/feedback") {
+      renderAdminFeedback();
     } else if (path === "/icaros") {
       renderIcaroIndex();
     } else if (path.match(/^\/icaro\/\d+\/learn$/)) {
@@ -702,15 +817,20 @@
       html += "</div>";
     }
 
-    // Page reference
+    // Page reference + feedback
+    html += '<div class="mt-10 pt-4 border-t border-earth-200 flex items-center justify-between">';
     if (entry.page_number) {
-      html += '<div class="mt-10 pt-4 border-t border-earth-200">' +
-        '<p class="text-xs text-ink-muted font-light">Source: page ' + entry.page_number + "</p></div>";
+      html += '<p class="text-xs text-ink-muted font-light">Source: page ' + entry.page_number + "</p>";
+    } else {
+      html += '<span></span>';
     }
+    html += feedbackBtnHTML("entry", String(entry.id), entry.headword);
+    html += '</div>';
 
     app.textContent = "";
     app.insertAdjacentHTML("afterbegin", html);
     wireBookmarkButtons(app);
+    wireFeedbackButtons(app);
     window.scrollTo(0, 0);
   }
 
@@ -866,6 +986,13 @@
     // Cultural note
     if (phrase.cultural_note) {
       html += '<p class="text-ink-muted text-sm italic mt-2">' + esc(phrase.cultural_note) + '</p>';
+    }
+
+    // Feedback button
+    if (icaroId != null) {
+      html += '<div class="mt-3 pt-2 border-t border-earth-200">' +
+        feedbackBtnHTML("phrase", icaroId + ":" + phraseIdx, phrase.shipibo) +
+        '</div>';
     }
 
     html += '</div>';
@@ -1038,10 +1165,12 @@
       panelCards.innerHTML = cardsHTML;
       panelEmpty.style.display = orderedIndices.length === 0 ? "" : "none";
       wireBookmarkButtons(panelCards);
+      wireFeedbackButtons(panelCards);
 
       // Mobile drawer
       drawerCards.innerHTML = cardsHTML;
       wireBookmarkButtons(drawerCards);
+      wireFeedbackButtons(drawerCards);
       if (isMobile) {
         if (orderedIndices.length > 0) {
           drawer.classList.add("active");
@@ -1553,6 +1682,89 @@
 
     app.innerHTML = html;
     window.scrollTo(0, 0);
+  }
+
+  async function renderAdminFeedback() {
+    document.title = "Admin: Feedback \u2014 Shipibo Dictionary";
+
+    if (!currentUser || currentUser.role !== "admin") {
+      app.innerHTML = '<p class="text-ink-muted">Access denied.</p>';
+      return;
+    }
+
+    app.innerHTML = '<p class="text-ink-muted">Loading feedback...</p>';
+
+    var data = await api("/api/feedback");
+    if (!data || !data.feedback) {
+      app.innerHTML = '<p class="text-ink-muted">Failed to load feedback.</p>';
+      return;
+    }
+
+    var items = data.feedback;
+
+    var html = '<div class="mb-8">' +
+      '<a href="#/" class="back-link">' +
+      '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+      'Back to dictionary</a></div>';
+
+    html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Feedback Queue</h1>';
+    html += '<p class="text-ink-muted text-lg font-light mb-8">' + items.length + ' item' + (items.length !== 1 ? 's' : '') + '</p>';
+
+    if (items.length === 0) {
+      html += '<p class="text-ink-muted">No feedback submitted yet.</p>';
+      app.innerHTML = html;
+      return;
+    }
+
+    items.forEach(function (item) {
+      var statusClass = "feedback-status-" + item.status;
+      html += '<div class="admin-feedback-item" data-feedback-id="' + item.id + '">';
+      html += '<div class="flex items-center gap-2 mb-2">';
+      html += '<span class="badge">' + esc(item.targetType) + '</span>';
+      html += '<span class="badge">' + esc(item.category) + '</span>';
+      html += '<span class="badge ' + statusClass + '">' + esc(item.status) + '</span>';
+      html += '<span class="text-ink-muted text-xs ml-auto">' + esc(item.createdAt) + '</span>';
+      html += '</div>';
+      html += '<p class="text-ink leading-relaxed mb-2">' + esc(item.message) + '</p>';
+      html += '<p class="text-ink-muted text-xs mb-3">Target: ' + esc(item.targetType) + ' #' + esc(item.targetId) + '</p>';
+
+      // Status update buttons
+      html += '<div class="admin-feedback-actions">';
+      ["pending", "reviewed", "resolved", "dismissed"].forEach(function (s) {
+        var active = item.status === s ? " admin-status-active" : "";
+        html += '<button class="admin-status-btn' + active + '" data-fid="' + item.id + '" data-status="' + s + '">' +
+          s.charAt(0).toUpperCase() + s.slice(1) + '</button>';
+      });
+      html += '</div>';
+      html += '</div>';
+    });
+
+    app.innerHTML = html;
+    window.scrollTo(0, 0);
+
+    // Wire status buttons
+    app.querySelectorAll(".admin-status-btn").forEach(function (btn) {
+      btn.addEventListener("click", async function () {
+        var fid = btn.getAttribute("data-fid");
+        var status = btn.getAttribute("data-status");
+        btn.disabled = true;
+        await api("/api/feedback/" + fid, {
+          method: "PUT",
+          body: { status: status }
+        });
+        // Update UI
+        var itemEl = btn.closest(".admin-feedback-item");
+        itemEl.querySelectorAll(".admin-status-btn").forEach(function (b) { b.classList.remove("admin-status-active"); });
+        btn.classList.add("admin-status-active");
+        // Update the status badge
+        var badges = itemEl.querySelectorAll(".badge");
+        if (badges.length >= 3) {
+          badges[2].textContent = status;
+          badges[2].className = "badge feedback-status-" + status;
+        }
+        btn.disabled = false;
+      });
+    });
   }
 
   function renderAbout() {
