@@ -1,0 +1,1209 @@
+[
+  {
+    "number": 1,
+    "title": "Mato Jowe",
+    "description": "Opening / calling spirits",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Mato jowe ayonban je", "phrase_idx": null, "repeat": 2, "translation": "Welcome to the ceremony" },
+            { "text": "Raro raro shamankin", "phrase_idx": null, "repeat": 2, "translation": "I am pleased and all is well" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Mato ikinyonbano je", "phrase_idx": null, "repeat": 2, "translation": "Spirits now I call to heal you" },
+            { "text": "Nomabora bekanke", "phrase_idx": null, "repeat": 2, "translation": "Men and women all will heal" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Mato betan raroi je", "phrase_idx": null, "repeat": 2, "translation": "I am pleased to be with you here" },
+            { "text": "Mato ikinyonbano", "phrase_idx": null, "repeat": 3, "translation": "In my visions I'm with you" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 2,
+    "title": "Nocon Shawan",
+    "description": "Welcome / calling spirits / ancestors",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nocon shawan caibobo", "phrase_idx": null, "repeat": null, "translation": "Welcome family from afar" },
+            { "text": "Nonra mato jowe acai", "phrase_idx": null, "repeat": null, "translation": "Now the spirits welcome you" },
+            { "text": "Neska neska shamankin", "phrase_idx": null, "repeat": null, "translation": "I call you to this healing place" },
+            { "text": "Mato jowe acai", "phrase_idx": null, "repeat": 3, "translation": "I call the spirits to heal you" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Mato jowe ayunshon", "phrase_idx": null, "repeat": null, "translation": "With this prayer I will heal you" },
+            { "text": "Mato ishon banonkin", "phrase_idx": null, "repeat": null, "translation": "Listen to this healing prayer" },
+            { "text": "Neska neska ranike", "phrase_idx": null, "repeat": null, "translation": "My ancestors heal the sick" },
+            { "text": "Non shawan anibo", "phrase_idx": null, "repeat": 3, "translation": "I call my sickly family" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nomabo beashki", "phrase_idx": null, "repeat": null, "translation": "Spirits of the plants shall come" },
+            { "text": "Chiti chiti shamani", "phrase_idx": null, "repeat": null, "translation": "They all dance among us now" },
+            { "text": "Raro raro shamani", "phrase_idx": null, "repeat": null, "translation": "With their joyous dance they heal" },
+            { "text": "Non mato ishonon", "phrase_idx": null, "repeat": 3, "translation": "To you all I give this prayer" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 3,
+    "title": "Neska Neska",
+    "description": "Healing / diagnosis",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Neska neska shamankin", "phrase_idx": null, "repeat": 2, "translation": "Hear you now the words I sing" },
+            { "text": "Yora pari abano", "phrase_idx": null, "repeat": 2, "translation": "Your sickness and your body" },
+            { "text": "Pana yonparibano", "phrase_idx": null, "repeat": 2, "translation": "I am healing it right now" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Ponte yonparibano", "phrase_idx": null, "repeat": 2, "translation": "I go to where the illness starts" },
+            { "text": "Kano Ponte Yonbano", "phrase_idx": null, "repeat": 2, "translation": "With my strength I heal you" },
+            { "text": "Yoi yoi shamankin", "phrase_idx": null, "repeat": 2, "translation": "I seek to name your illness" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Sowa sowa shamankin", "phrase_idx": null, "repeat": 2, "translation": "I search to clean your body now" },
+            { "text": "Nete pari abano", "phrase_idx": null, "repeat": null, "translation": "I open up your visions" },
+            { "text": "Neska neska shamankin", "phrase_idx": null, "repeat": null, "translation": "I sing all full of joy" },
+            { "text": "Nanta nanta shamankin", "phrase_idx": null, "repeat": 2, "translation": "With my hands I will heal you" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Yorabo abano", "phrase_idx": null, "repeat": 2, "translation": "I search to treat your body now" },
+            { "text": "Payan yonparibano", "phrase_idx": null, "repeat": null, "translation": "With this I now will heal you" },
+            { "text": "Oin Yonparibano", "phrase_idx": null, "repeat": null, "translation": "For I have found your illness" },
+            { "text": "Mana yonparibano", "phrase_idx": null, "repeat": 2, "translation": "Yes I know from where it comes" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 4,
+    "title": "Mia Oin Yonbanonkin",
+    "description": "Healing / diagnosis",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Mia oin yonbanonkin", "phrase_idx": null, "repeat": 3, "translation": "Spirits come to help me see" },
+            { "text": "Nocon pae merankin", "phrase_idx": null, "repeat": 2, "translation": "Guide me on this journey" },
+            { "text": "Oin oin shamankin", "phrase_idx": null, "repeat": null, "translation": "I will seek your illness now" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nocon jana rebonbi", "phrase_idx": null, "repeat": 2, "translation": "In my mouth upon my tongue" },
+            { "text": "Medicina yontaana", "phrase_idx": null, "repeat": null, "translation": "Medicine is what I have" },
+            { "text": "Mia oin banonkin", "phrase_idx": null, "repeat": 2, "translation": "With this song I heal you now" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Yoi yanta nankin", "phrase_idx": null, "repeat": null, "translation": "I will name the medicine" },
+            { "text": "En mia ashonban", "phrase_idx": null, "repeat": null, "translation": "that will heal you from your ills" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Ashon shamantaana", "phrase_idx": null, "repeat": null, "translation": "I am healing all your pain" },
+            { "text": "Mia sene ayonkin", "phrase_idx": null, "repeat": 3, "translation": "Now the healing is all done" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 5,
+    "title": "Paro Keibakeash",
+    "description": "Preparation for the future / healing",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Paro keibekeash", "phrase_idx": null, "repeat": null, "translation": "I come from where" },
+            { "text": "Nete senenainko", "phrase_idx": null, "repeat": null, "translation": "The whole world has ended" },
+            { "text": "Maya aketanash", "phrase_idx": null, "repeat": null, "translation": "Beneath the earth is shifting" },
+            { "text": "Noki mai beai", "phrase_idx": null, "repeat": 4, "translation": "Healing plants turn into kings" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Ray joyo akeash", "phrase_idx": null, "repeat": 2, "translation": "You receive my icaro" },
+            { "text": "Nocon joi binora", "phrase_idx": null, "repeat": null, "translation": "You receive my medicine" },
+            { "text": "Make rakan shobano", "phrase_idx": null, "repeat": 4, "translation": "So don't be afraid \u2013 Have faith in God" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Ani jematiibi", "phrase_idx": null, "repeat": null, "translation": "All the countries may fear" },
+            { "text": "Jema anitiibi", "phrase_idx": null, "repeat": null, "translation": "Yet we know of other worlds" },
+            { "text": "Kirikabo noyain", "phrase_idx": null, "repeat": null, "translation": "We, like healing plants can fly" },
+            { "text": "Noya baintaana", "phrase_idx": null, "repeat": null, "translation": "So therefore be prepared" },
+            { "text": "Maketi bekanii", "phrase_idx": null, "repeat": 3, "translation": "Spirits come and sing with us / So that we can be prepared" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": {
+      "label": "Alternative Translation",
+      "note": "works best with the alternative melody",
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Paro keibakeash", "phrase_idx": null, "repeat": null, "translation": "I cross the great ocean" },
+            { "text": "Nete senenainko", "phrase_idx": null, "repeat": null, "translation": "To where the world ends" },
+            { "text": "Maya aketanash", "phrase_idx": null, "repeat": null, "translation": "Bringing all the doctor spirits" },
+            { "text": "Noki mai beai", "phrase_idx": null, "repeat": 4, "translation": "Of the healing plants and trees / Doctors of the plants and trees / Come and join our ceremony / Come to heal us please" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Ray joyo akeash", "phrase_idx": null, "repeat": 2, "translation": "Kingly spirits of the forest / Queenly spirits of the trees" },
+            { "text": "Nocon joi binora", "phrase_idx": null, "repeat": null, "translation": "We will come and talk to you" },
+            { "text": "Make rakan shobano", "phrase_idx": null, "repeat": 4, "translation": "Putting the world into place / With the sound of our voice / Spirits come and sing with us / So that we may change the world" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Ani jematiibi", "phrase_idx": null, "repeat": null, "translation": "In this great jungle" },
+            { "text": "Jema anitiibi", "phrase_idx": null, "repeat": null, "translation": "In this great country" },
+            { "text": "Kirikaboo noyain", "phrase_idx": null, "repeat": null, "translation": "We send our prayers up to god" },
+            { "text": "Noya baintana", "phrase_idx": null, "repeat": null, "translation": "Flying in the wind" },
+            { "text": "Maketi bekanii", "phrase_idx": null, "repeat": 3, "translation": "Singing to heal ourselves / Singing to heal the world / Singing to bring great change" }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "number": 6,
+    "title": "Rama Pari Abano",
+    "description": "Diet connection / clearing negative energy",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Rama Pari Abano", "phrase_idx": null, "repeat": null, "translation": "Now as I prepare myself" },
+            { "text": "Nokon Sama Tari", "phrase_idx": null, "repeat": null, "translation": "With the cushma of my diet" },
+            { "text": "Rao Sama Tari", "phrase_idx": null, "repeat": 2, "translation": "The cushma of the plants I dieted" },
+            { "text": "Sawe aketanara", "phrase_idx": null, "repeat": null, "translation": "I put it on to wear it and protect myself" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nokon sama maiti", "phrase_idx": null, "repeat": null, "translation": "And the crown of my diets" },
+            { "text": "Rao sama maiti", "phrase_idx": null, "repeat": null, "translation": "Of the plants I carry inside of me" },
+            { "text": "Sawe aketanara", "phrase_idx": null, "repeat": null, "translation": "I wear it to protect and guide me" },
+            { "text": "Rao jiwibodibi", "phrase_idx": null, "repeat": null, "translation": "And to the top of the tree as well" },
+            { "text": "Rao shamabodibi", "phrase_idx": null, "repeat": null, "translation": "I prepare to go there and work" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Yaka tira bewai", "phrase_idx": null, "repeat": null, "translation": "With my words and singing I seat myself there" },
+            { "text": "Bewa bewa shamani", "phrase_idx": null, "repeat": null, "translation": "Singing strongly and clearly" },
+            { "text": "Shinitapon maquina", "phrase_idx": null, "repeat": 2, "translation": "In the top of the tree I work and sing through my pipe" },
+            { "text": "Ani rao maquina", "phrase_idx": null, "repeat": null, "translation": "This great machine of the plants" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Iman bewa maquina", "phrase_idx": null, "repeat": null, "translation": "Through the magnetic resonance of my machine" },
+            { "text": "Coshi bewa maquina", "phrase_idx": null, "repeat": 2, "translation": "And in the powerful singing that flows through me" },
+            { "text": "Ja Shaman yakashon", "phrase_idx": null, "repeat": null, "translation": "I seat myself here in the center of my machine" },
+            { "text": "Yakashonra acai", "phrase_idx": null, "repeat": null, "translation": "Sitting myself here to work and sing" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Jakonmabo niwebo", "phrase_idx": null, "repeat": null, "translation": "And all the bad energies" },
+            { "text": "Wiso maya niwebo", "phrase_idx": null, "repeat": null, "translation": "The dark energies that swirl around us" },
+            { "text": "Payan payan shamankin", "phrase_idx": null, "repeat": null, "translation": "I fan these away with the great winds of the plants" },
+            { "text": "Sowa sowa shamankin", "phrase_idx": null, "repeat": null, "translation": "To clean them and purify them" },
+            { "text": "Keyo keyo shamankin", "phrase_idx": null, "repeat": null, "translation": "And to end all bad connections" },
+            { "text": "Sowa sowa shamankin", "phrase_idx": null, "repeat": null, "translation": "To clean all negative energies" },
+            { "text": "Keyo keyo shamankin", "phrase_idx": null, "repeat": null, "translation": "And take them out from myself and you" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 7,
+    "title": "En Keyo Keyo Baan",
+    "description": "Healing / clearing negative energy",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "En keyo keyo baan", "phrase_idx": null, "repeat": null, "translation": "I am taking out the bad" },
+            { "text": "Min yora mearaa", "phrase_idx": null, "repeat": null, "translation": "From your body it will go" },
+            { "text": "En keyo keyo baan", "phrase_idx": null, "repeat": null, "translation": "I am taking out the bad" },
+            { "text": "Yoramea noabo", "phrase_idx": null, "repeat": null, "translation": "From your spirit it will go" },
+            { "text": "Keyo keyo bokinra", "phrase_idx": null, "repeat": 4, "translation": "I will take it all out" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nai manaan jiwira", "phrase_idx": null, "repeat": 2, "translation": "Look unto the sword" },
+            { "text": "Manaan jiwi acero", "phrase_idx": null, "repeat": 4, "translation": "Look unto the steel sword" },
+            { "text": "Acero jonibo", "phrase_idx": null, "repeat": null, "translation": "The sword transforms" },
+            { "text": "Noara ikanaii", "phrase_idx": null, "repeat": 4, "translation": "the power of man" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Rama kan keyo baan", "phrase_idx": null, "repeat": 2, "translation": "Now I've finished taking out" },
+            { "text": "Min yora meabi", "phrase_idx": null, "repeat": 4, "translation": "from your body all the bad" },
+            { "text": "Keyo keyo bokinra", "phrase_idx": null, "repeat": 4, "translation": "I continue taking out" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Makan jiwi acero", "phrase_idx": null, "repeat": 2, "translation": "The steel sword transforms" },
+            { "text": "Acero jonibo", "phrase_idx": null, "repeat": null, "translation": "With its power it transforms" },
+            { "text": "Ibain ronkinra", "phrase_idx": null, "repeat": 8, "translation": "And it comes to all of us" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Joni jiwi campana", "phrase_idx": null, "repeat": null, "translation": "Like the clear sound of a bell" },
+            { "text": "Metsatai meranra", "phrase_idx": null, "repeat": null, "translation": "Its soft tone helps me to heal" },
+            { "text": "En mia abano", "phrase_idx": null, "repeat": null, "translation": "Now your body I will" },
+            { "text": "Yora meabo a", "phrase_idx": null, "repeat": null, "translation": "And keep removing all the bad" },
+            { "text": "Sowa sowa bokinra", "phrase_idx": null, "repeat": null, "translation": "I'm removing all the bad" },
+            { "text": "Keyo keyo shonkinra", "phrase_idx": null, "repeat": 6, "translation": "I will heal you and be done" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Joni jiwi campana", "phrase_idx": null, "repeat": null, "translation": "Like the clear sound of the bell" },
+            { "text": "Metsatai meranra", "phrase_idx": null, "repeat": null, "translation": "Its soft tone helps me to heal" },
+            { "text": "Oran bawa pororo", "phrase_idx": null, "repeat": null, "translation": "I pray with all my heart" },
+            { "text": "Ibain rakanaii", "phrase_idx": null, "repeat": 5, "translation": "and my powers go to you" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 8,
+    "title": "Nocon Sama",
+    "description": "To end a diet (Masha Bewa)",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nocon sama kanobi", "phrase_idx": null, "repeat": null, "translation": "With the song of my path" },
+            { "text": "Sama shatebanonkin", "phrase_idx": null, "repeat": null, "translation": "I'm going to end my diet" },
+            { "text": "Nocon sama shateban", "phrase_idx": null, "repeat": null, "translation": "I'm going to protect my body" },
+            { "text": "Nocon yora panaban", "phrase_idx": null, "repeat": 2, "translation": "with the protection of the plants" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nocon pae sheataeni", "phrase_idx": null, "repeat": null, "translation": "With my bitter purgative" },
+            { "text": "Yora coshi ayonban", "phrase_idx": null, "repeat": 2, "translation": "I'm going to receive the energy" },
+            { "text": "Yora arkana ayonshon", "phrase_idx": null, "repeat": null, "translation": "protecting my body with an arkana" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nocon sama kanobi", "phrase_idx": null, "repeat": null, "translation": "With the song of my path" },
+            { "text": "Noyarao niwekin", "phrase_idx": null, "repeat": null, "translation": "With the air of the plant doctors (Noyarao)" },
+            { "text": "Shate yonparibanon", "phrase_idx": null, "repeat": 4, "translation": "I will end my diet" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 9,
+    "title": "Pisha Pisha",
+    "description": "Healing / altering mareacion / protection",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Pisha pisha bainkin", "phrase_idx": null, "repeat": 3, "translation": "I set myself free" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Jawen shaman bewashon", "phrase_idx": null, "repeat": null, "translation": "To sing from the trunk and throne" },
+            { "text": "Bewa bewa kakinra", "phrase_idx": null, "repeat": null, "translation": "With my icaros I'm free" },
+            { "text": "Rama kano anonka", "phrase_idx": null, "repeat": 4, "translation": "Now I am free to do my work / I am free to heal and see / I am free to do my work / I am free to heal and see" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Pisha aketanshonra", "phrase_idx": null, "repeat": 2, "translation": "Setting free the good energy" },
+            { "text": "Jawen shaman pishashon", "phrase_idx": null, "repeat": null, "translation": "I transform into a tree" },
+            { "text": "Bewa bewa kakinra", "phrase_idx": null, "repeat": null, "translation": "Singing singing songs of power" },
+            { "text": "Rama kano anonka", "phrase_idx": null, "repeat": 2, "translation": "That let me do my work / That let me heal and see" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Pisha aketanshonra", "phrase_idx": null, "repeat": null, "translation": "Now I open the world" },
+            { "text": "Rama kano tsetkano", "phrase_idx": null, "repeat": null, "translation": "Of vision and energy" },
+            { "text": "Tsetka tsetka bainkin", "phrase_idx": null, "repeat": null, "translation": "Bringing good medicines" },
+            { "text": "Keyo keyo bainkin", "phrase_idx": null, "repeat": 3, "translation": "Completion is near / Completion is here" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Mia keskatanshonra", "phrase_idx": null, "repeat": null, "translation": "I've transformed inside of you" },
+            { "text": "Tsinki Tsinki bainkin", "phrase_idx": null, "repeat": null, "translation": "As a doctor of the plants" },
+            { "text": "Nawe nawe bainkin", "phrase_idx": null, "repeat": null, "translation": "Calling all the spirits here" },
+            { "text": "Rama kano keyono \\", "phrase_idx": null, "repeat": null, "translation": "To give the medicine" },
+            { "text": "Min yora meara", "phrase_idx": null, "repeat": null, "translation": "And with power and grace I treat" },
+            { "text": "Keyo ira bewai", "phrase_idx": null, "repeat": 4, "translation": "The patients and their illness" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nocon bibliakan", "phrase_idx": null, "repeat": null, "translation": "Holy word and holy tongue" },
+            { "text": "Santa bibliakan", "phrase_idx": null, "repeat": null, "translation": "Holy word in my hand" },
+            { "text": "Niwe bibliakan", "phrase_idx": null, "repeat": null, "translation": "Power of spirit in my hand" },
+            { "text": "Jan shaman kayaka \\", "phrase_idx": null, "repeat": null, "translation": "Removing what I see" },
+            { "text": "Payan yonparibano", "phrase_idx": null, "repeat": 3, "translation": "Purifying your body" },
+            { "text": "Payan ira bewai", "phrase_idx": null, "repeat": null, "translation": "As I sing to purify" },
+            { "text": "Ea kaya neskano", "phrase_idx": null, "repeat": 2, "translation": "I plant doctors into me / I plant doctors into you" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Jan shaman kayaka", "phrase_idx": null, "repeat": 2, "translation": "With the power of the doctor I will heal your body" },
+            { "text": "Piko yonribatano", "phrase_idx": null, "repeat": null, "translation": "And remove the illness" },
+            { "text": "Memoria netenkan", "phrase_idx": null, "repeat": null, "translation": "From the world of memory" },
+            { "text": "Ani nete rakaya", "phrase_idx": null, "repeat": null, "translation": "This is the place to be" },
+            { "text": "Nete ani rakaya", "phrase_idx": null, "repeat": 3, "translation": "The best medicine country / And in this country I'm a doctor" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 10,
+    "title": "Meni Meni",
+    "description": "Giving mareacion",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Meni meni baan", "phrase_idx": null, "repeat": null, "translation": "First I'm going to give you the mareacion" },
+            { "text": "Pae meni makinra", "phrase_idx": null, "repeat": null, "translation": "Freeing the energy" },
+            { "text": "Pisha aketaana", "phrase_idx": null, "repeat": null, "translation": "I transform you into Doctors" },
+            { "text": "Enra kano mairi", "phrase_idx": null, "repeat": null, "translation": "Of the plant people" },
+            { "text": "Joni merayabores", "phrase_idx": null, "repeat": null, "translation": "Doctors of the Doctors" },
+            { "text": "Kano ira bewai", "phrase_idx": null, "repeat": 3, "translation": "Who sing to bring medicine" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Pae bekinra", "phrase_idx": null, "repeat": null, "translation": "Doctors that bring visions" },
+            { "text": "Oni pae maquina", "phrase_idx": null, "repeat": null, "translation": "and the machine of the effects" },
+            { "text": "Pisha aketanshonra", "phrase_idx": null, "repeat": null, "translation": "I place the antennae of my icaro line" },
+            { "text": "Niwe jakon ponteni", "phrase_idx": null, "repeat": null, "translation": "My line makes a pathway" },
+            { "text": "Kano para maira", "phrase_idx": null, "repeat": null, "translation": "Where I learn medicine" },
+            { "text": "Noa neno neskano", "phrase_idx": null, "repeat": null, "translation": "Showing a world of designs" },
+            { "text": "Noa kano keweni", "phrase_idx": null, "repeat": null, "translation": "Like the ones on my clothes" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 11,
+    "title": "Nocon Kano Keweni",
+    "description": "Healing / calling spirits",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nocon kano keweni", "phrase_idx": null, "repeat": 2, "translation": "With my connection, adorned with designs" },
+            { "text": "Joni sowa sowawa", "phrase_idx": null, "repeat": null, "translation": "I purify them" },
+            { "text": "Eara neno niai", "phrase_idx": null, "repeat": 2, "translation": "I walk in their body" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Rao riosbo", "phrase_idx": null, "repeat": null, "translation": "With the Gods of the plants" },
+            { "text": "Noyarao riosbo", "phrase_idx": null, "repeat": null, "translation": "With the Gods of Noyarao" },
+            { "text": "Joni pastorobora", "phrase_idx": null, "repeat": 2, "translation": "And the pastors of men" },
+            { "text": "Rokotoro jonibo", "phrase_idx": null, "repeat": null, "translation": "And the great plant doctors" },
+            { "text": "Kano mayontanara", "phrase_idx": null, "repeat": null, "translation": "With my path of lines" },
+            { "text": "Ea neno neskano", "phrase_idx": null, "repeat": null, "translation": "I am beginning" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Jowi sowawa", "phrase_idx": null, "repeat": null, "translation": "To free you from the bad paths" },
+            { "text": "Nocon jowi sowawa", "phrase_idx": null, "repeat": null, "translation": "With my power I will clean" },
+            { "text": "Joni niash ikani", "phrase_idx": null, "repeat": null, "translation": "Although before it was not this way" },
+            { "text": "Ikamara inike", "phrase_idx": null, "repeat": null, "translation": "For this I bring the spirits here" },
+            { "text": "Jowi bishon sowawe", "phrase_idx": null, "repeat": null, "translation": "In order to liberate them" },
+            { "text": "Eara neno niai", "phrase_idx": null, "repeat": 2, "translation": "Wherever they go" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Tai tianki", "phrase_idx": null, "repeat": null, "translation": "In this way I will help you" },
+            { "text": "Neska tai tianki", "phrase_idx": null, "repeat": null, "translation": "And even though your friends are far away" },
+            { "text": "Wetsa mai nomabo", "phrase_idx": null, "repeat": null, "translation": "I will bring them" },
+            { "text": "Nocon pinon ipain", "phrase_idx": null, "repeat": null, "translation": "With my Hummingbird" },
+            { "text": "Joni neska neskano", "phrase_idx": null, "repeat": null, "translation": "The people from afar" },
+            { "text": "Iki ikanaibo", "phrase_idx": null, "repeat": null, "translation": "Those that want to be cured" },
+            { "text": "Oin yaketana", "phrase_idx": null, "repeat": null, "translation": "I see their spirits" },
+            { "text": "Eara neno niai", "phrase_idx": null, "repeat": null, "translation": "I will work with them or" },
+            { "text": "Shawan caibobo", "phrase_idx": null, "repeat": null, "translation": "With my family" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 12,
+    "title": "Joni Sowa Sowawa",
+    "description": "Calling spirits / opening worlds",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Joni sowa sowawa", "phrase_idx": null, "repeat": 6, "translation": "The Doctors are cleaning me of illness" },
+            { "text": "Nete ani meara", "phrase_idx": null, "repeat": 4, "translation": "In my visions and my mareacion" },
+            { "text": "Kano ira manke", "phrase_idx": null, "repeat": 5, "translation": "Giving energy and sending wisdom" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nete jakon rakaya", "phrase_idx": null, "repeat": null, "translation": "I will heal you and fill you with the power of the plants" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Noa joni virivi", "phrase_idx": null, "repeat": null, "translation": "We, the Doctors, are helping you in this way" },
+            { "text": "Nete ani rakaya", "phrase_idx": null, "repeat": null, "translation": "We are opening a world of visions" },
+            { "text": "Rios jema kepeni", "phrase_idx": null, "repeat": null, "translation": "through God's will and God's energy" },
+            { "text": "Torri ewa joyoya", "phrase_idx": null, "repeat": null, "translation": "This energy illuminates our ceremony" },
+            { "text": "Kano ira manke", "phrase_idx": null, "repeat": 6, "translation": "And descends as rays of light" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Inin kewe niwera", "phrase_idx": null, "repeat": null, "translation": "My energies are like sweet smelling perfumes" },
+            { "text": "Rao noma ronkeni", "phrase_idx": null, "repeat": 4, "translation": "The female masters of the plants made them this way" },
+            { "text": "Kory chiki joyota", "phrase_idx": null, "repeat": 6, "translation": "And the messenger birds as well" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Kano baintana", "phrase_idx": null, "repeat": null, "translation": "I am opening a path" },
+            { "text": "Nete kano riosbo", "phrase_idx": null, "repeat": null, "translation": "That leads to the illuminated visions of God" },
+            { "text": "Isa yoyo irai", "phrase_idx": null, "repeat": null, "translation": "I talk to the messenger birds who tell me what they see" },
+            { "text": "Nete kano niwebo", "phrase_idx": null, "repeat": 6, "translation": "With my power and airs I will design the world" },
+            { "text": "Manira beai", "phrase_idx": null, "repeat": 4, "translation": "The sky people descend like aliens" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 13,
+    "title": "Pana Yonparibano",
+    "description": "Protection",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Pana yonparibano", "phrase_idx": null, "repeat": 2, "translation": "I'm protecting myself / my body" },
+            { "text": "Yora panayonbano", "phrase_idx": null, "repeat": 2, "translation": "I'm protecting everyone" },
+            { "text": "Pana pana shamankin", "phrase_idx": null, "repeat": 4, "translation": "And the whole world" },
+            { "text": "Pana yontanankaya", "phrase_idx": null, "repeat": 2, "translation": "In making this protection" },
+            { "text": "Paro shaman bebaban", "phrase_idx": null, "repeat": 4, "translation": "I will arrive at an ocean" },
+            { "text": "Beba yontaana", "phrase_idx": null, "repeat": 2, "translation": "And within this ocean" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nai shaman bebaban", "phrase_idx": null, "repeat": 2, "translation": "I walk and wonder" },
+            { "text": "Beba beba shamani", "phrase_idx": null, "repeat": 4, "translation": "And I arrive" },
+            { "text": "Mato ashonyonbano", "phrase_idx": null, "repeat": 2, "translation": "I arrive in heaven / I purify you all" },
+            { "text": "Pae meni meni ban", "phrase_idx": null, "repeat": 4, "translation": "And here I walk and converse with aliens" },
+            { "text": "Joni meraya bokan", "phrase_idx": null, "repeat": 2, "translation": "And the master curanderos" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Kena kena shamankin", "phrase_idx": null, "repeat": 6, "translation": "And their disciples will come" },
+            { "text": "Yora metsa ayonban", "phrase_idx": null, "repeat": 2, "translation": "To adorn our bodies with patterns" },
+            { "text": "Yora kewe ayonban", "phrase_idx": null, "repeat": 4, "translation": "To adorn our bodies with designs" },
+            { "text": "Rama ishamani", "phrase_idx": null, "repeat": 6, "translation": "And these designs signify that we are strong" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 14,
+    "title": "Rao Niwebo",
+    "description": "Calling spirits / opening worlds",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Rao niwebo", "phrase_idx": null, "repeat": null, "translation": "We call to the plant spirits" },
+            { "text": "Noyarao riosbo", "phrase_idx": null, "repeat": null, "translation": "We call to the gods of Noyarao" },
+            { "text": "Joyo joyo niwebo", "phrase_idx": null, "repeat": null, "translation": "They come in masses to us now" },
+            { "text": "Niwe jakon roanyon", "phrase_idx": null, "repeat": 2, "translation": "They come with their icaros and sounds" },
+            { "text": "Kano mayontanara", "phrase_idx": null, "repeat": null, "translation": "I'll make the icaro line" },
+            { "text": "Joni sowa sowawa", "phrase_idx": null, "repeat": 2, "translation": "And the doctors descend" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Panpa ronira", "phrase_idx": null, "repeat": null, "translation": "We call to the people of the Anaconda" },
+            { "text": "Kano panpa ronira", "phrase_idx": null, "repeat": null, "translation": "You are with the lines of the Anaconda" },
+            { "text": "Nete bowa joyoni", "phrase_idx": null, "repeat": null, "translation": "You are in the spirit world" },
+            { "text": "Kano ira manke", "phrase_idx": null, "repeat": null, "translation": "They descend on my line" },
+            { "text": "Iki iki shamani", "phrase_idx": null, "repeat": 3, "translation": "And we are joyful" },
+            { "text": "Mato pae maquina", "phrase_idx": null, "repeat": null, "translation": "You are with the machine of the mareacion" },
+            { "text": "Kepen ake bainshon", "phrase_idx": null, "repeat": 2, "translation": "I open the spiritual world" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nai wapuronibi", "phrase_idx": null, "repeat": 2, "translation": "We'll arrive in the heavens / we travel in other dimensions" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nete ani rakata", "phrase_idx": null, "repeat": 3, "translation": "Where we can be as we really are" },
+            { "text": "Nai shepote", "phrase_idx": null, "repeat": null, "translation": "We'll arrive at the door of heaven" },
+            { "text": "Kepen aketanshonra", "phrase_idx": null, "repeat": null, "translation": "The door of the spirit world" },
+            { "text": "Jain riki rakani", "phrase_idx": null, "repeat": 2, "translation": "The door of the spirit world" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Rono rono pakeshon", "phrase_idx": null, "repeat": 6, "translation": "I slowly, carefully enter the spirit world, step by step" },
+            { "text": "Maton yora tiibi", "phrase_idx": null, "repeat": null, "translation": "I transform into medicine and enter your body" },
+            { "text": "Nane aketanshon", "phrase_idx": null, "repeat": null, "translation": "I transform into plants / I give you energy of my diets" },
+            { "text": "Nete ani kepenban", "phrase_idx": null, "repeat": 2, "translation": "I'm in the world of medicinal plants" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Rios sen shinaman", "phrase_idx": null, "repeat": null, "translation": "With the medicine, ideas and world of god" },
+            { "text": "Nete torri maquina", "phrase_idx": null, "repeat": null, "translation": "I speak to the plants / I build the connection to god" },
+            { "text": "Enra kano mairi", "phrase_idx": null, "repeat": null, "translation": "I ask for their power / from here I know how to heal" },
+            { "text": "Niwe torri campana", "phrase_idx": null, "repeat": 5, "translation": "Their connection and their healing bell" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nete ani kepeni", "phrase_idx": null, "repeat": 6, "translation": "I open the spirit world" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 15,
+    "title": "Niwe Torri Campana",
+    "description": "Healing",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Niwe torri campana", "phrase_idx": null, "repeat": 3, "translation": "The wind of your connection rings like a healing bell" },
+            { "text": "Nete ani kepeni", "phrase_idx": null, "repeat": 2, "translation": "I will open the immense world of Noyarao" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Noyarao riosbo", "phrase_idx": null, "repeat": null, "translation": "The world of the gods of Noyarao" },
+            { "text": "Joyo joyo niwebo", "phrase_idx": null, "repeat": 2, "translation": "You are connecting to the world of god" },
+            { "text": "Joni sowa sowawa", "phrase_idx": null, "repeat": null, "translation": "I will heal you" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "En keyo keyo baan", "phrase_idx": null, "repeat": null, "translation": "I will care for you, I will raise you up healthy" },
+            { "text": "Min rami niwebo", "phrase_idx": null, "repeat": null, "translation": "I will remove your bad spirits and energy" },
+            { "text": "En keyo bokinra", "phrase_idx": null, "repeat": 2, "translation": "I am cleaning and washing your body" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Sowa sowa bokinra", "phrase_idx": null, "repeat": null, "translation": "I am going to diagnose you" },
+            { "text": "Pisha pisha bokinra", "phrase_idx": null, "repeat": null, "translation": "I have released the bad spirits, I am leaving you free" },
+            { "text": "Nete senenainko", "phrase_idx": null, "repeat": null, "translation": "Where the world ends" },
+            { "text": "Maya aketanash", "phrase_idx": null, "repeat": null, "translation": "I have walked where the Noyarao world ends" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Manira Bekanai", "phrase_idx": null, "repeat": null, "translation": "From there the people of Noaya Rao came to heal you" },
+            { "text": "Noki beiranira", "phrase_idx": null, "repeat": null, "translation": "They came to be in our ceremony" },
+            { "text": "Weiberani", "phrase_idx": null, "repeat": null, "translation": "They entered our mareacion" },
+            { "text": "Chiti chiti shamani", "phrase_idx": null, "repeat": null, "translation": "They were happy because they saw you healthy" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Mato kano mayonban", "phrase_idx": null, "repeat": null, "translation": "With that vision I will connect you" },
+            { "text": "Ja neten pikotas", "phrase_idx": null, "repeat": null, "translation": "I go to a wonderful world" },
+            { "text": "Mana mana shamanbaan", "phrase_idx": null, "repeat": null, "translation": "I am seeing everything in you" },
+            { "text": "Min yora meabi", "phrase_idx": null, "repeat": 3, "translation": "Your body, your energy and your connection" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": {
+      "label": "Alternative Translation",
+      "note": "works best with the alternative melody",
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Winds of your energy", "phrase_idx": null, "repeat": null, "translation": "Walking where the world ends" },
+            { "text": "Calling like a healing bell", "phrase_idx": null, "repeat": 2, "translation": "Spirits of the plants and trees" },
+            { "text": "Ringing like a healing bell", "phrase_idx": null, "repeat": null, "translation": "Give to you their remedies" },
+            { "text": "Opening a new world", "phrase_idx": null, "repeat": null, "translation": "Joining ceremony" },
+            { "text": "Trees of a glowing world", "phrase_idx": null, "repeat": null, "translation": "Blessing ceremony" },
+            { "text": "Spirits all around you dance", "phrase_idx": null, "repeat": null, "translation": "Joyful in our vision" },
+            { "text": "Spirits all around us dance", "phrase_idx": null, "repeat": null, "translation": "Joyful in their visions" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Listen I will heal you", "phrase_idx": null, "repeat": null, "translation": "Rise up to the majesty" },
+            { "text": "Listen I will care for you", "phrase_idx": null, "repeat": null, "translation": "Ride your lines of energy" },
+            { "text": "Crystal waters purify", "phrase_idx": null, "repeat": null, "translation": "Ride your lines all through the trees" },
+            { "text": "Your soul to arise", "phrase_idx": null, "repeat": null, "translation": "Luminous body" },
+            { "text": "Give to me your burdens", "phrase_idx": null, "repeat": null, "translation": "Luminous being" },
+            { "text": "Give to me your sorrows", "phrase_idx": null, "repeat": 5, "translation": "Come and claim your ecstasy" },
+            { "text": "Set your heart a glowing", "phrase_idx": null, "repeat": null, "translation": null },
+            { "text": "Set your heart glowing", "phrase_idx": null, "repeat": 2, "translation": null }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "number": 16,
+    "title": "Noyarao Joe Kan",
+    "description": "Calling Noyarao light / healing",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Noyarao joe kan", "phrase_idx": null, "repeat": null, "translation": "The light of Noyarao" },
+            { "text": "Noyarao barikan", "phrase_idx": null, "repeat": 3, "translation": "The sun of Noyarao" },
+            { "text": "Nocon yora kanoban", "phrase_idx": null, "repeat": null, "translation": "I connect it to my body" },
+            { "text": "Yora kibi kanoban", "phrase_idx": null, "repeat": 2, "translation": "I build a bridge with it to my body" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Shinan kibi kanoban", "phrase_idx": null, "repeat": null, "translation": "Bridge it to my mind" },
+            { "text": "Kaya kibi kanoban", "phrase_idx": null, "repeat": 2, "translation": "Bridge it to my soul" },
+            { "text": "Bewa bewa kakinra", "phrase_idx": null, "repeat": null, "translation": "With this connection, I sing" },
+            { "text": "Mato ashon banonkin", "phrase_idx": null, "repeat": null, "translation": "To heal you all" },
+            { "text": "Ashonira bewai", "phrase_idx": null, "repeat": null, "translation": "Healing with the words of my song" },
+            { "text": "Ashon shamantaana", "phrase_idx": null, "repeat": null, "translation": "Deep healing" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nato joe bokaya", "phrase_idx": null, "repeat": 2, "translation": "With this light" },
+            { "text": "Maton yora meabo", "phrase_idx": null, "repeat": null, "translation": "Inside your bodies" },
+            { "text": "Sowa bain pariban", "phrase_idx": null, "repeat": null, "translation": "I will clean you now" },
+            { "text": "Josho joe bokaya", "phrase_idx": null, "repeat": null, "translation": "With this white light" },
+            { "text": "Maton shinan meabo", "phrase_idx": null, "repeat": null, "translation": "Your thoughts I have seen" },
+            { "text": "Choka choka bainban", "phrase_idx": null, "repeat": 2, "translation": "I wash them" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Min winkash boribi", "phrase_idx": null, "repeat": null, "translation": "Your sadness that I see now" },
+            { "text": "Chorro chorro bainkin", "phrase_idx": null, "repeat": 2, "translation": "I unravel it" },
+            { "text": "Chorro chorro shamankin", "phrase_idx": null, "repeat": null, "translation": "Deep liberation" },
+            { "text": "Noyarao torribo", "phrase_idx": null, "repeat": null, "translation": "My divine connection to Noyarao" },
+            { "text": "Chanka nira bewai", "phrase_idx": null, "repeat": 2, "translation": "I activate with these words" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 17,
+    "title": "Kate Yonparibanon",
+    "description": "Opening / protection / defense",
+    "note": "Whilst learning this icaro you may sing it multiple times through, however in 'normal' ceremony conditions it should only be sung through once.",
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Kate yonparibano", "phrase_idx": null, "repeat": null, "translation": "I will protect" },
+            { "text": "Chonka mana boribi", "phrase_idx": null, "repeat": 2, "translation": "With 10 different hills" },
+            { "text": "Chonka paro boribi", "phrase_idx": null, "repeat": null, "translation": "And 10 different oceans" },
+            { "text": "Chonka neshba boribi", "phrase_idx": null, "repeat": null, "translation": "And 10 different types of jungle" },
+            { "text": "Kate mayonpariban", "phrase_idx": null, "repeat": 3, "translation": "With these I surround us with protection" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Rios tsontarobokan", "phrase_idx": null, "repeat": null, "translation": "The soldiers of God," },
+            { "text": "Nete angeribokan", "phrase_idx": null, "repeat": null, "translation": "Gods holy angels" },
+            { "text": "Chita tsontarobokan", "phrase_idx": null, "repeat": null, "translation": "And Gorilla soldiers" },
+            { "text": "Kate mayonpariban", "phrase_idx": null, "repeat": 3, "translation": "With all these I surround us with protection" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nete ori ribikan", "phrase_idx": null, "repeat": null, "translation": "With the day" },
+            { "text": "Yame ori ribikan", "phrase_idx": null, "repeat": null, "translation": "And the night" },
+            { "text": "Jene ori ribikan", "phrase_idx": null, "repeat": null, "translation": "With water" },
+            { "text": "Nai ori ribikan", "phrase_idx": null, "repeat": null, "translation": "With the skies" },
+            { "text": "Kate mayonpariban", "phrase_idx": null, "repeat": 3, "translation": "With all these I surround us with protection" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nocon ronin paoti", "phrase_idx": null, "repeat": null, "translation": "I wear my snake around my neck" },
+            { "text": "Pao yonparibano", "phrase_idx": null, "repeat": null, "translation": "I wear..." },
+            { "text": "Nocon bara paoti", "phrase_idx": null, "repeat": null, "translation": "And my bullet-proof vest" },
+            { "text": "Pao yonparibano", "phrase_idx": null, "repeat": 4, "translation": "I wear these in preparation" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Jawen jaweki bokan", "phrase_idx": null, "repeat": null, "translation": "These items" },
+            { "text": "Impanima yonbano", "phrase_idx": null, "repeat": null, "translation": "And my utility belt" },
+            { "text": "Merontama yonbano", "phrase_idx": null, "repeat": null, "translation": "I pick up" },
+            { "text": "Yoshinbo ribi kaya", "phrase_idx": null, "repeat": null, "translation": "Demons have an appearance" },
+            { "text": "Onsata ikebi", "phrase_idx": null, "repeat": null, "translation": "That provokes fear," },
+            { "text": "Ea ribi onsata", "phrase_idx": null, "repeat": null, "translation": "As do I" },
+            { "text": "Onsa yonpariban", "phrase_idx": null, "repeat": null, "translation": "Demons will fear me" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nete espadakaya", "phrase_idx": null, "repeat": null, "translation": "My swords" },
+            { "text": "Kene espadakaya", "phrase_idx": null, "repeat": null, "translation": "That have designs" },
+            { "text": "Kana rera kamaya", "phrase_idx": null, "repeat": null, "translation": "That shoot lightning" },
+            { "text": "Coros ayontaana", "phrase_idx": null, "repeat": null, "translation": "Are placed in a cross in front of me" },
+            { "text": "Chanka nira bewai", "phrase_idx": null, "repeat": 4, "translation": "And I activate them with the words of my song" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 18,
+    "title": "Nocon Yora Meabo",
+    "description": "When in trouble, crossed, being attacked etc",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nocon yora meabo", "phrase_idx": null, "repeat": null, "translation": "Inside my body" },
+            { "text": "Rami kano boribi", "phrase_idx": null, "repeat": null, "translation": "The bad connections (or things)" },
+            { "text": "Keyo aketabano", "phrase_idx": null, "repeat": 4, "translation": "I remove them" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nocon shinan meabi", "phrase_idx": null, "repeat": null, "translation": "Inside my mind" },
+            { "text": "Sowa sowa bokinra", "phrase_idx": null, "repeat": 2, "translation": "I am cleaning and taking away" },
+            { "text": "Nocon joi mearanoa", "phrase_idx": null, "repeat": null, "translation": "My words/speech (that have been affected negatively)" },
+            { "text": "Keyo aketabano", "phrase_idx": null, "repeat": 2, "translation": "I am removing them" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nocon pae mearanko", "phrase_idx": null, "repeat": 2, "translation": "My mareacion" },
+            { "text": "Rami kano kanota", "phrase_idx": null, "repeat": null, "translation": "The bad things I am experiencing (in my mareacion)," },
+            { "text": "Ocha nete kanoya", "phrase_idx": null, "repeat": null, "translation": "The world of sins," },
+            { "text": "Sowa aketanara", "phrase_idx": null, "repeat": 2, "translation": "I purify all these." }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Shinan shaba ayonban", "phrase_idx": null, "repeat": 2, "translation": "I elevate these thought forms" },
+            { "text": "Tsinki aketanara", "phrase_idx": null, "repeat": 2, "translation": "Join them together" },
+            { "text": "Keya aketanara", "phrase_idx": null, "repeat": null, "translation": "Raise them up (to the divine)" },
+            { "text": "Rios kibi kanoban", "phrase_idx": null, "repeat": null, "translation": "Bridge them to God" },
+            { "text": "Kano kano shamani", "phrase_idx": null, "repeat": 3, "translation": "And solidify this connection." }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 19,
+    "title": "Nocon Ocha Kanota",
+    "description": "Cleaning / fixing your diet",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Nocon ocha kanota", "phrase_idx": null, "repeat": null, "translation": "The line of my diet sins." },
+            { "text": "Ocha niwe kanota", "phrase_idx": null, "repeat": null, "translation": "The airs of these sins" },
+            { "text": "Sowa aketabano", "phrase_idx": null, "repeat": null, "translation": "I clean them" },
+            { "text": "Sowa sowa bokinra", "phrase_idx": null, "repeat": null, "translation": "Cleaning and taking away" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Noyarao Riosbo", "phrase_idx": null, "repeat": null, "translation": "The Gods of Noyarao" },
+            { "text": "Rios yoka yonbano", "phrase_idx": null, "repeat": null, "translation": "I ask these Gods for" },
+            { "text": "Ani perdon nctebi", "phrase_idx": null, "repeat": null, "translation": "A great world of forgiveness" },
+            { "text": "Ea entregabano", "phrase_idx": null, "repeat": null, "translation": "To be given to me" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Ocha niwe kanota", "phrase_idx": null, "repeat": null, "translation": "The airs of sin" },
+            { "text": "Rios jimi chokaban", "phrase_idx": null, "repeat": null, "translation": "I wash them with the blood of God" },
+            { "text": "Ochaoma jimikan", "phrase_idx": null, "repeat": null, "translation": "Blood that is exists beyond sin" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Rios poder bokaya", "phrase_idx": null, "repeat": null, "translation": "With the power of God" },
+            { "text": "Ja niwe bokaya", "phrase_idx": null, "repeat": null, "translation": "These airs" },
+            { "text": "Sowa sowa bainban", "phrase_idx": null, "repeat": null, "translation": "I cleanse and purify" },
+            { "text": "Chorro chorro bainban", "phrase_idx": null, "repeat": null, "translation": "I untie and release them" },
+            { "text": "Pisha pisha bobano", "phrase_idx": null, "repeat": null, "translation": "and liberate them" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Rios templo bikaya", "phrase_idx": null, "repeat": 2, "translation": "The temple of God" },
+            { "text": "Pani pani mayonshon", "phrase_idx": null, "repeat": 2, "translation": "Is descending" },
+            { "text": "Ea yaka yonbano", "phrase_idx": null, "repeat": 2, "translation": "I seat myself there" },
+            { "text": "Yaka yaka shamani", "phrase_idx": null, "repeat": 2, "translation": "Deeply..." }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  },
+  {
+    "number": 20,
+    "title": "Rios Joni Kanoni",
+    "description": "Connecting to your diet / healing",
+    "note": null,
+    "song": {
+      "sections": [
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Rios joni kanoni", "phrase_idx": null, "repeat": null, "translation": "I am connecting to the diets of the people of god" },
+            { "text": "Kano kano shamani", "phrase_idx": null, "repeat": 2, "translation": "Connecting deeply to this" },
+            { "text": "Jaska rainbo kanoish", "phrase_idx": null, "repeat": null, "translation": "All of our energy lines and diets" },
+            { "text": "Mato kano mayonban", "phrase_idx": null, "repeat": 2, "translation": "I connect all of you" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Jain ribi pikoni", "phrase_idx": null, "repeat": null, "translation": "Connected here," },
+            { "text": "Pikoni netebo", "phrase_idx": null, "repeat": null, "translation": "Opening the worlds of the visions" },
+            { "text": "Raka raka baina", "phrase_idx": null, "repeat": null, "translation": "Putting the spirits in order" },
+            { "text": "Mato rawa mayonban", "phrase_idx": null, "repeat": null, "translation": "Connecting you and walking along your lines" },
+            { "text": "Shinan yabi rawamai", "phrase_idx": null, "repeat": null, "translation": "Connecting all of your thoughts" },
+            { "text": "Rawa rawa shamani", "phrase_idx": null, "repeat": null, "translation": "And everything deeply connected" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Jakonira kanoke", "phrase_idx": null, "repeat": null, "translation": "These things are now well connected" },
+            { "text": "Maton sama kanota", "phrase_idx": null, "repeat": 2, "translation": "Your diets are connected" },
+            { "text": "Rios kibi kanota", "phrase_idx": null, "repeat": null, "translation": "I am building a bridge to the diets of god" },
+            { "text": "Kanota boriki", "phrase_idx": null, "repeat": null, "translation": "Connecting and transforming your whole diet." },
+            { "text": "Kanota borikikan", "phrase_idx": null, "repeat": null, "translation": null }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Noyarao netebi", "phrase_idx": null, "repeat": null, "translation": "I call the world of Noyarao to come" },
+            { "text": "Jakonira kanoke", "phrase_idx": null, "repeat": null, "translation": "So that we are well connected" },
+            { "text": "Nocon sama parobo", "phrase_idx": null, "repeat": null, "translation": "The oceans of your diets" },
+            { "text": "Sama waporobokan", "phrase_idx": null, "repeat": null, "translation": "The boat of your diets have arrived" },
+            { "text": "Jakonira kanoke", "phrase_idx": null, "repeat": 2, "translation": "And are well connected" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Jawen shamatibi", "phrase_idx": null, "repeat": 2, "translation": "All the things of your diet" },
+            { "text": "Pisha pisha bainban", "phrase_idx": null, "repeat": 2, "translation": "I am liberating" },
+            { "text": "Pisha ira bewai", "phrase_idx": null, "repeat": null, "translation": "Liberating with the words of my song" },
+            { "text": "Maton yora tibi", "phrase_idx": null, "repeat": null, "translation": "And also your bodies" },
+            { "text": "Pisha pisha bobano", "phrase_idx": null, "repeat": 2, "translation": "I am liberating" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Noyarao rioskan", "phrase_idx": null, "repeat": 2, "translation": "The gods of Noyarao" },
+            { "text": "Jakonira kanoke", "phrase_idx": null, "repeat": 2, "translation": "Are well connected" },
+            { "text": "Maton pae kibikan", "phrase_idx": null, "repeat": null, "translation": "I build a bridge to your mareacion" },
+            { "text": "Pae nete kibikan", "phrase_idx": null, "repeat": null, "translation": "And a bridge to the world of your visions" },
+            { "text": "Jakonira kanoke", "phrase_idx": null, "repeat": 2, "translation": "And all are well connected" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Jawen medicobokan", "phrase_idx": null, "repeat": null, "translation": "The plant doctors" },
+            { "text": "Jakonira kanoke", "phrase_idx": null, "repeat": null, "translation": "Are all well connected" },
+            { "text": "Maton yora tibi", "phrase_idx": null, "repeat": null, "translation": "Your bodies as well" },
+            { "text": "Jakonira kanoke", "phrase_idx": null, "repeat": 3, "translation": "All have good connections" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Jain kanoshonkaya", "phrase_idx": null, "repeat": null, "translation": "Now that this kano is established" },
+            { "text": "Kaya kena yonbano", "phrase_idx": null, "repeat": null, "translation": "I am calling the spirit of a patient here" },
+            { "text": "Kena ira bewai", "phrase_idx": null, "repeat": 2, "translation": "Calling them with the words of my song" },
+            { "text": "Nocon iman maquina", "phrase_idx": null, "repeat": null, "translation": "The machine of my magnet" },
+            { "text": "Kaya nini yonbano", "phrase_idx": null, "repeat": null, "translation": "Pulls their soul here" },
+            { "text": "Mana mana shamani", "phrase_idx": null, "repeat": 2, "translation": "And from here I perceive it." }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Jawen yora tibi", "phrase_idx": null, "repeat": null, "translation": "Your body" },
+            { "text": "Min bira kayaka", "phrase_idx": null, "repeat": 2, "translation": "I am singing for you (singular)" },
+            { "text": "Rami niwe bokaya", "phrase_idx": null, "repeat": null, "translation": "And your bad airs" },
+            { "text": "Biyonabo rikikan", "phrase_idx": null, "repeat": 2, "translation": "That you have gathered to yourself" }
+          ]
+        },
+        {
+          "repeat": null,
+          "lines": [
+            { "text": "Iki ishamankin", "phrase_idx": null, "repeat": null, "translation": "I am singing" },
+            { "text": "Yora meabokaya", "phrase_idx": null, "repeat": null, "translation": "To the things I have seen in your body" },
+            { "text": "Chorro chorro bobano", "phrase_idx": null, "repeat": null, "translation": "Untying them" },
+            { "text": "Keyo keyo bainkin", "phrase_idx": null, "repeat": null, "translation": "Removing and terminating them" },
+            { "text": "Sowa bain shamankin", "phrase_idx": null, "repeat": 2, "translation": "And deeply purifying them" }
+          ]
+        }
+      ]
+    },
+    "phrases": null,
+    "vocabulary": null,
+    "suffix_reference": null,
+    "alternative_translation": null
+  }
+]

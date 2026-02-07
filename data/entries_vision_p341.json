@@ -1,0 +1,429 @@
+[
+  {
+    "headword": "quepishul",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "quépisha"
+    ],
+    "etymology": "[del ship. que- en la boca + pishatí abrir]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "abrir la boca"
+    ],
+    "definitions_english": [
+      "to open the mouth"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 341
+  },
+  {
+    "headword": "quepishíiti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "quépishiita"
+    ],
+    "etymology": "[del ship. que- en la boca + pishíti desengancharse + -ti, sf. refl.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "abrirse la boca (p. ej., en llanto, voz o canto)"
+    ],
+    "definitions_english": [
+      "to open the mouth (e.g., in crying, voice or song)"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 341
+  },
+  {
+    "headword": "quepásti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "quépasa"
+    ],
+    "etymology": "[del ship. que- en la boca + pásti golpear palmada a]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "dar palmada en la boca en 2",
+      "dar palmada en el canto de"
+    ],
+    "definitions_english": [
+      "to slap on the mouth",
+      "to slap on the edge of"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 341
+  },
+  {
+    "headword": "quepítl",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "quépita"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "arrimarse verticalmente",
+      "recostarse"
+    ],
+    "definitions_english": [
+      "to lean vertically",
+      "to lean (oneself)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Cíoai páenara jihuin quépita íqui moa cátira átipanyamaque.",
+        "spanish": "Un hombre borracho está recostado a un palo porque ya no puede caminar.",
+        "english": "A drunk man is leaning against a post because he can no longer walk."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 341
+  },
+  {
+    "headword": "quepóti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "quépoa"
+    ],
+    "etymology": "[del ship. que- en la boca + póti hueco + -ti, sf. inf.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "perforar un labio de"
+    ],
+    "definitions_english": [
+      "to pierce a lip of"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 8.4"
+    ],
+    "grammatical_notes": null,
+    "page_number": 341
+  },
+  {
+    "headword": "quequepeeti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "quépequeeta"
+    ],
+    "etymology": "[del ship. quepáti perforar un labio de + -quee, sf. refl.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "practicar la típica costumbre de perforarse el labio para poner algún adorno"
+    ],
+    "definitions_english": [
+      "to practice the typical custom of piercing the lip to put in some adornment"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 8.4"
+    ],
+    "grammatical_notes": null,
+    "page_number": 341
+  },
+  {
+    "headword": "quequéshtl",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "quéquésha"
+    ],
+    "etymology": "[del ship. que- en la boca, en el canto + quésheti coser]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "coser en la boca o por el canto"
+    ],
+    "definitions_english": [
+      "to sew on the mouth or on the edge"
+    ],
+    "examples": [
+      {
+        "shipibo": "Titánra bórosa quequéshque.",
+        "spanish": "Mamá cosió la boca de la bolsa.",
+        "english": "Mom sewed the mouth of the bag."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 341
+  },
+  {
+    "headword": "quequéuti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "quéquena"
+    ],
+    "etymology": "[del ship. que- en la boca + quencátl pintar con diseños]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "poner diseños en la boca de (p. ej., una tinaja)"
+    ],
+    "definitions_english": [
+      "to put designs on the mouth of (e.g., a clay jar)"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 341
+  },
+  {
+    "headword": "querás",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "quérasen"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "sucio",
+      "cochino",
+      "asqueroso"
+    ],
+    "definitions_english": [
+      "dirty",
+      "filthy",
+      "disgusting"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato báquera mentsís querás iqui.",
+        "spanish": "Este niño tiene las uñas sucias.",
+        "english": "This child has dirty fingernails."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "oshlá"
+    ],
+    "grammatical_notes": null,
+    "page_number": 341
+  },
+  {
+    "headword": "querásatl",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [
+      "querásaca"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "poner asqueroso (p. ej., ensuciando)"
+    ],
+    "definitions_english": [
+      "to make disgusting (e.g., by dirtying)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ochítinira ráto querásaque.",
+        "spanish": "El perro ensució el plato y lo puso asqueroso.",
+        "english": "The dog dirtied the plate and made it disgusting."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 341
+  },
+  {
+    "headword": "querásma",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "querásmanin"
+    ],
+    "etymology": "[del ship. querás sucio + -ma no]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "limpio"
+    ],
+    "definitions_english": [
+      "clean"
+    ],
+    "examples": [
+      {
+        "shipibo": "Noara querásma báquebo iqui.",
+        "spanish": "Somos niños limpios.",
+        "english": "We are clean children."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 341
+  },
+  {
+    "headword": "quépemeetl",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [
+      "shépemeetl",
+      "quépemeetá"
+    ],
+    "etymology": "[del ship. que- en la boca + coni. shépemeta]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "abrirse (p. ej., la puerta, el tapón de un hueco, la tapa de un bidón, la olla, la botella, o el lado vertical de un mosquitero)",
+      "destapar"
+    ],
+    "definitions_english": [
+      "to open (e.g., the door, stopper of a hole, lid of a drum, pot, bottle, or the vertical side of a mosquito net)",
+      "to uncap"
+    ],
+    "examples": [
+      {
+        "shipibo": "discoira shepóíra janbísh quépemeeque.",
+        "spanish": "La puerta de la escuela se abrió de repente.",
+        "english": "The school door suddenly opened."
+      },
+      {
+        "shipibo": "Nocon átapa quenaxá shépotl shépemeeque.",
+        "spanish": "La puerta de nuestro gallinero se ha abierto.",
+        "english": "The door of our chicken coop has opened."
+      },
+      {
+        "shipibo": "Yómetsobaonra nocon shóbo bintana quepénque.",
+        "spanish": "Los rateros abrieron una ventana de mi casa.",
+        "english": "The thieves opened a window of my house."
+      },
+      {
+        "shipibo": "Enra shepóti shepénque.",
+        "spanish": "Abrí la puerta.",
+        "english": "I opened the door."
+      },
+      {
+        "shipibo": "Nocon titánra póso quepénque ompásh bíntasion.",
+        "spanish": "Mi tío mamá destapó el pozo para sacar agua.",
+        "english": "My uncle uncapped the well to draw water."
+      }
+    ],
+    "synonyms": [
+      "mapénti"
+    ],
+    "cross_references": [],
+    "grammatical_notes": "Used with conj. shépena for opening doors and windows",
+    "page_number": 341
+  },
+  {
+    "headword": "quépinti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "quépina"
+    ],
+    "etymology": "[del ship. que- en el canto + pi- a las labios + -na, sf. de derivación vbl. + -ti, sf. inf.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "arrimar verticalmente",
+      "recostar"
+    ],
+    "definitions_english": [
+      "to lean vertically",
+      "to lean against"
+    ],
+    "examples": [
+      {
+        "shipibo": "Papánra huínti jihuin quepínque.",
+        "spanish": "Papá arrimó el remo a un árbol.",
+        "english": "Dad leaned the oar against a tree."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 341
+  },
+  {
+    "headword": "quépotl",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "quépoa"
+    ],
+    "etymology": "[del ship. que- en la boca + po, elem. de mápotl, mapo- tapar + -ti, sf. inf.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "estar con la boca tapada",
+      "ensuciarse la boca"
+    ],
+    "definitions_english": [
+      "to have the mouth covered",
+      "to get one's mouth dirty"
+    ],
+    "examples": [
+      {
+        "shipibo": "Cálmito cócoasha noaxá ícai quépoi jahuen bepón bionash.",
+        "spanish": "Al comer caimito, nos ensuciamos la boca con su resina gomosa.",
+        "english": "When eating caimito, we get our mouths dirty with its gummy resin."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 341
+  },
+  {
+    "headword": "quéqueshetl",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [
+      "quéquesheeta"
+    ],
+    "etymology": "[del ship. que- en los labios + queshéti coserse]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "quedarse con la boca cerrada",
+      "estar o volverse mudo"
+    ],
+    "definitions_english": [
+      "to remain with mouth closed",
+      "to be or become mute"
+    ],
+    "examples": [
+      {
+        "shipibo": "Sháquera jahuen papán notsíni quequésheque jáhuebi yóyoiamai.",
+        "spanish": "Cuando su papá lo riñó, el muchacho se quedó mudo.",
+        "english": "When his father scolded him, the boy became silent."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "netétl"
+    ],
+    "grammatical_notes": null,
+    "page_number": 341
+  },
+  {
+    "headword": "quéqueti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "quéquea"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "tener pesadilla"
+    ],
+    "definitions_english": [
+      "to have a nightmare"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nocon épara quéqueque, namáquetian yoshínbo óinash.",
+        "spanish": "Mi tío tuvo una pesadilla, viendo demonios en su sueño.",
+        "english": "My uncle had a nightmare, seeing demons in his sleep."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 341
+  }
+]

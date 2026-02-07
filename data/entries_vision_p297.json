@@ -1,0 +1,328 @@
+[
+  {
+    "headword": "-nto",
+    "part_of_speech": "suffix",
+    "variant_forms": [
+      "-nton"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "sin"
+    ],
+    "definitions_english": [
+      "without"
+    ],
+    "examples": [
+      {
+        "shipibo": "¿Jánto sin lengua?",
+        "spanish": "¿Sin lengua?",
+        "english": "Without tongue?"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used attached to an abbreviated form (e.g., jan-) of the substantive (e.g., jána 'lengua') that functions as the complement of the suffix. Used about body parts. -NTO, -OMA are used with the same sense of 'sin', but -OMA is used without restriction, while -NTO is limited in its application to body parts. Thus, for example, the two forms jindoma and jínto are found that mean 'without tail'.",
+    "page_number": 297
+  },
+  {
+    "headword": "maara nato aínbo nótsia iqui",
+    "part_of_speech": null,
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "Esta mujer está resentida porque doña Lucila no le dio chaquiras."
+    ],
+    "definitions_english": [
+      "This woman is resentful because Mrs. Lucila didn't give her beads."
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "4: to envy",
+    "page_number": 297
+  },
+  {
+    "headword": "noyá",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [],
+    "etymology": "[del ship. nóyati, noya- volar]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "el vuelo"
+    ],
+    "definitions_english": [
+      "the flight; flying"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato tšára jahuen noyá jacóma iqui.",
+        "spanish": "El vuelo de este pajarito es feo.",
+        "english": "The flight of this little bird is ugly."
+      },
+      {
+        "shipibo": "Manšhán baque noyábora en retëque.",
+        "spanish": "Mal a unas crías de garza que ya sabían volar.",
+        "english": "Bad for some heron chicks that already knew how to fly."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used about birds of fowl or something airborne. The adjective indicates that one already knows how to fly.",
+    "page_number": 297
+  },
+  {
+    "headword": "noísina",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "nótsina"
+    ],
+    "etymology": "[del ship. nótsiji resentir + -n, sf. de derivación vbl.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "reñir; rezongar"
+    ],
+    "definitions_english": [
+      "to scold; to grumble"
+    ],
+    "examples": [
+      {
+        "shipibo": "Rócotonra jóni noísinque, jahuen báque ránenyamaara mahuámaquetian.",
+        "spanish": "El doctor riñó a un hombre porque no hizo curar a su hijo y lo dejó morir.",
+        "english": "The doctor scolded a man because he didn't have his son treated and let him die."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 297
+  },
+  {
+    "headword": "nošhó",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "nóšhoti",
+      "nošho-"
+    ],
+    "etymology": "[del ship. nóšhoti, nošho- sorber]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "sorbo"
+    ],
+    "definitions_english": [
+      "sip; sipped"
+    ],
+    "examples": [
+      {
+        "shipibo": "Eara nošhó quényamai.",
+        "spanish": "No quiero recibir el sorbido.",
+        "english": "I don't want to receive the sip."
+      },
+      {
+        "shipibo": "Nato šhóntacora yóaši icašh nato yápa jëne nošhó acášhamai.",
+        "spanish": "La señorita no quiere beber el caldo que los otros han sorbido porque no está dispuesta a compartir su comida.",
+        "english": "The young lady doesn't want to drink the broth that the others have sipped because she is not willing to share her food."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used without modifier to specify which is the sorbido liquid.",
+    "page_number": 297
+  },
+  {
+    "headword": "nošhóti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "nóšhota"
+    ],
+    "etymology": "[del ship. no- en el abdomen + šhócuti pelar]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "pelar o despellejar por el abdomen"
+    ],
+    "definitions_english": [
+      "to peel or skin from the abdomen"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 297
+  },
+  {
+    "headword": "nótsiti",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [
+      "nótsia"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "patalear al enfadarse",
+      "enfadarse (por ejemplo, al no recibir lo que se quiere)"
+    ],
+    "definitions_english": [
+      "to kick in anger",
+      "to get angry (for example, at not receiving what one wants)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Máloshiain cácasainbi jahuen papán ráanyamaara báque nótsique.",
+        "spanish": "El niño se echó a patalear de rabia porque su padre no le dejó ir a Pucallpa.",
+        "english": "The child began to kick in anger because his father didn't let him go to Pucallpa."
+      },
+      {
+        "shipibo": "Páan bícasainbi méntamacanaara nato báque šhontaco nótsique.",
+        "spanish": "Esta muchacha se enfadó porque no le dieron el pan que quería recibir.",
+        "english": "This girl got angry because they didn't give her the bread she wanted to receive."
+      },
+      {
+        "shipibo": "Jahuen tïtán bóyamaara nato báque nótsique.",
+        "spanish": "Este niño está enfadado porque su mamá no lo llevó consigo.",
+        "english": "This child is angry because his mother didn't take him along."
+      },
+      {
+        "shipibo": "Jahuen bénë yóyo ayamai.",
+        "spanish": "Cuando una mujer está resentida con su esposo, no quiere conversar con él.",
+        "english": "When a woman is resentful with her husband, she doesn't want to talk with him."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "3: to resent",
+    "page_number": 297
+  },
+  {
+    "headword": "nóyati",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [
+      "nóyaa"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "volar"
+    ],
+    "definitions_english": [
+      "to fly"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jonín báque rabonanqui mëquaaašh nóyanïque.",
+        "spanish": "Cuentan que los dos hijos de un hombre se convirtieron en huancahuís y volaron.",
+        "english": "They say that a man's two sons turned into huancahuis and flew away."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 297
+  },
+  {
+    "headword": "nóšhoa",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "sorber"
+    ],
+    "definitions_english": [
+      "to sip; to slurp"
+    ],
+    "examples": [
+      {
+        "shipibo": "Póirito Cayáoainanti mëstíora náhua aínbo mahuáque, ipo jëne šhána nóšhoash.",
+        "spanish": "Una mestiza de Puerto Callao murió por sorber caldo de chuchama muy caliente.",
+        "english": "A mestiza woman from Puerto Callao died from sipping very hot chuchama broth."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 297
+  },
+  {
+    "headword": "nóšhteti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [],
+    "etymology": "[del ship. no- en el ombligo + šháteti cortar]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "cortar el cordón umbilical a"
+    ],
+    "definitions_english": [
+      "to cut the umbilical cord of"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 297
+  },
+  {
+    "headword": "o",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "nombre de la letra o en el alfabeto shipibo"
+    ],
+    "definitions_english": [
+      "name of the letter o in the Shipibo alphabet"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 2.1"
+    ],
+    "grammatical_notes": null,
+    "page_number": 297
+  },
+  {
+    "headword": "o",
+    "part_of_speech": "interjection",
+    "variant_forms": [],
+    "etymology": "[del ship.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "o; u"
+    ],
+    "definitions_english": [
+      "or"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 7.7.1"
+    ],
+    "grammatical_notes": "Used as an exclamation, e.g., for surprise or for something just remembered.",
+    "page_number": 297
+  },
+  {
+    "headword": "óa",
+    "part_of_speech": "adjective",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "ése; aquél"
+    ],
+    "definitions_english": [
+      "that; that one"
+    ],
+    "examples": [
+      {
+        "shipibo": "¿Jáhue jánerin óa?",
+        "spanish": "¿Cómo se llama eso?",
+        "english": "What is that called?"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 297
+  }
+]

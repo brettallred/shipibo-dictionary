@@ -1,0 +1,199 @@
+[
+  {
+    "headword": "a",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [
+      "nombre de la letra a en el alfabeto shipibo"
+    ],
+    "definitions_english": [
+      "name of the letter a in the Shipibo alphabet"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 2.1"
+    ],
+    "grammatical_notes": "Used as the name of the letter a in the Shipibo alphabet"
+  },
+  {
+    "headword": "-a",
+    "part_of_speech": "suffix",
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [
+      "agregado al final del verbo para señalar el pasado, el pasivo o la acción terminada",
+      "usado con verbo compuesto del participio pasado e iqui para indicar el tiempo pasado especialmente en una narración",
+      "al final del verbo subordinado en la oración adverbial",
+      "al final del verbo subordinado en la oración de conjunción subordinada",
+      "agregado a la raíz del verbo con el sentido de 'hacer'",
+      "de"
+    ],
+    "definitions_english": [
+      "added to the end of the verb to indicate the past tense, passive voice, or completed action",
+      "used with compound verb of past participle and iqui to indicate past tense especially in narration",
+      "at the end of the subordinated verb in an adverbial clause",
+      "at the end of the subordinated verb in a subordinate conjunction clause",
+      "added to the verb root with the sense of 'to make, to cause'",
+      "of, from"
+    ],
+    "examples": [
+      {
+        "shipibo": "Ainbo yóicatara nocon huáata iqui.",
+        "spanish": "La mujer que está sentada es mi tía materna.",
+        "english": "The woman who is sitting is my maternal aunt."
+      },
+      {
+        "shipibo": "Ja yóicatanómara ea dínai.",
+        "spanish": "El que está sentado me está mirando.",
+        "english": "The one who is sitting is looking at me."
+      },
+      {
+        "shipibo": "Moátianronqui Yóashico Incaqui rétecana iqui. Réteshonqui huestiora jóni jahuen shenín síquita iqui.",
+        "spanish": "Cuentan que antiguamente mataron al Inca Mezquino y que un hombre se pintó con su grasa.",
+        "english": "They say that long ago they killed the Inca Mezquino and that a man painted himself with his fat."
+      },
+      {
+        "shipibo": "Papán yóiara, en átapa béai.",
+        "spanish": "Si papá me manda, yo traigo la gallina.",
+        "english": "If dad sends me, I will bring the chicken."
+      },
+      {
+        "shipibo": "Nocon huái óroa pecaora, ea náshiai.",
+        "spanish": "Después de cultivar mi chacra, voy a bañarme.",
+        "english": "After cultivating my field, I am going to bathe."
+      },
+      {
+        "shipibo": "ashenti hacer aprender, enseñar",
+        "spanish": "ashenti hacer aprender, enseñar",
+        "english": "ashenti to make learn, to teach"
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [
+      "Bosquejo gramatical 7.5",
+      "Bosquejo gramatical 8.3.2",
+      "Bosquejo gramatical 5.3.1.5.b",
+      "Bosquejo gramatical 5.3.2",
+      "Bosquejo gramatical 7.4.3.1",
+      "Bosquejo gramatical 7.4.3.2",
+      "Bosquejo gramatical 7.4.2"
+    ],
+    "grammatical_notes": "Used to indicate past tense, passive voice, completed action; used with past participle compounds; used in subordinate adverbial and conjunction clauses; used as causative suffix meaning 'to make/cause'; used as postposition meaning 'of, from'"
+  },
+  {
+    "headword": "ábion",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "ábionin"
+    ],
+    "etymology": "[del cast.]",
+    "definitions_spanish": [
+      "avión",
+      "avioneta"
+    ],
+    "definitions_english": [
+      "airplane",
+      "small airplane"
+    ],
+    "examples": [
+      {
+        "shipibo": "Rimámea ópo ábionin jóquetianra noa rároque.",
+        "spanish": "Cuando el Presidente vino de Lima en avión, nos alegramos.",
+        "english": "When the President came from Lima by plane, we were happy."
+      },
+      {
+        "shipibo": "Cáshiboainoa ábionbora moa masáti queybque. Ishónbira nato simánainra moa bénshóaribacánai.",
+        "spanish": "Todas las avionetas de Cashibococha se han descompuesto, pero esta semana las van a reparar.",
+        "english": "All the small planes of Cashibococha have broken down, but this week they are going to repair them."
+      }
+    ],
+    "synonyms": [
+      "naihuaporo"
+    ],
+    "cross_references": [],
+    "grammatical_notes": "Used with location adverbs to indicate origin of subject; frequently used with -ash in compound form -ash to indicate a place of origin"
+  },
+  {
+    "headword": "ábo",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": null,
+    "definitions_spanish": [
+      "manshaco"
+    ],
+    "definitions_english": [
+      "manshaco (type of fish)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Moátianronqui Incánqui jahuen sontárobo ashánti ráanshon áboanique.",
+        "spanish": "Cuentan que antiguamente, el Inca mandó a sus soldados a que pescaran y los convirtió en manshacos.",
+        "english": "They say that long ago, the Inca sent his soldiers to fish and he turned them into manshaco fish."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null
+  },
+  {
+    "headword": "ábocoma",
+    "part_of_speech": "noun",
+    "variant_forms": [],
+    "etymology": "[del ship. ábo 'manshaco' + cóma 'panguaná']",
+    "definitions_spanish": [
+      "camungo"
+    ],
+    "definitions_english": [
+      "camungo (type of bird)"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null
+  },
+  {
+    "headword": "áco",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "acón"
+    ],
+    "etymology": null,
+    "definitions_spanish": [
+      "delgado; flaco",
+      "reseco",
+      "vacío; hueco; sin pulpa"
+    ],
+    "definitions_english": [
+      "thin; skinny",
+      "dried out, withered",
+      "empty; hollow; without pulp"
+    ],
+    "examples": [
+      {
+        "shipibo": "Papán piára sarámpinin icash áco banéque.",
+        "spanish": "Mi primo, el sobrino de papá, tuvo sarampión y se adelgazó.",
+        "english": "My cousin, my dad's nephew, had measles and became thin."
+      },
+      {
+        "shipibo": "máhuatash áco bánciara poincoscon piái.",
+        "spanish": "El gallinazo come las carachamás muertas y resecas.",
+        "english": "The vulture eats the dead and dried out carachamá fish."
+      },
+      {
+        "shipibo": "Cáchio caquínra ochixón mananábihue méraquen moa inón piá; ja biásha pápa rároque jíria íti shinánash.",
+        "spanish": "Al ir al monte, el perro encontró un motelo vacío que un tigre había comido; y al cogerlo, papá se alegró, al pensar que todavía estaba vivo.",
+        "english": "Upon going to the forest, the dog found an empty motelo (tortoise) shell that a tiger had eaten; and upon picking it up, dad was happy, thinking it was still alive."
+      },
+      {
+        "shipipo": "Nato ainbora jacóma shinánaya",
+        "spanish": "",
+        "english": ""
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "headword": "-bish",
+    "part_of_speech": "suffix",
+    "variant_forms": [
+      "-binish"
+    ],
+    "etymology": "[del ship. -bi solo + -ish, forma corta de icásh, forma subord. de íti 'ser, estar']",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "Úsase agregado a las formas en-, min-, jan-, non-, maton- y jaton- del pronombre personal con fuerza colectiva o enfática (p. ej., de 'mismo' o 'propio') que se le agrega al pronombre."
+    ],
+    "definitions_english": [
+      "Used added to the forms en-, min-, jan-, non-, maton- and jaton- of the personal pronoun with collective or emphatic force (e.g., of 'same' or 'own') that is added to the pronoun."
+    ],
+    "examples": [
+      {
+        "shipibo": "Enbísh ea Joá ríqui nato maná queyá mínpeti.",
+        "spanish": "Yo solo he venido para subir este cerro alto.",
+        "english": "I alone have come to climb this high hill."
+      },
+      {
+        "shipibo": "Enra mía foyamaí; minbísh catánhue.",
+        "spanish": "No te voy a guiar; anda tú solo.",
+        "english": "I'm not going to guide you; go by yourself."
+      },
+      {
+        "shipibo": "Nato báquera janbísh tápitinia mapéque.",
+        "spanish": "Este niño subió la escalera solo.",
+        "english": "This child climbed the stairs alone."
+      },
+      {
+        "shipibo": "Máto pátoron betan téeyamai, matónbinish téetacayara íti íqui jacónyora.",
+        "spanish": "Sería mucho mejor que trabajaran para ustedes mismos, y no para un patrón.",
+        "english": "It would be much better if you worked for yourselves, and not for a boss."
+      },
+      {
+        "shipibo": "Jatónbinish boásha moa béyamacamai.",
+        "spanish": "Como han ido por su propia cuenta...",
+        "english": "Since they went on their own..."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": "Used added to personal pronoun forms with collective or emphatic force",
+    "page_number": 121
+  },
+  {
+    "headword": "bishcoti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "bishcota"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "rasparse la piel"
+    ],
+    "definitions_english": [
+      "to scrape one's skin"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato baquéara ea paránshon bonbón bishcóque.",
+        "spanish": "Cuando estaba distraído este niño me hizo raspar la costra (que tenía a causa de una infección).",
+        "english": "When I was distracted this child made me scrape the scab (that I had because of an infection)."
+      },
+      {
+        "shipipo": "Méchatasha nocon bonbón bishcóque.",
+        "spanish": "Me raspé la costra cuando me mojé.",
+        "english": "I scraped my scab when I got wet."
+      },
+      {
+        "shipibo": "Nato báquera páqueti bishcóque.",
+        "spanish": "Este niño se raspó al caerse.",
+        "english": "This child scraped himself falling."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 121
+  },
+  {
+    "headword": "bishcó",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "bishcocan"
+    ],
+    "etymology": "conj. bishcocan",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "raspadura",
+      "herida"
+    ],
+    "definitions_english": [
+      "scrape, abrasion",
+      "wound"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jahuen bishcóquira bináa técaque.",
+        "spanish": "Una avispa le picó en su herida.",
+        "english": "A wasp stung him on his wound."
+      }
+    ],
+    "synonyms": [
+      "icahué"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 121
+  },
+  {
+    "headword": "bishcónti",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "bishcona"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "raspar (p. ej., infección) en la piel"
+    ],
+    "definitions_english": [
+      "to scrape (e.g., infection) on the skin"
+    ],
+    "examples": [
+      {
+        "shipibo": "Tsácaquinra nocon bobón en protánin bishcónque.",
+        "spanish": "La persona raspó en la superficie el plátano cocido.",
+        "english": "The person scraped the cooked plantain on the surface."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 121
+  },
+  {
+    "headword": "bishnóati",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "bishnóna"
+    ],
+    "etymology": "conj. bishnóaca",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "hacer supurar"
+    ],
+    "definitions_english": [
+      "to make suppurate, to cause to ooze pus"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato báque yóitimanra nocón nonbé bishnoique.",
+        "spanish": "Este maldito niño me hizo supurar el chupo.",
+        "english": "This wicked child made my boil suppurate."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 121
+  },
+  {
+    "headword": "bishnóti",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [
+      "bishnota"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "supurarse (una herida)"
+    ],
+    "definitions_english": [
+      "to suppurate, to ooze pus (a wound)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jóni pocónon natótara moa bishñóque, raónyamaa.",
+        "spanish": "La quemadura que tenía el hombre en su barriga se supuró por no haberse tratado.",
+        "english": "The burn that the man had on his belly suppurated from not being treated."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 121
+  },
+  {
+    "headword": "bishtón",
+    "part_of_speech": "adjective",
+    "variant_forms": [
+      "bishtoman"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "flemoso",
+      "líquido flemoso"
+    ],
+    "definitions_english": [
+      "phlegmy, mucous",
+      "phlegmy liquid"
+    ],
+    "examples": [
+      {
+        "shipibo": "Atapa bachi tóshitara bishtón béai.",
+        "spanish": "Cuando se quiebra el huevo de la gallina, corre un líquido viscoso.",
+        "english": "When the chicken egg breaks, a viscous liquid runs out."
+      }
+    ],
+    "synonyms": [
+      "bicha"
+    ],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 121
+  },
+  {
+    "headword": "bisiquirita",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "bísiquiritanin"
+    ],
+    "etymology": "[del cast.]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "bicicleta"
+    ],
+    "definitions_english": [
+      "bicycle"
+    ],
+    "examples": [
+      {
+        "shipibo": "Shónoronqui bísiquiritanin níai; péiaronquiqui ja bísiquirita.",
+        "spanish": "Dicen que el demonio de la lupuna anda en bicicleta, y que dicha bicicleta tiene alas.",
+        "english": "They say that the demon of the lupuna tree rides a bicycle, and that this bicycle has wings."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 121
+  },
+  {
+    "headword": "bismánhati",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [
+      "bismánhaa"
+    ],
+    "etymology": "conj. bismánhaca",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "no alcanzar",
+      "faltar la respiración"
+    ],
+    "definitions_english": [
+      "to not reach",
+      "to lack breath, to be out of breath"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nato báquera nonoa maxéasi bismánhásh jenénco cáque.",
+        "spanish": "Este muchacho quiso embarcarse en la canoa, pero no la alcanzó, y se cayó al agua.",
+        "english": "This boy wanted to get in the canoe, but he didn't reach it, and he fell in the water."
+      },
+      {
+        "shipibo": "dashtóshon join bismánhásha, mahuáquesca paquéque.",
+        "spanish": "Al correr, le faltó la respiración y cayó casi muerto.",
+        "english": "While running, he ran out of breath and nearly died."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 121
+  },
+  {
+    "headword": "bismánti",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [
+      "bismana"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "no alcanzar",
+      "faltar",
+      "no dar"
+    ],
+    "definitions_english": [
+      "to not reach",
+      "to lack, to be missing",
+      "to not give"
+    ],
+    "examples": [
+      {
+        "shipibo": "Nocon chópa bochíqui pánia bícasabira ea bismánque.",
+        "spanish": "Quiero recoger mi ropa que está colgada arriba, pero no alcanzo.",
+        "english": "I want to get my clothes that are hung up high, but I can't reach."
+      },
+      {
+        "shipibo": "Bochiquíshon rísbí páqueshonábiqui bismana íqui.",
+        "spanish": "Se dice que cuando le bajaron la soga, no alcanzó.",
+        "english": "They say that when they lowered the rope to him, it didn't reach."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 121
+  },
+  {
+    "headword": "bisquiati",
+    "part_of_speech": "transitive verb",
+    "variant_forms": [
+      "bisquiaca"
+    ],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "batir"
+    ],
+    "definitions_english": [
+      "to beat, to whip"
+    ],
+    "examples": [
+      {
+        "shipibo": "Paránta corára titán bisquiaque pápa shéamaai.",
+        "spanish": "Mamá batió el plátano maduro cocido para dar de tomar a papá.",
+        "english": "Mother beat the cooked ripe plantain to give to father to drink."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 121
+  },
+  {
+    "headword": "bisquiati",
+    "part_of_speech": "noun",
+    "variant_forms": [
+      "bisquiatin"
+    ],
+    "etymology": "[del ship. bisquiai- raíz de bisquiai 'batir' + -ti con que]",
+    "scientific_name": null,
+    "definitions_spanish": [
+      "especie de batidor que se revuelve entre las manos y se usa para hacer chapo"
+    ],
+    "definitions_english": [
+      "type of whisk that is twirled between the hands and used to make chapo (plantain drink)"
+    ],
+    "examples": [
+      {
+        "shipibo": "Jahuen baquéa bísquiati pótanaanara, aínbaon íhuen báque ríshquíque.",
+        "spanish": "La mamá le dio con látigo a su hijo porque le perdió su batidor tipo bisquiati.",
+        "english": "The mother whipped her son because he lost her bisquiati-type whisk."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 121
+  },
+  {
+    "headword": "bisquiati",
+    "part_of_speech": "intransitive verb",
+    "variant_forms": [],
+    "etymology": null,
+    "scientific_name": null,
+    "definitions_spanish": [
+      "sacudirse"
+    ],
+    "definitions_english": [
+      "to shake oneself"
+    ],
+    "examples": [
+      {
+        "shipibo": "Náshii sénenhaa ochíti bísquiique.",
+        "spanish": "El perro se sacudió al terminar de bañarse.",
+        "english": "The dog shook itself after finishing bathing."
+      }
+    ],
+    "synonyms": [],
+    "cross_references": [],
+    "grammatical_notes": null,
+    "page_number": 121
+  }
+]

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 3000" width="1200" height="3000">
+  <defs>
+    <style>
+      .pattern-label { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #d09e9e; }
+      .pattern-rect { fill: #2e1616; }
+    </style>
+
+    <!-- Pattern 1: Diamond Grid -->
+    <pattern id="diamondGrid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <g stroke="#d09e9e" stroke-width="1.2" fill="none" opacity="0.35">
+        <!-- Diamond -->
+        <path d="M 20,5 L 35,20 L 20,35 L 5,20 Z"/>
+        <!-- Cross accent -->
+        <line x1="20" y1="10" x2="20" y2="30"/>
+        <line x1="10" y1="20" x2="30" y2="20"/>
+      </g>
+    </pattern>
+
+    <!-- Pattern 2: Diamond Lattice -->
+    <pattern id="diamondLattice" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <g stroke="#d09e9e" stroke-width="1" fill="none" opacity="0.35">
+        <!-- Diamond -->
+        <path d="M 16,3 L 29,16 L 16,29 L 3,16 Z"/>
+        <!-- Internal bars -->
+        <line x1="16" y1="8" x2="16" y2="24"/>
+        <line x1="8" y1="16" x2="24" y2="16"/>
+        <line x1="10" y1="10" x2="22" y2="22"/>
+        <line x1="22" y1="10" x2="10" y2="22"/>
+      </g>
+    </pattern>
+
+    <!-- Pattern 3: Stacked Diamonds -->
+    <pattern id="stackedDiamonds" x="0" y="0" width="56" height="56" patternUnits="userSpaceOnUse">
+      <g stroke="#d09e9e" stroke-width="1.2" fill="none" opacity="0.35">
+        <!-- Outer diamond -->
+        <path d="M 28,4 L 52,28 L 28,52 L 4,28 Z"/>
+        <!-- Middle diamond -->
+        <path d="M 28,12 L 44,28 L 28,44 L 12,28 Z"/>
+        <!-- Inner diamond -->
+        <path d="M 28,18 L 38,28 L 28,38 L 18,28 Z"/>
+      </g>
+    </pattern>
+
+    <!-- Pattern 4: River Flow -->
+    <pattern id="riverFlow" x="0" y="0" width="48" height="48" patternUnits="userSpaceOnUse">
+      <g stroke="#d09e9e" stroke-width="1.5" fill="none" opacity="0.35">
+        <!-- Undulating parallel waves -->
+        <path d="M 0,12 Q 12,8 24,12 T 48,12"/>
+        <path d="M 0,18 Q 12,14 24,18 T 48,18"/>
+        <path d="M 0,24 Q 12,20 24,24 T 48,24"/>
+        <path d="M 0,30 Q 12,26 24,30 T 48,30"/>
+        <path d="M 0,36 Q 12,32 24,36 T 48,36"/>
+      </g>
+    </pattern>
+
+    <!-- Pattern 5: Maze Path -->
+    <pattern id="mazePath" x="0" y="0" width="36" height="36" patternUnits="userSpaceOnUse">
+      <g stroke="#d09e9e" stroke-width="1.2" fill="none" opacity="0.35">
+        <!-- Right-angle meander -->
+        <path d="M 6,6 L 30,6 L 30,12 L 12,12 L 12,18 L 30,18 L 30,24 L 6,24 L 6,30 L 30,30"/>
+      </g>
+    </pattern>
+
+    <!-- Pattern 6: Spiral Vine -->
+    <pattern id="spiralVine" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <g stroke="#d09e9e" stroke-width="1.2" fill="none" opacity="0.35">
+        <!-- Left spiral -->
+        <path d="M 12,8 Q 8,15 10,22 Q 12,28 18,30 Q 22,32 25,28"/>
+        <!-- Right spiral (mirrored) -->
+        <path d="M 38,8 Q 42,15 40,22 Q 38,28 32,30 Q 28,32 25,28"/>
+        <!-- Connecting curve -->
+        <path d="M 12,8 Q 25,5 38,8"/>
+      </g>
+    </pattern>
+
+    <!-- Pattern 7: Zigzag Border -->
+    <pattern id="zigzagBorder" x="0" y="0" width="40" height="30" patternUnits="userSpaceOnUse">
+      <g stroke="#d09e9e" stroke-width="1.5" fill="none" opacity="0.35">
+        <!-- Zigzag line -->
+        <polyline points="0,15 10,5 20,15 30,5 40,15"/>
+        <!-- Diamond accents at peaks -->
+        <path d="M 10,5 L 12,7 L 10,9 L 8,7 Z"/>
+        <path d="M 30,5 L 32,7 L 30,9 L 28,7 Z"/>
+      </g>
+    </pattern>
+
+    <!-- Pattern 8: Step Border -->
+    <pattern id="stepBorder" x="0" y="0" width="32" height="30" patternUnits="userSpaceOnUse">
+      <g stroke="#d09e9e" stroke-width="1.5" fill="none" opacity="0.35">
+        <!-- Stepped meander -->
+        <polyline points="0,20 8,20 8,10 16,10 16,20 24,20 24,10 32,10"/>
+      </g>
+    </pattern>
+
+    <!-- Pattern 9: Wave Border -->
+    <pattern id="waveBorder" x="0" y="0" width="48" height="30" patternUnits="userSpaceOnUse">
+      <g stroke="#d09e9e" stroke-width="1.5" fill="none" opacity="0.35">
+        <!-- Sinusoidal wave -->
+        <path d="M 0,15 Q 6,5 12,15 T 24,15 T 36,15 T 48,15"/>
+        <!-- Dot accents -->
+        <circle cx="12" cy="15" r="1.5" fill="#d09e9e" opacity="0.35"/>
+        <circle cx="36" cy="15" r="1.5" fill="#d09e9e" opacity="0.35"/>
+      </g>
+    </pattern>
+
+    <!-- Pattern 10: Cross Chain Border -->
+    <pattern id="crossChainBorder" x="0" y="0" width="44" height="30" patternUnits="userSpaceOnUse">
+      <g stroke="#d09e9e" stroke-width="1.2" fill="none" opacity="0.35">
+        <!-- Cross -->
+        <line x1="8" y1="10" x2="8" y2="20"/>
+        <line x1="3" y1="15" x2="13" y2="15"/>
+        <!-- Diamond -->
+        <path d="M 22,8 L 26,15 L 22,22 L 18,15 Z"/>
+        <!-- Cross -->
+        <line x1="36" y1="10" x2="36" y2="20"/>
+        <line x1="31" y1="15" x2="41" y2="15"/>
+      </g>
+    </pattern>
+  </defs>
+
+  <!-- Title -->
+  <rect width="1200" height="80" fill="#1a0d0d"/>
+  <text x="600" y="50" class="pattern-label" text-anchor="middle" font-size="32" font-weight="bold">
+    Kené Patterns Showcase
+  </text>
+
+  <!-- DIAMOND FAMILY HEADER -->
+  <rect y="80" width="1200" height="40" fill="#2e1616"/>
+  <text x="30" y="105" class="pattern-label" font-size="18" font-weight="bold">DIAMOND FAMILY</text>
+
+  <!-- Pattern 1: Diamond Grid -->
+  <rect y="120" width="1200" height="15" fill="none"/>
+  <text x="30" y="135" class="pattern-label">1. Diamond Grid — interlocking diamonds with cross accents</text>
+
+  <rect y="145" x="150" width="300" height="120" class="pattern-rect" rx="4"/>
+  <rect y="145" x="150" width="300" height="120" fill="url(#diamondGrid)" rx="4"/>
+
+  <!-- Pattern 2: Diamond Lattice -->
+  <rect y="280" width="1200" height="15" fill="none"/>
+  <text x="30" y="295" class="pattern-label">2. Diamond Lattice — denser woven variant with internal bars</text>
+
+  <rect y="310" x="150" width="300" height="120" class="pattern-rect" rx="4"/>
+  <rect y="310" x="150" width="300" height="120" fill="url(#diamondLattice)" rx="4"/>
+
+  <!-- Pattern 3: Stacked Diamonds -->
+  <rect y="445" width="1200" height="15" fill="none"/>
+  <text x="30" y="460" class="pattern-label">3. Stacked Diamonds — nested concentric diamonds</text>
+
+  <rect y="475" x="150" width="300" height="120" class="pattern-rect" rx="4"/>
+  <rect y="475" x="150" width="300" height="120" fill="url(#stackedDiamonds)" rx="4"/>
+
+  <!-- RIVER FAMILY HEADER -->
+  <rect y="610" width="1200" height="40" fill="#2e1616"/>
+  <text x="30" y="635" class="pattern-label" font-size="18" font-weight="bold">RIVER FAMILY</text>
+
+  <!-- Pattern 4: River Flow -->
+  <rect y="650" width="1200" height="15" fill="none"/>
+  <text x="30" y="665" class="pattern-label">4. River Flow — undulating parallel horizontal waves</text>
+
+  <rect y="680" x="150" width="300" height="120" class="pattern-rect" rx="4"/>
+  <rect y="680" x="150" width="300" height="120" fill="url(#riverFlow)" rx="4"/>
+
+  <!-- Pattern 5: Maze Path -->
+  <rect y="815" width="1200" height="15" fill="none"/>
+  <text x="30" y="830" class="pattern-label">5. Maze Path — right-angle meander pattern</text>
+
+  <rect y="845" x="150" width="300" height="120" class="pattern-rect" rx="4"/>
+  <rect y="845" x="150" width="300" height="120" fill="url(#mazePath)" rx="4"/>
+
+  <!-- Pattern 6: Spiral Vine -->
+  <rect y="980" width="1200" height="15" fill="none"/>
+  <text x="30" y="995" class="pattern-label">6. Spiral Vine — organic spiral curves paired in symmetry</text>
+
+  <rect y="1010" x="150" width="300" height="120" class="pattern-rect" rx="4"/>
+  <rect y="1010" x="150" width="300" height="120" fill="url(#spiralVine)" rx="4"/>
+
+  <!-- BORDER FAMILY HEADER -->
+  <rect y="1145" width="1200" height="40" fill="#2e1616"/>
+  <text x="30" y="1170" class="pattern-label" font-size="18" font-weight="bold">BORDER FAMILY</text>
+
+  <!-- Pattern 7: Zigzag Border -->
+  <rect y="1185" width="1200" height="15" fill="none"/>
+  <text x="30" y="1200" class="pattern-label">7. Zigzag Border — zigzag with diamond accents at peaks</text>
+
+  <rect y="1215" x="150" width="300" height="35" class="pattern-rect" rx="4"/>
+  <rect y="1215" x="150" width="300" height="35" fill="url(#zigzagBorder)" rx="4"/>
+
+  <!-- Pattern 8: Step Border -->
+  <rect y="1265" width="1200" height="15" fill="none"/>
+  <text x="30" y="1280" class="pattern-label">8. Step Border — geometric stepped meander band</text>
+
+  <rect y="1310" x="150" width="300" height="35" class="pattern-rect" rx="4"/>
+  <rect y="1310" x="150" width="300" height="35" fill="url(#stepBorder)" rx="4"/>
+
+  <!-- Pattern 9: Wave Border -->
+  <rect y="1360" width="1200" height="15" fill="none"/>
+  <text x="30" y="1375" class="pattern-label">9. Wave Border — smooth sinusoidal wave with dot accents</text>
+
+  <rect y="1405" x="150" width="300" height="35" class="pattern-rect" rx="4"/>
+  <rect y="1405" x="150" width="300" height="35" fill="url(#waveBorder)" rx="4"/>
+
+  <!-- Pattern 10: Cross Chain Border -->
+  <rect y="1455" width="1200" height="15" fill="none"/>
+  <text x="30" y="1470" class="pattern-label">10. Cross Chain Border — linked cross-and-diamond chain</text>
+
+  <rect y="1500" x="150" width="300" height="35" class="pattern-rect" rx="4"/>
+  <rect y="1500" x="150" width="300" height="35" fill="url(#crossChainBorder)" rx="4"/>
+
+  <!-- Footer -->
+  <rect y="1560" width="1200" height="60" fill="#1a0d0d"/>
+  <text x="600" y="1595" class="pattern-label" text-anchor="middle" font-size="14">
+    Kené patterns inspired by Amazonian indigenous geometric designs
+  </text>
+</svg>
