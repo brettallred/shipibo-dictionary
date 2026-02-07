@@ -1,11 +1,10 @@
-var CACHE_NAME = "shipibo-v6";
+var CACHE_NAME = "shipibo-v7";
 var ASSETS = [
   "/",
   "/index.html",
   "/app.js",
   "/style.css",
   "/data/entries.json",
-  "/data/icaros.json",
   "/manifest.json",
   "/icon.png",
   "/icon.svg"

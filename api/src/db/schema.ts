@@ -86,6 +86,18 @@ export const audioRecordings = sqliteTable("audio_recordings", {
   createdAt: text("created_at").notNull().default(sql`(datetime('now'))`),
 });
 
+export const icaros = sqliteTable("icaros", {
+  id: text("id").primaryKey(),
+  title: text("title").notNull(),
+  source: text("source", { enum: ["imported", "contributed"] })
+    .notNull()
+    .default("imported"),
+  contributionId: integer("contribution_id"),
+  data: text("data").notNull(),
+  createdAt: text("created_at").notNull().default(sql`(datetime('now'))`),
+  updatedAt: text("updated_at").notNull().default(sql`(datetime('now'))`),
+});
+
 export const icaroContributions = sqliteTable("icaro_contributions", {
   id: integer("id").primaryKey({ autoIncrement: true }),
   userId: integer("user_id")
@@ -94,7 +106,7 @@ export const icaroContributions = sqliteTable("icaro_contributions", {
   title: text("title").notNull(),
   content: text("content").notNull(),
   status: text("status", {
-    enum: ["draft", "submitted", "approved", "rejected"],
+    enum: ["draft", "submitted", "approved", "rejected", "published"],
   })
     .notNull()
     .default("draft"),

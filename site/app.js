@@ -466,8 +466,16 @@
   }
 
   async function loadIcaros() {
-    const res = await fetch("/data/icaros.json");
-    ICAROS = await res.json();
+    try {
+      var res = await fetch(API_URL + "/api/icaros");
+      if (res.ok) {
+        ICAROS = await res.json();
+        return;
+      }
+    } catch (e) { /* API unavailable, fall through to static fallback */ }
+    // Fallback to static JSON for offline/PWA resilience
+    var fallback = await fetch("/data/icaros.json");
+    ICAROS = await fallback.json();
   }
 
   async function loadAll() {
@@ -516,11 +524,11 @@
       renderChat(chatSid);
     } else if (path === "/icaros") {
       renderIcaroIndex();
-    } else if (path.match(/^\/icaro\/\d+\/learn$/)) {
-      var id = parseInt(path.split("/")[2], 10);
+    } else if (path.match(/^\/icaro\/[\w-]+\/learn$/)) {
+      var id = path.split("/")[2];
       location.hash = "#/icaro/" + id;
-    } else if (path.match(/^\/icaro\/\d+$/)) {
-      var id = parseInt(path.split("/")[2], 10);
+    } else if (path.match(/^\/icaro\/[\w-]+$/)) {
+      var id = path.split("/")[2];
       renderIcaro(id);
     } else if (path.startsWith("/entry/")) {
       const id = parseInt(path.split("/")[2], 10);
@@ -1040,7 +1048,7 @@
   }
 
   function renderIcaro(id) {
-    var icaro = ICAROS.find(function (ic) { return ic.id === id; });
+    var icaro = ICAROS.find(function (ic) { return String(ic.id) === String(id); });
     if (!icaro) {
       app.innerHTML = '<p class="text-ink-muted">Icaro not found.</p>';
       return;
@@ -1148,20 +1156,19 @@
     html += '<div class="mt-10" id="audio-section"></div>';
 
     // Nav to prev/next icaro
+    var icaroIdx = ICAROS.findIndex(function (ic) { return String(ic.id) === String(id); });
     html += '<div class="mt-10 pt-6 border-t border-earth-200 flex justify-between">';
-    if (id > 1) {
-      var prev = ICAROS.find(function (ic) { return ic.id === id - 1; });
-      if (prev) {
-        html += '<a href="#/icaro/' + (id - 1) + '" class="back-link">' +
-          '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
-          esc(prev.title) + '</a>';
-      }
+    if (icaroIdx > 0) {
+      var prev = ICAROS[icaroIdx - 1];
+      html += '<a href="#/icaro/' + prev.id + '" class="back-link">' +
+        '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+        esc(prev.title) + '</a>';
     } else {
       html += '<span></span>';
     }
-    var next = ICAROS.find(function (ic) { return ic.id === id + 1; });
-    if (next) {
-      html += '<a href="#/icaro/' + (id + 1) + '" class="accent-link">' +
+    if (icaroIdx >= 0 && icaroIdx < ICAROS.length - 1) {
+      var next = ICAROS[icaroIdx + 1];
+      html += '<a href="#/icaro/' + next.id + '" class="accent-link">' +
         esc(next.title) +
         ' <svg class="w-4 h-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg></a>';
     }
@@ -2065,11 +2072,15 @@
 
       // Status buttons
       html += '<div class="admin-feedback-actions">';
-      ["draft", "submitted", "approved", "rejected"].forEach(function (s) {
+      ["draft", "submitted", "approved", "rejected", "published"].forEach(function (s) {
         var active = item.status === s ? " admin-status-active" : "";
         html += '<button class="admin-status-btn' + active + '" data-cid="' + item.id + '" data-status="' + s + '">' +
           s.charAt(0).toUpperCase() + s.slice(1) + '</button>';
       });
+      // Publish button for approved contributions
+      if (item.status === "approved") {
+        html += '<button class="admin-publish-btn" data-cid="' + item.id + '">Publish as Icaro</button>';
+      }
       html += '</div>';
       html += '</div>';
     });
@@ -2098,6 +2109,31 @@
           badges[0].className = "badge feedback-status-" + status;
         }
         btn.disabled = false;
+      });
+    });
+
+    // Wire publish buttons
+    app.querySelectorAll(".admin-publish-btn[data-cid]").forEach(function (btn) {
+      btn.addEventListener("click", async function () {
+        var cid = btn.getAttribute("data-cid");
+        btn.disabled = true;
+        btn.textContent = "Publishing...";
+        var result = await api("/api/contributions/admin/" + cid + "/publish", { method: "POST" });
+        if (result && result.ok) {
+          var itemEl = btn.closest(".admin-feedback-item");
+          var badges = itemEl.querySelectorAll(".badge");
+          if (badges.length >= 1) {
+            badges[0].textContent = "published";
+            badges[0].className = "badge feedback-status-published";
+          }
+          itemEl.querySelectorAll(".admin-status-btn").forEach(function (b) { b.classList.remove("admin-status-active"); });
+          var pubBtn = itemEl.querySelector('.admin-status-btn[data-status="published"]');
+          if (pubBtn) pubBtn.classList.add("admin-status-active");
+          btn.textContent = "Published";
+        } else {
+          btn.textContent = "Failed";
+          btn.disabled = false;
+        }
       });
     });
   }

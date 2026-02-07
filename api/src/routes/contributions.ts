@@ -80,6 +80,69 @@ contributions.get("/admin/all", requireAdmin, async (c) => {
   return c.json({ contributions: items });
 });
 
+// Admin: publish approved contribution as icaro
+contributions.post("/admin/:id/publish", requireAdmin, async (c) => {
+  const db = c.get("db");
+  const id = parseInt(c.req.param("id"));
+
+  const contribution = await db.query.icaroContributions.findFirst({
+    where: eq(schema.icaroContributions.id, id),
+  });
+
+  if (!contribution) {
+    return c.json({ error: "Not found" }, 404);
+  }
+
+  if (contribution.status !== "approved") {
+    return c.json({ error: "Contribution must be approved before publishing" }, 400);
+  }
+
+  const icaroId = `contrib-${id}`;
+  const data = JSON.stringify({
+    song: {
+      sections: [
+        {
+          repeat: null,
+          lines: contribution.content.split("\n").filter(Boolean).map((text, i) => ({
+            text: text.trim(),
+            repeat: null,
+            phrase_idx: i,
+          })),
+        },
+      ],
+    },
+    phrases: [],
+    vocabulary: [],
+    suffix_reference: [],
+  });
+
+  const existing = await db.query.icaros.findFirst({
+    where: eq(schema.icaros.id, icaroId),
+  });
+
+  if (existing) {
+    await db
+      .update(schema.icaros)
+      .set({ title: contribution.title, data, updatedAt: new Date().toISOString() })
+      .where(eq(schema.icaros.id, icaroId));
+  } else {
+    await db.insert(schema.icaros).values({
+      id: icaroId,
+      title: contribution.title,
+      source: "contributed",
+      contributionId: id,
+      data,
+    });
+  }
+
+  await db
+    .update(schema.icaroContributions)
+    .set({ status: "published", updatedAt: new Date().toISOString() })
+    .where(eq(schema.icaroContributions.id, id));
+
+  return c.json({ ok: true, icaroId });
+});
+
 // Admin: update contribution status
 contributions.put("/admin/:id", requireAdmin, async (c) => {
   const db = c.get("db");

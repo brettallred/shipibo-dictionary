@@ -1741,6 +1741,21 @@
   }
   .feedback-status-draft { background: var(--color-earth-200); color: var(--color-ink-muted); }
   .feedback-status-submitted { background: #fef3c7; color: #92400e; }
+  .feedback-status-published { background: #c7d2fe; color: #3730a3; }
+
+  .admin-publish-btn {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: 6px;
+    border: 1px solid #6366f1;
+    background: #6366f1;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
+  .admin-publish-btn:hover { background: #4f46e5; }
+  .admin-publish-btn:disabled { opacity: 0.5; cursor: default; }
 
   /* Chat */
   .chat-layout {

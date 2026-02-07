@@ -10,6 +10,7 @@ import { feedbackRoutes } from "./routes/feedback";
 import { audio } from "./routes/audio";
 import { contributions } from "./routes/contributions";
 import { chat } from "./routes/chat";
+import { icaros } from "./routes/icaros";
 import type { Env } from "./types";
 
 const app = new Hono<Env>();
@@ -41,5 +42,6 @@ app.route("/api/feedback", feedbackRoutes);
 app.route("/api/audio", audio);
 app.route("/api/contributions", contributions);
 app.route("/api/chat", chat);
+app.route("/api/icaros", icaros);
 
 export default app;
