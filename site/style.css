@@ -815,9 +815,7 @@
     to { opacity: 1; transform: translateY(0); }
   }
   .panel-card-close {
-    position: absolute;
-    top: 0.5rem;
-    right: 0.625rem;
+    position: static;
     width: 1.5rem;
     height: 1.5rem;
     display: flex;
@@ -1202,6 +1200,64 @@
   }
   .icaro-card-tracked {
     border-left: 3px solid var(--color-accent-warm);
+  }
+
+  /* Bookmark buttons */
+  .bookmark-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border: none;
+    background: none;
+    color: var(--color-earth-400);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: color 0.15s;
+  }
+  .bookmark-btn:hover {
+    color: var(--color-accent);
+  }
+  .bookmark-btn-active {
+    color: var(--color-accent);
+  }
+  .bookmark-btn-sm svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* Panel card actions (close + bookmark) */
+  .panel-card-actions {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  /* Song section stanza bookmark */
+  .song-section-actions {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.25rem;
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+  .song-section:hover .song-section-actions {
+    opacity: 1;
+  }
+
+  /* Bookmarks page */
+  .bookmark-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .bookmark-comfort-badge {
+    margin-left: auto;
+    text-transform: capitalize;
   }
 }
 @property --tw-translate-x {

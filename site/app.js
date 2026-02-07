@@ -169,6 +169,102 @@
     }
   }
 
+  // --- Bookmarks ---
+
+  var userBookmarks = []; // array of bookmark objects from API
+
+  async function loadBookmarks() {
+    if (!currentUser) return;
+    try {
+      var data = await api("/api/bookmarks");
+      if (data && data.bookmarks) {
+        userBookmarks = data.bookmarks;
+      }
+    } catch (e) {
+      // silent
+    }
+  }
+
+  function findBookmark(type, opts) {
+    return userBookmarks.find(function (b) {
+      if (b.type !== type) return false;
+      if (type === "word") return b.entryId === opts.entryId;
+      if (type === "phrase") return b.icaroId === opts.icaroId && b.phraseIdx === opts.phraseIdx;
+      if (type === "stanza") return b.icaroId === opts.icaroId && b.stanzaIdx === opts.stanzaIdx;
+      return false;
+    });
+  }
+
+  async function addBookmark(type, opts) {
+    var data = await api("/api/bookmarks", {
+      method: "POST",
+      body: {
+        type: type,
+        icaroId: opts.icaroId || null,
+        stanzaIdx: opts.stanzaIdx != null ? opts.stanzaIdx : null,
+        phraseIdx: opts.phraseIdx != null ? opts.phraseIdx : null,
+        entryId: opts.entryId || null
+      }
+    });
+    if (data && data.bookmark) {
+      userBookmarks.push(data.bookmark);
+    }
+    return data;
+  }
+
+  async function removeBookmark(bookmarkId) {
+    await api("/api/bookmarks/" + bookmarkId, { method: "DELETE" });
+    userBookmarks = userBookmarks.filter(function (b) { return b.id !== bookmarkId; });
+  }
+
+  function bookmarkBtnHTML(type, opts, extraClass) {
+    var existing = findBookmark(type, opts);
+    var active = existing ? " bookmark-btn-active" : "";
+    var dataAttrs = ' data-bm-type="' + type + '"';
+    if (opts.icaroId != null) dataAttrs += ' data-bm-icaro="' + esc(String(opts.icaroId)) + '"';
+    if (opts.stanzaIdx != null) dataAttrs += ' data-bm-stanza="' + opts.stanzaIdx + '"';
+    if (opts.phraseIdx != null) dataAttrs += ' data-bm-phrase="' + opts.phraseIdx + '"';
+    if (opts.entryId != null) dataAttrs += ' data-bm-entry="' + opts.entryId + '"';
+    if (existing) dataAttrs += ' data-bm-id="' + existing.id + '"';
+    return '<button class="bookmark-btn' + active + (extraClass ? " " + extraClass : "") + '"' + dataAttrs + ' title="' + (existing ? "Remove bookmark" : "Bookmark") + '">' +
+      '<svg width="16" height="16" viewBox="0 0 24 24" fill="' + (existing ? "currentColor" : "none") + '" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>' +
+      '</button>';
+  }
+
+  function wireBookmarkButtons(container) {
+    if (!currentUser) return;
+    (container || document).querySelectorAll(".bookmark-btn").forEach(function (btn) {
+      btn.addEventListener("click", async function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        btn.disabled = true;
+        var bmId = btn.getAttribute("data-bm-id");
+        if (bmId) {
+          await removeBookmark(parseInt(bmId));
+          btn.removeAttribute("data-bm-id");
+          btn.classList.remove("bookmark-btn-active");
+          btn.querySelector("svg").setAttribute("fill", "none");
+          btn.title = "Bookmark";
+        } else {
+          var type = btn.getAttribute("data-bm-type");
+          var opts = {};
+          if (btn.getAttribute("data-bm-icaro")) opts.icaroId = btn.getAttribute("data-bm-icaro");
+          if (btn.getAttribute("data-bm-stanza")) opts.stanzaIdx = parseInt(btn.getAttribute("data-bm-stanza"));
+          if (btn.getAttribute("data-bm-phrase")) opts.phraseIdx = parseInt(btn.getAttribute("data-bm-phrase"));
+          if (btn.getAttribute("data-bm-entry")) opts.entryId = parseInt(btn.getAttribute("data-bm-entry"));
+          var data = await addBookmark(type, opts);
+          if (data && data.bookmark) {
+            btn.setAttribute("data-bm-id", data.bookmark.id);
+            btn.classList.add("bookmark-btn-active");
+            btn.querySelector("svg").setAttribute("fill", "currentColor");
+            btn.title = "Remove bookmark";
+          }
+        }
+        btn.disabled = false;
+      });
+    });
+  }
+
   // --- Nav Rendering ---
   // Note: all user-supplied values go through esc() which uses textContent for safe escaping
 
@@ -181,6 +277,7 @@
       '<a href="#/about" class="site-nav-link">About</a>';
 
     if (currentUser) {
+      links += '<a href="#/bookmarks" class="site-nav-link">Bookmarks</a>';
       links += '<div class="user-menu">' +
         '<button class="user-menu-btn" id="user-menu-btn">';
       if (currentUser.avatarUrl) {
@@ -244,7 +341,7 @@
 
     await Promise.all([loadEntries(), loadIcaros()]);
     await checkAuth();
-    await loadProgress();
+    await Promise.all([loadProgress(), loadBookmarks()]);
     route();
   }
 
@@ -257,6 +354,8 @@
 
     if (path === "/about") {
       renderAbout();
+    } else if (path === "/bookmarks") {
+      renderBookmarks();
     } else if (path === "/icaros") {
       renderIcaroIndex();
     } else if (path.match(/^\/icaro\/\d+\/learn$/)) {
@@ -501,6 +600,9 @@
     if (entry.part_of_speech) {
       html += '<span class="badge text-sm">' + esc(entry.part_of_speech) + "</span>";
     }
+    if (currentUser) {
+      html += bookmarkBtnHTML("word", { entryId: entry.id });
+    }
     html += "</div>";
 
     if (entry.variant_forms && entry.variant_forms.length > 0) {
@@ -603,7 +705,9 @@
         '<p class="text-xs text-ink-muted font-light">Source: page ' + entry.page_number + "</p></div>";
     }
 
-    app.innerHTML = html;
+    app.textContent = "";
+    app.insertAdjacentHTML("afterbegin", html);
+    wireBookmarkButtons(app);
     window.scrollTo(0, 0);
   }
 
@@ -698,9 +802,14 @@
     window.scrollTo(0, 0);
   }
 
-  function phraseCardHTML(phrase, phraseIdx) {
+  function phraseCardHTML(phrase, phraseIdx, icaroId) {
     var html = '<div class="panel-card" data-phrase-idx="' + phraseIdx + '">';
+    html += '<div class="panel-card-actions">';
+    if (currentUser && icaroId != null) {
+      html += bookmarkBtnHTML("phrase", { icaroId: String(icaroId), phraseIdx: phraseIdx }, "bookmark-btn-sm");
+    }
     html += '<div class="panel-card-close" data-dismiss="' + phraseIdx + '">\u00d7</div>';
+    html += '</div>';
 
     // Color-coded shipibo text
     html += '<div class="font-display text-xl mb-3" style="padding-right:1.5rem">';
@@ -801,6 +910,11 @@
     if (icaro.song && icaro.song.sections) {
       icaro.song.sections.forEach(function (section, si) {
         html += '<div class="song-section">';
+        if (currentUser) {
+          html += '<div class="song-section-actions">' +
+            bookmarkBtnHTML("stanza", { icaroId: String(id), stanzaIdx: si }, "bookmark-btn-sm") +
+            '</div>';
+        }
         if (section.repeat && section.repeat > 1) {
           html += '<div class="song-section-bracket"></div>';
           html += '<span class="song-repeat">X' + section.repeat + '</span>';
@@ -888,6 +1002,7 @@
     html += '</div>';
 
     app.innerHTML = html;
+    wireBookmarkButtons(app);
     window.scrollTo(0, 0);
 
     // --- Interactive logic ---
@@ -913,15 +1028,17 @@
 
       var cardsHTML = "";
       orderedIndices.forEach(function (pi) {
-        cardsHTML += phraseCardHTML(phrases[pi], pi);
+        cardsHTML += phraseCardHTML(phrases[pi], pi, id);
       });
 
       // Desktop panel
       panelCards.innerHTML = cardsHTML;
       panelEmpty.style.display = orderedIndices.length === 0 ? "" : "none";
+      wireBookmarkButtons(panelCards);
 
       // Mobile drawer
       drawerCards.innerHTML = cardsHTML;
+      wireBookmarkButtons(drawerCards);
       if (isMobile) {
         if (orderedIndices.length > 0) {
           drawer.classList.add("active");
@@ -1050,6 +1167,100 @@
     }
   }
 
+  function renderBookmarks() {
+    document.title = "Bookmarks \u2014 Shipibo Dictionary";
+
+    if (!currentUser) {
+      app.innerHTML = '<div class="mb-8">' +
+        '<a href="#/" class="back-link">' +
+        '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+        'Back to dictionary</a></div>' +
+        '<h1 class="font-display text-5xl text-ink mb-6 tracking-tight font-light">Bookmarks</h1>' +
+        '<p class="text-ink-muted">Sign in to save bookmarks.</p>';
+      return;
+    }
+
+    var html = '<div class="mb-8">' +
+      '<a href="#/" class="back-link">' +
+      '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+      'Back to dictionary</a></div>';
+
+    html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Bookmarks</h1>';
+    html += '<p class="text-ink-muted text-lg font-light mb-10">Your saved words, phrases, and stanzas</p>';
+
+    if (userBookmarks.length === 0) {
+      html += '<p class="text-ink-muted">No bookmarks yet. Use the bookmark icon on entries, phrases, or stanzas to save them here.</p>';
+      app.innerHTML = html;
+      return;
+    }
+
+    // Group by type
+    var words = userBookmarks.filter(function (b) { return b.type === "word"; });
+    var phrases = userBookmarks.filter(function (b) { return b.type === "phrase"; });
+    var stanzas = userBookmarks.filter(function (b) { return b.type === "stanza"; });
+
+    if (words.length > 0) {
+      html += '<div class="mb-10">';
+      html += '<h2 class="section-label mb-4">Words (' + words.length + ')</h2>';
+      html += '<div class="entries-container">';
+      words.forEach(function (bm) {
+        var entry = ENTRIES.find(function (e) { return e.id === bm.entryId; });
+        if (entry) {
+          html += '<a href="#/entry/' + entry.id + '" class="entry-link bookmark-item">' +
+            '<span class="font-display text-xl text-ink">' + esc(entry.headword) + '</span>';
+          if (entry.definitions_english && entry.definitions_english.length > 0) {
+            html += '<span class="text-ink-light text-sm ml-3">' + esc(entry.definitions_english[0]) + '</span>';
+          }
+          html += '<span class="badge bookmark-comfort-badge">' + esc(bm.comfort) + '</span>';
+          html += '</a>';
+        }
+      });
+      html += '</div></div>';
+    }
+
+    if (phrases.length > 0) {
+      html += '<div class="mb-10">';
+      html += '<h2 class="section-label mb-4">Phrases (' + phrases.length + ')</h2>';
+      html += '<div class="entries-container">';
+      phrases.forEach(function (bm) {
+        var icaro = ICAROS.find(function (ic) { return String(ic.id) === bm.icaroId; });
+        var phrase = icaro && icaro.phrases ? icaro.phrases[bm.phraseIdx] : null;
+        if (phrase && icaro) {
+          html += '<a href="#/icaro/' + icaro.id + '" class="entry-link bookmark-item">' +
+            '<span class="font-display text-lg text-ink">' + esc(phrase.shipibo) + '</span>';
+          if (phrase.literal_translation) {
+            html += '<span class="text-ink-light text-sm ml-3">' + esc(phrase.literal_translation) + '</span>';
+          }
+          html += '<span class="badge bookmark-comfort-badge">' + esc(bm.comfort) + '</span>';
+          html += '</a>';
+        }
+      });
+      html += '</div></div>';
+    }
+
+    if (stanzas.length > 0) {
+      html += '<div class="mb-10">';
+      html += '<h2 class="section-label mb-4">Stanzas (' + stanzas.length + ')</h2>';
+      html += '<div class="entries-container">';
+      stanzas.forEach(function (bm) {
+        var icaro = ICAROS.find(function (ic) { return String(ic.id) === bm.icaroId; });
+        if (icaro && icaro.song && icaro.song.sections && icaro.song.sections[bm.stanzaIdx]) {
+          var section = icaro.song.sections[bm.stanzaIdx];
+          var firstLine = section.lines[0] ? section.lines[0].text : "";
+          html += '<a href="#/icaro/' + icaro.id + '" class="entry-link bookmark-item">' +
+            '<span class="text-ink-muted text-xs">' + esc(icaro.title) + ' \u2014 Stanza ' + (bm.stanzaIdx + 1) + '</span>' +
+            '<span class="font-display text-lg text-ink">' + esc(firstLine) + '\u2026</span>' +
+            '<span class="badge bookmark-comfort-badge">' + esc(bm.comfort) + '</span>' +
+            '</a>';
+        }
+      });
+      html += '</div></div>';
+    }
+
+    app.innerHTML = html;
+    window.scrollTo(0, 0);
+  }
+
   function renderAbout() {
     document.title = "About \u2014 Shipibo Dictionary";
     app.innerHTML = '<div class="mb-8">' +
@@ -1071,6 +1282,6 @@
 
   // Register service worker
   if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("service-worker.js");
+    navigator.serviceWorker.register("/service-worker.js");
   }
 })();
