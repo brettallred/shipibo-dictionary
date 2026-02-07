@@ -210,15 +210,58 @@ Pill-shaped (`--radius-full`), 11px font, 600 weight. Five variants mapping to s
 
 ---
 
-## 10. Kené Pattern Usage
+## 10. Kené Pattern Library
 
-Shipibo kené geometric patterns are used as a subtle cultural layer throughout the app.
+Shipibo kené geometric patterns are used as a subtle cultural layer throughout the app. These are abstracted, respectful interpretations of traditional motifs — not reproductions of sacred designs. The full library is implemented in `kene-patterns.jsx` as reusable React/SVG components.
 
-**Allowed uses**: Hero section backgrounds (5-8% opacity), section dividers (decorative border motif), empty states, loading placeholders, achievement/celebration screens, onboarding illustrations.
+### Pattern Families
 
-**Not allowed**: Behind text-heavy content, on interactive elements, as dense all-over patterns, anywhere that reduces readability or competes with learning content.
+**Diamond Patterns (Quene Kené)** — Classic interlocking diamond motifs for hero backgrounds and feature sections.
 
-The kené motifs used are abstracted geometric diamonds, interlocking lines, and small cross accents — inspired by but not directly reproducing sacred patterns.
+| Component | Description | Default Cell Size |
+|-----------|-------------|-------------------|
+| `KeneDiamondGrid` | Foundational kené motif with interlocking diamonds and cross accents | 40px |
+| `KeneDiamondLattice` | Denser woven variant with horizontal/vertical internal bars | 32px |
+| `KeneStackedDiamonds` | Nested concentric diamonds creating depth and focus | 56px |
+
+**River Line Patterns (Nete Kené)** — Flowing, serpentine paths for organic backgrounds and transitions.
+
+| Component | Description | Default Cell Size |
+|-----------|-------------|-------------------|
+| `KeneRiverFlow` | Undulating parallel waves with rhythmic vertical marks | 48px |
+| `KeneMazePath` | Right-angle meander pattern evoking ceremonial pathways | 36px |
+| `KeneSpiralVine` | Organic spiraling curves paired in symmetry | 50px |
+
+**Border Patterns (Cano Kené)** — Repeating linear patterns for section dividers, card frames, and navigation accents.
+
+| Component | Description | Default Height |
+|-----------|-------------|----------------|
+| `KeneBorderZigzag` | Classic zigzag with diamond accents at peaks | 20px |
+| `KeneBorderStep` | Geometric stepped meander band | 24px |
+| `KeneBorderWave` | Smooth sinusoidal wave with dot accents | 20px |
+| `KeneBorderCrossChain` | Linked cross-and-diamond chain motif | 18px |
+
+### Utility Components
+
+| Component | Description |
+|-----------|-------------|
+| `KeneBackground` | Wraps any area pattern as a positioned background layer. Accepts `pattern` prop: `"diamond"`, `"lattice"`, `"stacked"`, `"river"`, `"maze"`, `"spiral"` |
+| `KeneDivider` | Section divider using any border variant. Accepts `variant` prop: `"zigzag"`, `"step"`, `"wave"`, `"cross"` |
+| `KeneFramedCard` | Card component with a kené border accent at the top |
+
+### Shared Props
+
+All pattern components accept: `color` (hex string), `opacity` (0–1), `width`, `height`, and `style`. Area patterns also accept `cellSize` to control pattern density.
+
+### Usage Guidelines
+
+**Allowed uses**: Hero section backgrounds (5–8% opacity), section dividers as decorative borders, empty states, loading placeholders, achievement/celebration screens, onboarding illustrations.
+
+**Not allowed**: Behind text-heavy content where it reduces readability, on interactive elements like buttons or inputs, as dense all-over patterns that compete with learning content, direct reproduction of sacred patterns.
+
+### Color Variants
+
+Any pattern can be rendered in any palette color. On dark backgrounds, use the lighter shade (e.g., `#d09e9e` for burgundy, `#c9b89e` for earth). On light backgrounds, use the primary shade at low opacity.
 
 ---
 
@@ -241,4 +284,7 @@ All color combinations meet WCAG AA contrast requirements (4.5:1 for body text, 
 | `design-tokens.json` | Complete token definitions in JSON format |
 | `tokens.css` | CSS custom properties ready for implementation |
 | `onanti-design-language.jsx` | Interactive visual reference (React component) |
+| `kene-patterns.jsx` | Reusable React/SVG kené pattern component library |
+| `kene-patterns.svg` | Static SVG reference showcasing all patterns |
+| `onanti-design-language.pdf` | Visual reference PDF (9 pages) |
 | `DESIGN-SPEC.md` | This document — the full specification |

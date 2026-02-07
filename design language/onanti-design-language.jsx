@@ -1,4 +1,9 @@
 import { useState } from "react";
+import {
+  KeneDiamondGrid,
+  KeneBorderZigzag as KeneBorder,
+  KeneBackground,
+} from "./kene-patterns";
 
 const tokens = {
   color: {
@@ -10,36 +15,17 @@ const tokens = {
   },
 };
 
-/* ── Kené-inspired SVG pattern ── */
+/* KenePattern — wrapper around KeneDiamondGrid for backward compatibility in this file */
 function KenePattern({ opacity = 0.06, color = "#7a3333", size = 60 }) {
   return (
-    <svg width={size * 4} height={size * 4} style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", opacity, pointerEvents: "none" }}>
-      <defs>
-        <pattern id="kene" x="0" y="0" width={size} height={size} patternUnits="userSpaceOnUse">
-          <path d={`M${size / 2} 0 L${size} ${size / 2} L${size / 2} ${size} L0 ${size / 2} Z`} fill="none" stroke={color} strokeWidth="0.8" />
-          <line x1={size / 4} y1={size / 4} x2={size * 3 / 4} y2={size / 4} stroke={color} strokeWidth="0.5" />
-          <line x1={size / 4} y1={size * 3 / 4} x2={size * 3 / 4} y2={size * 3 / 4} stroke={color} strokeWidth="0.5" />
-          <rect x={size / 2 - 2} y={size / 2 - 2} width="4" height="4" fill={color} opacity="0.5" transform={`rotate(45 ${size / 2} ${size / 2})`} />
-        </pattern>
-      </defs>
-      <rect width="100%" height="100%" fill="url(#kene)" />
-    </svg>
-  );
-}
-
-/* ── Kené Border (decorative line) ── */
-function KeneBorder({ width = "100%", color = "#7a3333", height = 3 }) {
-  const id = `kene-border-${Math.random().toString(36).slice(2, 7)}`;
-  return (
-    <svg width={width} height={height * 6} style={{ display: "block" }}>
-      <defs>
-        <pattern id={id} x="0" y="0" width="24" height={height * 6} patternUnits="userSpaceOnUse">
-          <path d={`M0 ${height * 3} L6 ${height} L12 ${height * 3} L18 ${height * 5} L24 ${height * 3}`} fill="none" stroke={color} strokeWidth="1.2" />
-          <circle cx="12" cy={height * 3} r="1.5" fill={color} opacity="0.4" />
-        </pattern>
-      </defs>
-      <rect width="100%" height="100%" fill={`url(#${id})`} />
-    </svg>
+    <KeneDiamondGrid
+      width="100%"
+      height="100%"
+      cellSize={size}
+      color={color}
+      opacity={opacity}
+      style={{ position: "absolute", inset: 0, pointerEvents: "none" }}
+    />
   );
 }
 
