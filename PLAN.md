@@ -172,43 +172,51 @@
 - Responsive design for new views
 - Spaced repetition algorithm for card review (SM-2 or similar) — schedule cards based on comfort level and time since last review, replacing simple sequential deck
 
+**Phase 10: Icaro Publishing Pipeline**
+- Migrate existing icaros from static JSON into D1 `icaros` table
+- API endpoints: GET /api/icaros (public list), GET /api/icaros/:id (detail)
+- Site fetches icaros from API instead of static JSON
+- Admin "Publish" action on approved contributions → creates icaro record in D1
+- Published icaros appear in the main icaros list alongside original extracted icaros
+- Admin can edit/unpublish community icaros
+
 ### iOS (Native, Offline-First)
 
-**Phase 10: iOS Project Setup + Local Data**
+**Phase 11: iOS Project Setup + Local Data**
 - Xcode project, SwiftUI
 - Bundle dictionary + icaro JSON locally
 - SwiftData models mirroring D1 schema
 - Tab navigation (Dictionary, Icaros, Review, Profile)
 
-**Phase 11: iOS Dictionary + Icaro Views**
+**Phase 12: iOS Dictionary + Icaro Views**
 - Native search (fast, local, no network needed)
 - Entry detail view
 - Icaro view with stanza/phrase breakdown
 - Morphological color coding in native UI
 - Audio playback with cached recordings
 
-**Phase 12: iOS Auth + Sync Engine**
+**Phase 13: iOS Auth + Sync Engine**
 - Google Sign-In SDK for iOS
 - Local-first write queue
 - Background sync when connectivity detected
 - Conflict resolution (last-write-wins, timestamp-based)
 
-**Phase 13: iOS User Features**
+**Phase 14: iOS User Features**
 - Icaro progress tracking with stanza position
 - Study bookmarks (phrases, words, stanzas)
 - Review mode with native card-flip animations
 - Comfort tracking
 
-**Phase 14: iOS Audio**
+**Phase 15: iOS Audio**
 - Record icaros in-app (AVAudioRecorder)
 - Local playback cache
 - Upload queue — sync recordings when back online
 
-**Phase 15: iOS AI Chat**
+**Phase 16: iOS AI Chat**
 - Chat interface (online-only, graceful offline message)
 - Cache previous conversations locally for reference
 
-**Phase 16: App Store Submission**
+**Phase 17: App Store Submission**
 - TestFlight beta
 - App Store assets (screenshots, description, privacy policy)
 - Review + launch

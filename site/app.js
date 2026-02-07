@@ -389,6 +389,7 @@
     if (currentUser) {
       links += '<a href="#/bookmarks" class="site-nav-link">Bookmarks</a>';
       links += '<a href="#/review" class="site-nav-link">Review</a>';
+      links += '<a href="#/contributions" class="site-nav-link">Contribute</a>';
       if (currentUser.role === "admin") {
         links += '<a href="#/admin/feedback" class="site-nav-link">Admin</a>';
       }
@@ -474,8 +475,17 @@
       renderReview(params);
     } else if (path === "/admin/feedback") {
       renderAdminFeedback();
+    } else if (path === "/contributions") {
+      renderContributions();
+    } else if (path === "/contributions/new") {
+      renderContributionEditor(null);
+    } else if (path.match(/^\/contributions\/\d+\/edit$/)) {
+      var cid = parseInt(path.split("/")[2], 10);
+      renderContributionEditor(cid);
     } else if (path === "/admin/audio") {
       renderAdminAudio();
+    } else if (path === "/admin/contributions") {
+      renderAdminContributions();
     } else if (path === "/icaros") {
       renderIcaroIndex();
     } else if (path.match(/^\/icaro\/\d+\/learn$/)) {
@@ -1811,6 +1821,246 @@
     window.scrollTo(0, 0);
   }
 
+  // --- Contributions ---
+
+  async function renderContributions() {
+    document.title = "My Contributions \u2014 Shipibo Dictionary";
+
+    if (!currentUser) {
+      app.innerHTML = '<div class="mb-8">' +
+        '<a href="#/" class="back-link">' +
+        '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+        'Back to dictionary</a></div>' +
+        '<h1 class="font-display text-5xl text-ink mb-6 tracking-tight font-light">Contribute</h1>' +
+        '<p class="text-ink-muted">Sign in to contribute icaros.</p>';
+      return;
+    }
+
+    app.innerHTML = '<p class="text-ink-muted">Loading...</p>';
+    var data = await api("/api/contributions");
+    var items = data && data.contributions ? data.contributions : [];
+
+    var html = '<div class="mb-8">' +
+      '<a href="#/" class="back-link">' +
+      '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+      'Back to dictionary</a></div>';
+
+    html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">My Contributions</h1>';
+    html += '<p class="text-ink-muted text-lg font-light mb-6">Submit icaro texts for review</p>';
+    html += '<div class="mb-8"><a href="#/contributions/new" class="review-start-btn">New Icaro</a></div>';
+
+    if (items.length === 0) {
+      html += '<p class="text-ink-muted">No contributions yet.</p>';
+    } else {
+      html += '<div class="entries-container">';
+      items.forEach(function (item) {
+        var statusClass = "feedback-status-" + item.status;
+        html += '<div class="contrib-item">';
+        html += '<div class="flex items-center gap-2 mb-1">';
+        html += '<a href="#/contributions/' + item.id + '/edit" class="font-display text-xl text-ink accent-link">' + esc(item.title) + '</a>';
+        html += '<span class="badge ' + statusClass + '">' + esc(item.status) + '</span>';
+        html += '</div>';
+        html += '<p class="text-ink-muted text-xs">' + esc(item.updatedAt) + '</p>';
+        if (item.adminNotes) {
+          html += '<p class="text-ink-light text-sm mt-1 italic">Admin: ' + esc(item.adminNotes) + '</p>';
+        }
+        html += '</div>';
+      });
+      html += '</div>';
+    }
+
+    app.innerHTML = html;
+    window.scrollTo(0, 0);
+  }
+
+  async function renderContributionEditor(editId) {
+    document.title = (editId ? "Edit" : "New") + " Contribution \u2014 Shipibo Dictionary";
+
+    if (!currentUser) {
+      app.innerHTML = '<p class="text-ink-muted">Sign in to contribute.</p>';
+      return;
+    }
+
+    var existing = null;
+    if (editId) {
+      var data = await api("/api/contributions");
+      if (data && data.contributions) {
+        existing = data.contributions.find(function (c) { return c.id === editId; });
+      }
+      if (!existing) {
+        app.innerHTML = '<p class="text-ink-muted">Contribution not found.</p>';
+        return;
+      }
+    }
+
+    var html = '<div class="mb-8">' +
+      '<a href="#/contributions" class="back-link">' +
+      '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+      'Back to contributions</a></div>';
+
+    html += '<h1 class="font-display text-5xl text-ink mb-6 tracking-tight font-light">' +
+      (editId ? "Edit Contribution" : "New Icaro Contribution") + '</h1>';
+
+    html += '<div class="contrib-editor">';
+    html += '<div class="feedback-field mb-4">';
+    html += '<label class="text-xs text-ink-muted uppercase tracking-wide mb-1">Title</label>';
+    html += '<input type="text" class="feedback-textarea" id="contrib-title" style="padding:0.5rem" placeholder="Icaro title" value="' + (existing ? esc(existing.title) : '') + '">';
+    html += '</div>';
+
+    html += '<div class="feedback-field mb-4">';
+    html += '<label class="text-xs text-ink-muted uppercase tracking-wide mb-1">Icaro Text</label>';
+    html += '<textarea class="feedback-textarea" id="contrib-content" rows="12" placeholder="Enter the icaro text, one line per phrase...">' + (existing ? esc(existing.content) : '') + '</textarea>';
+    html += '</div>';
+
+    if (existing && existing.adminNotes) {
+      html += '<div class="mb-4 p-3 border border-earth-200 rounded-lg">';
+      html += '<span class="text-xs text-ink-muted uppercase tracking-wide">Admin Notes</span>';
+      html += '<p class="text-ink-light text-sm mt-1">' + esc(existing.adminNotes) + '</p>';
+      html += '</div>';
+    }
+
+    html += '<div class="flex gap-3">';
+    html += '<button class="feedback-cancel-btn" id="contrib-save-draft">Save Draft</button>';
+    html += '<button class="feedback-submit-btn" id="contrib-submit">Submit for Review</button>';
+    if (existing && (existing.status === "draft" || existing.status === "rejected")) {
+      html += '<button class="feedback-cancel-btn" id="contrib-delete" style="margin-left:auto;color:#991b1b">Delete</button>';
+    }
+    html += '</div>';
+    html += '</div>';
+
+    app.innerHTML = html;
+    window.scrollTo(0, 0);
+
+    // Wire buttons
+    async function saveContrib(status) {
+      var title = document.getElementById("contrib-title").value.trim();
+      var content = document.getElementById("contrib-content").value.trim();
+      if (!title) { document.getElementById("contrib-title").focus(); return; }
+      if (!content) { document.getElementById("contrib-content").focus(); return; }
+
+      if (existing) {
+        await api("/api/contributions/" + existing.id, {
+          method: "PUT",
+          body: { title: title, content: content, status: status }
+        });
+      } else {
+        await api("/api/contributions", {
+          method: "POST",
+          body: { title: title, content: content, status: status }
+        });
+      }
+      location.hash = "#/contributions";
+    }
+
+    document.getElementById("contrib-save-draft").addEventListener("click", function () {
+      saveContrib("draft");
+    });
+    document.getElementById("contrib-submit").addEventListener("click", function () {
+      saveContrib("submitted");
+    });
+
+    var deleteBtn = document.getElementById("contrib-delete");
+    if (deleteBtn) {
+      deleteBtn.addEventListener("click", async function () {
+        await api("/api/contributions/" + existing.id, { method: "DELETE" });
+        location.hash = "#/contributions";
+      });
+    }
+  }
+
+  // --- Admin Views ---
+
+  async function renderAdminContributions() {
+    document.title = "Admin: Contributions \u2014 Shipibo Dictionary";
+
+    if (!currentUser || currentUser.role !== "admin") {
+      app.innerHTML = '<p class="text-ink-muted">Access denied.</p>';
+      return;
+    }
+
+    app.innerHTML = '<p class="text-ink-muted">Loading...</p>';
+    var data = await api("/api/contributions/admin/all");
+    if (!data || !data.contributions) {
+      app.innerHTML = '<p class="text-ink-muted">Failed to load.</p>';
+      return;
+    }
+
+    var items = data.contributions;
+
+    var html = '<div class="mb-8">' +
+      '<a href="#/" class="back-link">' +
+      '<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg>' +
+      'Back to dictionary</a></div>';
+
+    html += '<div class="admin-tabs mb-6">' +
+      '<a href="#/admin/feedback" class="admin-tab">Feedback</a>' +
+      '<a href="#/admin/audio" class="admin-tab">Audio</a>' +
+      '<a href="#/admin/contributions" class="admin-tab admin-tab-active">Contributions</a>' +
+      '</div>';
+
+    html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Contributions</h1>';
+    html += '<p class="text-ink-muted text-lg font-light mb-8">' + items.length + ' submission' + (items.length !== 1 ? 's' : '') + '</p>';
+
+    if (items.length === 0) {
+      html += '<p class="text-ink-muted">No contributions submitted yet.</p>';
+      app.innerHTML = html;
+      return;
+    }
+
+    items.forEach(function (item) {
+      var statusClass = "feedback-status-" + item.status;
+      html += '<div class="admin-feedback-item" data-contrib-id="' + item.id + '">';
+      html += '<div class="flex items-center gap-2 mb-2">';
+      html += '<span class="font-display text-lg text-ink">' + esc(item.title) + '</span>';
+      html += '<span class="badge ' + statusClass + '">' + esc(item.status) + '</span>';
+      html += '<span class="text-ink-muted text-xs ml-auto">' + esc(item.updatedAt) + '</span>';
+      html += '</div>';
+      html += '<pre class="contrib-preview">' + esc(item.content) + '</pre>';
+
+      // Admin notes input
+      html += '<div class="feedback-field mt-2 mb-2">';
+      html += '<input type="text" class="feedback-textarea admin-notes-input" data-cid="' + item.id + '" style="padding:0.375rem;font-size:0.75rem" placeholder="Admin notes..." value="' + (item.adminNotes ? esc(item.adminNotes) : '') + '">';
+      html += '</div>';
+
+      // Status buttons
+      html += '<div class="admin-feedback-actions">';
+      ["draft", "submitted", "approved", "rejected"].forEach(function (s) {
+        var active = item.status === s ? " admin-status-active" : "";
+        html += '<button class="admin-status-btn' + active + '" data-cid="' + item.id + '" data-status="' + s + '">' +
+          s.charAt(0).toUpperCase() + s.slice(1) + '</button>';
+      });
+      html += '</div>';
+      html += '</div>';
+    });
+
+    app.innerHTML = html;
+    window.scrollTo(0, 0);
+
+    // Wire status buttons
+    app.querySelectorAll(".admin-status-btn[data-cid]").forEach(function (btn) {
+      btn.addEventListener("click", async function () {
+        var cid = btn.getAttribute("data-cid");
+        var status = btn.getAttribute("data-status");
+        var notesInput = app.querySelector('.admin-notes-input[data-cid="' + cid + '"]');
+        var adminNotes = notesInput ? notesInput.value : "";
+        btn.disabled = true;
+        await api("/api/contributions/admin/" + cid, {
+          method: "PUT",
+          body: { status: status, adminNotes: adminNotes }
+        });
+        var itemEl = btn.closest(".admin-feedback-item");
+        itemEl.querySelectorAll(".admin-status-btn").forEach(function (b) { b.classList.remove("admin-status-active"); });
+        btn.classList.add("admin-status-active");
+        var badges = itemEl.querySelectorAll(".badge");
+        if (badges.length >= 1) {
+          badges[0].textContent = status;
+          badges[0].className = "badge feedback-status-" + status;
+        }
+        btn.disabled = false;
+      });
+    });
+  }
+
   async function renderAdminFeedback() {
     document.title = "Admin: Feedback \u2014 Shipibo Dictionary";
 
@@ -1837,6 +2087,7 @@
     html += '<div class="admin-tabs mb-6">' +
       '<a href="#/admin/feedback" class="admin-tab admin-tab-active">Feedback</a>' +
       '<a href="#/admin/audio" class="admin-tab">Audio</a>' +
+      '<a href="#/admin/contributions" class="admin-tab">Contributions</a>' +
       '</div>';
 
     html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Feedback Queue</h1>';
@@ -1925,6 +2176,7 @@
     html += '<div class="admin-tabs mb-6">' +
       '<a href="#/admin/feedback" class="admin-tab">Feedback</a>' +
       '<a href="#/admin/audio" class="admin-tab admin-tab-active">Audio</a>' +
+      '<a href="#/admin/contributions" class="admin-tab">Contributions</a>' +
       '</div>';
 
     html += '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Audio Moderation</h1>';

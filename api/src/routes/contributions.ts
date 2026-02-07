@@ -71,6 +71,33 @@ contributions.put("/:id", async (c) => {
   return c.json({ ok: true });
 });
 
+// Admin: list all contributions
+contributions.get("/admin/all", requireAdmin, async (c) => {
+  const db = c.get("db");
+  const items = await db.query.icaroContributions.findMany({
+    orderBy: (ic, { desc }) => [desc(ic.updatedAt)],
+  });
+  return c.json({ contributions: items });
+});
+
+// Admin: update contribution status
+contributions.put("/admin/:id", requireAdmin, async (c) => {
+  const db = c.get("db");
+  const id = parseInt(c.req.param("id"));
+  const body = await c.req.json();
+
+  await db
+    .update(schema.icaroContributions)
+    .set({
+      status: body.status,
+      adminNotes: body.adminNotes,
+      updatedAt: new Date().toISOString(),
+    })
+    .where(eq(schema.icaroContributions.id, id));
+
+  return c.json({ ok: true });
+});
+
 // Delete contribution
 contributions.delete("/:id", async (c) => {
   const user = c.get("user")!;
