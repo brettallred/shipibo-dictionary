@@ -567,6 +567,11 @@
 
     await checkConfig();
     await checkAuth();
+    // Auto-login when auth is disabled and no existing session
+    if (!currentUser && devAuthEnabled) {
+      await devLogin();
+      return; // devLogin calls route() after loading data
+    }
     if (currentUser) {
       await Promise.all([loadEntries(), loadIcaros()]);
       await Promise.all([loadProgress(), loadBookmarks()]);
