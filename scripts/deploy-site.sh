@@ -48,8 +48,8 @@ sed -i.bak \
   "$BUILD_DIR/service-worker.js"
 rm -f "$BUILD_DIR/service-worker.js.bak"
 
-# Update stale-while-revalidate URL matching to use includes()
-# so it works with versioned query strings (must run BEFORE URL versioning)
+# Update network-first URL matching to use includes()
+# so it works with versioned query strings
 sed -i.bak \
   -e 's|endsWith("/app.js")|includes("/app.js")|g' \
   -e 's|endsWith("/style.css")|includes("/style.css")|g' \

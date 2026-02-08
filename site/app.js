@@ -503,21 +503,17 @@
   // --- Data ---
 
   async function loadEntries() {
-    const res = await fetch("/data/entries.json");
-    ENTRIES = await res.json();
+    var res = await fetch(API_URL + "/api/entries");
+    if (res.ok) {
+      ENTRIES = await res.json();
+    }
   }
 
   async function loadIcaros() {
-    try {
-      var res = await fetch(API_URL + "/api/icaros");
-      if (res.ok) {
-        ICAROS = await res.json();
-        return;
-      }
-    } catch (e) { /* API unavailable, fall through to static fallback */ }
-    // Fallback to static JSON for offline/PWA resilience
-    var fallback = await fetch("/data/icaros.json");
-    ICAROS = await fallback.json();
+    var res = await fetch(API_URL + "/api/icaros");
+    if (res.ok) {
+      ICAROS = await res.json();
+    }
   }
 
   var dataLoaded = false;
@@ -2827,8 +2823,17 @@
   // --- Init ---
   loadAll();
 
-  // Register service worker
+  // Register service worker with update detection
   if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("/service-worker.js");
+    navigator.serviceWorker.register("/service-worker.js").then(function (reg) {
+      reg.addEventListener("updatefound", function () {
+        var newWorker = reg.installing;
+        newWorker.addEventListener("statechange", function () {
+          if (newWorker.state === "activated") {
+            window.location.reload();
+          }
+        });
+      });
+    });
   }
 })();

@@ -1,4 +1,4 @@
-var CACHE_NAME = "onanti-v2";
+var CACHE_NAME = "onanti-v3";
 var ASSETS = [
   "/",
   "/index.html",
@@ -6,7 +6,6 @@ var ASSETS = [
   "/style.css",
   "/tokens.css",
   "/kene-patterns.js",
-  "/data/entries.json",
   "/manifest.json",
   "/icon.png",
   "/icon.svg"
@@ -39,7 +38,7 @@ self.addEventListener("fetch", function (event) {
     return;
   }
 
-  // For navigation requests (HTML pages), use network-first to pick up updates quickly
+  // For navigation requests, use network-first
   if (event.request.mode === "navigate") {
     event.respondWith(
       fetch(event.request).then(function (response) {
@@ -56,23 +55,22 @@ self.addEventListener("fetch", function (event) {
     return;
   }
 
-  // For app.js and style.css, use stale-while-revalidate to balance speed and freshness
+  // For app assets (JS/CSS), use network-first with cache fallback
   if (event.request.url.endsWith("/app.js") || event.request.url.endsWith("/style.css") || event.request.url.endsWith("/tokens.css") || event.request.url.endsWith("/kene-patterns.js")) {
     event.respondWith(
-      caches.open(CACHE_NAME).then(function (cache) {
-        return cache.match(event.request).then(function (cached) {
-          var fetchPromise = fetch(event.request).then(function (response) {
-            cache.put(event.request, response.clone());
-            return response;
-          });
-          return cached || fetchPromise;
+      fetch(event.request).then(function (response) {
+        return caches.open(CACHE_NAME).then(function (cache) {
+          cache.put(event.request, response.clone());
+          return response;
         });
+      }).catch(function () {
+        return caches.match(event.request);
       })
     );
     return;
   }
 
-  // Everything else: cache-first
+  // Everything else (icons, manifest, fonts): cache-first
   event.respondWith(
     caches.match(event.request).then(function (cached) {
       return cached || fetch(event.request);

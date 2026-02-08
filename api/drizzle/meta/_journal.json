@@ -15,6 +15,13 @@
       "when": 1770481737179,
       "tag": "0001_wealthy_meteorite",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1770510295936,
+      "tag": "0002_mighty_living_tribunal",
+      "breakpoints": true
     }
   ]
 }

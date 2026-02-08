@@ -115,6 +115,15 @@ export const icaroContributions = sqliteTable("icaro_contributions", {
   updatedAt: text("updated_at").notNull().default(sql`(datetime('now'))`),
 });
 
+export const entries = sqliteTable("entries", {
+  id: integer("id").primaryKey(),
+  headword: text("headword").notNull(),
+  partOfSpeech: text("part_of_speech"),
+  data: text("data").notNull(),
+  createdAt: text("created_at").notNull().default(sql`(datetime('now'))`),
+  updatedAt: text("updated_at").notNull().default(sql`(datetime('now'))`),
+});
+
 export const chatMessages = sqliteTable("chat_messages", {
   id: integer("id").primaryKey({ autoIncrement: true }),
   userId: integer("user_id")
