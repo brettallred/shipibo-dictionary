@@ -1504,6 +1504,172 @@
     text-transform: capitalize;
   }
 
+  /* Dashboard */
+  .dashboard-due-banner {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 1.25rem 1.5rem;
+    background: linear-gradient(135deg, var(--color-earth-100), var(--color-parchment));
+    border: 1px solid var(--color-earth-200);
+    border-radius: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  .dashboard-due-number {
+    font-family: var(--font-display, 'Playfair Display', serif);
+    font-size: 2.5rem;
+    line-height: 1;
+    color: var(--color-accent);
+    font-weight: 600;
+  }
+  .dashboard-due-label {
+    font-size: 1rem;
+    color: var(--color-ink-light);
+    line-height: 1.4;
+  }
+  .dashboard-due-label .dashboard-due-sublabel {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--color-ink-muted);
+    margin-top: 0.15rem;
+  }
+  .dashboard-section {
+    margin-bottom: 2.5rem;
+  }
+  .dashboard-card {
+    background-color: var(--color-linen);
+    border: 1px solid var(--color-earth-200);
+    border-radius: 0.75rem;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0.75rem;
+    overflow: hidden;
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+  }
+  .dashboard-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+  .dashboard-card-title {
+    font-size: 0.8rem;
+    color: var(--color-ink-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+  }
+  .dashboard-card-title a {
+    color: var(--color-ink-muted);
+    text-decoration: none;
+  }
+  .dashboard-card-title a:hover {
+    color: var(--color-accent);
+  }
+  .dashboard-card-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+  }
+  .dashboard-stanza-lines {
+    padding: 0.25rem 0;
+  }
+  .dashboard-stanza-line {
+    font-family: var(--font-display, 'Playfair Display', serif);
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--color-ink);
+  }
+  .dashboard-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--color-earth-100);
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+    overflow: hidden;
+  }
+  .dashboard-item:last-child {
+    border-bottom: none;
+  }
+  .dashboard-item-content {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    min-width: 0;
+    flex: 1;
+  }
+  .dashboard-item-content a {
+    color: var(--color-ink);
+    text-decoration: none;
+  }
+  .dashboard-item-content a:hover {
+    color: var(--color-accent);
+  }
+  .dashboard-due-badge {
+    font-size: 0.65rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    background-color: var(--color-accent);
+    color: var(--color-linen);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+  }
+  .dashboard-unbookmark {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-accent);
+    padding: 0.25rem;
+    line-height: 1;
+    transition: color 0.15s;
+    flex-shrink: 0;
+  }
+  .dashboard-unbookmark:hover {
+    color: var(--color-accent-light);
+  }
+  .dashboard-unbookmark:disabled {
+    opacity: 0.4;
+    cursor: default;
+  }
+  .dashboard-caught-up {
+    text-align: center;
+    padding: 1.25rem 1.5rem;
+    background: linear-gradient(135deg, var(--color-earth-100), var(--color-parchment));
+    border: 1px solid var(--color-earth-200);
+    border-radius: 0.75rem;
+    margin-bottom: 2rem;
+    color: var(--color-ink-light);
+  }
+
+  @media (max-width: 767px) {
+    .dashboard-due-banner {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
+      padding: 1rem 1.25rem;
+    }
+    .dashboard-due-number {
+      font-size: 2rem;
+    }
+    .dashboard-stanza-line {
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+    .dashboard-card-header {
+      flex-wrap: wrap;
+    }
+    .dashboard-item {
+      flex-wrap: wrap;
+    }
+    .dashboard-item-content {
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+  }
+
   /* Feedback button */
   .feedback-btn {
     font-size: 0.75rem;

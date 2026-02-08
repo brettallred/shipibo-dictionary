@@ -682,6 +682,18 @@
     return d.innerHTML;
   }
 
+  // SM-2 spaced repetition: calculate due score based on comfort and last review
+  var comfortIntervals = { "new": 0, "learning": 1, "familiar": 3, "mastered": 7 };
+
+  function getDueScore(bm) {
+    var now = Date.now();
+    if (!bm.lastReviewedAt) return -Infinity; // never reviewed = most urgent
+    var interval = (comfortIntervals[bm.comfort] || 0) * 86400000; // days to ms
+    var reviewedAt = new Date(bm.lastReviewedAt).getTime();
+    var dueAt = reviewedAt + interval;
+    return dueAt - now; // negative = overdue (more negative = more urgent)
+  }
+
   function entryCardHTML(entry) {
     var defs = "";
     if (entry.definitions_english && entry.definitions_english.length > 0) {
@@ -1718,19 +1730,6 @@
       return true;
     });
 
-    // SM-2 spaced repetition: calculate due date based on comfort and last review
-    // Intervals: new=0, learning=1day, familiar=3days, mastered=7days
-    var comfortIntervals = { "new": 0, "learning": 1, "familiar": 3, "mastered": 7 };
-    var now = Date.now();
-
-    function getDueScore(bm) {
-      if (!bm.lastReviewedAt) return -Infinity; // never reviewed = most urgent
-      var interval = (comfortIntervals[bm.comfort] || 0) * 86400000; // days to ms
-      var reviewedAt = new Date(bm.lastReviewedAt).getTime();
-      var dueAt = reviewedAt + interval;
-      return dueAt - now; // negative = overdue (more negative = more urgent)
-    }
-
     deck.sort(function (a, b) {
       return getDueScore(a) - getDueScore(b);
     });
@@ -1883,18 +1882,46 @@
     document.title = "Home \u2014 Onanti";
 
     if (!currentUser) {
-      app.innerHTML =
-        '<h1 class="font-display text-5xl text-ink mb-6 tracking-tight font-light">Home</h1>' +
-        '<p class="text-ink-muted">Sign in to save bookmarks.</p>';
+      app.innerHTML = '<p class="text-ink-muted mt-8">Sign in to save bookmarks and start reviewing.</p>';
       return;
     }
 
-    var html = '<h1 class="font-display text-5xl text-ink mb-2 tracking-tight font-light">Home</h1>';
-    html += '<p class="text-ink-muted text-lg font-light mb-6">Your saved words, phrases, and stanzas</p>';
-    html += '<div class="mb-10"><a href="#/review" class="review-start-btn">Review Cards</a></div>';
+    var dueCount = userBookmarks.filter(function (bm) { return getDueScore(bm) <= 0; }).length;
+    var html = '';
 
+    // Due banner
+    if (dueCount > 0) {
+      html += '<div class="dashboard-due-banner" id="dashboard-due-banner">' +
+        '<span class="dashboard-due-number" id="dashboard-due-number">' + dueCount + '</span>' +
+        '<span class="dashboard-due-label">' + (dueCount === 1 ? 'card' : 'cards') + ' due for review' +
+        '<span class="dashboard-due-sublabel">' + userBookmarks.length + ' total saved</span></span>' +
+        '<a href="#/review" class="review-start-btn" style="margin-left:auto">Start Review</a>' +
+        '</div>';
+    } else if (userBookmarks.length > 0) {
+      var nextDue = Infinity;
+      userBookmarks.forEach(function (bm) {
+        var score = getDueScore(bm);
+        if (score > 0 && score < nextDue) nextDue = score;
+      });
+      var nextText = '';
+      if (nextDue < Infinity) {
+        var hours = Math.ceil(nextDue / 3600000);
+        if (hours < 24) nextText = 'Next review in ' + hours + (hours === 1 ? ' hour' : ' hours');
+        else nextText = 'Next review in ' + Math.ceil(hours / 24) + (Math.ceil(hours / 24) === 1 ? ' day' : ' days');
+      }
+      html += '<div class="dashboard-caught-up" id="dashboard-due-banner">' +
+        '<span style="font-size:1.1rem">All caught up!</span>' +
+        (nextText ? '<span class="dashboard-due-sublabel" style="display:block;margin-top:0.25rem;font-size:0.85rem;color:var(--color-ink-muted)">' + nextText + '</span>' : '') +
+        '<span style="display:block;margin-top:0.25rem;font-size:0.8rem;color:var(--color-ink-muted)">' + userBookmarks.length + ' total saved</span>' +
+        '</div>';
+    }
+
+    // Empty state
     if (userBookmarks.length === 0) {
-      html += '<p class="text-ink-muted">No bookmarks yet. Use the bookmark icon on entries, phrases, or stanzas to save them here.</p>';
+      html += '<div class="dashboard-caught-up">' +
+        '<p style="font-size:1.1rem;margin-bottom:0.5rem">No bookmarks yet</p>' +
+        '<p style="font-size:0.9rem;color:var(--color-ink-muted)">Use the bookmark icon on words, phrases, or stanzas to save them for review.</p>' +
+        '</div>';
       app.innerHTML = html;
       return;
     }
@@ -1904,66 +1931,165 @@
     var phrases = userBookmarks.filter(function (b) { return b.type === "phrase"; });
     var stanzas = userBookmarks.filter(function (b) { return b.type === "stanza"; });
 
-    if (words.length > 0) {
-      html += '<div class="mb-10">';
-      html += '<h2 class="section-label mb-4">Words (' + words.length + ')</h2>';
-      html += '<div class="entries-container">';
-      words.forEach(function (bm) {
-        var entry = ENTRIES.find(function (e) { return e.id === bm.entryId; });
-        if (entry) {
-          html += '<a href="#/entry/' + entry.id + '" class="entry-link bookmark-item">' +
-            '<span class="font-display text-xl text-ink">' + esc(entry.headword) + '</span>';
-          if (entry.definitions_english && entry.definitions_english.length > 0) {
-            html += '<span class="text-ink-light text-sm ml-3">' + esc(entry.definitions_english[0]) + '</span>';
-          }
+    // Stanzas section
+    if (stanzas.length > 0) {
+      html += '<div class="dashboard-section" id="dashboard-section-stanzas">';
+      html += '<h2 class="section-label mb-4" id="dashboard-count-stanzas">Stanzas (' + stanzas.length + ')</h2>';
+      stanzas.forEach(function (bm) {
+        var icaro = ICAROS.find(function (ic) { return String(ic.id) === bm.icaroId; });
+        if (icaro && icaro.song && icaro.song.sections && icaro.song.sections[bm.stanzaIdx]) {
+          var section = icaro.song.sections[bm.stanzaIdx];
+          var isDue = getDueScore(bm) <= 0;
+          html += '<div class="dashboard-card" data-dashboard-bm-id="' + bm.id + '">';
+          html += '<div class="dashboard-card-header">';
+          html += '<span class="dashboard-card-title"><a href="#/icaro/' + icaro.id + '">' + esc(icaro.title) + '</a> \u2014 Stanza ' + (bm.stanzaIdx + 1) + '</span>';
+          html += '<div class="dashboard-card-actions">';
+          if (isDue) html += '<span class="dashboard-due-badge">due</span>';
           html += '<span class="badge bookmark-comfort-badge">' + esc(bm.comfort) + '</span>';
-          html += '</a>';
+          html += '<button class="dashboard-unbookmark" data-bm-id="' + bm.id + '" title="Remove bookmark">' +
+            '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></button>';
+          html += '</div></div>';
+          html += '<div class="dashboard-stanza-lines">';
+          section.lines.forEach(function (line) {
+            html += '<div class="dashboard-stanza-line">' + esc(line.text) + '</div>';
+          });
+          html += '</div></div>';
         }
       });
-      html += '</div></div>';
+      html += '</div>';
     }
 
+    // Phrases section
     if (phrases.length > 0) {
-      html += '<div class="mb-10">';
-      html += '<h2 class="section-label mb-4">Phrases (' + phrases.length + ')</h2>';
+      html += '<div class="dashboard-section" id="dashboard-section-phrases">';
+      html += '<h2 class="section-label mb-4" id="dashboard-count-phrases">Phrases (' + phrases.length + ')</h2>';
       html += '<div class="entries-container">';
       phrases.forEach(function (bm) {
         var icaro = ICAROS.find(function (ic) { return String(ic.id) === bm.icaroId; });
         var phrase = icaro && icaro.phrases ? icaro.phrases[bm.phraseIdx] : null;
         if (phrase && icaro) {
-          html += '<a href="#/icaro/' + icaro.id + '" class="entry-link bookmark-item">' +
-            '<span class="font-display text-lg text-ink">' + esc(phrase.shipibo) + '</span>';
+          var isDue = getDueScore(bm) <= 0;
+          html += '<div class="dashboard-item" data-dashboard-bm-id="' + bm.id + '">';
+          html += '<div class="dashboard-item-content">';
+          html += '<a href="#/icaro/' + icaro.id + '" class="font-display text-lg text-ink">' + esc(phrase.shipibo) + '</a>';
           if (phrase.literal_translation) {
-            html += '<span class="text-ink-light text-sm ml-3">' + esc(phrase.literal_translation) + '</span>';
+            html += '<span class="text-ink-light text-sm">' + esc(phrase.literal_translation) + '</span>';
           }
+          html += '</div>';
+          html += '<div class="dashboard-card-actions">';
+          if (isDue) html += '<span class="dashboard-due-badge">due</span>';
           html += '<span class="badge bookmark-comfort-badge">' + esc(bm.comfort) + '</span>';
-          html += '</a>';
+          html += '<button class="dashboard-unbookmark" data-bm-id="' + bm.id + '" title="Remove bookmark">' +
+            '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></button>';
+          html += '</div></div>';
         }
       });
       html += '</div></div>';
     }
 
-    if (stanzas.length > 0) {
-      html += '<div class="mb-10">';
-      html += '<h2 class="section-label mb-4">Stanzas (' + stanzas.length + ')</h2>';
+    // Words section
+    if (words.length > 0) {
+      html += '<div class="dashboard-section" id="dashboard-section-words">';
+      html += '<h2 class="section-label mb-4" id="dashboard-count-words">Words (' + words.length + ')</h2>';
       html += '<div class="entries-container">';
-      stanzas.forEach(function (bm) {
-        var icaro = ICAROS.find(function (ic) { return String(ic.id) === bm.icaroId; });
-        if (icaro && icaro.song && icaro.song.sections && icaro.song.sections[bm.stanzaIdx]) {
-          var section = icaro.song.sections[bm.stanzaIdx];
-          var firstLine = section.lines[0] ? section.lines[0].text : "";
-          html += '<a href="#/icaro/' + icaro.id + '" class="entry-link bookmark-item">' +
-            '<span class="text-ink-muted text-xs">' + esc(icaro.title) + ' \u2014 Stanza ' + (bm.stanzaIdx + 1) + '</span>' +
-            '<span class="font-display text-lg text-ink">' + esc(firstLine) + '\u2026</span>' +
-            '<span class="badge bookmark-comfort-badge">' + esc(bm.comfort) + '</span>' +
-            '</a>';
+      words.forEach(function (bm) {
+        var entry = ENTRIES.find(function (e) { return e.id === bm.entryId; });
+        if (entry) {
+          var isDue = getDueScore(bm) <= 0;
+          html += '<div class="dashboard-item" data-dashboard-bm-id="' + bm.id + '">';
+          html += '<div class="dashboard-item-content">';
+          html += '<a href="#/entry/' + entry.id + '" class="font-display text-xl text-ink">' + esc(entry.headword) + '</a>';
+          if (entry.definitions_english && entry.definitions_english.length > 0) {
+            html += '<span class="text-ink-light text-sm">' + esc(entry.definitions_english[0]) + '</span>';
+          }
+          html += '</div>';
+          html += '<div class="dashboard-card-actions">';
+          if (isDue) html += '<span class="dashboard-due-badge">due</span>';
+          html += '<span class="badge bookmark-comfort-badge">' + esc(bm.comfort) + '</span>';
+          html += '<button class="dashboard-unbookmark" data-bm-id="' + bm.id + '" title="Remove bookmark">' +
+            '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></button>';
+          html += '</div></div>';
         }
       });
       html += '</div></div>';
     }
 
     app.innerHTML = html;
+    wireDashboardUnbookmarkButtons();
     window.scrollTo(0, 0);
+  }
+
+  function wireDashboardUnbookmarkButtons() {
+    var buttons = document.querySelectorAll('.dashboard-unbookmark');
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var bmId = btn.getAttribute('data-bm-id');
+        btn.disabled = true;
+        var el = document.querySelector('[data-dashboard-bm-id="' + bmId + '"]');
+        if (el) {
+          el.style.maxHeight = el.offsetHeight + 'px';
+          el.offsetHeight; // force reflow
+          el.style.opacity = '0';
+          el.style.maxHeight = '0';
+          el.style.padding = '0';
+          el.style.marginBottom = '0';
+          el.style.borderWidth = '0';
+        }
+        removeBookmark(bmId).then(function () {
+          setTimeout(function () {
+            if (el) el.remove();
+            updateDashboardCounts();
+          }, 300);
+        });
+      });
+    });
+  }
+
+  function updateDashboardCounts() {
+    var dueCount = userBookmarks.filter(function (bm) { return getDueScore(bm) <= 0; }).length;
+    var banner = document.getElementById('dashboard-due-banner');
+    if (banner) {
+      if (userBookmarks.length === 0) {
+        banner.remove();
+      } else if (dueCount > 0) {
+        var numEl = document.getElementById('dashboard-due-number');
+        if (numEl) numEl.textContent = dueCount;
+      } else {
+        var nextDue = Infinity;
+        userBookmarks.forEach(function (bm) {
+          var score = getDueScore(bm);
+          if (score > 0 && score < nextDue) nextDue = score;
+        });
+        var nextText = '';
+        if (nextDue < Infinity) {
+          var hours = Math.ceil(nextDue / 3600000);
+          if (hours < 24) nextText = 'Next review in ' + hours + (hours === 1 ? ' hour' : ' hours');
+          else nextText = 'Next review in ' + Math.ceil(hours / 24) + (Math.ceil(hours / 24) === 1 ? ' day' : ' days');
+        }
+        banner.className = 'dashboard-caught-up';
+        banner.innerHTML = '<span style="font-size:1.1rem">All caught up!</span>' +
+          (nextText ? '<span style="display:block;margin-top:0.25rem;font-size:0.85rem;color:var(--color-ink-muted)">' + nextText + '</span>' : '') +
+          '<span style="display:block;margin-top:0.25rem;font-size:0.8rem;color:var(--color-ink-muted)">' + userBookmarks.length + ' total saved</span>';
+      }
+    }
+
+    ['stanzas', 'phrases', 'words'].forEach(function (type) {
+      var section = document.getElementById('dashboard-section-' + type);
+      if (!section) return;
+      var items = section.querySelectorAll('[data-dashboard-bm-id]');
+      if (items.length === 0) {
+        section.remove();
+      } else {
+        var countEl = document.getElementById('dashboard-count-' + type);
+        if (countEl) countEl.textContent = type.charAt(0).toUpperCase() + type.slice(1) + ' (' + items.length + ')';
+      }
+    });
+
+    if (userBookmarks.length === 0) {
+      renderBookmarks();
+    }
   }
 
   // --- Contributions ---
